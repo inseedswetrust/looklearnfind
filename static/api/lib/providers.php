@@ -115,6 +115,7 @@ function fetch_video_metadata($provider, $id, $canonical) {
             } elseif (in_array($r['code'], [400, 404], true)) $avail = false;
         }
     }
+    foreach (['thumb_url', 'creator_url'] as $k) if (isset($f[$k]) && !preg_match('#^https://#i', $f[$k])) unset($f[$k]);   // never store javascript:/data: URLs
     foreach ($f as $k => $v) if ($v === '' || $v === null) unset($f[$k]);
     return ['fields' => $f, 'available' => $avail];
 }

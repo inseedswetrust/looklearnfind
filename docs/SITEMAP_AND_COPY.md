@@ -1,4 +1,6 @@
-# LookLearnFind — sitemap and copy notes (draft for review)
+# LookLearnFind — sitemap and copy notes
+
+> **Status (built):** the Ledger moved out of Find to its own section at `/look/` (Look is in the main nav). Everything in the sitemap below is built, including the live Ledger (`/look/`, `/look/add/`, `/look/L-042/`, `/account/`, `/u/{handle}/`, `/admin/`), thread pages (`/threads/`), search and contribute. Notes about a "static phase" below are superseded: the backend was built at the same time. See `NEXUS.md` for the thread model and `DEPLOY.md` for install.
 
 Static-first. "Phase 1" pages are plain HTML from shared templates. "Later" pages need the backend (accounts, database, moderation) and launch as static prototypes or "coming soon" shells with sample data labeled illustrative.
 
@@ -19,8 +21,8 @@ Static-first. "Phase 1" pages are plain HTML from shared templates. "Later" page
 /learn/                           Story index (all deep dives)          Phase 1
 /learn/{story-slug}/              Story Reader, footnotes, Open file    Phase 1 (template + 1 sample)
 /find/                            Find hub                              Phase 1
-/find/ledger/                     Find Ledger (video index)             Phase 1 static prototype → Later live
-/find/ledger/{L-042}/             Single Ledger entry + notes           Later
+/look/                            Look Ledger (video index)             Built (live)
+/look/L-042/                      Single Ledger entry + notes           Built (live)
 /find/people/                     People worth visiting/following       Phase 1 shell
 /find/businesses/                 Businesses                            Phase 1 shell
 /find/guides/                     Guides                                Phase 1 shell
@@ -32,8 +34,8 @@ Static-first. "Phase 1" pages are plain HTML from shared templates. "Later" page
 /about/standards/                 How we source, correct, disclose      Phase 1
 /about/corrections/               Corrections and updates log           Phase 1
 /contribute/                      Send a question, source, or clip      Phase 1 (form)
-/ledger/add/                      Add a post flow                       Later
-/account/ · /me/ · /u/{handle}/   Sign in, My Ledger, public profiles   Later
+/look/add/                        Add a post flow                       Built (live)
+/account/ · /u/{handle}/          Sign in, settings, public profiles    Built (live)
 /privacy/ · /terms/ · /contact/   Legal and contact                     Phase 1
 /404 · /sitemap.xml · /robots.txt                                       Phase 1
 ```

@@ -1,6 +1,6 @@
 # The nexus: how Look, Learn, and Find connect (draft)
 
-Status: proposal for review. Phase 1 builds the static bones (data layer, thread pages, slots). Phase 2 wires the Look Ledger into it. Until then Ledger-dependent components render as "Coming soon".
+Status: **built** (phases 1 and 2 together). Decisions made: the third tier is called **Thread**; the Ledger lives at `/look/`; Learn stories show a Find module and `FIND 01` margin markers; only editors approve threads, any signed-in member can propose one. Thread pages keep the Look, Learn and Find shelves separate.
 
 ## The problem
 

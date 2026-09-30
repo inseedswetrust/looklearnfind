@@ -236,6 +236,8 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
     canonical = CFG["url"] + path
     full_title = title if "LookLearnFind" in title else f"{title} | LookLearnFind"
     og_img = CFG["url"] + (og or "/img/og-default.jpg")
+    if "shelf" in js and "ledger" not in css:
+        css = tuple(css) + ("ledger",)
     links = "".join(f'<link rel="stylesheet" href="/css/{c}.css?v={CFG["updated"]}">' for c in ("site",) + tuple(css))
     scripts = "".join(f'<script src="/js/{j}.js?v={CFG["updated"]}" defer></script>' for j in ("site",) + tuple(js))
     robots = '<meta name="robots" content="noindex">' if noindex else ""
@@ -387,7 +389,7 @@ def render_story(s):
         "@context": "https://schema.org", "@type": "Article", "headline": s["title"], "description": s.get("dek", ""),
         "datePublished": s.get("date", ""), "dateModified": s.get("updated", s.get("date", "")),
         "author": {"@type": "Organization", "name": s.get("author", "LookLearnFind")}}) + "</script>") if s.get("illustrative") != "yes" else ""
-    shell(s["title"], s.get("dek", ""), s["path"], html, nav=s.get("category", ""), js=("shelf",), illustrative=s.get("illustrative") == "yes",
+    shell(s["title"], s.get("dek", ""), s["path"], html, nav=s.get("category", ""), js=("common", "shelf"), illustrative=s.get("illustrative") == "yes",
           og=None, jsonld=jsonld)
 
 
@@ -429,7 +431,7 @@ def render_find(f):
 <div class="wrap">{hero_html}</div>
 <div class="wrap" style="max-width:820px;padding-bottom:70px">{"".join(secs)}{disc}{cf_html}
 <p class="small" style="margin-top:26px">Being listed here is a judgment with stated criteria, not a guarantee. <a href="/about/standards/">How we choose</a>.</p></div></article>{look}{contribute_band("Tried it? Tell us what held up.")}'''
-    shell(f["title"], f.get("dek", ""), f["path"], html, nav="find", js=("shelf",), illustrative=f.get("illustrative") == "yes")
+    shell(f["title"], f.get("dek", ""), f["path"], html, nav="find", js=("common", "shelf"), illustrative=f.get("illustrative") == "yes")
 
 
 # ---------------------------------------------------------------- generated pages
@@ -457,7 +459,7 @@ def gen_threads():
         body += '</div><div style="height:34px"></div>'
     body += '<div id="more-threads" data-more-threads></div></div></section>'
     body += contribute_band("Propose a thread. Bring a source.")
-    shell("Threads", "Follow a subject across short videos, reported stories, and real-world Finds.", "/threads/", body, nav="topics", js=("threads",))
+    shell("Threads", "Follow a subject across short videos, reported stories, and real-world Finds.", "/threads/", body, nav="topics", js=("common", "threads"))
 
     for t in THREADS:
         ss, ff = by_thread(t["slug"])
@@ -473,7 +475,7 @@ def gen_threads():
         shelves = (look_shelf({"thread": t["slug"]}, "What people are saving", "Look",
                               "Reader-added and editor-added labels say who selected each clip.")
                    + learn_shelf(ss, "What the record shows", t["title"]) + find_shelf(ff))
-        shell(f'{t["title"]} — a thread', t["summary"], f'/threads/{t["slug"]}/', head + shelves + contribute_band(), nav="topics", js=("shelf",))
+        shell(f'{t["title"]} — a thread', t["summary"], f'/threads/{t["slug"]}/', head + shelves + contribute_band(), nav="topics", js=("common", "shelf"))
 
 
 def gen_topics():
@@ -495,7 +497,7 @@ def gen_topics():
                          crumbs=[("Home", "/"), ("Topics", "/topics/"), (t["label"], None)], extra=thr)
         body = (head + learn_shelf(ss, "What the record shows", t["label"].lower()) + find_shelf(ff, "Where to try it")
                 + look_shelf({"topic": t["slug"]}, "What people are saving") + contribute_band())
-        shell(t["label"], t["q"], f'/topics/{t["slug"]}/', body, nav="topics", js=("shelf",))
+        shell(t["label"], t["q"], f'/topics/{t["slug"]}/', body, nav="topics", js=("common", "shelf"))
 
 
 def gen_categories():
@@ -508,7 +510,7 @@ def gen_categories():
         head = page_head(f'{c["num"]} / {e(c["label"])}', e(c["headline"]), e(c["dek"]), crumbs=[("Home", "/"), (c["label"], None)], extra=f'<div style="margin-top:26px">{chips}</div>')
         body = (head + learn_shelf(ss, f'Worth a closer look in {c["label"]}', c["label"].lower()) + find_shelf(ff, "Real-world Finds")
                 + look_shelf({"category": c["slug"]}, "What people are saving") + contribute_band())
-        shell(c["label"], c["dek"], f'/{c["slug"]}/', body, nav=c["slug"], js=("shelf",))
+        shell(c["label"], c["dek"], f'/{c["slug"]}/', body, nav=c["slug"], js=("common", "shelf"))
 
 
 def gen_learn_latest_find():
@@ -521,7 +523,7 @@ def gen_learn_latest_find():
     body = page_head("Latest", "Worth a <em>closer look.</em>", "The newest stories and Finds. Short videos live in the Look Ledger, in newest-added order.", crumbs=[("Home", "/"), ("Latest", None)])
     body += '<section class="band cream" style="padding-top:20px"><div class="wrap">' + cards(items) + '</div></section>'
     body += look_shelf({"sort": "added", "limit": "4"}, "Newest in the Ledger", "Look")
-    shell("Latest", "The newest stories, Finds, and saved videos.", "/latest/", body, nav="latest", js=("shelf",))
+    shell("Latest", "The newest stories, Finds, and saved videos.", "/latest/", body, nav="latest", js=("common", "shelf"))
 
     # find hub
     head = page_head("Find", "Find what <em>holds up.</em>", "People, places, products, and practical paths. Each result shows why it is here and where the information came from.", crumbs=[("Home", "/"), ("Find", None)])
@@ -542,7 +544,8 @@ def gen_home():
     def T(href, img, eyebrow, title, p="", cls=""):
         st = f' style="background-image:url({IMG[img]})"' if img else ""
         pp = f"<p>{e(p)}</p>" if p else ""
-        return f'<a class="tile {cls}" href="{href}"{st}><div class="eyebrow">{e(eyebrow)}</div><h3>{e(title)}</h3>{pp}</a>'
+        big = f'<div class="big" aria-hidden="true">{e(eyebrow[:2])}</div>' if "type" in cls.split() else ""
+        return f'<a class="tile {cls}" href="{href}"{st}>{big}<div class="eyebrow">{e(eyebrow)}</div><h3>{e(title)}</h3>{pp}</a>'
 
     def head(c, side_link, side_text=None):
         return (f'<div class="chapter-head"><div><div class="kicker">{c["num"]} / {e(c["label"]).upper()}<i></i></div><h2 class="display" style="font-size:clamp(42px,6vw,76px)">{e(c["headline"])}</h2></div>'
@@ -570,7 +573,7 @@ def gen_home():
 
 <section class="band warm" id="economy"><div class="wrap">{head(C["economy"], ("/economy/", "Explore economy"))}
 <div class="tiles t3">{T("/topics/businesses/", "economy-shop", "01 / Small business", "Who builds it, who owns it, who benefits?", "The choices and pressures behind a local counter.", "tall")}
-{T("/threads/grocery-prices/", "economy-shop", "02 / Prices", "What a price actually tells you.", "", "tall")}
+{T("/threads/grocery-prices/", "", "02 / Prices", "What a price actually tells you.", "", "tall type")}
 {T("/topics/money/", "", "03 / Work", "The people behind the product.", "", "tall type")}</div>
 <div class="rail"><span>Business decisions are also questions about ownership, labor, value, and where your money goes.</span><a class="link" href="/topics/businesses/">Business and money topics ↗</a></div></div></section>
 
@@ -605,7 +608,7 @@ def gen_home():
 <a class="link" href="/about/">About us ↗</a></div>
 <div class="open-panel"><h4>A story, opened up</h4><div class="r"><b>LOOK</b><span>What is the real question?</span></div><div class="r"><b>LEARN</b><span>What do the sources show? What might we be missing?</span></div><div class="r"><b>FIND</b><span>What is worth exploring next?</span></div><div class="src">Source 01 — Original material ↗</div></div></div></section>'''
     shell("LookLearnFind — where signal meets source", "Short posts to catch your eye, reported deep dives with receipts, and real-world finds worth a visit. Curiosity should lead somewhere.",
-          "/", body, nav="", js=("shelf",), bodyclass="home")
+          "/", body, nav="", js=("common", "shelf"), bodyclass="home")
 
 
 def gen_search_shell():
@@ -623,16 +626,16 @@ def gen_look_shells():
     app = '''<div id="ledger-app"><noscript><div class="wrap wide"><p class="notice">The Ledger needs JavaScript to filter and save. You can still <a href="/threads/">browse threads</a>.</p></div></noscript></div>
 <section class="lfoot"><div class="wrap wide"><div><h2>Good finds have a way of traveling.</h2><p>Keep your own Ledger. Follow the people who see what you might have missed.</p></div><a data-start-ledger href="/account/?mode=signup">Start your Ledger ↗</a></div></section>'''
     shell("The Look Ledger — a feed you can steer", "A searchable, human-curated index of short videos. Filter by subject, follow people whose eye you trust, and open the original.",
-          "/look/", hero + app, nav="look", css=("ledger",), js=("ledger",), bodyclass="ledger-page")
+          "/look/", hero + app, nav="look", css=("ledger",), js=("common", "ledger"), bodyclass="ledger-page")
     shell("Add a post", "Put one in the Ledger. Paste the link, tell us what made you stop.", "/look/add/",
-          '<div id="add-app" class="wrap" style="padding-top:54px;padding-bottom:70px"></div>', nav="look", css=("ledger",), js=("add",), noindex=True, sitemap=False)
+          '<div id="add-app" class="wrap" style="padding-top:54px;padding-bottom:70px"></div>', nav="look", css=("ledger",), js=("common", "add"), noindex=True, sitemap=False)
     shell("Ledger entry", "A saved short video in the Look Ledger.", "/look/entry/",
-          '<div id="entry-app" class="wrap wide" style="padding-top:40px;padding-bottom:70px"></div>', nav="look", css=("ledger",), js=("entry",), sitemap=False)
+          '<div id="entry-app" class="wrap wide" style="padding-top:40px;padding-bottom:70px"></div>', nav="look", css=("ledger",), js=("common", "entry"), sitemap=False)
     shell("Account", "Sign in or create a profile to save videos and follow other people's finds.", "/account/",
-          '<div id="account-app" class="wrap" style="padding-top:54px;padding-bottom:70px"></div>', nav="look", css=("ledger",), js=("account",), noindex=True, sitemap=False)
-    shell("Profile", "A public Ledger profile.", "/u/", '<div id="profile-app" class="wrap wide" style="padding-top:40px;padding-bottom:70px"></div>', nav="look", css=("ledger",), js=("profile",), sitemap=False)
-    shell("Editors", "Ledger review queue.", "/admin/", '<div id="admin-app" class="wrap wide" style="padding-top:40px;padding-bottom:70px"></div>', nav="", css=("ledger",), js=("admin",), noindex=True, sitemap=False)
-    shell("Thread", "A thread on LookLearnFind.", "/threads/t/", '<div id="thread-app"></div>', nav="topics", css=("ledger",), js=("threadpage", "shelf"), noindex=True, sitemap=False)
+          '<div id="account-app" class="wrap" style="padding-top:54px;padding-bottom:70px"></div>', nav="look", css=("ledger",), js=("common", "account"), noindex=True, sitemap=False)
+    shell("Profile", "A public Ledger profile.", "/u/", '<div id="profile-app" class="wrap wide" style="padding-top:40px;padding-bottom:70px"></div>', nav="look", css=("ledger",), js=("common", "profile"), sitemap=False)
+    shell("Editors", "Ledger review queue.", "/admin/", '<div id="admin-app" class="wrap wide" style="padding-top:40px;padding-bottom:70px"></div>', nav="", css=("ledger",), js=("common", "admin"), noindex=True, sitemap=False)
+    shell("Thread", "A thread on LookLearnFind.", "/threads/t/", '<div id="thread-app"></div>', nav="topics", css=("ledger",), js=("common", "threadpage", "shelf"), noindex=True, sitemap=False)
 
 
 def gen_pages():
@@ -698,7 +701,7 @@ def main():
             zpath.unlink()
         with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
             for f in sorted(OUT.rglob("*")):
-                if f.is_file() and "_data" not in f.parts and not f.name.endswith(".sqlite"):
+                if f.is_file() and not (f.suffix in (".sqlite", ".jsonl") or f.name in ("config.php",) or "-wal" in f.name or "-shm" in f.name):
                     z.write(f, f.relative_to(OUT).as_posix())
         print(f"Wrote {zpath} ({zpath.stat().st_size / 1024:.0f} KB)")
 

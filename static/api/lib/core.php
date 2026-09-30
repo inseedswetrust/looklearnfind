@@ -26,6 +26,7 @@ function data_dir() {
     }
     $fb = __DIR__ . '/../_data';                // fallback inside api/, denied by .htaccess
     @mkdir($fb, 0700, true);
+    if (!is_file($fb . '/.htaccess')) @file_put_contents($fb . '/.htaccess', "Require all denied\n");
     return $d = $fb;
 }
 

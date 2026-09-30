@@ -196,7 +196,7 @@ a.chip:hover{border-color:var(--teal);color:var(--teal)}
 .byline{font:12px/1.6 var(--sans);color:var(--muted);margin-top:22px;border-top:1px solid var(--rule);padding-top:14px;display:flex;gap:26px;flex-wrap:wrap}
 .byline b{color:var(--ink)}
 .story-hero{aspect-ratio:21/9;background:#d9d4c8 center/cover no-repeat;margin:12px 0 0}
-.story{display:grid;grid-template-columns:minmax(0,680px) 260px;gap:70px;justify-content:center;padding:40px 28px 70px;max-width:1160px;margin:0 auto}
+.story{display:grid;grid-template-columns:minmax(0,680px) 260px;gap:70px;justify-content:start;padding:40px 28px 70px;max-width:1160px;margin:0 auto}
 .story-body{font-size:20px;line-height:1.62}
 .story-body p{margin:0 0 1.15em}
 .story-body h2{font-size:32px;line-height:1.1;letter-spacing:-.03em;margin:1.6em 0 .55em}
@@ -306,3 +306,6 @@ textarea.input{min-height:96px;resize:vertical}
 .modal .x{position:absolute;right:12px;top:8px;background:none;border:0;font-size:26px;line-height:1}
 .modal h2{font-size:32px;letter-spacing:-.03em;margin-bottom:10px}
 .toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#1d1d1d;color:#fff;padding:12px 18px;font:13px var(--sans);z-index:80;max-width:90vw}
+
+.chapter-head .display{max-width:6.4em}
+.tile.type .big{font-size:96px}
