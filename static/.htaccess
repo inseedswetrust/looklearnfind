@@ -12,9 +12,9 @@ ErrorDocument 404 /404.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # HTTPS + canonical host (enable once SSL is on)
-  # RewriteCond %{HTTPS} off
-  # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  # Force HTTPS. Run AutoSSL in cPanel first (see docs/DEPLOY.md), or delete these two lines.
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
   # never serve data or library code
   RewriteRule ^api/(lib|_data|tools)(/|$) - [F,L]
