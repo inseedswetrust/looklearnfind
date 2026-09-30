@@ -262,7 +262,7 @@
                 '<details class="report"><summary>Report a problem with this entry</summary><form data-report><select name="reason"><option value="broken_link">Broken link</option><option value="wrong_attribution">Wrong attribution</option><option value="spam">Spam</option><option value="needs_context">Needs context</option><option value="other">Other</option></select><input name="detail" placeholder="Details (optional)" maxlength="300"><button class="btn sm" type="submit">Send report</button></form></details></div>';
               ex.querySelector('[data-report]').onsubmit = function (ev) {
                 ev.preventDefault(); var f = ev.target;
-                LLF.api('report', {body: {video_id: vid, reason: f.reason.value, detail: f.detail.value}}).then(function () { LLF.toast('Thanks. An editor will take a look.'); f.closest('details').open = false; }).catch(function (er) { LLF.toast(er.message); });
+                LLF.api('report', {body: {video_id: vid, reason: f.reason.value, detail: f.detail.value}}).then(function () { LLF.toast('Report received. We will review the entry and its source link.'); f.closest('details').open = false; }).catch(function (er) { LLF.toast(er.message); });
               };
             }).catch(function (er) { ex.innerHTML = '<div class="notes-panel">' + esc(er.message) + '</div>'; });
           }
@@ -270,7 +270,7 @@
       } else if (act === 'vis') {
         var to = b.dataset.to;
         function go(mp) { LLF.api('ledger/visibility', {body: {save_id: sid, to: to, make_profile_public: !!mp}}).then(function (j) { LLF.toast(to === 'public' ? (j.status === 'approved' ? 'Added to the public Ledger.' : 'Submitted. Your link will appear publicly after review; it is already saved for you.') : 'Now private.'); ctx.reload && ctx.reload(); })
-          .catch(function (er) { if (er.status === 409 && confirm('Public saves appear with your public profile. Turn it on?')) go(true); else if (er.status === 422 && item) LLF.editSave(item, ctx.reload); else LLF.toast(er.message); }); }
+          .catch(function (er) { if (er.status === 409 && confirm('Your handle, display name, and approved public saves will be visible to others. Private saves stay private. Continue?')) go(true); else if (er.status === 422 && item) LLF.editSave(item, ctx.reload); else LLF.toast(er.message); }); }
         go(false);
       } else if (act === 'del') {
         if (confirm('Delete this save? This removes your note too.')) LLF.api('ledger/delete', {body: {save_id: sid}}).then(function () { LLF.toast('Deleted.'); ctx.reload && ctx.reload(); });

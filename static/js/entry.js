@@ -25,12 +25,12 @@
       '<div class="notes-panel" style="margin-top:26px"><div class="by-label" style="margin-bottom:8px">Notes from people who saved this</div>' + notes.map(function (n) {
         return '<div class="n"><div class="who">' + esc(n.label) + ' · ' + (n.saver.profile_public ? '<a href="/u/' + esc(n.saver.handle) + '/">' + esc(n.saver.display_name) + '</a>' : esc(n.saver.display_name)) + ' · ' + esc(LLF.fdate(n.added_at)) + '</div><p>“' + esc(n.note) + '”</p></div>';
       }).join('') + (v.caption ? '<div class="cap"><b>Caption from ' + esc(v.platform) + ':</b> ' + esc(v.caption) + '</div>' : '') +
-      '<div class="cap">A saved note is one person’s reason for keeping a link. It is not a fact-check. <a href="/about/standards/">How we label things</a>.</div>' +
+      '<div class="cap">A saved note is one person’s reason for keeping a link. It is not a fact-check. <a href="/about/how-we-work/">How we label things</a>.</div>' +
       '<details class="report"><summary>Report a problem with this entry</summary><form data-report><select name="reason"><option value="broken_link">Broken link</option><option value="wrong_attribution">Wrong attribution</option><option value="spam">Spam</option><option value="needs_context">Needs context</option><option value="other">Other</option></select><input name="detail" placeholder="Details (optional)" maxlength="300"><button class="btn sm" type="submit">Send report</button></form></details></div>' +
       '</div></div></div>';
     app.querySelector('[data-report]').onsubmit = function (e) {
       e.preventDefault(); var f = e.target;
-      LLF.api('report', {body: {video_id: v.id, reason: f.reason.value, detail: f.detail.value}}).then(function () { LLF.toast('Thanks. An editor will take a look.'); }).catch(function (er) { LLF.toast(er.message); });
+      LLF.api('report', {body: {video_id: v.id, reason: f.reason.value, detail: f.detail.value}}).then(function () { LLF.toast('Report received. We will review the entry and its source link.'); }).catch(function (er) { LLF.toast(er.message); });
     };
   }
   LLF.me().then(function () { return LLF.api('ledger/entry?ref=' + encodeURIComponent(ref)); }).then(function (it) {

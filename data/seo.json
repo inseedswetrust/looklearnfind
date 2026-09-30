@@ -1,0 +1,90 @@
+{
+ "/": {
+  "title": "LookLearnFind — Ideas Worth a Second Look",
+  "description": "Follow an idea from a short post to a sourced deep dive and a real-world find. Browse with curiosity and keep what matters."
+ },
+ "/politics": {
+  "title": "Politics — LookLearnFind",
+  "description": "Follow civic questions from a useful post to the public record. Explore offices, proposals, candidates, and local decisions."
+ },
+ "/economy": {
+  "title": "Economy — LookLearnFind",
+  "description": "Look closer at prices, work, businesses, and the choices behind them. Find context you can trace and ideas you can use."
+ },
+ "/society": {
+  "title": "Society — LookLearnFind",
+  "description": "Explore how people live together through public spaces, communities, conversations, and the records behind a story."
+ },
+ "/everyday-life": {
+  "title": "Everyday Life — LookLearnFind",
+  "description": "Useful ideas for making, cooking, moving, and caring for a life in progress, with details to examine and try."
+ },
+ "/topics": {
+  "title": "Topics — LookLearnFind",
+  "description": "Browse politics, candidates, businesses, home projects, cooking, care, money, and more. Start with the question that caught you."
+ },
+ "/latest": {
+  "title": "Latest — LookLearnFind",
+  "description": "The newest posts, deep dives, and finds across LookLearnFind. Follow what is fresh and open the source when you want more."
+ },
+ "/learn": {
+  "title": "Learn — Sourced Deep Dives",
+  "description": "Read reported explanations with numbered notes that lead to original material. Follow the question and check the record."
+ },
+ "/find": {
+  "title": "Find — Explore It in the World",
+  "description": "Find people, places, guides, products, and businesses connected to ideas worth trying or understanding firsthand."
+ },
+ "/find/candidates": {
+  "title": "Find Candidates — LookLearnFind",
+  "description": "Explore candidate profiles and civic resources with context and links back to the relevant records."
+ },
+ "/find/businesses": {
+  "title": "Find Businesses — LookLearnFind",
+  "description": "Meet the businesses behind an idea. Explore what they make, how they work, and what to ask before you visit or buy."
+ },
+ "/find/guides": {
+  "title": "Find Guides — LookLearnFind",
+  "description": "Practical guides that help you follow a question into a real project, comparison, or next step."
+ },
+ "/find/products": {
+  "title": "Find Products — LookLearnFind",
+  "description": "Compare products in context, with useful details and clear disclosure of any commercial relationship."
+ },
+ "/find/places": {
+  "title": "Find Places — LookLearnFind",
+  "description": "Places where ideas become experiences: spaces to visit, learn, make, meet, and look closer."
+ },
+ "/look": {
+  "title": "Look — Posts Worth a Second Look",
+  "description": "Short posts that preview a question worth following. Open the original, save a useful lead, and go deeper when you are ready."
+ },
+ "/search": {
+  "title": "Search LookLearnFind",
+  "description": "Search posts, stories, topics, and finds. Use filters to follow an idea across formats."
+ },
+ "/about": {
+  "title": "About LookLearnFind",
+  "description": "Why we built a place for the second look, how Look, Learn, and Find connect, and where to see how we work."
+ },
+ "/about/who-we-are": {
+  "title": "Who We Are — LookLearnFind",
+  "description": "Meet the people and structure behind LookLearnFind, with ownership, funding, and affiliations stated clearly."
+ },
+ "/about/how-we-work": {
+  "title": "How We Work — LookLearnFind",
+  "description": "How we select posts, build sourced stories, review public saves, and make the limits of a claim visible."
+ },
+ "/about/corrections": {
+  "title": "Corrections — LookLearnFind",
+  "description": "Report an error and see how we check, correct, and note changes to stories and Ledger entries."
+ },
+ "/contribute": {
+  "title": "Contribute — LookLearnFind",
+  "description": "Suggest a short post worth keeping, explain why it matters, and learn how public contributions are reviewed."
+ },
+ "/contact": {
+  "title": "Contact — LookLearnFind",
+  "description": "Send a question, correction, contribution inquiry, or note to the LookLearnFind team."
+ }
+}

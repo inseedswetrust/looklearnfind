@@ -49,7 +49,7 @@
       '<div class="field"><label>Kind of post</label><div class="radio-row">' + sd.kinds.map(function (k, i) { return '<label><input type="radio" name="kind" value="' + esc(k) + '"' + (i === 0 ? ' required' : '') + '><span>' + esc(k) + '</span></label>'; }).join('') + '</div></div>' +
       '<div class="field"><label for="a-note">Why was this worth keeping?</label><textarea class="input" id="a-note" name="note" maxlength="600" placeholder="One or two sentences. What made you stop?"></textarea></div>' +
       '<div class="field"><label>Thread (optional)</label><div data-tp></div></div>' +
-      '<div class="field"><label>Who sees it</label><div class="radio-row"><label><input type="radio" name="visibility" value="private" checked><span>Keep private</span></label><label><input type="radio" name="visibility" value="public"><span>Submit to public Ledger</span></label></div><div class="hint">Private saves are visible only to you. Public additions are reviewed first, and appear with your profile and note.</div></div>' +
+      '<div class="field"><label>Who sees it</label><div class="radio-row"><label><input type="radio" name="visibility" value="private" checked><span>Keep private</span></label><label><input type="radio" name="visibility" value="public"><span>Submit to public Ledger</span></label></div><div class="hint">Private saves are for you. Choose Public to suggest a save for your profile; editors review it before it appears.</div></div>' +
       '<div class="notice err" data-err hidden></div><button class="btn" type="submit">' + (mine ? 'Update my save' : 'Save') + '</button> <a class="btn ghost" href="/look/add/">Start over</a></form>');
     tp = LLF.threadPicker(app.querySelector('[data-tp]'), []);
     var f = app.querySelector('[data-f2]');
@@ -60,7 +60,7 @@
       var t = tp.get(); d.threads = t.threads; d.propose_threads = t.propose;
       function go() {
         LLF.api('ledger/save', {body: d}).then(function (j) { done(j, d.visibility); }).catch(function (er) {
-          if (er.status === 409 && er.message.indexOf('profile') >= 0) { if (confirm('Public saves appear with your public profile. Turn it on and submit?')) { d.make_profile_public = true; go(); } return; }
+          if (er.status === 409 && er.message.indexOf('profile') >= 0) { if (confirm('Your handle, display name, and approved public saves will be visible to others. Private saves stay private. Continue?')) { d.make_profile_public = true; go(); } return; }
           var x = f.querySelector('[data-err]'); x.hidden = false; x.textContent = er.message;
         });
       }

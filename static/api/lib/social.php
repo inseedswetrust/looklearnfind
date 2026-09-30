@@ -55,7 +55,7 @@ function auth_reset_request($b) {
         $base = cfg('site_url') ?: ((is_https() ? 'https://' : 'http://') . ($_SERVER['HTTP_HOST'] ?? 'looklearnfind.com'));
         $link = $base . '/account/?reset=' . $tok;
         $from = cfg('mail_from');
-        @mail($u['email'], 'Reset your LookLearnFind password', "Use this link within an hour to choose a new password:\n\n$link\n\nIf you did not ask for this, you can ignore it.", "From: LookLearnFind <$from>\r\n");
+        @mail($u['email'], 'Reset your LookLearnFind password', "We received a request to reset the password for this account. Use the link below within one hour to choose a new one:\n\n$link\n\nIf you did not request this, you can ignore this email.", "From: LookLearnFind <$from>\r\n");
         if (getenv('LLF_DEV')) return ['ok' => true, 'dev_link' => $link];
     }
     return ['ok' => true];   // same answer whether or not the account exists

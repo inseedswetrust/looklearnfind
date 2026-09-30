@@ -1,42 +1,267 @@
 [
-  {"slug": "tartaria", "title": "Tartaria", "aliases": ["tartarian architecture", "tartarian empire", "mud flood", "tartary"],
-   "category": "society", "topics": [],
-   "summary": "\"Tartary\" was a real name on old European maps. Online, \"Tartaria\" now stands for a much larger claim. What the maps, buildings, and records actually show.",
-   "related": ["world-fairs"]},
-  {"slug": "world-fairs", "title": "World's fairs", "aliases": ["world fairs", "expositions", "1893 world's columbian exposition"],
-   "category": "society", "topics": [],
-   "summary": "Temporary cities built to show off ideas, machines, and nations. What went up, what came down, and what stayed.",
-   "related": ["tartaria"]},
-  {"slug": "midterms-2026", "title": "Midterms 2026", "aliases": ["2026 midterms", "midterm elections", "election 2026"],
-   "category": "politics", "topics": ["politics", "candidates"],
-   "summary": "What is on the ballot, who is asking for your vote, and where to check what they say.",
-   "related": ["candidate-forums"]},
-  {"slug": "candidate-forums", "title": "Candidate forums", "aliases": ["town halls", "debates", "candidate debates"],
-   "category": "politics", "topics": ["candidates"],
-   "summary": "The long version of a campaign answer, and what the full exchange adds to the clip.",
-   "related": ["midterms-2026"]},
-  {"slug": "grocery-prices", "title": "Grocery prices", "aliases": ["food prices", "price of groceries"],
-   "category": "economy", "topics": ["money", "businesses"],
-   "summary": "What goes into the number on the shelf tag, and who sets it.",
-   "related": ["small-shops"]},
-  {"slug": "small-shops", "title": "Small shops", "aliases": ["corner stores", "local business", "independent retail"],
-   "category": "economy", "topics": ["businesses"],
-   "summary": "The choices behind one shelf, one counter, one lease.",
-   "related": ["grocery-prices"]},
-  {"slug": "home-estimates", "title": "Home estimates", "aliases": ["renovation quotes", "contractor quotes"],
-   "category": "everyday-life", "topics": ["home-improvement"],
-   "summary": "What belongs in a quote, what to ask before you say yes, and how to compare two.",
-   "related": []},
-  {"slug": "weeknight-cooking", "title": "Weeknight cooking", "aliases": ["easy dinners", "cooking techniques"],
-   "category": "everyday-life", "topics": ["cooking"],
-   "summary": "Small techniques that change a regular dinner.",
-   "related": []},
-  {"slug": "skincare-claims", "title": "Skincare claims", "aliases": ["ingredient lists", "skincare marketing"],
-   "category": "everyday-life", "topics": ["skincare"],
-   "summary": "What an ingredient list says that a before-and-after photo does not.",
-   "related": []},
-  {"slug": "getting-moving", "title": "Getting moving again", "aliases": ["beginner workouts", "restarting exercise"],
-   "category": "everyday-life", "topics": ["working-out", "self-improvement"],
-   "summary": "Realistic routines, and the reasoning behind each choice.",
-   "related": []}
+ {
+  "slug": "tartaria",
+  "title": "Tartaria",
+  "aliases": [
+   "tartarian architecture",
+   "tartarian empire",
+   "mud flood",
+   "tartary"
+  ],
+  "category": "society",
+  "topics": [],
+  "summary": "\"Tartary\" was a real name on old European maps. Online, \"Tartaria\" now stands for a much larger claim. What the maps, buildings, and records actually show.",
+  "related": [
+   "world-fairs"
+  ]
+ },
+ {
+  "slug": "world-fairs",
+  "title": "World's fairs",
+  "aliases": [
+   "world fairs",
+   "expositions",
+   "1893 world's columbian exposition"
+  ],
+  "category": "society",
+  "topics": [],
+  "summary": "Temporary cities built to show off ideas, machines, and nations. What went up, what came down, and what stayed.",
+  "related": [
+   "tartaria"
+  ]
+ },
+ {
+  "slug": "midterms-2026",
+  "title": "Midterms 2026",
+  "aliases": [
+   "2026 midterms",
+   "midterm elections",
+   "election 2026"
+  ],
+  "category": "politics",
+  "topics": [
+   "politics",
+   "candidates"
+  ],
+  "summary": "What is on the ballot, who is asking for your vote, and where to check what they say.",
+  "related": [
+   "candidate-forums"
+  ]
+ },
+ {
+  "slug": "candidate-forums",
+  "title": "Candidate forums",
+  "aliases": [
+   "town halls",
+   "debates",
+   "candidate debates"
+  ],
+  "category": "politics",
+  "topics": [
+   "candidates"
+  ],
+  "summary": "The long version of a campaign answer, and what the full exchange adds to the clip.",
+  "related": [
+   "midterms-2026"
+  ]
+ },
+ {
+  "slug": "grocery-prices",
+  "title": "Grocery prices",
+  "aliases": [
+   "food prices",
+   "price of groceries"
+  ],
+  "category": "economy",
+  "topics": [
+   "money",
+   "businesses"
+  ],
+  "summary": "What goes into the number on the shelf tag, and who sets it.",
+  "related": [
+   "small-shops"
+  ]
+ },
+ {
+  "slug": "small-shops",
+  "title": "Small shops",
+  "aliases": [
+   "corner stores",
+   "local business",
+   "independent retail"
+  ],
+  "category": "economy",
+  "topics": [
+   "businesses"
+  ],
+  "summary": "The choices behind one shelf, one counter, one lease.",
+  "related": [
+   "grocery-prices"
+  ]
+ },
+ {
+  "slug": "home-estimates",
+  "title": "Home estimates",
+  "aliases": [
+   "renovation quotes",
+   "contractor quotes"
+  ],
+  "category": "everyday-life",
+  "topics": [
+   "home-improvement"
+  ],
+  "summary": "What belongs in a quote, what to ask before you say yes, and how to compare two.",
+  "related": []
+ },
+ {
+  "slug": "weeknight-cooking",
+  "title": "Weeknight cooking",
+  "aliases": [
+   "easy dinners",
+   "cooking techniques"
+  ],
+  "category": "everyday-life",
+  "topics": [
+   "cooking"
+  ],
+  "summary": "Small techniques that change a regular dinner.",
+  "related": []
+ },
+ {
+  "slug": "skincare-claims",
+  "title": "Skincare claims",
+  "aliases": [
+   "ingredient lists",
+   "skincare marketing"
+  ],
+  "category": "everyday-life",
+  "topics": [
+   "skincare"
+  ],
+  "summary": "What an ingredient list says that a before-and-after photo does not.",
+  "related": []
+ },
+ {
+  "slug": "getting-moving",
+  "title": "Getting moving again",
+  "aliases": [
+   "beginner workouts",
+   "restarting exercise"
+  ],
+  "category": "everyday-life",
+  "topics": [
+   "working-out",
+   "self-improvement"
+  ],
+  "summary": "Realistic routines, and the reasoning behind each choice.",
+  "related": []
+ },
+ {
+  "slug": "local-ballot",
+  "title": "The local ballot",
+  "aliases": [],
+  "category": "politics",
+  "topics": [],
+  "summary": "Offices, measures, and the decisions attached to each.",
+  "related": []
+ },
+ {
+  "slug": "following-a-promise",
+  "title": "Following a promise",
+  "aliases": [],
+  "category": "politics",
+  "topics": [],
+  "summary": "What a candidate proposed, what the office can do, and what happened next.",
+  "related": []
+ },
+ {
+  "slug": "public-money",
+  "title": "Public money",
+  "aliases": [],
+  "category": "politics",
+  "topics": [],
+  "summary": "Where an allocation starts and how residents can trace it.",
+  "related": []
+ },
+ {
+  "slug": "price-on-the-shelf",
+  "title": "The price on the shelf",
+  "aliases": [],
+  "category": "economy",
+  "topics": [],
+  "summary": "Costs and choices along a product's path to purchase.",
+  "related": []
+ },
+ {
+  "slug": "making-a-living",
+  "title": "Making a living",
+  "aliases": [],
+  "category": "economy",
+  "topics": [],
+  "summary": "How work, time, and income meet in different settings.",
+  "related": []
+ },
+ {
+  "slug": "a-business-up-close",
+  "title": "A business up close",
+  "aliases": [],
+  "category": "economy",
+  "topics": [],
+  "summary": "The decisions behind opening, operating, and staying useful.",
+  "related": []
+ },
+ {
+  "slug": "shared-room",
+  "title": "The shared room",
+  "aliases": [],
+  "category": "society",
+  "topics": [],
+  "summary": "What public spaces make possible and who can use them.",
+  "related": []
+ },
+ {
+  "slug": "belonging-nearby",
+  "title": "Belonging nearby",
+  "aliases": [],
+  "category": "society",
+  "topics": [],
+  "summary": "How local groups form and sustain relationships.",
+  "related": []
+ },
+ {
+  "slug": "a-story-in-circulation",
+  "title": "A story in circulation",
+  "aliases": [],
+  "category": "society",
+  "topics": [],
+  "summary": "What changes as a claim moves between communities.",
+  "related": []
+ },
+ {
+  "slug": "make-and-mend",
+  "title": "Make and mend",
+  "aliases": [],
+  "category": "everyday-life",
+  "topics": [],
+  "summary": "Repairs, home projects, and practical learning curves.",
+  "related": []
+ },
+ {
+  "slug": "care-in-context",
+  "title": "Care in context",
+  "aliases": [],
+  "category": "everyday-life",
+  "topics": [],
+  "summary": "Routines and products with room for different needs.",
+  "related": []
+ },
+ {
+  "slug": "second-attempt",
+  "title": "The second attempt",
+  "aliases": [],
+  "category": "everyday-life",
+  "topics": [],
+  "summary": "What a project teaches after the first version.",
+  "related": []
+ }
 ]

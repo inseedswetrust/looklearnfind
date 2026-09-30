@@ -30,11 +30,18 @@ TTYPES = {t["slug"]: t for t in SITE["find_types"]}
 TTYPE_BY_TYPE = {t["type"]: t for t in SITE["find_types"]}
 TH = {t["slug"]: t for t in THREADS}
 VERB = {"candidate": "vote", "business": "visit", "guide": "try", "product": "buy", "place": "visit"}
-IMG = {
-    "politics-forum": "/img/politics-forum.jpg", "politics-vote": "/img/politics-vote.jpg",
-    "economy-shop": "/img/economy-shop.jpg", "everyday-cooking": "/img/everyday-cooking.jpg",
-    "everyday-home": "/img/everyday-home.jpg", "everyday-workout": "/img/everyday-workout.jpg",
-}
+IMG = {k: f"/img/{k}.jpg" for k in (
+    "politics-forum", "politics-vote", "politics-record", "economy-shop", "economy-market", "economy-work",
+    "society-conversation", "society-library", "society-table", "everyday-cooking", "everyday-home", "everyday-workout")}
+for _k in ("banner-politics", "banner-economy", "banner-society", "banner-everyday-life", "about-hero", "story-tartary-maps", "find-map-room", "look-desk",
+           "find-candidates", "find-businesses", "find-guides", "find-products", "find-places"):
+    IMG[_k] = f"/img/c/{_k}.jpg"
+for _t in ("politics", "candidates", "businesses", "home-improvement", "self-improvement", "side-projects", "working-out", "cooking", "supplements", "skincare", "self-care", "money"):
+    IMG["topic-" + _t] = f"/img/c/topic-{_t}.jpg"
+COPY = json.loads((ROOT / "data" / "copy.json").read_text())
+SEO = json.loads((ROOT / "data" / "seo.json").read_text())
+CAT_COPY = {c["slug"]: COPY["categories"][c["label"].title() if c["label"] != "Everyday life" else "Everyday Life"] for c in SITE["categories"]}
+TOPIC_COPY = {t["slug"]: COPY["topics"][t["label"]] for t in SITE["topics"]}
 e = lambda s: escape(str(s), quote=True)
 
 
@@ -140,6 +147,11 @@ def icon(slug):
     return f'<svg aria-hidden="true" focusable="false"><use href="/img/topic-icons.svg#{slug}"/></svg>'
 
 
+def sym(name, cls=""):
+    """Line icon from the generated sprite (assets/icons/*.svg -> /img/icons.svg)."""
+    return f'<svg class="ico {cls}" aria-hidden="true" focusable="false"><use href="/img/icons.svg#{name}"/></svg>'
+
+
 def thread_chip(slug):
     t = TH.get(slug)
     return f'<a class="thread-chip" href="/threads/{e(slug)}/">{e(t["title"] if t else slug)}</a>'
@@ -234,8 +246,15 @@ def nav_html(active):
 
 def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False, illustrative=False, bodyclass="", lead="", sitemap=True, jsonld=""):
     canonical = CFG["url"] + path
+    seo = SEO.get(path.rstrip("/") or "/")
+    if seo:
+        title, desc = seo["title"], seo["description"]
     full_title = title if "LookLearnFind" in title else f"{title} | LookLearnFind"
-    og_img = CFG["url"] + (og or "/img/og-default.jpg")
+    if not og:
+        og = "/img/og-look.jpg" if path.startswith("/look") else "/img/og-learn.jpg" if path.startswith("/learn") else "/img/og-find.jpg" if path.startswith("/find") else "/img/og-default.jpg"
+    og_img = CFG["url"] + og
+    if path == "/":
+        css = tuple(css) + ("home",)
     if "shelf" in js and "ledger" not in css:
         css = tuple(css) + ("ledger",)
     links = "".join(f'<link rel="stylesheet" href="/css/{c}.css?v={CFG["updated"]}">' for c in ("site",) + tuple(css))
@@ -264,7 +283,7 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
 <body class="{bodyclass}">
 <a class="skip" href="#main">Skip to content</a>
 <header class="mast"><div class="wrap">
-<a class="logo" href="/" aria-label="LookLearnFind home"><img src="/img/logo-01.png" alt="LOOK LEARN FIND 01" width="171" height="126"></a>
+<a class="logo" href="/" aria-label="LookLearnFind home"><img src="/img/logo-cream.png" alt="LOOK LEARN FIND 01" width="1040" height="701"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
 <nav class="nav" id="nav" aria-label="Main">{nav_html(nav)}</nav>
 </div></header>
@@ -277,8 +296,8 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
 <form data-newsletter><label class="sr" for="nl-email">Email</label><input id="nl-email" type="email" name="email" placeholder="Your email" required autocomplete="email"><button type="submit">Sign up ↗</button></form>
 <div class="msg" data-newsletter-msg aria-live="polite"></div></div></section>
 <footer class="foot"><div class="wrap">
-<div class="top"><a class="logo" href="/" aria-label="LookLearnFind home"><img src="/img/logo-01.png" alt="LOOK LEARN FIND 01" width="171" height="126"></a><nav aria-label="Footer">{foot_nav}</nav></div>
-<div class="fine"><div><a href="/contribute/">Contribute</a><a href="/about/standards/">Standards</a><a href="/about/corrections/">Corrections</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div>
+<div class="top"><a class="logo" href="/" aria-label="LookLearnFind home"><img src="/img/logo-cream.png" alt="LOOK LEARN FIND 01" width="1040" height="701"></a><nav aria-label="Footer">{foot_nav}</nav></div>
+<div class="fine"><div><a href="/contribute/">Contribute</a><a href="/about/how-we-work/">How we work</a><a href="/about/corrections/">Corrections</a><a href="/community/">Community</a><a href="/disclosures/">Disclosures</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></div>
 <div>© LookLearnFind. Interesting ideas. Open receipts.</div></div>
 </div></footer>
 {scripts}
@@ -290,12 +309,16 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
         SITEMAP.append(path)
 
 
-def page_head(kicker, title_html, dek="", crumbs=None, extra=""):
+def page_head(kicker, title_html, dek="", crumbs=None, extra="", img="", ico=""):
     bc = ""
     if crumbs:
         bc = '<div class="breadcrumb">' + " / ".join(f'<a href="{h}">{e(l)}</a>' if h else e(l) for l, h in crumbs) + "</div>"
     d = f'<p class="dek">{dek}</p>' if dek else ""
-    return f'<section class="page-head"><div class="wrap">{bc}<div class="kicker">{kicker}<i></i></div><h1 class="display">{title_html}</h1>{d}{extra}</div></section>'
+    ic = sym(ico, "head-ico") if ico else ""
+    if img:
+        return (f'<section class="page-head with-img"><div class="wrap"><div>{bc}<div class="kicker">{kicker}<i></i></div>{ic}<h1 class="display">{title_html}</h1>{d}{extra}</div>'
+                f'<div class="head-img" style="background-image:url({IMG[img]})" role="img" aria-label=""></div></div></section>')
+    return f'<section class="page-head"><div class="wrap">{bc}<div class="kicker">{kicker}<i></i></div>{ic}<h1 class="display">{title_html}</h1>{d}{extra}</div></section>'
 
 
 def contribute_band(msg="Bring a question. Bring a source. Tell us what held up."):
@@ -430,7 +453,7 @@ def render_find(f):
 <div class="kicker">Find / {e(t["label"][:-1])}<i></i></div><h1>{e(f["title"])}</h1><p class="dek">{e(f.get("dek", ""))}</p>{kv}{thread_chips(f["threads"])}</div></section>
 <div class="wrap">{hero_html}</div>
 <div class="wrap" style="max-width:820px;padding-bottom:70px">{"".join(secs)}{disc}{cf_html}
-<p class="small" style="margin-top:26px">Being listed here is a judgment with stated criteria, not a guarantee. <a href="/about/standards/">How we choose</a>.</p></div></article>{look}{contribute_band("Tried it? Tell us what held up.")}'''
+<p class="small" style="margin-top:26px">Being listed here is a judgment with stated criteria, not a guarantee. <a href="/about/how-we-work/">How we choose</a>.</p></div></article>{look}{contribute_band("Tried it? Tell us what held up.")}'''
     shell(f["title"], f.get("dek", ""), f["path"], html, nav="find", js=("common", "shelf"), illustrative=f.get("illustrative") == "yes")
 
 
@@ -493,24 +516,34 @@ def gen_topics():
         ff = [f for f in FINDS if t["slug"] in f["topics"]]
         ths = [x for x in THREADS if t["slug"] in x["topics"]]
         thr = ('<div class="thread-chips">' + "".join(thread_chip(x["slug"]) for x in ths) + "</div>") if ths else ""
-        head = page_head(f'Topic {i:02d} / 12 · {e(cat_label(t["category"]))}', e(t["label"]), e(t["q"]),
-                         crumbs=[("Home", "/"), ("Topics", "/topics/"), (t["label"], None)], extra=thr)
-        body = (head + learn_shelf(ss, "What the record shows", t["label"].lower()) + find_shelf(ff, "Where to try it")
-                + look_shelf({"topic": t["slug"]}, "What people are saving") + contribute_band())
-        shell(t["label"], t["q"], f'/topics/{t["slug"]}/', body, nav="topics", js=("common", "shelf"))
+        cp = TOPIC_COPY[t["slug"]]
+        head = page_head(f'Topic {i:02d} / 12 · {e(cat_label(t["category"]))}', e(t["label"]), e(cp["intro"]),
+                         crumbs=[("Home", "/"), ("Topics", "/topics/"), (t["label"], None)], extra=thr, img="topic-" + t["slug"])
+        qs = ('<section class="band cream" style="padding:46px 0"><div class="wrap split" style="align-items:start"><div><div class="kicker">Bring a question<i></i></div>'
+              f'<h2 class="h3">{e(t["q"])}</h2></div><ol class="q-list">' + "".join(f"<li>{e(x)}</li>" for x in cp["bring"]) + "</ol></div></section>")
+        body = (head + qs + look_shelf({"topic": t["slug"]}, "What people are saving")
+                + learn_shelf(ss, "What the record shows", t["label"].lower()) + find_shelf(ff, "Where to try it") + contribute_band())
+        shell(t["label"], cp["intro"][:155], f'/topics/{t["slug"]}/', body, nav="topics", js=("common", "shelf"))
 
 
 def gen_categories():
-    tile_imgs = {"politics": ["politics-forum", "politics-vote"], "economy": ["economy-shop"], "society": [], "everyday-life": ["everyday-home", "everyday-cooking", "everyday-workout"]}
     for c in SITE["categories"]:
         ss = [s for s in STORIES if s.get("category") == c["slug"]]
         ff = [f for f in FINDS if f.get("category") == c["slug"]]
         ts = [t for t in SITE["topics"] if t["category"] == c["slug"]]
+        th = [t for t in THREADS if t["category"] == c["slug"]]
+        cp = CAT_COPY[c["slug"]]
         chips = '<div class="chips" style="display:flex;gap:8px;flex-wrap:wrap">' + "".join(f'<a class="chip" href="/topics/{t["slug"]}/">{e(t["label"])} ↗</a>' for t in ts) + "</div>"
-        head = page_head(f'{c["num"]} / {e(c["label"])}', e(c["headline"]), e(c["dek"]), crumbs=[("Home", "/"), (c["label"], None)], extra=f'<div style="margin-top:26px">{chips}</div>')
-        body = (head + learn_shelf(ss, f'Worth a closer look in {c["label"]}', c["label"].lower()) + find_shelf(ff, "Real-world Finds")
-                + look_shelf({"category": c["slug"]}, "What people are saving") + contribute_band())
-        shell(c["label"], c["dek"], f'/{c["slug"]}/', body, nav=c["slug"], js=("common", "shelf"))
+        head = page_head(f'{c["num"]} / {e(c["label"])}', e(c["headline"]), "", crumbs=[("Home", "/"), (c["label"], None)],
+                         extra=f'<p class="dek" style="max-width:720px;margin-top:22px">{e(cp["intro"])}</p><div style="margin-top:26px">{chips}</div>')
+        banner = f'<div class="page-banner" style="background-image:url({IMG["banner-" + c["slug"]]})" role="img" aria-label=""></div>'
+        rows = '<div class="rows">' + "".join(
+            f'<a class="row" href="/threads/{t["slug"]}/"><span class="n">{i:02d}</span><span class="t">{e(t["title"])}</span><span class="d">{e(t["summary"])}</span><span class="ar">↗</span></a>'
+            for i, t in enumerate(th, 1)) + "</div>"
+        threads = f'<section class="shelf"><div class="wrap"><div class="shelf-head"><div><div class="lab">Follow a thread</div><h2>Where to start</h2></div><a class="link teal" href="/threads/">All threads ↗</a></div>{rows}</div></section>'
+        body = (head + banner + threads + look_shelf({"category": c["slug"]}, "What people are saving") + learn_shelf(ss, f'Worth a closer look in {c["label"]}', c["label"].lower())
+                + find_shelf(ff, "Real-world Finds") + contribute_band())
+        shell(c["label"], cp["intro"][:155], f'/{c["slug"]}/', body, nav=c["slug"], js=("common", "shelf"))
 
 
 def gen_learn_latest_find():
@@ -528,86 +561,79 @@ def gen_learn_latest_find():
     # find hub
     head = page_head("Find", "Find what <em>holds up.</em>", "People, places, products, and practical paths. Each result shows why it is here and where the information came from.", crumbs=[("Home", "/"), ("Find", None)])
     hub = '<section class="band dark"><div class="wrap"><div class="rows">' + "".join(
-        f'<a class="row" href="/find/{t["slug"]}/"><span class="n">{i:02d}</span><span class="t">{e(t["label"])}</span><span class="d">{e(t["blurb"])}</span><span class="ar">↗</span></a>'
+        f'<a class="row" href="/find/{t["slug"]}/"><span class="n">{i:02d}</span><span class="t" style="display:flex;align-items:center;gap:16px">{sym("find-" + t["slug"], "ico-lg")}{e(t["label"])}</span><span class="d">{e(t["blurb"])}</span><span class="ar">↗</span></a>'
         for i, t in enumerate(SITE["find_types"], 1)) + "</div></div></section>"
-    ledger = f'''<section class="band"><div class="wrap split"><div><div class="kicker">Look<i></i></div><h2 class="h2">Short videos, kept on purpose.</h2></div>
-<div><p class="dek">The Look Ledger is a searchable, human-curated index of short videos. Filter by subject, follow people whose eye you trust, and open the original.</p><p style="margin-top:18px"><a class="btn" href="/look/">Open the Ledger ↗</a></p></div></div></section>'''
-    shell("Find", "People, places, products, and practical paths that hold up.", "/find/", head + f'<section class="band cream" style="padding:10px 0 0"><div class="wrap"><div class="cards">{"".join(card(f) for f in FINDS[:3])}</div></div></section>' + hub + ledger + contribute_band(), nav="find")
+    ledger = f'''<section class="band"><div class="wrap split"><div class="head-img" style="background-image:url({IMG["look-desk"]})" role="img" aria-label="Index cards, pins, a pencil and a face-down phone on a desk"></div><div><div class="kicker">Look<i></i></div><h2 class="h2">Short videos, kept on purpose.</h2>
+<p class="dek" style="margin-top:18px">The Look Ledger is a searchable, human-curated index of short videos. Filter by subject, follow people whose eye you trust, and open the original.</p><p style="margin-top:18px"><a class="btn" href="/look/">Open the Ledger ↗</a></p></div></div></section>'''
+    shell("Find", "People, places, products, and practical paths that hold up.", "/find/", head + f'<section class="band cream" style="padding:10px 0 56px"><div class="wrap"><div class="cards">{"".join(card(f) for f in FINDS[:3])}</div></div></section>' + hub + ledger + contribute_band(), nav="find")
     for t in SITE["find_types"]:
         ff = [f for f in FINDS if f["type"] == t["type"]]
-        body = page_head(f'Find / {e(t["label"])}', e(t["label"]), e(t["blurb"]), crumbs=[("Home", "/"), ("Find", "/find/"), (t["label"], None)])
+        body = page_head(f'Find / {e(t["label"])}', e(t["label"]), e(t["blurb"]), crumbs=[("Home", "/"), ("Find", "/find/"), (t["label"], None)], img="find-" + t["slug"], ico="find-" + t["slug"])
         body += '<section class="band cream" style="padding-top:20px"><div class="wrap">' + (cards(ff) if ff else f'<div class="empty" style="border:1px dashed var(--rule2);padding:26px;font:14px var(--sans)"><b>No {e(t["label"].lower())} listed yet.</b> Every listing shows why it is here, what we checked, and any commercial relationship before it appears. <a href="/contribute/">Suggest one</a>.</div>') + "</div></section>" + contribute_band()
         shell(t["label"], t["blurb"], f'/find/{t["slug"]}/', body, nav="find")
 
 
 def gen_home():
-    def T(href, img, eyebrow, title, p="", cls=""):
-        st = f' style="background-image:url({IMG[img]})"' if img else ""
+    """Markup follows reference/approved-homepage.html; styles are static/css/home.css."""
+    def card(href, img, eyebrow, title, p="", pos="center"):
         pp = f"<p>{e(p)}</p>" if p else ""
-        big = f'<div class="big" aria-hidden="true">{e(eyebrow[:2])}</div>' if "type" in cls.split() else ""
-        return f'<a class="tile {cls}" href="{href}"{st}>{big}<div class="eyebrow">{e(eyebrow)}</div><h3>{e(title)}</h3>{pp}</a>'
+        return (f'<a class="photo-card" href="{href}" style="--img:url({IMG[img]});--pos:{pos}"><div class="photo-content">'
+                f'<span class="eyebrow">{e(eyebrow)}</span><h3>{e(title)}</h3>{pp}</div></a>')
 
-    def head(c, side_link, side_text=None):
-        return (f'<div class="chapter-head"><div><div class="kicker">{c["num"]} / {e(c["label"]).upper()}<i></i></div><h2 class="display" style="font-size:clamp(42px,6vw,76px)">{e(c["headline"])}</h2></div>'
-                f'<div class="side"><p>{e(c["dek"])}</p><a class="link" href="{side_link[0]}">{e(side_link[1])} ↗</a></div></div>')
     C = CATS
-    latest = (STORIES[:3])
-    topics = '<div class="topic-grid">' + "".join(
-        f'<a class="topic" href="/topics/{t["slug"]}/"><span class="n">{i:02d} / 12</span>{icon(t["slug"])}<span class="t"><span>{e(t["label"])}</span><span>↗</span></span></a>'
-        for i, t in enumerate(SITE["topics"], 1)) + "</div>"
-    finds = '<div class="rows">' + "".join(
-        f'<a class="row" href="/find/{t["slug"]}/"><span class="n">{i:02d}</span><span class="t">{e(t["label"])}</span><span class="d">{e(t["blurb"])}</span><span class="ar">↗</span></a>'
-        for i, t in enumerate(SITE["find_types"][:4], 1)) + "</div>"
-    body = f'''<section class="hero-art" role="img" aria-label="Two overlapping portraits joined by a yellow overlap and a SOURCE 01 annotation"></section>
-<div class="hero-mobile-text display">where signal meets source</div>
-<div class="hero-strip"><div class="wrap"><span>Look closer / 2026 midterms</span><a href="/politics/">Politics is the opening file ↓</a></div></div>
+    H = {"politics": "Public life,<br>up close.", "economy": "Follow the<br>money home.", "society": "How we live<br>together.", "everyday-life": "Make a life<br>on purpose."}
 
-<section class="band" id="politics"><div class="wrap">{head(C["politics"], ("/politics/", "The midterms file"))}
-<div class="feature-card"><div class="copy"><div class="eyebrow">The opening file · Election 2026</div><h3>The midterms, in the open.</h3>
-<p>What matters in your race? Who is asking for your vote? What does the record show? One place to begin asking better questions.</p>
-<a class="link" href="/threads/midterms-2026/">See the starting sources ↗</a><div class="small" style="margin-top:14px;text-transform:uppercase;letter-spacing:.1em;font-weight:700;font-size:9px">A living guide · Editorial concept</div></div>
-<div class="pic" style="background-image:url({IMG["politics-vote"]})" role="img" aria-label="Neighbors walking into a polling place on an autumn day"><span class="badge">01 / The ballot</span></div></div>
-<div class="tiles t2">{T("/threads/candidate-forums/", "politics-forum", "02 / The people", "Hear the answer. Check the record.", "Candidate forums, positions, votes, and the questions still unanswered.")}
-{T("/topics/candidates/", "", "03 / The receipts", "Read past the claim.", "Original documents, campaign money, and context that changes the picture.", "type")}</div>
-<div class="rail"><span class="uc">Start with original material →</span><div class="chips"><a class="chip" href="/threads/midterms-2026/">Midterm basics ↗</a><a class="chip" href="/topics/politics/">Your ballot ↗</a><a class="chip" href="/topics/money/">Campaign finance ↗</a></div></div></div></section>
+    def chapter_head(c, link_text, href):
+        return (f'<div class="chapter-head"><div><div class="chapter-kicker eyebrow">{c["num"]} / {e(c["label"])}</div><h2>{H[c["slug"]]}</h2></div>'
+                f'<div class="chapter-intro"><p>{e(c["dek"])}</p><a class="text-link" href="{href}">{e(link_text)} <span>↗</span></a></div></div>')
 
-<section class="band warm" id="economy"><div class="wrap">{head(C["economy"], ("/economy/", "Explore economy"))}
-<div class="tiles t3">{T("/topics/businesses/", "economy-shop", "01 / Small business", "Who builds it, who owns it, who benefits?", "The choices and pressures behind a local counter.", "tall")}
-{T("/threads/grocery-prices/", "", "02 / Prices", "What a price actually tells you.", "", "tall type")}
-{T("/topics/money/", "", "03 / Work", "The people behind the product.", "", "tall type")}</div>
-<div class="rail"><span>Business decisions are also questions about ownership, labor, value, and where your money goes.</span><a class="link" href="/topics/businesses/">Business and money topics ↗</a></div></div></section>
+    topics = "".join(
+        f'<a class="topic-card" href="/topics/{t["slug"]}/" aria-label="Explore {e(t["label"])}"><div class="top">{icon(t["slug"])}<span class="num">{i:02d} / 12</span></div><h3>{e(t["label"])}<span class="arrow" aria-hidden="true">↗</span></h3></a>'
+        for i, t in enumerate(SITE["topics"], 1))
+    latest = "".join(
+        f'<a class="latest-card" href="{s["path"]}"><div class="thumb" style="--img:url({IMG.get(s.get("image", ""), "")})" role="img" aria-label="{e(s.get("image_alt", ""))}"></div>'
+        f'<span class="eyebrow">{e(cat_label(s.get("category", "")))} / {e(s.get("format", "Story"))}</span><h3>{e(s["title"])}</h3><p>{e(s.get("dek", ""))}</p>'
+        + ('<span class="eyebrow" style="display:block;margin-top:10px;color:#6b706b">Illustrative sample</span>' if s.get("illustrative") == "yes" else "") + "</a>"
+        for s in STORIES[:3])
+    finds = "".join(
+        f'<a href="/find/{t["slug"]}/" class="find-row"><span class="eyebrow">{i:02d}</span><b>{e(t["label"])}</b><p>{e(t["blurb"])}</p><span class="arrow">↗</span></a>'
+        for i, t in enumerate(SITE["find_types"][:4], 1))
+    body = f'''<div class="home">
+<div class="original-hero"><img src="/img/overlap-hero.jpg" width="2000" height="704" fetchpriority="high" alt="Two overlapping editorial portraits with source marker 01 and the words where signal meets source">
+<div class="mobile-hero-text"><span class="eyebrow">SOURCE 01 — LOOK LEARN FIND</span><h1>where signal<br>meets source</h1></div></div>
+<div class="hero-ribbon"><span>Look closer / 2026 midterms</span><a class="date" href="#politics">Politics is the opening file ↓</a></div>
+<section class="chapter politics" id="politics"><div class="wrap">{chapter_head(C["politics"], "The midterms file", "#midterms")}
+<div class="politics-lead" id="midterms"><div class="politics-copy"><div class="stamp eyebrow">The opening file <span>●</span> Election 2026</div><div><h3>The midterms, in the open.</h3><p>What matters in your race? Who is asking for your vote? What does the record show? One place to begin asking better questions.</p><a class="text-link" href="#politics-sources">See the starting sources <span>↗</span></a></div><span class="eyebrow">A living guide / editorial concept</span></div>
+<div class="image" role="img" aria-label="Voters entering a neighborhood polling place"><span class="corner">01 / THE BALLOT</span></div></div>
+<div class="politics-secondary">{card("/threads/candidate-forums/", "politics-forum", "02 / The people", "Hear the answer. Check the record.", "Candidate forums, positions, votes, and the questions still unanswered.")}{card("/topics/candidates/", "politics-record", "03 / The receipts", "Read past the claim.", "Original documents, campaign money, and context that changes the picture.")}</div>
+<div class="source-bar" id="politics-sources"><span class="eyebrow">Start with original material →</span><div class="links"><a href="https://www.usa.gov/midterm-elections" target="_blank" rel="noopener">Midterm basics ↗</a><a href="https://www.usa.gov/who-you-can-vote-for" target="_blank" rel="noopener">Your ballot ↗</a><a href="https://www.fec.gov/data/elections/" target="_blank" rel="noopener">Campaign finance ↗</a></div></div></div></section>
 
-<section class="band teal" id="society"><div class="wrap">{head(C["society"], ("/society/", "Explore society"))}
-<div class="tiles t3b">{T("/society/", "", "02 / Conversation", "Listen past the label.", "", "type tall")}
-{T("/society/", "", "03 / Public space", "Where ideas meet people.", "", "type tall")}
-{T("/threads/tartaria/", "", "01 / Common ground", "A table with room for another perspective.", "The messy, interesting work of understanding each other.", "type tall")}</div>
-<div class="rail"><span>Give a question enough room to be complicated. Then show what can actually be checked.</span><a class="link" href="/about/">Our approach ↗</a></div></div></section>
+<section class="chapter economy" id="economy"><div class="wrap">{chapter_head(C["economy"], "Explore Economy", "/economy/")}
+<div class="visual-grid">{card("/topics/businesses/", "economy-shop", "01 / Small business", "Who builds it, who owns it, who benefits?", "The choices and pressures behind a local counter.")}{card("/threads/grocery-prices/", "economy-market", "02 / Prices", "What a price actually tells you.")}{card("/topics/money/", "economy-work", "03 / Work", "The people behind the product.")}</div>
+<div class="chapter-footer"><p>Business decisions are also questions about ownership, labor, value, and where your money goes.</p><a class="text-link" href="/topics/businesses/">Business and Money topics <span>↗</span></a></div></div></section>
 
-<section class="band tint" id="everyday-life"><div class="wrap">{head(C["everyday-life"], ("/everyday-life/", "Explore everyday life"))}
-<div class="tiles t3">{T("/topics/home-improvement/", "everyday-home", "01 / Home", "Know what you are making before you start.", "Good questions save materials, time, and money.", "tall")}
-{T("/topics/cooking/", "everyday-cooking", "02 / Kitchen", "Cook with curiosity.", "", "tall")}
-{T("/topics/working-out/", "everyday-workout", "03 / Body", "Find a rhythm that lasts.", "", "tall")}</div>
-<div class="rail"><span>From a supplement claim to a renovation quote, the useful detail is often the one someone helps you notice.</span><a class="link" href="/topics/">Browse the practical topics ↗</a></div></div></section>
+<section class="chapter society" id="society"><div class="wrap">{chapter_head(C["society"], "Explore Society", "/society/")}
+<div class="visual-grid reverse">{card("/threads/tartaria/", "society-table", "01 / Common ground", "A table with room for another perspective.", "The messy, interesting work of understanding each other.")}{card("/society/", "society-conversation", "02 / Conversation", "Listen past the label.")}{card("/society/", "society-library", "03 / Public space", "Where ideas meet people.")}</div>
+<div class="chapter-footer"><p>Give a question enough room to be complicated. Then show what can actually be checked.</p><a class="text-link" href="/about/">Our approach <span>↗</span></a></div></div></section>
 
-<section class="band" id="topics"><div class="wrap"><div class="chapter-head"><div><div class="kicker">05 / Topics<i></i></div><h2 class="display" style="font-size:clamp(42px,6vw,76px)">Choose a thread.</h2></div>
-<div class="side"><p>Twelve ways in. Follow one question, then another. Each subject connects back to people, perspectives, practical choices, and original sources.</p></div></div>
-{topics}<p class="small" style="margin-top:12px">Money is the one added topic: it gives the Economy section a clear practical home alongside Businesses.</p></div></section>
+<section class="chapter everyday" id="everyday"><div class="wrap">{chapter_head(C["everyday-life"], "Explore Everyday Life", "/everyday-life/")}
+<div class="visual-grid">{card("/topics/home-improvement/", "everyday-home", "01 / Home", "Know what you are making before you start.", "Good questions save materials, time, and money.")}{card("/topics/cooking/", "everyday-cooking", "02 / Kitchen", "Cook with curiosity.")}{card("/topics/working-out/", "everyday-workout", "03 / Body", "Find a rhythm that lasts.")}</div>
+<div class="chapter-footer"><p>From a supplement claim to a renovation quote, the useful detail is often the one someone helps you notice.</p><a class="text-link" href="/topics/">Browse the practical topics <span>↗</span></a></div></div></section>
 
-<section class="band warm" id="latest"><div class="wrap"><div class="chapter-head"><div><div class="kicker">06 / Latest<i></i></div><h2 class="display" style="font-size:clamp(42px,6vw,76px)">Worth a closer look.</h2></div>
-<div class="side"><a class="link" href="/latest/">Latest ↗</a></div></div>{cards(latest)}</div></section>
+<section class="topics" id="topics"><div class="wrap"><div class="chapter-kicker eyebrow">05 / Topics</div><div class="topics-header"><h2>Choose a<br>thread.</h2><p>Twelve ways in. Follow one question, then another. Each subject connects back to people, perspectives, practical choices, and original sources.</p></div>
+<div class="topic-grid">{topics}</div><p class="topics-note">Money is the one added topic: it gives the Economy section a clear practical home alongside Businesses.</p></div></section>
 
-<section class="band" id="look" style="background:var(--paper2)"><div class="wrap"><div class="chapter-head"><div><div class="kicker">07 / Look<i></i></div><h2 class="display" style="font-size:clamp(42px,6vw,76px)">A feed you can steer.</h2></div>
-<div class="side"><p>Short videos worth keeping, with the notes that explain why. Search the subjects. Follow people whose eye you trust.</p><a class="link" href="/look/">Open the Ledger ↗</a></div></div>
+<section class="latest" id="latest"><div class="wrap"><div class="chapter-kicker eyebrow">06 / Latest</div><div class="latest-top"><h2>Worth a<br>closer look.</h2><a class="text-link" href="/latest/">Latest <span>↗</span></a></div><div class="latest-grid">{latest}</div></div></section>
+
+<section class="look-band" id="look"><div class="wrap"><div class="chapter-head"><div><div class="chapter-kicker eyebrow">07 / Look</div><h2>A feed you<br>can steer.</h2></div><div class="chapter-intro"><p>Short videos worth keeping, with the notes that explain why. Search the subjects. Follow people whose eye you trust. Open the original when something catches yours.</p><a class="text-link" href="/look/">Open the Ledger <span>↗</span></a></div></div>
 <div data-look-shelf data-sort="added" data-limit="3"><div data-shelf-body></div></div></div></section>
 
-<section class="band dark" id="find"><div class="wrap"><div class="chapter-head"><div><div class="kicker">08 / Find<i></i></div><h2 class="display" style="font-size:clamp(42px,6vw,76px)">Find what holds up.</h2></div>
-<div class="side"><p>People, places, products, and practical paths. Each result should show why it is here and where the information came from.</p></div></div>{finds}</div></section>
+<section class="find" id="find"><div class="wrap"><div class="chapter-kicker eyebrow" style="color:var(--yellow)">08 / Find</div><div class="find-head"><h2>Find what<br>holds up.</h2><p>People, places, products, and practical paths. Each result should show why it is here and where the information came from.</p></div><div class="find-list">{finds}</div></div></section>
 
-<section class="band teal" id="about"><div class="wrap split"><div><div class="kicker">09 / About<i></i></div><h2 class="display" style="font-size:clamp(42px,6vw,76px)">Interesting ideas. Open receipts.</h2>
-<p class="dek" style="margin:26px 0">LookLearnFind is for people who like looking again. We make room for perspective, show the material behind a claim, and keep the pleasure of discovery in the process.</p>
-<a class="link" href="/about/">About us ↗</a></div>
-<div class="open-panel"><h4>A story, opened up</h4><div class="r"><b>LOOK</b><span>What is the real question?</span></div><div class="r"><b>LEARN</b><span>What do the sources show? What might we be missing?</span></div><div class="r"><b>FIND</b><span>What is worth exploring next?</span></div><div class="src">Source 01 — Original material ↗</div></div></div></section>'''
-    shell("LookLearnFind — where signal meets source", "Short posts to catch your eye, reported deep dives with receipts, and real-world finds worth a visit. Curiosity should lead somewhere.",
+<section class="about" id="about"><div class="wrap about-layout"><div><div class="chapter-kicker eyebrow" style="color:var(--yellow)">09 / About</div><h2>Interesting ideas.<br>Open receipts.</h2><p>LookLearnFind is for people who like looking again. We make room for perspective, show the material behind a claim, and keep the pleasure of discovery in the process.</p><a class="text-link" href="/about/">About us <span>↗</span></a></div>
+<div class="about-sheet"><span class="eyebrow">A story, opened up</span><div class="line"><b>LOOK</b><span>What is the real question?</span></div><div class="line"><b>LEARN</b><span>What do the sources show? What might we be missing?</span></div><div class="line"><b>FIND</b><span>What is worth exploring next?</span></div><div class="source">SOURCE 01 — ORIGINAL MATERIAL ↗</div></div></div></section>
+</div>'''
+    shell("LookLearnFind — Ideas Worth a Second Look", "Short posts to catch your eye, reported deep dives with receipts, and real-world finds worth a visit. Curiosity should lead somewhere.",
           "/", body, nav="", js=("common", "shelf"), bodyclass="home")
 
 
@@ -645,6 +671,18 @@ def gen_pages():
         illus = p.get("illustrative") == "yes"
         shell(p["title"], p["description"], path, body, nav=p.get("nav", ""), js=tuple(lst(p.get("js"))), css=tuple(lst(p.get("css"))),
               noindex=p.get("noindex") == "yes", illustrative=illus, sitemap=p.get("sitemap", "yes") != "no")
+
+
+def write_sprite():
+    """Combine assets/icons/*.svg into one <symbol> sprite so icons inherit currentColor."""
+    parts = ['<svg xmlns="http://www.w3.org/2000/svg"><defs>']
+    for f in sorted((ROOT / "assets" / "icons").glob("*.svg")):
+        t = f.read_text()
+        m = re.search(r"<svg[^>]*viewBox=\"([^\"]+)\"[^>]*>(.*)</svg>", t, re.S)
+        if m:
+            parts.append(f'<symbol id="{f.stem}" viewBox="{m.group(1)}">{m.group(2)}</symbol>')
+    parts.append("</defs></svg>")
+    (OUT / "img" / "icons.svg").write_text("".join(parts))
 
 
 def write_search_index():
@@ -685,6 +723,7 @@ def main():
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html)
     write_search_index()
+    write_sprite()
     lm = CFG["updated"]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in sorted(set(SITEMAP)):

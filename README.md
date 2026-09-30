@@ -12,3 +12,5 @@ looklearnfind.com: a static editorial site (Look · Learn · Find) with a live L
 - `tests/` API and link checks.
 
 All sample stories, Finds and Ledger rows are marked **illustrative**; sources on sample stories are labelled placeholders.
+
+**Assets and type.** Photos: approved source photos at `/img/*.jpg`, illustrative concept photography at `/img/c/` (labelled as concept; not evidence). Icons: `assets/icons/*.svg` are compiled into `/img/icons.svg`. Headline type is self-hosted Newsreader (SIL OFL, `static/fonts/`). Copy decks live in `docs/copy/`; `data/copy.json` and `data/seo.json` are generated from them. Favicon concepts in `assets/favicon-concepts/` are proposals only; the current favicon is a crop of the approved logo.
