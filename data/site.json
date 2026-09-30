@@ -1,0 +1,208 @@
+{
+  "nav": [
+    {
+      "key": "politics",
+      "label": "Politics",
+      "href": "/politics/"
+    },
+    {
+      "key": "economy",
+      "label": "Economy",
+      "href": "/economy/"
+    },
+    {
+      "key": "society",
+      "label": "Society",
+      "href": "/society/"
+    },
+    {
+      "key": "everyday-life",
+      "label": "Everyday life",
+      "href": "/everyday-life/"
+    },
+    {
+      "key": "topics",
+      "label": "Topics",
+      "href": "/topics/"
+    },
+    {
+      "key": "latest",
+      "label": "Latest",
+      "href": "/latest/"
+    },
+    {
+      "key": "look",
+      "label": "Look",
+      "href": "/look/"
+    },
+    {
+      "key": "find",
+      "label": "Find",
+      "href": "/find/"
+    },
+    {
+      "key": "about",
+      "label": "About",
+      "href": "/about/"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "politics",
+      "num": "01",
+      "label": "Politics",
+      "headline": "Public life, up close.",
+      "dek": "The races, the records, the money, and the choices beneath the noise. Start with what is on the ballot. Follow the source from there."
+    },
+    {
+      "slug": "economy",
+      "num": "02",
+      "label": "Economy",
+      "headline": "Follow the money home.",
+      "dek": "Prices, work, business, and the systems behind a receipt. The economy is personal long before it becomes a chart."
+    },
+    {
+      "slug": "society",
+      "num": "03",
+      "label": "Society",
+      "headline": "How we live together.",
+      "dek": "Not a debate stage. A wider view of the norms, places, institutions, and conversations shaping daily life."
+    },
+    {
+      "slug": "everyday-life",
+      "num": "04",
+      "label": "Everyday life",
+      "headline": "Make a life on purpose.",
+      "dek": "The home, the kitchen, the body, the small project you keep thinking about. Useful ideas should hold up in real life."
+    }
+  ],
+  "topics": [
+    {
+      "slug": "politics",
+      "label": "Politics",
+      "category": "politics",
+      "q": "What is actually on the ballot, and who is asking for it?"
+    },
+    {
+      "slug": "candidates",
+      "label": "Candidates",
+      "category": "politics",
+      "q": "What does a candidate's record show, beyond the ad?"
+    },
+    {
+      "slug": "businesses",
+      "label": "Businesses",
+      "category": "economy",
+      "q": "Who builds it, who owns it, who benefits?"
+    },
+    {
+      "slug": "home-improvement",
+      "label": "Home improvement",
+      "category": "everyday-life",
+      "q": "What should you know before you say yes to the estimate?"
+    },
+    {
+      "slug": "self-improvement",
+      "label": "Self improvement",
+      "category": "everyday-life",
+      "q": "Which habits hold up once the motivation fades?"
+    },
+    {
+      "slug": "side-projects",
+      "label": "Side projects",
+      "category": "everyday-life",
+      "q": "How do you start something small and keep it going?"
+    },
+    {
+      "slug": "working-out",
+      "label": "Working out",
+      "category": "everyday-life",
+      "q": "What makes a routine realistic, and why?"
+    },
+    {
+      "slug": "cooking",
+      "label": "Cooking",
+      "category": "everyday-life",
+      "q": "What is the little move that changes dinner?"
+    },
+    {
+      "slug": "supplements",
+      "label": "Supplements",
+      "category": "everyday-life",
+      "q": "What does the label claim, and what has been checked?"
+    },
+    {
+      "slug": "skincare",
+      "label": "Skincare",
+      "category": "everyday-life",
+      "q": "What does the ingredient list say that the promise does not?"
+    },
+    {
+      "slug": "self-care",
+      "label": "Self care",
+      "category": "everyday-life",
+      "q": "What actually helps, and how would you know?"
+    },
+    {
+      "slug": "money",
+      "label": "Money",
+      "category": "economy",
+      "q": "Where does the money go, and what are the choices?"
+    }
+  ],
+  "find_types": [
+    {
+      "slug": "candidates",
+      "type": "candidate",
+      "label": "Candidates",
+      "blurb": "Positions, records, original sources."
+    },
+    {
+      "slug": "businesses",
+      "type": "business",
+      "label": "Businesses",
+      "blurb": "Who they are, what they do, and how to assess them."
+    },
+    {
+      "slug": "guides",
+      "type": "guide",
+      "label": "Guides",
+      "blurb": "Projects, routines, and useful next steps."
+    },
+    {
+      "slug": "products",
+      "type": "product",
+      "label": "Products",
+      "blurb": "What was checked, what fits, what remains uncertain."
+    },
+    {
+      "slug": "places",
+      "type": "place",
+      "label": "Places",
+      "blurb": "Places worth visiting, and what to know before you go."
+    }
+  ],
+  "kinds": [
+    "Explainer",
+    "Demonstration",
+    "Interview",
+    "Firsthand account",
+    "Debate / response",
+    "Visit / tour",
+    "Idea in progress"
+  ],
+  "platforms": [
+    {
+      "key": "youtube",
+      "label": "YouTube Shorts"
+    },
+    {
+      "key": "instagram",
+      "label": "Instagram Reels"
+    },
+    {
+      "key": "tiktok",
+      "label": "TikTok"
+    }
+  ]
+}

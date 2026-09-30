@@ -1,0 +1,49 @@
+Options -Indexes
+DirectoryIndex index.html index.php
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # HTTPS + canonical host (enable once SSL is on)
+  # RewriteCond %{HTTPS} off
+  # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # never serve data or library code
+  RewriteRule ^api/(lib|_data|tools)(/|$) - [F,L]
+
+  # JSON API
+  RewriteRule ^api/(.+)$ api/index.php [L,QSA]
+
+  # Ledger entry pages: /look/L-042/ -> shell page, id read client-side
+  RewriteRule ^look/(L-?\d+)/?$ /look/entry/index.html [L]
+  # Public profiles: /u/handle -> shell page
+  RewriteRule ^u/([A-Za-z0-9_]+)/?$ /u/index.html [L]
+  # DB-approved threads without a built page: /threads/slug/ -> shell page
+  RewriteCond %{DOCUMENT_ROOT}/threads/$1/index.html !-f
+  RewriteRule ^threads/([a-z0-9-]+)/?$ /threads/t/index.html [L]
+</IfModule>
+
+<FilesMatch "\.(sqlite|sqlite-wal|sqlite-shm|jsonl)$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>

@@ -1,0 +1,8 @@
+dist/
+release/
+__pycache__/
+*.sqlite
+.DS_Store
+
+static/api/_data/*.sqlite*
+static/api/_data/config.php

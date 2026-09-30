@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /account/
+Sitemap: https://looklearnfind.com/sitemap.xml
