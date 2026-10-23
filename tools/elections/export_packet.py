@@ -102,7 +102,7 @@ for rid in ["senate"] + [f"house-{i:02d}" for i in range(1, 29)]:
         "general_election_date": "2026-11-03", "primary_date": "2026-08-18", "nominees": [r["candidate_name"] for r in rr if r["ballot_status"] in ("Qualified", "Unopposed")],
         "candidates": [{k: r[k] for k in ("candidate_name", "party", "incumbent", "ballot_status", "primary_result", "candidate_id", "tip_candidate_url", "dos_account")} for r in rr],
         "official_source": DOS_FED, "verified_at_utc": VERIFIED,
-        "existing_llf_pages": ["/elections/2026/florida-house/" if rid != "senate" else "/elections/2026/florida-senate/"],
+        "existing_llf_pages": ["/elections/2026/florida/senate/" if rid == "senate" else f"/elections/2026/florida/house/{int(rid[-2:])}/"],
         "tip_race_record_note": {"display_phase_in_tip_db": t.get("display_phase"), "primary_status_in_tip_db": t.get("primary_status"),
                                  "warning": "TIP races.display_phase is not read by any page (phases come from lib/elections/calendar.ts); treat as stale"} if t else None})
 write_json("fl_races.json", {"state": "FL", "generated_at_utc": NOW, "map": {"plan": dist["source"]["plan"], "bill": dist["source"]["bill"], "note": "enacted May 2026, in force for the 2026 election"},
@@ -264,24 +264,33 @@ write_csv("fl_assets.csv", ah, rowsa)
 n_port_missing = sum(1 for r in rowsa if r["kind"] == "portrait" and r["publication_status"].startswith("NOT FOR"))
 
 # ---------- 12. existing pages
-pages = {"generated_at_utc": NOW, "base": "https://looklearnfind.com", "live_pages_as_of_deploy": [
-    {"route": "/elections/2026/", "kind": "hub", "status": "published", "last_qa": "docs/election-build/IMPLEMENTATION_REPORT.md"},
-    {"route": "/elections/2026/florida-governor/", "kind": "governor guide", "status": "published"},
-    {"route": "/elections/2026/florida-senate/", "kind": "senate guide (state guide module, NOT the long-form article)", "status": "published"},
-    {"route": "/elections/2026/florida-house/", "kind": "house atlas (28 districts)", "status": "published"},
-    {"route": "/elections/2026/florida-house/<district>/", "kind": "28 district pages", "status": "published"},
-    {"route": "/elections/2026/methods/", "kind": "methods", "status": "published"},
-    {"route": "/elections/2026/dark-horse/status/", "kind": "dark-horse status page", "status": "built; ships in release/looklearnfind-elections-update.zip (not yet uploaded by owner)"},
-    {"route": "/elections/2026/dark-horse/status.json", "kind": "public status feed", "status": "published (HTTP 200)"},
-    {"route": "/learn/florida-house-independent-spending-october-2026/", "kind": "report (layout: report)", "status": "published"},
-    {"route": "/learn/florida-governor-fundraising-polling-2026/", "kind": "report (layout: report)", "status": "published"}],
-    "components_in_elections_py": ["candidate_card", "tip_button", "delta_chart", "spend_chart", "dedupe_ie", "render_report", "autolink", "expand_values ([[v:name]])", "expand_macros ([[s:n]], [[el:name]])"],
-    "final_article_paths": {"florida_senate_long_form": "content/learn/florida-senate-<slug>.html with `layout: report` (render_report); NOT yet created",
-                            "florida_house_long_form": "content/learn/florida-house-<slug>.html with `layout: report`; NOT yet created",
-                            "existing_state_pages_to_link": ["/elections/2026/florida-senate/", "/elections/2026/florida-house/"]},
+def live(route):
+    """HTTP status of the live page, or null if the check could not run. The packet never depends on the answer."""
+    import urllib.request, urllib.error
+    try:
+        with urllib.request.urlopen(urllib.request.Request("https://looklearnfind.com" + route, method="HEAD", headers={"User-Agent": "LLF-packet-check"}), timeout=20) as r:
+            return r.status
+    except urllib.error.HTTPError as ex:
+        return ex.code
+    except Exception:
+        return None
+DIST = ROOT / "dist"
+routes = [("/elections/2026/florida/", "state landing (the State Board)"), ("/elections/2026/florida/governor/", "governor guide"), ("/elections/2026/florida/senate/", "Senate guide (state guide module, NOT the long-form article)"),
+          ("/elections/2026/florida/house/", "House atlas and directory (28 districts)"), ("/about/election-methods/", "methods, definitions, TIP grade formula"),
+          ("/learn/florida-house-independent-spending-october-2026/", "report: Florida House independent spending"), ("/learn/florida-governor-fundraising-polling-2026/", "report: Florida governor fundraising and polling"),
+          ("/learn/michigan-senate-delta-october-2026/", "report: Michigan Senate delta (reference article)"), ("/elections/2026/dark-horse/status/", "dark-horse status page"),
+          ("/elections/2026/dark-horse/status.json", "public status feed")] + [(f"/elections/2026/florida/house/{i}/", f"district {i} page") for i in range(1, 29)]
+pages = {"generated_at_utc": NOW, "base": "https://looklearnfind.com",
+    "routes": [{"route": r, "kind": k, "built_in_repo": (DIST / r.strip("/") / "index.html").exists() or (DIST / r.strip("/")).is_file(), "live_http_status": live(r), "checked_at_utc": NOW} for r, k in routes],
+    "note": "built_in_repo true with live_http_status 404 means the page is built but not yet uploaded (the dark-horse status page ships in release/looklearnfind-elections-update.zip)",
+    "components_in_elections_py": ["candidate_card", "tip_button", "delta_chart", "spend_chart", "dedupe_ie", "render_report", "autolink (R1 and R2)", "expand_values ([[v:name]])", "expand_macros ([[s:n]], [[el:name]])"],
+    "final_article_paths": {"florida_senate_long_form": "content/learn/florida-senate-<slug>.html with `layout: report` (elections.render_report); not yet created",
+                            "florida_house_long_form": "content/learn/florida-house-<slug>.html with `layout: report`; not yet created",
+                            "state_pages_to_link": ["/elections/2026/florida/senate/", "/elections/2026/florida/house/", "/elections/2026/florida/house/<n>/"]},
     "tip_deep_links": {"senate_race": "https://theissuesparty.org/races/2026-S-FL", "house_race_pattern": "https://theissuesparty.org/races/2026-H-FL-<dd>",
                        "candidate_pattern": "https://theissuesparty.org/candidates/<FEC id>"},
-    "screenshots": "tools/qa/shots.py output is regenerated on demand; none are committed", "scope": {"senate_candidates_on_ballot": 3, "house_districts": 28, "house_candidates_on_ballot": 83}}
+    "screenshots": "tools/qa/shots.py regenerates desktop and mobile screenshots on demand; none are committed", "last_qa": "docs/election-build/IMPLEMENTATION_REPORT.md; strict build 0 violations on 2026-10-23",
+    "scope": {"senate_candidates_on_ballot": 3, "house_districts": 28, "house_candidates_on_ballot": 83}}
 write_json("fl_existing_pages.json", pages)
 
 # ---------- 10. sources registry (claim-level sources generated from captures; news sources are appended from the digest source list)
