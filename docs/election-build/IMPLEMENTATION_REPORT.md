@@ -1,27 +1,17 @@
 # Implementation Report: LLF Florida election pages
 
-**Date:** 2026-10-23 | **Repo:** `looklearnfind` branch `claude/funny-shannon-dg9qoe` | **Status: built, QA'd locally, staged. NOT deployed (blocker below).**
+**Date:** 2026-10-23 | **Repo:** `looklearnfind` branch `claude/funny-shannon-dg9qoe` | **Status: built, QA'd, deployed and verified live (see section 1).**
 
-## 1. Deployment status (read this first)
+## 1. Deployment status (updated 2026-10-23, after deploy)
 
 | Item | State |
 |---|---|
-| Build | `PYTHONUTF8=1 python build.py` builds 110 pages without errors |
-| Local QA | 36 of 36 election pages pass `tools/qa/smoke.py`; 1440 and 390 px screenshots show no horizontal overflow (details in section 5) |
-| Release file | `release/looklearnfind-elections-update.zip`, 10800 KB, 236 files, SHA-256 starts `75ad03ce` (rebuild changes the hash) |
-| Live site today | `https://looklearnfind.com/` returns 200. `https://looklearnfind.com/elections/2026/florida/` returns **404** (checked 2026-10-23 15:04 UTC), so none of this is live yet |
-| **Blocker** | Production is a hosting.com cPanel account. This session has no cPanel, SFTP or hosting credentials, and by project rule credentials are not entered or stored here. Deployment is the existing manual step: upload the zip and extract over the site folder (`docs/DEPLOY.md` section 3 and "Updating the site"). `llf-data` is outside the site folder, so the database is untouched. |
-| Why the update zip omits robots files | The repo's `static/robots.txt` is the pre-launch "Disallow: /" file. The live `robots.txt` currently reads `Allow: /` with Cloudflare directives. Extracting the full zip would replace it and could block search engines from the live site. The update zip leaves robots untouched (`python build.py --zip --keep-live-robots`). |
-| Commit | Local commit only. Nothing is pushed to the public GitHub repo until you say so |
-
-**Owner steps to deploy (about 5 minutes):**
-1. cPanel > File Manager > the looklearnfind.com site folder.
-2. Upload `release/looklearnfind-elections-update.zip`.
-3. Right-click > Extract into the site folder itself (overwrite when asked). Delete the zip.
-4. Run `python tools/qa/smoke.py https://looklearnfind.com` (or open the 8 URLs in section 2).
-5. Tell me; I will run the smoke test against the live URL and record the evidence.
-
-**Decision for you:** the live site still shows "Illustrative sample" stories at `/learn/` while its robots file allows crawling. Our election pages are real reporting. Mixing the two on a crawlable site is a launch-readiness question, not a build question.
+| LLF site | **Live.** The owner extracted `looklearnfind-elections-update.zip` on 2026-10-23. `https://looklearnfind.com/elections/2026/florida/` and the other 35 election URLs return 200. Live `robots.txt` was left untouched; the sitemap lists the election pages |
+| Live evidence (run against the live site, 2026-10-23) | `tools/qa/smoke.py https://looklearnfind.com`: **36/36 pages OK**, 62 internal links 0 broken, 249 external links all reachable except Kalshi market pages (HTTP 429, rate limit) and the Washington Post. `tools/qa/shots.py` on hub, governor, FL-14, the Delta Report and the governor feature at 1440 and 390 px: no horizontal overflow, no missing alt text, no broken images, no console errors |
+| TIP site (theissuesparty.org) | **Live** with the one-profile-per-candidate code (alias redirects, "Currently serving in Congress" chip, expandable biography). Release `20261023-11d81b4`, merged on top of the other session's ledger-banner build `4f5029c`. Previous build kept as the rollback (`~/tip/web.prev`) |
+| TIP database | Florida governor roster, one-profile merge for 18 people, eight missing Florida profiles and 17 biographies applied on 2026-10-23, each with a backup under `docs/state-packets/backups/` (TIP repo) |
+| Publishing rules | R1 (candidate to TIP profile) and R2 (race to race link) enforced at build; `python build.py --strict` passes with 0 violations for all 96 Florida candidates |
+| Git | LLF commits local on `claude/funny-shannon-dg9qoe` (`7c75bed` and earlier), TIP commits local on `fix/one-profile-per-candidate` and `deploy/one-profile-plus-ledger-banner`. Nothing is pushed to GitHub |
 
 ## 2. Pages and routes
 
@@ -84,7 +74,7 @@ Reused from the live site: masthead, footer, `shell()`, `page_head` conventions,
 
 0. **Publishing rules R1 and R2 (added after owner review):** every featured candidate links to a TIP profile and every mentioned race links to its race. See `PUBLISHING_RULES.md`; 17 candidates currently have no working TIP profile (build reports them; `--strict` fails on them). Donalds' grades are linked to his congressional TIP profile, the page where they are visible.
 
-1. TIP `races` still show `display_phase=primary_upcoming`, `verification_status=seed`, `result_status=none` for all Florida races though the state shows primary results; the governor race has no `race_entries`. A SQL proposal for your review is the next step you approved (nothing has been run).
+1. TIP `races` still show `display_phase=primary_upcoming`, `verification_status=seed`, `result_status=none` for all Florida races though the state shows primary results; the governor race has no `race_entries`. Applied 2026-10-23 (see `ONE-PROFILE-PER-CANDIDATE.md`).
 2. TIP's public About page still says "five Public Interest Commitments"; the database has six.
 3. Two TIP candidate URLs return 404 (Salomon Hernandez Sr. `H4FL14166`, Casey Askar `H6FL22248`); LLF omits those links.
 4. The TIP row for the Senate independent is spelled "Neil Joseph Gilespie"; the state spells "Neil J. Gillespie".
