@@ -18,21 +18,21 @@ Owner rules, 2026-10-23. They are enforced by the build (`elections.py`, run by 
 - `python build.py --strict` exits with an error when any violation remains. **Build release zips with `--strict` once the list below is cleared.**
 - Existing exceptions require a written owner waiver; there are none today.
 
-## Current violations (R1): 17 candidates have no working TIP profile
-| Race | Candidates |
-|---|---|
-| Governor | David Jolly (Democratic nominee), Dean Ocean Abrams, Kathy Anderson, Charles Burkett, Jeffrey Peter "Dr. Jeff" Datto, Moliere "Moe" Dimanche, Scott Eckhard Jewett, Erik Morris, Frank J. Russo |
-| U.S. Senate | Neil J. Gillespie |
-| FL-06 | Alec Pavlik |
-| FL-14 | Salomon Hernandez Sr. (TIP URL returns 404), Keith Varian |
-| FL-15 | Angie Boone |
-| FL-19 | Alexandra Zakhvatayev |
-| FL-21 | David Fabrikant |
-| FL-22 | Casey Askar (TIP URL returns 404) |
+## Current violations (R1): 8 candidates have no working TIP profile
+Down from 17 after the governor roster and one-profile merge were applied to the TIP database on 2026-10-23 (all 10 governor tickets now have TIP profiles; Donalds has one profile with his grades).
 
-Cause: TIP's database has no candidate rows for these people (the governor roster is missing entirely, write-in candidates have no FEC IDs) or has rows whose pages return 404. The fix is on the TIP side: add or repair profiles for the full qualified roster. That is a production database write and needs your approval; the reviewable SQL for it is the item you approved earlier and is still to come.
+| Race | Candidate | Cause |
+|---|---|---|
+| U.S. Senate | Neil J. Gillespie | TIP entry is spelled "Neil Joseph Gilespie" with no FEC ID and no profile |
+| FL-06 | Alec Pavlik | write-in, no FEC ID, name-only entry |
+| FL-14 | Keith Varian | write-in, no FEC ID |
+| FL-14 | Salomon Hernandez Sr. | FEC ID `H4FL14166` is on the race entry but there is no candidate row, so the page 404s |
+| FL-15 | Angie Boone | write-in, no FEC ID |
+| FL-19 | Alexandra Zakhvatayev | write-in, no FEC ID |
+| FL-21 | David Fabrikant | write-in, no FEC ID |
+| FL-22 | Casey Askar | FEC ID `H6FL22248` on the race entry but no candidate row, so the page 404s |
 
-Until then the pages are live with "No TIP record yet" on those cards, which is the honest state but does not meet R1. If you want R1 to block publication starting now, the Jolly and governor pages should come down until TIP has profiles. Say so and I will.
+The fix is on the TIP side (create candidate rows for these eight and attach them to their race entries). It is a production database write, the same kind as the governor merge, and is the next item.
 
 ## Checks that run today
 | Check | Where |

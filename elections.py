@@ -525,10 +525,10 @@ def gov_page():
 <p class="small">1,471 likely midterm voters · telephone · margin of error ±2.81 points · 4% undecided. Reported by WLRN, Oct. 21, 2026, from the UNF release. In UNF's July poll Donalds led by five points. A single poll is a snapshot, not a forecast, and the gap is within about the margin of error.</p>
 <p class="small"><a href="https://www.wlrn.org/government-politics/2026-10-21/republicans-donalds-moody-hold-slim-leads-in-tightening-governor-us-senate-races-unf-polls-finds" rel="noopener">Source: WLRN ↗</a></p></div></div>
 <div><h2 class="h3">Read the reported feature</h2><p>The fundraising and polling story, with every number sourced and dated.</p><p><a class="btn" href="/learn/florida-governor-fundraising-polling-2026/">Read the analysis ↗</a></p></div></div></section>'''
-    rows = "".join(f'<tr><td>{e(c["name"])}</td><td>{e(c["party"])}</td><td>{e(c.get("running_mate") or "—")}</td><td>{"Primary: unopposed" if c["primary"] == "Unopposed" else ("Qualified" if c["status"] == "Qualified" else e(c["status"]))}</td><td><a href="{e(c["state_url"])}" rel="noopener">State record ↗</a></td></tr>' for c in others)
+    rows = "".join(f'<tr><td>{e(c["name"])}</td><td>{e(c["party"])}</td><td>{e(c.get("running_mate") or "—")}</td><td>{"Primary: unopposed" if c["primary"] == "Unopposed" else ("Qualified" if c["status"] == "Qualified" else e(c["status"]))}</td><td><a href="{e(c["state_url"])}" rel="noopener">State record ↗</a>{(" · " + '<a href="' + e(c["tip"]["url"]) + '" rel="noopener">TIP profile ↗</a>') if c.get("tip") and c["tip"].get("url") else ""}</td></tr>' for c in others)
     body += f'''<section class="band" id="others"><div class="wrap wide"><div class="kicker">The other eight tickets<i></i></div><h2 class="h3">Qualified governor tickets beyond the nominees</h2>
 <div class="tablewrap"><table class="data"><thead><tr><th>Candidate</th><th>Ballot designation</th><th>Running mate</th><th>Status</th><th>Record</th></tr></thead><tbody>{rows}</tbody></table></div>
-<p class="small">Write-in candidates are qualified under Florida law but do not appear as printed ballot choices. These tickets have no TIP record yet.</p></div></section>
+<p class="small">Write-in candidates are qualified under Florida law but do not appear as printed ballot choices. These tickets have TIP profiles but no recorded congressional acts, so they are not graded.</p></div></section>
 <section class="band cream" id="sources"><div class="wrap wide"><div class="kicker">Sources<i></i></div><p class="small meth">{e(_src_line())} Governor candidates file campaign finance with the state, not the FEC.</p>
 <p class="small"><a class="link teal" href="/about/election-methods/">Methods and corrections ↗</a></p></div></section>'''
     _wrapup(body, "Florida Governor Race 2026", "Florida's governor race: all 10 qualified tickets, public matching funds, Kalshi quotes, the latest poll and each campaign's stated plans, with sources.", ST_URL + "governor/", crumbs)
@@ -704,7 +704,7 @@ def gov_others():
     for c in others:
         if not (c.get("tip") and c["tip"].get("url")):
             violate("R1 no TIP profile", c["name"])
-    rows = "".join(f'<tr><td>{e(c["name"])}</td><td>{e(c["party"])}</td><td>{e(c.get("running_mate") or "—")}</td></tr>' for c in others)
+    rows = "".join(f'<tr><td>{('<a href="' + e(c["tip"]["url"]) + '" rel="noopener">' + e(c["name"]) + "</a>") if c.get("tip") and c["tip"].get("url") else e(c["name"])}</td><td>{e(c["party"])}</td><td>{e(c.get("running_mate") or "—")}</td></tr>' for c in others)
     return f'<div class="tablewrap"><table class="data"><thead><tr><th>Candidate</th><th>Designation</th><th>Running mate</th></tr></thead><tbody>{rows}</tbody></table></div>'
 
 def stats_delta():

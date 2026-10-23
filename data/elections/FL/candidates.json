@@ -1,5 +1,5 @@
 {
- "as_of_utc": "2026-10-23T15:50:29Z",
+ "as_of_utc": "2026-10-23T16:17:31Z",
  "issues": [
   {
    "slug": "data_bill_of_rights",
@@ -51,9 +51,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90433",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-FL-ABRAMS",
+   "tip_page_id": "GOV-FL-ABRAMS",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-ABRAMS",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T16:17Z"
+   }
   },
   {
    "id": "90612",
@@ -67,9 +92,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90612",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-FL-ANDERSON",
+   "tip_page_id": "GOV-FL-ANDERSON",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-ANDERSON",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T16:17Z"
+   }
   },
   {
    "id": "90630",
@@ -83,9 +133,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90630",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-FL-BURKETT",
+   "tip_page_id": "GOV-FL-BURKETT",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-BURKETT",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T16:17Z"
+   }
   },
   {
    "id": "89630",
@@ -99,9 +174,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89630",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-FL-DATTO",
+   "tip_page_id": "GOV-FL-DATTO",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-DATTO",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T16:17Z"
+   }
   },
   {
    "id": "88529",
@@ -115,9 +215,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88529",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-FL-DIMANCHE",
+   "tip_page_id": "GOV-FL-DIMANCHE",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-DIMANCHE",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T16:17Z"
+   }
   },
   {
    "id": "89042",
@@ -132,10 +257,10 @@
    "primary": "Won",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89042",
    "fec_candidate_id": "H2FL14186",
-   "tip_page_id": "GOV-FL-DONALDS",
+   "tip_page_id": "H2FL14186",
    "tip": {
-    "url": "https://theissuesparty.org/candidates/GOV-FL-DONALDS",
-    "grades_url": "https://theissuesparty.org/candidates/H2FL14186",
+    "url": "https://theissuesparty.org/candidates/H2FL14186",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -181,7 +306,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -196,9 +321,34 @@
    "status": "Qualified",
    "primary": "Unopposed",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=84076",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-FL-JEWETT",
+   "tip_page_id": "GOV-FL-JEWETT",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-JEWETT",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T16:17Z"
+   }
   },
   {
    "id": "89243",
@@ -212,9 +362,34 @@
    "status": "Qualified",
    "primary": "Won",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89243",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "H4FL13101",
+   "tip_page_id": "H4FL13101",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL13101",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T16:17Z"
+   }
   },
   {
    "id": "89939",
@@ -228,9 +403,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89939",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-FL-MORRIS",
+   "tip_page_id": "GOV-FL-MORRIS",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-MORRIS",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T16:17Z"
+   }
   },
   {
    "id": "89571",
@@ -244,9 +444,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89571",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-FL-RUSSO",
+   "tip_page_id": "GOV-FL-RUSSO",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-RUSSO",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T16:17Z"
+   }
   },
   {
    "id": "89955",
@@ -314,7 +539,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -355,7 +580,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -396,7 +621,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -455,7 +680,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -496,7 +721,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -537,7 +762,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -578,7 +803,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -649,7 +874,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -690,7 +915,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -731,7 +956,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -796,7 +1021,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -837,7 +1062,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -878,7 +1103,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -919,7 +1144,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -960,7 +1185,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1019,7 +1244,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1060,7 +1285,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1119,7 +1344,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1160,7 +1385,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1217,7 +1442,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1258,7 +1483,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1299,7 +1524,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1340,7 +1565,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1399,7 +1624,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1440,7 +1665,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1481,7 +1706,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1552,7 +1777,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1629,7 +1854,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1670,7 +1895,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1711,7 +1936,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1752,7 +1977,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1817,7 +2042,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1858,7 +2083,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1899,7 +2124,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1940,7 +2165,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -1981,7 +2206,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2052,7 +2277,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2093,7 +2318,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2164,7 +2389,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2205,7 +2430,7 @@
      }
     },
     "http_status": 404,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2246,7 +2471,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2343,7 +2568,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2384,7 +2609,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2425,7 +2650,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2466,7 +2691,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2507,7 +2732,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2548,7 +2773,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2589,7 +2814,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2660,7 +2885,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2725,7 +2950,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2766,7 +2991,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2807,7 +3032,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2848,7 +3073,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2889,7 +3114,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2930,7 +3155,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -2987,7 +3212,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3028,7 +3253,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3093,7 +3318,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3134,7 +3359,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3191,7 +3416,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3256,7 +3481,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3297,7 +3522,7 @@
      }
     },
     "http_status": 404,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3338,7 +3563,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3379,7 +3604,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3450,7 +3675,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3491,7 +3716,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3532,7 +3757,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3573,7 +3798,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3614,7 +3839,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3655,7 +3880,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3726,7 +3951,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3767,7 +3992,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3832,7 +4057,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3873,7 +4098,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3914,7 +4139,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -3955,7 +4180,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -4020,7 +4245,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -4061,7 +4286,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -4126,7 +4351,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   },
   {
@@ -4167,7 +4392,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T15:50Z"
+    "checked_at": "2026-10-23T16:17Z"
    }
   }
  ]
