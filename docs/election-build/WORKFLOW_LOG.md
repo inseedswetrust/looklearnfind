@@ -60,3 +60,14 @@ Times are order of events in one session on 2026-10-22 to 2026-10-23 (durations 
 |---|---|---|---|
 | 20 | Owner asked why Donalds shows grades in the article but not on TIP | confirmed: TIP's governor profile `GOV-FL-DONALDS` shows all six issues "Not graded"; the grades live on his congressional profile `H2FL14186` | D10: show grades only with a link to the TIP page where they are visible; link both profiles on the card |
 | 21 | Owner set two publishing rules (R1 candidate to TIP profile, R2 race to race link) | implemented as build-time autolink plus a violation report; `--strict` fails the build | D11: rules live in `docs/election-build/PUBLISHING_RULES.md`; 17 candidates have no working TIP profile, listed there |
+
+## 2026-10-23 · Round 1 Phase A (workflow and skills lock)
+- Baseline audit: four skills installed (`darkhorse-source-monitor`, `llf-delta-editorial`, `llf-factcheck-finalize`, `workflow-retrospective`), none overwritten; four added (`election-state-packet`, `llf-article-format`, `llf-election-render`, `llf-publication-qa`). `asset-manifest` kept as a script plus format. Reason: the other three are already scripts with a clear owner; a standalone skill would duplicate `make_manifest.py`.
+- Decision: the daily job fires at 12:00 and 13:00 UTC and `cron_run.sh` proceeds only when the New York hour is 08. Reason: `CRON_TZ` support on this shared host cannot be inspected (no cron binary or logs are visible in the jail), and a UTC pair is correct on both sides of the 2026-11-01 DST change.
+- Decision: a finished day folder is immutable; a rerun becomes `revisions/rN` and `latest.json` moves forward only. Reason: the order forbids overwriting historical snapshots. `--dry-run` now writes only under `dry_runs/`.
+- Found while testing: a nested-quote edit made on 2026-10-23 broke the previous-day lookup for a fresh data folder; caught by the new dry-run test and fixed before any unattended run.
+- Found: the Kalshi FL capture file was named by date and a rerun overwrote the 14:34Z capture. Fixed: timestamped capture names.
+- Found: Al Green lost the TX-18 runoff (news reports, search summary) and was never a TX-09 candidate; his row is now `not_on_ballot`. Haynes, Omar and Wahab are `on_ballot_news_only` until an official list is opened.
+- Found: the fact-check ledger had two malformed rows (FC-025, FC-047, a missing `value` column) that the new gate caught; fixed.
+- Blocked: AIPAC PAC direct contributions (Schedule B). `fetch_aipac_direct.py` is written; the public DEMO_KEY returned HTTP 429 and no personal OpenFEC key is available here.
+- Research: reporting digest built from five opened articles; unopened search-summary items are labeled and not to be used until verified.

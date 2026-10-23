@@ -21,3 +21,8 @@ Two or more comparable observations of the SAME venue + contract + quote type (u
 
 ## Return BLOCKED when
 the two observations are not the same contract and quote type, no sourced event times exist, or the only explanation available is a guess.
+
+## Contract (v1.0.0)
+**Owner** LLF editorial. **Type** instruction skill. **Input** two or more daily snapshots of the SAME venue, contract and quote kind. **Output** a `layout: report` draft using `[[v:]]` macros and `delta_chart`. **Fixtures** `content/learn/michigan-senate-delta-october-2026.html` (reference); the wrong "fell after the debate" claim it replaced is the standing counter-example. **QA gate** `llf-factcheck-finalize`. **Failure semantics** if the same-contract history is shorter than two days, return BLOCKED; never cite an event as the cause of a move.
+## Changelog
+1.0.0 (2026-10-23) first version.

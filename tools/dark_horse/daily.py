@@ -113,6 +113,27 @@ def fetch_polymarket(row, token, fetch, cap_dir, now):
                source_capture_sha256=sha(graw + ltraw + bkraw), fetch_status="ok" if price not in (None, "") else "no_quote")
 
 
+QUOTE_STALE_HOURS = 72
+
+
+def flag_stale(rows, now):
+    """quote_age_hours from the venue's own timestamp. No timestamp -> stale_quote 'unknown' (never silently fresh)."""
+    t_now = datetime.datetime.fromisoformat(now.replace("Z", "+00:00"))
+    for r in rows:
+        if r.get("fetch_status") != "ok":
+            r["quote_age_hours"], r["stale_quote"] = None, None
+            continue
+        ts = r.get("observed_at_utc")
+        try:
+            age = (t_now - datetime.datetime.fromisoformat(ts.replace("Z", "+00:00"))).total_seconds() / 3600
+        except Exception:
+            r["quote_age_hours"], r["stale_quote"] = None, "unknown"
+            continue
+        r["quote_age_hours"] = round(age, 1)
+        r["stale_quote"] = age > QUOTE_STALE_HOURS
+    return rows
+
+
 def _f(v):
     try:
         return float(v) if v not in (None, "") else None
@@ -145,6 +166,12 @@ def collect_markets(candidates, cmap, fetch, now, cap_dir, dry):
                 if row["fetch_status"] == "ok":
                     ok[provider] += 1
             except HttpError as e:
+                if e.code == 404:                       # the venue no longer lists this contract: record it, do not count it as an outage
+                    row["fetch_status"] = "market_not_found"
+                    row["error"] = str(e)[:200]
+                    time.sleep(0.15)
+                    rows.append(row)
+                    continue
                 row["fetch_status"] = "error"
                 row["error"] = str(e)[:200]
                 failed[provider] = str(e)[:200]
@@ -219,16 +246,26 @@ def deltas(today_rows, prev_rows):
 
 def run(day, dry=False, fetch=default_fetch, base=BASE, now=None):
     now = now or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    watch = [r for r in csv.DictReader(open(base / "watchlist.csv", encoding="utf-8-sig")) if r.get("monitor") == "yes"]
+    with open(base / "watchlist.csv", encoding="utf-8-sig") as _f:
+        watch = [r for r in csv.DictReader(_f) if r.get("monitor") == "yes"]
     cmap = load_json(base / "contract_map.json", {})
-    folder = Path(base) / "daily" / day
+    folder, rel = Path(base) / "daily" / day, f"daily/{day}"
+    rev = 1
+    if dry:                                          # a dry run never touches the day's real folder or its revision numbering
+        folder = rel_dir = Path(base) / "dry_runs" / f"{day}T{now[11:19].replace(':', '')}"
+        rel = f"dry_runs/{folder.name}"
+    while not dry and (folder / "manifest.json").exists():       # a finished day is immutable: a rerun becomes a new revision beside it
+        rev += 1
+        folder, rel = Path(base) / "daily" / day / "revisions" / f"r{rev}", f"daily/{day}/revisions/r{rev}"
     cap = folder / "captures"
     cap.mkdir(parents=True, exist_ok=True)
     cands = [c for c in watch if c.get("current_ballot_verified") == "yes"]
     skipped = [c["candidate_name"] for c in watch if c.get("current_ballot_verified") != "yes"]
     rows, errors, ok, tried, failed = collect_markets(cands, cmap, fetch, now, cap, dry)
+    flag_stale(rows, now)
     polls, pcov, perrs = collect_polls(cands, fetch, now, cap, dry)
     # previous day for same-contract comparison
+    # compare with the previous day's original (never a revision)
     days = sorted(d.name for d in (Path(base) / "daily").iterdir() if d.is_dir() and d.name < day) if (Path(base) / "daily").exists() else []
     prev_rows = load_json(Path(base) / "daily" / days[-1] / "markets.json", {}).get("rows", []) if days else []
     alerts = deltas(rows, prev_rows)
@@ -244,7 +281,7 @@ def run(day, dry=False, fetch=default_fetch, base=BASE, now=None):
         tmp.replace(folder / "markets.csv")
     atomic_write(folder / "polls.json", json.dumps({"date": day, "polls": polls, "coverage": pcov, "source_errors": perrs}, indent=1))
     atomic_write(folder / "alerts.json", json.dumps({"date": day, "threshold": CHANGE_THRESHOLD, "alerts": alerts}, indent=1))
-    manifest = {"date": day, "run_at_utc": now, "dry_run": dry, "watchlist_monitored": len(cands), "skipped_not_verified": skipped,
+    manifest = {"date": day, "revision": rev, "run_at_utc": now, "dry_run": dry, "watchlist_monitored": len(cands), "skipped_not_verified": skipped,
                 "market_rows": len(rows), "market_quotes_ok": ok, "market_errors": len(errors), "poll_rows": len(polls),
                 "captures": {p.name: sha(p.read_bytes()) for p in sorted(cap.glob("*")) if p.is_file()}}
     atomic_write(folder / "manifest.json", json.dumps(manifest, indent=1))
@@ -269,9 +306,11 @@ def run(day, dry=False, fetch=default_fetch, base=BASE, now=None):
                            "with_polls": sum(1 for v in pcov.values() if v.get("polls")), "no_poll_found": sum(1 for v in pcov.values() if v.get("status") == "no_poll_found")},
               "latest_pointer_updated": False}
     complete = (ok["kalshi"] + ok["polymarket"]) > 0 and not errors and not perrs     # a provider failure keeps the prior complete day as latest
-    if complete and not dry:
-        atomic_write(Path(base) / "latest.json", json.dumps({"date": day, "run_at_utc": now, "markets_path": f"daily/{day}/markets.json", "polls_path": f"daily/{day}/polls.json",
-                                                              "manifest_path": f"daily/{day}/manifest.json"}, indent=1))
+    cur = load_json(Path(base) / "latest.json", {})
+    not_older = (not cur) or (day, rev) >= (cur.get("date", ""), cur.get("revision", 1))      # the pointer never moves backward
+    if complete and not dry and not_older:
+        atomic_write(Path(base) / "latest.json", json.dumps({"date": day, "revision": rev, "run_at_utc": now, "markets_path": f"{rel}/markets.json", "polls_path": f"{rel}/polls.json",
+                                                              "manifest_path": f"{rel}/manifest.json"}, indent=1))
         status["latest_pointer_updated"] = True
     atomic_write(Path(base) / "status.json", json.dumps(status, indent=1))
     return status, manifest

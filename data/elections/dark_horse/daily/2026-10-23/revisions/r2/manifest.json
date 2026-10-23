@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-23",
+ "revision": 2,
+ "run_at_utc": "2026-10-23T22:53:50Z",
+ "dry_run": false,
+ "watchlist_monitored": 24,
+ "skipped_not_verified": [
+  "Aisha Wahab",
+  "Frederick Douglass Haynes III",
+  "Ilhan Omar",
+  "Al Green"
+ ],
+ "market_rows": 48,
+ "market_quotes_ok": {
+  "kalshi": 21,
+  "polymarket": 1
+ },
+ "market_errors": 0,
+ "poll_rows": 70,
+ "captures": {
+  "kalshi_KXHOUSERACE-CA17-26-D.json": "26d20be2f5a7b7c7c3c336e386bba423ab5ce99d24abcd13dd2fbe2896e3ba01",
+  "kalshi_KXHOUSERACE-CO01-26-D.json": "2e805bb5d11b2e17499bef6b3a797987413b3c30e99d741b1d671729a9c9221c",
+  "kalshi_KXHOUSERACE-CT01-26-D.json": "ed32f42fa69f49d25151fa7817625824bfd197960d14df72177959d552af0310",
+  "kalshi_KXHOUSERACE-IL03-26-D.json": "549eef040d0938a59a41f5c4a3859571c74308591f07c7d875726115c49d2fcd",
+  "kalshi_KXHOUSERACE-IL07-26-D.json": "777d727c9ac8e1d40d59281fe65ef286efc3e6b361c90188a5149f1b85112449",
+  "kalshi_KXHOUSERACE-IL09-26-D.json": "a9d20964c03a1fb09581727ab13be13bf0f92dad2ab7827cd7bcbe03bc62e291",
+  "kalshi_KXHOUSERACE-MA07-26-D.json": "278c71fb5a8e41e52d69f5e8a6ea57a9ad0ef23fabfd5bcb995b23a78d00012d",
+  "kalshi_KXHOUSERACE-MI12-26-D.json": "e3d950c7ecff896bc764ef9e27799e2dc48d06c6bb12a14cf4eddf9c538f3fdd",
+  "kalshi_KXHOUSERACE-MI13-26-D.json": "e78b307d4c3f8415856dc07d21e999a26b1ea4b9b72042ba9f155b84595f3405",
+  "kalshi_KXHOUSERACE-NJ11-26-D.json": "baa7c98afc836186d43a485196f379cd08490ea3a4de24e5f9ff890082b6c69f",
+  "kalshi_KXHOUSERACE-NJ12-26-D.json": "bf4bd73257bdec337e5eb2ab34971c9b9d1c30d38f4d70693acc8ddd79d39998",
+  "kalshi_KXHOUSERACE-NY07-26-D.json": "4f5d1d29e1cb57a1585b0a35fa720625fb9c30041611db1de4af6a3cdd1b1a24",
+  "kalshi_KXHOUSERACE-NY10-26-D.json": "8f346bf90d06e677b7ae713a2fe9cca4cba58ecb7c9b49761b1ed1010bca9eda",
+  "kalshi_KXHOUSERACE-NY13-26-D.json": "c1345f89ebf239d96d0baab4a0cbd896e458ebbe0c7cbc2451a3a50685f15458",
+  "kalshi_KXHOUSERACE-NY14-26-D.json": "cbe29f6acb532c95116f6d4a4589d7a53b37ed3fc4365fcf21564b9f5a64d6a1",
+  "kalshi_KXHOUSERACE-PA03-26-D.json": "51a49bd76d899ad2b692f55234767be30086ddd0803f93cc225bd970ab19da69",
+  "kalshi_KXHOUSERACE-PA12-26-D.json": "7fa1de480cb5fda86798eb274a0fe2a9579e2c2c100ed3cf61b45d65cf59d3a3",
+  "kalshi_SENATEFLS-26-D.json": "a2147bd0a0ce3446169510356a7b815bc31b2a28c9ad5e92ce804c23e4c8ced8",
+  "kalshi_SENATEIL-26-D.json": "edad9891cc310a74a42393f23463464d6d4e8711333557f04192b4f9b01f0e2d",
+  "kalshi_SENATEMI-26-D.json": "ab6062ef801193a8041b16bb60f13100e950b12a2558569fbfd290e45b596712",
+  "kalshi_SENATEMN-26-D.json": "88aac03e355ba8882bac7741f01ae41cfe99be3ae9a4686f072c4b1a333414e9",
+  "polymarket_1120352582876714.json": "396dddd5b9d3e762e0d8ef62d0cc0640dedab7ff8b6c81185be5cb848cf42024",
+  "votehub_us-representative.json": "b7a569fb017bae85c09006f6e42b85e5e05f150d900271a69e6158be5e02e90e",
+  "votehub_us-senator.json": "ee5084283a4180a0ecfec77be0270c3059d71308f9ba809df6f842be35c2ea5f"
+ }
+}

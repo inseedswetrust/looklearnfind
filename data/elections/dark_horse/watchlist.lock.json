@@ -1,0 +1,19 @@
+{
+ "contract": "darkhorse-watchlist",
+ "version": "1.1.0",
+ "locked_at_utc": "2026-10-23T22:50:06Z",
+ "rows": 28,
+ "statuses": {
+  "verified": 6,
+  "partial": 4,
+  "unverified": 2,
+  "background": 16
+ },
+ "ranking_field": null,
+ "ballot_check": {
+  "not_on_ballot": 1,
+  "on_ballot_news_only": 3,
+  "on_ballot_official": 24
+ },
+ "rule": "A row is `verified` only when a documented criterion has a cited source. No row is ranked, scored or recommended."
+}

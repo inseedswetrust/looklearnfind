@@ -15,3 +15,8 @@ description: After each state, story or daily-monitor incident, record what work
 
 ## Never
 rewrite an approved skill, alter a truth standard or loosen a publishing rule automatically.
+
+## Contract (v1.0.0)
+**Owner** LLF production. **Type** instruction skill; proposes changes, never edits a skill or threshold itself. **Input** the workflow ledger (`data/elections/workflow_ledger.jsonl`), the fact-check ledger and the correction log of a shipped article. **Output** a dated entry in `docs/election-build/WORKFLOW_LOG.md` plus a separate proposal list for owner approval. **Fixtures** none yet (first retrospective is due after the first Phase C article ships). **Failure semantics** a missing ledger is reported as a gap, not reconstructed.
+## Changelog
+1.0.0 (2026-10-23) first version.

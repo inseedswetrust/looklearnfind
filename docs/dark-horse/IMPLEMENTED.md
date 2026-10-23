@@ -18,22 +18,22 @@
 
 ## Watchlist: what the evidence supports (not a ranking)
 
-Criteria: C1 incumbent defeated (cited), C2 FEC-documented United Democracy Project (UDP) spending against the nominee or for the defeated opponent, C3 establishment-endorsed opponent (cited). Only rows with a verified criterion are `meets`; every other row is a background research lead. UDP independent expenditures come from OpenFEC Schedule E for the 2026 cycle (de-duplicated, 24/48-hour notices preferred). **AIPAC PAC itself reported no independent expenditures.** Direct AIPAC PAC contributions (Schedule B) and other AIPAC-affiliated committees were not pulled.
+Criteria: C1 incumbent defeated (cited), C2 FEC-documented United Democracy Project (UDP) spending against the nominee or for the defeated opponent, C3 establishment-endorsed opponent (cited). Only rows with a verified criterion are `verified`; every other row is a background research lead. UDP independent expenditures come from OpenFEC Schedule E for the 2026 cycle (de-duplicated, 24/48-hour notices preferred). **AIPAC PAC itself reported no independent expenditures.** Direct AIPAC PAC contributions (Schedule B) and other AIPAC-affiliated committees were not pulled.
 
 | Candidate | Race | Status | Primary outcome (source) | UDP spending (FEC) | Establishment opponent |
 |---|---|---|---|---|---|
-| Abdul El-Sayed | MI SEN | meets | Won the Aug 4 2026 Democratic primary 48.4% to Haley Stevens 47.6% (AP called Aug 5) | UDP independent expenditures in the 2026 cycle (FEC): opposed El-Sayed $20.6M (2026-06-30 to 2026-10-21), supported Stevens $10.5M | Opponent Stevens described as the moderate, establishment-backed wing (Wikipedia) |
+| Abdul El-Sayed | MI SEN | verified | Won the Aug 4 2026 Democratic primary 48.4% to Haley Stevens 47.6% (AP called Aug 5) | UDP independent expenditures in the 2026 cycle (FEC): opposed El-Sayed $20.6M (2026-06-30 to 2026-10-21), supported Stevens $10.5M | Opponent Stevens described as the moderate, establishment-backed wing (Wikipedia) |
 | La Shawn Ford | IL HOUSE-07 | partial | Democratic nominee for IL-07 (Wikipedia); vote shares not retrieved | UDP supported the defeated rival Conyears-Ervin $5.0M (2026-02-10 to 2026-03-10) (FEC) | no: retiring Rep. Danny Davis endorsed Ford (Wikipedia) |
 | Aisha Wahab | CA HOUSE-14 | partial | Won the Aug 18 2026 CA-14 special runoff with 53.1% over Melissa Hernandez; both on the November full-term bal | UDP opposed Wahab $1.6M and supported Hernandez $825K (2026-08-04 to 2026-08-11) (FEC). Wikipedia reports 'more than $5 million' from two AIPAC-affili | not documented |
-| Brad Lander | NY HOUSE-10 | meets | Won the Jun 23 2026 primary 65.8% to 34.0%, defeating incumbent Dan Goldman | none found in FEC UDP data (2026 cycle) | Goldman is the incumbent; leadership endorsement of Goldman not confirmed |
+| Brad Lander | NY HOUSE-10 | verified | Won the Jun 23 2026 primary 65.8% to 34.0%, defeating incumbent Dan Goldman | none found in FEC UDP data (2026 cycle) | Goldman is the incumbent; leadership endorsement of Goldman not confirmed |
 | Analilia Mejia | NJ HOUSE-11 | partial | Won the Feb 5 2026 special primary 29.3% to Tom Malinowski 27.6%; won the Apr 16 special general; sworn in Apr | UDP opposed her rival Malinowski $4.7M (2026-01-17 to 2026-02-02) (FEC); no UDP spending for or against Mejia | not documented |
-| Darializa Avila Chevalier | NY HOUSE-13 | meets | Defeated incumbent Adriano Espaillat 48.6% to 45.2% in the Jun 23 2026 primary | none found in FEC UDP data (2026 cycle) | not documented |
-| Melat Kiros | CO HOUSE-01 | meets | Defeated 15-term incumbent Diana DeGette in the Jun 30 2026 primary by over 20,000 votes | none found in FEC UDP data (2026 cycle) | not documented |
+| Darializa Avila Chevalier | NY HOUSE-13 | verified | Defeated incumbent Adriano Espaillat 48.6% to 45.2% in the Jun 23 2026 primary | none found in FEC UDP data (2026 cycle) | not documented |
+| Melat Kiros | CO HOUSE-01 | verified | Defeated 15-term incumbent Diana DeGette in the Jun 30 2026 primary by over 20,000 votes | none found in FEC UDP data (2026 cycle) | not documented |
 | Claire Valdez | NY HOUSE-07 | partial | Won the Jun 23 2026 primary 56.1% to Antonio Reynoso 35.8% | none found in FEC UDP data (2026 cycle) | Reynoso endorsed by Velazquez and WFP: a factional contest, not a unanimous establishment |
 | William Lawrence | MI HOUSE-07 | unverified | Not verified in this pass (no source retrieved) | not checked | unknown |
-| Donavan McKinney | MI HOUSE-13 | meets | Defeated incumbent Shri Thanedar 51.9% to 48.1% in the Aug 4 2026 primary | none found in FEC UDP data (2026 cycle) | not documented |
+| Donavan McKinney | MI HOUSE-13 | verified | Defeated incumbent Shri Thanedar 51.9% to 48.1% in the Aug 4 2026 primary | none found in FEC UDP data (2026 cycle) | not documented |
 | Randy Villegas | CA HOUSE-22 | unverified | Top-two result not verified in this pass; TIP shows an official record on the November ballot | not checked | unknown |
-| Luke Bronin | CT HOUSE-01 | meets | Defeated incumbent John Larson at the May 11 2026 convention and won the Aug 11 2026 primary | none found in FEC UDP data (2026 cycle) | no: Bronin had the state party endorsement |
+| Luke Bronin | CT HOUSE-01 | verified | Defeated incumbent John Larson at the May 11 2026 convention and won the Aug 11 2026 primary | none found in FEC UDP data (2026 cycle) | no: Bronin had the state party endorsement |
 
 Prior leads, corrected: Ford was endorsed by retiring Rep. Danny Davis; Mejia benefited from spending against Malinowski, not for her; Bronin had the state party endorsement; no UDP spending for or against Biss, Lander or Stratton appears in the FEC data (other committees not checked). For Wahab, Wikipedia says more than $5 million from two AIPAC-affiliated super PACs backed Hernandez, while UDP's FEC total in that race is $0.8M supporting Hernandez and $1.6M opposing Wahab: unreconciled.
 
@@ -41,44 +41,44 @@ Prior leads, corrected: Ford was endorsed by retiring Rep. Danny Davis; Mejia be
 
 | Race | Candidate | TIP ID | Ballot verified | Status | Kalshi | Polymarket | Polls (VoteHub) |
 |---|---|---|---|---|---|---|---|
-| CA HOUSE-11 | Scott Wiener | H8CA11116 | yes | lead | unavailable | ok 0.75 | 2 (ok) |
+| CA HOUSE-11 | Scott Wiener | H8CA11116 | yes | background | unavailable | ok 0.75 | 2 (ok) |
 | CA HOUSE-14 | Aisha Wahab | none | no | partial | not_monitored | not_monitored | not_monitored (not_monitored) |
-| CA HOUSE-17 | Ro Khanna | H4CA12055 | yes | lead | ok (party_winner) 0.986 | unavailable | 0 (no_poll_found) |
+| CA HOUSE-17 | Ro Khanna | H4CA12055 | yes | background | ok (party_winner) 0.986 | unavailable | 0 (no_poll_found) |
 | CA HOUSE-22 | Randy Villegas | H6CA22190 | yes | unverified | unavailable | unavailable | 1 (ok) |
-| CO HOUSE-01 | Melat Kiros | H6CO01273 | yes | meets | ok (party_winner) 0.973 | unavailable | 0 (no_poll_found) |
-| CT HOUSE-01 | Luke Bronin | H6CT01206 | yes | meets | ok (party_winner) 0.955 | unavailable | 0 (no_poll_found) |
-| FL SEN | Angie Nixon | S6FL00830 | yes | lead | ok (party_winner) 0.093 | unavailable | 16 (ok) |
-| IL HOUSE-03 | Delia Ramirez | H2IL03162 | yes | lead | ok (party_winner) 0.97 | unavailable | 0 (no_poll_found) |
+| CO HOUSE-01 | Melat Kiros | H6CO01273 | yes | verified | ok (party_winner) 0.973 | unavailable | 0 (no_poll_found) |
+| CT HOUSE-01 | Luke Bronin | H6CT01206 | yes | verified | ok (party_winner) 0.955 | unavailable | 0 (no_poll_found) |
+| FL SEN | Angie Nixon | S6FL00830 | yes | background | ok (party_winner) 0.093 | unavailable | 16 (ok) |
+| IL HOUSE-03 | Delia Ramirez | H2IL03162 | yes | background | ok (party_winner) 0.97 | unavailable | 0 (no_poll_found) |
 | IL HOUSE-07 | La Shawn Ford | H6IL07354 | yes | partial | ok (party_winner) 0.956 | unavailable | 0 (no_poll_found) |
-| IL HOUSE-09 | Daniel Biss | H6IL09228 | yes | lead | ok (party_winner) 0.95 | unavailable | 0 (no_poll_found) |
-| IL SEN | Juliana Stratton | S6IL00458 | yes | lead | ok (party_winner) 0.993 | unavailable | 2 (ok) |
-| MA HOUSE-07 | Ayanna Pressley | H8MA07032 | yes | lead | ok (party_winner) 0.99 | unavailable | 0 (no_poll_found) |
+| IL HOUSE-09 | Daniel Biss | H6IL09228 | yes | background | ok (party_winner) 0.95 | unavailable | 0 (no_poll_found) |
+| IL SEN | Juliana Stratton | S6IL00458 | yes | background | ok (party_winner) 0.993 | unavailable | 2 (ok) |
+| MA HOUSE-07 | Ayanna Pressley | H8MA07032 | yes | background | ok (party_winner) 0.99 | unavailable | 0 (no_poll_found) |
 | MI HOUSE-07 | William Lawrence | H6MI07298 | yes | unverified | unavailable | unavailable | 2 (ok) |
-| MI HOUSE-12 | Rashida Tlaib | H8MI13250 | yes | lead | ok (party_winner) 0.982 | unavailable | 0 (no_poll_found) |
-| MI HOUSE-13 | Donavan McKinney | H6MI13254 | yes | meets | ok (party_winner) 0.962 | unavailable | 0 (no_poll_found) |
-| MI SEN | Abdul El-Sayed | S6MI00418 | yes | meets | ok (party_winner) 0.68 | unavailable | 39 (ok) |
-| MN HOUSE-05 | Ilhan Omar | H8MN05239 | owner_supplied_only | lead | not_monitored | not_monitored | not_monitored (not_monitored) |
-| MN SEN | Peggy Flanagan | S6MN00440 | yes | lead | ok (party_winner) 0.85 | unavailable | 8 (ok) |
+| MI HOUSE-12 | Rashida Tlaib | H8MI13250 | yes | background | ok (party_winner) 0.982 | unavailable | 0 (no_poll_found) |
+| MI HOUSE-13 | Donavan McKinney | H6MI13254 | yes | verified | ok (party_winner) 0.962 | unavailable | 0 (no_poll_found) |
+| MI SEN | Abdul El-Sayed | S6MI00418 | yes | verified | ok (party_winner) 0.68 | unavailable | 39 (ok) |
+| MN HOUSE-05 | Ilhan Omar | H8MN05239 | owner_supplied_only | background | not_monitored | not_monitored | not_monitored (not_monitored) |
+| MN SEN | Peggy Flanagan | S6MN00440 | yes | background | ok (party_winner) 0.85 | unavailable | 8 (ok) |
 | NJ HOUSE-11 | Analilia Mejia | H6NJ11286 | yes | partial | ok (party_winner) 0.976 | unavailable | 0 (no_poll_found) |
-| NJ HOUSE-12 | Adam Hamawy | H6NJ12417 | yes | lead | ok (party_winner) 0.962 | unavailable | 0 (no_poll_found) |
+| NJ HOUSE-12 | Adam Hamawy | H6NJ12417 | yes | background | ok (party_winner) 0.962 | unavailable | 0 (no_poll_found) |
 | NY HOUSE-07 | Claire Valdez | H6NY07214 | yes | partial | ok (party_winner) 0.98 | unavailable | 0 (no_poll_found) |
-| NY HOUSE-10 | Brad Lander | H6NY10176 | yes | meets | ok (party_winner) 0.972 | unavailable | 0 (no_poll_found) |
-| NY HOUSE-13 | Darializa Avila Chevalier | H6NY13279 | yes | meets | ok (party_winner) 0.981 | unavailable | 0 (no_poll_found) |
-| NY HOUSE-14 | Alexandria Ocasio-Cortez | H8NY15148 | yes | lead | ok (party_winner) 0.971 | unavailable | 0 (no_poll_found) |
-| PA HOUSE-03 | Chris Rabb | H6PA03203 | yes | lead | ok (party_winner) 0.989 | unavailable | 0 (no_poll_found) |
-| PA HOUSE-12 | Summer Lee | H2PA18200 | yes | lead | ok (party_winner) 0.987 | unavailable | 0 (no_poll_found) |
-| TX HOUSE-09 | Al Green | H4TX09095 | no | lead | not_monitored | not_monitored | not_monitored (not_monitored) |
-| TX HOUSE-30 | Frederick Douglass Haynes III | none | no | lead | not_monitored | not_monitored | not_monitored (not_monitored) |
+| NY HOUSE-10 | Brad Lander | H6NY10176 | yes | verified | ok (party_winner) 0.972 | unavailable | 0 (no_poll_found) |
+| NY HOUSE-13 | Darializa Avila Chevalier | H6NY13279 | yes | verified | ok (party_winner) 0.981 | unavailable | 0 (no_poll_found) |
+| NY HOUSE-14 | Alexandria Ocasio-Cortez | H8NY15148 | yes | background | ok (party_winner) 0.971 | unavailable | 0 (no_poll_found) |
+| PA HOUSE-03 | Chris Rabb | H6PA03203 | yes | background | ok (party_winner) 0.989 | unavailable | 0 (no_poll_found) |
+| PA HOUSE-12 | Summer Lee | H2PA18200 | yes | background | ok (party_winner) 0.987 | unavailable | 0 (no_poll_found) |
+| TX HOUSE-09 | Al Green | H4TX09095 | no | background | not_monitored | not_monitored | not_monitored (not_monitored) |
+| TX HOUSE-30 | Frederick Douglass Haynes III | none | no | background | not_monitored | not_monitored | not_monitored (not_monitored) |
 
 ## Sample real rows
 
 | Venue | Candidate | Contract | Kind | Quote type | Price | Bid | Ask | Volume |
 |---|---|---|---|---|---|---|---|---|
-| polymarket | Scott Wiener | 112035258287671416806059 | candidate_individual | last_trade | 0.75 | 0.77 | 0.79 | 7149.002751 |
-| kalshi | Abdul El-Sayed | SENATEMI-26-D | party_winner | last_trade | 0.68 | 0.68 | 0.69 | 3777672.54 |
+| polymarket | Scott Wiener | 112035258287671416806059 | candidate_individual | last_trade | 0.75 | 0.75 | 0.8 | 7204.394056000001 |
+| kalshi | Abdul El-Sayed | SENATEMI-26-D | party_winner | last_trade | 0.68 | 0.68 | 0.69 | 3787977.52 |
 | kalshi | La Shawn Ford | KXHOUSERACE-IL07-26-D | party_winner | last_trade | 0.956 | 0.966 | 0.993 | 34.03 |
-| kalshi | Daniel Biss | KXHOUSERACE-IL09-26-D | party_winner | last_trade | 0.95 | 0.966 | 0.988 | 1971.0 |
-| kalshi | Brad Lander | KXHOUSERACE-NY10-26-D | party_winner | last_trade | 0.972 | 0.969 | 0.99 | 633.75 |
+| kalshi | Daniel Biss | KXHOUSERACE-IL09-26-D | party_winner | last_trade | 0.95 | 0.963 | 0.986 | 1971.0 |
+| kalshi | Brad Lander | KXHOUSERACE-NY10-26-D | party_winner | last_trade | 0.972 | 0.969 | 0.985 | 633.75 |
 
 ## Skills (Claude Code)
 - `.claude/skills/darkhorse-source-monitor/SKILL.md`
@@ -87,14 +87,14 @@ Prior leads, corrected: Ford was endorsed by retiring Rep. Danny Davis; Mejia be
 - `.claude/skills/workflow-retrospective/SKILL.md`
 
 ## Daily job proof
-- Host: LLF hosting account (ascendan@65.181.121.38), private folder `~/llf-data/dark_horse` (mode 700), Python 3.9.25.
-- Crontab installed 2026-10-23 (the account had no crontab before; backup `crontab.backup-20261023`): `CRON_TZ=America/New_York`, then `0 8 * * *` running `daily.py`, `alert_if_stale.py` and a copy of `status.json` to the public web folder.
-- The exact command was run by hand on the server at 18:45 UTC and succeeded (21 Kalshi, 1 Polymarket, 70 poll rows, exit 0, public status file written).
-- **Status URL (live now):** https://looklearnfind.com/elections/2026/dark-horse/status.json
-- Staleness: `alert_if_stale.py` exits 1 and prints when a source is over 48 hours old; cron mails the output to the account contact (no MAILTO set).
+- Host: LLF hosting account (ascendan@65.181.121.38), private folder `~/llf-data/dark_horse` (mode 700), Python 3.9.25, server clock UTC.
+- Crontab (updated 2026-10-23 after a DST review; backups `crontab.backup-20261023` and `-b`): `0 12 * * *` and `0 13 * * *` UTC, both running `tools/dark_horse/cron_run.sh`, which proceeds only when the New York hour is 08. 08:00 EDT is 12:00Z until 2026-11-01 and 08:00 EST is 13:00Z after, so exactly one of the two fires each day on either side of the change and `CRON_TZ` support is not needed.
+- Proved by hand on the server: the guard skips at 18 ET and at an overridden hour 09; a dry run at an overridden hour 08 runs the job body, writes only `dry_runs/` and leaves `latest.json` alone; the production body (`daily.py`, `alert_if_stale.py`, status copy) ran at 22:54Z with exit 0 (21 Kalshi, 1 Polymarket, 70 poll rows, 0 errors) as revision r2 beside the untouched first run.
+- **Status URL (live):** https://looklearnfind.com/elections/2026/dark-horse/status.json
+- Staleness: `alert_if_stale.py` exits 1 and prints when a source is over 48 hours old; the public `status.json` shows each source's `stale` flag. No e-mail is sent (no MAILTO is set: adding one would send mail from the account and needs owner approval).
 
 ## What is not proven
-- No unattended scheduled run has happened yet. After 12:00 UTC on 2026-10-24 (08:00 EDT) check `ls ~/llf-data/dark_horse/data/elections/dark_horse/daily` and `tail ~/llf-data/dark_horse/logs/daily.log`. This host's cron may not honor `CRON_TZ`; if the run lands at the wrong hour, replace it with a UTC time (12:00 UTC until Nov 1, 13:00 UTC after).
+- No unattended scheduled run has happened yet. After 12:00 UTC on 2026-10-24 (08:00 EDT) check `ls ~/llf-data/dark_horse/data/elections/dark_horse/daily` for a `2026-10-24` folder, `tail ~/llf-data/dark_horse/logs/cron.log ~/llf-data/dark_horse/logs/daily.log`, and `python3 ~/llf-data/dark_horse/tools/dark_horse/verify_day.py`. Status: PENDING_UNATTENDED.
 - Server data and repo data are separate. `tools/dark_horse/pull_from_server.sh` backs the server folders up into the repo; `sync_to_server.sh` pushes mapping changes.
 - VoteHub licensing, and Polymarket terms for the owner, were not verified; read access works from this network and from the server.
 - 17 of 24 monitored races have no poll. Monitored races with no Kalshi market: Scott Wiener, Randy Villegas, William Lawrence.

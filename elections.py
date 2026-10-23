@@ -662,7 +662,7 @@ def dark_horse_status_page():
     def cl(x):
         return {"ok": "quote", "unavailable": "no market", "no_market": "no market", "not_monitored": "not monitored", "no_poll_found": "no poll found"}.get(x, x)
     body = "".join(
-        f'<tr><td>{e(r["state"])} {e(r["race"])}</td><td>{e(r["candidate_name"])}</td><td>{e(r["dark_horse_status"])}</td><td>{e(r["current_ballot_verified"])}</td>'
+        f'<tr><td>{e(r["state"])} {e(r["race"])}</td><td>{e(r["candidate_name"])}</td><td>{e(r["lock_status"])}</td><td>{e(r["nov3_general_status"])}</td>'
         f'<td>{cl(r["kalshi"])}{(" · " + e(r["kalshi_contract_kind"])) if r["kalshi"] == "ok" else ""}</td><td>{cl(r["polymarket"])}</td><td>{e(str(r["polls_votehub"]))}</td><td>{cl(r["poll_status"])}</td></tr>'
         for r in rows)
     cv = st["coverage"]
@@ -670,8 +670,8 @@ def dark_horse_status_page():
 <h1 class="display h1r">Dark-horse monitor: <em>coverage</em></h1><p class="dek">What the daily collector found for each watchlisted race: market quotes, polls and gaps. This is a coverage report for reporters. It does not rank or recommend candidates, and market prices are not forecasts.</p>
 <p class="meta"><span>Last run {e(st["last_run_date"])}</span><span>{cv["watchlist_monitored"]} races monitored</span></p></div></section>
 <section class="band cream"><div class="wrap"><h2 class="h3">Sources</h2><div class="tablewrap"><table class="data"><thead><tr><th>Source</th><th>Last success (UTC)</th><th>State</th><th>Last error</th></tr></thead><tbody>{src}</tbody></table></div>
-<h2 class="h3" style="margin-top:26px">Coverage by race</h2><div class="tablewrap"><table class="data"><thead><tr><th>Race</th><th>Candidate</th><th>Dark-horse status</th><th>Ballot verified</th><th>Kalshi</th><th>Polymarket</th><th>Polls</th><th>Poll status</th></tr></thead><tbody>{body}</tbody></table></div>
-<p class="small">Kalshi contracts for House and Senate races resolve on the party of the person sworn in and are labeled with the candidate's name; they are not named-candidate contracts. Polymarket contracts shown are individual-winner contracts. Polls come from VoteHub's API (beta) with the original poll link and sponsor; absence of a poll is "no poll found", not zero. Dark-horse status "meets" means a documented criterion was verified; every other row is a background research lead.</p></div></section>'''
+<h2 class="h3" style="margin-top:26px">Coverage by race</h2><div class="tablewrap"><table class="data"><thead><tr><th>Race</th><th>Candidate</th><th>Evidence status</th><th>Nov 3 ballot</th><th>Kalshi</th><th>Polymarket</th><th>Polls</th><th>Poll status</th></tr></thead><tbody>{body}</tbody></table></div>
+<p class="small">Kalshi contracts for House and Senate races resolve on the party of the person sworn in and are labeled with the candidate's name; they are not named-candidate contracts. Polymarket contracts shown are individual-winner contracts. Polls come from VoteHub's API (beta) with the original poll link and sponsor; absence of a poll is "no poll found", not zero. Status "verified" means a documented criterion has a cited source; "partial", "unverified" and "background" rows are research leads. Nothing here is a ranking.</p></div></section>'''
     API["shell"]("Dark-horse monitor coverage", "Coverage and freshness of the daily market and poll collection for watchlisted races.", "/elections/2026/dark-horse/status/", html, nav="politics",
                 css=("elections",), js=("common",), noindex=True, sitemap=False)
 

@@ -16,8 +16,10 @@ Nothing in this flow publishes political analysis on its own. Collected fields (
 Creative agents (storyboards, assets) are separate and not needed by the daily collector.
 
 ## Schedule
-- Server: `~/llf-data/dark_horse` on the LLF hosting account; cron `0 8 * * *` with `CRON_TZ=America/New_York` (storage in UTC, folders named by New York date). If the host ignores `CRON_TZ`: use 12:00 UTC until 2026-11-01, then 13:00 UTC.
+- Server: `~/llf-data/dark_horse` on the LLF hosting account. Cron fires `tools/dark_horse/cron_run.sh` at 12:00 and 13:00 UTC; the script proceeds only when the New York hour is 08 (storage in UTC, folders named by New York date). This is correct on both sides of the 2026-11-01 daylight-saving change and does not rely on `CRON_TZ`.
+- A finished day folder is immutable: a manual rerun becomes `daily/<date>/revisions/rN/` and `latest.json` moves to it (never backward). `--dry-run` writes only under `dry_runs/`.
 - More frequent collection only with owner approval. No retry loop on HTTP 429.
+- Verify any folder: `python3 tools/dark_horse/verify_day.py [folder]` (capture hashes, leftover temp files, secrets).
 
 ## Backup and recovery
 - Daily folders are append-only. `tools/dark_horse/pull_from_server.sh` copies them into `data/elections/dark_horse/server_pull/` (raw captures git-ignored; manifests and normalized data commit-able).

@@ -3,7 +3,7 @@
 
     python3 tools/elections/fetch_kalshi.py
 
-Writes data/elections/FL/markets.json and captures/kalshi_<date>.json (raw).
+Writes data/elections/FL/markets.json and captures/kalshi_fl_<UTC timestamp>.json (one file per capture, never overwritten) (raw).
 Rules: quotes are market-implied prices for a contract, not forecasts. We keep bid, ask, last, volume, open interest, rules text,
 contract title and the capture timestamp. Nothing is smoothed or interpolated.
 """
@@ -46,6 +46,6 @@ for race, et in events.items():
          "previous": m.get("previous_price_dollars"), "volume": m.get("volume_fp") or m.get("volume"), "volume_24h": m.get("volume_24h_fp"),
          "open_interest": m.get("open_interest_fp"), "rules": m.get("rules_primary"), "close_time": m.get("close_time")} for m in mk]}
     time.sleep(0.2)
-(D / "captures" / f"kalshi_fl_{now[:10]}.json").write_text(json.dumps(raw))
+(D / "captures" / ("kalshi_fl_" + now.replace(":", "").replace("-", "") + ".json")).write_text(json.dumps(raw))
 (D / "markets.json").write_text(json.dumps({"captured_at_utc": now, "source": "Kalshi public API v2 (api.elections.kalshi.com)", "races": out}, indent=1))
 print({k: (len(v.get("contracts", [])) if "contracts" in v else v.get("error")) for k, v in out.items()})

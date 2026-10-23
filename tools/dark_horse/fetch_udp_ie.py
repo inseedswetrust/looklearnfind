@@ -9,6 +9,9 @@ Direct AIPAC PAC contributions (Schedule B) are NOT included; the file says so.
 """
 import json, os, time, datetime, urllib.parse, urllib.request
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from schedule_e import dedupe
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data/elections/dark_horse"
 KEY = os.environ["FEC_API_KEY"]
@@ -33,21 +36,19 @@ for name, cid in COMMITTEES.items():
         if page >= j["pagination"]["pages"]: break
         page += 1
     # transaction level (notices + periodic), de-duplicated on (transaction_id, amount, date)
-    tx, last_idx, last_date = {}, None, None
+    raw_rows, last_idx, last_date = [], None, None
     while True:
         q = dict(committee_id=cid, cycle=2026, per_page=100, sort="-expenditure_date", most_recent="true")
         if last_idx: q.update(last_index=last_idx, last_expenditure_date=last_date)
         j = get("/schedules/schedule_e/", **q)
-        for r in j["results"]:
-            if r.get("memo_code") == "X": continue
-            k = (r.get("transaction_id"), r.get("expenditure_amount"), (r.get("expenditure_date") or "")[:10], r.get("candidate_id"), r.get("support_oppose_indicator"))
-            if k not in tx or (r.get("is_notice") and not tx[k]["is_notice"]):
-                tx[k] = {f: r.get(f) for f in ("candidate_id", "candidate_name", "support_oppose_indicator", "expenditure_amount", "expenditure_date", "dissemination_date", "payee_name",
-                          "expenditure_description", "filing_form", "is_notice", "transaction_id", "sub_id")}
+        raw_rows += j["results"]
         li = j["pagination"].get("last_indexes")
         if not li or len(j["results"]) < 100: break
         last_idx, last_date = li["last_index"], li["last_expenditure_date"]
         time.sleep(0.2)
-    res["committees"][name] = {"committee_id": cid, "by_candidate_aggregate": by, "transactions_deduped": list(tx.values())}
+    kept, memo_dropped = dedupe(raw_rows)
+    tx = {i: {f: r.get(f) for f in ("candidate_id", "candidate_name", "support_oppose_indicator", "expenditure_amount", "expenditure_date", "dissemination_date", "payee_name",
+          "expenditure_description", "filing_form", "is_notice", "transaction_id", "sub_id", "duplicates_collapsed")} for i, r in enumerate(kept)}
+    res["committees"][name] = {"committee_id": cid, "by_candidate_aggregate": by, "memo_rows_dropped": memo_dropped, "transactions_deduped": list(tx.values())}
     print(name, "by-candidate rows", len(by), "deduped transactions", len(tx), "total $", round(sum(t["expenditure_amount"] or 0 for t in tx.values())))
 (OUT / "aipac_udp_ie.json").write_text(json.dumps(res, indent=1))

@@ -17,7 +17,7 @@ FC-021,governor,Jolly represented FL-13 2014-2017 as a Republican; left GOP 2018
 FC-022,governor,Public matching funds Jolly $3074954.60; Donalds $1197766.78; Collins $199783.22; total $4472504.60,through 2026-10-23,Florida Department of State table (page updated Oct 23 2026),2026-10-23,VERIFIED,
 FC-023,governor,Donalds campaign account $13.3M raised ~$7.4M spent; Friends of Byron Donalds $107.6M raised ~$70M spent,through Sept 11 2026,News Service of Florida via CBS12 (Sept 21 2026),2026-09-11,ATTRIBUTED,State database returned 403 to automated access; figures labeled with date
 FC-024,governor,Jolly campaign account $8.2M raised $4.9M spent; Florida 2026 committee $6.4M received $3.3M spent,through Sept 11 2026,News Service of Florida via CBS12,2026-09-11,ATTRIBUTED,
-FC-025,governor,UNF poll Donalds 49 Jolly 47 undecided 4; n=1471 LV; MOE 2.81; Oct 12-19; July Donalds +5,WLRN Oct 21 2026,2026-10-21,ATTRIBUTED,
+FC-025,governor,UNF poll Donalds 49 Jolly 47 undecided 4; n=1471 LV; MOE 2.81; Oct 12-19; July Donalds +5,49 to 47 (4 undecided),WLRN Oct 21 2026,2026-10-21,ATTRIBUTED,
 FC-026,governor,Kalshi governor contract last trade R 82c D 19c,2026-10-23T14:34Z,Kalshi API GOVPARTYFL-26,2026-10-23,VERIFIED,Quote ages quickly; dek states the figure
 FC-027,governor,Donalds proposals: protect lawsuit reforms; trim fees; reform My Safe Florida Home; keep Citizens small; insurer scorecard,n/a,byrondonalds.com/issues/affordability,2026-10-23,ATTRIBUTED,Campaign statement
 FC-028,governor,Jolly hurricane fund; $7136 vs $2557 example; three funding options,n/a,davidjolly.com Insurance Proposal Facts (Sept 17 2026),2026-09-17,ATTRIBUTED,Campaign statement citing Insure.com calculator
@@ -31,7 +31,7 @@ FC-043,delta,Oct 9 volume about 140000 contracts; busiest hour ending 11 am abou
 FC-044,delta,Kalshi News said El-Sayed fell 73% to 67% after the debate,n/a,Kalshi News Oct 9 2026,2026-10-09,ATTRIBUTED,Page reports no volume; no time of day
 FC-045,delta,Marist Oct 15-18: El-Sayed 50 Rogers 48 LV MOE 4.3; RV El-Sayed +7 MOE 4.0; RV n=1185,n/a,Marist poll page,2026-10-23,VERIFIED,Page gives no likely-voter sample size
 FC-046,delta,Contract resolves on party sworn in for the term beginning 2027,n/a,Kalshi rules_primary SENATEMI-26-D/R,2026-10-23,VERIFIED,
-FC-047,delta,El-Sayed receipts $45.2M through Sept 30; Rogers $23.0M through Oct 22,OpenFEC totals,2026-10-23,VERIFIED,Different periods; page says do not compare
+FC-047,delta,El-Sayed receipts $45.2M through Sept 30; Rogers $23.0M through Oct 22,45.2M and 23.0M,OpenFEC totals,2026-10-23,VERIFIED,Different periods; page says do not compare
 FC-048,delta,Debate was heated with candidates talking over each other,n/a,Al Jazeera Oct 9 2026,2026-10-09,ATTRIBUTED,Allegations made at the debate are not repeated
 FC-049,delta,Cause of the Oct 9 move,not established,none found,2026-10-23,UNVERIFIED,Labeled unexplained on the page
 FC-060,spending,FL-14 independent expenditures total,computed (see page),OpenFEC Schedule E deduped,2026-10-23,VERIFIED,Through Oct 23
