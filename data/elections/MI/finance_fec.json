@@ -1,0 +1,21 @@
+{
+ "source": "OpenFEC /candidates/totals cycle 2026",
+ "totals": {
+  "S4MI00595": {
+   "receipts": 23016438.64,
+   "disbursements": 19369636.6,
+   "cash_on_hand_end_period": "3902505.76",
+   "debts_owed_by_committee": "0.00",
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-22"
+  },
+  "S6MI00418": {
+   "receipts": 45175566.89,
+   "disbursements": 41383363.43,
+   "cash_on_hand_end_period": "3792203.46",
+   "debts_owed_by_committee": "0.00",
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-09-30"
+  }
+ }
+}

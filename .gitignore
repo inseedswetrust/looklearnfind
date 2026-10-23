@@ -6,3 +6,4 @@ __pycache__/
 
 static/api/_data/*.sqlite*
 static/api/_data/config.php
+release/looklearnfind-elections-update.zip

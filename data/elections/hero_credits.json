@@ -1,0 +1,26 @@
+{
+ "fl-capitol": {
+  "file": "File:Old Florida State Capitol, Tallahassee, East view 20160711 1.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "DXR",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Old_Florida_State_Capitol,_Tallahassee,_East_view_20160711_1.jpg",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "bytes": 792914
+ },
+ "mi-capitol": {
+  "file": "File:Michigan State Capitol, Capitol Avenue, Lansing, MI - 54383520410.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "w_lemay",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Michigan_State_Capitol,_Capitol_Avenue,_Lansing,_MI_-_54383520410.jpg",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "bytes": 770856
+ },
+ "us-capitol": {
+  "file": "File:Capitol Building Full View.jpg",
+  "license": "Public domain",
+  "credit": "Noclip",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg",
+  "license_url": "",
+  "bytes": 366223
+ }
+}

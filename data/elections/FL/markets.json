@@ -1,0 +1,1134 @@
+{
+ "captured_at_utc": "2026-10-23T14:34:53Z",
+ "source": "Kalshi public API v2 (api.elections.kalshi.com)",
+ "races": {
+  "governor": {
+   "event_ticker": "GOVPARTYFL-26",
+   "title": "Florida Governor winner?",
+   "url": "https://kalshi.com/markets/govpartyfl",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "GOVPARTYFL-26-D",
+     "title": "Will the Democratic party win the governorship in Florida",
+     "yes_label": "David Jolly",
+     "no_label": "David Jolly",
+     "status": "active",
+     "yes_bid": "0.1800",
+     "yes_ask": "0.1900",
+     "last": "0.1900",
+     "previous": "0.2200",
+     "volume": "1769657.95",
+     "volume_24h": "147080.60",
+     "open_interest": "1160304.16",
+     "rules": "If a representative of the Democratic party is inaugurated as the governor of Florida pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "GOVPARTYFL-26-R",
+     "title": "Will the Republican party win the governorship in Florida",
+     "yes_label": "Byron Donalds",
+     "no_label": "Byron Donalds",
+     "status": "active",
+     "yes_bid": "0.8100",
+     "yes_ask": "0.8200",
+     "last": "0.8200",
+     "previous": "0.7900",
+     "volume": "2257214.47",
+     "volume_24h": "110468.89",
+     "open_interest": "1492632.07",
+     "rules": "If a representative of the Republican party is inaugurated as the governor of Florida pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "senate": {
+   "event_ticker": "SENATEFLS-26",
+   "title": "Florida Senate winner?",
+   "url": "https://kalshi.com/markets/senatefls",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "SENATEFLS-26-R",
+     "title": "Will Republicans win the Senate race in Florida?",
+     "yes_label": "Ashley Moody",
+     "no_label": "Ashley Moody",
+     "status": "active",
+     "yes_bid": "0.9070",
+     "yes_ask": "0.9150",
+     "last": "0.9180",
+     "previous": "0.9000",
+     "volume": "560255.28",
+     "volume_24h": "27705.63",
+     "open_interest": "391991.45",
+     "rules": "If a representative of the Republican party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "SENATEFLS-26-D",
+     "title": "Will Democratics win the Senate race in Florida?",
+     "yes_label": "Angie Nixon",
+     "no_label": "Angie Nixon",
+     "status": "active",
+     "yes_bid": "0.0900",
+     "yes_ask": "0.0940",
+     "last": "0.0930",
+     "previous": "0.1100",
+     "volume": "1252808.45",
+     "volume_24h": "105675.46",
+     "open_interest": "927791.90",
+     "rules": "If a representative of the Democratic party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-01": {
+   "event_ticker": "KXHOUSERACE-FL01-26",
+   "title": "FL-01 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL01-26-D",
+     "title": "Will Democratic win the House race for FL-01?",
+     "yes_label": "Gay Valimont",
+     "no_label": "Gay Valimont",
+     "status": "active",
+     "yes_bid": "0.0210",
+     "yes_ask": "0.0440",
+     "last": "0.0500",
+     "previous": "0.0500",
+     "volume": "3215.32",
+     "volume_24h": "0.00",
+     "open_interest": "2264.00",
+     "rules": "If the House member sworn in for FL-01 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL01-26-R",
+     "title": "Will Republican win the House race for FL-01?",
+     "yes_label": "Jimmy Patronis",
+     "no_label": "Jimmy Patronis",
+     "status": "active",
+     "yes_bid": "0.9550",
+     "yes_ask": "0.9700",
+     "last": "0.9770",
+     "previous": "0.9770",
+     "volume": "2094.02",
+     "volume_24h": "0.00",
+     "open_interest": "665.22",
+     "rules": "If the House member sworn in for FL-01 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-02": {
+   "event_ticker": "KXHOUSERACE-FL02-26",
+   "title": "FL-02 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL02-26-D",
+     "title": "Will Democratic win the House race for FL-02?",
+     "yes_label": "Amanda Green",
+     "no_label": "Amanda Green",
+     "status": "active",
+     "yes_bid": "0.0720",
+     "yes_ask": "0.0810",
+     "last": "0.0840",
+     "previous": "0.0840",
+     "volume": "6308.98",
+     "volume_24h": "0.00",
+     "open_interest": "3362.22",
+     "rules": "If the House member sworn in for FL-02 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL02-26-R",
+     "title": "Will Republican win the House race for FL-02?",
+     "yes_label": "Austin Rogers",
+     "no_label": "Austin Rogers",
+     "status": "active",
+     "yes_bid": "0.9190",
+     "yes_ask": "0.9270",
+     "last": "0.9330",
+     "previous": "0.9330",
+     "volume": "4373.54",
+     "volume_24h": "0.00",
+     "open_interest": "2559.78",
+     "rules": "If the House member sworn in for FL-02 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-03": {
+   "event_ticker": "KXHOUSERACE-FL03-26",
+   "title": "FL-03 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL03-26-D",
+     "title": "Will Democratic win the House race for FL-03?",
+     "yes_label": "Seth Harp",
+     "no_label": "Seth Harp",
+     "status": "active",
+     "yes_bid": "0.0510",
+     "yes_ask": "0.0620",
+     "last": "0.0600",
+     "previous": "0.0670",
+     "volume": "4803.83",
+     "volume_24h": "98.00",
+     "open_interest": "1350.47",
+     "rules": "If the House member sworn in for FL-03 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL03-26-R",
+     "title": "Will Republican win the House race for FL-03?",
+     "yes_label": "Kat Cammack",
+     "no_label": "Kat Cammack",
+     "status": "active",
+     "yes_bid": "0.9350",
+     "yes_ask": "0.9430",
+     "last": "0.9620",
+     "previous": "0.9620",
+     "volume": "2549.72",
+     "volume_24h": "0.00",
+     "open_interest": "1431.29",
+     "rules": "If the House member sworn in for FL-03 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-04": {
+   "event_ticker": "KXHOUSERACE-FL04-26",
+   "title": "FL-04 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL04-26-D",
+     "title": "Will Democratic win the House race for FL-04?",
+     "yes_label": "LaShonda Holloway",
+     "no_label": "LaShonda Holloway",
+     "status": "active",
+     "yes_bid": "0.1700",
+     "yes_ask": "0.1900",
+     "last": "0.1900",
+     "previous": "0.1900",
+     "volume": "45144.85",
+     "volume_24h": "1322.33",
+     "open_interest": "35319.15",
+     "rules": "If the House member sworn in for FL-04 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL04-26-R",
+     "title": "Will Republican win the House race for FL-04?",
+     "yes_label": "Aaron Bean",
+     "no_label": "Aaron Bean",
+     "status": "active",
+     "yes_bid": "0.8200",
+     "yes_ask": "0.8400",
+     "last": "0.8300",
+     "previous": "0.8300",
+     "volume": "15725.92",
+     "volume_24h": "2911.34",
+     "open_interest": "11648.27",
+     "rules": "If the House member sworn in for FL-04 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-05": {
+   "event_ticker": "KXHOUSERACE-FL05-26",
+   "title": "FL-05 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL05-26-D",
+     "title": "Will Democratic win the House race for FL-05?",
+     "yes_label": "Rachel Grage",
+     "no_label": "Rachel Grage",
+     "status": "active",
+     "yes_bid": "0.0570",
+     "yes_ask": "0.0730",
+     "last": "0.0750",
+     "previous": "0.0560",
+     "volume": "4188.68",
+     "volume_24h": "174.03",
+     "open_interest": "2234.06",
+     "rules": "If the House member sworn in for FL-05 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL05-26-R",
+     "title": "Will Republican win the House race for FL-05?",
+     "yes_label": "John Rutherford",
+     "no_label": "John Rutherford",
+     "status": "active",
+     "yes_bid": "0.9270",
+     "yes_ask": "0.9370",
+     "last": "0.9250",
+     "previous": "0.9380",
+     "volume": "8592.91",
+     "volume_24h": "177.50",
+     "open_interest": "2290.95",
+     "rules": "If the House member sworn in for FL-05 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-06": {
+   "event_ticker": "KXHOUSERACE-FL06-26",
+   "title": "FL-06 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL06-26-D",
+     "title": "Will Democratic win the House race for FL-06?",
+     "yes_label": "Eric Yonce",
+     "no_label": "Eric Yonce",
+     "status": "active",
+     "yes_bid": "0.0600",
+     "yes_ask": "0.0680",
+     "last": "0.0740",
+     "previous": "0.0660",
+     "volume": "3117.81",
+     "volume_24h": "73.75",
+     "open_interest": "2121.22",
+     "rules": "If the House member sworn in for FL-06 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL06-26-R",
+     "title": "Will Republican win the House race for FL-06?",
+     "yes_label": "Randy Fine",
+     "no_label": "Randy Fine",
+     "status": "active",
+     "yes_bid": "0.9280",
+     "yes_ask": "0.9390",
+     "last": "0.9260",
+     "previous": "0.9270",
+     "volume": "3647.20",
+     "volume_24h": "349.71",
+     "open_interest": "2341.88",
+     "rules": "If the House member sworn in for FL-06 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-07": {
+   "event_ticker": "KXHOUSERACE-FL07-26",
+   "title": "FL-07 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL07-26-D",
+     "title": "Will Democratic win the House race for FL-07?",
+     "yes_label": "Bale Dalton",
+     "no_label": "Bale Dalton",
+     "status": "active",
+     "yes_bid": "0.2800",
+     "yes_ask": "0.2900",
+     "last": "0.2900",
+     "previous": "0.2600",
+     "volume": "49409.28",
+     "volume_24h": "129.51",
+     "open_interest": "39943.35",
+     "rules": "If the House member sworn in for FL-07 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL07-26-R",
+     "title": "Will Republican win the House race for FL-07?",
+     "yes_label": "Ryan Elijah",
+     "no_label": "Ryan Elijah",
+     "status": "active",
+     "yes_bid": "0.7000",
+     "yes_ask": "0.7100",
+     "last": "0.7100",
+     "previous": "0.7400",
+     "volume": "35660.01",
+     "volume_24h": "110.35",
+     "open_interest": "21410.84",
+     "rules": "If the House member sworn in for FL-07 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-08": {
+   "event_ticker": "KXHOUSERACE-FL08-26",
+   "title": "FL-08 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL08-26-D",
+     "title": "Will Democratic win the House race for FL-08?",
+     "yes_label": "Jennifer Jenkins",
+     "no_label": "Jennifer Jenkins",
+     "status": "active",
+     "yes_bid": "0.0500",
+     "yes_ask": "0.0550",
+     "last": "0.0590",
+     "previous": "0.0590",
+     "volume": "6996.48",
+     "volume_24h": "0.00",
+     "open_interest": "3413.40",
+     "rules": "If the House member sworn in for FL-08 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL08-26-R",
+     "title": "Will Republican win the House race for FL-08?",
+     "yes_label": "Mike Haridopolos",
+     "no_label": "Mike Haridopolos",
+     "status": "active",
+     "yes_bid": "0.9430",
+     "yes_ask": "0.9540",
+     "last": "0.9640",
+     "previous": "0.9640",
+     "volume": "2446.01",
+     "volume_24h": "0.00",
+     "open_interest": "1737.74",
+     "rules": "If the House member sworn in for FL-08 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-09": {
+   "event_ticker": "KXHOUSERACE-FL09-26",
+   "title": "FL-09 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL09-26-D",
+     "title": "Will Democratic win the House race for FL-09?",
+     "yes_label": "Darren Soto",
+     "no_label": "Darren Soto",
+     "status": "active",
+     "yes_bid": "0.2900",
+     "yes_ask": "0.3000",
+     "last": "0.3000",
+     "previous": "0.2900",
+     "volume": "54679.11",
+     "volume_24h": "331.91",
+     "open_interest": "44415.76",
+     "rules": "If the House member sworn in for FL-09 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL09-26-R",
+     "title": "Will Republican win the House race for FL-09?",
+     "yes_label": "Dan Green",
+     "no_label": "Dan Green",
+     "status": "active",
+     "yes_bid": "0.7000",
+     "yes_ask": "0.7100",
+     "last": "0.7000",
+     "previous": "0.7200",
+     "volume": "40656.76",
+     "volume_24h": "121.40",
+     "open_interest": "24076.90",
+     "rules": "If the House member sworn in for FL-09 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-10": {
+   "event_ticker": "KXHOUSERACE-FL10-26",
+   "title": "FL-10 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL10-26-D",
+     "title": "Will Democratic win the House race for FL-10?",
+     "yes_label": "Maxwell Frost",
+     "no_label": "Maxwell Frost",
+     "status": "active",
+     "yes_bid": "0.9670",
+     "yes_ask": "0.9890",
+     "last": "0.9960",
+     "previous": "0.9960",
+     "volume": "12571.93",
+     "volume_24h": "0.00",
+     "open_interest": "2413.50",
+     "rules": "If the House member sworn in for FL-10 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL10-26-R",
+     "title": "Will Republican win the House race for FL-10?",
+     "yes_label": "Republican party",
+     "no_label": "Republican party",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0280",
+     "last": "0.0280",
+     "previous": "0.0110",
+     "volume": "24481.40",
+     "volume_24h": "0.01",
+     "open_interest": "10675.22",
+     "rules": "If the House member sworn in for FL-10 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-11": {
+   "event_ticker": "KXHOUSERACE-FL11-26",
+   "title": "FL-11 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL11-26-D",
+     "title": "Will Democratic win the House race for FL-11?",
+     "yes_label": "James Pericola",
+     "no_label": "James Pericola",
+     "status": "active",
+     "yes_bid": "0.1500",
+     "yes_ask": "0.1600",
+     "last": "0.1500",
+     "previous": "0.1600",
+     "volume": "15570.20",
+     "volume_24h": "1324.36",
+     "open_interest": "11883.07",
+     "rules": "If the House member sworn in for FL-11 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL11-26-R",
+     "title": "Will Republican win the House race for FL-11?",
+     "yes_label": "Joe Strada",
+     "no_label": "Joe Strada",
+     "status": "active",
+     "yes_bid": "0.8400",
+     "yes_ask": "0.8500",
+     "last": "0.8600",
+     "previous": "0.8400",
+     "volume": "31846.69",
+     "volume_24h": "97.24",
+     "open_interest": "28507.05",
+     "rules": "If the House member sworn in for FL-11 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-12": {
+   "event_ticker": "KXHOUSERACE-FL12-26",
+   "title": "FL-12 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL12-26-D",
+     "title": "Will Democratic win the House race for FL-12?",
+     "yes_label": "Kimberly Overman",
+     "no_label": "Kimberly Overman",
+     "status": "active",
+     "yes_bid": "0.1500",
+     "yes_ask": "0.1600",
+     "last": "0.1700",
+     "previous": "0.1900",
+     "volume": "16451.35",
+     "volume_24h": "2311.38",
+     "open_interest": "12457.19",
+     "rules": "If the House member sworn in for FL-12 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL12-26-R",
+     "title": "Will Republican win the House race for FL-12?",
+     "yes_label": "Gus Bilirakis",
+     "no_label": "Gus Bilirakis",
+     "status": "active",
+     "yes_bid": "0.8400",
+     "yes_ask": "0.8500",
+     "last": "0.8500",
+     "previous": "0.8200",
+     "volume": "10707.60",
+     "volume_24h": "1258.67",
+     "open_interest": "4809.58",
+     "rules": "If the House member sworn in for FL-12 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-13": {
+   "event_ticker": "KXHOUSERACE-FL13-26",
+   "error": "404"
+  },
+  "house-14": {
+   "event_ticker": "KXHOUSERACE-FL14-26",
+   "title": "FL-14 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL14-26-D",
+     "title": "Will Democratic win the House race for FL-14?",
+     "yes_label": "Kathy Castor",
+     "no_label": "Kathy Castor",
+     "status": "active",
+     "yes_bid": "0.6700",
+     "yes_ask": "0.6800",
+     "last": "0.6800",
+     "previous": "0.6400",
+     "volume": "272311.87",
+     "volume_24h": "25675.67",
+     "open_interest": "177774.43",
+     "rules": "If the House member sworn in for FL-14 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL14-26-R",
+     "title": "Will Republican win the House race for FL-14?",
+     "yes_label": "Mike Beltran",
+     "no_label": "Mike Beltran",
+     "status": "active",
+     "yes_bid": "0.3200",
+     "yes_ask": "0.3300",
+     "last": "0.3300",
+     "previous": "0.3800",
+     "volume": "188536.61",
+     "volume_24h": "21517.38",
+     "open_interest": "150544.37",
+     "rules": "If the House member sworn in for FL-14 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-15": {
+   "event_ticker": "KXHOUSERACE-FL15-26",
+   "title": "FL-15 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL15-26-D",
+     "title": "Will Democratic win the House race for FL-15?",
+     "yes_label": "Robert People",
+     "no_label": "Robert People",
+     "status": "active",
+     "yes_bid": "0.0620",
+     "yes_ask": "0.0640",
+     "last": "0.0680",
+     "previous": "0.0680",
+     "volume": "10267.97",
+     "volume_24h": "0.00",
+     "open_interest": "5627.07",
+     "rules": "If the House member sworn in for FL-15 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL15-26-R",
+     "title": "Will Republican win the House race for FL-15?",
+     "yes_label": "Laurel Lee",
+     "no_label": "Laurel Lee",
+     "status": "active",
+     "yes_bid": "0.9260",
+     "yes_ask": "0.9340",
+     "last": "0.9330",
+     "previous": "0.9330",
+     "volume": "5944.23",
+     "volume_24h": "0.00",
+     "open_interest": "2157.13",
+     "rules": "If the House member sworn in for FL-15 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-16": {
+   "event_ticker": "KXHOUSERACE-FL16-26",
+   "title": "FL-16 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL16-26-D",
+     "title": "Will Democratic win the House race for FL-16?",
+     "yes_label": "Kelly Kirschner",
+     "no_label": "Kelly Kirschner",
+     "status": "active",
+     "yes_bid": "0.1900",
+     "yes_ask": "0.2100",
+     "last": "0.2100",
+     "previous": "0.2000",
+     "volume": "7610.95",
+     "volume_24h": "349.77",
+     "open_interest": "6132.53",
+     "rules": "If the House member sworn in for FL-16 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL16-26-R",
+     "title": "Will Republican win the House race for FL-16?",
+     "yes_label": "Sydney Gruters",
+     "no_label": "Sydney Gruters",
+     "status": "active",
+     "yes_bid": "0.8100",
+     "yes_ask": "0.8200",
+     "last": "0.8100",
+     "previous": "0.8200",
+     "volume": "11223.36",
+     "volume_24h": "154.08",
+     "open_interest": "8695.83",
+     "rules": "If the House member sworn in for FL-16 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-17": {
+   "event_ticker": "KXHOUSERACE-FL17-26",
+   "title": "FL-17 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL17-26-D",
+     "title": "Will Democratic win the House race for FL-17?",
+     "yes_label": "Matthew Montavon",
+     "no_label": "Matthew Montavon",
+     "status": "active",
+     "yes_bid": "0.0240",
+     "yes_ask": "0.0510",
+     "last": "0.0540",
+     "previous": "0.0540",
+     "volume": "2940.09",
+     "volume_24h": "0.00",
+     "open_interest": "701.42",
+     "rules": "If the House member sworn in for FL-17 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL17-26-R",
+     "title": "Will Republican win the House race for FL-17?",
+     "yes_label": "Greg Steube",
+     "no_label": "Greg Steube",
+     "status": "active",
+     "yes_bid": "0.9460",
+     "yes_ask": "0.9780",
+     "last": "0.9640",
+     "previous": "0.9640",
+     "volume": "2617.07",
+     "volume_24h": "0.00",
+     "open_interest": "1836.05",
+     "rules": "If the House member sworn in for FL-17 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-18": {
+   "event_ticker": "KXHOUSERACE-FL18-26",
+   "title": "FL-18 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL18-26-D",
+     "title": "Will Democratic win the House race for FL-18?",
+     "yes_label": "Curtis Gibson",
+     "no_label": "Curtis Gibson",
+     "status": "active",
+     "yes_bid": "0.0470",
+     "yes_ask": "0.0550",
+     "last": "0.0570",
+     "previous": "0.0570",
+     "volume": "1648.09",
+     "volume_24h": "0.00",
+     "open_interest": "825.00",
+     "rules": "If the House member sworn in for FL-18 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL18-26-R",
+     "title": "Will Republican win the House race for FL-18?",
+     "yes_label": "Scott Franklin",
+     "no_label": "Scott Franklin",
+     "status": "active",
+     "yes_bid": "0.9370",
+     "yes_ask": "0.9500",
+     "last": "0.9500",
+     "previous": "0.9500",
+     "volume": "1952.30",
+     "volume_24h": "0.00",
+     "open_interest": "1795.19",
+     "rules": "If the House member sworn in for FL-18 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-19": {
+   "event_ticker": "KXHOUSERACE-FL19-26",
+   "title": "FL-19 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL19-26-D",
+     "title": "Will Democratic win the House race for FL-19?",
+     "yes_label": "Victor Arias",
+     "no_label": "Victor Arias",
+     "status": "active",
+     "yes_bid": "0.0360",
+     "yes_ask": "0.0510",
+     "last": "0.0510",
+     "previous": "0.0510",
+     "volume": "1680.71",
+     "volume_24h": "0.00",
+     "open_interest": "884.71",
+     "rules": "If the House member sworn in for FL-19 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL19-26-R",
+     "title": "Will Republican win the House race for FL-19?",
+     "yes_label": "Jim Schwartzel",
+     "no_label": "Jim Schwartzel",
+     "status": "active",
+     "yes_bid": "0.9480",
+     "yes_ask": "0.9600",
+     "last": "0.9590",
+     "previous": "0.9590",
+     "volume": "142.85",
+     "volume_24h": "0.00",
+     "open_interest": "106.43",
+     "rules": "If the House member sworn in for FL-19 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-20": {
+   "event_ticker": "KXHOUSERACE-FL20-26",
+   "title": "FL-20 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL20-26-D",
+     "title": "Will Democratic win the House race for FL-20?",
+     "yes_label": "Debbie Wasserman Schultz",
+     "no_label": "Debbie Wasserman Schultz",
+     "status": "active",
+     "yes_bid": "0.9740",
+     "yes_ask": "0.9750",
+     "last": "0.9750",
+     "previous": "0.9740",
+     "volume": "6320.35",
+     "volume_24h": "31.00",
+     "open_interest": "1412.00",
+     "rules": "If the House member sworn in for FL-20 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL20-26-R",
+     "title": "Will Republican win the House race for FL-20?",
+     "yes_label": "Brent Andersen",
+     "no_label": "Brent Andersen",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0200",
+     "last": "0.0330",
+     "previous": "0.0300",
+     "volume": "1491.63",
+     "volume_24h": "320.84",
+     "open_interest": "1264.63",
+     "rules": "If the House member sworn in for FL-20 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-21": {
+   "event_ticker": "KXHOUSERACE-FL21-26",
+   "title": "FL-21 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL21-26-D",
+     "title": "Will Democratic win the House race for FL-21?",
+     "yes_label": "James Martin",
+     "no_label": "James Martin",
+     "status": "active",
+     "yes_bid": "0.1300",
+     "yes_ask": "0.1500",
+     "last": "0.1500",
+     "previous": "0.1300",
+     "volume": "16601.36",
+     "volume_24h": "2594.53",
+     "open_interest": "12316.04",
+     "rules": "If the House member sworn in for FL-21 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL21-26-R",
+     "title": "Will Republican win the House race for FL-21?",
+     "yes_label": "Brian Mast",
+     "no_label": "Brian Mast",
+     "status": "active",
+     "yes_bid": "0.8600",
+     "yes_ask": "0.8700",
+     "last": "0.8600",
+     "previous": "0.8700",
+     "volume": "8275.24",
+     "volume_24h": "473.97",
+     "open_interest": "5461.37",
+     "rules": "If the House member sworn in for FL-21 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-22": {
+   "event_ticker": "KXHOUSERACE-FL22-26",
+   "title": "FL-22 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL22-26-D",
+     "title": "Will Democratic win the House race for FL-22?",
+     "yes_label": "Pia Dandiya",
+     "no_label": "Pia Dandiya",
+     "status": "active",
+     "yes_bid": "0.6100",
+     "yes_ask": "0.6200",
+     "last": "0.6200",
+     "previous": "0.6200",
+     "volume": "85239.24",
+     "volume_24h": "3270.43",
+     "open_interest": "39231.23",
+     "rules": "If the House member sworn in for FL-22 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL22-26-R",
+     "title": "Will Republican win the House race for FL-22?",
+     "yes_label": "Casey Askar",
+     "no_label": "Casey Askar",
+     "status": "active",
+     "yes_bid": "0.3800",
+     "yes_ask": "0.3900",
+     "last": "0.3900",
+     "previous": "0.4000",
+     "volume": "60389.36",
+     "volume_24h": "1331.92",
+     "open_interest": "35000.43",
+     "rules": "If the House member sworn in for FL-22 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-23": {
+   "event_ticker": "KXHOUSERACE-FL23-26",
+   "error": "404"
+  },
+  "house-24": {
+   "event_ticker": "KXHOUSERACE-FL24-26",
+   "title": "FL-24 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL24-26-D",
+     "title": "Will Democratic win the House race for FL-24?",
+     "yes_label": "Oliver Gilbert",
+     "no_label": "Oliver Gilbert",
+     "status": "active",
+     "yes_bid": "0.9660",
+     "yes_ask": "0.9860",
+     "last": "0.9660",
+     "previous": "0.9890",
+     "volume": "562.71",
+     "volume_24h": "0.12",
+     "open_interest": "520.71",
+     "rules": "If the House member sworn in for FL-24 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL24-26-R",
+     "title": "Will Republican win the House race for FL-24?",
+     "yes_label": "Mayonna Te Brown",
+     "no_label": "Mayonna Te Brown",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0340",
+     "last": "0.0340",
+     "previous": "0.0340",
+     "volume": "29855.31",
+     "volume_24h": "0.00",
+     "open_interest": "1790.51",
+     "rules": "If the House member sworn in for FL-24 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-25": {
+   "event_ticker": "KXHOUSERACE-FL25-26",
+   "title": "FL-25 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL25-26-D",
+     "title": "Will Democratic win the House race for FL-25?",
+     "yes_label": "Jared Moskowitz",
+     "no_label": "Jared Moskowitz",
+     "status": "active",
+     "yes_bid": "0.8300",
+     "yes_ask": "0.8400",
+     "last": "0.8300",
+     "previous": "0.8900",
+     "volume": "291871.17",
+     "volume_24h": "11137.81",
+     "open_interest": "103638.16",
+     "rules": "If the House member sworn in for FL-25 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL25-26-R",
+     "title": "Will Republican win the House race for FL-25?",
+     "yes_label": "Scott Singer",
+     "no_label": "Scott Singer",
+     "status": "active",
+     "yes_bid": "0.1600",
+     "yes_ask": "0.1700",
+     "last": "0.1700",
+     "previous": "0.1200",
+     "volume": "240287.19",
+     "volume_24h": "90711.82",
+     "open_interest": "125063.84",
+     "rules": "If the House member sworn in for FL-25 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-26": {
+   "event_ticker": "KXHOUSERACE-FL26-26",
+   "title": "FL-26 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL26-26-D",
+     "title": "Will Democratic win the House race for FL-26?",
+     "yes_label": "Nicole Locklin",
+     "no_label": "Nicole Locklin",
+     "status": "active",
+     "yes_bid": "0.1500",
+     "yes_ask": "0.1700",
+     "last": "0.1800",
+     "previous": "0.2000",
+     "volume": "28133.59",
+     "volume_24h": "3223.34",
+     "open_interest": "19880.39",
+     "rules": "If the House member sworn in for FL-26 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL26-26-R",
+     "title": "Will Republican win the House race for FL-26?",
+     "yes_label": "Mario D\u00edaz-Balart",
+     "no_label": "Mario D\u00edaz-Balart",
+     "status": "active",
+     "yes_bid": "0.8300",
+     "yes_ask": "0.8500",
+     "last": "0.8500",
+     "previous": "0.8000",
+     "volume": "10965.99",
+     "volume_24h": "1055.87",
+     "open_interest": "5826.99",
+     "rules": "If the House member sworn in for FL-26 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-27": {
+   "event_ticker": "KXHOUSERACE-FL27-26",
+   "title": "FL-27 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL27-26-D",
+     "title": "Will Democratic win the House race for FL-27?",
+     "yes_label": "Eliott Rodriguez",
+     "no_label": "Eliott Rodriguez",
+     "status": "active",
+     "yes_bid": "0.3300",
+     "yes_ask": "0.3400",
+     "last": "0.3300",
+     "previous": "0.3400",
+     "volume": "76737.23",
+     "volume_24h": "1413.40",
+     "open_interest": "54670.12",
+     "rules": "If the House member sworn in for FL-27 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL27-26-R",
+     "title": "Will Republican win the House race for FL-27?",
+     "yes_label": "Maria Elvira Salazar",
+     "no_label": "Maria Elvira Salazar",
+     "status": "active",
+     "yes_bid": "0.6500",
+     "yes_ask": "0.6600",
+     "last": "0.6500",
+     "previous": "0.6800",
+     "volume": "53198.71",
+     "volume_24h": "750.70",
+     "open_interest": "37858.23",
+     "rules": "If the House member sworn in for FL-27 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-28": {
+   "event_ticker": "KXHOUSERACE-FL28-26",
+   "title": "FL-28 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-FL28-26-D",
+     "title": "Will Democratic win the House race for FL-28?",
+     "yes_label": "Phil Ehr",
+     "no_label": "Phil Ehr",
+     "status": "active",
+     "yes_bid": "0.0620",
+     "yes_ask": "0.0690",
+     "last": "0.0690",
+     "previous": "0.0690",
+     "volume": "9030.42",
+     "volume_24h": "8.91",
+     "open_interest": "6356.64",
+     "rules": "If the House member sworn in for FL-28 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-FL28-26-R",
+     "title": "Will Republican win the House race for FL-28?",
+     "yes_label": "Carlos Gim\u00e9nez",
+     "no_label": "Carlos Gim\u00e9nez",
+     "status": "active",
+     "yes_bid": "0.9250",
+     "yes_ask": "0.9360",
+     "last": "0.9310",
+     "previous": "0.9350",
+     "volume": "2958.79",
+     "volume_24h": "329.00",
+     "open_interest": "1771.80",
+     "rules": "If the House member sworn in for FL-28 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  }
+ }
+}

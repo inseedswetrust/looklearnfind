@@ -1,0 +1,26 @@
+{
+ "candidates": [
+  {
+   "id": "S6MI00418",
+   "name": "Abdul El-Sayed",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "senate",
+   "race": "senate",
+   "incumbent": false,
+   "fec_candidate_id": "S6MI00418",
+   "tip_url": "https://theissuesparty.org/candidates/S6MI00418"
+  },
+  {
+   "id": "S4MI00595",
+   "name": "Mike Rogers",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "senate",
+   "race": "senate",
+   "incumbent": false,
+   "fec_candidate_id": "S4MI00595",
+   "tip_url": "https://theissuesparty.org/candidates/S4MI00595"
+  }
+ ]
+}

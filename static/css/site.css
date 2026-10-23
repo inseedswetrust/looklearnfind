@@ -332,3 +332,4 @@ textarea.input{min-height:96px;resize:vertical}
 .ico-lg{width:40px;height:40px;color:var(--yellow)}
 .band:not(.dark):not(.teal) .ico-lg{color:var(--teal)}
 .split .head-img{aspect-ratio:3/2}
+.foot .fine>div:first-child{display:flex;flex-wrap:wrap;gap:6px 0;min-width:0}

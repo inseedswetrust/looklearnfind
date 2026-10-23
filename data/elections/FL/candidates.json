@@ -1,0 +1,4093 @@
+{
+ "as_of_utc": "2026-10-23T14:32:32Z",
+ "issues": [
+  {
+   "slug": "data_bill_of_rights",
+   "name": "Data Bill of Rights",
+   "short": "Data Rights",
+   "question": "Will you support a Data Bill of Rights giving people the right to access, move, delete, and receive a full accounting of their personal data, including prescription, grocery, food, product-purchase, loyalty-program, and other commercial data, and requiring data sellers to update a government ledger to receive safe harbor from liability?"
+  },
+  {
+   "slug": "war_crime_accountability",
+   "name": "War-Crime Accountability",
+   "short": "War-Crime Accountability",
+   "question": "Will you support a law requiring mandatory review, public reporting, and potential restrictions on U.S. weapons, funding, intelligence, or diplomatic support when credible evidence indicates that support may be connected to war crimes?"
+  },
+  {
+   "slug": "congressional_stock_trading_ban",
+   "name": "Congressional Stock Trading Ban",
+   "short": "Stock Trading Ban",
+   "question": "Will you support a ban on members of Congress, their spouses, and dependent family members trading individual stocks while in office?"
+  },
+  {
+   "slug": "citizens_united_reform",
+   "name": "Citizens United Reform",
+   "short": "Citizens United Reform",
+   "question": "Will you support constitutional or statutory reforms to reduce the influence of unlimited outside spending, dark money, and Super PAC power after Citizens United?"
+  },
+  {
+   "slug": "universal_healthcare",
+   "name": "Universal Healthcare",
+   "short": "Universal Healthcare",
+   "question": "Will you support universal healthcare coverage so every person can access medically necessary care without financial ruin?"
+  },
+  {
+   "slug": "us-israel-military-merger",
+   "name": "US-Israel Military Merger",
+   "short": "Section 224 / FY27 NDAA",
+   "question": "Do you support the provision to merge U.S. and Israeli military command structures in the FY27 NDAA (Section 219 in the House bill, formerly Section 224), and why?"
+  }
+ ],
+ "candidates": [
+  {
+   "id": "90433",
+   "name": "Dean Ocean Abrams",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Joe Van Vactor",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90433",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "90612",
+   "name": "Kathy Anderson",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Daniel Nokovich",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90612",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "90630",
+   "name": "Charles Burkett",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Ruben A. Coto",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90630",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89630",
+   "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Juan Santana",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89630",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "88529",
+   "name": "Moliere \"Moe\" Dimanche",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Benjiman Rojas",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88529",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89042",
+   "name": "Byron Donalds",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Bryan Avila",
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89042",
+   "fec_candidate_id": "H2FL14186",
+   "tip_page_id": "GOV-FL-DONALDS",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-DONALDS",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "84076",
+   "name": "Scott Eckhard Jewett",
+   "party_code": "LPF",
+   "party": "Libertarian",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Nicole Skelly",
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=84076",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89243",
+   "name": "David Jolly",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Gwen Graham",
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89243",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89939",
+   "name": "Erik Morris",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "LeRoy Alaways",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89939",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89571",
+   "name": "Frank J. Russo",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Rachel Rodriguez",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89571",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89955",
+   "name": "Neil J. Gillespie",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "senate",
+   "race": "senate",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89955",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89119",
+   "name": "Ashley Moody",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "senate",
+   "race": "senate",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89119",
+   "fec_candidate_id": "S6FL00640",
+   "tip_page_id": "S6FL00640",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6FL00640",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 9,
+      "recorded": 9,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 3,
+      "recorded": 3,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90009",
+   "name": "Angie Nixon",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "senate",
+   "race": "senate",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90009",
+   "fec_candidate_id": "S6FL00830",
+   "tip_page_id": "S6FL00830",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6FL00830",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89828",
+   "name": "Tyler L. Davis",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-01",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89828",
+   "fec_candidate_id": "H6FL01549",
+   "tip_page_id": "H6FL01549",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL01549",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89686",
+   "name": "Jimmy Patronis",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-01",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89686",
+   "fec_candidate_id": "H6FL01390",
+   "tip_page_id": "H6FL01390",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL01390",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 4,
+      "recorded": 4,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89916",
+   "name": "Gay Valimont",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-01",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89916",
+   "fec_candidate_id": "H4FL01197",
+   "tip_page_id": "H4FL01197",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL01197",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89535",
+   "name": "Amanda Marie Green",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-02",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89535",
+   "fec_candidate_id": "H6FL02299",
+   "tip_page_id": "H6FL02299",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL02299",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89929",
+   "name": "Austin Rogers",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-02",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89929",
+   "fec_candidate_id": "H6FL02331",
+   "tip_page_id": "H6FL02331",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL02331",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91508",
+   "name": "Kat Cammack",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-03",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91508",
+   "fec_candidate_id": "H0FL03175",
+   "tip_page_id": "H0FL03175",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0FL03175",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 4,
+      "recorded": 4,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89177",
+   "name": "Seth Harp",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-03",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89177",
+   "fec_candidate_id": "H6FL03099",
+   "tip_page_id": "H6FL03099",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL03099",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91032",
+   "name": "Mike Klein",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-03",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91032",
+   "fec_candidate_id": "H6FL03149",
+   "tip_page_id": "H6FL03149",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL03149",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "88755",
+   "name": "Aaron Bean",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-04",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88755",
+   "fec_candidate_id": "H2FL04211",
+   "tip_page_id": "H2FL04211",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL04211",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89716",
+   "name": "LaShonda \"L.J.\" Holloway",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-04",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89716",
+   "fec_candidate_id": "H6FL05193",
+   "tip_page_id": "H6FL05193",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL05193",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89381",
+   "name": "Todd Schaefer",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-04",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89381",
+   "fec_candidate_id": "H4FL04068",
+   "tip_page_id": "H4FL04068",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL04068",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90647",
+   "name": "Mike Sell",
+   "party_code": "FFP",
+   "party": "Forward Party",
+   "office": "house",
+   "race": "house-04",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90647",
+   "fec_candidate_id": "H6FL04246",
+   "tip_page_id": "H6FL04246",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL04246",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89665",
+   "name": "Rachel Grage",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-05",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89665",
+   "fec_candidate_id": "H6FL05250",
+   "tip_page_id": "H6FL05250",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL05250",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89967",
+   "name": "John H. Rutherford",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-05",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89967",
+   "fec_candidate_id": "H6FL04105",
+   "tip_page_id": "H6FL04105",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL04105",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90602",
+   "name": "William Lintag Upham",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "house",
+   "race": "house-05",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90602",
+   "fec_candidate_id": "H6FL05292",
+   "tip_page_id": "H6FL05292",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL05292",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90492",
+   "name": "Randy Fine",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-06",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90492",
+   "fec_candidate_id": "H6FL06258",
+   "tip_page_id": "H6FL06258",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06258",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 4,
+      "recorded": 4,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89377",
+   "name": "Andrew Parrott",
+   "party_code": "LPF",
+   "party": "Libertarian",
+   "office": "house",
+   "race": "house-06",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89377",
+   "fec_candidate_id": "H6FL06316",
+   "tip_page_id": "H6FL06316",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06316",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89465",
+   "name": "Alec Pavlik",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "house",
+   "race": "house-06",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89465",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89402",
+   "name": "Eric Yonce",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-06",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89402",
+   "fec_candidate_id": "H6FL06340",
+   "tip_page_id": "H6FL06340",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06340",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90631",
+   "name": "Bale Dalton",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-07",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90631",
+   "fec_candidate_id": "H6FL07215",
+   "tip_page_id": "H6FL07215",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL07215",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "92377",
+   "name": "Christopher Dennison",
+   "party_code": "LPF",
+   "party": "Libertarian",
+   "office": "house",
+   "race": "house-07",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92377",
+   "fec_candidate_id": "H6FL07249",
+   "tip_page_id": "H6FL07249",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL07249",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90696",
+   "name": "Ryan Elijah",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-07",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90696",
+   "fec_candidate_id": "H6FL07231",
+   "tip_page_id": "H6FL07231",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL07231",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89522",
+   "name": "Mike Haridopolos",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-08",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89522",
+   "fec_candidate_id": "H4FL08168",
+   "tip_page_id": "H4FL08168",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL08168",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90831",
+   "name": "Jennifer Jenkins",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-08",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90831",
+   "fec_candidate_id": "H6FL06399",
+   "tip_page_id": "H6FL06399",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06399",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91337",
+   "name": "Dan Green",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-09",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91337",
+   "fec_candidate_id": "H6FL09294",
+   "tip_page_id": "H6FL09294",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL09294",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89339",
+   "name": "Darren Soto",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-09",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89339",
+   "fec_candidate_id": "H6FL09179",
+   "tip_page_id": "H6FL09179",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL09179",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 40,
+      "aligned": 2,
+      "against": 3,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89909",
+   "name": "Maxwell Alejandro Frost",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-10",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Unopposed",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89909",
+   "fec_candidate_id": "H2FL10259",
+   "tip_page_id": "H2FL10259",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL10259",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "B-",
+      "score": 80,
+      "aligned": 4,
+      "against": 1,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "88517",
+   "name": "Ralph Groves",
+   "party_code": "LPF",
+   "party": "Libertarian",
+   "office": "house",
+   "race": "house-11",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88517",
+   "fec_candidate_id": "H4FL11089",
+   "tip_page_id": "H4FL11089",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL11089",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91715",
+   "name": "James Pericola",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-11",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91715",
+   "fec_candidate_id": "H6FL11357",
+   "tip_page_id": "H6FL11357",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL11357",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91717",
+   "name": "Joe Strada",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-11",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91717",
+   "fec_candidate_id": "H6FL11332",
+   "tip_page_id": "H6FL11332",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL11332",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "88868",
+   "name": "Gus Michael Bilirakis",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-12",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88868",
+   "fec_candidate_id": "H6FL09070",
+   "tip_page_id": "H6FL09070",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL09070",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89453",
+   "name": "Kimberly Overman",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-12",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89453",
+   "fec_candidate_id": "H6FL15200",
+   "tip_page_id": "H6FL15200",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL15200",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89778",
+   "name": "Branden Scrivener",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-12",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89778",
+   "fec_candidate_id": "H6FL12231",
+   "tip_page_id": "H6FL12231",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL12231",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89497",
+   "name": "Tony D'Arrigo",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-13",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89497",
+   "fec_candidate_id": "H4FL13234",
+   "tip_page_id": "H4FL13234",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL13234",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90671",
+   "name": "Leela Gray",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-13",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90671",
+   "fec_candidate_id": "H6FL13312",
+   "tip_page_id": "H6FL13312",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL13312",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89765",
+   "name": "Anna Paulina Luna",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-13",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89765",
+   "fec_candidate_id": "H0FL13158",
+   "tip_page_id": "H0FL13158",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0FL13158",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 20,
+      "aligned": 1,
+      "against": 4,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91313",
+   "name": "Mike Beltran",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-14",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91313",
+   "fec_candidate_id": "H6FL14237",
+   "tip_page_id": "H6FL14237",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL14237",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "88870",
+   "name": "Kathy Castor",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-14",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88870",
+   "fec_candidate_id": "H6FL11126",
+   "tip_page_id": "H6FL11126",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL11126",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "D-",
+      "score": 60,
+      "aligned": 3,
+      "against": 2,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91055",
+   "name": "Salomon Hernandez Sr.",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "house",
+   "race": "house-14",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91055",
+   "fec_candidate_id": "H4FL14166",
+   "tip_page_id": "H4FL14166",
+   "tip": {
+    "url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 404,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "92395",
+   "name": "Brian Lambert",
+   "party_code": "LPF",
+   "party": "Libertarian",
+   "office": "house",
+   "race": "house-14",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92395",
+   "fec_candidate_id": "H6FL14245",
+   "tip_page_id": "H6FL14245",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL14245",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89166",
+   "name": "Keith Varian",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "house",
+   "race": "house-14",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89166",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "92409",
+   "name": "Angie Boone",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "house",
+   "race": "house-15",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92409",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89121",
+   "name": "Laurel Lee",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-15",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89121",
+   "fec_candidate_id": "H2FL15241",
+   "tip_page_id": "H2FL15241",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL15241",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 50,
+      "aligned": 1,
+      "against": 1,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89116",
+   "name": "Robert People",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-15",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89116",
+   "fec_candidate_id": "H6FL15168",
+   "tip_page_id": "H6FL15168",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL15168",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89623",
+   "name": "Mark Davis",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-16",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89623",
+   "fec_candidate_id": "H6FL06365",
+   "tip_page_id": "H6FL06365",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06365",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90251",
+   "name": "Sydney Gruters",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-16",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90251",
+   "fec_candidate_id": "H6FL16141",
+   "tip_page_id": "H6FL16141",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL16141",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90779",
+   "name": "Kelly Kirschner",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-16",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90779",
+   "fec_candidate_id": "H6FL16158",
+   "tip_page_id": "H6FL16158",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL16158",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89451",
+   "name": "Matthew Montavon",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-17",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89451",
+   "fec_candidate_id": "H4FL17060",
+   "tip_page_id": "H4FL17060",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL17060",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90646",
+   "name": "Michael J. Quirk",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-17",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90646",
+   "fec_candidate_id": "H6FL17081",
+   "tip_page_id": "H6FL17081",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL17081",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89179",
+   "name": "Greg Steube",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-17",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89179",
+   "fec_candidate_id": "H8FL17053",
+   "tip_page_id": "H8FL17053",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8FL17053",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 4,
+      "recorded": 4,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89125",
+   "name": "Scott Franklin",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-18",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89125",
+   "fec_candidate_id": "H0FL15104",
+   "tip_page_id": "H0FL15104",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0FL15104",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89631",
+   "name": "Curtis Gibson",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-18",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89631",
+   "fec_candidate_id": "H6FL18212",
+   "tip_page_id": "H6FL18212",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL18212",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89643",
+   "name": "Deva Simmons",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-18",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89643",
+   "fec_candidate_id": "H6FL18204",
+   "tip_page_id": "H6FL18204",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL18204",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89740",
+   "name": "Victor Arias",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-19",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89740",
+   "fec_candidate_id": "H6FL19277",
+   "tip_page_id": "H6FL19277",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL19277",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90744",
+   "name": "Seth Haskin",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-19",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90744",
+   "fec_candidate_id": "H6FL19319",
+   "tip_page_id": "H6FL19319",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL19319",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89137",
+   "name": "Jim Schwartzel",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-19",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89137",
+   "fec_candidate_id": "H6FL19137",
+   "tip_page_id": "H6FL19137",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL19137",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90481",
+   "name": "Alexandra Zakhvatayev",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "house",
+   "race": "house-19",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90481",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "91278",
+   "name": "Brent Andersen",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-20",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91278",
+   "fec_candidate_id": "H6FL20143",
+   "tip_page_id": "H6FL20143",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL20143",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90814",
+   "name": "Kedner Maxime",
+   "party_code": "IND",
+   "party": "Independent Party of Florida",
+   "office": "house",
+   "race": "house-20",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90814",
+   "fec_candidate_id": "H6FL20119",
+   "tip_page_id": "H6FL20119",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL20119",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91577",
+   "name": "Debbie Wasserman Schultz",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-20",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91577",
+   "fec_candidate_id": "H4FL20023",
+   "tip_page_id": "H4FL20023",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL20023",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 40,
+      "aligned": 2,
+      "against": 3,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "92578",
+   "name": "Alexander Cooke",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-21",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92578",
+   "fec_candidate_id": "H6FL21109",
+   "tip_page_id": "H6FL21109",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL21109",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "92567",
+   "name": "David Fabrikant",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "house",
+   "race": "house-21",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92567",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "89846",
+   "name": "James T. Martin",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-21",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89846",
+   "fec_candidate_id": "H6FL21075",
+   "tip_page_id": "H6FL21075",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL21075",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "88912",
+   "name": "Brian Mast",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-21",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88912",
+   "fec_candidate_id": "H6FL18097",
+   "tip_page_id": "H6FL18097",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL18097",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "92109",
+   "name": "Casey Askar",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-22",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92109",
+   "fec_candidate_id": "H6FL22248",
+   "tip_page_id": "H6FL22248",
+   "tip": {
+    "url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 404,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89301",
+   "name": "Pia Dandiya",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-22",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89301",
+   "fec_candidate_id": "H6FL21059",
+   "tip_page_id": "H6FL21059",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL21059",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89070",
+   "name": "Deborah Adeimy",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-23",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89070",
+   "fec_candidate_id": "H2FL21132",
+   "tip_page_id": "H2FL21132",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL21132",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89248",
+   "name": "Lois Frankel",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-23",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89248",
+   "fec_candidate_id": "H2FL14053",
+   "tip_page_id": "H2FL14053",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL14053",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 40,
+      "aligned": 2,
+      "against": 3,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90703",
+   "name": "Te Mayonna Brown",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-24",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90703",
+   "fec_candidate_id": "H6FL14203",
+   "tip_page_id": "H6FL14203",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL14203",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91544",
+   "name": "Oliver G. Gilbert III",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-24",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91544",
+   "fec_candidate_id": "H6FL24095",
+   "tip_page_id": "H6FL24095",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL24095",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "92610",
+   "name": "Patricia Gonzalez",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "house",
+   "race": "house-24",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92610",
+   "fec_candidate_id": "H2FL24052",
+   "tip_page_id": "H2FL24052",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL24052",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "84732",
+   "name": "Michaelangelo Hamilton",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "office": "house",
+   "race": "house-25",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=84732",
+   "fec_candidate_id": "H6FL23105",
+   "tip_page_id": "H6FL23105",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL23105",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "92357",
+   "name": "Peter Jassenoff",
+   "party_code": "LPF",
+   "party": "Libertarian",
+   "office": "house",
+   "race": "house-25",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92357",
+   "fec_candidate_id": "H6FL25068",
+   "tip_page_id": "H6FL25068",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL25068",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "88911",
+   "name": "Jared Moskowitz",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-25",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88911",
+   "fec_candidate_id": "H2FL22171",
+   "tip_page_id": "H2FL22171",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL22171",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 40,
+      "aligned": 2,
+      "against": 3,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89801",
+   "name": "Scott Singer",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-25",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89801",
+   "fec_candidate_id": "H6FL23188",
+   "tip_page_id": "H6FL23188",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL23188",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90330",
+   "name": "Mario Diaz-Balart",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-26",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90330",
+   "fec_candidate_id": "H2FL25018",
+   "tip_page_id": "H2FL25018",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL25018",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 4,
+      "recorded": 4,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89980",
+   "name": "Nicole Locklin",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-26",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89980",
+   "fec_candidate_id": "H6FL26058",
+   "tip_page_id": "H6FL26058",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL26058",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "92137",
+   "name": "Deborah Ann Meidinger Hosey",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-26",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92137",
+   "fec_candidate_id": "H6FL26074",
+   "tip_page_id": "H6FL26074",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL26074",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "89933",
+   "name": "Eliott Rodriguez",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-27",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89933",
+   "fec_candidate_id": "H6FL27098",
+   "tip_page_id": "H6FL27098",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL27098",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90721",
+   "name": "Maria Elvira Salazar",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-27",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90721",
+   "fec_candidate_id": "H8FL27185",
+   "tip_page_id": "H8FL27185",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8FL27185",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91699",
+   "name": "Phil \"Felipe\" Ehr",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "office": "house",
+   "race": "house-28",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91699",
+   "fec_candidate_id": "H4FL28042",
+   "tip_page_id": "H4FL28042",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL28042",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "91226",
+   "name": "Carlos A. Gimenez",
+   "party_code": "REP",
+   "party": "Republican",
+   "office": "house",
+   "race": "house-28",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Unopposed",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91226",
+   "fec_candidate_id": "H0FL26036",
+   "tip_page_id": "H0FL26036",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0FL26036",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-21T21:52:42.272+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  },
+  {
+   "id": "90340",
+   "name": "Eddy Rojas",
+   "party_code": "NPA",
+   "party": "No Party Affiliation",
+   "office": "house",
+   "race": "house-28",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90340",
+   "fec_candidate_id": "H6FL28021",
+   "tip_page_id": "H6FL28021",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL28021",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-23T14:32Z"
+   }
+  }
+ ]
+}

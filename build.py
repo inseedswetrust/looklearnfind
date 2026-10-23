@@ -16,6 +16,7 @@ See docs/ for the brand guide, sitemap and nexus design.
 import json, re, shutil, sys, datetime
 from pathlib import Path
 from html import escape
+import elections
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "dist"
@@ -84,7 +85,8 @@ def bullets(text):
 
 def fmt_date(s):
     try:
-        return datetime.date.fromisoformat(s).strftime("%b %-d, %Y")
+        d = datetime.date.fromisoformat(s)
+        return d.strftime("%b %d, %Y").replace(" 0", " ", 1) if d.day < 10 else d.strftime("%b %d, %Y")
     except Exception:
         return s or ""
 
@@ -712,10 +714,17 @@ def main():
     OUT.mkdir(parents=True)
     shutil.copytree(ROOT / "static", OUT, dirs_exist_ok=True)
     for s in STORIES:
+        if s.get("layout") == "report":
+            continue
         render_story(s)
     for f in FINDS:
         render_find(f)
     gen_pages(); gen_home(); gen_topics(); gen_categories(); gen_threads(); gen_learn_latest_find(); gen_search_shell(); gen_look_shells()
+    elections.API.update(dict(shell=shell, STORIES=STORIES, card=card, take_block=take_block, kv_block=kv_block, fmt_date=fmt_date))
+    elections.build(elections.API)
+    for s in STORIES:
+        if s.get("layout") == "report":
+            elections.render_report(s)
     for path, html in PAGES_OUT.items():
         dest = OUT / path.strip("/") / "index.html" if path != "/" else OUT / "index.html"
         if path.endswith(".html"):
@@ -735,12 +744,14 @@ def main():
         import zipfile
         rel = ROOT / "release"
         rel.mkdir(exist_ok=True)
-        zpath = rel / "looklearnfind-site.zip"
+        keep_robots = "--keep-live-robots" in sys.argv     # update zip: do not overwrite the live robots.txt
+        zpath = rel / ("looklearnfind-elections-update.zip" if keep_robots else "looklearnfind-site.zip")
         if zpath.exists():
             zpath.unlink()
         with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
             for f in sorted(OUT.rglob("*")):
-                if f.is_file() and not (f.suffix in (".sqlite", ".jsonl") or f.name in ("config.php",) or "-wal" in f.name or "-shm" in f.name):
+                if f.is_file() and not (f.suffix in (".sqlite", ".jsonl") or f.name in ("config.php",) or "-wal" in f.name or "-shm" in f.name
+                                        or (keep_robots and f.name in ("robots.txt", "robots.launch.txt"))):
                     z.write(f, f.relative_to(OUT).as_posix())
         print(f"Wrote {zpath} ({zpath.stat().st_size / 1024:.0f} KB)")
 

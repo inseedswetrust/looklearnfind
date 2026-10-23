@@ -1,0 +1,2965 @@
+{
+  "captured_at_utc": "2026-10-23T14:28:24Z",
+  "sources": {
+    "gov": {
+      "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?OfficeCode=GOV&elecid=20261103-GEN",
+      "sha256": "e4528f00ed1a9f317f2c1a8dc84cc5ae8b1d849a3c99fa6d0ad8c74635ad682c",
+      "bytes": 35365
+    },
+    "fed": {
+      "url": "https://dos.elections.myflorida.com/candidates/CanList.asp?CountyCode=ALL&OfficeGroup=ALL&Party=ALL&StatusCode=ALL&cantype=FED&elecID=20261103-GEN&sortby=OFF",
+      "sha256": "edb17e41b4232950c99b44b54f9e91198b8a4b89488429092413543503d4daa8",
+      "bytes": 759806
+    }
+  },
+  "governor": [
+    {
+      "name": "Dean Ocean Abrams",
+      "party_code": "NPA",
+      "running_mate": "Joe Van Vactor",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "90433"
+    },
+    {
+      "name": "Kathy Anderson",
+      "party_code": "WRI",
+      "running_mate": "Daniel Nokovich",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "90612"
+    },
+    {
+      "name": "Charles Burkett",
+      "party_code": "NPA",
+      "running_mate": "Ruben A. Coto",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "90630"
+    },
+    {
+      "name": "Evelyn Castillo-Bach",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89619"
+    },
+    {
+      "name": "Jay Collins",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89690"
+    },
+    {
+      "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+      "party_code": "NPA",
+      "running_mate": "Juan Santana",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "89630"
+    },
+    {
+      "name": "Moliere \"Moe\" Dimanche",
+      "party_code": "NPA",
+      "running_mate": "Benjiman Rojas",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "88529"
+    },
+    {
+      "name": "Byron Donalds",
+      "party_code": "REP",
+      "running_mate": "Bryan Avila",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "Won",
+      "state_account": "89042"
+    },
+    {
+      "name": "Thomas Eloy Fernandez",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89629"
+    },
+    {
+      "name": "James Fishback",
+      "party_code": "REP",
+      "running_mate": "Sean A. Lozano",
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89600"
+    },
+    {
+      "name": "Dayna Marie Foster",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89353"
+    },
+    {
+      "name": "Jim Holcomb",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89140"
+    },
+    {
+      "name": "Scott Eckhard Jewett",
+      "party_code": "LPF",
+      "running_mate": "Nicole Skelly",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "Unopposed",
+      "state_account": "84076"
+    },
+    {
+      "name": "David Jolly",
+      "party_code": "DEM",
+      "running_mate": "Gwen Graham",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "Won",
+      "state_account": "89243"
+    },
+    {
+      "name": "Dotie Joseph",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "92056"
+    },
+    {
+      "name": "Arthur Joseph McCaffrey",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "90679"
+    },
+    {
+      "name": "Erik Morris",
+      "party_code": "WRI",
+      "running_mate": "LeRoy Alaways",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "89939"
+    },
+    {
+      "name": "Daniel Nokovich",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "90250"
+    },
+    {
+      "name": "Stephann Norman",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89987"
+    },
+    {
+      "name": "Paul Renner",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89414"
+    },
+    {
+      "name": "Rachel Rodriguez",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89711"
+    },
+    {
+      "name": "Frank J. Russo",
+      "party_code": "NPA",
+      "running_mate": "Rachel Rodriguez",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "89571"
+    },
+    {
+      "name": "James W. Shaw",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89867"
+    },
+    {
+      "name": "Caneste Succe",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89052"
+    },
+    {
+      "name": "Bobby Williams",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89032"
+    }
+  ],
+  "senate": [
+    {
+      "name": "Shawn Stefan Bettis",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Did Not Qualify",
+      "primary": "",
+      "state_account": "89966"
+    },
+    {
+      "name": "Neil J. Gillespie",
+      "party_code": "NPA",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "89955"
+    },
+    {
+      "name": "Chris Gleason",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89890"
+    },
+    {
+      "name": "Alex Gould",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Did Not Qualify",
+      "primary": "",
+      "state_account": "89158"
+    },
+    {
+      "name": "Michaelangelo Collins Hamilton",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Did Not Qualify",
+      "primary": "",
+      "state_account": "89027"
+    },
+    {
+      "name": "Tamika Lyles",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Withdrew",
+      "primary": "",
+      "state_account": "89101"
+    },
+    {
+      "name": "Ashley Moody",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": true,
+      "status": "Qualified",
+      "primary": "Won",
+      "state_account": "89119"
+    },
+    {
+      "name": "Hector Daniel Mujica",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Withdrew",
+      "primary": "",
+      "state_account": "89739"
+    },
+    {
+      "name": "Angie Nixon",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "Won",
+      "state_account": "90009"
+    },
+    {
+      "name": "Neelam Taneja Perry",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "89391"
+    },
+    {
+      "name": "Ernest \"Ernie\" Rivera",
+      "party_code": "REP",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "90436"
+    },
+    {
+      "name": "Alix Christopher Toulme",
+      "party_code": "WRI",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Did Not Qualify",
+      "primary": "",
+      "state_account": "90535"
+    },
+    {
+      "name": "Alex Vindman",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Defeated",
+      "primary": "Eliminated",
+      "state_account": "90509"
+    },
+    {
+      "name": "Joshua Joseph Weil",
+      "party_code": "DEM",
+      "running_mate": null,
+      "incumbent": false,
+      "status": "Did Not Qualify",
+      "primary": "",
+      "state_account": "89279"
+    }
+  ],
+  "house": {
+    "1": [
+      {
+        "name": "Cedric Lorenzo Alexander",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "88790"
+      },
+      {
+        "name": "Henry L. \"Rick\" Barnes",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89641"
+      },
+      {
+        "name": "Douglas Chico",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89842"
+      },
+      {
+        "name": "Tyler L. Davis",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "89828"
+      },
+      {
+        "name": "John Frankman",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89818"
+      },
+      {
+        "name": "Jimmy Patronis",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89686"
+      },
+      {
+        "name": "Gay Valimont",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89916"
+      }
+    ],
+    "2": [
+      {
+        "name": "Yen Bailey",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "88863"
+      },
+      {
+        "name": "Brice Barnes",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90284"
+      },
+      {
+        "name": "Neal Patrick Dunn",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89123"
+      },
+      {
+        "name": "Amanda Marie Green",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89535"
+      },
+      {
+        "name": "Keith Gross",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89742"
+      },
+      {
+        "name": "Lee Jones",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "92222"
+      },
+      {
+        "name": "Nick Lewis",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89722"
+      },
+      {
+        "name": "Luke Murphy",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90566"
+      },
+      {
+        "name": "Jim Norton",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89879"
+      },
+      {
+        "name": "Evan Power",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89694"
+      },
+      {
+        "name": "Austin Rogers",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89929"
+      },
+      {
+        "name": "Audie Rowell",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89849"
+      },
+      {
+        "name": "Nicholas Zateslo",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89160"
+      }
+    ],
+    "3": [
+      {
+        "name": "Rock Aboujaoude Jr.",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89499"
+      },
+      {
+        "name": "Troy Albers",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89496"
+      },
+      {
+        "name": "Kat Cammack",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "91508"
+      },
+      {
+        "name": "Seth Harp",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89177"
+      },
+      {
+        "name": "George Hubac",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89930"
+      },
+      {
+        "name": "Mike Klein",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "91032"
+      },
+      {
+        "name": "Joseph Drury Van Vactor Jr.",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89562"
+      },
+      {
+        "name": "Tom Wells",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89588"
+      },
+      {
+        "name": "Angela T. Wiman",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89464"
+      }
+    ],
+    "4": [
+      {
+        "name": "Aaron Bean",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "88755"
+      },
+      {
+        "name": "Augustus \"Gus\" Fulton-Wiley IV",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "91050"
+      },
+      {
+        "name": "LaShonda \"L.J.\" Holloway",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89716"
+      },
+      {
+        "name": "Michael Kirwan",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89596"
+      },
+      {
+        "name": "Ricky Patric Knoles",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89064"
+      },
+      {
+        "name": "Brit Robinson",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89352"
+      },
+      {
+        "name": "Todd Schaefer",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "89381"
+      },
+      {
+        "name": "Mike Sell",
+        "party_code": "FFP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "90647"
+      },
+      {
+        "name": "Ronald Edgar Sherard III",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89067"
+      }
+    ],
+    "5": [
+      {
+        "name": "Rachel Grage",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89665"
+      },
+      {
+        "name": "Alex Hazen",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89855"
+      },
+      {
+        "name": "Mark Heggestad",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89452"
+      },
+      {
+        "name": "Eli Johnson",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89335"
+      },
+      {
+        "name": "Mark Kaye",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89525"
+      },
+      {
+        "name": "Gary L. Koniz",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89292"
+      },
+      {
+        "name": "John H. Rutherford",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89967"
+      },
+      {
+        "name": "John B. Todd",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89938"
+      },
+      {
+        "name": "William Lintag Upham",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "90602"
+      },
+      {
+        "name": "Brandon Alexander Veazey",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "88896"
+      }
+    ],
+    "6": [
+      {
+        "name": "Manuel P. Asensio",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "92164"
+      },
+      {
+        "name": "Aaron Baker",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89115"
+      },
+      {
+        "name": "Purvi Dilip Bangdiwala",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89164"
+      },
+      {
+        "name": "Dan Bilzerian",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91548"
+      },
+      {
+        "name": "Alexandra Van Cleef",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "88782"
+      },
+      {
+        "name": "Robert David Cooper II",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89670"
+      },
+      {
+        "name": "Randy Fine",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "90492"
+      },
+      {
+        "name": "Will Furry",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89480"
+      },
+      {
+        "name": "Charles Gambaro",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89370"
+      },
+      {
+        "name": "Michael Gist",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89954"
+      },
+      {
+        "name": "Amr Metwally",
+        "party_code": "MGT",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89312"
+      },
+      {
+        "name": "Steve Morgan",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89910"
+      },
+      {
+        "name": "Ronnie \"Ron\" Murchinson-Rivera",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89307"
+      },
+      {
+        "name": "Andrew Parrott",
+        "party_code": "LPF",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89377"
+      },
+      {
+        "name": "Alec Pavlik",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "89465"
+      },
+      {
+        "name": "Joshua A. Vasquez",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89157"
+      },
+      {
+        "name": "Jose Miguel Velazquez Cruz",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89521"
+      },
+      {
+        "name": "Eric Yonce",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89402"
+      }
+    ],
+    "7": [
+      {
+        "name": "Bale Dalton",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "90631"
+      },
+      {
+        "name": "Christopher Dennison",
+        "party_code": "LPF",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "92377"
+      },
+      {
+        "name": "Ryan Elijah",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "90696"
+      },
+      {
+        "name": "Alan Grayson",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91972"
+      },
+      {
+        "name": "Michael Don Johnson",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89543"
+      },
+      {
+        "name": "Marialana Kinter",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89425"
+      },
+      {
+        "name": "Cory Lee Mills",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91581"
+      },
+      {
+        "name": "Sarah Ulrich",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89744"
+      }
+    ],
+    "8": [
+      {
+        "name": "Tom Comey",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89471"
+      },
+      {
+        "name": "Mike Haridopolos",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89522"
+      },
+      {
+        "name": "Jennifer Jenkins",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "90831"
+      },
+      {
+        "name": "Jennifer Kleman",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89703"
+      },
+      {
+        "name": "George D. MacArthur",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "90286"
+      },
+      {
+        "name": "Tayla Plumer",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89072"
+      },
+      {
+        "name": "Lacey Villareal",
+        "party_code": "IND",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89701"
+      }
+    ],
+    "9": [
+      {
+        "name": "Ben Butler",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91519"
+      },
+      {
+        "name": "Marcus Carter",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89024"
+      },
+      {
+        "name": "Thomas E. Chalifoux Jr.",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89529"
+      },
+      {
+        "name": "Dan Green",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "91337"
+      },
+      {
+        "name": "Jorge Antonio Malavet",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89597"
+      },
+      {
+        "name": "Jorge Martinez",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91035"
+      },
+      {
+        "name": "Ingrid Nair Morales Vazquez",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89460"
+      },
+      {
+        "name": "Steve Rance",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89418"
+      },
+      {
+        "name": "Darren Soto",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89339"
+      },
+      {
+        "name": "Justin Story",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89222"
+      }
+    ],
+    "10": [
+      {
+        "name": "Stuart Ross Farber",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "90985"
+      },
+      {
+        "name": "Maxwell Alejandro Frost",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Unopposed",
+        "primary": "Unopposed",
+        "state_account": "89909"
+      },
+      {
+        "name": "Brent Lawhon",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "90849"
+      },
+      {
+        "name": "Willie J. Montague",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "88891"
+      },
+      {
+        "name": "Willie Montague",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "90857"
+      },
+      {
+        "name": "Vibert White",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89385"
+      },
+      {
+        "name": "Angie Windhauser",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89628"
+      }
+    ],
+    "11": [
+      {
+        "name": "Carey Baker",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91381"
+      },
+      {
+        "name": "Chanelle Krisette Barnes",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89483"
+      },
+      {
+        "name": "Ralph Groves",
+        "party_code": "LPF",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "88517"
+      },
+      {
+        "name": "Barbara Harden \"Barbie\" Hall",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89250"
+      },
+      {
+        "name": "Ivette Palomo",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89949"
+      },
+      {
+        "name": "James Pericola",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "91715"
+      },
+      {
+        "name": "Nizam Razack",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90680"
+      },
+      {
+        "name": "Anthony Sabatini",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "91159"
+      },
+      {
+        "name": "Ryan Lee Smith",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "90640"
+      },
+      {
+        "name": "Joe Strada",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "91717"
+      },
+      {
+        "name": "Walter J. Walker",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "90524"
+      },
+      {
+        "name": "Royal Webster",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89519"
+      },
+      {
+        "name": "Tim Wilkins",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91146"
+      },
+      {
+        "name": "Dan Williams",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89560"
+      },
+      {
+        "name": "Mike Wilnau",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89490"
+      }
+    ],
+    "12": [
+      {
+        "name": "Gus Michael Bilirakis",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "88868"
+      },
+      {
+        "name": "Samantha Elizabeth June",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89823"
+      },
+      {
+        "name": "Darren McAuley",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89713"
+      },
+      {
+        "name": "Kimberly Overman",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89453"
+      },
+      {
+        "name": "Branden Scrivener",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "89778"
+      }
+    ],
+    "13": [
+      {
+        "name": "Tony D'Arrigo",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "89497"
+      },
+      {
+        "name": "John Thomas Fay",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89627"
+      },
+      {
+        "name": "Earle Ford",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89656"
+      },
+      {
+        "name": "Leela Gray",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "90671"
+      },
+      {
+        "name": "Karla Kemp",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89814"
+      },
+      {
+        "name": "Susan R. Leff",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89704"
+      },
+      {
+        "name": "John William Liccione",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89766"
+      },
+      {
+        "name": "Amaro Lionheart",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89200"
+      },
+      {
+        "name": "Anna Paulina Luna",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89765"
+      },
+      {
+        "name": "Jeffrey Moore",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89325"
+      },
+      {
+        "name": "Courtney Lynn Offutt",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89398"
+      },
+      {
+        "name": "Brandt Robinson",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89695"
+      }
+    ],
+    "14": [
+      {
+        "name": "Juan Carlos Arauz",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "90830"
+      },
+      {
+        "name": "Mike Beltran",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "91313"
+      },
+      {
+        "name": "Kathy Castor",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "88870"
+      },
+      {
+        "name": "Salomon Hernandez Sr.",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "91055"
+      },
+      {
+        "name": "Brian Lambert",
+        "party_code": "LPF",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "92395"
+      },
+      {
+        "name": "Michael Marcel",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "92584"
+      },
+      {
+        "name": "Erik Mishiyev",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89011"
+      },
+      {
+        "name": "John Peters",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89634"
+      },
+      {
+        "name": "Robert \"Rocky\" Rochford",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89191"
+      },
+      {
+        "name": "Gavriel E. Soriano",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89948"
+      },
+      {
+        "name": "Kevin M. Steele",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90781"
+      },
+      {
+        "name": "Reginald B. Strachan",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89078"
+      },
+      {
+        "name": "Ergin \"Batman\" Tek",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90267"
+      },
+      {
+        "name": "Bea Valenti",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90700"
+      },
+      {
+        "name": "Keith Varian",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "89166"
+      },
+      {
+        "name": "Dan Weldon",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89786"
+      },
+      {
+        "name": "John Charles Wick",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89114"
+      }
+    ],
+    "15": [
+      {
+        "name": "Angie Boone",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "92409"
+      },
+      {
+        "name": "Jose Engell",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89087"
+      },
+      {
+        "name": "Christopher Irizarry",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89793"
+      },
+      {
+        "name": "Laurel Lee",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89121"
+      },
+      {
+        "name": "Robert People",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89116"
+      }
+    ],
+    "16": [
+      {
+        "name": "Vern Buchanan",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "88752"
+      },
+      {
+        "name": "Mark Davis",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "89623"
+      },
+      {
+        "name": "Sydney Gruters",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "90251"
+      },
+      {
+        "name": "Jon Harris",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89642"
+      },
+      {
+        "name": "Kelly Kirschner",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "90779"
+      },
+      {
+        "name": "Tamika Lyles",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90156"
+      },
+      {
+        "name": "Glenn Pearson",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89236"
+      },
+      {
+        "name": "Ed Pope",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89896"
+      },
+      {
+        "name": "James Satcher",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "92704"
+      },
+      {
+        "name": "Jan Schneider",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89135"
+      },
+      {
+        "name": "Eddie Speir",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89827"
+      }
+    ],
+    "17": [
+      {
+        "name": "Matthew Montavon",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89451"
+      },
+      {
+        "name": "Michael J. Quirk",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "90646"
+      },
+      {
+        "name": "Allen L. Spence Jr.",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89252"
+      },
+      {
+        "name": "Greg Steube",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89179"
+      }
+    ],
+    "18": [
+      {
+        "name": "Scott Franklin",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89125"
+      },
+      {
+        "name": "Curtis Gibson",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89631"
+      },
+      {
+        "name": "Tiffanie Luong",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89718"
+      },
+      {
+        "name": "Deva Simmons",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "89643"
+      }
+    ],
+    "19": [
+      {
+        "name": "Victor Arias",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89740"
+      },
+      {
+        "name": "Greg \"Tex\" Bukowski",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91285"
+      },
+      {
+        "name": "Madison Cawthorn",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89572"
+      },
+      {
+        "name": "Chris Collins",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89276"
+      },
+      {
+        "name": "Seth Haskin",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "90744"
+      },
+      {
+        "name": "Ola Hawatmeh",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89728"
+      },
+      {
+        "name": "Catalina Lauf",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90145"
+      },
+      {
+        "name": "Dylan Modarelli",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89655"
+      },
+      {
+        "name": "Robert M. Neeld",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91974"
+      },
+      {
+        "name": "Jim Oberweis",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89226"
+      },
+      {
+        "name": "Mike Pedersen",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89374"
+      },
+      {
+        "name": "Howard Sapp",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89281"
+      },
+      {
+        "name": "Linda J. Sawyer",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89957"
+      },
+      {
+        "name": "Jim Schwartzel",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89137"
+      },
+      {
+        "name": "John Strand",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89721"
+      },
+      {
+        "name": "Richard Stephen Youschak III",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89768"
+      },
+      {
+        "name": "Alexandra Zakhvatayev",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "90481"
+      }
+    ],
+    "20": [
+      {
+        "name": "Brent Andersen",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "91278"
+      },
+      {
+        "name": "Luther \"UncleLuke\" Campbell",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89937"
+      },
+      {
+        "name": "Sheila Cherfilus-McCormick",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90432"
+      },
+      {
+        "name": "Susan L. Clubb",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89645"
+      },
+      {
+        "name": "Clifford Gene Fleetwood",
+        "party_code": "IND",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "91054"
+      },
+      {
+        "name": "Dale V.C. Holness",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89962"
+      },
+      {
+        "name": "Lateresa \"LA\" Jones",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89859"
+      },
+      {
+        "name": "Rod Joseph",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "88814"
+      },
+      {
+        "name": "Elijah Manley",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89001"
+      },
+      {
+        "name": "Kedner Maxime",
+        "party_code": "IND",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "90814"
+      },
+      {
+        "name": "Carla Spalding",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91886"
+      },
+      {
+        "name": "Gary Stein",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89159"
+      },
+      {
+        "name": "Debbie Wasserman Schultz",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "91577"
+      }
+    ],
+    "21": [
+      {
+        "name": "Alexander Cooke",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "92578"
+      },
+      {
+        "name": "David Fabrikant",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "92567"
+      },
+      {
+        "name": "James T. Martin",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89846"
+      },
+      {
+        "name": "Brian Mast",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "88912"
+      },
+      {
+        "name": "Edward F. Oconnor",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89735"
+      },
+      {
+        "name": "Robert A. Ott",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89004"
+      },
+      {
+        "name": "Elizabeth Pandich",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89172"
+      },
+      {
+        "name": "Ljubo Skrbic",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89383"
+      },
+      {
+        "name": "Bernard Taylor",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89233"
+      }
+    ],
+    "22": [
+      {
+        "name": "Casey Askar",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "92109"
+      },
+      {
+        "name": "Sara Baxter",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "91582"
+      },
+      {
+        "name": "David Burck",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90645"
+      },
+      {
+        "name": "Michael Carbonara",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90525"
+      },
+      {
+        "name": "Pia Dandiya",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89301"
+      },
+      {
+        "name": "Kaysia Earley",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91322"
+      },
+      {
+        "name": "Richard Evans",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90934"
+      },
+      {
+        "name": "Terri Hasdorff",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91145"
+      },
+      {
+        "name": "Belinda Keiser",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90812"
+      },
+      {
+        "name": "Michael Thompson",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90852"
+      },
+      {
+        "name": "Herbert Wertheim",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "90361"
+      }
+    ],
+    "23": [
+      {
+        "name": "Deborah Adeimy",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89070"
+      },
+      {
+        "name": "Paola Branda",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90914"
+      },
+      {
+        "name": "Sendra Dorce",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89601"
+      },
+      {
+        "name": "Victoria Doyle",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89696"
+      },
+      {
+        "name": "Lois Frankel",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89248"
+      },
+      {
+        "name": "Rafael Arturo Ortiz",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89963"
+      },
+      {
+        "name": "Mark Piper",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91277"
+      }
+    ],
+    "24": [
+      {
+        "name": "Te Mayonna Brown",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "90703"
+      },
+      {
+        "name": "Andy Daro",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "90718"
+      },
+      {
+        "name": "Marshall L. Davis Sr.",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "92521"
+      },
+      {
+        "name": "Oliver G. Gilbert III",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "91544"
+      },
+      {
+        "name": "Patricia Gonzalez",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "92610"
+      },
+      {
+        "name": "Shevrin \"Shev\" Jones",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91674"
+      },
+      {
+        "name": "Kendrick Meek",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91981"
+      },
+      {
+        "name": "Imtiaz Ahmad Mohammad",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "88867"
+      },
+      {
+        "name": "Rudolph Moise",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89725"
+      },
+      {
+        "name": "Jean Monestime",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91691"
+      },
+      {
+        "name": "Christine Alexandria Sanon-Jules",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "90668"
+      },
+      {
+        "name": "Roderick Vereen",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "92096"
+      },
+      {
+        "name": "Frederica S. Wilson",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89454"
+      }
+    ],
+    "25": [
+      {
+        "name": "Dan Franzese",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "91057"
+      },
+      {
+        "name": "Michaelangelo Hamilton",
+        "party_code": "WRI",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "84732"
+      },
+      {
+        "name": "Raven Harrison",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90427"
+      },
+      {
+        "name": "Peter Jassenoff",
+        "party_code": "LPF",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "92357"
+      },
+      {
+        "name": "Joseph \"Joe\" Kaufman",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "88881"
+      },
+      {
+        "name": "Oliver Adams Larkin",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89736"
+      },
+      {
+        "name": "George R. Moraitis",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89053"
+      },
+      {
+        "name": "Jared Moskowitz",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "88911"
+      },
+      {
+        "name": "Scott Singer",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89801"
+      },
+      {
+        "name": "Claudia Villatoro",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89423"
+      }
+    ],
+    "26": [
+      {
+        "name": "Mario Diaz-Balart",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "90330"
+      },
+      {
+        "name": "Yurina Gil",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89882"
+      },
+      {
+        "name": "Dustin Lapolla",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89902"
+      },
+      {
+        "name": "Robyn Elaine Lawrence",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Withdrew",
+        "primary": "",
+        "state_account": "89552"
+      },
+      {
+        "name": "Nicole Locklin",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "89980"
+      },
+      {
+        "name": "Deborah Ann Meidinger Hosey",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "92137"
+      }
+    ],
+    "27": [
+      {
+        "name": "V. Michael Arias",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "90809"
+      },
+      {
+        "name": "Alexander Fornino",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89253"
+      },
+      {
+        "name": "Robin Peguero",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Defeated",
+        "primary": "Eliminated",
+        "state_account": "89714"
+      },
+      {
+        "name": "Eliott Rodriguez",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "89933"
+      },
+      {
+        "name": "Maria Elvira Salazar",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Won",
+        "state_account": "90721"
+      }
+    ],
+    "28": [
+      {
+        "name": "Phil \"Felipe\" Ehr",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "91699"
+      },
+      {
+        "name": "Carlos A. Gimenez",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": true,
+        "status": "Qualified",
+        "primary": "Unopposed",
+        "state_account": "91226"
+      },
+      {
+        "name": "James F. Henry",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89133"
+      },
+      {
+        "name": "Herrera Macuran",
+        "party_code": "REP",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "88976"
+      },
+      {
+        "name": "Roberto Martin Mieses-Robleto",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "89750"
+      },
+      {
+        "name": "Hector Daniel Mujica",
+        "party_code": "DEM",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Did Not Qualify",
+        "primary": "",
+        "state_account": "90477"
+      },
+      {
+        "name": "Eddy Rojas",
+        "party_code": "NPA",
+        "running_mate": null,
+        "incumbent": false,
+        "status": "Qualified",
+        "primary": "",
+        "state_account": "90340"
+      }
+    ]
+  },
+  "sections_found": [
+    "United States Senator",
+    "United States Representative",
+    "Governor",
+    "Attorney General",
+    "Chief Financial Officer",
+    "Commissioner of Agriculture",
+    "State Attorney",
+    "Public Defender",
+    "State Senator",
+    "State Representative",
+    "Supreme Court Justice",
+    "District Court of Appeal",
+    "Circuit Judge",
+    "Chipola River Soil & Water Conservation District",
+    "Englewood Water District",
+    "Gasparilla Island Bridge Authority",
+    "Lehigh Acres Municipal Services Improvement Dist",
+    "Loxahatchee River Environmental Control District",
+    "Mediterra Community Development District",
+    "Port LaBelle Community Development District",
+    "Sebastian Inlet Tax District",
+    "Tolomato Community Development District"
+  ],
+  "governor_qualified": [
+    {
+      "name": "Dean Ocean Abrams",
+      "party_code": "NPA",
+      "running_mate": "Joe Van Vactor",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "90433"
+    },
+    {
+      "name": "Kathy Anderson",
+      "party_code": "WRI",
+      "running_mate": "Daniel Nokovich",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "90612"
+    },
+    {
+      "name": "Charles Burkett",
+      "party_code": "NPA",
+      "running_mate": "Ruben A. Coto",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "90630"
+    },
+    {
+      "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+      "party_code": "NPA",
+      "running_mate": "Juan Santana",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "89630"
+    },
+    {
+      "name": "Moliere \"Moe\" Dimanche",
+      "party_code": "NPA",
+      "running_mate": "Benjiman Rojas",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "88529"
+    },
+    {
+      "name": "Byron Donalds",
+      "party_code": "REP",
+      "running_mate": "Bryan Avila",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "Won",
+      "state_account": "89042"
+    },
+    {
+      "name": "Scott Eckhard Jewett",
+      "party_code": "LPF",
+      "running_mate": "Nicole Skelly",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "Unopposed",
+      "state_account": "84076"
+    },
+    {
+      "name": "David Jolly",
+      "party_code": "DEM",
+      "running_mate": "Gwen Graham",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "Won",
+      "state_account": "89243"
+    },
+    {
+      "name": "Erik Morris",
+      "party_code": "WRI",
+      "running_mate": "LeRoy Alaways",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "89939"
+    },
+    {
+      "name": "Frank J. Russo",
+      "party_code": "NPA",
+      "running_mate": "Rachel Rodriguez",
+      "incumbent": false,
+      "status": "Qualified",
+      "primary": "",
+      "state_account": "89571"
+    }
+  ]
+}

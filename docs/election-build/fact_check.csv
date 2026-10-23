@@ -1,0 +1,52 @@
+claim_id,page,claim,value,source,as_of,verdict,notes
+FC-001,all,Governor qualified tickets,10,Florida Division of Elections governor list (captures/fl_gov_2026-10-23.html),2026-10-23,VERIFIED,Qualified status only; 15 other rows are Defeated primary candidates
+FC-002,all,Senate qualified candidates,3 (Moody R; Nixon D; Gillespie NPA),Florida Division of Elections federal list,2026-10-23,VERIFIED,
+FC-003,all,House qualified or unopposed candidates,83 in 28 districts,Florida Division of Elections federal list,2026-10-23,VERIFIED,"Includes Frost (FL-10) shown by the state as Unopposed, not Qualified"
+FC-004,hub,Total contests and candidates,30 contests; 96 candidates,computed from roster,2026-10-23,VERIFIED,10+3+83
+FC-005,house,District map in force is plan EOGPCRP2026 (HB 1-D) enacted May 2026,HB 1-D signed May 4 2026,Florida Legislature EDR transmittal memo; Wikipedia 2026 Florida redistricting; CBS Miami; NBC News,2026-10-23,VERIFIED,Litigation pending (state appellate court per press); stated on pages
+FC-006,house,District geometry and county shares,28 districts,EDR EOGPCRP2026.zip + Census county file,2026-10-23,VERIFIED,SHA-256 of zip in districts.json
+FC-007,house,TIP discrepancy: TIP races table lists FL-00 and FL-59 as cancelled artifacts,not shown,TIP database,2026-10-23,VERIFIED,Excluded
+FC-008,house,Kalshi has contracts for 26 of 28 districts,none for FL-13 and FL-23,Kalshi API event lookup KXHOUSERACE-FLnn-26,2026-10-23,VERIFIED,Re-check before publish
+FC-010,senate,Special election for the seat Rubio vacated; Moody appointed by DeSantis,n/a,Wikipedia 2026 US Senate special election in Florida,2026-10-23,VERIFIED,Appointment date not stated; page does not give one
+FC-011,senate,Moody receipts (FEC),$14.5M through Oct 14 2026,OpenFEC candidates/totals S6FL00640,2026-10-23,VERIFIED,Candidate committee only
+FC-012,senate,Senate independent expenditures total,computed (see page),OpenFEC Schedule E deduped,2026-10-23,VERIFIED,24/48-hour notices plus periodic; duplicates removed; memo X excluded
+FC-013,senate,UNF poll Moody 49 Nixon 45 undecided 5,Oct 12-19; n=1471 LV; MOE 2.81; phone,WLRN Oct 21 2026 (UNF release),2026-10-21,ATTRIBUTED,Original UNF PDF not retrieved; WLRN cites it
+FC-014,senate,Kalshi Moody and Nixon contract quotes,last 92c and 9c at capture,Kalshi public API,2026-10-23T14:34Z,VERIFIED,Party-winner contract; labeled market-implied
+FC-020,governor,Donalds R and Jolly D are the nominees; running mates Avila and Graham,n/a,Florida Division of Elections,2026-10-23,VERIFIED,
+FC-021,governor,Jolly represented FL-13 2014-2017 as a Republican; left GOP 2018; joined Democrats April 2025,n/a,Wikipedia David Jolly (cites Politico),2026-10-23,ATTRIBUTED,Secondary source
+FC-022,governor,Public matching funds Jolly $3074954.60; Donalds $1197766.78; Collins $199783.22; total $4472504.60,through 2026-10-23,Florida Department of State table (page updated Oct 23 2026),2026-10-23,VERIFIED,
+FC-023,governor,Donalds campaign account $13.3M raised ~$7.4M spent; Friends of Byron Donalds $107.6M raised ~$70M spent,through Sept 11 2026,News Service of Florida via CBS12 (Sept 21 2026),2026-09-11,ATTRIBUTED,State database returned 403 to automated access; figures labeled with date
+FC-024,governor,Jolly campaign account $8.2M raised $4.9M spent; Florida 2026 committee $6.4M received $3.3M spent,through Sept 11 2026,News Service of Florida via CBS12,2026-09-11,ATTRIBUTED,
+FC-025,governor,UNF poll Donalds 49 Jolly 47 undecided 4; n=1471 LV; MOE 2.81; Oct 12-19; July Donalds +5,WLRN Oct 21 2026,2026-10-21,ATTRIBUTED,
+FC-026,governor,Kalshi governor contract last trade R 82c D 19c,2026-10-23T14:34Z,Kalshi API GOVPARTYFL-26,2026-10-23,VERIFIED,Quote ages quickly; dek states the figure
+FC-027,governor,Donalds proposals: protect lawsuit reforms; trim fees; reform My Safe Florida Home; keep Citizens small; insurer scorecard,n/a,byrondonalds.com/issues/affordability,2026-10-23,ATTRIBUTED,Campaign statement
+FC-028,governor,Jolly hurricane fund; $7136 vs $2557 example; three funding options,n/a,davidjolly.com Insurance Proposal Facts (Sept 17 2026),2026-09-17,ATTRIBUTED,Campaign statement citing Insure.com calculator
+FC-029,governor,Donalds education: money follows the student; reading by third grade; Jolly teacher pay funded via tourist development tax,n/a,candidate issue pages,2026-10-23,ATTRIBUTED,
+FC-030,governor,Donalds property taxes: "keep property taxes in check" only,n/a,byrondonalds.com/issues/affordability,2026-10-23,ATTRIBUTED,No numbers given by campaign page
+FC-031,governor,TIP Issue Grades for Donalds from House record (H2FL14186),A+ data rights; F- war-crime; F- healthcare; F- Section 224,TIP candidate_issue_grades computed 2026-10-21,2026-10-23,VERIFIED,Federal record; page notes jurisdictional difference
+FC-040,delta,El-Sayed contract daily closes (ET days) Oct 5 73c; Oct 7 71c; Oct 9 67c; Oct 22 69c,see chart,Kalshi candlestick API SENATEMI-26-D,2026-10-23,VERIFIED,Candle end 04:00Z maps to previous ET day
+FC-041,delta,First debate Thursday Oct 8 2026 7 pm at WOOD-TV Grand Rapids,n/a,ClickOnDetroit Oct 8 2026,2026-10-08,VERIFIED,Time zone not stated in the article; Grand Rapids is Eastern
+FC-042,delta,Debate hour 7-8 pm ET hourly close 69c; hour before 68c,hourly candles,Kalshi API,2026-10-23,VERIFIED,
+FC-043,delta,Oct 9 volume about 140000 contracts; busiest hour ending 11 am about 42800; lowest hourly close 65c ending 1 pm,hourly and daily candles,Kalshi API,2026-10-23,VERIFIED,
+FC-044,delta,Kalshi News said El-Sayed fell 73% to 67% after the debate,n/a,Kalshi News Oct 9 2026,2026-10-09,ATTRIBUTED,Page reports no volume; no time of day
+FC-045,delta,Marist Oct 15-18: El-Sayed 50 Rogers 48 LV MOE 4.3; RV El-Sayed +7 MOE 4.0; RV n=1185,n/a,Marist poll page,2026-10-23,VERIFIED,Page gives no likely-voter sample size
+FC-046,delta,Contract resolves on party sworn in for the term beginning 2027,n/a,Kalshi rules_primary SENATEMI-26-D/R,2026-10-23,VERIFIED,
+FC-047,delta,El-Sayed receipts $45.2M through Sept 30; Rogers $23.0M through Oct 22,OpenFEC totals,2026-10-23,VERIFIED,Different periods; page says do not compare
+FC-048,delta,Debate was heated with candidates talking over each other,n/a,Al Jazeera Oct 9 2026,2026-10-09,ATTRIBUTED,Allegations made at the debate are not repeated
+FC-049,delta,Cause of the Oct 9 move,not established,none found,2026-10-23,UNVERIFIED,Labeled unexplained on the page
+FC-060,spending,FL-14 independent expenditures total,computed (see page),OpenFEC Schedule E deduped,2026-10-23,VERIFIED,Through Oct 23
+FC-061,spending,FL-25 independent expenditures total,computed (see page),OpenFEC Schedule E deduped,2026-10-23,VERIFIED,Through Oct 21
+FC-062,spending,About 46% (FL-14) and 49% (FL-25) of dollars are labeled estimates,computed,OpenFEC expenditure_description,2026-10-23,VERIFIED,
+FC-063,spending,Direction totals (supports R or opposes D vs opposite),computed,OpenFEC support_oppose_indicator and candidate party,2026-10-23,VERIFIED,Direction only; no inference about spender alignment
+FC-064,spending,Castor Beltran Moskowitz Singer receipts and coverage ends,computed,OpenFEC totals,2026-10-23,VERIFIED,
+FC-065,spending,REMOVED: WaPo/AdImpact FL-14 $5.7M added and about $10M cumulative; FL-25 $8.4M to $14M,not used,Washington Post Oct 7 2026,2026-10-07,UNVERIFIED,Page returned 403; no corroboration found; removed
+FC-066,spending,REMOVED: No Going Back PAC about $3.4M of ads supporting Beltran (per the Post),not used,Washington Post Oct 7 2026,2026-10-07,UNVERIFIED,"FEC shows this committee reported about $6.4M opposing Castor and about $0.2M supporting Beltran; the Post's classification cannot be reproduced from filings"
+FC-070,hub,Election Desk scope excludes ballot measures Cabinet legislature judges,n/a,owner instruction,2026-10-22,VERIFIED,Mockup "Key Ballot Measures" removed
+FC-071,methods,TIP grade formula,aligned/recorded; min 1 act; +/-0.5 ping; round half up; letters A+ to F-,TIP lib/grading.ts (owner decisions 2026-10-21),2026-10-23,VERIFIED,
+FC-072,methods,TIP has six issues,6,TIP public_interest_commitments,2026-10-23,VERIFIED,TIP about page still says five; flagged for TIP
+FC-073,hub,TIP Issue Grades exist for 23 of 96 candidates,23,TIP candidate_issue_grades via candidates.json,2026-10-23,VERIFIED,Includes Donalds via his House FEC ID
+REMOVED-01,gov draft,Donalds campaign and affiliated committee approximately $146.2M and Jolly $21M as of Oct 9,not used,none retrieved,2026-10-09,UNVERIFIED,State database blocked; replaced by dated Sept 11 press figures
+REMOVED-02,gov draft,Polls from ActiVote Change Research St. Pete Polls,not used,none retrieved,n/a,UNVERIFIED,Original releases not retrieved
+REMOVED-03,gov draft,Public matching funds as of Oct 16 ($2805218.54 / $1131323.66 / $199783.22),superseded,Florida DOS,2026-10-16,STALE,Replaced by Oct 23 table
+REMOVED-04,delta draft,73 to 67 "after the debate" as the statement of fact,rewritten,Kalshi News,2026-10-09,CONTRADICTED,API history shows most of the slide before the debate
+REMOVED-05,mockups,All mockup candidate names portraits amounts markets maps and district city names,not used,AI mockups,n/a,CONTRADICTED,E.g. governor mockup showed other candidates and a 62c/38c market; Senate mockup showed a different third candidate

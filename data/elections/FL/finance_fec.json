@@ -1,0 +1,2421 @@
+{
+ "as_of_utc": "2026-10-23T14:32:48Z",
+ "source": "OpenFEC /candidates/totals and /schedules/schedule_e/by_candidate, cycle 2026",
+ "candidates_queried": 80,
+ "totals": {
+  "H0FL03175": {
+   "receipts": 2437580.31,
+   "disbursements": 2030841.86,
+   "cash_on_hand_end_period": "962289.35",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 577616.56,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 934528.24,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H0FL13158": {
+   "receipts": 4351791.83,
+   "disbursements": 3736252.21,
+   "cash_on_hand_end_period": "746955.17",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1165615.65,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 219500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H0FL15104": {
+   "receipts": 1026403.99,
+   "disbursements": 625068.7,
+   "cash_on_hand_end_period": "883230.77",
+   "debts_owed_by_committee": "298500.00",
+   "individual_itemized_contributions": 433286.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 480500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H0FL26036": {
+   "receipts": 722290.55,
+   "disbursements": 757535.32,
+   "cash_on_hand_end_period": "540783.20",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 227930.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 368250.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H2FL04211": {
+   "receipts": 2682266.58,
+   "disbursements": 2579023.86,
+   "cash_on_hand_end_period": "577963.71",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1064859.09,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 1426900.01,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H2FL10259": {
+   "receipts": 3799850.17,
+   "disbursements": 3678922.65,
+   "cash_on_hand_end_period": "1212653.24",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1445226.98,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 361850.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H2FL14053": {
+   "receipts": 2631967.91,
+   "disbursements": 2355305.54,
+   "cash_on_hand_end_period": "564089.62",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1305361.43,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 676000.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H2FL15241": {
+   "receipts": 2711189.14,
+   "disbursements": 1825503.39,
+   "cash_on_hand_end_period": "1320456.25",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 508342.55,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 1006000.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H2FL21132": {
+   "receipts": 201144.96,
+   "disbursements": 171963.25,
+   "cash_on_hand_end_period": "32789.85",
+   "debts_owed_by_committee": "65466.00",
+   "individual_itemized_contributions": 104763.09,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H2FL22171": {
+   "receipts": 5093834.5,
+   "disbursements": 3628095.28,
+   "cash_on_hand_end_period": "1815025.92",
+   "debts_owed_by_committee": "10700.00",
+   "individual_itemized_contributions": 3052400.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 898709.9,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H2FL24052": {
+   "receipts": 1333.0,
+   "disbursements": 1333.0,
+   "cash_on_hand_end_period": "0.00",
+   "debts_owed_by_committee": "1200.00",
+   "individual_itemized_contributions": 0.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-09-23",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H2FL25018": {
+   "receipts": 2606687.1,
+   "disbursements": 2354822.03,
+   "cash_on_hand_end_period": "2071185.27",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1527535.53,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 1066400.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H4FL01197": {
+   "receipts": 295713.87,
+   "disbursements": 260991.04,
+   "cash_on_hand_end_period": "34722.83",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 111987.86,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 4885.26,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-02-28",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H4FL08168": {
+   "receipts": 2049237.21,
+   "disbursements": 1825049.83,
+   "cash_on_hand_end_period": "482350.21",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 900682.44,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 842750.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H4FL13234": {
+   "receipts": 28180.9,
+   "disbursements": 2500.0,
+   "cash_on_hand_end_period": "25680.90",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 21220.9,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-06-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H4FL17060": {
+   "receipts": 156274.33,
+   "disbursements": 131111.49,
+   "cash_on_hand_end_period": "25122.84",
+   "debts_owed_by_committee": "33000.00",
+   "individual_itemized_contributions": 80925.69,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-09-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H4FL20023": {
+   "receipts": 3707925.05,
+   "disbursements": 3980663.58,
+   "cash_on_hand_end_period": "784570.39",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 2631724.92,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 903532.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H4FL28042": {
+   "receipts": 508311.39,
+   "disbursements": 88022.34,
+   "cash_on_hand_end_period": "506962.57",
+   "debts_owed_by_committee": "654083.63",
+   "individual_itemized_contributions": 145566.03,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL01390": {
+   "receipts": 4467312.53,
+   "disbursements": 3527838.22,
+   "cash_on_hand_end_period": "939474.31",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 2634005.31,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 671300.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2024-12-03",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL02299": {
+   "receipts": 658316.41,
+   "disbursements": 630177.85,
+   "cash_on_hand_end_period": "28138.56",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 553602.03,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 24000.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-07-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL02331": {
+   "receipts": 1359851.76,
+   "disbursements": 1261556.5,
+   "cash_on_hand_end_period": "98295.26",
+   "debts_owed_by_committee": "376534.25",
+   "individual_itemized_contributions": 780048.18,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 184000.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL03099": {
+   "receipts": 172434.58,
+   "disbursements": 128289.26,
+   "cash_on_hand_end_period": "44145.32",
+   "debts_owed_by_committee": "735.00",
+   "individual_itemized_contributions": 59475.96,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 266.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL03149": {
+   "receipts": 119331.69,
+   "disbursements": 98936.85,
+   "cash_on_hand_end_period": "20394.84",
+   "debts_owed_by_committee": "50000.00",
+   "individual_itemized_contributions": 30238.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-03-20",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL04105": {
+   "receipts": 913650.12,
+   "disbursements": 851256.31,
+   "cash_on_hand_end_period": "240063.46",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 329807.34,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 569500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL04246": {
+   "receipts": 24186.0,
+   "disbursements": 14938.63,
+   "cash_on_hand_end_period": "-582.63",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 14093.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL05193": {
+   "receipts": 58546.29,
+   "disbursements": 24880.85,
+   "cash_on_hand_end_period": "44105.44",
+   "debts_owed_by_committee": "10440.00",
+   "individual_itemized_contributions": 38622.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 488.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL05250": {
+   "receipts": 448142.58,
+   "disbursements": 375233.44,
+   "cash_on_hand_end_period": "65881.07",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 357092.83,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-10-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL06258": {
+   "receipts": 4645044.9,
+   "disbursements": 4460456.43,
+   "cash_on_hand_end_period": "184588.47",
+   "debts_owed_by_committee": "950000.00",
+   "individual_itemized_contributions": 2129083.66,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 523360.19,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2024-11-26",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL06340": {
+   "receipts": 619304.84,
+   "disbursements": 522399.44,
+   "cash_on_hand_end_period": "96905.40",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 131028.53,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 250.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-07-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL06365": {
+   "receipts": 66969.03,
+   "disbursements": 65269.61,
+   "cash_on_hand_end_period": "1699.42",
+   "debts_owed_by_committee": "8076.00",
+   "individual_itemized_contributions": 10174.29,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-08-05",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL06399": {
+   "receipts": 960174.42,
+   "disbursements": 807452.37,
+   "cash_on_hand_end_period": "152722.05",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 360868.48,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 22500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-07-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL07215": {
+   "receipts": 2334663.82,
+   "disbursements": 2132409.93,
+   "cash_on_hand_end_period": "202253.89",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1709717.43,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 319625.01,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-10-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL07231": {
+   "receipts": 818460.2,
+   "disbursements": 645454.08,
+   "cash_on_hand_end_period": "173006.12",
+   "debts_owed_by_committee": "125589.80",
+   "individual_itemized_contributions": 500462.93,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 125500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL07249": {
+   "receipts": 10500.0,
+   "disbursements": 10440.0,
+   "cash_on_hand_end_period": "60.00",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 10500.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-06-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL09070": {
+   "receipts": 2255341.81,
+   "disbursements": 2122512.78,
+   "cash_on_hand_end_period": "254246.07",
+   "debts_owed_by_committee": "54639.01",
+   "individual_itemized_contributions": 878283.23,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 1185450.01,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL09179": {
+   "receipts": 3652279.81,
+   "disbursements": 3416403.68,
+   "cash_on_hand_end_period": "249994.67",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1480151.06,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 2051050.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL09294": {
+   "receipts": 2692713.23,
+   "disbursements": 2243203.48,
+   "cash_on_hand_end_period": "449959.75",
+   "debts_owed_by_committee": "2240000.00",
+   "individual_itemized_contributions": 237194.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 197150.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL11126": {
+   "receipts": 4930537.26,
+   "disbursements": 4579831.79,
+   "cash_on_hand_end_period": "577435.34",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 2620861.19,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 1417725.18,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL11332": {
+   "receipts": 5512075.39,
+   "disbursements": 4652007.69,
+   "cash_on_hand_end_period": "860067.70",
+   "debts_owed_by_committee": "5000000.00",
+   "individual_itemized_contributions": 406397.62,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 95750.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL11357": {
+   "receipts": 225867.92,
+   "disbursements": 190672.27,
+   "cash_on_hand_end_period": "35195.65",
+   "debts_owed_by_committee": "59965.00",
+   "individual_itemized_contributions": 117309.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 24500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL12231": {
+   "receipts": 8095.29,
+   "disbursements": 8056.09,
+   "cash_on_hand_end_period": "-213.71",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 950.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL13312": {
+   "receipts": 2917664.89,
+   "disbursements": 2261242.12,
+   "cash_on_hand_end_period": "656422.77",
+   "debts_owed_by_committee": "7000.00",
+   "individual_itemized_contributions": 1969360.52,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 307834.05,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-02-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL14203": {
+   "receipts": 313459.03,
+   "disbursements": 144183.35,
+   "cash_on_hand_end_period": "169275.68",
+   "debts_owed_by_committee": "281768.33",
+   "individual_itemized_contributions": 6025.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL14237": {
+   "receipts": 2731427.99,
+   "disbursements": 999910.27,
+   "cash_on_hand_end_period": "1731517.72",
+   "debts_owed_by_committee": "2024978.81",
+   "individual_itemized_contributions": 312881.1,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 167775.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL14245": {
+   "receipts": 17091.52,
+   "disbursements": 14614.84,
+   "cash_on_hand_end_period": "2476.68",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 11500.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL15168": {
+   "receipts": 59151.23,
+   "disbursements": 47208.52,
+   "cash_on_hand_end_period": "11942.71",
+   "debts_owed_by_committee": "1440.00",
+   "individual_itemized_contributions": 15643.73,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 200.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL15200": {
+   "receipts": 280117.97,
+   "disbursements": 250591.48,
+   "cash_on_hand_end_period": "29526.49",
+   "debts_owed_by_committee": "31296.56",
+   "individual_itemized_contributions": 153000.62,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 852.26,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-07-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL16141": {
+   "receipts": 1618888.17,
+   "disbursements": 1366391.11,
+   "cash_on_hand_end_period": "252497.06",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1206544.26,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 351250.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL16158": {
+   "receipts": 876363.29,
+   "disbursements": 615224.22,
+   "cash_on_hand_end_period": "261139.07",
+   "debts_owed_by_committee": "872.64",
+   "individual_itemized_contributions": 745125.07,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 14500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL17081": {
+   "receipts": 14926.94,
+   "disbursements": 11786.28,
+   "cash_on_hand_end_period": "3140.66",
+   "debts_owed_by_committee": "4825.94",
+   "individual_itemized_contributions": 0.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL18097": {
+   "receipts": 5097731.89,
+   "disbursements": 4490346.76,
+   "cash_on_hand_end_period": "2378762.79",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 2377370.16,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 484700.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL18204": {
+   "receipts": 29703.8,
+   "disbursements": 31220.09,
+   "cash_on_hand_end_period": "-1516.29",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 13984.78,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 5000.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-06-10",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL18212": {
+   "receipts": 13784.9,
+   "disbursements": 10755.81,
+   "cash_on_hand_end_period": "1576.67",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 0.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-01-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL19137": {
+   "receipts": 2828902.86,
+   "disbursements": 2322691.45,
+   "cash_on_hand_end_period": "506211.41",
+   "debts_owed_by_committee": "1460000.00",
+   "individual_itemized_contributions": 1209701.52,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 139500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL19277": {
+   "receipts": 69983.08,
+   "disbursements": 54565.93,
+   "cash_on_hand_end_period": "15417.15",
+   "debts_owed_by_committee": "36454.00",
+   "individual_itemized_contributions": 22125.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL19319": {
+   "receipts": 8000.0,
+   "disbursements": 7348.57,
+   "cash_on_hand_end_period": "651.43",
+   "debts_owed_by_committee": "8000.00",
+   "individual_itemized_contributions": 0.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL20119": {
+   "receipts": 125572.76,
+   "disbursements": 46324.64,
+   "cash_on_hand_end_period": "79248.12",
+   "debts_owed_by_committee": "110000.00",
+   "individual_itemized_contributions": 11290.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-01-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL20143": {
+   "receipts": 100349.66,
+   "disbursements": 83794.93,
+   "cash_on_hand_end_period": "16554.73",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 98257.63,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL21059": {
+   "receipts": 3930911.6,
+   "disbursements": 2833915.42,
+   "cash_on_hand_end_period": "1096996.18",
+   "debts_owed_by_committee": "247000.00",
+   "individual_itemized_contributions": 2704982.87,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 288872.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-04-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL21075": {
+   "receipts": 821778.76,
+   "disbursements": 770880.38,
+   "cash_on_hand_end_period": "50898.38",
+   "debts_owed_by_committee": "129000.00",
+   "individual_itemized_contributions": 541263.12,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 2000.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-09-30",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL21109": {
+   "receipts": 30244.18,
+   "disbursements": 28859.86,
+   "cash_on_hand_end_period": "1384.32",
+   "debts_owed_by_committee": "19994.99",
+   "individual_itemized_contributions": 3750.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL22248": {
+   "receipts": 7418254.75,
+   "disbursements": 5527092.81,
+   "cash_on_hand_end_period": "1891161.94",
+   "debts_owed_by_committee": "6290000.00",
+   "individual_itemized_contributions": 376005.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 119500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL23188": {
+   "receipts": 3255312.89,
+   "disbursements": 2788688.37,
+   "cash_on_hand_end_period": "466624.52",
+   "debts_owed_by_committee": "582318.15",
+   "individual_itemized_contributions": 1692202.07,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 216200.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-12-17",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL24095": {
+   "receipts": 1458355.31,
+   "disbursements": 1031060.76,
+   "cash_on_hand_end_period": "427294.55",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1314561.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 130000.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL25068": {
+   "receipts": 10500.0,
+   "disbursements": 10440.0,
+   "cash_on_hand_end_period": "60.00",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 10500.0,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-06-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL26058": {
+   "receipts": 599526.7,
+   "disbursements": 489536.92,
+   "cash_on_hand_end_period": "109989.78",
+   "debts_owed_by_committee": "250000.00",
+   "individual_itemized_contributions": 71767.24,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL26074": {
+   "receipts": 10780.11,
+   "disbursements": 8404.71,
+   "cash_on_hand_end_period": "2375.40",
+   "debts_owed_by_committee": "8500.00",
+   "individual_itemized_contributions": 510.73,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 0.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-04-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H6FL27098": {
+   "receipts": 1339983.8,
+   "disbursements": 660596.02,
+   "cash_on_hand_end_period": "679387.78",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 1131247.42,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 18500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2026-01-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H8FL17053": {
+   "receipts": 1587826.76,
+   "disbursements": 1047067.22,
+   "cash_on_hand_end_period": "2132055.34",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 404470.45,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 751000.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "H8FL27185": {
+   "receipts": 2519401.34,
+   "disbursements": 2249750.07,
+   "cash_on_hand_end_period": "1680478.41",
+   "debts_owed_by_committee": "14300.00",
+   "individual_itemized_contributions": 618700.62,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 742578.55,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "S6FL00640": {
+   "receipts": 14524031.96,
+   "disbursements": 13707676.85,
+   "cash_on_hand_end_period": "816355.11",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 4757777.8,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 2404500.0,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-13",
+   "coverage_end_date": "2026-10-14",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  },
+  "S6FL00830": {
+   "receipts": 8177943.83,
+   "disbursements": 4061851.22,
+   "cash_on_hand_end_period": "4113082.56",
+   "debts_owed_by_committee": "0.00",
+   "individual_itemized_contributions": 2888103.24,
+   "individual_unitemized_contributions": null,
+   "other_political_committee_contributions": 161673.8,
+   "political_party_committee_contributions": null,
+   "candidate_contribution": null,
+   "coverage_start_date": "2025-01-01",
+   "coverage_end_date": "2026-09-30",
+   "last_report_type_full": null,
+   "last_beginning_image_number": null
+  }
+ },
+ "independent_expenditures": {
+  "H0FL03175": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 30870.0,
+    "count": 2,
+    "committee_id": "C00888867",
+    "cycle": 2026,
+    "committee": {
+     "name": "LATINOS FOR CONSERVATIVE VALUES",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H0FL13158": [
+   {
+    "support_oppose_indicator": "O",
+    "total": 828557.46,
+    "count": 2,
+    "committee_id": "C00540443",
+    "cycle": 2026,
+    "committee": {
+     "name": "GIFFORDS PAC",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 372.76,
+    "count": 21,
+    "committee_id": "C00552851",
+    "cycle": 2026,
+    "committee": {
+     "name": "FREEDOM CAUCUS FUND",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 1122.26,
+    "count": 14,
+    "committee_id": "C00448696",
+    "cycle": 2026,
+    "committee": {
+     "name": "SENATE CONSERVATIVES FUND",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 93331.9,
+    "count": 3,
+    "committee_id": "C00495028",
+    "cycle": 2026,
+    "committee": {
+     "name": "HMP",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 128742.49,
+    "count": 13,
+    "committee_id": "C00888867",
+    "cycle": 2026,
+    "committee": {
+     "name": "LATINOS FOR CONSERVATIVE VALUES",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 20115.24,
+    "count": 13,
+    "committee_id": "C00432260",
+    "cycle": 2026,
+    "committee": {
+     "name": "CLUB FOR GROWTH PAC",
+     "type": "PAC - Qualified",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H2FL10259": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 10.0,
+    "count": 1,
+    "committee_id": "C00483693",
+    "cycle": 2026,
+    "committee": {
+     "name": "SIERRA CLUB INDEPENDENT ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Lobbyist/Registrant PAC"
+    }
+   }
+  ],
+  "H2FL14053": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 151713.45,
+    "count": 3,
+    "committee_id": "C00848440",
+    "cycle": 2026,
+    "committee": {
+     "name": "PROTECT PROGRESS",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 10.0,
+    "count": 1,
+    "committee_id": "C00483693",
+    "cycle": 2026,
+    "committee": {
+     "name": "SIERRA CLUB INDEPENDENT ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Lobbyist/Registrant PAC"
+    }
+   }
+  ],
+  "H2FL22171": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 23075.88,
+    "count": 1,
+    "committee_id": "C00580068",
+    "cycle": 2026,
+    "committee": {
+     "name": "PROGRESSIVE TURNOUT PROJECT",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 309573.55,
+    "count": 4,
+    "committee_id": "C00923417",
+    "cycle": 2026,
+    "committee": {
+     "name": "THINK BIG",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 250000.0,
+    "count": 1,
+    "committee_id": "C00859660",
+    "cycle": 2026,
+    "committee": {
+     "name": "NEW DEMOCRAT MAJORITY",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 100.0,
+    "count": 1,
+    "committee_id": "C00957209",
+    "cycle": 2026,
+    "committee": {
+     "name": "HYPOCRITES AGAINST POLITICAL TEXTING",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H4FL01197": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 38711.12,
+    "count": 2,
+    "committee_id": "C00892984",
+    "cycle": 2026,
+    "committee": {
+     "name": "NATIONAL GROUND GAME PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 9615.0,
+    "count": 2,
+    "committee_id": "C00887323",
+    "cycle": 2026,
+    "committee": {
+     "name": "THE PROGRESS COALITION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 5225.0,
+    "count": 2,
+    "committee_id": "C00812792",
+    "cycle": 2026,
+    "committee": {
+     "name": "EVERY STATE",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 564.3,
+    "count": 6,
+    "committee_id": "C00640300",
+    "cycle": 2026,
+    "committee": {
+     "name": "ACTIVATE AMERICA",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 42295.0,
+    "count": 2,
+    "committee_id": "C00890889",
+    "cycle": 2026,
+    "committee": {
+     "name": "CONGRESS MAJORITY PAC",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H4FL20023": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 250000.0,
+    "count": 1,
+    "committee_id": "C00949248",
+    "cycle": 2026,
+    "committee": {
+     "name": "PRO-CHOICE MAJORITY ACTION",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 66500.0,
+    "count": 3,
+    "committee_id": "C00902106",
+    "cycle": 2026,
+    "committee": {
+     "name": "AMERICA'S RENEWAL PAC, INC.",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 100.0,
+    "count": 1,
+    "committee_id": "C00957209",
+    "cycle": 2026,
+    "committee": {
+     "name": "HYPOCRITES AGAINST POLITICAL TEXTING",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 89199.7,
+    "count": 3,
+    "committee_id": "C00343459",
+    "cycle": 2026,
+    "committee": {
+     "name": "AMERICAN COLLEGE OF RADIOLOGY ASSOCIATION PAC",
+     "type": "PAC - Qualified",
+     "designation": "Lobbyist/Registrant PAC"
+    }
+   }
+  ],
+  "H6FL01390": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 40549.0,
+    "count": 3,
+    "committee_id": "C00030718",
+    "cycle": 2026,
+    "committee": {
+     "name": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+     "type": "PAC - Qualified",
+     "designation": "Lobbyist/Registrant PAC"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 147.5,
+    "count": 1,
+    "committee_id": "C00509893",
+    "cycle": 2026,
+    "committee": {
+     "name": "NATIONAL RIGHT TO LIFE VICTORY FUND",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 42228.55,
+    "count": 24,
+    "committee_id": "C90009317",
+    "cycle": 2026,
+    "committee": {
+     "name": "CENTER FOR VOTER INFORMATION (CVI)",
+     "type": "Independent expenditure filer (not a committee)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 1154860.34,
+    "count": 10,
+    "committee_id": "C00878264",
+    "cycle": 2026,
+    "committee": {
+     "name": "CONSERVATIVE FUTURE FUND",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 166599.64,
+    "count": 18,
+    "committee_id": "C00687103",
+    "cycle": 2026,
+    "committee": {
+     "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 35000.0,
+    "count": 4,
+    "committee_id": "C00523241",
+    "cycle": 2026,
+    "committee": {
+     "name": "SPECIAL OPERATIONS FOR AMERICA",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 6000.0,
+    "count": 1,
+    "committee_id": "C00681825",
+    "cycle": 2026,
+    "committee": {
+     "name": "LAW ENFORCEMENT FOR A SAFER AMERICA PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 59056.96,
+    "count": 2,
+    "committee_id": "C00835967",
+    "cycle": 2026,
+    "committee": {
+     "name": "CONSERVATIVES FOR AMERICAN EXCELLENCE INC.",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 558813.17,
+    "count": 4,
+    "committee_id": "C00836221",
+    "cycle": 2026,
+    "committee": {
+     "name": "DEFEND AMERICAN JOBS",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 5136.67,
+    "count": 3,
+    "committee_id": "C00839894",
+    "cycle": 2026,
+    "committee": {
+     "name": "TURN LEFT PAC",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 10244.45,
+    "count": 1,
+    "committee_id": "C00879510",
+    "cycle": 2026,
+    "committee": {
+     "name": "AMERICA PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 39928.75,
+    "count": 4,
+    "committee_id": "C90018904",
+    "cycle": 2026,
+    "committee": {
+     "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+     "type": "Independent expenditure filer (not a committee)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 20000.0,
+    "count": 1,
+    "committee_id": "C00401786",
+    "cycle": 2026,
+    "committee": {
+     "name": "FREEDOM'S DEFENSE FUND",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL02331": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 1386340.0,
+    "count": 7,
+    "committee_id": "C00939124",
+    "cycle": 2026,
+    "committee": {
+     "name": "PANHANDLE PATRIOTS PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL04105": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 250.0,
+    "count": 1,
+    "committee_id": "C00868984",
+    "cycle": 2026,
+    "committee": {
+     "name": "RNJ 2 SAVE AMERICA T/A RNJ 2 SA",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL06258": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 3655.7,
+    "count": 2,
+    "committee_id": "C00053553",
+    "cycle": 2026,
+    "committee": {
+     "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
+     "type": "PAC - Qualified",
+     "designation": "Lobbyist/Registrant PAC"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 147.5,
+    "count": 1,
+    "committee_id": "C00509893",
+    "cycle": 2026,
+    "committee": {
+     "name": "NATIONAL RIGHT TO LIFE VICTORY FUND",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 20000.0,
+    "count": 1,
+    "committee_id": "C00898833",
+    "cycle": 2026,
+    "committee": {
+     "name": "PEOPLE FOR INTEGRITY IN GOVERNMENT",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 1734300.24,
+    "count": 37,
+    "committee_id": "C00893198",
+    "cycle": 2026,
+    "committee": {
+     "name": "CONSERVATIVE FIGHTER PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 500.0,
+    "count": 1,
+    "committee_id": "C00891473",
+    "cycle": 2026,
+    "committee": {
+     "name": "MOSHANGUSA FREE SPEECH",
+     "type": "PAC - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 71.06,
+    "count": 1,
+    "committee_id": "C00857540",
+    "cycle": 2026,
+    "committee": {
+     "name": "ALLIANCE FOR ACCOUNTABILITY",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 8720.0,
+    "count": 3,
+    "committee_id": "C00839894",
+    "cycle": 2026,
+    "committee": {
+     "name": "TURN LEFT PAC",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 1673735.52,
+    "count": 4,
+    "committee_id": "C00836221",
+    "cycle": 2026,
+    "committee": {
+     "name": "DEFEND AMERICAN JOBS",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 49671.7,
+    "count": 2,
+    "committee_id": "C00762815",
+    "cycle": 2026,
+    "committee": {
+     "name": "HUNTER NATION ACTION INC.",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 6000.0,
+    "count": 1,
+    "committee_id": "C00681825",
+    "cycle": 2026,
+    "committee": {
+     "name": "LAW ENFORCEMENT FOR A SAFER AMERICA PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 25.0,
+    "count": 1,
+    "committee_id": "C00508440",
+    "cycle": 2026,
+    "committee": {
+     "name": "HUMAN RIGHTS CAMPAIGN EQUALITY VOTES PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 60000.0,
+    "count": 6,
+    "committee_id": "C00523241",
+    "cycle": 2026,
+    "committee": {
+     "name": "SPECIAL OPERATIONS FOR AMERICA",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 25751.5,
+    "count": 21,
+    "committee_id": "C00552851",
+    "cycle": 2026,
+    "committee": {
+     "name": "FREEDOM CAUCUS FUND",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 13500.0,
+    "count": 1,
+    "committee_id": "C00662221",
+    "cycle": 2026,
+    "committee": {
+     "name": "HOUSE FREEDOM ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 76889.08,
+    "count": 2,
+    "committee_id": "C00879510",
+    "cycle": 2026,
+    "committee": {
+     "name": "AMERICA PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 10050.01,
+    "count": 1,
+    "committee_id": "C00916379",
+    "cycle": 2026,
+    "committee": {
+     "name": "ANTI-ZIONIST AMERICA PAC",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 48.63,
+    "count": 4,
+    "committee_id": "C00931162",
+    "cycle": 2026,
+    "committee": {
+     "name": "PEOPLES VOICES UNITED PAC",
+     "type": "PAC - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 42228.7,
+    "count": 24,
+    "committee_id": "C90009317",
+    "cycle": 2026,
+    "committee": {
+     "name": "CENTER FOR VOTER INFORMATION (CVI)",
+     "type": "Independent expenditure filer (not a committee)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 39928.79,
+    "count": 4,
+    "committee_id": "C90018904",
+    "cycle": 2026,
+    "committee": {
+     "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+     "type": "Independent expenditure filer (not a committee)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 20000.0,
+    "count": 1,
+    "committee_id": "C00401786",
+    "cycle": 2026,
+    "committee": {
+     "name": "FREEDOM'S DEFENSE FUND",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 175.0,
+    "count": 1,
+    "committee_id": "C00448696",
+    "cycle": 2026,
+    "committee": {
+     "name": "SENATE CONSERVATIVES FUND",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL07215": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 1386.34,
+    "count": 7,
+    "committee_id": "C00909994",
+    "cycle": 2026,
+    "committee": {
+     "name": "FIELD TEAM 6, INC.",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 700000.0,
+    "count": 4,
+    "committee_id": "C00908707",
+    "cycle": 2026,
+    "committee": {
+     "name": "BDA PAC",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL09070": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 60562.0,
+    "count": 3,
+    "committee_id": "C00952812",
+    "cycle": 2026,
+    "committee": {
+     "name": "AFFORDABLE FLORIDA",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL09179": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 40575.64,
+    "count": 2,
+    "committee_id": "C00580068",
+    "cycle": 2026,
+    "committee": {
+     "name": "PROGRESSIVE TURNOUT PROJECT",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 8.0,
+    "count": 1,
+    "committee_id": "C00802389",
+    "cycle": 2026,
+    "committee": {
+     "name": "GIVEGREEN UNITED ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 10.0,
+    "count": 1,
+    "committee_id": "C00483693",
+    "cycle": 2026,
+    "committee": {
+     "name": "SIERRA CLUB INDEPENDENT ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Lobbyist/Registrant PAC"
+    }
+   }
+  ],
+  "H6FL09294": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 27330.0,
+    "count": 6,
+    "committee_id": "C00899419",
+    "cycle": 2026,
+    "committee": {
+     "name": "PATRIOTIC FUND, INC.",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL11126": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 10.0,
+    "count": 1,
+    "committee_id": "C00483693",
+    "cycle": 2026,
+    "committee": {
+     "name": "SIERRA CLUB INDEPENDENT ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Lobbyist/Registrant PAC"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 86.33,
+    "count": 3,
+    "committee_id": "C00802389",
+    "cycle": 2026,
+    "committee": {
+     "name": "GIVEGREEN UNITED ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 91926.72,
+    "count": 1,
+    "committee_id": "C00552851",
+    "cycle": 2026,
+    "committee": {
+     "name": "FREEDOM CAUCUS FUND",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 77575.29,
+    "count": 2,
+    "committee_id": "C00580068",
+    "cycle": 2026,
+    "committee": {
+     "name": "PROGRESSIVE TURNOUT PROJECT",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL11332": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 218208.99,
+    "count": 5,
+    "committee_id": "C00835967",
+    "cycle": 2026,
+    "committee": {
+     "name": "CONSERVATIVES FOR AMERICAN EXCELLENCE INC.",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL13312": [
+   {
+    "support_oppose_indicator": "O",
+    "total": 200000.0,
+    "count": 1,
+    "committee_id": "C00418897",
+    "cycle": 2026,
+    "committee": {
+     "name": "VOTEVETS",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 1350.96,
+    "count": 8,
+    "committee_id": "C00909994",
+    "cycle": 2026,
+    "committee": {
+     "name": "FIELD TEAM 6, INC.",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 40500.0,
+    "count": 2,
+    "committee_id": "C00495028",
+    "cycle": 2026,
+    "committee": {
+     "name": "HMP",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 24337.67,
+    "count": 2,
+    "committee_id": "C00580068",
+    "cycle": 2026,
+    "committee": {
+     "name": "PROGRESSIVE TURNOUT PROJECT",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL14237": [
+   {
+    "support_oppose_indicator": "O",
+    "total": 608160.0,
+    "count": 2,
+    "committee_id": "C00495028",
+    "cycle": 2026,
+    "committee": {
+     "name": "HMP",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 583568.74,
+    "count": 7,
+    "committee_id": "C00552851",
+    "cycle": 2026,
+    "committee": {
+     "name": "FREEDOM CAUCUS FUND",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL16141": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 501743.4,
+    "count": 2,
+    "committee_id": "C00836221",
+    "cycle": 2026,
+    "committee": {
+     "name": "DEFEND AMERICAN JOBS",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 93053.19,
+    "count": 4,
+    "committee_id": "C00698936",
+    "cycle": 2026,
+    "committee": {
+     "name": "WFW ACTION FUND INC",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 1040910.29,
+    "count": 10,
+    "committee_id": "C00835967",
+    "cycle": 2026,
+    "committee": {
+     "name": "CONSERVATIVES FOR AMERICAN EXCELLENCE INC.",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL16158": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 10.0,
+    "count": 1,
+    "committee_id": "C00483693",
+    "cycle": 2026,
+    "committee": {
+     "name": "SIERRA CLUB INDEPENDENT ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Lobbyist/Registrant PAC"
+    }
+   }
+  ],
+  "H6FL18097": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 98400.0,
+    "count": 10,
+    "committee_id": "C00895698",
+    "cycle": 2026,
+    "committee": {
+     "name": "PAVC PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL19137": [
+   {
+    "support_oppose_indicator": "O",
+    "total": 18845.62,
+    "count": 3,
+    "committee_id": "C00894071",
+    "cycle": 2026,
+    "committee": {
+     "name": "LOVE AMERICA UPHOLD FREEDOM PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 16500.0,
+    "count": 2,
+    "committee_id": "C00819508",
+    "cycle": 2026,
+    "committee": {
+     "name": "SAVE AMERICAN FREEDOM",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 12533.0,
+    "count": 1,
+    "committee_id": "C00657866",
+    "cycle": 2026,
+    "committee": {
+     "name": "PROTECT FREEDOM POLITICAL ACTION COMMITTEE",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL21059": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 25053.97,
+    "count": 2,
+    "committee_id": "C00580068",
+    "cycle": 2026,
+    "committee": {
+     "name": "PROGRESSIVE TURNOUT PROJECT",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 33944.0,
+    "count": 2,
+    "committee_id": "C00959833",
+    "cycle": 2026,
+    "committee": {
+     "name": "STRONGER AMERICA TOGETHER",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 2150.11,
+    "count": 6,
+    "committee_id": "C00909994",
+    "cycle": 2026,
+    "committee": {
+     "name": "FIELD TEAM 6, INC.",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL22248": [
+   {
+    "support_oppose_indicator": "O",
+    "total": 704805.68,
+    "count": 8,
+    "committee_id": "C00487470",
+    "cycle": 2026,
+    "committee": {
+     "name": "CLUB FOR GROWTH ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL23188": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 158500.0,
+    "count": 2,
+    "committee_id": "C00916924",
+    "cycle": 2026,
+    "committee": {
+     "name": "CONSERVATIVE LEADERSHIP FOR FLORIDA",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 879053.04,
+    "count": 5,
+    "committee_id": "C00495028",
+    "cycle": 2026,
+    "committee": {
+     "name": "HMP",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 746308.91,
+    "count": 7,
+    "committee_id": "C00928390",
+    "cycle": 2026,
+    "committee": {
+     "name": "DEFENDING OUR VALUES PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H6FL24095": [
+   {
+    "support_oppose_indicator": "O",
+    "total": 5000.0,
+    "count": 1,
+    "committee_id": "C00952630",
+    "cycle": 2026,
+    "committee": {
+     "name": "FLORIDA'S VOICE PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 163638.26,
+    "count": 8,
+    "committee_id": "C00935015",
+    "cycle": 2026,
+    "committee": {
+     "name": "SD 2026",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 83333.33,
+    "count": 1,
+    "committee_id": "C00914259",
+    "cycle": 2026,
+    "committee": {
+     "name": "GOOD GROWTH",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 2056912.22,
+    "count": 6,
+    "committee_id": "C00848440",
+    "cycle": 2026,
+    "committee": {
+     "name": "PROTECT PROGRESS",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 663614.33,
+    "count": 27,
+    "committee_id": "C00953257",
+    "cycle": 2026,
+    "committee": {
+     "name": "AMERICAN MADE POLITICAL ACTION COMMITTEE (AMERICAN MADE PAC)",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "H8FL27185": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 71252.0,
+    "count": 7,
+    "committee_id": "C00888867",
+    "cycle": 2026,
+    "committee": {
+     "name": "LATINOS FOR CONSERVATIVE VALUES",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "S6FL00640": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 87232.07,
+    "count": 11,
+    "committee_id": "C00524181",
+    "cycle": 2026,
+    "committee": {
+     "name": "SENATE CONSERVATIVES ACTION",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 232840.96,
+    "count": 135,
+    "committee_id": "C00448696",
+    "cycle": 2026,
+    "committee": {
+     "name": "SENATE CONSERVATIVES FUND",
+     "type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 250000.0,
+    "count": 3,
+    "committee_id": "C00571703",
+    "cycle": 2026,
+    "committee": {
+     "name": "SLF PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 55000.0,
+    "count": 2,
+    "committee_id": "C00681825",
+    "cycle": 2026,
+    "committee": {
+     "name": "LAW ENFORCEMENT FOR A SAFER AMERICA PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 150.0,
+    "count": 1,
+    "committee_id": "C00891473",
+    "cycle": 2026,
+    "committee": {
+     "name": "MOSHANGUSA FREE SPEECH",
+     "type": "PAC - Nonqualified",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "O",
+    "total": 36025.0,
+    "count": 7,
+    "committee_id": "C00920512",
+    "cycle": 2026,
+    "committee": {
+     "name": "OUT OF THE SWAMP PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ],
+  "S6FL00830": [
+   {
+    "support_oppose_indicator": "S",
+    "total": 636.1,
+    "count": 3,
+    "committee_id": "C00728352",
+    "cycle": 2026,
+    "committee": {
+     "name": "DREAM DEFENDERS FIGHT PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   },
+   {
+    "support_oppose_indicator": "S",
+    "total": 75.0,
+    "count": 1,
+    "committee_id": "C00776419",
+    "cycle": 2026,
+    "committee": {
+     "name": "THE PEOPLE UNITED PAC",
+     "type": "Super PAC (Independent Expenditure-Only)",
+     "designation": "Unauthorized"
+    }
+   }
+  ]
+ }
+}
