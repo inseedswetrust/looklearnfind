@@ -1,0 +1,17 @@
+---
+name: workflow-retrospective
+description: After each state, story or daily-monitor incident, record what worked, what failed and why, and propose skill or script improvements with a regression fixture. Does not change rules or skills on its own.
+---
+
+# workflow-retrospective
+
+## Inputs
+`docs/election-build/WORKFLOW_LOG.md`, `data/elections/dark_horse/status.json`, run manifests, reviewer notes, corrections.
+
+## Output
+1. A dated entry in the workflow log: stage, tool, action, result, decision, obstacle.
+2. For each failure cause (blocked source, wrong match, date/timezone bug, duplicate data): a proposed change and a regression fixture added to `tests/` before the change is made.
+3. An owner approval request. Skills and thresholds (for example the 3-point change threshold in `daily.py`) change only after approval and with a changelog line.
+
+## Never
+rewrite an approved skill, alter a truth standard or loosen a publishing rule automatically.

@@ -1,0 +1,33 @@
+{
+ "updated_at_utc": "2026-10-23T18:45:45Z",
+ "last_run_date": "2026-10-23",
+ "dry_run": false,
+ "sources": {
+  "kalshi": {
+   "last_success_at": "2026-10-23T18:45:45Z",
+   "last_error": null,
+   "last_error_at": null,
+   "stale": false
+  },
+  "polymarket": {
+   "last_success_at": "2026-10-23T18:45:45Z",
+   "last_error": null,
+   "last_error_at": null,
+   "stale": false
+  },
+  "votehub": {
+   "last_success_at": "2026-10-23T18:45:45Z",
+   "last_error": null,
+   "last_error_at": null,
+   "stale": false
+  }
+ },
+ "coverage": {
+  "watchlist_monitored": 24,
+  "with_kalshi_mapping": 21,
+  "with_polymarket_mapping": 1,
+  "with_polls": 7,
+  "no_poll_found": 17
+ },
+ "latest_pointer_updated": true
+}

@@ -649,6 +649,32 @@ def methods_page():
 <h2 id="corrections" class="h3">Updates and corrections</h2><p>Every page shows when it was last checked. Errors are corrected visibly and logged on the <a href="/about/corrections/">corrections page</a>. Data can change after we check it; the state, the FEC and Kalshi are the controlling sources.</p></div></section>'''
     API["shell"]("Election methods", "How LookLearnFind sources, labels and corrects election data: rosters, FEC money, Kalshi prices and TIP Issue Grades.", "/about/election-methods/", body, nav="about", css=("elections",), js=("common",), jsonld=_jsonld("Election methods", "/about/election-methods/", crumbs))
 
+
+def dark_horse_status_page():
+    """Coverage and freshness of the daily dark-horse monitor. Not a ranking: alphabetical by state, no scores, no odds comparison."""
+    import csv as _csv
+    B = D / "dark_horse"
+    st = _j(B / "status.json")
+    if not st or not (B / "coverage_matrix.csv").exists():
+        return
+    rows = list(_csv.DictReader(open(B / "coverage_matrix.csv", encoding="utf-8")))
+    src = "".join(f'<tr><td>{e(k)}</td><td>{e(v.get("last_success_at") or "never")}</td><td>{"STALE" if v.get("stale") else "fresh"}</td><td>{e(v.get("last_error") or "")}</td></tr>' for k, v in st["sources"].items())
+    def cl(x):
+        return {"ok": "quote", "unavailable": "no market", "no_market": "no market", "not_monitored": "not monitored", "no_poll_found": "no poll found"}.get(x, x)
+    body = "".join(
+        f'<tr><td>{e(r["state"])} {e(r["race"])}</td><td>{e(r["candidate_name"])}</td><td>{e(r["dark_horse_status"])}</td><td>{e(r["current_ballot_verified"])}</td>'
+        f'<td>{cl(r["kalshi"])}{(" · " + e(r["kalshi_contract_kind"])) if r["kalshi"] == "ok" else ""}</td><td>{cl(r["polymarket"])}</td><td>{e(str(r["polls_votehub"]))}</td><td>{cl(r["poll_status"])}</td></tr>'
+        for r in rows)
+    cv = st["coverage"]
+    html = f'''<section class="page-head"><div class="wrap">{_crumbs([("Home", "/"), ("Politics", "/politics/"), ("Dark-horse monitor", None)])}<div class="kicker">Reporting tool<i></i></div>
+<h1 class="display h1r">Dark-horse monitor: <em>coverage</em></h1><p class="dek">What the daily collector found for each watchlisted race: market quotes, polls and gaps. This is a coverage report for reporters. It does not rank or recommend candidates, and market prices are not forecasts.</p>
+<p class="meta"><span>Last run {e(st["last_run_date"])}</span><span>{cv["watchlist_monitored"]} races monitored</span></p></div></section>
+<section class="band cream"><div class="wrap"><h2 class="h3">Sources</h2><div class="tablewrap"><table class="data"><thead><tr><th>Source</th><th>Last success (UTC)</th><th>State</th><th>Last error</th></tr></thead><tbody>{src}</tbody></table></div>
+<h2 class="h3" style="margin-top:26px">Coverage by race</h2><div class="tablewrap"><table class="data"><thead><tr><th>Race</th><th>Candidate</th><th>Dark-horse status</th><th>Ballot verified</th><th>Kalshi</th><th>Polymarket</th><th>Polls</th><th>Poll status</th></tr></thead><tbody>{body}</tbody></table></div>
+<p class="small">Kalshi contracts for House and Senate races resolve on the party of the person sworn in and are labeled with the candidate's name; they are not named-candidate contracts. Polymarket contracts shown are individual-winner contracts. Polls come from VoteHub's API (beta) with the original poll link and sponsor; absence of a poll is "no poll found", not zero. Dark-horse status "meets" means a documented criterion was verified; every other row is a background research lead.</p></div></section>'''
+    API["shell"]("Dark-horse monitor coverage", "Coverage and freshness of the daily market and poll collection for watchlisted races.", "/elections/2026/dark-horse/status/", html, nav="politics",
+                css=("elections",), js=("common",), noindex=True, sitemap=False)
+
 # ------------------------------------------------------------------ build + report layout
 def build(api):
     API.update(api)
@@ -657,7 +683,7 @@ def build(api):
         if st.get("layout") == "report":
             for k in ("title", "dek"):
                 st[k] = expand_values(st.get(k, ""))
-    state_hub(); gov_page(); senate_page(); house_page(); methods_page()
+    state_hub(); gov_page(); senate_page(); house_page(); methods_page(); dark_horse_status_page()
     for i in range(1, 29):
         district_page(i)
 

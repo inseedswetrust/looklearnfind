@@ -1,0 +1,796 @@
+[
+ {
+  "name": "Abdul El-Sayed",
+  "state": "MI",
+  "race": "SEN",
+  "raceKey": "2026-S-MI",
+  "cands": [
+   {
+    "candidate_id": 4168,
+    "fec_candidate_id": "S6MI00418",
+    "display_name": "Abdul El-Sayed",
+    "race_key": "2026-S-MI",
+    "office_code": "S",
+    "district": "00",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-S-MI",
+    "candidate_id": 4168,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic Party",
+    "display_name": "Abdul El-Sayed"
+   }
+  ]
+ },
+ {
+  "name": "La Shawn Ford",
+  "state": "IL",
+  "race": "HOUSE-07",
+  "raceKey": "2026-H-IL-07",
+  "cands": [
+   {
+    "candidate_id": 4044,
+    "fec_candidate_id": "S6IL00656",
+    "display_name": "Steve Botsford",
+    "race_key": "2026-S-IL",
+    "office_code": "S",
+    "district": "00",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   },
+   {
+    "candidate_id": 7145,
+    "fec_candidate_id": "H6IL07354",
+    "display_name": "La Shawn K Ford",
+    "race_key": "2026-H-IL-07",
+    "office_code": "H",
+    "district": "07",
+    "party_code": "DEM",
+    "verification_status": null
+   },
+   {
+    "candidate_id": 4898,
+    "fec_candidate_id": "H6IL09327",
+    "display_name": "Justin Ford",
+    "race_key": "2026-H-IL-09",
+    "office_code": "H",
+    "district": "09",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-IL-07",
+    "candidate_id": 7145,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "D",
+    "display_name": "La Shawn K. Ford"
+   }
+  ]
+ },
+ {
+  "name": "Daniel Biss",
+  "state": "IL",
+  "race": "HOUSE-09",
+  "raceKey": "2026-H-IL-09",
+  "cands": [
+   {
+    "candidate_id": 322,
+    "fec_candidate_id": "H6IL09228",
+    "display_name": "Daniel Biss",
+    "race_key": "2026-H-IL-09",
+    "office_code": "H",
+    "district": "09",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-IL-09",
+    "candidate_id": 322,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "D",
+    "display_name": "Daniel Biss"
+   }
+  ]
+ },
+ {
+  "name": "Aisha Wahab",
+  "state": "CA",
+  "race": "HOUSE-14",
+  "raceKey": "2026-H-CA-14",
+  "cands": [],
+  "entries": []
+ },
+ {
+  "name": "Brad Lander",
+  "state": "NY",
+  "race": "HOUSE-10",
+  "raceKey": "2026-H-NY-10",
+  "cands": [
+   {
+    "candidate_id": 2072,
+    "fec_candidate_id": "H6NY10176",
+    "display_name": "Brad Lander",
+    "race_key": "2026-H-NY-10",
+    "office_code": "H",
+    "district": "10",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-NY-10",
+    "candidate_id": 2072,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic, Working Families",
+    "display_name": "Brad Lander"
+   }
+  ]
+ },
+ {
+  "name": "Analilia Mejia",
+  "state": "NJ",
+  "race": "HOUSE-11",
+  "raceKey": "2026-H-NJ-11",
+  "cands": [
+   {
+    "candidate_id": 2436,
+    "fec_candidate_id": "H6NJ11286",
+    "display_name": "Analilia Mejia",
+    "race_key": "2026-H-NJ-11",
+    "office_code": "H",
+    "district": "11",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-NJ-11",
+    "candidate_id": 2436,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic",
+    "display_name": "ANALILIA MEJIA"
+   }
+  ]
+ },
+ {
+  "name": "Juliana Stratton",
+  "state": "IL",
+  "race": "SEN",
+  "raceKey": "2026-S-IL",
+  "cands": [
+   {
+    "candidate_id": 4608,
+    "fec_candidate_id": "S6IL00458",
+    "display_name": "Juliana Stratton",
+    "race_key": "2026-S-IL",
+    "office_code": "S",
+    "district": "00",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-S-IL",
+    "candidate_id": 4608,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "D",
+    "display_name": "Juliana Stratton"
+   }
+  ]
+ },
+ {
+  "name": "Darializa Avila Chevalier",
+  "state": "NY",
+  "race": "HOUSE-13",
+  "raceKey": "2026-H-NY-13",
+  "cands": [
+   {
+    "candidate_id": 141,
+    "fec_candidate_id": "H6NY13279",
+    "display_name": "Darializa Avila Chevalier",
+    "race_key": "2026-H-NY-13",
+    "office_code": "H",
+    "district": "13",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-NY-13",
+    "candidate_id": 141,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic, Working Families",
+    "display_name": "Darializa Avila Chevalier"
+   }
+  ]
+ },
+ {
+  "name": "Melat Kiros",
+  "state": "CO",
+  "race": "HOUSE-01",
+  "raceKey": "2026-H-CO-01",
+  "cands": [
+   {
+    "candidate_id": 1987,
+    "fec_candidate_id": "H6CO01273",
+    "display_name": "Melat Kiros",
+    "race_key": "2026-H-CO-01",
+    "office_code": "H",
+    "district": "01",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-CO-01",
+    "candidate_id": 1987,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic Party",
+    "display_name": "Melat Kiros"
+   }
+  ]
+ },
+ {
+  "name": "Claire Valdez",
+  "state": "NY",
+  "race": "HOUSE-07",
+  "raceKey": "2026-H-NY-07",
+  "cands": [
+   {
+    "candidate_id": 3658,
+    "fec_candidate_id": "H6NY07214",
+    "display_name": "Claire Valdez",
+    "race_key": "2026-H-NY-07",
+    "office_code": "H",
+    "district": "07",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-NY-07",
+    "candidate_id": 3658,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic, Working Families",
+    "display_name": "Claire Valdez"
+   }
+  ]
+ },
+ {
+  "name": "William Lawrence",
+  "state": "MI",
+  "race": "HOUSE-07",
+  "raceKey": "2026-H-MI-07",
+  "cands": [
+   {
+    "candidate_id": 4854,
+    "fec_candidate_id": "H6MI07298",
+    "display_name": "William Lawrence",
+    "race_key": "2026-H-MI-07",
+    "office_code": "H",
+    "district": "07",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   },
+   {
+    "candidate_id": 4830,
+    "fec_candidate_id": "H2MI14111",
+    "display_name": "Brenda Lulenar Lawrence",
+    "race_key": null,
+    "office_code": "H",
+    "district": "14",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-MI-07",
+    "candidate_id": 4854,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic Party",
+    "display_name": "William Lawrence"
+   }
+  ]
+ },
+ {
+  "name": "Donavan McKinney",
+  "state": "MI",
+  "race": "HOUSE-13",
+  "raceKey": "2026-H-MI-13",
+  "cands": [
+   {
+    "candidate_id": 2411,
+    "fec_candidate_id": "H6MI13254",
+    "display_name": "Donavan McKinney",
+    "race_key": "2026-H-MI-13",
+    "office_code": "H",
+    "district": "13",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-MI-13",
+    "candidate_id": 2411,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic Party",
+    "display_name": "Donavan McKinney"
+   }
+  ]
+ },
+ {
+  "name": "Randy Villegas",
+  "state": "CA",
+  "race": "HOUSE-22",
+  "raceKey": "2026-H-CA-22",
+  "cands": [
+   {
+    "candidate_id": 6770,
+    "fec_candidate_id": "H6CA22190",
+    "display_name": "Randy Villegas",
+    "race_key": "2026-H-CA-22",
+    "office_code": "H",
+    "district": "22",
+    "party_code": "DEM",
+    "verification_status": null
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-CA-22",
+    "candidate_id": 6770,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic",
+    "display_name": "Randy Villegas"
+   }
+  ]
+ },
+ {
+  "name": "Luke Bronin",
+  "state": "CT",
+  "race": "HOUSE-01",
+  "raceKey": "2026-H-CT-01",
+  "cands": [
+   {
+    "candidate_id": 429,
+    "fec_candidate_id": "H6CT01206",
+    "display_name": "Luke Bronin",
+    "race_key": "2026-H-CT-01",
+    "office_code": "H",
+    "district": "01",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-CT-01",
+    "candidate_id": 429,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic",
+    "display_name": "Luke Bronin"
+   }
+  ]
+ },
+ {
+  "name": "Frederick Douglass Haynes III",
+  "state": "TX",
+  "race": "HOUSE-30",
+  "raceKey": "2026-H-TX-30",
+  "cands": [],
+  "entries": []
+ },
+ {
+  "name": "Adam Hamawy",
+  "state": "NJ",
+  "race": "HOUSE-12",
+  "raceKey": "2026-H-NJ-12",
+  "cands": [
+   {
+    "candidate_id": 1519,
+    "fec_candidate_id": "H6NJ12417",
+    "display_name": "Adam Hamawy",
+    "race_key": "2026-H-NJ-12",
+    "office_code": "H",
+    "district": "12",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-NJ-12",
+    "candidate_id": 1519,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic",
+    "display_name": "ADAM HAMAWY"
+   }
+  ]
+ },
+ {
+  "name": "Chris Rabb",
+  "state": "PA",
+  "race": "HOUSE-03",
+  "raceKey": "2026-H-PA-03",
+  "cands": [
+   {
+    "candidate_id": 2935,
+    "fec_candidate_id": "H6PA03203",
+    "display_name": "Christopher M. Rabb",
+    "race_key": "2026-H-PA-03",
+    "office_code": "H",
+    "district": "03",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-PA-03",
+    "candidate_id": 2935,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "D",
+    "display_name": "Christopher M. \"Chris\" Rabb"
+   }
+  ]
+ },
+ {
+  "name": "Scott Wiener",
+  "state": "CA",
+  "race": "HOUSE-11",
+  "raceKey": "2026-H-CA-11",
+  "cands": [
+   {
+    "candidate_id": 3845,
+    "fec_candidate_id": "H8CA11116",
+    "display_name": "Scott Wiener",
+    "race_key": "2026-H-CA-11",
+    "office_code": "H",
+    "district": "11",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-CA-11",
+    "candidate_id": 3845,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic",
+    "display_name": "Scott Wiener"
+   }
+  ]
+ },
+ {
+  "name": "Peggy Flanagan",
+  "state": "MN",
+  "race": "SEN",
+  "raceKey": "2026-S-MN",
+  "cands": [
+   {
+    "candidate_id": 7796,
+    "fec_candidate_id": "S6MN00440",
+    "display_name": "Margaret Flanagan",
+    "race_key": "2026-S-MN",
+    "office_code": "S",
+    "district": "00",
+    "party_code": "DFL",
+    "verification_status": null
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-S-MN",
+    "candidate_id": 7796,
+    "status": "active",
+    "verification_status": "Official primary or filing record checked",
+    "ballot_party_label": "D",
+    "display_name": "Margaret \"Peggy\" Flanagan"
+   }
+  ]
+ },
+ {
+  "name": "Summer Lee",
+  "state": "PA",
+  "race": "HOUSE-12",
+  "raceKey": "2026-H-PA-12",
+  "cands": [
+   {
+    "candidate_id": 2114,
+    "fec_candidate_id": "H4PA13280",
+    "display_name": "Padraic Lee",
+    "race_key": "2026-H-PA-13",
+    "office_code": "H",
+    "district": "13",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   },
+   {
+    "candidate_id": 2115,
+    "fec_candidate_id": "H2PA18200",
+    "display_name": "Summer L. Lee",
+    "race_key": "2026-H-PA-12",
+    "office_code": "H",
+    "district": "12",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-PA-12",
+    "candidate_id": 2115,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "D",
+    "display_name": "Summer Lynn Lee"
+   }
+  ]
+ },
+ {
+  "name": "Rashida Tlaib",
+  "state": "MI",
+  "race": "HOUSE-12",
+  "raceKey": "2026-H-MI-12",
+  "cands": [
+   {
+    "candidate_id": 3575,
+    "fec_candidate_id": "H8MI13250",
+    "display_name": "Rashida Tlaib",
+    "race_key": "2026-H-MI-12",
+    "office_code": "H",
+    "district": "12",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-MI-12",
+    "candidate_id": 3575,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic Party",
+    "display_name": "Rashida Tlaib"
+   }
+  ]
+ },
+ {
+  "name": "Alexandria Ocasio-Cortez",
+  "state": "NY",
+  "race": "HOUSE-14",
+  "raceKey": "2026-H-NY-14",
+  "cands": [
+   {
+    "candidate_id": 2671,
+    "fec_candidate_id": "H8NY15148",
+    "display_name": "Alexandria Ocasio-Cortez",
+    "race_key": "2026-H-NY-14",
+    "office_code": "H",
+    "district": "14",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-NY-14",
+    "candidate_id": 2671,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic, Working Families",
+    "display_name": "Alexandria Ocasio-Cortez"
+   }
+  ]
+ },
+ {
+  "name": "Ilhan Omar",
+  "state": "MN",
+  "race": "HOUSE-05",
+  "raceKey": "2026-H-MN-05",
+  "cands": [
+   {
+    "candidate_id": 2695,
+    "fec_candidate_id": "H8MN05239",
+    "display_name": "Ilhan Omar",
+    "race_key": "2026-H-MN-05",
+    "office_code": "H",
+    "district": "05",
+    "party_code": "DFL",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-MN-05",
+    "candidate_id": 2695,
+    "status": "active",
+    "verification_status": "Confirmed from owner-supplied sources",
+    "ballot_party_label": "D",
+    "display_name": "Ilhan Omar"
+   }
+  ]
+ },
+ {
+  "name": "Delia Ramirez",
+  "state": "IL",
+  "race": "HOUSE-03",
+  "raceKey": "2026-H-IL-03",
+  "cands": [
+   {
+    "candidate_id": 2944,
+    "fec_candidate_id": "H2IL03162",
+    "display_name": "Delia C. Ramirez",
+    "race_key": "2026-H-IL-03",
+    "office_code": "H",
+    "district": "03",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-IL-03",
+    "candidate_id": 2944,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "D",
+    "display_name": "Delia C. Ramirez"
+   }
+  ]
+ },
+ {
+  "name": "Ayanna Pressley",
+  "state": "MA",
+  "race": "HOUSE-07",
+  "raceKey": "2026-H-MA-07",
+  "cands": [
+   {
+    "candidate_id": 2898,
+    "fec_candidate_id": "H8MA07032",
+    "display_name": "Ayanna Pressley",
+    "race_key": "2026-H-MA-07",
+    "office_code": "H",
+    "district": "07",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-MA-07",
+    "candidate_id": 2898,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic",
+    "display_name": "Ayanna S. Pressley"
+   }
+  ]
+ },
+ {
+  "name": "Al Green",
+  "state": "TX",
+  "race": "HOUSE-09",
+  "raceKey": "2026-H-TX-09",
+  "cands": [
+   {
+    "candidate_id": 1448,
+    "fec_candidate_id": "H4TX22197",
+    "display_name": "Marquette Greene-Scott",
+    "race_key": "2026-H-TX-22",
+    "office_code": "H",
+    "district": "22",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   },
+   {
+    "candidate_id": 7060,
+    "fec_candidate_id": "H4TX09095",
+    "display_name": "Al Green",
+    "race_key": "2026-H-TX-18",
+    "office_code": "H",
+    "district": "18",
+    "party_code": "DEM",
+    "verification_status": null
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-TX-22",
+    "candidate_id": 1448,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic",
+    "display_name": "MARQUETTE GREENE-SCOTT"
+   }
+  ]
+ },
+ {
+  "name": "Ro Khanna",
+  "state": "CA",
+  "race": "HOUSE-17",
+  "raceKey": "2026-H-CA-17",
+  "cands": [
+   {
+    "candidate_id": 5934,
+    "fec_candidate_id": "H4CA12055",
+    "display_name": "Ro Khanna",
+    "race_key": "2026-H-CA-17",
+    "office_code": "H",
+    "district": "17",
+    "party_code": "DEM",
+    "verification_status": null
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-H-CA-17",
+    "candidate_id": 5934,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic",
+    "display_name": "Ro Khanna"
+   }
+  ]
+ },
+ {
+  "name": "Angie Nixon",
+  "state": "FL",
+  "race": "SEN",
+  "raceKey": "2026-S-FL",
+  "cands": [
+   {
+    "candidate_id": 4458,
+    "fec_candidate_id": "S6FL00830",
+    "display_name": "Angela Nixon",
+    "race_key": "2026-S-FL",
+    "office_code": "S",
+    "district": "00",
+    "party_code": "DEM",
+    "verification_status": "seed"
+   }
+  ],
+  "entries": [
+   {
+    "race_key": "2026-S-FL",
+    "candidate_id": 4458,
+    "status": "active",
+    "verification_status": "Official candidate record checked",
+    "ballot_party_label": "Democratic",
+    "display_name": "Angie Nixon"
+   }
+  ]
+ }
+]

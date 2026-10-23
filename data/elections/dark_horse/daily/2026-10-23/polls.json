@@ -1,0 +1,2852 @@
+{
+ "date": "2026-10-23",
+ "polls": [
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "The Tyson Group",
+   "sponsor": [
+    "Alliance for a Better Future"
+   ],
+   "partisan_sponsor": "REP",
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "lv",
+   "field_start": "2026-09-24",
+   "field_end": "2026-09-27",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-16",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 44.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 43.0
+    }
+   ],
+   "original_poll_url": "https://www.breitbart.com/politics/2026/10/15/exclusive-poll-shows-mike-rogers-edging-out-abdul-el-sayed-in-michigan-senate-race/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202thee5a838a4",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "The Tyson Group",
+   "sponsor": [
+    "Alliance for a Better Future"
+   ],
+   "partisan_sponsor": "REP",
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "lv",
+   "field_start": "2026-10-06",
+   "field_end": "2026-10-08",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-16",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 44.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 46.0
+    }
+   ],
+   "original_poll_url": "https://www.breitbart.com/politics/2026/10/15/exclusive-poll-shows-mike-rogers-edging-out-abdul-el-sayed-in-michigan-senate-race/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202thed1db38e3",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Mitchell Research & Communications",
+   "sponsor": [
+    "MIRS"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 607,
+   "population": "lv",
+   "field_start": "2026-05-01",
+   "field_end": "2026-05-07",
+   "publication_date": null,
+   "aggregator_import_date": "2026-05-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 42.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 41.0
+    }
+   ],
+   "original_poll_url": "https://www.dropbox.com/scl/fi/852uovvc2zfsqrnphdn9q/MIRS-MITCHELL-DEM-Primary-Press-Release-5-11-26-150PM_A.docx?rlkey=v522wmle6zvzlajt6m6nfoj78&st=zhm55ihc&dl=0",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202mit9a5c32a0",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Glengariff Group, Inc.",
+   "sponsor": [
+    "Detroit Regional Chamber"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "lv",
+   "field_start": "2026-04-28",
+   "field_end": "2026-05-01",
+   "publication_date": null,
+   "aggregator_import_date": "2026-05-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 40.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 45.0
+    }
+   ],
+   "original_poll_url": "https://www.detroitchamber.com/wp-content/uploads/2026/05/DRC_Glengariff-Group_2026-Mackinac-Policy-Conference_POLITICAL-REPORT.pdf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202gle0133b0b3",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Emerson College",
+   "sponsor": [
+    "Nexstar"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1000,
+   "population": "lv",
+   "field_start": "2026-01-24",
+   "field_end": "2026-01-25",
+   "publication_date": null,
+   "aggregator_import_date": "2026-05-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 42.5
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 42.8
+    }
+   ],
+   "original_poll_url": "https://docs.google.com/spreadsheets/d/1AtLJcs2z9R_NRY7eZqvKS256qHiVSUx0/edit?usp=sharing&ouid=111479937799022047482&rtpof=true&sd=true",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202eme5bdd236b",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Glengariff Group, Inc.",
+   "sponsor": [
+    "Detroit News",
+    "WDIV-TV"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "lv",
+   "field_start": "2026-01-02",
+   "field_end": "2026-01-06",
+   "publication_date": null,
+   "aggregator_import_date": "2026-05-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Mike Rogers",
+     "pct": 48.0
+    },
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 42.0
+    }
+   ],
+   "original_poll_url": "https://www.detroitnews.com/story/news/politics/2026/01/13/michigan-race-for-governor-polling-john-james-jocelyn-benson-mike-duggan/88134923007/?gnt-cfr=1&gca-cat=p&gca-uir=false&gca-epti=undefined&gca-ft=0&gca-ds=sophi",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202glef7ac134b",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Mitchell Research & Communications",
+   "sponsor": [
+    "MIRS News Service"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 616,
+   "population": "lv",
+   "field_start": "2025-11-18",
+   "field_end": "2025-11-21",
+   "publication_date": null,
+   "aggregator_import_date": "2026-05-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Mike Rogers",
+     "pct": 41.0
+    },
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 38.0
+    }
+   ],
+   "original_poll_url": "https://mirs-polls.s3.us-east-2.amazonaws.com/c7ba70f28c3812c553cbf07db509f469.pdf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202mit590c99af",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Rosetta Stone",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 637,
+   "population": "lv",
+   "field_start": "2025-10-23",
+   "field_end": "2025-10-25",
+   "publication_date": null,
+   "aggregator_import_date": "2026-05-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Mike Rogers",
+     "pct": 45.0
+    },
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 31.0
+    }
+   ],
+   "original_poll_url": "https://x.com/IAPolls2022/status/1986533537747472500",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202ros410812c7",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Glengariff Group, Inc.",
+   "sponsor": [
+    "Detroit Regional Chamber"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "rv",
+   "field_start": "2025-05-05",
+   "field_end": "2025-05-08",
+   "publication_date": null,
+   "aggregator_import_date": "2026-05-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Mike Rogers",
+     "pct": 47.0
+    },
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 41.0
+    }
+   ],
+   "original_poll_url": "https://www.detroitchamber.com/wp-content/uploads/2025/05/Detroit-Regional-Chamber_Glengariff-Group_May-2025-Political-Survey-Report.pdf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202gledaa7038f",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "TIPP Insights",
+   "sponsor": [
+    "League of American Workers"
+   ],
+   "partisan_sponsor": "REP",
+   "internal": false,
+   "mode": null,
+   "sample_size": 1163,
+   "population": "lv",
+   "field_start": "2026-05-20",
+   "field_end": "2026-05-23",
+   "publication_date": null,
+   "aggregator_import_date": "2026-06-01",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 43.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 42.0
+    }
+   ],
+   "original_poll_url": "https://tippinsights.com/league-of-american-workers-survey-michigan",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202tip59dfdfa0",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "TIPP Insights",
+   "sponsor": [
+    "League of American Workers"
+   ],
+   "partisan_sponsor": "REP",
+   "internal": false,
+   "mode": null,
+   "sample_size": 1456,
+   "population": "rv",
+   "field_start": "2026-05-20",
+   "field_end": "2026-05-23",
+   "publication_date": null,
+   "aggregator_import_date": "2026-06-01",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 40.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 40.0
+    }
+   ],
+   "original_poll_url": "https://tippinsights.com/league-of-american-workers-survey-michigan",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202tip6d4d41d9",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Tulchin Research",
+   "sponsor": [
+    "Fighting for Michigan PAC"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 500,
+   "population": "lv",
+   "field_start": "2026-06-02",
+   "field_end": "2026-06-04",
+   "publication_date": null,
+   "aggregator_import_date": "2026-06-12",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 46.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 41.0
+    }
+   ],
+   "original_poll_url": "https://drive.google.com/file/d/15KbOIW_L4iGdkgIbMWDr2m80N0ZUr3d3/view",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202tul3efe64f6",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Zenith Research",
+   "sponsor": [
+    "Common Defense"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 602,
+   "population": "lv",
+   "field_start": "2026-06-11",
+   "field_end": "2026-06-14",
+   "publication_date": null,
+   "aggregator_import_date": "2026-06-18",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 45.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 42.0
+    }
+   ],
+   "original_poll_url": "https://x.com/admcrlsn/status/2067419019544555546",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202zen354a92cf",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Quantus Insights",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 947,
+   "population": "lv",
+   "field_start": "2026-06-29",
+   "field_end": "2026-06-30",
+   "publication_date": null,
+   "aggregator_import_date": "2026-07-02",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 45.2
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 44.1
+    }
+   ],
+   "original_poll_url": "https://quantusinsights.org/f/michigan-senate-el-sayed-leads-primary-fall-race-remains-tight",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202qua3b4e634a",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Glengariff Group, Inc.",
+   "sponsor": [
+    "Michigan Education Association",
+    "Business Leaders For Michigan"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "lv",
+   "field_start": "2026-07-22",
+   "field_end": "2026-07-24",
+   "publication_date": null,
+   "aggregator_import_date": "2026-07-28",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 38.7
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 49.0
+    }
+   ],
+   "original_poll_url": "https://mea.org/wp-content/uploads/2026/07/MICHIGAN-EDUCATION-SURVEY-REPORT-FINAL54.pdf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202gle7fc79cd5",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "EPIC-MRA",
+   "sponsor": [
+    "MIRS"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "lv",
+   "field_start": "2026-07-24",
+   "field_end": "2026-07-31",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-02",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Mike Rogers",
+     "pct": 46.0
+    },
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 43.0
+    }
+   ],
+   "original_poll_url": null,
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202epife4108d8",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Mitchell Research & Communications",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 672,
+   "population": "lv",
+   "field_start": "2026-07-28",
+   "field_end": "2026-07-29",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-03",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 45.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 45.0
+    }
+   ],
+   "original_poll_url": "https://static1.squarespace.com/static/5f14ae6fb2a20e01e9c6d608/t/6a6d26262f442f133d15fa49/1785538087149/MITCHELL+MI+Poll+Nov+Electio+Press+Release+7-31-2026+305PM_A.pdf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202mit1e6a5692",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Beacon Research/Shaw & Co. Research",
+   "sponsor": [
+    "Fox News"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1006,
+   "population": "rv",
+   "field_start": "2026-08-06",
+   "field_end": "2026-08-10",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-14",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 47.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 51.0
+    }
+   ],
+   "original_poll_url": "https://www.foxnews.com/politics/fox-news-poll-senate-battle-looms-michigan",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202bea6ed87549",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "GBAO Strategies",
+   "sponsor": [
+    "Senate Majority PAC"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 800,
+   "population": "lv",
+   "field_start": "2026-08-06",
+   "field_end": "2026-08-10",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-17",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 50.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 44.0
+    }
+   ],
+   "original_poll_url": "https://www.politico.com/newsletters/playbook/2026/08/15/what-burritos-tell-us-about-capitalism-01038859",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202gba7596c230",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Susquehanna Polling & Research",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 800,
+   "population": "rv",
+   "field_start": "2026-08-11",
+   "field_end": "2026-08-17",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-19",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 46.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 39.0
+    }
+   ],
+   "original_poll_url": "https://static01.nyt.com/newsgraphics/documenttools/43c767b477fe30ae/4748b92f-full.pdf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202susb1d73b8b",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "TIPP Insights",
+   "sponsor": [
+    "League of American Workers"
+   ],
+   "partisan_sponsor": "REP",
+   "internal": false,
+   "mode": null,
+   "sample_size": 1528,
+   "population": "rv",
+   "field_start": "2026-08-06",
+   "field_end": "2026-08-10",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-19",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 45.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 42.0
+    }
+   ],
+   "original_poll_url": "https://tippinsights.com/league-of-american-workers-survey-michigan-2/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202tip8915c085",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Fabrizio, Lee & Associates/Impact Research",
+   "sponsor": [
+    "AARP"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 877,
+   "population": "lv",
+   "field_start": "2026-08-09",
+   "field_end": "2026-08-11",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 48.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 47.0
+    }
+   ],
+   "original_poll_url": "https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-michigan/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202fab12ee3caf",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "EPIC-MRA",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "lv",
+   "field_start": "2026-08-22",
+   "field_end": "2026-08-28",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-29",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 47.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 43.0
+    }
+   ],
+   "original_poll_url": "https://drive.google.com/file/d/1flmzB5xpdJ6Noa-3hAbms0vBml6KwAxy/view?usp=sharing",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202epi5f481027",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Michigan State University Institute for Public Policy and Social Research/YouGov",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 779,
+   "population": "lv",
+   "field_start": "2026-08-10",
+   "field_end": "2026-08-20",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-01",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 50.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 45.0
+    }
+   ],
+   "original_poll_url": "https://ippsr.msu.edu/news/msu-poll-shows-democrats-lead-republicans-coalesce-behind-rogers",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202micb55519f5",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Michigan State University Institute for Public Policy and Social Research/YouGov",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 913,
+   "population": "rv",
+   "field_start": "2026-08-10",
+   "field_end": "2026-08-20",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-01",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 48.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 44.0
+    }
+   ],
+   "original_poll_url": "https://ippsr.msu.edu/news/msu-poll-shows-democrats-lead-republicans-coalesce-behind-rogers",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202miccc27552a",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Trafalgar Group",
+   "sponsor": [],
+   "partisan_sponsor": "REP",
+   "internal": false,
+   "mode": null,
+   "sample_size": 1079,
+   "population": "lv",
+   "field_start": "2026-09-07",
+   "field_end": "2026-09-09",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-11",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 46.3
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 44.8
+    },
+    {
+     "choice": "Lydia Christensen",
+     "pct": 0.8
+    },
+    {
+     "choice": "Tim Long",
+     "pct": 0.7
+    },
+    {
+     "choice": "Douglas P. Marsh",
+     "pct": 0.4
+    },
+    {
+     "choice": "Walter P. Kristy",
+     "pct": 0.2
+    }
+   ],
+   "original_poll_url": "https://www.thetrafalgargroup.org/news/mi-sen-general-0910/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202traa454dc67",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "The Washington Post/George Mason University School of Policy and Government",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 803,
+   "population": "lv",
+   "field_start": "2026-09-10",
+   "field_end": "2026-09-14",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-17",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 48.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 45.0
+    }
+   ],
+   "original_poll_url": "https://www.washingtonpost.com/documents/08fa9b5e-43ac-456c-a706-4c33ec6506dc.pdf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202the9066d3a5",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Emerson College",
+   "sponsor": [
+    "Nexstar Media"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1000,
+   "population": "lv",
+   "field_start": "2026-09-12",
+   "field_end": "2026-09-14",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-17",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 48.2
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 45.7
+    },
+    {
+     "choice": "Lydia Christensen",
+     "pct": 0.5
+    },
+    {
+     "choice": "Tim Long",
+     "pct": 0.6
+    },
+    {
+     "choice": "Douglas P. Marsh",
+     "pct": 3.0
+    },
+    {
+     "choice": "Walter P. Kristy",
+     "pct": 0.3
+    }
+   ],
+   "original_poll_url": "https://emersoncollegepolling.com/michigan-2026-poll-el-sayed-and-rogers-locked-in-close-election/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202eme99d02ce6",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Suffolk University",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 500,
+   "population": "lv",
+   "field_start": "2026-09-16",
+   "field_end": "2026-09-20",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-22",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 47.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 40.0
+    },
+    {
+     "choice": "Lydia Christensen",
+     "pct": 1.0
+    },
+    {
+     "choice": "Tim Long",
+     "pct": 0.0
+    },
+    {
+     "choice": "Douglas P. Marsh",
+     "pct": 0.0
+    },
+    {
+     "choice": "Walter P. Kristy",
+     "pct": 1.0
+    }
+   ],
+   "original_poll_url": "https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states#collapse-September-22-2026-Michigan-Governor-and-US-Senate-Statewide-and-Bellwether",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202suf59500e62",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "co/efficient",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 843,
+   "population": "lv",
+   "field_start": "2026-09-21",
+   "field_end": "2026-09-23",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-24",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 50.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 50.0
+    }
+   ],
+   "original_poll_url": "https://battlegrounds.coefficient.org/mi/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202co/b838141c",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "The New York Times/Siena University",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 605,
+   "population": "lv",
+   "field_start": "2026-09-15",
+   "field_end": "2026-09-22",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-24",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 49.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 44.0
+    }
+   ],
+   "original_poll_url": "https://www.nytimes.com/2026/09/24/us/politics/democrats-show-strength-in-michigan-senate-race-but-trail-in-maine-polls-find.html",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202thecf4746de",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Cygnal/Beacon Research",
+   "sponsor": [
+    "Michigan Enjoyer"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "lv",
+   "field_start": "2026-09-18",
+   "field_end": "2026-09-21",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-29",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 45.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 40.0
+    },
+    {
+     "choice": "Lydia Christensen",
+     "pct": 1.0
+    },
+    {
+     "choice": "Tim Long",
+     "pct": 0.0
+    },
+    {
+     "choice": "Douglas P. Marsh",
+     "pct": 0.0
+    },
+    {
+     "choice": "Walter P. Kristy",
+     "pct": 0.0
+    }
+   ],
+   "original_poll_url": "https://enjoyer.com/michigan-poll-fall-2026/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202cyg13fa7f0a",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Beacon Research/Shaw & Co. Research",
+   "sponsor": [
+    "Fox News"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1028,
+   "population": "lv",
+   "field_start": "2026-09-24",
+   "field_end": "2026-09-28",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-01",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 50.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 49.0
+    }
+   ],
+   "original_poll_url": "https://www.foxnews.com/politics/fox-news-poll-michigan-voters-split-between-el-sayed-rogers",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202beac0286b40",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Trafalgar Group",
+   "sponsor": [],
+   "partisan_sponsor": "REP",
+   "internal": false,
+   "mode": null,
+   "sample_size": 1085,
+   "population": "lv",
+   "field_start": "2026-09-28",
+   "field_end": "2026-09-30",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-02",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 47.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 45.0
+    },
+    {
+     "choice": "Lydia Christensen",
+     "pct": 2.0
+    },
+    {
+     "choice": "Tim Long",
+     "pct": 1.0
+    },
+    {
+     "choice": "Douglas P. Marsh",
+     "pct": 0.0
+    },
+    {
+     "choice": "Walter P. Kristy",
+     "pct": 0.0
+    }
+   ],
+   "original_poll_url": "https://www.thetrafalgargroup.org/news/mi-senate-general-1001/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202tra046dabbf",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Mitchell Research & Communications",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 682,
+   "population": "lv",
+   "field_start": "2026-10-01",
+   "field_end": "2026-10-01",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-06",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 46.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 41.0
+    },
+    {
+     "choice": "Lydia Christensen",
+     "pct": 3.0
+    },
+    {
+     "choice": "Tim Long",
+     "pct": 1.0
+    },
+    {
+     "choice": "Douglas P. Marsh",
+     "pct": 1.0
+    },
+    {
+     "choice": "Walter P. Kristy",
+     "pct": 2.0
+    }
+   ],
+   "original_poll_url": "https://wwmt.com/news/michigan-politics/mitchell-poll-michigan-us-senate-election-abdul-el-sayed-mike-rogers-politics-government-vote-polls-state",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202mit7960c973",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Guidant Polling and Strategy",
+   "sponsor": [
+    "Public First Action"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 800,
+   "population": "lv",
+   "field_start": "2026-09-20",
+   "field_end": "2026-09-27",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-08",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 48.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 43.0
+    },
+    {
+     "choice": "Lydia Christensen",
+     "pct": 1.0
+    },
+    {
+     "choice": "Tim Long",
+     "pct": 1.0
+    },
+    {
+     "choice": "Douglas P. Marsh",
+     "pct": 0.0
+    },
+    {
+     "choice": "Walter P. Kristy",
+     "pct": 0.0
+    }
+   ],
+   "original_poll_url": "https://x.com/burgessev/status/2107923538392776875?s=20",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202guic8eacfa2",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Z to A Research",
+   "sponsor": [
+    "Rust Belt Rising"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 483,
+   "population": "lv",
+   "field_start": "2026-09-28",
+   "field_end": "2026-10-01",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-09",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 49.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 42.0
+    },
+    {
+     "choice": "Lydia Christensen",
+     "pct": 3.0
+    }
+   ],
+   "original_poll_url": "https://x.com/rbrtraining/status/2108302504446337272",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202z tb2a3f7be",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "Marist University",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": null,
+   "population": "lv",
+   "field_start": "2026-10-15",
+   "field_end": "2026-10-18",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-21",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 50.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 48.0
+    }
+   ],
+   "original_poll_url": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202marad729239",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MI00418"
+   ],
+   "pollster": "InsiderAdvantage",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1200,
+   "population": "lv",
+   "field_start": "2026-10-21",
+   "field_end": "2026-10-22",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-23",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 47.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 46.0
+    }
+   ],
+   "original_poll_url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202ins51d307b7",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6IL00458"
+   ],
+   "pollster": "Public Policy Polling",
+   "sponsor": [
+    "Chicago News Weekly"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 569,
+   "population": "lv",
+   "field_start": "2026-09-30",
+   "field_end": "2026-10-01",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-06",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Juliana Stratton",
+     "pct": 49.0
+    },
+    {
+     "choice": "Don Tracy",
+     "pct": 36.0
+    }
+   ],
+   "original_poll_url": "https://www.cnwmedia.com/article/cnw-poll-pritzker-leads-bailey-by-20-points-democrats-ahead-in-four-other-statewide-races",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202pub12c802d5",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6IL00458"
+   ],
+   "pollster": "ActiVote",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 400,
+   "population": "lv",
+   "field_start": "2026-09-26",
+   "field_end": "2026-10-20",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-21",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Juliana Stratton",
+     "pct": 59.0
+    },
+    {
+     "choice": "Don Tracy",
+     "pct": 42.0
+    }
+   ],
+   "original_poll_url": "https://www.activote.net/polls/2026/il-u-s-senate/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202act5e47e608",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "HOUSE-07",
+   "candidate_ids": [
+    "H6MI07298"
+   ],
+   "pollster": "Global Strategy Group",
+   "sponsor": [
+    "House Majority PAC"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 500,
+   "population": "lv",
+   "field_start": "2026-08-11",
+   "field_end": "2026-08-13",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "William Lawrence",
+     "pct": 49.0
+    },
+    {
+     "choice": "Tom Barrett",
+     "pct": 47.0
+    }
+   ],
+   "original_poll_url": "https://www.thehousemajoritypac.com/news/hmp-poll-william-lawrence-leads-tom-barrett-in-mi-07",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-representative",
+   "aggregator_poll_id": "us-202glo69af5ff3",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "HOUSE-07",
+   "candidate_ids": [
+    "H6MI07298"
+   ],
+   "pollster": "Emerson College",
+   "sponsor": [
+    "Poll Vault"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 314,
+   "population": "lv",
+   "field_start": "2026-10-12",
+   "field_end": "2026-10-14",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-22",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "William Lawrence",
+     "pct": 53.0
+    },
+    {
+     "choice": "Tom Barrett",
+     "pct": 45.0
+    }
+   ],
+   "original_poll_url": "https://pollvault.substack.com/p/levee-math",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-representative",
+   "aggregator_poll_id": "us-202eme2c268367",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "HOUSE-22",
+   "candidate_ids": [
+    "H6CA22190"
+   ],
+   "pollster": "Tulchin Research",
+   "sponsor": [
+    "House Majority PAC"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 800,
+   "population": "lv",
+   "field_start": "2026-06-15",
+   "field_end": "2026-06-21",
+   "publication_date": null,
+   "aggregator_import_date": "2026-07-21",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Randy Villegas",
+     "pct": 48.0
+    },
+    {
+     "choice": "David Valadao",
+     "pct": 44.0
+    }
+   ],
+   "original_poll_url": "https://www.politico.com/newsletters/playbook/2026/07/21/trump-to-hill-im-not-that-into-you-01005915",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-representative",
+   "aggregator_poll_id": "us-202tul5fdc419c",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "HOUSE-11",
+   "candidate_ids": [
+    "H8CA11116"
+   ],
+   "pollster": "Tavern Research",
+   "sponsor": [
+    "Jobs and Democracy PAC"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 658,
+   "population": "lv",
+   "field_start": "2026-09-15",
+   "field_end": "2026-09-17",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-02",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Scott Wiener",
+     "pct": 45.0
+    },
+    {
+     "choice": "Connie Chan",
+     "pct": 34.0
+    }
+   ],
+   "original_poll_url": "https://www.politico.com/newsletters/california-playbook/2026/10/02/carl-demaio-is-the-establishment-now-01104622",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-representative",
+   "aggregator_poll_id": "us-202tav5e39c6e6",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "HOUSE-11",
+   "candidate_ids": [
+    "H8CA11116"
+   ],
+   "pollster": "University of Southern California Democracy and Fair Elections Lab",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 454,
+   "population": "lv",
+   "field_start": "2026-10-16",
+   "field_end": "2026-10-19",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-22",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Scott Wiener",
+     "pct": 51.0
+    },
+    {
+     "choice": "Connie Chan",
+     "pct": 44.0
+    }
+   ],
+   "original_poll_url": "https://www.thedemocracylab.com/ca11",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-representative",
+   "aggregator_poll_id": "us-202uni65dc5b39",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MN00440"
+   ],
+   "pollster": "SurveyUSA",
+   "sponsor": [
+    "KSTP-TV (St. Paul)",
+    "KAAL-TV (Austin)",
+    "WDIO-DT (Duluth)"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 718,
+   "population": "lv",
+   "field_start": "2026-10-08",
+   "field_end": "2026-10-12",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-15",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Peggy Flanagan",
+     "pct": 45.0
+    },
+    {
+     "choice": "Michele Tafoya",
+     "pct": 42.0
+    },
+    {
+     "choice": "Marisa Simonetti",
+     "pct": 2.0
+    },
+    {
+     "choice": "Rebecca Whiting",
+     "pct": 2.0
+    }
+   ],
+   "original_poll_url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202sur63027f3e",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MN00440"
+   ],
+   "pollster": "Emerson College",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1000,
+   "population": "lv",
+   "field_start": "2026-02-06",
+   "field_end": "2026-02-08",
+   "publication_date": null,
+   "aggregator_import_date": "2026-05-28",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Peggy Flanagan",
+     "pct": 47.1
+    },
+    {
+     "choice": "Michele Tafoya",
+     "pct": 40.6
+    }
+   ],
+   "original_poll_url": "https://docs.google.com/spreadsheets/d/1JA1bJWjrfS2kJbvUpGC8cGy7c0UiK7Qr/edit?usp=sharing&ouid=111479937799022047482&rtpof=true&sd=true",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202eme46470152",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MN00440"
+   ],
+   "pollster": "Public Policy Polling",
+   "sponsor": [
+    "GQR"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 1015,
+   "population": "lv",
+   "field_start": "2025-09-15",
+   "field_end": "2025-09-16",
+   "publication_date": null,
+   "aggregator_import_date": "2026-06-12",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Peggy Flanagan",
+     "pct": 46.0
+    },
+    {
+     "choice": "Rep",
+     "pct": 44.0
+    }
+   ],
+   "original_poll_url": "https://www.scribd.com/document/930902898/Flanagan-Senate-Poll-Memo-September-2025",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202pubde180c20",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MN00440"
+   ],
+   "pollster": "SurveyUSA",
+   "sponsor": [
+    "KSTP-TV (St. Paul)",
+    "KAAL-TV (Austin)",
+    "WDIO-DT (Duluth)"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 661,
+   "population": "lv",
+   "field_start": "2026-08-13",
+   "field_end": "2026-08-17",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-20",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Peggy Flanagan",
+     "pct": 46.0
+    },
+    {
+     "choice": "Michele Tafoya",
+     "pct": 41.0
+    },
+    {
+     "choice": "Marisa Simonetti",
+     "pct": 1.0
+    },
+    {
+     "choice": "Rebecca Whiting",
+     "pct": 1.0
+    }
+   ],
+   "original_poll_url": "KSTP-TV (St. Paul, Minn.), KAAL-TV (Austin, Minn.), WDIO-DT (Duluth, Minn.)",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202sur47670306",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MN00440"
+   ],
+   "pollster": "Quantus Insights",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 720,
+   "population": "lv",
+   "field_start": "2026-09-08",
+   "field_end": "2026-09-10",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-11",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Peggy Flanagan",
+     "pct": 48.2
+    },
+    {
+     "choice": "Michele Tafoya",
+     "pct": 44.4
+    }
+   ],
+   "original_poll_url": "https://quantusinsights.org/f/new-quantus-polls-moody-leads-in-florida-flanagan-in-minnesota",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202qua8837472c",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MN00440"
+   ],
+   "pollster": "SurveyUSA",
+   "sponsor": [
+    "KSTP-TV (St. Paul)",
+    "KAAL-TV (Austin)",
+    "WDIO-DT (Duluth)"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 654,
+   "population": "lv",
+   "field_start": "2026-09-09",
+   "field_end": "2026-09-14",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-17",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Peggy Flanagan",
+     "pct": 42.0
+    },
+    {
+     "choice": "Michele Tafoya",
+     "pct": 42.0
+    },
+    {
+     "choice": "Marisa Simonetti",
+     "pct": 2.0
+    },
+    {
+     "choice": "Rebecca Whiting",
+     "pct": 2.0
+    }
+   ],
+   "original_poll_url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-governor-senate-races-tightening-days-before-early-voting-starts-in-minnesota/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202sura38c6933",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MN00440"
+   ],
+   "pollster": "Big Data Poll",
+   "sponsor": [
+    "Public Polling Project"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 622,
+   "population": "lv",
+   "field_start": "2026-09-29",
+   "field_end": "2026-09-30",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-02",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Peggy Flanagan",
+     "pct": 46.0
+    },
+    {
+     "choice": "Michele Tafoya",
+     "pct": 44.0
+    },
+    {
+     "choice": "Rebecca Whiting",
+     "pct": 5.0
+    }
+   ],
+   "original_poll_url": "https://www.bigdatapoll.com/blog/lone-star-state-poll-peggy-flanagan-holds-slight-lead-over-michele-tafoya-for-us-senate-in-minnesota/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202big7e4bf32f",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6MN00440"
+   ],
+   "pollster": "GQR",
+   "sponsor": [
+    "Senate Majority PAC"
+   ],
+   "partisan_sponsor": "DEM",
+   "internal": false,
+   "mode": null,
+   "sample_size": 800,
+   "population": "lv",
+   "field_start": "2026-10-01",
+   "field_end": "2026-10-04",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-09",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Peggy Flanagan",
+     "pct": 50.0
+    },
+    {
+     "choice": "Michele Tafoya",
+     "pct": 42.0
+    },
+    {
+     "choice": "Marisa Simonetti",
+     "pct": 4.0
+    },
+    {
+     "choice": "Rebecca Whiting",
+     "pct": 2.0
+    }
+   ],
+   "original_poll_url": "https://x.com/DrewSav/status/2108502733045334207",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202gqr63b7a4d3",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "MDW",
+   "sponsor": [
+    "EDGE Communications"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 800,
+   "population": "lv",
+   "field_start": "2026-10-04",
+   "field_end": "2026-10-10",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-15",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 48.0
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 42.0
+    }
+   ],
+   "original_poll_url": "https://www.mdwcomm.com/media/florida-statewide-poll-october-2026.html",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202mdwe9967dcc",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "Stetson University",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 848,
+   "population": "lv",
+   "field_start": "2026-03-25",
+   "field_end": "2026-04-13",
+   "publication_date": null,
+   "aggregator_import_date": "2026-04-27",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 51.0
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 38.0
+    }
+   ],
+   "original_poll_url": "https://t.co/dtCsadTWtf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202ste198f7a4a",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "University of North Florida",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 768,
+   "population": "lv",
+   "field_start": "2026-02-21",
+   "field_end": "2026-03-02",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-19",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Angie Nixon",
+     "pct": 38.0
+    },
+    {
+     "choice": "Ashley Moody",
+     "pct": 46.0
+    }
+   ],
+   "original_poll_url": "https://floridapolitics.com/archives/783199-desantis-more-popular-trump-poll/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202uni979cabda",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "Emerson College",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1125,
+   "population": "lv",
+   "field_start": "2026-03-29",
+   "field_end": "2026-03-31",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-19",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Angie Nixon",
+     "pct": 36.0
+    },
+    {
+     "choice": "Ashley Moody",
+     "pct": 47.0
+    }
+   ],
+   "original_poll_url": "https://emersoncollegepolling.com/florida-2026-poll-donalds-leads-gop-primary-for-governor-republicans-outpace-democrats-in-florida-elections/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202emed67d42c8",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "University of North Florida",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 848,
+   "population": "lv",
+   "field_start": "2026-07-08",
+   "field_end": "2026-07-17",
+   "publication_date": null,
+   "aggregator_import_date": "2026-08-19",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Angie Nixon",
+     "pct": 42.0
+    },
+    {
+     "choice": "Ashley Moody",
+     "pct": 50.0
+    }
+   ],
+   "original_poll_url": "https://floridapolitics.com/archives/808426-unf-poll-jolly-donalds/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202unic788577e",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "Change Research",
+   "sponsor": [
+    "Freedom Project USA"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1107,
+   "population": "lv",
+   "field_start": "2026-09-07",
+   "field_end": "2026-09-09",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-11",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 47.0
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 47.0
+    }
+   ],
+   "original_poll_url": "https://changeresearch.com/research/2026/2026-09-10-an-emerging-florida-blue-wave",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202cha69e5536b",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "Quantus Insights",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 733,
+   "population": "lv",
+   "field_start": "2026-09-08",
+   "field_end": "2026-09-10",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-11",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 50.1
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 42.7
+    }
+   ],
+   "original_poll_url": "https://quantusinsights.org/f/new-quantus-polls-moody-leads-in-florida-flanagan-in-minnesota",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202qua2b8ed3cb",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "St. Pete Polls",
+   "sponsor": [
+    "Florida Politics"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 913,
+   "population": "lv",
+   "field_start": "2026-09-15",
+   "field_end": "2026-09-17",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-18",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 45.2
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 44.8
+    }
+   ],
+   "original_poll_url": "https://floridapolitics.com/archives/820638-poll-byron-donalds-44-david-jolly-43-in-dead-heat-race-for-florida-governor/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202st.73c64f89",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "InsiderAdvantage",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 600,
+   "population": "lv",
+   "field_start": "2026-09-20",
+   "field_end": "2026-09-21",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-22",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 49.3
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 41.8
+    },
+    {
+     "choice": "Neil Gillespie",
+     "pct": 2.4
+    }
+   ],
+   "original_poll_url": "https://insideradvantage.com/insideradvantage-florida-u-s-senate-survey-moody-leads-nixon-by-7/?utm_source=rss&utm_medium=rss&utm_campaign=insideradvantage-florida-u-s-senate-survey-moody-leads-nixon-by-7",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202insad41796a",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "Stetson University Center for Public Opinion Research",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 830,
+   "population": "lv",
+   "field_start": "2026-09-14",
+   "field_end": "2026-09-21",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-25",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 51.0
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 40.0
+    }
+   ],
+   "original_poll_url": "https://www.stetson.edu/artsci/cpor/media/cpor-sept.-2026-poll-final.pdf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202ste67ef4e2d",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "Change Research",
+   "sponsor": [
+    "Freedom Project USA"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1063,
+   "population": "lv",
+   "field_start": "2026-09-25",
+   "field_end": "2026-09-27",
+   "publication_date": null,
+   "aggregator_import_date": "2026-09-29",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 48.0
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 47.0
+    }
+   ],
+   "original_poll_url": "https://changeresearch.com/research/2026/2026-09-28-florida-aapor-methodology-statement",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202chad8109bd5",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "St. Pete Polls",
+   "sponsor": [
+    "Florida Politics"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 836,
+   "population": "lv",
+   "field_start": "2026-10-05",
+   "field_end": "2026-10-07",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-09",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 47.0
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 45.0
+    }
+   ],
+   "original_poll_url": "https://floridapolitics.com/archives/823921-new-st-pete-polls-survey-has-ashley-moody-at-47-angie-nixon-at-45-and-the-senate-race-still-inside-the-margin-of-error/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202st.fc2e22ed",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "Targoz Market Research",
+   "sponsor": [
+    "The James Madison Institute"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 857,
+   "population": "lv",
+   "field_start": "2026-09-28",
+   "field_end": "2026-10-04",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-09",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Angie Nixon",
+     "pct": 42.0
+    },
+    {
+     "choice": "Ashley Moody",
+     "pct": 52.0
+    }
+   ],
+   "original_poll_url": "https://jmipoll.com",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202tar0bbd9d56",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "Targoz Market Research",
+   "sponsor": [
+    "The James Madison Institute"
+   ],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1200,
+   "population": "rv",
+   "field_start": "2026-09-28",
+   "field_end": "2026-10-04",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-09",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Angie Nixon",
+     "pct": 38.0
+    },
+    {
+     "choice": "Ashley Moody",
+     "pct": 50.0
+    }
+   ],
+   "original_poll_url": "https://jmipoll.com/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202tarc49d2a14",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "University of North Florida",
+   "sponsor": [],
+   "partisan_sponsor": null,
+   "internal": false,
+   "mode": null,
+   "sample_size": 1414,
+   "population": "lv",
+   "field_start": "2026-10-12",
+   "field_end": "2026-10-19",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-21",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 49.0
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 45.0
+    }
+   ],
+   "original_poll_url": "https://static1.squarespace.com/static/6994d571bce3436c60d86870/t/6ad8a5ec13c20404a1f8052b/1792583148294/UNF+PORL+FALL+Statewide+2026+FLLV+-+Press+Release+1021+EMBARGO.pdf",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202unif780f058",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  },
+  {
+   "race_id": "SEN",
+   "candidate_ids": [
+    "S6FL00830"
+   ],
+   "pollster": "co/efficient",
+   "sponsor": [],
+   "partisan_sponsor": "REP",
+   "internal": false,
+   "mode": null,
+   "sample_size": 1014,
+   "population": "lv",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-20",
+   "publication_date": null,
+   "aggregator_import_date": "2026-10-22",
+   "margin_of_error": null,
+   "question_text": null,
+   "candidate_results": [
+    {
+     "choice": "Ashley Moody",
+     "pct": 48.0
+    },
+    {
+     "choice": "Angie Nixon",
+     "pct": 40.0
+    },
+    {
+     "choice": "Neil Gillespie",
+     "pct": 2.0
+    }
+   ],
+   "original_poll_url": "https://battlegrounds.coefficient.org/fl/",
+   "aggregator_url": "https://api.votehub.com/polls?poll_type=us-senator",
+   "aggregator_poll_id": "us-202co/bf7a2617",
+   "licensing": "VoteHub API (beta); terms not verified; facts stored with attribution",
+   "verification_status": "aggregator_listing_original_not_reviewed",
+   "imported_at_utc": "2026-10-23T18:43:18Z"
+  }
+ ],
+ "coverage": {
+  "S6MI00418": {
+   "status": "ok",
+   "polls": 39,
+   "source_checked": "votehub:us-senator",
+   "latest_field_end": "2026-10-22"
+  },
+  "H6IL07354": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H6IL09228": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H6NY10176": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H6NJ11286": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "S6IL00458": {
+   "status": "ok",
+   "polls": 2,
+   "source_checked": "votehub:us-senator",
+   "latest_field_end": "2026-10-20"
+  },
+  "H6NY13279": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H6CO01273": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H6NY07214": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H6MI07298": {
+   "status": "ok",
+   "polls": 2,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": "2026-10-14"
+  },
+  "H6MI13254": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H6CA22190": {
+   "status": "ok",
+   "polls": 1,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": "2026-06-21"
+  },
+  "H6CT01206": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H6NJ12417": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H6PA03203": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H8CA11116": {
+   "status": "ok",
+   "polls": 2,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": "2026-10-19"
+  },
+  "S6MN00440": {
+   "status": "ok",
+   "polls": 8,
+   "source_checked": "votehub:us-senator",
+   "latest_field_end": "2026-10-12"
+  },
+  "H2PA18200": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H8MI13250": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H8NY15148": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H2IL03162": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H8MA07032": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "H4CA12055": {
+   "status": "no_poll_found",
+   "polls": 0,
+   "source_checked": "votehub:us-representative",
+   "latest_field_end": null
+  },
+  "S6FL00830": {
+   "status": "ok",
+   "polls": 16,
+   "source_checked": "votehub:us-senator",
+   "latest_field_end": "2026-10-20"
+  }
+ },
+ "source_errors": {}
+}

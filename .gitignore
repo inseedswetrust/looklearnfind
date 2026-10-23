@@ -7,3 +7,5 @@ __pycache__/
 static/api/_data/*.sqlite*
 static/api/_data/config.php
 release/looklearnfind-elections-update.zip
+data/elections/dark_horse/daily/*/captures/
+data/elections/dark_horse/server_pull/daily/*/captures/

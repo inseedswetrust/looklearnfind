@@ -1,0 +1,930 @@
+[
+ {
+  "candidate_name": "Abdul El-Sayed",
+  "state": "MI",
+  "race": "SEN",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "SENATEMI-26",
+    "ticker": "SENATEMI-26-D",
+    "title": "Michigan Senate winner?",
+    "yes_label": "Abdul El-Sayed",
+    "status": "active",
+    "last": "0.6800",
+    "bid": "0.6800",
+    "ask": "0.6900",
+    "rules": "If a representative of the Democratic party is sworn in as a Senator of Michigan for the term beginning in 2027, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [
+   {
+    "event_slug": "which-dems-will-underperform-kamala",
+    "event_title": "Which Dems will underperform Kamala?",
+    "question": "Will Abdul El-Sayed underperform Kamala in Michigan?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.245\", \"0.755\"]",
+    "token_ids": "[\"52057744286441131025411495588398330255834174905257879194334927579336170430470\", \"74295892464308884880071873650262943253385952876562675410788966480739755075439\"]",
+    "end": "2026-11-03T23:59:00Z",
+    "closed": false,
+    "rules": "The 2026 midterm elections are scheduled to be held on November 3, 2026.\n\nThis market will resolve to \"Yes\" if the listed Democratic candidate in a statewide midterm election has an unrounded vote share that is lower than the equivalent vote share earned by Kamala Harris in that state in the 2024 Pr"
+   },
+   {
+    "event_slug": "abdul-el-sayed-runs-behind-jocelyn-benson-by",
+    "event_title": "Abdul El-Sayed runs behind Jocelyn Benson by...?",
+    "question": "Will Abdul El-Sayed run 9 or more points behind Jocelyn Benson?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0365\", \"0.9635\"]",
+    "token_ids": "[\"83862588324012436728343406010216287361964354556267860456239634208078053164932\", \"80676715839937300184435573058484931206147095687517133785297181466331448904553\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Michigan general election is scheduled to be held on November 3, 2026. Abdul El-Sayed is the Democratic nominee for United States Senate in Michigan, and Jocelyn Benson is the Democratic nominee for Governor of Michigan.\n\nThis market will resolve based on how many percentage points Abdul El"
+   },
+   {
+    "event_slug": "abdul-el-sayed-runs-behind-jocelyn-benson-by",
+    "event_title": "Abdul El-Sayed runs behind Jocelyn Benson by...?",
+    "question": "Will Abdul El-Sayed run 6 to 9 points behind Jocelyn Benson?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.215\", \"0.785\"]",
+    "token_ids": "[\"62660416428760874537774821005036384260198344361192621806150741700248322423224\", \"10565880369501939284945409460397167421951211458740883573025268977166242010170\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Michigan general election is scheduled to be held on November 3, 2026. Abdul El-Sayed is the Democratic nominee for United States Senate in Michigan, and Jocelyn Benson is the Democratic nominee for Governor of Michigan.\n\nThis market will resolve based on how many percentage points Abdul El"
+   },
+   {
+    "event_slug": "abdul-el-sayed-runs-behind-jocelyn-benson-by",
+    "event_title": "Abdul El-Sayed runs behind Jocelyn Benson by...?",
+    "question": "Will Abdul El-Sayed run 3 to 6 points behind Jocelyn Benson?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.175\", \"0.825\"]",
+    "token_ids": "[\"45084180366322041108037862655111941688716325910174800445158480640228999262050\", \"66125058837518779740205210921083701274963417455735146295912972237857649454756\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Michigan general election is scheduled to be held on November 3, 2026. Abdul El-Sayed is the Democratic nominee for United States Senate in Michigan, and Jocelyn Benson is the Democratic nominee for Governor of Michigan.\n\nThis market will resolve based on how many percentage points Abdul El"
+   },
+   {
+    "event_slug": "abdul-el-sayed-runs-behind-jocelyn-benson-by",
+    "event_title": "Abdul El-Sayed runs behind Jocelyn Benson by...?",
+    "question": "Will Abdul El-Sayed run 0 to 3 points behind Jocelyn Benson?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.4\", \"0.6\"]",
+    "token_ids": "[\"114432431198712669810720362031997014413781734770175009039582762739663852083845\", \"74752929082682142404301199076824066394410274432666381331117251062259665483589\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Michigan general election is scheduled to be held on November 3, 2026. Abdul El-Sayed is the Democratic nominee for United States Senate in Michigan, and Jocelyn Benson is the Democratic nominee for Governor of Michigan.\n\nThis market will resolve based on how many percentage points Abdul El"
+   },
+   {
+    "event_slug": "abdul-el-sayed-runs-behind-jocelyn-benson-by",
+    "event_title": "Abdul El-Sayed runs behind Jocelyn Benson by...?",
+    "question": "Will Abdul El-Sayed run ahead of Jocelyn Benson?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.105\", \"0.895\"]",
+    "token_ids": "[\"84182502511510945066820012038405413591559884047653538115229964596384325772961\", \"86626181710941699872585781367180494279021093214558205325697410912834574357575\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Michigan general election is scheduled to be held on November 3, 2026. Abdul El-Sayed is the Democratic nominee for United States Senate in Michigan, and Jocelyn Benson is the Democratic nominee for Governor of Michigan.\n\nThis market will resolve based on how many percentage points Abdul El"
+   }
+  ],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "La Shawn Ford",
+  "state": "IL",
+  "race": "HOUSE-07",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-IL07-26",
+    "ticker": "KXHOUSERACE-IL07-26-D",
+    "title": "IL-07 House winner?",
+    "yes_label": "La Shawn Ford",
+    "status": "active",
+    "last": "0.9560",
+    "bid": "0.9660",
+    "ask": "0.9930",
+    "rules": "If the House member sworn in for IL-07 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Daniel Biss",
+  "state": "IL",
+  "race": "HOUSE-09",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-IL09-26",
+    "ticker": "KXHOUSERACE-IL09-26-D",
+    "title": "IL-09 House winner?",
+    "yes_label": "Daniel Biss",
+    "status": "active",
+    "last": "0.9500",
+    "bid": "0.9630",
+    "ask": "0.9880",
+    "rules": "If the House member sworn in for IL-09 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Aisha Wahab",
+  "state": "CA",
+  "race": "HOUSE-14",
+  "kalshi_candidates": [],
+  "polymarket_candidates": [
+   {
+    "event_slug": "ca-14-house-election-winner-individual-20260710020305940",
+    "event_title": "CA-14 House Election Winner (Individual)",
+    "question": "Will Aisha Wahab win the CA-14 House seat?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.92\", \"0.08\"]",
+    "token_ids": "[\"109022317960212066886714439020948084802122849906787971998538658501650502650573\", \"59338666376335756319552903819898627686294727487896010936143643504556415617613\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve according to the individual who wins the CA-14 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\nThis market will resolve based on the result of the election as indicate"
+   }
+  ],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Brad Lander",
+  "state": "NY",
+  "race": "HOUSE-10",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-NY10-26",
+    "ticker": "KXHOUSERACE-NY10-26-D",
+    "title": "NY-10 House winner?",
+    "yes_label": "Brad Lander",
+    "status": "active",
+    "last": "0.9720",
+    "bid": "0.9690",
+    "ask": "0.9900",
+    "rules": "If the House member sworn in for NY-10 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [
+   {
+    "event_slug": "nhl-hart-memorial-trophy-winner-2026-27",
+    "event_title": "NHL Hart Memorial Trophy Winner",
+    "question": "Will William Nylander win the 2026-27 Hart Memorial Trophy?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0095\", \"0.9905\"]",
+    "token_ids": "[\"58753023249682396578478822065287989323778972121971166353622327778046485739115\", \"73930280101627656349963358172161228828945486135798645862701156264535668187703\"]",
+    "end": "2027-07-01T03:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to the player who wins the Hart Memorial Trophy for the 2026-27 NHL season.\n\nIn the event of a tie, this market will resolve according to the official winner as determined by NHL rules. If multiple winners are announced then this market will resolve to the player whose liste"
+   },
+   {
+    "event_slug": "nhl-players-80-plus-points-2026-27",
+    "event_title": "NHL: Players to Record 80+ Points",
+    "question": "Will William Nylander record 80+ points in the 2026-27 regular season?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.727\", \"0.273\"]",
+    "token_ids": "[\"25035038995323817379855745738314306698844733283812046138158202524401041925250\", \"85376291013422677117302636325784084128873207657294799356561907952513128401395\"]",
+    "end": "2027-04-30T03:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \"Yes\" if the listed player records 80 or more points during the 2026-27 NHL regular season. Otherwise, the associated market will resolve to \"No\".\n\nIf at any point it becomes impossible for the listed player to record 80 or more points during the 2026-27 NHL regular seaso"
+   }
+  ],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Analilia Mejia",
+  "state": "NJ",
+  "race": "HOUSE-11",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-NJ11-26",
+    "ticker": "KXHOUSERACE-NJ11-26-D",
+    "title": "NJ-11 House winner?",
+    "yes_label": "Analilia Mejia",
+    "status": "active",
+    "last": "0.9760",
+    "bid": "0.9420",
+    "ask": "0.9780",
+    "rules": "If the House member sworn in for NJ-11 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Juliana Stratton",
+  "state": "IL",
+  "race": "SEN",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "SENATEIL-26",
+    "ticker": "SENATEIL-26-D",
+    "title": "Illinois Senate winner?",
+    "yes_label": "Juliana Stratton",
+    "status": "active",
+    "last": "0.9930",
+    "bid": "0.9790",
+    "ask": "0.9930",
+    "rules": "If a representative of the Democratic party is sworn in as a Senator of Illinois for the term beginning in 2027, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Darializa Avila Chevalier",
+  "state": "NY",
+  "race": "HOUSE-13",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-NY13-26",
+    "ticker": "KXHOUSERACE-NY13-26-D",
+    "title": "NY-13 House winner?",
+    "yes_label": "Darializa Avila Chevalier",
+    "status": "active",
+    "last": "0.9810",
+    "bid": "0.9610",
+    "ask": "0.9760",
+    "rules": "If the House member sworn in for NY-13 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Melat Kiros",
+  "state": "CO",
+  "race": "HOUSE-01",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-CO01-26",
+    "ticker": "KXHOUSERACE-CO01-26-D",
+    "title": "CO-01 House winner?",
+    "yes_label": "Melat Kiros",
+    "status": "active",
+    "last": "0.9730",
+    "bid": "0.9740",
+    "ask": "0.9950",
+    "rules": "If the House member sworn in for CO-01 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Claire Valdez",
+  "state": "NY",
+  "race": "HOUSE-07",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-NY07-26",
+    "ticker": "KXHOUSERACE-NY07-26-D",
+    "title": "NY-07 House winner?",
+    "yes_label": "Claire Valdez",
+    "status": "active",
+    "last": "0.9800",
+    "bid": "0.9670",
+    "ask": "0.9870",
+    "rules": "If the House member sworn in for NY-07 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "William Lawrence",
+  "state": "MI",
+  "race": "HOUSE-07",
+  "kalshi_candidates": [],
+  "polymarket_candidates": [
+   {
+    "event_slug": "pro-football-2026-27-passing-touchdowns-leader-20260715212611250",
+    "event_title": "Pro Football: 2026-27 Passing Touchdowns Leader",
+    "question": "Will Trevor Lawrence finish the 2026-27 NFL regular season with the most passing touchdowns?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.105\", \"0.895\"]",
+    "token_ids": "[\"52737444326799212501927289079605661917238185011264235720106667157653202509153\", \"113442423662596586417953999460620431463488918384382052385133720895572219998893\"]",
+    "end": "2027-01-12T23:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve in favor of the player that finishes the 2026-27 NFL regular season with the most passing touchdowns.\n\nIn the event of a tie, this market will resolve in favor of the tied player with more passing yards during the 2026-27 NFL regular season. If a tie still persists, this mar"
+   },
+   {
+    "event_slug": "top-5-qb-2026-27-nfl-season",
+    "event_title": "Fantasy Football: 2026-27 Top 5 Scoring QBs",
+    "question": "Will Trevor Lawrence finish as a top-5 QB in the 2026-27 NFL season?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.5\", \"0.5\"]",
+    "token_ids": "[\"62715026148670179844462845141114884530324529330053817054460456456288842880279\", \"4934428108766057302296685654788973580698730861798298194519373646393300210396\"]",
+    "end": "2027-01-27T04:59:00Z",
+    "closed": false,
+    "rules": "Each market in this event will resolve to \"Yes\" if the named quarterback finishes the 2026-27 NFL regular season (Weeks 1 through 18) ranked among the top 5 quarterbacks by total fantasy points under standard PPR (points-per-reception) scoring per the default scoring of ESPN Fantasy Sports. Otherwis"
+   },
+   {
+    "event_slug": "pro-football-2026-27-ap-defensive-player-of-the-year-winner",
+    "event_title": "Pro Football: 2026-27 AP Defensive Player of the Year Winner",
+    "question": "Will Dexter Lawrence II win the 2026 NFL Defensive Player of the Year award for the 2026-27 NFL season?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0115\", \"0.9885\"]",
+    "token_ids": "[\"13916599452990465525023469750743745397753566774687324701771320139848292425531\", \"20827910534502756815477374697806906086565757794660251829813573611933828530084\"]",
+    "end": "2027-02-11T23:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to the player who wins the 2026 Associated Press (AP) NFL Defensive Player of the Year award for the 2026-27 NFL season.\n\nIn the event of a tie, this market will resolve according to the official winner as determined by NFL rules. If multiple winners are announced then this "
+   },
+   {
+    "event_slug": "pro-football-first-qb-to-2000-passing-yards-2026-27",
+    "event_title": "Pro Football: First QB to 2,000 Passing Yards",
+    "question": "Will Trevor Lawrence be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0045\", \"0.9955\"]",
+    "token_ids": "[\"94045364954873567742017670735458940242124276947154914830479600706156078200356\", \"14556202274023307081271586303708646658266160927517671498347207918997066872048\"]",
+    "end": "2027-01-27T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing"
+   },
+   {
+    "event_slug": "pro-football-2026-27-qbr-leader-qualified-players-20260715213900180",
+    "event_title": "Pro Football: 2026-27 QBR Leader",
+    "question": "Will Trevor Lawrence finish the 2026-27 NFL regular season with the most Total QBR among qualified players?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0295\", \"0.9705\"]",
+    "token_ids": "[\"89357938385836457840657245858585873939329118716914991082272410825020016418762\", \"80552108096856315761075706301991799224537823414382216067371358641224183914093\"]",
+    "end": "2027-01-27T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve in favor of the player that finishes the 2026-27 NFL regular season with the most Total QBR (ESPN's Total Quarterback Rating) among qualified players. To qualify, a player must meet ESPN's minimum threshold for Total QBR leaderboard eligibility.\n\nIn the event of a tie, this "
+   }
+  ],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Donavan McKinney",
+  "state": "MI",
+  "race": "HOUSE-13",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-MI13-26",
+    "ticker": "KXHOUSERACE-MI13-26-D",
+    "title": "MI-13 House winner?",
+    "yes_label": "Donavan McKinney",
+    "status": "active",
+    "last": "0.9620",
+    "bid": "0.9790",
+    "ask": "0.9940",
+    "rules": "If the House member sworn in for MI-13 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Randy Villegas",
+  "state": "CA",
+  "race": "HOUSE-22",
+  "kalshi_candidates": [],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Luke Bronin",
+  "state": "CT",
+  "race": "HOUSE-01",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-CT01-26",
+    "ticker": "KXHOUSERACE-CT01-26-D",
+    "title": "CT-01 House winner?",
+    "yes_label": "Luke Bronin",
+    "status": "active",
+    "last": "0.9550",
+    "bid": "0.9670",
+    "ask": "0.9850",
+    "rules": "If the House member sworn in for CT-01 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Frederick Douglass Haynes III",
+  "state": "TX",
+  "race": "HOUSE-30",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-TX30-26",
+    "ticker": "KXHOUSERACE-TX30-26-D",
+    "title": "TX-30 House winner?",
+    "yes_label": "Frederick Haynes III",
+    "status": "active",
+    "last": "0.9920",
+    "bid": "0.9550",
+    "ask": "0.9890",
+    "rules": "If the House member sworn in for TX-30 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Adam Hamawy",
+  "state": "NJ",
+  "race": "HOUSE-12",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-NJ12-26",
+    "ticker": "KXHOUSERACE-NJ12-26-D",
+    "title": "NJ-12 House winner?",
+    "yes_label": "Adam Hamawy",
+    "status": "active",
+    "last": "0.9620",
+    "bid": "0.9790",
+    "ask": "0.9800",
+    "rules": "If the House member sworn in for NJ-12 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Chris Rabb",
+  "state": "PA",
+  "race": "HOUSE-03",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-PA03-26",
+    "ticker": "KXHOUSERACE-PA03-26-D",
+    "title": "PA-03 House winner?",
+    "yes_label": "Chris Rabb",
+    "status": "active",
+    "last": "0.9890",
+    "bid": "0.9730",
+    "ask": "0.9900",
+    "rules": "If the House member sworn in for PA-03 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Scott Wiener",
+  "state": "CA",
+  "race": "HOUSE-11",
+  "kalshi_candidates": [],
+  "polymarket_candidates": [
+   {
+    "event_slug": "ca-11-house-election-winner-individual-20260710015446690",
+    "event_title": "CA-11 House Election Winner (Individual)",
+    "question": "Will Scott Wiener win the CA-11 House seat?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.78\", \"0.22\"]",
+    "token_ids": "[\"112035258287671416806059192134926948999086785633546282137721997512907008011288\", \"57007904860049502023244198918141643217044442004777683946206387674876206802375\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve according to the individual who wins the CA-11 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\nThis market will resolve based on the result of the election as indicate"
+   }
+  ],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Peggy Flanagan",
+  "state": "MN",
+  "race": "SEN",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "SENATEMN-26",
+    "ticker": "SENATEMN-26-D",
+    "title": "Minnesota Senate winner?",
+    "yes_label": "Peggy Flanagan",
+    "status": "active",
+    "last": "0.8500",
+    "bid": "0.8500",
+    "ask": "0.8600",
+    "rules": "If a representative of the Democratic (DFL) party is sworn in as a Senator of Minnesota for the term beginning in 2027, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [
+   {
+    "event_slug": "peggy-flanagan-runs-behind-amy-klobuchar-by",
+    "event_title": "Peggy Flanagan runs behind Amy Klobuchar by...?",
+    "question": "Will Peggy Flanagan run 9 or more points behind Amy Klobuchar?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.125\", \"0.875\"]",
+    "token_ids": "[\"41610241905610222468989069937193887920176926354870055460986752229140462149663\", \"90886716031924014124216299750564640793797089149108775130857446684237965526138\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Minnesota general election is scheduled to be held on November 3, 2026. Peggy Flanagan is the Democratic nominee for United States Senate in Minnesota, and Amy Klobuchar is the Democratic nominee for Governor of Minnesota.\n\nThis market will resolve based on how many percentage points Peggy "
+   },
+   {
+    "event_slug": "peggy-flanagan-runs-behind-amy-klobuchar-by",
+    "event_title": "Peggy Flanagan runs behind Amy Klobuchar by...?",
+    "question": "Will Peggy Flanagan run 6 to 9 points behind Amy Klobuchar?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.39\", \"0.61\"]",
+    "token_ids": "[\"106567636932669671358665793690213572441008982777532924087222267006765904177429\", \"82635292705610566331132672862545127854654797827572414952236691144939568582583\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Minnesota general election is scheduled to be held on November 3, 2026. Peggy Flanagan is the Democratic nominee for United States Senate in Minnesota, and Amy Klobuchar is the Democratic nominee for Governor of Minnesota.\n\nThis market will resolve based on how many percentage points Peggy "
+   },
+   {
+    "event_slug": "peggy-flanagan-runs-behind-amy-klobuchar-by",
+    "event_title": "Peggy Flanagan runs behind Amy Klobuchar by...?",
+    "question": "Will Peggy Flanagan run 3 to 6 points behind Amy Klobuchar?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.205\", \"0.795\"]",
+    "token_ids": "[\"25415499846711609577073115965090867780133571785488436887741094687306673204897\", \"67594760796452154181256639289145559079690267483217443659685915719311446236408\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Minnesota general election is scheduled to be held on November 3, 2026. Peggy Flanagan is the Democratic nominee for United States Senate in Minnesota, and Amy Klobuchar is the Democratic nominee for Governor of Minnesota.\n\nThis market will resolve based on how many percentage points Peggy "
+   },
+   {
+    "event_slug": "peggy-flanagan-runs-behind-amy-klobuchar-by",
+    "event_title": "Peggy Flanagan runs behind Amy Klobuchar by...?",
+    "question": "Will Peggy Flanagan run 0 to 3 points behind Amy Klobuchar?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.27\", \"0.73\"]",
+    "token_ids": "[\"23384459591263253441136984043855724637610154077226854685429203235311395333668\", \"94022417559634991334235527124421574082261118547555037123406159737584311360461\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Minnesota general election is scheduled to be held on November 3, 2026. Peggy Flanagan is the Democratic nominee for United States Senate in Minnesota, and Amy Klobuchar is the Democratic nominee for Governor of Minnesota.\n\nThis market will resolve based on how many percentage points Peggy "
+   },
+   {
+    "event_slug": "peggy-flanagan-runs-behind-amy-klobuchar-by",
+    "event_title": "Peggy Flanagan runs behind Amy Klobuchar by...?",
+    "question": "Will Peggy Flanagan run ahead of Amy Klobuchar?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.075\", \"0.925\"]",
+    "token_ids": "[\"44930726682631993267013287919160425231651926624604814255176392678005077063272\", \"76279827639141621541476196731903428926663005865568935684683982012209480653156\"]",
+    "end": "2026-11-04T04:59:00Z",
+    "closed": false,
+    "rules": "The 2026 Minnesota general election is scheduled to be held on November 3, 2026. Peggy Flanagan is the Democratic nominee for United States Senate in Minnesota, and Amy Klobuchar is the Democratic nominee for Governor of Minnesota.\n\nThis market will resolve based on how many percentage points Peggy "
+   },
+   {
+    "event_slug": "which-dems-will-underperform-kamala",
+    "event_title": "Which Dems will underperform Kamala?",
+    "question": "Will Peggy Flanagan underperform Kamala in Minnesota?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.395\", \"0.605\"]",
+    "token_ids": "[\"63619333851128803732971948991133566828516260842425911688008803409893956723975\", \"36767174691782161188213642341778057780552969896616306238844455785258187382827\"]",
+    "end": "2026-11-03T23:59:00Z",
+    "closed": false,
+    "rules": "The 2026 midterm elections are scheduled to be held on November 3, 2026.\n\nThis market will resolve to \"Yes\" if the listed Democratic candidate in a statewide midterm election has an unrounded vote share that is lower than the equivalent vote share earned by Kamala Harris in that state in the 2024 Pr"
+   }
+  ],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Summer Lee",
+  "state": "PA",
+  "race": "HOUSE-12",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-PA12-26",
+    "ticker": "KXHOUSERACE-PA12-26-D",
+    "title": "PA-12 House winner?",
+    "yes_label": "Summer Lee",
+    "status": "active",
+    "last": "0.9870",
+    "bid": "0.9760",
+    "ask": "0.9840",
+    "rules": "If the House member sworn in for PA-12 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Rashida Tlaib",
+  "state": "MI",
+  "race": "HOUSE-12",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-MI12-26",
+    "ticker": "KXHOUSERACE-MI12-26-D",
+    "title": "MI-12 House winner?",
+    "yes_label": "Rashida Tlaib",
+    "status": "active",
+    "last": "0.9820",
+    "bid": "0.9620",
+    "ask": "0.9910",
+    "rules": "If the House member sworn in for MI-12 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Alexandria Ocasio-Cortez",
+  "state": "NY",
+  "race": "HOUSE-14",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-NY14-26",
+    "ticker": "KXHOUSERACE-NY14-26-D",
+    "title": "NY-14 House winner?",
+    "yes_label": "Alexandria Ocasio-Cortez",
+    "status": "active",
+    "last": "0.9710",
+    "bid": "0.9710",
+    "ask": "0.9890",
+    "rules": "If the House member sworn in for NY-14 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [
+   {
+    "event_slug": "will-aoc-announce-a-run-for-senate-or-president-before-2028",
+    "event_title": "Will AOC announce a run for Senate or President before 2028?",
+    "question": "Will Alexandria Ocasio-Cortez run for Senate in 2028?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.252\", \"0.748\"]",
+    "token_ids": "[\"15955335254587623951996931492421635331132397655069036024714198819424672744760\", \"97388452191083083459057550028944811067953630328443141965271155682808926121396\"]",
+    "end": "2027-12-31T23:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve based on the office, between United States Senator and President of the United States, that Rep. Alexandria Ocasio-Cortez first officially announces that she is running for in the 2028 election cycle by December 31, 2027, 11:59 PM ET. \n\nAn announcement by the listed individu"
+   },
+   {
+    "event_slug": "will-aoc-announce-a-run-for-senate-or-president-before-2028",
+    "event_title": "Will AOC announce a run for Senate or President before 2028?",
+    "question": "Will Alexandria Ocasio-Cortez run for President in 2028?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.555\", \"0.445\"]",
+    "token_ids": "[\"98961942092312242488092499568359433586418736677157512843097593070222397872380\", \"25577426275690684616716071555342531409633887290855150098579283222918527885031\"]",
+    "end": "2027-12-31T23:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve based on the office, between United States Senator and President of the United States, that Rep. Alexandria Ocasio-Cortez first officially announces that she is running for in the 2028 election cycle by December 31, 2027, 11:59 PM ET. \n\nAn announcement by the listed individu"
+   },
+   {
+    "event_slug": "will-aoc-announce-a-run-for-senate-or-president-before-2028",
+    "event_title": "Will AOC announce a run for Senate or President before 2028?",
+    "question": "Will Alexandria Ocasio-Cortez not run for Senate or President in 2028?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.1405\", \"0.8595\"]",
+    "token_ids": "[\"112799546057799297735111252657882906927863187049799433450936336695222238039879\", \"47113611209198772878895118253391974284890870919198718070063775214064292416554\"]",
+    "end": "2027-12-31T23:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve based on the office, between United States Senator and President of the United States, that Rep. Alexandria Ocasio-Cortez first officially announces that she is running for in the 2028 election cycle by December 31, 2027, 11:59 PM ET. \n\nAn announcement by the listed individu"
+   },
+   {
+    "event_slug": "clavicular-and-alexandria-ocasio-cortez-confirm-relationship-in-2026-20260813000143573",
+    "event_title": "Clavicular and Alexandria Ocasio-Cortez confirm relationship in 2026?",
+    "question": "Clavicular and Alexandria Ocasio-Cortez confirm relationship in 2026?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0155\", \"0.9845\"]",
+    "token_ids": "[\"77663542963717563851439441861613635198543854839434238223194100633881974060346\", \"9973587346917212432247413367603659008811712720817839318152147299818365820838\"]",
+    "end": "2027-01-01T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \"Yes\" if Clavicular (Braden Peters) and Alexandria Ocasio-Cortez confirm to be or to have been in a romantic relationship between market creation and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf it is confirmed that the named individual"
+   },
+   {
+    "event_slug": "democratic-presidential-nominee-2028",
+    "event_title": "Democratic Presidential Nominee 2028",
+    "question": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.1755\", \"0.8245\"]",
+    "token_ids": "[\"107064985435494333113391038470401719113272800530429703182710416066774068907304\", \"65176072261324737856085688071627118509549293922582857186996392180609764586527\"]",
+    "end": "2028-11-08T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \u201cYes\u201d if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of"
+   }
+  ],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Ilhan Omar",
+  "state": "MN",
+  "race": "HOUSE-05",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-MN05-26",
+    "ticker": "KXHOUSERACE-MN05-26-D",
+    "title": "MN-05 House winner?",
+    "yes_label": "Ilhan Omar",
+    "status": "active",
+    "last": "0.9330",
+    "bid": "0.9330",
+    "ask": "0.9520",
+    "rules": "If the House member sworn in for MN-05 for the term beginning in 2027 is a member of the Democratic party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [
+   {
+    "event_slug": "will-ilhan-omar-be-deported-in-2026",
+    "event_title": "Will Ilhan Omar be deported by...?",
+    "question": "Will Ilhan Omar be deported by December 31, 2026?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0265\", \"0.9735\"]",
+    "token_ids": "[\"108460388194064413908189814264020124062913881210746196082530162969068501947711\", \"57645281347343427506922480306342568202970620111922544820394019183166907505234\"]",
+    "end": "2027-01-01T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \"Yes\" if Rep. Ilhan Omar is officially deported from the United States by the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nDeportation is defined as the formal removal of Omar from the US by government authorities due to legal or administrati"
+   },
+   {
+    "event_slug": "will-ilhan-omar-be-deported-in-2026",
+    "event_title": "Will Ilhan Omar be deported by...?",
+    "question": "Will Ilhan Omar be deported by June 30, 2027",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.135\", \"0.865\"]",
+    "token_ids": "[\"56551103109673351237761683936906651865334052749112709076003916717762390993010\", \"68027367292327670736315086960677598917210318107867341340889470640585041910223\"]",
+    "end": "2027-07-01T03:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \"Yes\" if Rep. Ilhan Omar is officially deported from the United States by the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nDeportation is defined as the formal removal of Omar from the US by government authorities due to legal or administrati"
+   },
+   {
+    "event_slug": "ilhan-omar-arrested-byptptpt",
+    "event_title": "Ilhan Omar arrested by...?",
+    "question": "Ilhan Omar arrested by October 31, 2026?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0435\", \"0.9565\"]",
+    "token_ids": "[\"45197562751874222629649098207963124572767752567774122294895860968295435235519\", \"66971340606390544501914824199425697285276683968683182635165632745114023835941\"]",
+    "end": "2026-11-01T03:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \"Yes\" if Ilhan Omar is arrested between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying arrest occurs when Omar is taken into physical custody by law enforcement authorities in any jurisdiction, voluntarily o"
+   },
+   {
+    "event_slug": "ilhan-omar-arrested-byptptpt",
+    "event_title": "Ilhan Omar arrested by...?",
+    "question": "Ilhan Omar arrested by December 31, 2026?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.2\", \"0.8\"]",
+    "token_ids": "[\"109473704756295622126078519158608921402419268626342093857181651619729737361026\", \"58229557741128181165728524462884349758365627248467459693160347388804149338309\"]",
+    "end": "2027-01-01T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \"Yes\" if Ilhan Omar is arrested between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying arrest occurs when Omar is taken into physical custody by law enforcement authorities in any jurisdiction, voluntarily o"
+   },
+   {
+    "event_slug": "ilhan-omar-federally-charged-byptptpt",
+    "event_title": "Ilhan Omar federally charged by...?",
+    "question": "Ilhan Omar federally charged by October 31?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0625\", \"0.9375\"]",
+    "token_ids": "[\"4260583023449556635928715233676913443408640900297772050788314228603696425878\", \"98248462577325086517631865978903686276318403702062876658710307984744578950317\"]",
+    "end": "2026-11-01T03:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \"Yes\" if the United States federal government formally charges or announces a criminal indictment of Ilhan Omar between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market the District of Colum"
+   },
+   {
+    "event_slug": "ilhan-omar-federally-charged-byptptpt",
+    "event_title": "Ilhan Omar federally charged by...?",
+    "question": "Ilhan Omar federally charged by December 31?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.375\", \"0.625\"]",
+    "token_ids": "[\"1611331261705224863768316821649337149792886177818488165814093499391638726256\", \"47592698714175463195253173317845647495794442506760383051063439129436131494421\"]",
+    "end": "2027-01-01T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \"Yes\" if the United States federal government formally charges or announces a criminal indictment of Ilhan Omar between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market the District of Colum"
+   },
+   {
+    "event_slug": "us-files-ilhan-omar-denaturalization-case-byptptpt",
+    "event_title": "US files Ilhan Omar denaturalization case by...?",
+    "question": "Ilhan Omar denaturalization case filed by December 31, 2026?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.225\", \"0.775\"]",
+    "token_ids": "[\"109103662298570887965419656009483823094928945187815626566946230054923194081050\", \"42387333150473960153961357826610048006909114086859812975834405699930815356934\"]",
+    "end": "2027-01-01T04:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \u201cYes\u201d if, between market creation and the specified date, 11:59 PM ET, the United States files a civil or criminal action against U.S. Representative Ilhan Omar in any United States federal court that seeks to revoke her naturalized citizenship, or whose success \u2014 whether"
+   },
+   {
+    "event_slug": "us-files-ilhan-omar-denaturalization-case-byptptpt",
+    "event_title": "US files Ilhan Omar denaturalization case by...?",
+    "question": "Ilhan Omar denaturalization case filed by March 31, 2027?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.235\", \"0.765\"]",
+    "token_ids": "[\"92625968159757013534339292313393606776011865388570076929385813828881999020569\", \"37206587888672499293223680469920337026467517030587207888947856001119788278232\"]",
+    "end": "2027-04-01T03:59:00Z",
+    "closed": false,
+    "rules": "This market will resolve to \u201cYes\u201d if, between market creation and the specified date, 11:59 PM ET, the United States files a civil or criminal action against U.S. Representative Ilhan Omar in any United States federal court that seeks to revoke her naturalized citizenship, or whose success \u2014 whether"
+   },
+   {
+    "event_slug": "who-will-trump-publicly-insult-by-october-31-2026",
+    "event_title": "Who will Trump publicly insult by October 31?",
+    "question": "Will Donald Trump publicly insult Ilhan Omar by October 31, 2026?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"1\", \"0\"]",
+    "token_ids": "[\"3269796674205231118010561767424136818383377693651724887590886723537730104168\", \"15990149374374693098890916438354883929897039470569183147755254017285061345554\"]",
+    "end": "2026-10-31T23:59:00Z",
+    "closed": true,
+    "rules": "This market will resolve to \"Yes\" if Donald Trump makes any public statement in which he insults the listed individual between market creation and the specified date (ET). Otherwise, this market will resolve to \"No\". \n\nA public statement is any written, verbal, or recorded statement which is either "
+   }
+  ],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Delia Ramirez",
+  "state": "IL",
+  "race": "HOUSE-03",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-IL03-26",
+    "ticker": "KXHOUSERACE-IL03-26-D",
+    "title": "IL-03 House winner?",
+    "yes_label": "Delia Ramirez",
+    "status": "active",
+    "last": "0.9700",
+    "bid": "0.9410",
+    "ask": "0.9820",
+    "rules": "If the House member sworn in for IL-03 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Ayanna Pressley",
+  "state": "MA",
+  "race": "HOUSE-07",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-MA07-26",
+    "ticker": "KXHOUSERACE-MA07-26-D",
+    "title": "MA-07 House winner?",
+    "yes_label": "Ayanna Pressley",
+    "status": "active",
+    "last": "0.9900",
+    "bid": "0.9710",
+    "ask": "0.9950",
+    "rules": "If the House member sworn in for MA-07 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Al Green",
+  "state": "TX",
+  "race": "HOUSE-09",
+  "kalshi_candidates": [],
+  "polymarket_candidates": [],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Ro Khanna",
+  "state": "CA",
+  "race": "HOUSE-17",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "KXHOUSERACE-CA17-26",
+    "ticker": "KXHOUSERACE-CA17-26-D",
+    "title": "CA-17 House winner?",
+    "yes_label": "Ro Khanna",
+    "status": "active",
+    "last": "0.9860",
+    "bid": "0.9710",
+    "ask": "0.9960",
+    "rules": "If the House member sworn in for CA-17 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [
+   {
+    "event_slug": "south-carolina-presidential-democratic-primary-winner-20260728190840244",
+    "event_title": "South Carolina Presidential Democratic Primary Winner",
+    "question": "Will Ro Khanna win the South Carolina Democratic Presidential primary?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0015\", \"0.9985\"]",
+    "token_ids": "[\"106580897560922904186422762210476406348159000997636480663810790533404261995081\", \"95595322607491191586677865632881883508776053405762657559110377048033162715117\"]",
+    "end": "2028-01-23T04:59:00Z",
+    "closed": false,
+    "rules": "South Carolina is expected to hold its Democratic presidential primary for the 2028 presidential election on January 22, 2028. \n\nThis market will resolve to the candidate who wins the most votes in the South Carolina Democratic primary, caucus, or other official process by which the public directs t"
+   },
+   {
+    "event_slug": "presidential-election-winner-2028",
+    "event_title": "Presidential Election Winner 2028",
+    "question": "Will Ro Khanna win the 2028 US Presidential Election?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.0085\", \"0.9915\"]",
+    "token_ids": "[\"45264462342307496826883801236629887275526404999716050689931105511159370296978\", \"21034003091803474219272633665814818485285721473911024023600356649009960505229\"]",
+    "end": "2028-11-08T04:59:00Z",
+    "closed": false,
+    "rules": "The 2028 US Presidential Election is scheduled to take place on November 7, 2028.\n\nThis market will resolve to the person who wins the 2028 US Presidential Election.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources cal"
+   }
+  ],
+  "polymarket_error": null
+ },
+ {
+  "candidate_name": "Angie Nixon",
+  "state": "FL",
+  "race": "SEN",
+  "kalshi_candidates": [
+   {
+    "event_ticker": "SENATEFLS-26",
+    "ticker": "SENATEFLS-26-D",
+    "title": "Florida Senate winner?",
+    "yes_label": "Angie Nixon",
+    "status": "active",
+    "last": "0.0930",
+    "bid": "0.0860",
+    "ask": "0.0900",
+    "rules": "If a representative of the Democratic party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026, then the market resolves to Yes."
+   }
+  ],
+  "polymarket_candidates": [
+   {
+    "event_slug": "which-dems-will-underperform-kamala",
+    "event_title": "Which Dems will underperform Kamala?",
+    "question": "Will Angie Nixon underperform Kamala in Florida?",
+    "outcomes": "[\"Yes\", \"No\"]",
+    "prices": "[\"0.185\", \"0.815\"]",
+    "token_ids": "[\"39451760023329389754545951893673630766453041732266660530920669109637572664153\", \"12654393998851502142708104488008948000538222699815667528775954057095192201055\"]",
+    "end": "2026-11-03T23:59:00Z",
+    "closed": false,
+    "rules": "The 2026 midterm elections are scheduled to be held on November 3, 2026.\n\nThis market will resolve to \"Yes\" if the listed Democratic candidate in a statewide midterm election has an unrounded vote share that is lower than the equivalent vote share earned by Kamala Harris in that state in the 2024 Pr"
+   }
+  ],
+  "polymarket_error": null
+ }
+]
