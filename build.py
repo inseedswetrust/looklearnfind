@@ -725,6 +725,10 @@ def main():
     for s in STORIES:
         if s.get("layout") == "report":
             elections.render_report(s)
+    nviol, vtxt = elections.rules_report()
+    print(vtxt)
+    if "--strict" in sys.argv and nviol:
+        raise SystemExit("Publishing rules failed (--strict). Fix or get a TIP profile for each listed candidate.")
     for path, html in PAGES_OUT.items():
         dest = OUT / path.strip("/") / "index.html" if path != "/" else OUT / "index.html"
         if path.endswith(".html"):

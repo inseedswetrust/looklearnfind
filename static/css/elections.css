@@ -261,3 +261,4 @@ table.data.wide td:nth-child(3){min-width:260px}
   .el-hero .credit a{color:var(--teal)}
 }
 .two>*,.split3>*,.cwrap>*,.mgrid>*,.rgrid>*{min-width:0}.tablewrap{max-width:100%}
+.plink{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:3px}.gnote{margin:2px 0 0}

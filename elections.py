@@ -141,10 +141,22 @@ def graded_count(c):
     t = c.get("tip")
     return sum(1 for g in (t or {}).get("grades", {}).values() if g["state"] == "graded") if t else 0
 
+CUR = [""]          # page currently being built (for publishing-rule reporting)
+VIOL = []           # (page, rule, detail)
+
+def violate(rule, detail):
+    item = (CUR[0], rule, detail)
+    if item not in VIOL:
+        VIOL.append(item)
+
 def tip_button(c):
     t = c.get("tip")
     if t and t.get("url"):
+        if t.get("grades_url"):
+            return (f'<a class="btn-o" href="{e(t["grades_url"])}" rel="noopener">View congressional record on TIP →</a>'
+                    f'<span class="small"><a href="{e(t["url"])}" rel="noopener">TIP governor profile ↗</a></span>')
         return f'<a class="btn-o" href="{e(t["url"])}" rel="noopener">View on TIP →</a>'
+    violate("R1 no TIP profile", c["name"])
     return '<span class="btn-o off" aria-disabled="true">No TIP record yet</span>'
 
 def tip_panel(cands=None):
@@ -233,7 +245,7 @@ def candidate_card(c, size="lg"):
     return f'''<article class="ccard {size}" id="c-{e(c["id"])}">
 <div class="cc-top">{portrait(c)}<div><div class="nm">{chip(c)}<h3>{e(c["name"])}</h3></div><div class="ds">{e(c["party"])}{(" · " + e(descr(c))) if descr(c) else ""}</div>{extra}</div></div>
 {finance_line(c, compact=(size == "sm"))}
-{issue_strip(c)}
+{issue_strip(c)}{('<p class="small gnote">Grades come from his congressional record, shown on TIP\'s congressional profile.</p>' if (c.get("tip") or {}).get("grades_url") else "")}
 <div class="cc-links">{tip_button(c)}<span class="small">{state_link(c)}</span></div></article>'''
 
 def mini_row(c):
@@ -379,6 +391,15 @@ def _hero(key, alt, caption_title, caption_text):
 def _crumbs(items):
     return '<div class="breadcrumb">' + " / ".join(f'<a href="{h}">{e(l)}</a>' if h else e(l) for l, h in items) + "</div>"
 
+TIPRACE = {"governor": "2026-GOV-FL", "senate": "2026-S-FL"}
+
+def tip_race_url(race):
+    key = TIPRACE.get(race) or ("2026-H-FL-" + race.split("-")[1])
+    return f"https://theissuesparty.org/races/{key}"
+
+def race_link_span(race):
+    return f'<span><a href="{tip_race_url(race)}" rel="noopener">Follow this race on TIP ↗</a></span>'
+
 def _asof():
     return datetime.date(2026, 10, 23)
 
@@ -420,6 +441,7 @@ def board_tile(title, href, cands, kicker=""):
     return f'<a class="btile" href="{href}"><span class="tt"><b>{e(title)}</b><em>{kicker}</em></span><ul>{lis}</ul></a>'
 
 def state_hub():
+    CUR[0] = ST_URL
     n = _counts()
     crumbs = [("Home", "/"), ("Politics", "/politics/"), ("State of the Race", None), ("Florida", None)]
     tiles = [board_tile("Governor", ST_URL + "governor/", FL["by_race"]["governor"], f'{n["gov"]} tickets'),
@@ -468,13 +490,17 @@ def _race_head(kicker, title, dek, crumbs, hero_html, toc):
     return f'''<section class="page-head el-head"><div class="wrap wide"><div class="hcol">{_crumbs(crumbs)}<div class="kicker">{kicker}<i></i></div><h1 class="display">{title}</h1>{dek}</div>{hero_html}{_toc(toc)}</div></section>'''
 
 def gov_page():
+    CUR[0] = "/elections/2026/florida/governor/"
     cs = FL["by_race"]["governor"]
     major = [c for c in cs if c["party_code"] in ("REP", "DEM")]
     others = [c for c in cs if c not in major]
+    for c in others:
+        if not (c.get("tip") and c["tip"].get("url")):
+            violate("R1 no TIP profile", c["name"])
     crumbs = [("Home", "/"), ("Politics", "/politics/"), ("State of the Race", ST_URL), ("Governor", None)]
     toc = [("candidates", "The candidates"), ("issues", "Key issues"), ("money", "Campaign money"), ("markets", "What the market says"), ("polls", "Polling"), ("others", "The other eight tickets"), ("sources", "Sources")]
     dek = (f'<p class="deck">The candidates, the money and what they say they will do.</p><p class="dek">Ron DeSantis is term-limited, so Florida elects a new governor on November 3. {len(cs)} tickets qualified: the Republican and Democratic nominees, five no-party tickets, one Libertarian ticket and two write-in tickets. Governor is a state office, so TIP shows the six-issue federal record only where a candidate served in Congress.</p>'
-           f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span></p>')
+           f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span>{race_link_span("governor")}</p>')
     hero = _hero("fl-capitol", "The Old Florida State Capitol and the new Capitol tower in Tallahassee", "A governor's race", "Florida's next governor will set the state's direction on insurance, taxes and schools. Here is what is on file.")
     body = _race_head("State of the Race / Governor", "Florida Governor Race", dek, crumbs, hero, toc)
     body += f'''<section class="band" id="candidates"><div class="wrap wide cwrap"><div><div class="kicker">The candidates<i></i></div><h2 class="h2">The nominees</h2>
@@ -508,11 +534,12 @@ def gov_page():
     _wrapup(body, "Florida Governor Race 2026", "Florida's governor race: all 10 qualified tickets, public matching funds, Kalshi quotes, the latest poll and each campaign's stated plans, with sources.", ST_URL + "governor/", crumbs)
 
 def senate_page():
+    CUR[0] = "/elections/2026/florida/senate/"
     cs = FL["by_race"]["senate"]
     crumbs = [("Home", "/"), ("Politics", "/politics/"), ("State of the Race", ST_URL), ("U.S. Senate", None)]
     toc = [("candidates", "The candidates"), ("money", "Campaign money"), ("markets", "What the market says"), ("polls", "Polling"), ("watch", "What to watch"), ("sources", "Sources")]
     dek = ('<p class="deck">The candidates, the money and the record.</p><p class="dek">Florida elects a U.S. senator in a special election for the seat Ashley Moody holds by appointment. Three candidates qualified: the Republican incumbent, the Democratic nominee and one no-party candidate.</p>'
-           f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span></p>')
+           f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span>{race_link_span("senate")}</p>')
     hero = _hero("us-capitol", "The dome of the United States Capitol", "A Senate seat", "One Florida seat in the U.S. Senate is on the ballot. Here is what is on file about the three candidates.")
     body = _race_head("State of the Race / U.S. Senate", "Florida U.S. Senate Race", dek, crumbs, hero, toc)
     body += f'''<section class="band" id="candidates"><div class="wrap wide cwrap"><div><div class="kicker">The candidates<i></i></div><h2 class="h2">Who qualified</h2>
@@ -539,6 +566,7 @@ def district_summary(n):
     return race, cs, d
 
 def house_page():
+    CUR[0] = "/elections/2026/florida/house/"
     crumbs = [("Home", "/"), ("Politics", "/politics/"), ("State of the Race", ST_URL), ("U.S. House", None)]
     toc = [("map", "District map"), ("districts", "All 28 districts"), ("directory", "Directory"), ("tip", "TIP issue grades"), ("sources", "Sources")]
     n = _counts()
@@ -578,6 +606,7 @@ def house_page():
     _wrapup(body, "Florida House Races 2026", "All 28 Florida congressional districts under the 2026 map: every qualified candidate, committee totals, outside spending, Kalshi quotes and TIP issue grades.", ST_URL + "house/", crumbs)
 
 def district_page(n):
+    CUR[0] = f"{ST_URL}house/{n}/"
     race, cs, d = district_summary(n)
     crumbs = [("Home", "/"), ("Politics", "/politics/"), ("State of the Race", ST_URL), ("U.S. House", ST_URL + "house/"), (f"FL-{n:02d}", None)]
     cn = ", ".join(f"{a} ({p}%)" for a, p in d["counties"])
@@ -586,7 +615,7 @@ def district_page(n):
     prev = f'<a href="{ST_URL}house/{n-1}/">← FL-{n-1:02d}</a>' if n > 1 else ""
     nxt = f'<a href="{ST_URL}house/{n+1}/">FL-{n+1:02d} →</a>' if n < 28 else ""
     dek = (f'<p class="deck">{len(cs)} candidates qualified for the November 3 general election.</p><p class="dek">Largest counties by share of district area: {e(cn)}. Under the 2026 plan (HB 1-D), enacted in May 2026 and still in litigation.</p>'
-           f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span></p>')
+           f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span>{race_link_span(race)}</p>')
     hero = f'<div class="el-hero mapheroc one">{state_map(highlight=n, links=False)}</div>'
     body = _race_head("State of the Race / U.S. House", f"Florida's {n}{_ord(n)} Congressional District", dek, crumbs, hero,
                       [("candidates", "The candidates"), ("money", "Money"), ("market", "Market"), ("sources", "Sources")])
@@ -648,7 +677,7 @@ def mi_aside():
     cands = mi["cands"]
     fin = mi["fin"]["totals"]
     frows = "".join(f'<dt>{e(c["name"])}</dt><dd>{money(fin[c["id"]]["receipts"])} <small>through {dstr(fin[c["id"]]["coverage_end_date"], "%b %-d")}</small></dd>' for c in cands)
-    return f'''<aside class="relrail"><div class="rb"><div class="uc teal">Michigan Senate</div><div class="mics">{"".join(_mi_card(c) for c in cands)}</div></div>
+    return f'''<aside class="relrail"><div class="rb"><div class="uc teal"><a href="https://theissuesparty.org/races/2026-S-MI" rel="noopener">Michigan Senate race on TIP ↗</a></div><div class="mics">{"".join(_mi_card(c) for c in cands)}</div></div>
 <div class="rb"><div class="uc teal">Quick stats (Kalshi)</div><dl class="kv2"><dt>El-Sayed contract, last daily close ({dstr(last["et_day"], "%b %-d")})</dt><dd>{cents(last["close"])}</dd><dt>Bid / ask at close</dt><dd>{cents(last["bid_close"])} / {cents(last["ask_close"])}</dd><dt>Contract</dt><dd>SENATEMI-26-D</dd></dl></div>
 <div class="rb"><div class="uc teal">Latest poll (Marist)</div><dl class="kv2"><dt>El-Sayed (likely voters)</dt><dd>50%</dd><dt>Rogers (likely voters)</dt><dd>48%</dd><dt>Margin of error</dt><dd>±4.3</dd><dt>Field dates</dt><dd>Oct 15–18</dd></dl><p class="small">Registered voters: El-Sayed +7 (±4.0).</p></div>
 <div class="rb"><div class="uc teal">Candidate committee receipts (FEC)</div><dl class="kv2">{frows}</dl><p class="small">Different report periods; do not compare directly.</p></div></aside>'''
@@ -672,6 +701,9 @@ def gov_cands():
 
 def gov_others():
     others = [c for c in FL["by_race"]["governor"] if c["party_code"] not in ("REP", "DEM")]
+    for c in others:
+        if not (c.get("tip") and c["tip"].get("url")):
+            violate("R1 no TIP profile", c["name"])
     rows = "".join(f'<tr><td>{e(c["name"])}</td><td>{e(c["party"])}</td><td>{e(c.get("running_mate") or "—")}</td></tr>' for c in others)
     return f'<div class="tablewrap"><table class="data"><thead><tr><th>Candidate</th><th>Designation</th><th>Running mate</th></tr></thead><tbody>{rows}</tbody></table></div>'
 
@@ -747,6 +779,92 @@ def values():
          "moskowitz": _rcpt("Jared Moskowitz")[0], "moskowitz_d": _rcpt("Jared Moskowitz")[1], "singer": _rcpt("Scott Singer")[0], "singer_d": _rcpt("Scott Singer")[1]}
     return V
 
+def _alias_table():
+    """name -> (regex of aliases, profile url or None, landing page for the candidate on LLF)."""
+    t = {}
+    def add(name, aliases, url, page):
+        t[name] = (aliases, url, page)
+    for c in FL["cands"]:
+        if c["name"] in ("Byron Donalds", "David Jolly", "Kathy Castor", "Mike Beltran", "Jared Moskowitz", "Scott Singer", "Ashley Moody", "Angie Nixon"):
+            last = c["name"].split()[-1]
+            race = c["race"]
+            page = ST_URL + ("governor/" if race == "governor" else "senate/" if race == "senate" else f"house/{int(race.split('-')[1])}/")
+            tip = c.get("tip") or {}
+            add(c["name"], [c["name"], last], tip.get("grades_url") or tip.get("url"), page + "#c-" + c["id"])
+    add("Jay Collins", ["Jay Collins", "Collins"], "https://theissuesparty.org/candidates/GOV-FL-COLLINS", ST_URL + "governor/")
+    for c in FL["mi"]["cands"]:
+        add(c["name"], [c["name"], c["name"].split()[-1]], c.get("tip_url"), "/learn/michigan-senate-delta-october-2026/")
+    return t
+
+RACE_PATTERNS = [
+    (r"FL-(\d{1,2})", lambda m: (f"race:fl-{int(m.group(1))}", f"{ST_URL}house/{int(m.group(1))}/")),
+    (r"Florida(?:'s)? governor(?:'s)? race|governor(?:'s)? race|governor race", lambda m: ("race:governor", ST_URL + "governor/")),
+    (r"Florida(?:'s)? (?:U\.S\. )?Senate race", lambda m: ("race:senate", ST_URL + "senate/")),
+    (r"Michigan(?:'s)? (?:U\.S\. )?Senate race", lambda m: ("race:mi-senate", "https://theissuesparty.org/races/2026-S-MI")),
+]
+
+def autolink(body, story_path):
+    """Publishing rules R1 and R2: first mention of every featured candidate links to their TIP profile (R1); first mention of every race links to that race (R2).
+    Candidates with no TIP profile link to their LLF race page and are reported as R1 violations."""
+    table = _alias_table()
+    alts = []
+    for name, (aliases, url, page) in table.items():
+        for a in aliases:
+            alts.append((a, name))
+    alts.sort(key=lambda x: -len(x[0]))
+    name_re = "|".join(r"\b" + re.escape(a) + r"\b" for a, _ in alts)
+    race_re = "|".join("(?:" + pat + ")" for pat, _ in RACE_PATTERNS)
+    big = re.compile("(" + race_re + "|" + name_re + ")")
+    seen = set()
+    SKIP = {"a", "h1", "h2", "h3", "h4", "h5", "h6", "script", "style", "svg", "figure", "figcaption", "table", "button", "title", "aside"}
+    stack, out = [], []
+    for tok in re.split(r"(<[^>]+>)", body):
+        if tok.startswith("<"):
+            m = re.match(r"<(/?)([a-zA-Z0-9]+)", tok)
+            if m and not tok.endswith("/>"):
+                tag = m.group(2).lower()
+                if tag in SKIP:
+                    if m.group(1):
+                        if tag in stack:
+                            stack.remove(tag)
+                    else:
+                        stack.append(tag)
+            out.append(tok)
+            continue
+        if stack:
+            out.append(tok)
+            continue
+        def rep(m):
+            txt = m.group(0)
+            for pat, fn in RACE_PATTERNS:
+                mm = re.fullmatch(pat, txt)
+                if mm:
+                    key, href = fn(mm)
+                    if key in seen:
+                        return txt
+                    seen.add(key)
+                    ext = ' rel="noopener"' if href.startswith("http") else ""
+                    return f'<a class="plink" href="{href}"{ext}>{txt}</a>'
+            for a, name in alts:
+                if a == txt:
+                    key = "cand:" + name
+                    if key in seen:
+                        return txt
+                    seen.add(key)
+                    aliases, url, page = table[name]
+                    if url:
+                        return f'<a class="plink" href="{e(url)}" rel="noopener">{txt}</a>'
+                    violate("R1 no TIP profile", name)
+                    return f'<a class="plink" href="{page}">{txt}</a>'
+            return txt
+        out.append(big.sub(rep, tok))
+    return "".join(out)
+
+def rules_report():
+    n = len(VIOL)
+    lines = [f"PUBLISHING RULES: {n} violation(s)"] + [f"  {r}: {d} on {p}" for p, r, d in VIOL]
+    return n, "\n".join(lines)
+
 def expand_values(text):
     V = values()
     return re.sub(r"\[\[v:([a-z0-9_]+)\]\]", lambda m: V[m.group(1)], text or "")
@@ -759,6 +877,7 @@ def expand_macros(body):
 def render_report(s):
     """ReportedArticle: story body + rail + sources, using the shared story contract (openfile, sources, corrections blocks)."""
     A = API
+    CUR[0] = s["path"]
     body = s["_body"]
     openfile, body = A["take_block"](body, "openfile")
     sources_raw, body = A["take_block"](body, "sources")
@@ -770,6 +889,7 @@ def render_report(s):
         if len(p) >= 6 and p[0].isdigit():
             srcs.append(dict(n=int(p[0]), title=p[1], pub=p[2], date=p[3], url=p[4], why=p[5]))
     body = expand_macros(body)
+    body = autolink(body, s["path"])
     body = re.sub(r"\[\[s:(\d+)\]\]", lambda m: f'<a class="fn" id="ref-{m.group(1)}" href="#source-{m.group(1)}" aria-label="Source {m.group(1)}">SOURCE {int(m.group(1)):02d}</a>', body)
     of = ""
     if openfile:

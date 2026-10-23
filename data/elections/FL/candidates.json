@@ -1,5 +1,5 @@
 {
- "as_of_utc": "2026-10-23T14:32:32Z",
+ "as_of_utc": "2026-10-23T15:50:29Z",
  "issues": [
   {
    "slug": "data_bill_of_rights",
@@ -135,6 +135,7 @@
    "tip_page_id": "GOV-FL-DONALDS",
    "tip": {
     "url": "https://theissuesparty.org/candidates/GOV-FL-DONALDS",
+    "grades_url": "https://theissuesparty.org/candidates/H2FL14186",
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -180,7 +181,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -279,6 +280,7 @@
    "tip_page_id": "S6FL00640",
    "tip": {
     "url": "https://theissuesparty.org/candidates/S6FL00640",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -312,7 +314,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -331,6 +333,7 @@
    "tip_page_id": "S6FL00830",
    "tip": {
     "url": "https://theissuesparty.org/candidates/S6FL00830",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -352,7 +355,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -371,6 +374,7 @@
    "tip_page_id": "H6FL01549",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL01549",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -392,7 +396,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -411,6 +415,7 @@
    "tip_page_id": "H6FL01390",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL01390",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -450,7 +455,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -469,6 +474,7 @@
    "tip_page_id": "H4FL01197",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4FL01197",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -490,7 +496,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -509,6 +515,7 @@
    "tip_page_id": "H6FL02299",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL02299",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -530,7 +537,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -549,6 +556,7 @@
    "tip_page_id": "H6FL02331",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL02331",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -570,7 +578,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -589,6 +597,7 @@
    "tip_page_id": "H0FL03175",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H0FL03175",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -640,7 +649,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -659,6 +668,7 @@
    "tip_page_id": "H6FL03099",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL03099",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -680,7 +690,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -699,6 +709,7 @@
    "tip_page_id": "H6FL03149",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL03149",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -720,7 +731,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -739,6 +750,7 @@
    "tip_page_id": "H2FL04211",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2FL04211",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -784,7 +796,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -803,6 +815,7 @@
    "tip_page_id": "H6FL05193",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL05193",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -824,7 +837,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -843,6 +856,7 @@
    "tip_page_id": "H4FL04068",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4FL04068",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -864,7 +878,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -883,6 +897,7 @@
    "tip_page_id": "H6FL04246",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL04246",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -904,7 +919,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -923,6 +938,7 @@
    "tip_page_id": "H6FL05250",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL05250",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -944,7 +960,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -963,6 +979,7 @@
    "tip_page_id": "H6FL04105",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL04105",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -1002,7 +1019,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1021,6 +1038,7 @@
    "tip_page_id": "H6FL05292",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL05292",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1042,7 +1060,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1061,6 +1079,7 @@
    "tip_page_id": "H6FL06258",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL06258",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1100,7 +1119,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1119,6 +1138,7 @@
    "tip_page_id": "H6FL06316",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL06316",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1140,7 +1160,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1175,6 +1195,7 @@
    "tip_page_id": "H6FL06340",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL06340",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1196,7 +1217,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1215,6 +1236,7 @@
    "tip_page_id": "H6FL07215",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL07215",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1236,7 +1258,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1255,6 +1277,7 @@
    "tip_page_id": "H6FL07249",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL07249",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1276,7 +1299,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1295,6 +1318,7 @@
    "tip_page_id": "H6FL07231",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL07231",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1316,7 +1340,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1335,6 +1359,7 @@
    "tip_page_id": "H4FL08168",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4FL08168",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1374,7 +1399,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1393,6 +1418,7 @@
    "tip_page_id": "H6FL06399",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL06399",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1414,7 +1440,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1433,6 +1459,7 @@
    "tip_page_id": "H6FL09294",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL09294",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1454,7 +1481,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1473,6 +1500,7 @@
    "tip_page_id": "H6FL09179",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL09179",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -1524,7 +1552,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1543,6 +1571,7 @@
    "tip_page_id": "H2FL10259",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2FL10259",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -1600,7 +1629,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1619,6 +1648,7 @@
    "tip_page_id": "H4FL11089",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4FL11089",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1640,7 +1670,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1659,6 +1689,7 @@
    "tip_page_id": "H6FL11357",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL11357",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1680,7 +1711,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1699,6 +1730,7 @@
    "tip_page_id": "H6FL11332",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL11332",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1720,7 +1752,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1739,6 +1771,7 @@
    "tip_page_id": "H6FL09070",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL09070",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -1784,7 +1817,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1803,6 +1836,7 @@
    "tip_page_id": "H6FL15200",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL15200",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1824,7 +1858,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1843,6 +1877,7 @@
    "tip_page_id": "H6FL12231",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL12231",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1864,7 +1899,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1883,6 +1918,7 @@
    "tip_page_id": "H4FL13234",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4FL13234",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1904,7 +1940,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1923,6 +1959,7 @@
    "tip_page_id": "H6FL13312",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL13312",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -1944,7 +1981,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -1963,6 +2000,7 @@
    "tip_page_id": "H0FL13158",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H0FL13158",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -2014,7 +2052,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2033,6 +2071,7 @@
    "tip_page_id": "H6FL14237",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL14237",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2054,7 +2093,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2073,6 +2112,7 @@
    "tip_page_id": "H6FL11126",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL11126",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -2124,7 +2164,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2143,6 +2183,7 @@
    "tip_page_id": "H4FL14166",
    "tip": {
     "url": null,
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2164,7 +2205,7 @@
      }
     },
     "http_status": 404,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2183,6 +2224,7 @@
    "tip_page_id": "H6FL14245",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL14245",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2204,7 +2246,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2255,6 +2297,7 @@
    "tip_page_id": "H2FL15241",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2FL15241",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -2300,7 +2343,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2319,6 +2362,7 @@
    "tip_page_id": "H6FL15168",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL15168",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2340,7 +2384,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2359,6 +2403,7 @@
    "tip_page_id": "H6FL06365",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL06365",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2380,7 +2425,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2399,6 +2444,7 @@
    "tip_page_id": "H6FL16141",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL16141",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2420,7 +2466,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2439,6 +2485,7 @@
    "tip_page_id": "H6FL16158",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL16158",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2460,7 +2507,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2479,6 +2526,7 @@
    "tip_page_id": "H4FL17060",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4FL17060",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2500,7 +2548,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2519,6 +2567,7 @@
    "tip_page_id": "H6FL17081",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL17081",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2540,7 +2589,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2559,6 +2608,7 @@
    "tip_page_id": "H8FL17053",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8FL17053",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -2610,7 +2660,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2629,6 +2679,7 @@
    "tip_page_id": "H0FL15104",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H0FL15104",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -2674,7 +2725,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2693,6 +2744,7 @@
    "tip_page_id": "H6FL18212",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL18212",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2714,7 +2766,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2733,6 +2785,7 @@
    "tip_page_id": "H6FL18204",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL18204",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2754,7 +2807,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2773,6 +2826,7 @@
    "tip_page_id": "H6FL19277",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL19277",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2794,7 +2848,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2813,6 +2867,7 @@
    "tip_page_id": "H6FL19319",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL19319",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2834,7 +2889,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2853,6 +2908,7 @@
    "tip_page_id": "H6FL19137",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL19137",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2874,7 +2930,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2909,6 +2965,7 @@
    "tip_page_id": "H6FL20143",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL20143",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2930,7 +2987,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2949,6 +3006,7 @@
    "tip_page_id": "H6FL20119",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL20119",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -2970,7 +3028,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -2989,6 +3047,7 @@
    "tip_page_id": "H4FL20023",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4FL20023",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -3034,7 +3093,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3053,6 +3112,7 @@
    "tip_page_id": "H6FL21109",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL21109",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3074,7 +3134,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3109,6 +3169,7 @@
    "tip_page_id": "H6FL21075",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL21075",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3130,7 +3191,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3149,6 +3210,7 @@
    "tip_page_id": "H6FL18097",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL18097",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -3194,7 +3256,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3213,6 +3275,7 @@
    "tip_page_id": "H6FL22248",
    "tip": {
     "url": null,
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3234,7 +3297,7 @@
      }
     },
     "http_status": 404,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3253,6 +3316,7 @@
    "tip_page_id": "H6FL21059",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL21059",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3274,7 +3338,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3293,6 +3357,7 @@
    "tip_page_id": "H2FL21132",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2FL21132",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3314,7 +3379,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3333,6 +3398,7 @@
    "tip_page_id": "H2FL14053",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2FL14053",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -3384,7 +3450,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3403,6 +3469,7 @@
    "tip_page_id": "H6FL14203",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL14203",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3424,7 +3491,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3443,6 +3510,7 @@
    "tip_page_id": "H6FL24095",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL24095",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3464,7 +3532,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3483,6 +3551,7 @@
    "tip_page_id": "H2FL24052",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2FL24052",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3504,7 +3573,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3523,6 +3592,7 @@
    "tip_page_id": "H6FL23105",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL23105",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3544,7 +3614,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3563,6 +3633,7 @@
    "tip_page_id": "H6FL25068",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL25068",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3584,7 +3655,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3603,6 +3674,7 @@
    "tip_page_id": "H2FL22171",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2FL22171",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -3654,7 +3726,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3673,6 +3745,7 @@
    "tip_page_id": "H6FL23188",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL23188",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3694,7 +3767,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3713,6 +3786,7 @@
    "tip_page_id": "H2FL25018",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2FL25018",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -3758,7 +3832,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3777,6 +3851,7 @@
    "tip_page_id": "H6FL26058",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL26058",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3798,7 +3873,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3817,6 +3892,7 @@
    "tip_page_id": "H6FL26074",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL26074",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3838,7 +3914,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3857,6 +3933,7 @@
    "tip_page_id": "H6FL27098",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL27098",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3878,7 +3955,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3897,6 +3974,7 @@
    "tip_page_id": "H8FL27185",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8FL27185",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -3942,7 +4020,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -3961,6 +4039,7 @@
    "tip_page_id": "H4FL28042",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4FL28042",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -3982,7 +4061,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -4001,6 +4080,7 @@
    "tip_page_id": "H0FL26036",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H0FL26036",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "graded",
@@ -4046,7 +4126,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   },
   {
@@ -4065,6 +4145,7 @@
    "tip_page_id": "H6FL28021",
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6FL28021",
+    "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
       "state": "not_graded"
@@ -4086,7 +4167,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-23T14:32Z"
+    "checked_at": "2026-10-23T15:50Z"
    }
   }
  ]

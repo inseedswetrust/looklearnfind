@@ -54,3 +54,9 @@ Times are order of events in one session on 2026-10-22 to 2026-10-23 (durations 
 - Keep prose numbers as macros and keep the build assertions.
 - Check the deploy zip against live robots and sitemap before handing it over.
 - Add a staging path (a hidden folder on the host) so QA runs against the same server as production.
+
+## 2026-10-23 follow-up: owner review after deploy
+| # | action | result | decision |
+|---|---|---|---|
+| 20 | Owner asked why Donalds shows grades in the article but not on TIP | confirmed: TIP's governor profile `GOV-FL-DONALDS` shows all six issues "Not graded"; the grades live on his congressional profile `H2FL14186` | D10: show grades only with a link to the TIP page where they are visible; link both profiles on the card |
+| 21 | Owner set two publishing rules (R1 candidate to TIP profile, R2 race to race link) | implemented as build-time autolink plus a violation report; `--strict` fails the build | D11: rules live in `docs/election-build/PUBLISHING_RULES.md`; 17 candidates have no working TIP profile, listed there |

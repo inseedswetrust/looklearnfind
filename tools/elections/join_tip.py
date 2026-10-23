@@ -72,7 +72,9 @@ for c in out:
     c["tip"] = None
     if tip_page_id:
         g = grades.get(fec or "", {})
-        c["tip"] = {"url": f"https://theissuesparty.org/candidates/{tip_page_id}", "grades": {
+        # Grades are keyed to the FEC id of the record they were computed from. For a governor who is also a member of Congress that is the
+        # congressional profile, which can differ from the governor profile. Keep both URLs so the page links to where the grades are visible.
+        c["tip"] = {"url": f"https://theissuesparty.org/candidates/{tip_page_id}", "grades_url": f"https://theissuesparty.org/candidates/{fec}" if fec and fec != tip_page_id else None, "grades": {
             s: ({"state": "graded", "grade": g[s]["grade"], "score": g[s]["rounded_score"], "aligned": g[s]["aligned"], "against": g[s]["against"],
                  "recorded": g[s]["recorded"], "computed_at": g[s]["computed_at"]} if s in g and g[s]["rating_state"] == "graded" else {"state": "not_graded"})
             for s in issue_order}}
@@ -85,7 +87,7 @@ def head(u):
     except Exception as ex:
         return getattr(ex, "code", 0)
 
-urls = {c["tip"]["url"] for c in out if c["tip"]}
+urls = {c["tip"]["url"] for c in out if c["tip"]} | {c["tip"]["grades_url"] for c in out if c["tip"] and c["tip"].get("grades_url")}
 with cf.ThreadPoolExecutor(6) as ex:
     status = dict(zip(urls, ex.map(head, urls)))
 for c in out:
@@ -94,6 +96,8 @@ for c in out:
         c["tip"]["checked_at"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
         if status[c["tip"]["url"]] != 200:
             c["tip"]["url"] = None
+        if c["tip"].get("grades_url") and status[c["tip"]["grades_url"]] != 200:
+            c["tip"]["grades_url"] = None
 
 issues = [{"slug": d["slug"], "name": d["display_name"], "short": d["short_label"], "question": d["candidate_question"]} for d in sorted(defs, key=lambda x: x["sort_order"])]
 (D / "candidates.json").write_text(json.dumps({"as_of_utc": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "issues": issues, "candidates": out}, indent=1, ensure_ascii=False))

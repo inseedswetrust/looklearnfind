@@ -8,7 +8,7 @@
 |---|---|
 | Build | `PYTHONUTF8=1 python build.py` builds 110 pages without errors |
 | Local QA | 36 of 36 election pages pass `tools/qa/smoke.py`; 1440 and 390 px screenshots show no horizontal overflow (details in section 5) |
-| Release file | `release/looklearnfind-elections-update.zip`, 10800 KB, 236 files, SHA-256 `da3600d34438485dcf41ec5706f2760d1750020e0c111b68c0a6490bbdbcaede` (rebuild changes the hash) |
+| Release file | `release/looklearnfind-elections-update.zip`, 10800 KB, 236 files, SHA-256 starts `75ad03ce` (rebuild changes the hash) |
 | Live site today | `https://looklearnfind.com/` returns 200. `https://looklearnfind.com/elections/2026/florida/` returns **404** (checked 2026-10-23 15:04 UTC), so none of this is live yet |
 | **Blocker** | Production is a hosting.com cPanel account. This session has no cPanel, SFTP or hosting credentials, and by project rule credentials are not entered or stored here. Deployment is the existing manual step: upload the zip and extract over the site folder (`docs/DEPLOY.md` section 3 and "Updating the site"). `llf-data` is outside the site folder, so the database is untouched. |
 | Why the update zip omits robots files | The repo's `static/robots.txt` is the pre-launch "Disallow: /" file. The live `robots.txt` currently reads `Allow: /` with Cloudflare directives. Extracting the full zip would replace it and could block search engines from the live site. The update zip leaves robots untouched (`python build.py --zip --keep-live-robots`). |
@@ -81,6 +81,8 @@ Reused from the live site: masthead, footer, `shell()`, `page_head` conventions,
 - TIP grade chips: A+ to F- when graded, a dash when not, a dot when TIP has no record. No green or red.
 
 ## 7. Data and TIP issues found (for TIP, not LLF)
+
+0. **Publishing rules R1 and R2 (added after owner review):** every featured candidate links to a TIP profile and every mentioned race links to its race. See `PUBLISHING_RULES.md`; 17 candidates currently have no working TIP profile (build reports them; `--strict` fails on them). Donalds' grades are linked to his congressional TIP profile, the page where they are visible.
 
 1. TIP `races` still show `display_phase=primary_upcoming`, `verification_status=seed`, `result_status=none` for all Florida races though the state shows primary results; the governor race has no `race_entries`. A SQL proposal for your review is the next step you approved (nothing has been run).
 2. TIP's public About page still says "five Public Interest Commitments"; the database has six.
