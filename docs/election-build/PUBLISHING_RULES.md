@@ -18,21 +18,10 @@ Owner rules, 2026-10-23. They are enforced by the build (`elections.py`, run by 
 - `python build.py --strict` exits with an error when any violation remains. **Build release zips with `--strict` once the list below is cleared.**
 - Existing exceptions require a written owner waiver; there are none today.
 
-## Current violations (R1): 8 candidates have no working TIP profile
-Down from 17 after the governor roster and one-profile merge were applied to the TIP database on 2026-10-23 (all 10 governor tickets now have TIP profiles; Donalds has one profile with his grades).
+## Current violations: none
+As of 2026-10-23 all 96 qualified Florida governor, Senate and House candidates have a working TIP profile, so `python build.py --strict` passes. The count went 17, then 8, then 0 after two production data fixes to the TIP database (governor roster and one-profile merge; then the eight missing profiles). Backups of every row changed are in the TIP repo under `docs/state-packets/backups/`.
 
-| Race | Candidate | Cause |
-|---|---|---|
-| U.S. Senate | Neil J. Gillespie | TIP entry is spelled "Neil Joseph Gilespie" with no FEC ID and no profile |
-| FL-06 | Alec Pavlik | write-in, no FEC ID, name-only entry |
-| FL-14 | Keith Varian | write-in, no FEC ID |
-| FL-14 | Salomon Hernandez Sr. | FEC ID `H4FL14166` is on the race entry but there is no candidate row, so the page 404s |
-| FL-15 | Angie Boone | write-in, no FEC ID |
-| FL-19 | Alexandra Zakhvatayev | write-in, no FEC ID |
-| FL-21 | David Fabrikant | write-in, no FEC ID |
-| FL-22 | Casey Askar | FEC ID `H6FL22248` on the race entry but no candidate row, so the page 404s |
-
-The fix is on the TIP side (create candidate rows for these eight and attach them to their race entries). It is a production database write, the same kind as the governor merge, and is the next item.
+**Build release zips with `--strict` from now on.** A new state will start with violations until its candidates have TIP profiles; that is the rule working as designed.
 
 ## Checks that run today
 | Check | Where |

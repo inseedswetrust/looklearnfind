@@ -59,6 +59,13 @@ for c in out:
     tip_page_id = fec = None
     if e and e["fec_candidate_id"]:
         tip_page_id = fec = e["fec_candidate_id"]
+    # A person can carry a newer FEC ID on the race entry than on their profile (new district, new committee). The profile is the
+    # candidate row the entry points at, so link to that row's ID, not the entry's.
+    if e and e.get("candidate_id") is not None:
+        row = next((x for x in cands if x["candidate_id"] == e["candidate_id"]), None)
+        if row:
+            tip_page_id = row["fec_candidate_id"]
+            fec = fec or tip_page_id
     if c["office"] == "governor":
         for tc in cand_by_name.get(norm(c["name"]), []):
             if tc["office_code"] == "GOV":
