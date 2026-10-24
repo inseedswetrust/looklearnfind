@@ -24,4 +24,9 @@ class T(unittest.TestCase):
         self.rec("y", "ROSTER_VERIFIED")
         rows = t.read(self.p)
         self.assertEqual(len(rows), 2); self.assertEqual(len(next(iter(rows[0]["outputs"].values()))), 64)
+    def test_lean_lane_has_six_states_and_still_blocks_skipping(self):
+        self.rec("story:fl-senate", "DISCOVERED"); self.rec("story:fl-senate", "SOURCE_CHECKED", links={"article": "https://example.org/a", "candidate": "https://theissuesparty.org/candidates/S6FL00640"})
+        with self.assertRaises(ValueError): self.rec("story:fl-senate", "FACT_CHECKED")
+        with self.assertRaises(ValueError): self.rec("story:fl-senate", "ARTICLE_DRAFTED")        # a 15-lane state is not valid in the lean lane
+        self.assertEqual(t.read(self.p)[-1]["links"]["candidate"].split("/")[-1], "S6FL00640")
 if __name__ == "__main__": unittest.main()

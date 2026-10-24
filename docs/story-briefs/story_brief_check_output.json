@@ -1,0 +1,111 @@
+{
+ "scope": "Florida U.S. Senate and U.S. House, general election Nov 3 2026",
+ "as_of": "2026-10-24",
+ "angles": [
+  {
+   "id": "FL-SEN-A",
+   "status": "READY",
+   "reasons": [],
+   "tip_grades_shown": [
+    {
+     "candidate": "Ashley Moody",
+     "issue": "war_crime_accountability",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/S6FL00640",
+     "display": "F-"
+    },
+    {
+     "candidate": "Ashley Moody",
+     "issue": "universal_healthcare",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/S6FL00640",
+     "display": "F-"
+    },
+    {
+     "candidate": "Angie Nixon",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/S6FL00830",
+     "display": "NOT_GRADED"
+    }
+   ],
+   "notes": [],
+   "ready_to_write": true
+  },
+  {
+   "id": "FL-SEN-B",
+   "status": "NOT_READY",
+   "reasons": [
+    "damaging allegation without original evidence and a documented response effort"
+   ],
+   "tip_grades_shown": [],
+   "notes": [],
+   "ready_to_write": false
+  },
+  {
+   "id": "FL-SEN-C",
+   "status": "READY",
+   "reasons": [],
+   "tip_grades_shown": [],
+   "notes": [],
+   "ready_to_write": true
+  },
+  {
+   "id": "FL-HOU-A",
+   "status": "READY",
+   "reasons": [],
+   "tip_grades_shown": [
+    {
+     "candidate": "Kathy Castor",
+     "issue": "congressional_stock_trading_ban",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/H6FL11126",
+     "display": "A+"
+    },
+    {
+     "candidate": "Darren Soto",
+     "issue": "congressional_stock_trading_ban",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/H6FL09179",
+     "display": "A+"
+    }
+   ],
+   "notes": [],
+   "ready_to_write": true
+  },
+  {
+   "id": "FL-HOU-B",
+   "status": "NOT_READY",
+   "reasons": [
+    "damaging allegation without original evidence and a documented response effort"
+   ],
+   "tip_grades_shown": [],
+   "notes": [],
+   "ready_to_write": false
+  },
+  {
+   "id": "FL-HOU-C",
+   "status": "READY",
+   "reasons": [],
+   "tip_grades_shown": [
+    {
+     "candidate": "Randy Fine",
+     "issue": "us-israel-military-merger",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H6FL06258",
+     "display": "F-"
+    },
+    {
+     "candidate": "Jared Moskowitz",
+     "issue": "us-israel-military-merger",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/H2FL22171",
+     "display": "A+"
+    }
+   ],
+   "notes": [],
+   "ready_to_write": true
+  }
+ ],
+ "ready_count": 4
+}

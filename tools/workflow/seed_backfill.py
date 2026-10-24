@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Rebuild data/elections/workflow_ledger.jsonl for the Round 1 baseline: three published reports (backfilled from the implementation report, flagged as such)
-and the two Florida long-form articles at RESEARCH_COMMISSIONED. Run once after the research packet is final; afterwards only `transitions.py record` appends."""
+and the lean story board for the Florida Senate and House articles (SOURCE_CHECKED). Run once after the research packet is final; afterwards only `transitions.py record` appends."""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -11,9 +11,12 @@ for ent in ("florida-house-independent-spending-october-2026", "florida-governor
     for s in S[:S.index("VERIFIED_LIVE") + 1]:
         t.record(ent, s, "claude-code", skills=["llf-factcheck-finalize@1.0.0"] if s == "EDITORIAL_QA" else [], url=f"https://looklearnfind.com/learn/{ent}/" if s in ("DEPLOYED", "VERIFIED_LIVE") else None,
                  disposition="BACKFILL: reconstructed from docs/election-build/IMPLEMENTATION_REPORT.md; timestamp is the backfill time, not the event time")
-for ent in ("fl-senate-article", "fl-house-article"):
-    for s in S[:S.index("RESEARCH_COMMISSIONED") + 1]:
-        t.record(ent, s, "claude-code", skills=["election-state-packet@1.0.0"] if s in ("ROSTER_VERIFIED", "DATA_CAPTURED") else [],
-                 outputs=["release/research_packet/manifest.json"] if s in ("DATA_CAPTURED", "RESEARCH_COMMISSIONED") else [], checks={"packet_files": "pass"} if s == "DATA_CAPTURED" else None,
-                 disposition="Phase A research packet 1.0.0 returned to ChatGPT; next gate is RESEARCH_RETURNED" if s == "RESEARCH_COMMISSIONED" else "")
+# lean story board (owner reset 2026-10-24): one entity per article hook set, with links to the brief, candidates, race, images and (later) article and social
+BR = "docs/story-briefs/"
+for ent, brief, cands, race, imgs in (
+    ("story:fl-senate", BR + "STORY_BRIEF_FL_SENATE.md", {"moody": "https://theissuesparty.org/candidates/S6FL00640", "nixon": "https://theissuesparty.org/candidates/S6FL00830"}, "https://theissuesparty.org/races/2026-S-FL", ["static/img/elections/portraits/89119.jpg", "static/img/elections/portraits/90009.jpg"]),
+    ("story:fl-house", BR + "STORY_BRIEF_FL_HOUSE.md", {"castor": "https://theissuesparty.org/candidates/H6FL11126", "soto": "https://theissuesparty.org/candidates/H6FL09179", "fine": "https://theissuesparty.org/candidates/H6FL06258", "moskowitz": "https://theissuesparty.org/candidates/H2FL22171"}, "https://theissuesparty.org/races/2026-H-FL-14", ["static/img/elections/portraits/88870.jpg", "static/img/elections/portraits/90492.jpg", "static/img/elections/portraits/88911.jpg"])):
+    links = {"brief": brief, "claims": brief.replace("STORY_BRIEF", "CLAIMS").replace(".md", ".csv"), "candidates": cands, "race": race, "images": imgs, "article": None, "social": None}
+    t.record(ent, "DISCOVERED", "claude-code", skills=["llf-story-scout@1.0.0"], links=links)
+    t.record(ent, "SOURCE_CHECKED", "claude-code", skills=["llf-story-scout@1.0.0"], outputs=[brief], links=links, disposition="2 to 3 angles per article; sources opened; checker output in docs/story-briefs/story_brief_check_output.json")
 print(len(t.read()), "entries")

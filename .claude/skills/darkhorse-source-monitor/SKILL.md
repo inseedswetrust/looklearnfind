@@ -34,11 +34,11 @@ the watchlist row has no verified ballot status; a contract's rules cannot be re
 ## Never
 average venues, average polls, compute win probabilities, rank candidates, or describe a price movement as caused by an event.
 
-## Contract (v1.1.0)
+## Contract (v1.1.1)
 **Owner** LLF production (Claude Code). **Type** skill driving scripts: `tools/dark_horse/daily.py` (collector), `lock_watchlist.py`, `coverage.py`, `alert_if_stale.py`, `schedule_e.py`, `contracts.py`, `fetch_udp_ie.py` (needs `FEC_API_KEY`).
 **Input** `watchlist.csv` (lock_status verified|partial|unverified|background; contest_ids; nov3_general_status) and `contract_map.json`. **Output** `daily/<NY date>/` (immutable; a rerun becomes `revisions/rN/`), `latest.json` (moves forward only, only for a complete day), `status.json`, `coverage_matrix.csv`.
 **Quote fields** `price_type` (last_trade), `bid`, `ask`, `observed_at_utc`, `quote_age_hours`, `stale_quote` (true, false or "unknown"). A 404 is `market_not_found`, not an outage; no price is ever invented.
 **Fixtures** `tests/test_dark_horse.py` (9) and `tests/test_phase_a.py` (revision-safe pointer, idempotent rerun, stale quote, missing market, wrong-person Polymarket, Schedule E dedupe).
 **Failure semantics** a provider error keeps the last complete day as latest and sets the source's `stale` flag after 48 hours; `alert_if_stale.py` exits 1.
 ## Changelog
-1.1.0 (2026-10-23) revision folders, forward-only pointer, stale-quote flag, `market_not_found`, locked watchlist statuses and contest IDs, shared Schedule E dedupe. 1.0.0 (2026-10-23) first collector.
+1.1.1 (2026-10-24) AIPAC Schedule B pull removed from the workflow; ties come from news. 1.1.0 (2026-10-23) revision folders, forward-only pointer, stale-quote flag, `market_not_found`, locked watchlist statuses and contest IDs, shared Schedule E dedupe. 1.0.0 (2026-10-23) first collector.

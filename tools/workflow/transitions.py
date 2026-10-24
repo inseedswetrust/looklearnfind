@@ -18,6 +18,15 @@ STATES = ["DISCOVERED", "ROSTER_VERIFIED", "DATA_CAPTURED", "RESEARCH_COMMISSION
           "MOCKUP_APPROVED", "GRAPHICS_APPROVED", "BUILD_TESTED", "OWNER_PUBLISH_APPROVED", "DEPLOYED", "VERIFIED_LIVE", "RETROSPECTIVE_COMPLETE"]
 
 
+# Lean lane (owner reset 2026-10-24): the six states a normal story needs. The 15-state lane above stays available for work that needs graphics, mockup or owner gates.
+LEAN_STATES = ["DISCOVERED", "SOURCE_CHECKED", "DRAFTED", "FACT_CHECKED", "APPROVED", "PUBLISHED"]
+LEAN_ENTITIES_PREFIX = "story:"          # entities named story:<slug> use the lean lane
+
+
+def lane_of(entity):
+    return LEAN_STATES if entity.startswith(LEAN_ENTITIES_PREFIX) else STATES
+
+
 def read(path=LEDGER):
     p = Path(path)
     return [json.loads(l) for l in p.read_text(encoding="utf-8").splitlines() if l.strip()] if p.exists() else []
@@ -33,9 +42,10 @@ def sha(p):
     return hashlib.sha256(p.read_bytes()).hexdigest() if p.is_file() else None
 
 
-def record(entity, to, actor, skills=(), inputs=(), outputs=(), checks=None, reviewer=None, disposition="", url=None, blocked_reason=None, correction_id=None, path=LEDGER, now=None):
+def record(entity, to, actor, skills=(), inputs=(), outputs=(), checks=None, reviewer=None, disposition="", url=None, blocked_reason=None, correction_id=None, path=LEDGER, now=None, links=None):
+    STATES = lane_of(entity)
     if to not in STATES:
-        raise ValueError(f"unknown state {to}")
+        raise ValueError(f"unknown state {to} for {entity}")
     cur = current(entity, path)
     if cur is None:
         if to != "DISCOVERED":
@@ -50,7 +60,7 @@ def record(entity, to, actor, skills=(), inputs=(), outputs=(), checks=None, rev
             raise ValueError("a failed check cannot advance the entity; record the rejection with a correction ID")
     e = {"entry_id": uuid.uuid4().hex[:12], "entity": entity, "from_state": cur, "to_state": to, "at_utc": now or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
          "actor": actor, "skills": list(skills), "inputs": {str(p): sha(ROOT / p) for p in inputs}, "outputs": {str(p): sha(ROOT / p) for p in outputs}, "checks": checks or {},
-         "reviewer": reviewer, "disposition": disposition, "url": url, "blocked_reason": blocked_reason, "correction_id": correction_id}
+         "reviewer": reviewer, "disposition": disposition, "url": url, "links": links or {}, "blocked_reason": blocked_reason, "correction_id": correction_id}
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "a", encoding="utf-8") as f:
         f.write(json.dumps(e, ensure_ascii=False) + "\n")

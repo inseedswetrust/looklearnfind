@@ -58,5 +58,21 @@ class TestGate(unittest.TestCase):
             f = Path(d) / "a.html"; f.write_text("<p>[[v:est14]] and [[v:other]]</p>", encoding="utf-8")
             self.assertEqual([w for w in why([row(value="est14")], article=f)], ["data macro [[v:other]] has no ledger row"])
 
+class TestLeanLedger(unittest.TestCase):
+    FX = ROOT / "tests/fixtures"
+    def test_lean_claims_csv_is_ready_without_any_finance_market_or_poll_rows(self):
+        blocks, _ = g.check(g.rows_of(self.FX / "claims_lean_ok.csv"))
+        self.assertEqual(blocks, [])
+    def test_lean_claims_need_a_real_link_a_source_date_and_no_unresolved_doubt(self):
+        reasons = [b["reason"] for b in g.check(g.rows_of(self.FX / "claims_lean_bad.csv"))[0]]
+        self.assertTrue(any("real link" in r for r in reasons))
+        self.assertTrue(any("publication date" in r for r in reasons))
+        self.assertTrue(any("UNVERIFIED" in r for r in reasons))
+    def test_a_story_with_no_finance_claim_is_not_blocked_for_missing_finance(self):
+        rows = g.rows_of(self.FX / "claims_lean_ok.csv")
+        self.assertFalse([r for r in rows if r["type"]])           # no typed rows, so no finance rule can fire
+        self.assertEqual(g.check(rows, packet=None)[0], [])
+
+
 if __name__ == "__main__":
     unittest.main()

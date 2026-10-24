@@ -19,9 +19,24 @@ BAD = {"UNVERIFIED", "CONTRADICTED", "STALE"}
 REQUIRED = ["claim_id", "page", "claim", "value", "source", "as_of", "verdict", "notes"]
 
 
+LEAN = ["claim", "text_location", "source_url", "source_date", "checked_date", "status"]
+LEAN_STATUS = {"VERIFIED": "VERIFIED", "ATTRIBUTED": "ATTRIBUTED", "NEEDS_CONTEXT": "NEEDS_CONTEXT", "UNVERIFIED": "UNVERIFIED", "REMOVED": "UNVERIFIED", "REVISED": "UNVERIFIED"}
+
+
 def rows_of(p):
+    """Reads either ledger. The lean CLAIMS.csv (claim, text_location, source_url, source_date, checked_date, status) is converted to the v1 columns,
+    so one set of rules applies. Lean ledgers hold only the central published claims: nothing here asks for finance, market or poll data a story does not use."""
     with open(p, newline="", encoding="utf-8-sig") as f:
-        return list(csv.DictReader(f))
+        rows = list(csv.DictReader(f))
+    if rows and all(c in rows[0] for c in LEAN) and "claim_id" not in rows[0]:
+        out = []
+        for i, r in enumerate(rows, 1):
+            st = (r["status"] or "").strip().upper()
+            out.append({"claim_id": f"L{i:02d}", "page": r["text_location"], "claim": r["claim"], "value": r.get("value", ""), "source": r["source_url"], "as_of": r["checked_date"],
+                        "verdict": LEAN_STATUS.get(st, st), "notes": "source_date=" + (r["source_date"] or ""), "resolution": {"REMOVED": "removed", "REVISED": "corrected"}.get(st, ""),
+                        "type": r.get("type", ""), "evidence_ref": r.get("evidence_ref", ""), "reviewer": r.get("reviewer", ""), "_lean": True, "_source_date": r["source_date"]})
+        return out
+    return rows
 
 
 def resolved(r):
@@ -65,6 +80,11 @@ def check(ledger, article=None, packet=None, author=None):
             B(cid, "no source")
         if not (r["as_of"] or "").strip():
             B(cid, "no as_of timestamp")
+        if r.get("_lean"):
+            if not (r["source"] or "").strip().lower().startswith("http"):
+                B(cid, "lean claim needs a source_url that is a real link")
+            if not (r.get("_source_date") or "").strip():
+                B(cid, "lean claim needs the source's publication date")
         if author and (r.get("reviewer") or "").strip().lower() == author.strip().lower():
             B(cid, "reviewer is the author: the gate requires an independent reviewer")
         t = (r.get("type") or "").strip().lower()
@@ -115,7 +135,9 @@ def check(ledger, article=None, packet=None, author=None):
                 B(cid, "image lacks license or attribution")
         else:
             warns.append(f"{cid}: unknown type '{t}' (no type rule applied)")
-    if article and "evidence_ref" not in ledger[0]:
+    if article and ledger[0].get("_lean"):
+        pass                                           # the lean ledger lists central claims only; macro coverage is not required
+    elif article and "evidence_ref" not in ledger[0]:
         warns.append("legacy v1 ledger: data-macro coverage cannot be checked (no evidence_ref column); the gate checked verdicts, sources and timestamps only")
     elif article:
         html = Path(article).read_text(encoding="utf-8")

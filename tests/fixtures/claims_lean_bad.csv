@@ -1,0 +1,4 @@
+claim,text_location,source_url,source_date,checked_date,status
+"Claim with no link",para 1,,2026-10-21,2026-10-24,VERIFIED
+"Claim with no source date",para 2,https://example.org/a,,2026-10-24,VERIFIED
+"Unresolved doubtful claim",para 3,https://example.org/b,2026-10-20,2026-10-24,UNVERIFIED

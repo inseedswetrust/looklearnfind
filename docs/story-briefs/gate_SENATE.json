@@ -1,0 +1,14 @@
+{
+ "result": "BLOCKED",
+ "ledger": "docs/story-briefs/CLAIMS_FL_SENATE.csv",
+ "rows": 10,
+ "blocking": [
+  {
+   "claim_id": "L07",
+   "reason": "UNVERIFIED and not resolved (removed, replaced or relabeled)"
+  }
+ ],
+ "warnings": [],
+ "build": null,
+ "note": "READY means the ledger is complete and consistent. It does not approve publication: a person does that."
+}

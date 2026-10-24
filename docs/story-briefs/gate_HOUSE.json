@@ -1,0 +1,14 @@
+{
+ "result": "BLOCKED",
+ "ledger": "docs/story-briefs/CLAIMS_FL_HOUSE.csv",
+ "rows": 12,
+ "blocking": [
+  {
+   "claim_id": "L12",
+   "reason": "UNVERIFIED and not resolved (removed, replaced or relabeled)"
+  }
+ ],
+ "warnings": [],
+ "build": null,
+ "note": "READY means the ledger is complete and consistent. It does not approve publication: a person does that."
+}

@@ -64,8 +64,14 @@ for f in sorted((ROOT / "content/learn").glob("*.html")):
     st = state_of(slug)
     articles.append({"slug": slug, "workflow_state": st, "gate": "READY" if not g else "BLOCKED", "blocking": len(g),
                      "editorial_ready": (not g) and st is not None and transitions.STATES.index(st) >= READY_FROM, "source": "docs/election-build/fact_check.csv rows for this article"})
-for slug in ("fl-senate-article", "fl-house-article"):
-    articles.append({"slug": slug, "workflow_state": state_of(slug), "gate": "NO_LEDGER", "blocking": None, "editorial_ready": False, "source": "awaiting ChatGPT draft (Phase B)"})
+for slug in ("story:fl-senate", "story:fl-house"):
+    articles.append({"slug": slug, "workflow_state": state_of(slug), "gate": "NO_LEDGER", "blocking": None, "editorial_ready": False, "source": "brief ready; awaiting ChatGPT draft and CLAIMS.csv"})
+# ---- story board (lean lane): latest state and links per story entity
+board = {}
+for e in ledger:
+    if e["entity"].startswith("story:"):
+        board[e["entity"]] = {"entity": e["entity"], "state": e["to_state"], "at_utc": e["at_utc"], "links": e.get("links") or {}}
+story_board = sorted(board.values(), key=lambda b: b["entity"])
 # ---- asset / source view
 assets = rc(PK / "fl_assets.csv")
 sources = [json.loads(l) for l in (PK / "fl_sources.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()] if (PK / "fl_sources.jsonl").exists() else []
@@ -87,7 +93,7 @@ for d in sorted((DH / "daily").glob("*")):
             runs.append({"date": m["date"], "revision": m.get("revision", 1), "run_at_utc": m["run_at_utc"], "quotes_ok": m["market_quotes_ok"], "market_errors": m["market_errors"],
                          "poll_rows": m["poll_rows"], "captures_hashed": len(m["captures"]), "is_latest": (latest.get("manifest_path") or "").endswith(str(mf.relative_to(DH)).replace("\\", "/"))})
 dash = {"generated_at_utc": NOW, "unattended_run_proof": "PENDING_UNATTENDED: first scheduled run 2026-10-24 08:00 America/New_York", "sources_status": status.get("sources"),
-        "views": {"state": states, "race": races, "article": articles, "asset_source": asset_view, "watchlist_coverage": watch, "daily_runs": runs}}
+        "views": {"story_board": story_board, "state": states, "race": races, "article": articles, "asset_source": asset_view, "watchlist_coverage": watch, "daily_runs": runs}}
 (OUT / "dashboard.json").write_text(json.dumps(dash, indent=1), encoding="utf-8")
 
 e = html.escape
@@ -96,6 +102,7 @@ def table(rows, cols):
 page = f"""<!doctype html><meta charset="utf-8"><title>LLF workflow dashboard</title><style>body{{font:14px system-ui;margin:24px;max-width:1100px}}table{{border-collapse:collapse;margin:8px 0 24px}}td,th{{border:1px solid #bbb;padding:3px 8px;text-align:left}}h2{{margin-top:28px}}</style>
 <h1>LLF workflow dashboard</h1><p>Generated {NOW}. Internal. Three separate flags per row: source_available, collected, editorial_ready.</p>
 <p><b>Unattended daily run:</b> {e(dash['unattended_run_proof'])}</p>
+<h2>Story board</h2>{table([{"entity": b["entity"], "state": b["state"], "brief": b["links"].get("brief"), "article": b["links"].get("article") or "not yet", "race": b["links"].get("race"), "images": len(b["links"].get("images") or []), "social": b["links"].get("social") or "not yet"} for b in story_board], ["entity", "state", "brief", "article", "race", "images", "social"])}
 <h2>State</h2>{table(states, ['state', 'scope', 'roster_collected', 'roster_snapshot', 'federal_rows_on_ballot', 'tip_grades_graded_rows', 'editorial_ready'])}
 <h2>Race</h2>{table(races, ['race_id', 'nominees', 'market', 'poll', 'outside_spending_rows', 'source_available', 'collected', 'editorial_ready'])}
 <h2>Article</h2>{table(articles, ['slug', 'workflow_state', 'gate', 'blocking', 'editorial_ready', 'source'])}

@@ -1,0 +1,93 @@
+{
+ "scope": "Florida U.S. Senate and U.S. House, general election Nov 3 2026",
+ "as_of": "2026-10-24",
+ "angles": [
+  {
+   "id": "FL-SEN-A", "working_title": "The Senate race tightened in the last independent poll",
+   "interesting_fact": "A University of North Florida poll fielded Oct 12 to 19 has Ashley Moody ahead of Angie Nixon 49 to 45 among 1,471 likely voters; the same lab's July poll reportedly had her up by 8.",
+   "state": "FL", "office": "U.S. Senate", "race_ids": ["2026-S-FL"], "candidate_ids": ["S6FL00640", "S6FL00830"],
+   "event_date": "2026-10-21", "labelled_new": true,
+   "sources": [
+    {"role": "lead", "publication": "WLRN", "headline": "Republicans Donalds, Moody hold slim leads in tightening governor, U.S. Senate races, UNF polls find", "url": "https://www.wlrn.org/government-politics/2026-10-21/republicans-donalds-moody-hold-slim-leads-in-tightening-governor-us-senate-races-unf-polls-finds", "date": "2026-10-21", "opened": true},
+    {"role": "corroboration", "publication": "Action News Jax", "headline": "UNF poll shows Florida governor, Senate races tightening", "url": "https://www.actionnewsjax.com/news/local/unf-poll-shows-florida-governor-senate-races-tightening/XKIATNR5ONEQZMJPSLPUBHOQXE/", "date": "2026-10-21", "opened": true}
+   ],
+   "tip_grades": [
+    {"candidate": "Ashley Moody", "issue": "war_crime_accountability", "grade": "F-", "source_profile": "https://theissuesparty.org/candidates/S6FL00640"},
+    {"candidate": "Ashley Moody", "issue": "universal_healthcare", "grade": "F-", "source_profile": "https://theissuesparty.org/candidates/S6FL00640"},
+    {"candidate": "Angie Nixon", "issue": "all six", "grade": null, "source_profile": "https://theissuesparty.org/candidates/S6FL00830"}
+   ],
+   "synopsis": "The University of North Florida's Public Opinion Research Lab polled 1,471 likely voters from Oct 12 to 19 by telephone, margin of error 2.81 points. Republican Sen. Ashley Moody led Democrat Angie Nixon 49 to 45 with 5 percent undecided. WLRN reports the lab's July poll had Moody ahead by 8; Action News Jax confirms the October numbers but carries no July Senate figure. UNF's faculty director attributes the tightening to the national environment, which is his reading and not a finding of the poll. The race is a special election for the remainder of Marco Rubio's term.",
+   "ready_to_write": true
+  },
+  {
+   "id": "FL-SEN-B", "working_title": "Moody declines to debate; Democrats say she is avoiding voters",
+   "interesting_fact": "Moody told a Jacksonville station she would not debate Nixon, who she called a self-described socialist; Florida Democrats say Moody is avoiding reporters and town halls.",
+   "state": "FL", "office": "U.S. Senate", "race_ids": ["2026-S-FL"], "candidate_ids": ["S6FL00640", "S6FL00830"],
+   "event_date": "2026-10-01", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "WUSF / News Service of Florida", "headline": "Democrats slam Ashley Moody amid a heated U.S. Senate race", "url": "https://www.wusf.org/text/politics-issues/2026-10-01/democrats-slam-ashley-moody-amid-heated-us-senate-race", "date": "2026-10-01", "opened": true}
+   ],
+   "damaging_allegation": {"present": true, "note": "The article also recounts the Hope Florida grand jury finding. The grand jury report itself has not been opened, and the article's year (2024) needs checking.", "original_evidence_url": "", "response_sought": true},
+   "synopsis": "READY only if scoped to the debate decline and the Democrats' attributed criticism, with Moody's own statement. The Hope Florida passage needs the grand jury report before it is used.",
+   "ready_to_write": false
+  },
+  {
+   "id": "FL-SEN-C", "working_title": "The money favorite lost: Nixon beat Vindman in the Democratic primary",
+   "interesting_fact": "Alex Vindman had raised about $14.5 million through June, according to figures WFLX cited, and lost the Aug 18 primary to state Rep. Angie Nixon.",
+   "state": "FL", "office": "U.S. Senate", "race_ids": ["2026-S-FL"], "candidate_ids": ["S6FL00830"],
+   "event_date": "2026-08-18", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "WFLX (FOX 29)", "headline": "Alex Vindman's money advantage meets Angie Nixon's Florida roots in Democratic Senate primary", "url": "https://www.wflx.com/2026/08/11/alex-vindmans-money-advantage-meets-angie-nixons-florida-roots-democratic-senate-primary/", "date": "2026-08-11", "opened": true},
+    {"role": "corroboration", "publication": "Algemeiner", "headline": "Anti-Israel, antisemitic candidates largely flop in Florida primaries", "url": "https://algemeiner.com/2026/08/19/anti-israel-antisemitic-candidates-largely-flop-florida-primaries", "date": "2026-08-19", "opened": true}
+   ],
+   "financial_claims": [{"claim": "Vindman raised roughly $14.5 million through June", "source_url": "https://www.wflx.com/2026/08/11/alex-vindmans-money-advantage-meets-angie-nixons-florida-roots-democratic-senate-primary/", "period": "through June 2026", "attributed_to": "latest campaign-finance totals as cited by WFLX; not audited by LLF"}],
+   "synopsis": "Before the Aug 18 primary WFLX framed the contest as Vindman's money against Nixon's Florida roots, citing about $14.5 million raised by Vindman through June. Nixon won; the Division of Elections roster records her as the winner, and Algemeiner reports the result without vote shares. Vote shares still need the Division of Elections. No claim about why she won is supported.",
+   "ready_to_write": true
+  },
+  {
+   "id": "FL-HOU-A", "working_title": "The new map: 21 of 28 districts redrawn, and Castor's Tampa seat now leans Trump",
+   "interesting_fact": "Florida's May 2026 congressional map reworked 21 of 28 districts; reporters put Trump's 2024 margin in the new FL-14 at 55 to 44 and in FL-9 at 58 to 41.",
+   "state": "FL", "office": "U.S. House", "race_ids": ["2026-H-FL-14", "2026-H-FL-09"], "candidate_ids": ["H6FL11126", "H6FL09179"],
+   "event_date": "2026-05-04", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "WLRN", "headline": "Breaking down the changes in Florida's new congressional districts", "url": "https://www.wlrn.org/government-politics/2026-05-05/breaking-down-the-changes-in-floridas-new-congressional-districts", "date": "2026-05-05", "opened": true},
+    {"role": "corroboration", "publication": "WUSF", "headline": "How Florida's new congressional map is shaking up the 2026 election", "url": "https://www.wusf.org/the-florida-roundup/2026-06-15/how-florida-new-congressional-map-shaking-up-2026-election", "date": "2026-06-15", "opened": true}
+   ],
+   "tip_grades": [
+    {"candidate": "Kathy Castor", "issue": "congressional_stock_trading_ban", "grade": "A+", "source_profile": "https://theissuesparty.org/candidates/H6FL11126"},
+    {"candidate": "Darren Soto", "issue": "congressional_stock_trading_ban", "grade": "A+", "source_profile": "https://theissuesparty.org/candidates/H6FL09179"}
+   ],
+   "synopsis": "Gov. Ron DeSantis signed the map (HB 1-D) after a special session; districts 1 to 7 are unchanged. WLRN, citing the News Service of Florida, says 21 of 28 districts were reworked, and gives Trump's 2024 margin as 55 to 44 in the new FL-14 (Castor, who said she will run there) and 58 to 41 in FL-9 (Soto). WUSF reports the Florida Supreme Court declined an emergency request to block the map. The district count and margins are reporters' figures; LLF holds the official plan files (EOGPCRP2026) but has not recomputed the margins. Both outlets appear to rely on the same News Service of Florida reporting, so they are not independent confirmation of the count.",
+   "ready_to_write": true
+  },
+  {
+   "id": "FL-HOU-B", "working_title": "FL-20: Wasserman Schultz moves districts and wins a crowded primary; the former member resigned and was indicted",
+   "interesting_fact": "Debbie Wasserman Schultz, whose old district turned Republican-leaning, won the Democratic nomination in the redrawn 20th; Sheila Cherfilus-McCormick, who held the seat, resigned in April and was indicted.",
+   "state": "FL", "office": "U.S. House", "race_ids": ["2026-H-FL-20"], "candidate_ids": ["H4FL20023"],
+   "event_date": "2026-08-18", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "Ballotpedia News", "headline": "Seven Democrats seek Florida's 20th district seat as redistricting reshapes South Florida congressional map", "url": "https://news.ballotpedia.org/2026/06/23/seven-democrats-seek-floridas-20th-district-seat-as-redistricting-reshapes-south-florida-congressional-map/", "date": "2026-06-23", "opened": true},
+    {"role": "corroboration", "publication": "Algemeiner", "headline": "Anti-Israel, antisemitic candidates largely flop in Florida primaries", "url": "https://algemeiner.com/2026/08/19/anti-israel-antisemitic-candidates-largely-flop-florida-primaries", "date": "2026-08-19", "opened": true}
+   ],
+   "damaging_allegation": {"present": true, "note": "The indictment and its charges rest on Ballotpedia's summary. The charging document or court docket has not been opened, and her denial is not in the opened sources.", "original_evidence_url": "", "response_sought": false},
+   "synopsis": "READY only if the indictment sentence is cut or sourced to the docket and her response. The safe version: Wasserman Schultz moved to the 20th after the map changed, won the nomination (45.6 percent per Algemeiner; Division of Elections figure still needed), and the previous member resigned in April.",
+   "ready_to_write": false
+  },
+  {
+   "id": "FL-HOU-C", "working_title": "Two primaries, two clear results: Fine over Bilzerian in FL-6, Moskowitz over a DSA-backed challenger in FL-25",
+   "interesting_fact": "Rep. Randy Fine won the FL-6 Republican primary 56.9 to 18.7 over Dan Bilzerian; Rep. Jared Moskowitz won FL-25 with 63.5 percent over Oliver Larkin, who was backed by the Democratic Socialists of America.",
+   "state": "FL", "office": "U.S. House", "race_ids": ["2026-H-FL-06", "2026-H-FL-25"], "candidate_ids": ["H6FL06258", "H2FL22171"],
+   "event_date": "2026-08-18", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "Reuters via GV Wire", "headline": "Democratic U.S. Representative Moskowitz fends off challenge in Florida from democratic socialist", "url": "https://gvwire.com/2026/08/18/democratic-us-representative-moskowitz-fends-off-challenge-in-florida-from-democratic-socialist/", "date": "2026-08-18", "opened": true},
+    {"role": "corroboration", "publication": "Algemeiner", "headline": "Anti-Israel, antisemitic candidates largely flop in Florida primaries", "url": "https://algemeiner.com/2026/08/19/anti-israel-antisemitic-candidates-largely-flop-florida-primaries", "date": "2026-08-19", "opened": true}
+   ],
+   "tip_grades": [
+    {"candidate": "Randy Fine", "issue": "us-israel-military-merger", "grade": "F-", "source_profile": "https://theissuesparty.org/candidates/H6FL06258"},
+    {"candidate": "Jared Moskowitz", "issue": "us-israel-military-merger", "grade": "A+", "source_profile": "https://theissuesparty.org/candidates/H2FL22171"}
+   ],
+   "synopsis": "Reuters reported on Aug 18 that Moskowitz was projected to win the Democratic primary in the redrawn 25th over Oliver Larkin, a challenger backed by the Democratic Socialists of America. Algemeiner, which frames the primaries as a test of anti-Israel and antisemitic politics, gives the final shares: Moskowitz 63.5 percent, and in FL-6 Fine 56.9 percent to Bilzerian's 18.7. The Division of Elections roster records both incumbents as winners. The shares come from one advocacy-leaning outlet and should be checked against the official results; Algemeiner's account of Bilzerian's rhetoric, attributed to House leaders, has no second source and should be left out until it has one.",
+   "ready_to_write": true
+  }
+ ]
+}

@@ -1,52 +1,17 @@
-# Story assignments for ChatGPT (Phase B)
+# Florida Senate and House: lightweight research brief (supersedes the earlier 14-file assignment)
 
-These are news questions and a paragraph-level spine for each article, not finished copy. Use only facts in the packet; every figure must be traceable to a file and row. Keep the neutral voice, no probabilities, no causal claims about spending or prices. R1: link a candidate on first mention to their TIP profile (`tip_candidate_url` in `fl_candidate_roster.csv`). R2: link every race mentioned (`tip_race_url` in `fl_races.json`). Show TIP's six issue grades only where the profile page displays them (`profile_holding_grade` in `tip_grades.csv`); "not graded" is never zero.
+Owner reset 2026-10-24: story first, proof enough. The only required exchange files are `STORY_BRIEF.md` (to you) and `CLAIMS.csv` (back to me). The earlier data files remain as supplementary references and are not required.
 
-## Article 1: Florida U.S. Senate (Class III special election, Nov 3)
-
-**News questions**
-1. Where does the race stand on the newest independent evidence, and how do the polls differ by pollster and sponsor? (S1, S3; `fl_polls.csv`)
-2. Who is spending outside the campaigns, for and against whom? (S4; `fl_outside_spending.csv`, rows with `race_id = senate`)
-3. What have the candidates said and done on the six TIP issues, and where are there no recorded actions? (`tip_grades.csv`; Moody has two graded issues (war-crime accountability and universal healthcare); Nixon and Gillespie have none graded, which is not a zero)
-4. What do prediction markets show, and what do they not show? (`fl_markets.json`: one party contract set, last captured 2026-10-23)
-
-**Paragraph spine**
-1. Lead: the special election is for the remainder of the term; three candidates are on the ballot (Moody R, Nixon D, Gillespie NPA). Link each on first mention.
-2. The newest poll and how it compares with July and with the September polls (S1, S3). Report ranges with sponsors; no average.
-3. The debate decision and the Hope Florida record, with attributions on both sides (S2). Verify the grand jury date first.
-4. Money: FEC candidate receipts and cash on hand (`fl_candidate_finance.csv`), then outside spending as filed (S4), with the dedupe note.
-5. The six issues: a compact grade table using only profile-visible grades; state which issues have no graded record.
-6. Markets: one paragraph on the party-winner contract, bid, ask, last and capture time. Explain it is a party contract.
-7. What to watch: early voting (Oct 24 to 31 per search summary; verify with the Division of Elections), and the date of the next FEC report.
-
-**ChatGPT should verify independently:** the UNF original release; the Hope Florida grand jury date and wording; the funders and stated purposes of STRONGER SAFER NATION and NEW DEAL FOR ALL, INC.; the early-voting dates; the sponsor of each September poll.
-
-## Article 2: Florida U.S. House (28 districts)
-
-**News questions**
-1. What did the new map change, and which incumbents moved? (H1; `fl_races.json` district vintage and county shares)
-2. Which races have the most outside money and what does the FEC record show? (H3, H4; `fl_outside_spending.csv`, FL-25 about $24.9M, FL-14 about $18.6M, FL-6 about $7.3M, FL-13 about $7.0M, FL-22 about $6.3M, de-duplicated)
-3. Which districts have a public poll and which have none? (`fl_polls.csv`; 21 races with `no_poll_found`)
-4. Where do the nominees stand on the six TIP issues, and how many House nominees have no graded issue? (`tip_grades.csv`)
-
-**Paragraph spine**
-1. Lead: 28 districts, 83 candidates on the ballot, one unopposed; the map in force is EOGPCRP2026.
-2. The map story (H1): 21 districts reworked, 1 to 7 unchanged. Cite official boundaries and population; mark Trump-margin numbers as reporters' estimates.
-3. FL-20 and FL-25 (H2, H3): moved incumbents and the primary results from the official roster; verify the vote counts.
-4. Outside money by race (table): support and oppose shown separately, top committees, with the notice-versus-periodic dedupe explained once.
-5. Polls and markets: which districts have either; the 21 districts with no poll and the 2 with no Kalshi contract (FL-13 and FL-23), stated plainly.
-6. The district atlas: link to each district page; use the existing atlas rather than a new map.
-7. The six issues across the delegation: summary counts of graded issues per party, and the candidates with all six graded.
-
-**ChatGPT should verify independently:** each House vote count from the Division of Elections; the funders of NO GOING BACK PAC INC., CONSERVATIVE FIGHTER PAC and DEFEND AMERICAN JOBS; the FL-20 indictment status from a court record; the litigation status of the map.
+## Your job
+1. Write the Florida Senate article from `STORY_BRIEF_FL_SENATE.md` and the Florida House article from `STORY_BRIEF_FL_HOUSE.md`. Lead with the recommended hook (FL-SEN-A, FL-HOU-A). A NOT_READY angle can be used only in the scoped form described in its brief.
+2. Use approved series format. Include a 3 to 8 line headline, dek and social pack, one to three graphics (or concrete build instructions), and TIP deep links for every featured candidate and race (R1, R2).
+3. Send back, per article: the text, the pack, `CLAIMS.csv` with only the central published claims (`claim,text_location,source_url,source_date,checked_date,status`), and a note of corrections or unknowns.
 
 ## Rules that still hold
-Scope is Governor, U.S. Senate and U.S. House only. No ballot measures, Cabinet or legislature. Governor rows in the roster are for links only. Do not start the State of the Race video; that follows the live pages. Publication paths are in `fl_existing_pages.json`: new long-form articles are `content/learn/*.html` with `layout: report` and the existing `[[v:]]`, `[[s:]]` and `[[el:]]` macros.
+Governor, Senate and House only. TIP grades only as listed in the brief, from the named profile; "not graded" is never zero. Real source links, faithful quotations, licensed images (portraits are listed in `fl_assets.csv`), neutral reporting, no win probabilities, no causal claims about prices or spending, no rankings. Attribute reported numbers ("according to WFLX") and do not call them audited. No Oxford comma.
 
-## AIPAC and UDP ties: simple news-search routine (replaces the FEC Schedule B pull)
-Direct PAC contributions are not collected. Use plain searches, one race at a time, and record only what an opened article actually says. Keep the three things apart: (1) FEC independent expenditures by UDP or AIPAC PAC (our Schedule E file, dollars), (2) news reports that AIPAC or a related committee endorsed, funded or targeted a candidate (attributed claims), (3) a candidate's own statement about AIPAC. Never add (2) to (1), and never call a committee "AIPAC-affiliated" unless the cited article or a filing says so.
+## What to verify yourself, briefly
+Senate: the UNF original release (sponsor, July Senate figure); early-voting dates; Vindman and Nixon primary shares from the Division of Elections. House: the primary shares for FL-6, FL-20 and FL-25 from the Division of Elections; the Leon County suit's plaintiff; for FL-20, the Cherfilus-McCormick docket before any sentence about the indictment.
 
-Queries (swap in the race and candidate): `AIPAC United Democracy Project <state> <district or Senate> 2026`; `"United Democracy Project" <candidate>`; `AIPAC endorsed <candidate> 2026`; `AIPAC <candidate> donors`; `Sludge AIPAC <state>`; `OpenSecrets United Democracy Project <state>`. Preferred outlets: Sludge, OpenSecrets, Times of Israel, Jewish Insider, JTA, the state's own papers, AP and Reuters.
-For each hit: open it, copy the claim paraphrased, outlet, date and URL into the sources file with `verification_status = opened_and_read`, and note any disagreement between outlets. A search summary alone is `search_summary_only` and cannot be published.
-
-First pass for Florida (2026-10-24, search summaries only, none opened yet): news reports say Moskowitz (FL-25) was backed by AIPAC-associated donors; Elijah Manley attacked Wasserman Schultz (FL-20) over AIPAC money; Sludge puts AIPAC PAC plus UDP at more than $104 million nationally; one report ties UDP to the Wahab (CA-14) special. No source found that says UDP spent in a Florida race, which matches our empty Schedule E result. Open and verify before use.
+## Optional: AIPAC and UDP ties from news (no FEC pull)
+Plain searches, one race at a time: `AIPAC United Democracy Project <state> <district or Senate> 2026`; `"United Democracy Project" <candidate>`; `AIPAC endorsed <candidate> 2026`; `Sludge AIPAC <state>`. Open the article, record outlet, date, URL and what it says, attribute it, and keep it apart from candidate statements. A reported dollar figure is cited to its outlet and period, not audited. Nothing found so far says UDP spent in a Florida race (searched 2026-10-24, summaries only).
