@@ -39,6 +39,8 @@ If the cut runs long, drop the issues beat to 6 seconds and keep the board and t
 Colors: paper #f5f2eb, ink #1c1d1b, teal #145b5d, annotation yellow #dfca00. No party colors. Type: serif headlines (the site's Newsreader family or Georgia), sans labels. Every number appears as a chip with its source in small text beneath (for example "UNF, Oct 12–19, n=1,471, ±2.81"). Motion: counters tick up, bars grow left to right, pins drop on the map; one transition type only (a hard cut on the beat). Audio: the brass-techno bed ducked under narration; a single percussive hit on each chip entry; nothing else. Graphics are drawn from data, never generated imagery. Portraits: public domain, credits in the end card (see `fl_assets.csv`: Moody, Nixon, Castor, Fine and Moskowitz are licensed; the rest use a monogram). If any AI visual transition is used, label it in the caption and never imply it is footage.
 
 ## 5. Fact callout sheet (everything the video may state)
+
+> The table below is the concept-stage version. The authoritative sheet is generated from the spec: `FLORIDA_VIDEO_FACT_SHEET.md`. If they differ, the generated sheet wins.
 Status: VERIFIED = read in a primary or two independent sources; ATTRIBUTED = stated "according to <source>"; REFRESH = must be re-read the day of publication. "Say" is the wording limit; the "Never say" column is binding.
 
 | ID | Fact | Say | Source (opened) | Status | Never say |

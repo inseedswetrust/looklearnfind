@@ -1,0 +1,1221 @@
+{
+ "id": "fl-2026-state-of-the-race",
+ "state": "FL",
+ "as_of": "2026-10-24",
+ "duration_seconds": 90,
+ "segment_seconds": 5,
+ "format": {
+  "platform": "Instagram",
+  "aspect": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "safe_top_px": 250,
+  "safe_bottom_px": 340
+ },
+ "voice": {
+  "kind": "synthetic narrator",
+  "words_per_second": 2.8,
+  "max_words_per_segment": 15,
+  "direction": "calm, close-miked, even pacing; no theatrical emphasis on any candidate name; both Senate candidates get equal duration and equal screen size"
+ },
+ "music": "Artlist brass-techno bed, ducked under narration; one percussive hit per chip entry",
+ "disclosures": [
+  "Narration is synthetic.",
+  "Background graphics are AI-generated illustrations."
+ ],
+ "credits": [
+  "Old Florida State Capitol photo by DXR (CC BY-SA 4.0)",
+  "Portraits: public domain (U.S. Senate Photography Service, Florida House of Representatives, U.S. Congress and others; see fl_assets.csv)"
+ ],
+ "facts": [
+  {
+   "id": "F-01",
+   "statement": "Florida has 30 contests in scope on Nov 3 2026: 1 governor, 1 Senate seat, 28 House districts",
+   "numbers": [
+    "30",
+    "1",
+    "28"
+   ],
+   "source": "Florida Division of Elections roster, captured 2026-10-23",
+   "status": "VERIFIED",
+   "never_say": "all of Florida's races; many others exist",
+   "refresh": false
+  },
+  {
+   "id": "F-02",
+   "statement": "83 House candidates on the November ballot",
+   "numbers": [
+    "83"
+   ],
+   "source": "Florida Division of Elections roster, captured 2026-10-23",
+   "status": "VERIFIED",
+   "never_say": "any count after a withdrawal without re-checking",
+   "refresh": true
+  },
+  {
+   "id": "F-08",
+   "statement": "UNF poll, governor: Donalds 49, Jolly 47, 4 undecided; 1,471 likely voters; Oct 12-19; margin of error 2.81",
+   "numbers": [
+    "49",
+    "47",
+    "1471",
+    "2.81",
+    "4"
+   ],
+   "source": "Action News Jax Oct 21 (opened; two-point lead); toplines also in the LLF governor article",
+   "status": "ATTRIBUTED",
+   "never_say": "Donalds leads; Jolly is closing",
+   "refresh": true
+  },
+  {
+   "id": "F-09",
+   "statement": "Kalshi governor contract on the Republican party last traded 83 cents (Democratic 19 cents) at 22:40Z Oct 23",
+   "numbers": [
+    "83",
+    "19"
+   ],
+   "source": "Kalshi GOVPARTYFL-26, captured 2026-10-23",
+   "status": "VERIFIED",
+   "never_say": "83% chance; the market says Donalds will win; any link between price and poll",
+   "refresh": true
+  },
+  {
+   "id": "F-10",
+   "statement": "Committee money as of Sept 11 reported by the News Service of Florida: Friends of Byron Donalds $107.6M raised; Florida 2026 (backing Jolly) $6.4M received; includes transfers",
+   "numbers": [
+    "107.6",
+    "6.4",
+    "17"
+   ],
+   "source": "News Service of Florida via CBS12, 2026-09-21 (cited in the LLF governor article)",
+   "status": "ATTRIBUTED",
+   "never_say": "spent on ads; Donalds has $107 million; any current total",
+   "refresh": true
+  },
+  {
+   "id": "F-12",
+   "statement": "Senate special election: Moody (R, appointed Jan 2025), Nixon (D, state Rep.), Gillespie (no party); winner serves the rest of Rubio's term, about two years",
+   "numbers": [
+    "2",
+    "3"
+   ],
+   "source": "WUSF / News Service of Florida 2026-10-01; Division of Elections",
+   "status": "VERIFIED",
+   "never_say": "Moody was elected",
+   "refresh": false
+  },
+  {
+   "id": "F-13",
+   "statement": "UNF Senate poll: Moody 49, Nixon 45, 5 undecided; margin of error 2.81; one report (WLRN) says July's gap was 8",
+   "numbers": [
+    "49",
+    "45",
+    "5",
+    "2.81",
+    "8",
+    "4"
+   ],
+   "source": "WLRN and Action News Jax, 2026-10-21 (both opened); July figure WLRN only",
+   "status": "VERIFIED",
+   "never_say": "Moody leads by four without the margin of error; July figure without saying one report",
+   "refresh": true
+  },
+  {
+   "id": "F-14",
+   "statement": "Moody declined to debate Nixon; Moody told the News Service of Florida she will keep engaging with voters",
+   "numbers": [],
+   "source": "WUSF / News Service of Florida 2026-10-01",
+   "status": "ATTRIBUTED",
+   "never_say": "refuses, dodges, hides",
+   "refresh": false
+  },
+  {
+   "id": "F-15",
+   "statement": "Nixon won the Aug 18 Democratic primary over Alex Vindman",
+   "numbers": [],
+   "source": "Florida Division of Elections roster; Algemeiner 2026-08-19 (no shares)",
+   "status": "VERIFIED",
+   "never_say": "any vote share until the Division of Elections count is read",
+   "refresh": false
+  },
+  {
+   "id": "F-16",
+   "statement": "Vindman had reported raising roughly $14.5 million through June (as cited by WFLX)",
+   "numbers": [
+    "14.5"
+   ],
+   "source": "WFLX 2026-08-11",
+   "status": "ATTRIBUTED",
+   "never_say": "outspent; Nixon raised less",
+   "refresh": false
+  },
+  {
+   "id": "F-18",
+   "statement": "21 of 28 House districts reworked; districts 1 to 7 unchanged",
+   "numbers": [
+    "21",
+    "28",
+    "1",
+    "7"
+   ],
+   "source": "WLRN 2026-05-05; WUSF 2026-06-15 (WUSF attributes the count to the News Service of Florida)",
+   "status": "ATTRIBUTED",
+   "never_say": "gerrymander or any motive claim",
+   "refresh": false
+  },
+  {
+   "id": "F-19",
+   "statement": "Florida Supreme Court declined an emergency request to block the map; a suit is in Leon County court",
+   "numbers": [],
+   "source": "WUSF 2026-06-15; WLRN 2026-05-05",
+   "status": "ATTRIBUTED",
+   "never_say": "the map is legal",
+   "refresh": false
+  },
+  {
+   "id": "F-20",
+   "statement": "Reported 2024 vote on the new lines: FL-14 Trump 55, Harris 44; FL-9 Trump 58, Harris 41",
+   "numbers": [
+    "55",
+    "44",
+    "58",
+    "41"
+   ],
+   "source": "WLRN 2026-05-05 (reporters' figures; LLF did not recompute)",
+   "status": "ATTRIBUTED",
+   "never_say": "Castor's seat is Republican; any forecast",
+   "refresh": false
+  },
+  {
+   "id": "F-21",
+   "statement": "Castor said she would run in the new FL-14 and faces Republican Mike Beltran",
+   "numbers": [],
+   "source": "WLRN 2026-05-05; Division of Elections",
+   "status": "VERIFIED",
+   "never_say": "",
+   "refresh": false
+  },
+  {
+   "id": "F-22",
+   "statement": "Aug 18 primaries: Moskowitz (FL-25), Fine (FL-6) and Wasserman Schultz (FL-20) won their primaries",
+   "numbers": [
+    "25",
+    "6",
+    "20"
+   ],
+   "source": "Reuters via GV Wire 2026-08-18; Division of Elections roster; Ballotpedia 2026-06-23",
+   "status": "VERIFIED",
+   "never_say": "vote shares unless 'as reported by Algemeiner' or after the Division of Elections count is read; any criminal claim",
+   "refresh": false
+  },
+  {
+   "id": "F-23",
+   "statement": "TIP grades six issues only where a candidate has recorded congressional acts; not graded is not a zero",
+   "numbers": [
+    "6"
+   ],
+   "source": "TIP methodology; LLF methods page",
+   "status": "VERIFIED",
+   "never_say": "TIP rates candidates as good or bad",
+   "refresh": false
+  },
+  {
+   "id": "F-24",
+   "statement": "Moody has two graded issues (war-crime accountability F-, universal healthcare F-; 0 of 9 and 0 of 3 recorded acts aligned); Nixon has none graded",
+   "numbers": [
+    "2",
+    "9",
+    "3",
+    "0"
+   ],
+   "source": "TIP candidate records computed 2026-10-21",
+   "status": "VERIFIED",
+   "never_say": "endorsing or condemning a grade; inferring a position from a missing grade",
+   "refresh": true
+  },
+  {
+   "id": "F-25",
+   "statement": "Early voting runs October 24 to 31 in all 67 counties; some counties offer extra days",
+   "numbers": [
+    "24",
+    "31",
+    "67"
+   ],
+   "source": "Florida Department of State press release 2026-10-19 (opened)",
+   "status": "VERIFIED",
+   "never_say": "mandatory period; county hours",
+   "refresh": true
+  }
+ ],
+ "segments": [
+  {
+   "n": 1,
+   "frame": "hero_title",
+   "on_screen": [
+    "30 contests · Nov 3",
+    "FLORIDA: WHAT THE NUMBERS SHOW"
+   ],
+   "vo": "Florida votes November third, on thirty contests. What do the numbers actually show?",
+   "sfx": "brass-techno bed enters on the first beat; one percussive hit on the title",
+   "facts": [
+    "F-01"
+   ],
+   "params": {
+    "photo": "static/img/elections/fl-capitol.jpg"
+   },
+   "animations": [
+    {
+     "element": "hero photo",
+     "action": "slow push 100%→104%",
+     "start": 0.0,
+     "duration": 5.0,
+     "easing": "linear"
+    },
+    {
+     "element": "chip",
+     "action": "slam in from top",
+     "start": 0.4,
+     "duration": 0.3,
+     "easing": "ease-out"
+    },
+    {
+     "element": "title",
+     "action": "fade up with a hit",
+     "start": 1.2,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P01",
+    "role": "frame around the real photo: sky and ground strip only",
+    "desc": "top-down cut-paper horizon: a pale paper sky and a low strip of teal paper palm fronds and sawgrass along the bottom edge, a single mustard-yellow paper sun disc, large calm empty area in the middle for a photograph"
+   }
+  },
+  {
+   "n": 2,
+   "frame": "board",
+   "on_screen": [
+    "1 governor · 1 Senate · 28 House districts"
+   ],
+   "vo": "One governor, one senator, twenty-eight House members. Eighty-three House candidates alone.",
+   "sfx": "tile ticks, soft riser",
+   "facts": [
+    "F-01",
+    "F-02"
+   ],
+   "params": {},
+   "animations": [
+    {
+     "element": "tiles",
+     "action": "scale in from center, 30 tiles",
+     "start": 0.2,
+     "duration": 1.8,
+     "easing": "ease-out",
+     "stagger_ms": 60
+    },
+    {
+     "element": "caption",
+     "action": "fade in",
+     "start": 2.2,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P02",
+    "role": "backing grid; real tiles composite on top",
+    "desc": "top-down grid of thirty small blank paper rectangles in three rows of ten, softly shadowed, slightly different off-white and pale teal tones, one rectangle in mustard yellow, all perfectly blank"
+   }
+  },
+  {
+   "n": 3,
+   "frame": "map",
+   "on_screen": [
+    "21 of 28 redrawn"
+   ],
+   "vo": "First, the House. Florida redrew twenty-one of its twenty-eight districts this year.",
+   "sfx": "hit on the number",
+   "facts": [
+    "F-18"
+   ],
+   "params": {
+    "filled": "8-28",
+    "unchanged": "1-7"
+   },
+   "animations": [
+    {
+     "element": "districts 8 to 28",
+     "action": "fill teal, left to right",
+     "start": 0.4,
+     "duration": 1.6,
+     "easing": "ease-in-out"
+    },
+    {
+     "element": "chip",
+     "action": "count 0→21",
+     "start": 1.0,
+     "duration": 0.8,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P03",
+    "role": "texture behind the real map",
+    "desc": "an abstract paper-cut peninsula shape made of overlapping torn paper layers in pale teal and grey, with a faint cut seam running through it, large empty margins"
+   }
+  },
+  {
+   "n": 4,
+   "frame": "map_bars",
+   "on_screen": [
+    "FL-14 Trump 55 · Harris 44",
+    "FL-9 Trump 58 · Harris 41",
+    "reporters' figures, 2024 vote on new lines (WLRN)",
+    "courts declined to block the map for 2026 (WUSF)"
+   ],
+   "vo": "Reporters put Trump's 2024 vote at fifty-five to forty-four in Castor's new district.",
+   "sfx": "bars grow with a rising tone",
+   "facts": [
+    "F-19",
+    "F-20",
+    "F-21"
+   ],
+   "params": {
+    "bars": [
+     {
+      "label": "FL-14",
+      "a": 55,
+      "b": 44
+     },
+     {
+      "label": "FL-9",
+      "a": 58,
+      "b": 41
+     }
+    ]
+   },
+   "animations": [
+    {
+     "element": "map",
+     "action": "zoom to FL-14 and FL-9",
+     "start": 0.0,
+     "duration": 1.0,
+     "easing": "ease-in-out"
+    },
+    {
+     "element": "bars",
+     "action": "grow from zero",
+     "start": 1.0,
+     "duration": 0.9,
+     "easing": "ease-out"
+    },
+    {
+     "element": "small print",
+     "action": "fade in",
+     "start": 2.4,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P04",
+    "role": "texture behind the bars",
+    "desc": "close detail of overlapping paper layers being re-cut with a sharp blade edge, thin strips of teal and ink paper curling away from the cut, shallow depth of field"
+   }
+  },
+  {
+   "n": 5,
+   "frame": "portraits_pins",
+   "on_screen": [
+    "FL-25 · Moskowitz",
+    "FL-6 · Fine",
+    "FL-20 · Wasserman Schultz",
+    "won their August 18 primaries"
+   ],
+   "vo": "In August, Moskowitz, Fine and Wasserman Schultz all won primaries under the new lines.",
+   "sfx": "three tight hits",
+   "facts": [
+    "F-22"
+   ],
+   "params": {
+    "people": [
+     "Jared Moskowitz",
+     "Randy Fine",
+     "Debbie Wasserman Schultz"
+    ],
+    "pins": [
+     25,
+     6,
+     20
+    ]
+   },
+   "animations": [
+    {
+     "element": "portraits",
+     "action": "drop onto pins, 3-frame bounce",
+     "start": 0.4,
+     "duration": 0.5,
+     "easing": "ease-out",
+     "stagger_ms": 450
+    },
+    {
+     "element": "caption",
+     "action": "fade in",
+     "start": 2.2,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P05",
+    "role": "backing for pins; portraits composite on top",
+    "desc": "three small circular paper discs in mustard yellow resting on a pale teal paper map texture, long soft shadows, top-down"
+   }
+  },
+  {
+   "n": 6,
+   "frame": "issue_strip",
+   "on_screen": [
+    "Six issues",
+    "A dash = not graded, not zero"
+   ],
+   "vo": "Each profile shows up to six issue grades. A dash means not graded.",
+   "sfx": "single bell tone on the dash",
+   "facts": [
+    "F-23"
+   ],
+   "params": {
+    "person": "Kathy Castor"
+   },
+   "animations": [
+    {
+     "element": "six slots",
+     "action": "fill in order",
+     "start": 0.3,
+     "duration": 0.3,
+     "easing": "ease-out",
+     "stagger_ms": 250
+    },
+    {
+     "element": "dash slot",
+     "action": "pulse once",
+     "start": 2.2,
+     "duration": 0.5,
+     "easing": "ease-in-out"
+    }
+   ],
+   "plate": {
+    "id": "P06",
+    "role": "backing for the six slots",
+    "desc": "a row of six empty square paper windows with thin ink borders, four of them filled with flat pale grey paper, two with soft teal paper behind, top-down, symmetrical"
+   }
+  },
+  {
+   "n": 7,
+   "frame": "split_portraits",
+   "on_screen": [
+    "GOVERNOR",
+    "Donalds (R) · Jolly (D)",
+    "Three numbers"
+   ],
+   "vo": "Governor: Donalds versus Jolly. Three numbers that do not agree.",
+   "sfx": "beat drops to the kick only",
+   "facts": [
+    "F-08",
+    "F-09",
+    "F-10"
+   ],
+   "params": {
+    "left": "Byron Donalds",
+    "right": "David Jolly"
+   },
+   "animations": [
+    {
+     "element": "split",
+     "action": "wipe in from the seam",
+     "start": 0.0,
+     "duration": 0.6,
+     "easing": "ease-out"
+    },
+    {
+     "element": "three chips",
+     "action": "pop in empty, one by one",
+     "start": 1.6,
+     "duration": 0.3,
+     "easing": "ease-out",
+     "stagger_ms": 300
+    }
+   ],
+   "plate": {
+    "id": "P07",
+    "role": "split backdrop",
+    "desc": "a clean split of the frame into two halves: left half ink-black paper, right half pale teal paper, a thin torn-paper seam between them, three small blank paper circles floating in a row above the seam"
+   },
+   "structural": [
+    "3"
+   ]
+  },
+  {
+   "n": 8,
+   "frame": "poll_bars",
+   "on_screen": [
+    "UNF poll",
+    "Donalds 49",
+    "Jolly 47",
+    "1,471 likely voters · Oct 12–19 · ±2.81"
+   ],
+   "vo": "UNF's poll says forty-nine to forty-seven. Close, not a lead.",
+   "sfx": "bars grow",
+   "facts": [
+    "F-08"
+   ],
+   "params": {
+    "title": "UNF poll, governor",
+    "rows": [
+     {
+      "label": "Donalds (R)",
+      "v": 49,
+      "color": "ink"
+     },
+     {
+      "label": "Jolly (D)",
+      "v": 47,
+      "color": "teal"
+     }
+    ],
+    "caption": "1,471 likely voters · Oct 12–19 · margin of error ±2.81"
+   },
+   "animations": [
+    {
+     "element": "bars",
+     "action": "grow from zero",
+     "start": 0.3,
+     "duration": 0.9,
+     "easing": "ease-out"
+    },
+    {
+     "element": "caption",
+     "action": "fade in",
+     "start": 1.6,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P08",
+    "role": "backing for the bars",
+    "desc": "two horizontal paper strips of nearly equal length, one ink black and one teal, lying on warm off-white paper with tiny graph-paper grid lines, top-down"
+   }
+  },
+  {
+   "n": 9,
+   "frame": "market_chip",
+   "on_screen": [
+    "83¢",
+    "Kalshi · Republican party contract",
+    "a price, not a vote share"
+   ],
+   "vo": "Kalshi's Republican contract last traded at eighty-three cents. A price, not a vote share.",
+   "sfx": "cash-register tick, once",
+   "facts": [
+    "F-09"
+   ],
+   "params": {
+    "race": "governor",
+    "ticker_suffix": "-R"
+   },
+   "animations": [
+    {
+     "element": "price",
+     "action": "count 0→83",
+     "start": 0.3,
+     "duration": 0.8,
+     "easing": "ease-out"
+    },
+    {
+     "element": "label",
+     "action": "fade in",
+     "start": 1.4,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P09",
+    "role": "backing for the chip",
+    "desc": "a blank paper price tag on a thin string swinging gently against a plain off-white paper wall, mustard-yellow tag, long soft shadow"
+   }
+  },
+  {
+   "n": 10,
+   "frame": "two_bars",
+   "on_screen": [
+    "$107.6M",
+    "$6.4M",
+    "committee money reported as of Sept 11 · includes transfers · not ad spending"
+   ],
+   "vo": "Committee money, September eleventh: one hundred seven million versus six point four. Not ad spending.",
+   "sfx": "low swell",
+   "facts": [
+    "F-10"
+   ],
+   "params": {
+    "rows": [
+     {
+      "label": "Friends of Byron Donalds",
+      "v": 107.6,
+      "text": "$107.6M"
+     },
+     {
+      "label": "Florida 2026 (backing Jolly)",
+      "v": 6.4,
+      "text": "$6.4M"
+     }
+    ],
+    "caption": "reported by the News Service of Florida as of Sept 11 · includes transfers · not ad spending"
+   },
+   "animations": [
+    {
+     "element": "bars",
+     "action": "rise from baseline",
+     "start": 0.3,
+     "duration": 1.0,
+     "easing": "ease-out"
+    },
+    {
+     "element": "caption",
+     "action": "fade in",
+     "start": 1.8,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P10",
+    "role": "backing for the two bars",
+    "desc": "two stacks of blank paper slips of very different heights standing side by side on an off-white surface, one tall in ink black and one short in teal, side light"
+   }
+  },
+  {
+   "n": 11,
+   "frame": "three_stamps",
+   "on_screen": [
+    "ASKS VOTERS",
+    "SHOWS TRADERS",
+    "SHOWS FUNDING"
+   ],
+   "vo": "A poll asks voters. A market shows traders. Money shows funding. None is a forecast.",
+   "sfx": "bed returns full",
+   "facts": [
+    "F-08",
+    "F-09",
+    "F-10"
+   ],
+   "params": {
+    "stamps": [
+     {
+      "top": "POLL",
+      "bottom": "ASKS VOTERS"
+     },
+     {
+      "top": "MARKET",
+      "bottom": "SHOWS TRADERS"
+     },
+     {
+      "top": "MONEY",
+      "bottom": "SHOWS FUNDING"
+     }
+    ],
+    "footer": "None is a forecast."
+   },
+   "animations": [
+    {
+     "element": "stamps",
+     "action": "press down in turn",
+     "start": 0.3,
+     "duration": 0.25,
+     "easing": "ease-in",
+     "stagger_ms": 400
+    },
+    {
+     "element": "footer",
+     "action": "fade in",
+     "start": 2.2,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P11",
+    "role": "backing for the three stamps",
+    "desc": "three identical blank paper stamps with round bases lined up in a row on off-white paper, each leaving a faint blank circular imprint, top-down"
+   }
+  },
+  {
+   "n": 12,
+   "frame": "senate_card",
+   "on_screen": [
+    "U.S. SENATE · SPECIAL ELECTION",
+    "Moody (R) · Nixon (D)"
+   ],
+   "vo": "Now the Senate: a special election for the last two years of Rubio's term.",
+   "sfx": "beat re-enters with a brass stab",
+   "facts": [
+    "F-12"
+   ],
+   "params": {
+    "left": "Ashley Moody",
+    "right": "Angie Nixon",
+    "portrait_px": 300
+   },
+   "animations": [
+    {
+     "element": "card",
+     "action": "hard cut in on the beat",
+     "start": 0.0,
+     "duration": 0.0,
+     "easing": "none"
+    },
+    {
+     "element": "portraits",
+     "action": "slide in from opposite sides at the same speed",
+     "start": 0.2,
+     "duration": 0.6,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P12",
+    "role": "frame around the Senate card",
+    "desc": "a tall cut-paper arch in teal framing a plain off-white inner space, small mustard-yellow geometric dots along the top, symmetrical, ceremonial but abstract"
+   }
+  },
+  {
+   "n": 13,
+   "frame": "portrait_spotlight",
+   "on_screen": [
+    "Nixon wins the Democratic primary",
+    "over Alex Vindman",
+    "Vindman: about $14.5M reported raised through June (WFLX)"
+   ],
+   "vo": "Angie Nixon beat Alex Vindman, who had reported raising fourteen and a half million.",
+   "sfx": "brass line rises",
+   "facts": [
+    "F-15",
+    "F-16"
+   ],
+   "params": {
+    "person": "Angie Nixon",
+    "card": "Alex Vindman · defeated in the primary",
+    "money": "reported about $14.5M raised through June (WFLX)"
+   },
+   "animations": [
+    {
+     "element": "portrait",
+     "action": "scale 80%→100% in the spotlight",
+     "start": 0.2,
+     "duration": 0.8,
+     "easing": "ease-out"
+    },
+    {
+     "element": "vindman card",
+     "action": "slide in from right",
+     "start": 1.4,
+     "duration": 0.5,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P13",
+    "role": "stage light behind the portrait",
+    "desc": "a single spotlight cone cut from pale yellow paper falling on an empty paper stage, deep teal paper curtains at the edges, no figure"
+   }
+  },
+  {
+   "n": 14,
+   "frame": "poll_bars_portraits",
+   "on_screen": [
+    "UNF poll",
+    "Moody 49",
+    "Nixon 45",
+    "Oct 12–19 · ±2.81"
+   ],
+   "vo": "The newest poll: Moody forty-nine, Nixon forty-five. Margin of error, nearly three.",
+   "sfx": "bars grow, held note",
+   "facts": [
+    "F-13"
+   ],
+   "params": {
+    "left": "Ashley Moody",
+    "right": "Angie Nixon",
+    "portrait_px": 300,
+    "rows": [
+     {
+      "label": "Moody (R)",
+      "v": 49,
+      "color": "ink"
+     },
+     {
+      "label": "Nixon (D)",
+      "v": 45,
+      "color": "teal"
+     }
+    ],
+    "caption": "UNF · Oct 12–19 · margin of error ±2.81"
+   },
+   "animations": [
+    {
+     "element": "bars",
+     "action": "grow from zero, same speed",
+     "start": 0.3,
+     "duration": 0.9,
+     "easing": "ease-out"
+    },
+    {
+     "element": "caption",
+     "action": "fade in",
+     "start": 1.6,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P14",
+    "role": "backing for the bars",
+    "desc": "two horizontal paper strips, ink black slightly longer than teal, resting on warm off-white paper, a thin mustard-yellow ruler line across them"
+   },
+   "structural": [
+    "3"
+   ]
+  },
+  {
+   "n": 15,
+   "frame": "gap_marker",
+   "on_screen": [
+    "July: 8 (one report, WLRN)",
+    "Now: 4"
+   ],
+   "vo": "In July, one report says Moody led by eight. Now: four.",
+   "sfx": "the held note lifts",
+   "facts": [
+    "F-13"
+   ],
+   "params": {
+    "from": 8,
+    "to": 4,
+    "caption": "gap in points, Moody over Nixon · July from one report (WLRN) · now from the UNF poll"
+   },
+   "animations": [
+    {
+     "element": "marker",
+     "action": "slide from 8 to 4",
+     "start": 0.8,
+     "duration": 1.0,
+     "easing": "ease-in-out"
+    },
+    {
+     "element": "caption",
+     "action": "fade in",
+     "start": 0.2,
+     "duration": 0.4,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P15",
+    "role": "backing for the marker",
+    "desc": "a paper slider track with a mustard-yellow paper marker caught mid-slide, motion-blurred edge, plain off-white background"
+   },
+   "structural": [
+    "1"
+   ]
+  },
+  {
+   "n": 16,
+   "frame": "quote_cards",
+   "on_screen": [
+    "Moody declined to debate",
+    "She says she will keep engaging with voters",
+    "News Service of Florida"
+   ],
+   "vo": "Moody has declined to debate. She says she will keep engaging with voters.",
+   "sfx": "music thins to kick and bass",
+   "facts": [
+    "F-14"
+   ],
+   "params": {
+    "cards": [
+     {
+      "head": "Declined to debate",
+      "body": "Moody declined to debate Nixon.",
+      "source": "News Service of Florida, Oct 1"
+     },
+     {
+      "head": "Her response",
+      "body": "She says she will keep engaging with voters.",
+      "source": "News Service of Florida, Oct 1"
+     }
+    ]
+   },
+   "animations": [
+    {
+     "element": "cards",
+     "action": "slide in from opposite sides at the same speed",
+     "start": 0.3,
+     "duration": 0.6,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P16",
+    "role": "backing for the cards",
+    "desc": "two identical blank paper cards side by side with a thin gap, ink border, soft shadow, plain off-white background, perfectly symmetrical"
+   }
+  },
+  {
+   "n": 17,
+   "frame": "closing_line",
+   "on_screen": [
+    "A challenger who beat the money favorite.",
+    "Four points back.",
+    "Polls are snapshots."
+   ],
+   "vo": "A challenger who beat the money favorite, four points back. Polls are snapshots.",
+   "sfx": "full brass drop, the peak",
+   "facts": [
+    "F-13",
+    "F-15",
+    "F-16"
+   ],
+   "params": {
+    "left": "Ashley Moody",
+    "right": "Angie Nixon",
+    "portrait_px": 300,
+    "lines": [
+     "A challenger who beat the money favorite.",
+     "Four points back.",
+     "Polls are snapshots."
+    ]
+   },
+   "animations": [
+    {
+     "element": "everything else",
+     "action": "clear",
+     "start": 0.0,
+     "duration": 0.4,
+     "easing": "ease-in"
+    },
+    {
+     "element": "lines",
+     "action": "type on, one at a time",
+     "start": 0.6,
+     "duration": 0.5,
+     "easing": "ease-out",
+     "stagger_ms": 900
+    }
+   ],
+   "plate": {
+    "id": "P17",
+    "role": "peak-moment backdrop",
+    "desc": "an empty open field of off-white paper with a low sunrise of concentric mustard-yellow and teal paper semicircles on the horizon, rays of thin paper strips, hopeful, calm, very clean"
+   }
+  },
+  {
+   "n": 18,
+   "frame": "end_card",
+   "on_screen": [
+    "Early voting: Oct 24–31",
+    "all 67 counties",
+    "Every contest and every grade: link in bio",
+    "Narration is synthetic. Background graphics are AI-generated illustrations."
+   ],
+   "vo": "Early voting is open through October thirty-first. Every contest, every grade, linked below.",
+   "sfx": "final hit, clean tail",
+   "facts": [
+    "F-25"
+   ],
+   "params": {},
+   "animations": [
+    {
+     "element": "end card",
+     "action": "fade in over the sunrise",
+     "start": 0.0,
+     "duration": 0.8,
+     "easing": "ease-out"
+    },
+    {
+     "element": "credits",
+     "action": "fade in",
+     "start": 1.8,
+     "duration": 0.5,
+     "easing": "ease-out"
+    }
+   ],
+   "plate": {
+    "id": "P18",
+    "role": "end card backdrop",
+    "desc": "a calm paper-cut coastline at dawn: a pale teal sea, a sliver of off-white beach, a few stylized paper palm fronds, mustard-yellow sun just above the horizon, a large empty area in the upper half"
+   }
+  }
+ ],
+ "transitions": [
+  {
+   "id": "T01",
+   "from": 1,
+   "to": 2,
+   "seconds": 1.0,
+   "motion": "The paper horizon folds forward like a card and thirty paper tiles unfold out of it into a neat grid; locked-off camera, slow, smooth.",
+   "fallback": "tiles scale in from the center with a 60 ms stagger"
+  },
+  {
+   "id": "T02",
+   "from": 2,
+   "to": 3,
+   "seconds": 1.0,
+   "motion": "The thirty tiles slide together and merge into one pale-teal paper peninsula; locked-off camera.",
+   "fallback": "tiles morph (mask) into the map outline"
+  },
+  {
+   "id": "T03",
+   "from": 3,
+   "to": 4,
+   "seconds": 1.0,
+   "motion": "Camera pushes in slowly on the paper peninsula as its inner layers shift and a blade re-cuts one edge; thin paper strips curl away.",
+   "fallback": "map scale-up 140% with the two districts highlighting"
+  },
+  {
+   "id": "T04",
+   "from": 4,
+   "to": 5,
+   "seconds": 1.0,
+   "motion": "The cut paper layers settle; three mustard-yellow paper discs drop in one after another and bounce once.",
+   "fallback": "three pins drop with a 3-frame bounce"
+  },
+  {
+   "id": "T05",
+   "from": 5,
+   "to": 6,
+   "seconds": 1.0,
+   "motion": "The three discs slide apart and each splits into two, becoming a row of six small paper windows.",
+   "fallback": "pins become six slots by mask"
+  },
+  {
+   "id": "T06",
+   "from": 6,
+   "to": 7,
+   "seconds": 1.0,
+   "motion": "The six windows slide to the edges and the frame splits into an ink half and a teal half with a torn seam.",
+   "fallback": "vertical wipe with a torn-edge matte"
+  },
+  {
+   "id": "T07",
+   "from": 7,
+   "to": 8,
+   "seconds": 1.0,
+   "motion": "The seam holds while two horizontal paper strips slide in from the left and stop at nearly equal lengths.",
+   "fallback": "bars grow from zero over 0.6 s"
+  },
+  {
+   "id": "T08",
+   "from": 8,
+   "to": 9,
+   "seconds": 1.0,
+   "motion": "The strips fold away and a paper price tag drops on its string and swings once.",
+   "fallback": "cross-dissolve with the tag easing in"
+  },
+  {
+   "id": "T09",
+   "from": 9,
+   "to": 10,
+   "seconds": 1.0,
+   "motion": "The tag swings out of frame and two stacks of paper slips of different heights rise from the bottom edge.",
+   "fallback": "two bars rise from the baseline"
+  },
+  {
+   "id": "T10",
+   "from": 10,
+   "to": 11,
+   "seconds": 1.0,
+   "motion": "Both stacks slide into a row and three round paper stamps press down in turn, each leaving a faint blank imprint.",
+   "fallback": "three chips stamp in at 10-frame intervals"
+  },
+  {
+   "id": "T11",
+   "from": 11,
+   "to": 12,
+   "seconds": 0.5,
+   "motion": "A hard cut: a single flash of brass-colored paper sweeps across the frame left to right on the beat, revealing a tall teal paper arch.",
+   "fallback": "hard cut on the beat with a 4-frame yellow flash"
+  },
+  {
+   "id": "T12",
+   "from": 12,
+   "to": 13,
+   "seconds": 1.0,
+   "motion": "The arch's inner space darkens slightly and a cone of pale yellow paper light falls onto an empty stage between teal curtains.",
+   "fallback": "spotlight mask grows over 0.6 s"
+  },
+  {
+   "id": "T13",
+   "from": 13,
+   "to": 14,
+   "seconds": 1.0,
+   "motion": "The stage light lowers and two horizontal paper strips slide up into place, ink slightly longer than teal.",
+   "fallback": "bars grow, portraits scale to equal size"
+  },
+  {
+   "id": "T14",
+   "from": 14,
+   "to": 15,
+   "seconds": 1.0,
+   "motion": "The strips fall away and a paper slider track appears; its yellow marker begins to slide.",
+   "fallback": "marker animates from 8 to 4 over 1 s"
+  },
+  {
+   "id": "T15",
+   "from": 15,
+   "to": 16,
+   "seconds": 1.0,
+   "motion": "The slider track folds in half and becomes two identical blank paper cards side by side.",
+   "fallback": "two cards slide in from opposite sides at the same speed"
+  },
+  {
+   "id": "T16",
+   "from": 16,
+   "to": 17,
+   "seconds": 1.0,
+   "motion": "A broad sweep of paper strips clears everything to an empty off-white field in one smooth motion.",
+   "fallback": "wipe to off-white, then hold 6 frames"
+  },
+  {
+   "id": "T17",
+   "from": 17,
+   "to": 18,
+   "seconds": 1.0,
+   "motion": "Concentric yellow and teal paper semicircles rise on the horizon like a sunrise and settle; a pale sea and a sliver of beach slide in beneath.",
+   "fallback": "sunrise shapes rise over 1 s, end card fades in"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X01",
+   "kind": "cover frame 1080x1920 and 1080x1350 crop",
+   "layer1": "three chips (49–47, 83¢, $107.6M vs $6.4M) over the Old Capitol",
+   "plate_id": "P01"
+  },
+  {
+   "id": "X02",
+   "kind": "Story cutdown opener 1080x1920, 3 seconds",
+   "layer1": "the 30-tile board with the line 'What do the numbers actually show?'",
+   "plate_id": "P02"
+  },
+  {
+   "id": "X03",
+   "kind": "loop point: last frame crossfades to hook frame",
+   "layer1": "end card to segment 1 title",
+   "plate_id": "P18"
+  }
+ ]
+}

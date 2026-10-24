@@ -18,5 +18,8 @@ rewrite an approved skill, alter a truth standard or loosen a publishing rule au
 
 ## Contract (v1.0.0)
 **Owner** LLF production. **Type** instruction skill; proposes changes, never edits a skill or threshold itself. **Input** the workflow ledger (`data/elections/workflow_ledger.jsonl`), the fact-check ledger and the correction log of a shipped article. **Output** a dated entry in `docs/election-build/WORKFLOW_LOG.md` plus a separate proposal list for owner approval. **Fixtures** none yet (first retrospective is due after the first Phase C article ships). **Failure semantics** a missing ledger is reported as a gap, not reconstructed.
+## Video additions (2026-10-24)
+For a shipped video also record: segments changed after QA and why, facts that went stale between spec and posting, generated plates rejected and the reason (text, faces, artifacts), hours spent on image generation versus assembly, and hook performance (3-second hold, average watch percentage, shares and saves per reach) for each hook cut. Propose spec or validator changes separately for owner approval.
+
 ## Changelog
 1.0.0 (2026-10-23) first version.

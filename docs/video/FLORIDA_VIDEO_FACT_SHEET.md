@@ -1,0 +1,24 @@
+# Fact sheet for fl-2026-state-of-the-race (generated from the spec; do not edit by hand)
+
+As of 2026-10-24. Everything the video may state. VERIFIED = read in a primary source or two independent sources; ATTRIBUTED = always said as 'according to ...'. REFRESH = re-read on the day of publication.
+
+| ID | Fact | Numbers | Source | Status | Never say | Refresh |
+|---|---|---|---|---|---|---|
+| F-01 | Florida has 30 contests in scope on Nov 3 2026: 1 governor, 1 Senate seat, 28 House districts | 30, 1, 28 | Florida Division of Elections roster, captured 2026-10-23 | VERIFIED | all of Florida's races; many others exist | no |
+| F-02 | 83 House candidates on the November ballot | 83 | Florida Division of Elections roster, captured 2026-10-23 | VERIFIED | any count after a withdrawal without re-checking | yes |
+| F-08 | UNF poll, governor: Donalds 49, Jolly 47, 4 undecided; 1,471 likely voters; Oct 12-19; margin of error 2.81 | 49, 47, 1471, 2.81, 4 | Action News Jax Oct 21 (opened; two-point lead); toplines also in the LLF governor article | ATTRIBUTED | Donalds leads; Jolly is closing | yes |
+| F-09 | Kalshi governor contract on the Republican party last traded 83 cents (Democratic 19 cents) at 22:40Z Oct 23 | 83, 19 | Kalshi GOVPARTYFL-26, captured 2026-10-23 | VERIFIED | 83% chance; the market says Donalds will win; any link between price and poll | yes |
+| F-10 | Committee money as of Sept 11 reported by the News Service of Florida: Friends of Byron Donalds $107.6M raised; Florida 2026 (backing Jolly) $6.4M received; includes transfers | 107.6, 6.4, 17 | News Service of Florida via CBS12, 2026-09-21 (cited in the LLF governor article) | ATTRIBUTED | spent on ads; Donalds has $107 million; any current total | yes |
+| F-12 | Senate special election: Moody (R, appointed Jan 2025), Nixon (D, state Rep.), Gillespie (no party); winner serves the rest of Rubio's term, about two years | 2, 3 | WUSF / News Service of Florida 2026-10-01; Division of Elections | VERIFIED | Moody was elected | no |
+| F-13 | UNF Senate poll: Moody 49, Nixon 45, 5 undecided; margin of error 2.81; one report (WLRN) says July's gap was 8 | 49, 45, 5, 2.81, 8, 4 | WLRN and Action News Jax, 2026-10-21 (both opened); July figure WLRN only | VERIFIED | Moody leads by four without the margin of error; July figure without saying one report | yes |
+| F-14 | Moody declined to debate Nixon; Moody told the News Service of Florida she will keep engaging with voters | — | WUSF / News Service of Florida 2026-10-01 | ATTRIBUTED | refuses, dodges, hides | no |
+| F-15 | Nixon won the Aug 18 Democratic primary over Alex Vindman | — | Florida Division of Elections roster; Algemeiner 2026-08-19 (no shares) | VERIFIED | any vote share until the Division of Elections count is read | no |
+| F-16 | Vindman had reported raising roughly $14.5 million through June (as cited by WFLX) | 14.5 | WFLX 2026-08-11 | ATTRIBUTED | outspent; Nixon raised less | no |
+| F-18 | 21 of 28 House districts reworked; districts 1 to 7 unchanged | 21, 28, 1, 7 | WLRN 2026-05-05; WUSF 2026-06-15 (WUSF attributes the count to the News Service of Florida) | ATTRIBUTED | gerrymander or any motive claim | no |
+| F-19 | Florida Supreme Court declined an emergency request to block the map; a suit is in Leon County court | — | WUSF 2026-06-15; WLRN 2026-05-05 | ATTRIBUTED | the map is legal | no |
+| F-20 | Reported 2024 vote on the new lines: FL-14 Trump 55, Harris 44; FL-9 Trump 58, Harris 41 | 55, 44, 58, 41 | WLRN 2026-05-05 (reporters' figures; LLF did not recompute) | ATTRIBUTED | Castor's seat is Republican; any forecast | no |
+| F-21 | Castor said she would run in the new FL-14 and faces Republican Mike Beltran | — | WLRN 2026-05-05; Division of Elections | VERIFIED | — | no |
+| F-22 | Aug 18 primaries: Moskowitz (FL-25), Fine (FL-6) and Wasserman Schultz (FL-20) won their primaries | 25, 6, 20 | Reuters via GV Wire 2026-08-18; Division of Elections roster; Ballotpedia 2026-06-23 | VERIFIED | vote shares unless 'as reported by Algemeiner' or after the Division of Elections count is read; any criminal claim | no |
+| F-23 | TIP grades six issues only where a candidate has recorded congressional acts; not graded is not a zero | 6 | TIP methodology; LLF methods page | VERIFIED | TIP rates candidates as good or bad | no |
+| F-24 | Moody has two graded issues (war-crime accountability F-, universal healthcare F-; 0 of 9 and 0 of 3 recorded acts aligned); Nixon has none graded | 2, 9, 3, 0 | TIP candidate records computed 2026-10-21 | VERIFIED | endorsing or condemning a grade; inferring a position from a missing grade | yes |
+| F-25 | Early voting runs October 24 to 31 in all 67 counties; some counties offer extra days | 24, 31, 67 | Florida Department of State press release 2026-10-19 (opened) | VERIFIED | mandatory period; county hours | yes |

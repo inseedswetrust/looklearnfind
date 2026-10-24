@@ -5,7 +5,7 @@ description: Independent, claim-driven pre-publication check for LLF election ar
 
 # llf-factcheck-finalize
 
-**Version** 2.1.0 · **Owner** LLF standards (a reviewer other than the drafter) · **Type** skill plus `tools/qa/factcheck_gate.py`. Claim-driven, not dataset-driven (owner reset 2026-10-24).
+**Version** 2.2.0 · **Owner** LLF standards (a reviewer other than the drafter) · **Type** skill plus `tools/qa/factcheck_gate.py`. Claim-driven, not dataset-driven (owner reset 2026-10-24).
 
 ## What is checked
 Only what the article says. Always: candidate identity and ballot status (Division of Elections roster), names and dates, the headline, the five or so most important material claims, quote accuracy, time-sensitive numbers, the source of every TIP grade, image rights, links, responsive rendering. A disputed or damaging claim needs the original material or court record plus a response or attribution. A market or poll appears only if the story uses it, with source, time and, for markets, party-versus-candidate and quote kind.
@@ -26,6 +26,9 @@ Finance data coverage. No FEC field, Schedule E or B, donor trace, ad-spend reco
 ## Independence (audit)
 The gate checks the ledger; it cannot supply an independent reader. A draft written by the same session that built the ledger stays at DRAFTED in the story board until a different person or agent has read the sources and put their name in the `reviewer` column; only then does it move to FACT_CHECKED. Run the gate with `--author <drafter>` so a matching `reviewer` is rejected.
 
+## Video
+A video is checked by `python3 tools/video/build_video_pack.py <spec> --check`: every fact has a source and a VERIFIED or ATTRIBUTED status, and every number spoken or shown must be in that segment's facts. The facts themselves must come from claims files that passed this gate. A fact marked REFRESH is re-read on the day of publication.
+
 ## Reject
 Unsupported election odds; a search snippet treated as reporting; ad-tracker figures without a retrievable source; causal explanations of price moves; a dark-horse label without a verified criterion; rankings or endorsements.
 
@@ -33,4 +36,4 @@ Unsupported election odds; a search snippet treated as reporting; ad-tracker fig
 `tests/test_factcheck_gate.py` (16): unresolved verdicts, missing source or time, non-independent reviewer, governor-profile grade, ungraded grade, aggregator-only poll, finance row with no total, market without quote kind, NOT FOR PUBLICATION image, macro without a ledger row, and the lean ledger (ready without finance rows; real link, source date and no unresolved doubt required). The gate never edits a ledger or an article.
 
 ## Changelog
-2.1.0 (2026-10-24) independence rule made explicit. 2.0.0 (2026-10-24) lean `CLAIMS.csv` mode; finance, market and poll checks fire only for rows that make those claims. 1.1.0 (2026-10-23) deterministic gate and typed checks. 1.0.0 (2026-10-23) first ledger procedure.
+2.2.0 (2026-10-24) video check. 2.1.0 (2026-10-24) independence rule made explicit. 2.0.0 (2026-10-24) lean `CLAIMS.csv` mode; finance, market and poll checks fire only for rows that make those claims. 1.1.0 (2026-10-23) deterministic gate and typed checks. 1.0.0 (2026-10-23) first ledger procedure.

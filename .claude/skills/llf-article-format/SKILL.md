@@ -5,7 +5,7 @@ description: Apply LookLearnFind's approved election article schemas (State of t
 
 # llf-article-format
 
-**Version** 1.2.0 · **Owner** LLF editorial (ChatGPT drafts, Claude Code checks fit) · **Type** instruction skill. It carries no script; the checks are `llf-factcheck-finalize` and `llf-publication-qa`.
+**Version** 1.3.0 · **Owner** LLF editorial (ChatGPT drafts, Claude Code checks fit) · **Type** instruction skill. It carries no script; the checks are `llf-factcheck-finalize` and `llf-publication-qa`.
 
 ## Canonical schema pages
 `docs/schemas/01_STATE_OF_THE_RACE.md` · `02_DELTA_REPORT.md` · `03_SPENDING_REPORT.md` · `04_DARK_HORSE_PARTY.md` · `05_DARK_HORSE_AIPAC.md` · `06_AIPAC_CANDIDATES_STILL_RUNNING.md` · `07_STATE_AND_RACE_ARTICLE_REQUIREMENTS.md` (the guide and race modules). The index is `docs/election-build/INDEX.md`. Do not create a second schema: map every article to one of these.
@@ -21,6 +21,9 @@ Story first, proof enough. A finance table, market chart or poll is included onl
 - **Alt text and captions.** Every chart is an SVG with `role="img"` and a plain-language `aria-label`; every figure has a caption with source, date and what the number is not.
 - **Neutral color.** Do not code candidates by party color in charts; label with name and party letter.
 
+## After the articles
+When a state's articles are DRAFTED, `llf-video-storyboard` turns their claims into the video pack. Keep each article's claims file: it is the only source of facts for the video.
+
 ## Rules every article follows
 Scope: Governor, U.S. Senate, U.S. House. Neutral reporting: no win probabilities, no causal claims about spending or price moves, no rankings or endorsements. R1: first mention of a featured candidate links to their TIP profile. R2: every mentioned race links to that race. TIP shows six issues; "not graded" is never zero; a grade is cited only from the profile that shows it. Numbers come from `[[v:name]]` macros where data exists; sources are `[[s:n]]`. Style: no Oxford comma.
 
@@ -34,4 +37,4 @@ Existing reports (`florida-governor-fundraising-polling-2026`, `florida-house-in
 A draft that needs a figure the brief does not contain stops with the gap named; it is never filled from memory.
 
 ## Changelog
-1.2.0 (2026-10-24) audit additions: headline test, as-of line, update cadence, image kit, alt text, neutral color. 1.1.0 (2026-10-24) lean standard; finance optional; brief and claims exchange. 1.0.0 (2026-10-23) first version; schemas imported from the Round 1 package into `docs/schemas/`.
+1.3.0 (2026-10-24) pointer to the video skill. 1.2.0 (2026-10-24) audit additions: headline test, as-of line, update cadence, image kit, alt text, neutral color. 1.1.0 (2026-10-24) lean standard; finance optional; brief and claims exchange. 1.0.0 (2026-10-23) first version; schemas imported from the Round 1 package into `docs/schemas/`.

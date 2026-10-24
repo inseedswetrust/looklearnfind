@@ -21,9 +21,13 @@ STATES = ["DISCOVERED", "ROSTER_VERIFIED", "DATA_CAPTURED", "RESEARCH_COMMISSION
 # Lean lane (owner reset 2026-10-24): the six states a normal story needs. The 15-state lane above stays available for work that needs graphics, mockup or owner gates.
 LEAN_STATES = ["DISCOVERED", "SOURCE_CHECKED", "DRAFTED", "FACT_CHECKED", "APPROVED", "PUBLISHED"]
 LEAN_ENTITIES_PREFIX = "story:"          # entities named story:<slug> use the lean lane
+# Video lane (2026-10-24): entities named video:<slug>.
+VIDEO_STATES = ["BRIEFED", "SCRIPTED", "STORYBOARDED", "ASSETS_GENERATED", "CUT", "QA_PASSED", "PUBLISHED"]
 
 
 def lane_of(entity):
+    if entity.startswith("video:"):
+        return VIDEO_STATES
     return LEAN_STATES if entity.startswith(LEAN_ENTITIES_PREFIX) else STATES
 
 
@@ -48,8 +52,8 @@ def record(entity, to, actor, skills=(), inputs=(), outputs=(), checks=None, rev
         raise ValueError(f"unknown state {to} for {entity}")
     cur = current(entity, path)
     if cur is None:
-        if to != "DISCOVERED":
-            raise ValueError("an entity starts at DISCOVERED")
+        if to != STATES[0]:
+            raise ValueError(f"an entity starts at {STATES[0]}")
     else:
         i, j = STATES.index(cur), STATES.index(to)
         if j > i + 1:
