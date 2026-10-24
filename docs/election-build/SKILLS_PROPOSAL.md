@@ -1,3 +1,5 @@
+> **SUPERSEDED 2026-10-24** by the lean editorial reset: the only required exchange is STORY_BRIEF.md and CLAIMS.csv (see docs/election-build/INDEX.md and docs/story-briefs/). The 14-file packet is optional reference. Kept for history.
+
 # Skills Proposal: repeating research, fact-check, write, build, QA and update for another state
 
 **Status:** proposal only. Nothing below is built as a skill or automation. The code listed under "existing" is real and was used to build the Florida pages.

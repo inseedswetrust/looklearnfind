@@ -1,3 +1,5 @@
+> **SUPERSEDED 2026-10-24** by the lean editorial reset: the only required exchange is STORY_BRIEF.md and CLAIMS.csv (see docs/election-build/INDEX.md and docs/story-briefs/). The 14-file packet is optional reference. Kept for history.
+
 # Production handoff to ChatGPT
 
 **Updated:** 2026-10-23 (after deploy). The Florida pages are **live** at https://looklearnfind.com/elections/2026/florida/ and the TIP changes are live at https://theissuesparty.org. Everything below is specific and not asked twice. Read `IMPLEMENTATION_REPORT.md` first, then `PUBLISHING_RULES.md`.

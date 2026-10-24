@@ -232,19 +232,19 @@ def market_card(race, title="What the market says"):
         f'<div class="q"><span class="qn">{e(c["yes_label"])}</span><span class="qp">{cents(c["last"])}</span>'
         f'<span class="qsub">bid {cents(c["yes_bid"])} · ask {cents(c["yes_ask"])}</span></div>' for c in cs)
     rule = (cs[0].get("rules") or "").split(".")[0]
-    return (f'<div class="mk"><h3>{e(title)}</h3><p class="small">Kalshi contract prices are market-implied estimates, not forecasts or vote shares.</p>'
+    return (f'<div class="mk"><h3>{e(title)}</h3><p class="small">Party-winner contracts: each resolves on the winning party and the name shown is only a label. Prices are market-implied estimates, not forecasts or vote shares.</p>'
             f'<div class="quotes">{cells}</div><p class="small">{e(m["title"])} Last trade shown. Captured {utc_stamp(FL["markets"]["captured_at_utc"])}. '
             f'<a href="{e(m["url"])}" rel="noopener">Kalshi market ↗</a></p>'
             + (f'<details class="small"><summary>Contract rule</summary>{e(rule)}.</details>' if rule else "") + "</div>")
 
 # ------------------------------------------------------------------ candidate cards
-def candidate_card(c, size="lg"):
+def candidate_card(c, size="lg", finance=True):
     extra = ""
     if c["primary"] in ("Won", "Unopposed"):
         extra = f'<span class="tag">{"Won primary" if c["primary"] == "Won" else "Unopposed in primary"}</span>'
     return f'''<article class="ccard {size}" id="c-{e(c["id"])}">
 <div class="cc-top">{portrait(c)}<div><div class="nm">{chip(c)}<h3>{e(c["name"])}</h3></div><div class="ds">{e(c["party"])}{(" · " + e(descr(c))) if descr(c) else ""}</div>{extra}</div></div>
-{finance_line(c, compact=(size == "sm"))}
+{finance_line(c, compact=(size == "sm")) if finance else ""}
 {issue_strip(c)}{('<p class="small gnote">Grades come from his congressional record, shown on TIP\'s congressional profile.</p>' if (c.get("tip") or {}).get("grades_url") else "")}
 <div class="cc-links">{tip_button(c)}<span class="small">{state_link(c)}</span></div></article>'''
 
@@ -431,7 +431,7 @@ def state_map(highlight=None, links=True, cls="statemap"):
     paths = []
     for n, v in d["districts"].items():
         n = int(n)
-        on = " on" if highlight == n else ""
+        on = " on" if (highlight == n or (isinstance(highlight, (set, list, tuple)) and n in highlight)) else ""
         p = f'<path d="{v["path"]}" class="dist{on}"><title>FL-{n:02d}</title></path>'
         paths.append(f'<a href="{ST_URL}house/{n}/" aria-label="Florida district {n}">{p}</a>' if links else p)
     return f'<svg class="{cls}" viewBox="0 0 {vb[2]} {vb[3]}" role="img" aria-label="Map of Florida\'s 28 congressional districts under the 2026 plan">{"".join(paths)}</svg>'
@@ -944,5 +944,163 @@ def render_report(s):
 </article>'''
     ld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "NewsArticle", "headline": s["title"], "description": s.get("dek", ""),
           "datePublished": s.get("date", ""), "dateModified": s.get("updated", s.get("date", "")), "author": {"@type": "Organization", "name": "LookLearnFind"},
-          "publisher": {"@type": "Organization", "name": "LookLearnFind"}}) + "</script>"
-    API["shell"](s["title"], s.get("dek", ""), s["path"], html, nav="politics", css=("elections",), js=("common", "elections"), jsonld=ld)
+          "publisher": {"@type": "Organization", "name": "LookLearnFind"}, **({"image": "https://looklearnfind.com" + s["og"]} if s.get("og") else {}), "mainEntityOfPage": "https://looklearnfind.com" + s["path"]}) + "</script>"
+    API["shell"](s["title"], s.get("dek", ""), s["path"], html, nav="politics", css=("elections",), js=("common", "elections"), jsonld=ld, og=(s.get("og") or None))
+
+
+# ------------------------------------------------------------------ Florida Senate and House articles (2026-10-24)
+# Components for the two long-form articles. Every number comes from data/elections/FL/story_data.json (with its source) or from the captured Kalshi/TIP data.
+_SD = {}
+def _sd():
+    if not _SD:
+        _SD.update(_j(D / "FL/story_data.json", {}))
+    return _SD
+
+def _bar_row(y, label, pct, scale, fill, note=""):
+    w = max(2, round(pct / scale * 430))
+    return (f'<text x="0" y="{y + 18}" class="rl">{e(label)}</text><rect x="190" y="{y}" width="{w}" height="26" fill="{fill}"/>'
+            f'<text x="{190 + w + 8}" y="{y + 19}" class="rv">{pct:g}%</text>' + (f'<text x="190" y="{y + 42}" class="rn">{e(note)}</text>' if note else ""))
+
+def poll_unf():
+    u = _sd()["unf_oct"]
+    rows = (_bar_row(8, "Ashley Moody (R)", u["moody"], 60, "#1c1d1b") + _bar_row(50, "Angie Nixon (D)", u["nixon"], 60, "#145b5d") + _bar_row(92, "Undecided", u["undecided"], 60, "#aeb8ad"))
+    alt = f'UNF poll, {u["field_start"]} to {u["field_end"]}: Moody {u["moody"]} percent, Nixon {u["nixon"]} percent, undecided {u["undecided"]} percent, {u["n"]:,} likely voters, margin of error plus or minus {u["moe"]}.'
+    return (f'<figure class="chartwrap pollcard"><h4>UNF poll, Florida U.S. Senate</h4><svg class="chart" viewBox="0 0 680 140" role="img" aria-label="{e(alt)}">{rows}</svg>'
+            f'<figcaption>{e(u["pollster"])}, fielded Oct 12–19 by telephone among {u["n"]:,} {e(u["population"])}; margin of error ±{u["moe"]} points overall. Published Oct 21. Reported by '
+            f'<a href="{e(u["sources"][0])}" rel="noopener">WLRN</a> and <a href="{e(u["sources"][1])}" rel="noopener">Action News Jax</a>. A poll is a snapshot, not a forecast.</figcaption></figure>')
+
+def sept_polls():
+    sd = _sd()
+    rows = "".join(f'<tr><td>{e(p["pollster"])}</td><td>{e(p["sponsor"])}</td><td>{e(p["field"])}</td><td class="num">{p["n"]:,}</td><td class="num">±{p["moe"]}</td>'
+                   f'<td class="num">{p["moody"]:g}</td><td class="num">{p["nixon"]:g}</td></tr>' for p in sd["sept_polls"])
+    return ('<div class="tablewrap"><table class="data"><caption class="sr">September polls of Florida likely voters</caption><thead><tr><th>Pollster</th><th>Sponsor</th><th>Fielded</th>'
+            '<th class="num">Sample</th><th class="num">Margin</th><th class="num">Moody</th><th class="num">Nixon</th></tr></thead><tbody>' + rows + '</tbody></table></div>'
+            f'<p class="small">All three polled likely Florida voters in September 2026. Listing as published by <a href="{e(sd["sept_source"])}" rel="noopener">Newsweek</a>; we have not opened the pollsters\' own releases.</p>')
+
+def _sen_pair():
+    return [_cand("Ashley Moody"), _cand("Angie Nixon")]
+
+def sen_cards():
+    return '<div class="ccards two">' + "".join(candidate_card(c, "xl", finance=False) for c in _sen_pair()) + "</div>" + tip_panel(_sen_pair())
+
+def mk_sen():
+    return market_card("senate", "What the Kalshi market shows")
+
+def stats_sen():
+    u = _sd()["unf_oct"]
+    r = next(c for c in FL["markets"]["races"]["senate"]["contracts"] if c["ticker"].endswith("-R"))
+    return ('<div class="statrow">'
+            f'<div><b>{u["moody"]}–{u["nixon"]}</b><span>Moody–Nixon, UNF poll</span><small>likely voters, Oct 12–19</small></div>'
+            f'<div><b>{u["n"]:,}</b><span>likely voters polled</span><small>margin of error ±{u["moe"]}</small></div>'
+            f'<div><b>{cents(r["last"])}</b><span>Kalshi last trade, Republican party contract</span><small>{utc_stamp(FL["markets"]["captured_at_utc"])}</small></div>'
+            '<div><b>3</b><span>candidates on the ballot</span><small>Florida Division of Elections</small></div></div>')
+
+def sen_aside():
+    u = _sd()["unf_oct"]
+    cs = _sen_pair()
+    def img(c):
+        if FL["portraits"].get(c["id"], {}).get("result") == "ok":
+            return f'<img src="/img/elections/portraits/{c["id"]}.jpg" alt="Portrait of {e(c["name"])}" loading="lazy" width="240" height="300">'
+        return f'<span class="mono">{e(initials(c["name"]))}</span>'
+    mics = "".join(f'<div class="mic"><span class="ph">{img(c)}</span><span class="pchip">{PLET[c["party_code"]]}</span><b>{e(c["name"])}</b><small>{e(c["party"])}</small>'
+                   f'<a class="btn-o" href="{e(c["tip"]["url"])}" rel="noopener">View on TIP →</a></div>' for c in cs)
+    return (f'<aside class="relrail"><div class="rb"><div class="uc teal"><a href="https://theissuesparty.org/races/2026-S-FL" rel="noopener">Florida Senate race on TIP ↗</a></div><div class="mics">{mics}</div></div>'
+            f'<div class="rb"><div class="uc teal">Latest poll (UNF)</div><dl class="kv2"><dt>Moody</dt><dd>{u["moody"]}%</dd><dt>Nixon</dt><dd>{u["nixon"]}%</dd><dt>Undecided</dt><dd>{u["undecided"]}%</dd>'
+            f'<dt>Likely voters</dt><dd>{u["n"]:,}</dd><dt>Field dates</dt><dd>Oct 12–19</dd><dt>Margin of error</dt><dd>±{u["moe"]}</dd></dl></div></aside>')
+
+def map_story():
+    d = FL["districts"]
+    vb = d["viewbox"]
+    hl = [14, 9, 20, 6, 25]
+    paths = "".join(f'<path d="{v["path"]}" class="dist{" on" if int(n) in hl else ""}"><title>FL-{int(n):02d}</title></path>' for n, v in d["districts"].items())
+    off = {20: (-70, -34), 25: (-62, 38)}          # districts 20 and 25 sit side by side on the coast; pull their pins apart with leader lines
+    pins = ""
+    for n in hl:
+        x, y = d["districts"][str(n)]["label_xy"]
+        dx, dy = off.get(n, (0, 0))
+        lead = f'<line x1="{x}" y1="{y}" x2="{x + dx}" y2="{y + dy}"/>' if dx or dy else ""
+        pins += f'<g class="pin">{lead}<circle cx="{x + dx}" cy="{y + dy}" r="24"/><text x="{x + dx}" y="{y + dy + 8}" text-anchor="middle">{n}</text></g>'
+    alt = "Map of Florida's 28 congressional districts under the 2026 plan with districts 6, 9, 14, 20 and 25 marked"
+    return (f'<figure class="chartwrap mapstory"><h4>Where the story happens: five districts under the 2026 plan</h4><svg class="statemap" viewBox="0 0 {vb[2]} {vb[3]}" role="img" aria-label="{e(alt)}">{paths}{pins}</svg>'
+            f'<figcaption>Districts 6, 9, 14, 20 and 25 marked. Boundaries: Florida Legislature plan EOGPCRP2026 (HB 1-D). Each district has its own page: <a href="{ST_URL}house/14/">FL-14</a>, '
+            f'<a href="{ST_URL}house/9/">FL-9</a>, <a href="{ST_URL}house/6/">FL-6</a>, <a href="{ST_URL}house/20/">FL-20</a>, <a href="{ST_URL}house/25/">FL-25</a>.</figcaption></figure>')
+
+def trump_bars():
+    t = _sd()["trump_2024"]
+    def row(y, lab, tr, ha, who):
+        wt, wh = round(tr / 100 * 430), round(ha / 100 * 430)
+        return (f'<text x="0" y="{y + 18}" class="rl">{e(lab)}</text><text x="0" y="{y + 36}" class="rn">{e(who)}</text><rect x="150" y="{y}" width="{wt}" height="26" fill="#1c1d1b"/>'
+                f'<text x="158" y="{y + 19}" class="rv inv">Trump {tr}</text><rect x="{150 + wt}" y="{y}" width="{wh}" height="26" fill="#145b5d"/><text x="{158 + wt}" y="{y + 19}" class="rv inv">Harris {ha}</text>')
+    alt = f'Reported 2024 presidential vote on the new lines: FL-14 Trump {t["fl14"]["trump"]}, Harris {t["fl14"]["harris"]}; FL-9 Trump {t["fl09"]["trump"]}, Harris {t["fl09"]["harris"]}.'
+    return (f'<figure class="chartwrap"><h4>2024 presidential vote on the new district lines (reported)</h4><svg class="chart" viewBox="0 0 640 110" role="img" aria-label="{e(alt)}">'
+            + row(6, "FL-14", t["fl14"]["trump"], t["fl14"]["harris"], "Castor (D) district") + row(56, "FL-9", t["fl09"]["trump"], t["fl09"]["harris"], "Soto (D) district")
+            + f'</svg><figcaption>Reported by <a href="{e(t["source"])}" rel="noopener">WLRN</a> on May 5, 2026, for the redrawn lines. LLF has not recomputed them. Minor candidates are left out of the reported margins.</figcaption></figure>')
+
+def result_bars():
+    r = _sd()["primary_results"]
+    rows = (_bar_row(8, "FL-6 · Fine (R)", r["fl06"]["winner_pct"], 70, "#145b5d", f'beat Bilzerian ({r["fl06"]["runner_up_pct"]:g}%) in the Republican primary')
+            + _bar_row(62, "FL-25 · Moskowitz (D)", r["fl25"]["winner_pct"], 70, "#145b5d", "beat DSA-backed Larkin (share not reported)")
+            + _bar_row(116, "FL-20 · Wasserman Schultz (D)", r["fl20"]["winner_pct"], 70, "#145b5d", "won a crowded field (other shares not reported)"))
+    alt = f'Reported Aug 18 primary results: Fine {r["fl06"]["winner_pct"]} percent in FL-6, Moskowitz {r["fl25"]["winner_pct"]} percent in FL-25, Wasserman Schultz {r["fl20"]["winner_pct"]} percent in FL-20.'
+    return (f'<figure class="chartwrap"><h4>August 18 primaries: winners\' reported shares</h4><svg class="chart" viewBox="0 0 680 170" role="img" aria-label="{e(alt)}">{rows}</svg>'
+            f'<figcaption>Shares as reported by <a href="{e(r["source"])}" rel="noopener">Algemeiner</a> on Aug 19; {e(r["caveat"])}. The Division of Elections roster records all three as winners.</figcaption></figure>')
+
+def house_cards_a():
+    cs = [_cand("Kathy Castor"), _cand("Darren Soto")]
+    return '<div class="ccards two">' + "".join(candidate_card(c, "xl", finance=False) for c in cs) + "</div>" + tip_panel(cs)
+
+def house_cards_b():
+    cs = [_cand("Jared Moskowitz"), _cand("Randy Fine"), _cand("Debbie Wasserman Schultz")]
+    return '<div class="ccards three">' + "".join(candidate_card(c, "lg", finance=False) for c in cs) + "</div>"
+
+def mk_h14():
+    return market_card("house-14", "FL-14: what the Kalshi market shows")
+
+def mk_h25():
+    return market_card("house-25", "FL-25: what the Kalshi market shows")
+
+def stats_house():
+    sd = _sd()
+    n = sum(1 for c in FL["cands"] if c["office"] == "house")
+    t = sd["trump_2024"]
+    return ('<div class="statrow">'
+            f'<div><b>{sd["map"]["districts_reworked"]} of {sd["map"]["districts_total"]}</b><span>districts reworked in 2026</span><small>districts {sd["map"]["unchanged"]} unchanged</small></div>'
+            f'<div><b>{t["fl14"]["trump"]}–{t["fl14"]["harris"]}</b><span>2024 vote, new FL-14 (reported)</span><small>Trump–Harris</small></div>'
+            f'<div><b>{t["fl09"]["trump"]}–{t["fl09"]["harris"]}</b><span>2024 vote, new FL-9 (reported)</span><small>Trump–Harris</small></div>'
+            f'<div><b>{n}</b><span>House candidates on the November ballot</span><small>Florida Division of Elections</small></div></div>')
+
+def house_aside():
+    links = "".join(f'<li><a href="{ST_URL}house/{n}/">FL-{n:02d} district page</a> · <a href="https://theissuesparty.org/races/2026-H-FL-{n:02d}" rel="noopener">on TIP ↗</a></li>' for n in (6, 9, 14, 20, 25))
+    return (f'<aside class="relrail"><div class="rb"><div class="uc teal">The five districts</div><ul class="plain">{links}</ul></div>'
+            '<div class="rb"><div class="uc teal">The map</div><dl class="kv2"><dt>Plan</dt><dd>EOGPCRP2026</dd><dt>Bill</dt><dd>HB 1-D</dd><dt>Reworked</dt><dd>21 of 28</dd><dt>Unchanged</dt><dd>1 to 7</dd></dl></div></aside>')
+
+MACROS.update({"poll_unf": poll_unf, "sept_polls": sept_polls, "sen_cards": sen_cards, "mk_sen": mk_sen, "stats_sen": stats_sen, "map_story": map_story, "trump_bars": trump_bars,
+               "result_bars": result_bars, "house_cards_a": house_cards_a, "house_cards_b": house_cards_b, "mk_h14": mk_h14, "mk_h25": mk_h25, "stats_house": stats_house})
+ASIDES.update({"sen": sen_aside, "house": house_aside})
+
+_values_base = values
+def values():
+    V = _values_base()
+    sd = _sd()
+    u = sd["unf_oct"]
+    rs = next(c for c in FL["markets"]["races"]["senate"]["contracts"] if c["ticker"].endswith("-R"))
+    V.update({"sen_moody": str(u["moody"]), "sen_nixon": str(u["nixon"]), "sen_undec": str(u["undecided"]), "sen_n": f'{u["n"]:,}', "sen_moe": str(u["moe"]), "sen_july": str(u["july_moody_lead"]),
+              "vindman_raised": f'${sd["vindman_raised_through_june_musd"]} million', "fine_pct": f'{sd["primary_results"]["fl06"]["winner_pct"]:g}', "bilz_pct": f'{sd["primary_results"]["fl06"]["runner_up_pct"]:g}',
+              "mosk_pct": f'{sd["primary_results"]["fl25"]["winner_pct"]:g}', "dws_pct": f'{sd["primary_results"]["fl20"]["winner_pct"]:g}',
+              "t14": f'{sd["trump_2024"]["fl14"]["trump"]} to {sd["trump_2024"]["fl14"]["harris"]}', "t09": f'{sd["trump_2024"]["fl09"]["trump"]} to {sd["trump_2024"]["fl09"]["harris"]}',
+              "sen_r_last": cents(rs["last"]), "gov_r_last": cents(next(c for c in FL["markets"]["races"]["governor"]["contracts"] if c["ticker"].endswith("-R"))["last"]), "gov_d_last": cents(next(c for c in FL["markets"]["races"]["governor"]["contracts"] if c["ticker"].endswith("-D"))["last"]), "sen_r_bid": cents(rs["yes_bid"]), "sen_r_ask": cents(rs["yes_ask"]), "mk_stamp": utc_stamp(FL["markets"]["captured_at_utc"])})
+    return V
+
+
+# ------------------------------------------------------------------ internal links to the long-form articles (audit fix: new reports were not linked from the guides)
+_ART_SEN = ("Florida's Senate race tightens in the newest poll as Moody skips the debate", "/learn/florida-senate-special-election-poll-debate-october-2026/")
+_ART_HOU = ("Florida redrew 21 House districts. Here is what changed and what the primaries showed", "/learn/florida-house-new-map-primaries-october-2026/")
+_REPORTING = {ST_URL + "senate/": [_ART_SEN], ST_URL + "house/": [_ART_HOU], ST_URL: [_ART_SEN, _ART_HOU]}
+_wrapup_base = _wrapup
+
+def _wrapup(path_html, title, desc, path, crumbs, extra_js=("common", "elections")):
+    arts = _REPORTING.get(path)
+    if arts:
+        path_html += ('<section class="band cream"><div class="wrap wide"><div class="kicker">Latest reporting<i></i></div><ul class="explore">'
+                      + "".join(f'<li><a href="{h}">{e(t)} ↗</a></li>' for t, h in arts) + "</ul></div></section>")
+    return _wrapup_base(path_html, title, desc, path, crumbs, extra_js)

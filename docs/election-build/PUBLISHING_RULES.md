@@ -31,3 +31,11 @@ As of 2026-10-23 all 96 qualified Florida governor, Senate and House candidates 
 | Race mention linked | `autolink()` and `RACE_PATTERNS` |
 | Race page links to TIP race page | `race_link_span()` |
 | All links resolve | `tools/qa/smoke.py` |
+
+
+## Added 2026-10-24 (lean reset and audit)
+- **R3. Reported numbers are attributed, not audited.** A figure from a news report is written "according to <outlet>" with its period, and never described as verified by LLF. Finance data coverage is not required for any article; only a finance claim the article actually makes needs a source and period.
+- **R4. Single-source comparisons say so.** A "tightened", "rose" or "fell" claim needs a same-source comparison; if the earlier figure comes from one report, the body says that.
+- **R5. Independent reader.** The drafter does not fact-check their own article. An article stays at DRAFTED until a different person or agent signs the `reviewer` column of its claims file. READY from `factcheck_gate.py` is not approval.
+- **R6. Share images and alt text.** Every article has an OG image set through the front-matter `og:` key, charts carry `role="img"` and a plain-language label, portraits only where licensed, and charts never use party colors.
+- **R7. Freshness.** Run `tools/qa/freshness_check.py` before publishing and on Oct 31 and Nov 2; log changes in the corrections block.

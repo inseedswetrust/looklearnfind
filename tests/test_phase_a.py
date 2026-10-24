@@ -155,5 +155,20 @@ class TestTipGradeProfile(unittest.TestCase):
                 self.assertTrue(r["grade_label"] and r["grade_timestamp"] and int(r["evidence_count_recorded"]) >= 1)
 
 
+class TestFreshness(unittest.TestCase):
+    def run_check(self, now):
+        import subprocess
+        p = subprocess.run([sys.executable, str(ROOT / "tools/qa/freshness_check.py"), "--now", now], capture_output=True, text=True, encoding="utf-8")
+        return p.returncode, p.stdout
+    def test_old_market_capture_is_stale(self):
+        code, out = self.run_check("2030-01-01T00:00:00Z")
+        self.assertEqual(code, 2)
+        self.assertIn("Kalshi capture", out)
+    def test_a_capture_taken_just_now_is_fresh_for_the_market_check(self):
+        cap = json.loads((ROOT / "data/elections/FL/markets.json").read_text())["captured_at_utc"]
+        code, out = self.run_check(cap)
+        self.assertNotIn("Kalshi capture is", out)
+
+
 if __name__ == "__main__":
     unittest.main()

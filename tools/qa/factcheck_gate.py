@@ -116,7 +116,7 @@ def check(ledger, article=None, packet=None, author=None):
             if packet and (not rows or rows[0]["gaps"]):
                 B(cid, "no FEC totals row for this candidate; a missing total cannot be reported as zero")
         elif t == "market":
-            n = (r["notes"] or "").lower()
+            n = ((r["notes"] or "") + " " + (r["claim"] or "")).lower()
             if not any(k in n for k in ("last", "bid", "ask", "mid")):
                 B(cid, "market claim must state the quote kind (bid, ask, last or mid) in notes")
             if "party" not in n and "candidate" not in n:

@@ -1,0 +1,31 @@
+{
+ "_note": "Sourced values used by the Florida Senate and House articles through [[v:]] macros and components. Every value carries its source. Reported figures are attributed and not audited by LLF. Read 2026-10-23 and 2026-10-24.",
+ "unf_oct": {
+  "moody": 49, "nixon": 45, "undecided": 5, "n": 1471, "moe": 2.81, "field_start": "2026-10-12", "field_end": "2026-10-19", "population": "likely midterm voters", "mode": "telephone",
+  "pollster": "University of North Florida Public Opinion Research Lab", "published": "2026-10-21",
+  "july_moody_lead": 8, "july_note": "reported by WLRN only; Action News Jax gives no July Senate figure",
+  "governor": {"donalds": 49, "jolly": 47},
+  "sources": ["https://www.wlrn.org/government-politics/2026-10-21/republicans-donalds-moody-hold-slim-leads-in-tightening-governor-us-senate-races-unf-polls-finds", "https://www.actionnewsjax.com/news/local/unf-poll-shows-florida-governor-senate-races-tightening/XKIATNR5ONEQZMJPSLPUBHOQXE/"]
+ },
+ "sept_polls": [
+  {"pollster": "Change Research", "sponsor": "Freedom Project USA", "field": "Sep 7–9", "n": 1107, "moe": 2.8, "moody": 47, "nixon": 47},
+  {"pollster": "Quantus Insights", "sponsor": "not stated", "field": "Sep 8–10", "n": 733, "moe": 4.1, "moody": 50, "nixon": 43},
+  {"pollster": "St. Pete Polls", "sponsor": "not stated", "field": "Sep 15–17", "n": 913, "moe": 3.2, "moody": 45.2, "nixon": 44.8}
+ ],
+ "sept_source": "https://www.newsweek.com/ashley-moody-sounds-alarm-as-second-poll-shows-dead-heat-with-angie-nixon-12465288",
+ "primary_results": {
+  "fl06": {"winner": "Randy Fine", "winner_pct": 56.9, "runner_up": "Dan Bilzerian", "runner_up_pct": 18.7},
+  "fl25": {"winner": "Jared Moskowitz", "winner_pct": 63.5, "runner_up": "Oliver Larkin", "runner_up_pct": null},
+  "fl20": {"winner": "Debbie Wasserman Schultz", "winner_pct": 45.6, "runner_up": null, "runner_up_pct": null},
+  "source": "https://algemeiner.com/2026/08/19/anti-israel-antisemitic-candidates-largely-flop-florida-primaries",
+  "caveat": "shares as reported by one outlet; Division of Elections figures not yet checked"
+ },
+ "trump_2024": {
+  "fl14": {"trump": 55, "harris": 44, "district_holder": "Kathy Castor"},
+  "fl09": {"trump": 58, "harris": 41, "district_holder": "Darren Soto"},
+  "source": "https://www.wlrn.org/government-politics/2026-05-05/breaking-down-the-changes-in-floridas-new-congressional-districts",
+  "caveat": "reporters' figures for the new lines; LLF has not recomputed them"
+ },
+ "map": {"districts_reworked": 21, "districts_total": 28, "unchanged": "1 to 7"},
+ "vindman_raised_through_june_musd": 14.5
+}
