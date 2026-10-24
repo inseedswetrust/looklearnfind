@@ -42,3 +42,11 @@ These are news questions and a paragraph-level spine for each article, not finis
 
 ## Rules that still hold
 Scope is Governor, U.S. Senate and U.S. House only. No ballot measures, Cabinet or legislature. Governor rows in the roster are for links only. Do not start the State of the Race video; that follows the live pages. Publication paths are in `fl_existing_pages.json`: new long-form articles are `content/learn/*.html` with `layout: report` and the existing `[[v:]]`, `[[s:]]` and `[[el:]]` macros.
+
+## AIPAC and UDP ties: simple news-search routine (replaces the FEC Schedule B pull)
+Direct PAC contributions are not collected. Use plain searches, one race at a time, and record only what an opened article actually says. Keep the three things apart: (1) FEC independent expenditures by UDP or AIPAC PAC (our Schedule E file, dollars), (2) news reports that AIPAC or a related committee endorsed, funded or targeted a candidate (attributed claims), (3) a candidate's own statement about AIPAC. Never add (2) to (1), and never call a committee "AIPAC-affiliated" unless the cited article or a filing says so.
+
+Queries (swap in the race and candidate): `AIPAC United Democracy Project <state> <district or Senate> 2026`; `"United Democracy Project" <candidate>`; `AIPAC endorsed <candidate> 2026`; `AIPAC <candidate> donors`; `Sludge AIPAC <state>`; `OpenSecrets United Democracy Project <state>`. Preferred outlets: Sludge, OpenSecrets, Times of Israel, Jewish Insider, JTA, the state's own papers, AP and Reuters.
+For each hit: open it, copy the claim paraphrased, outlet, date and URL into the sources file with `verification_status = opened_and_read`, and note any disagreement between outlets. A search summary alone is `search_summary_only` and cannot be published.
+
+First pass for Florida (2026-10-24, search summaries only, none opened yet): news reports say Moskowitz (FL-25) was backed by AIPAC-associated donors; Elijah Manley attacked Wasserman Schultz (FL-20) over AIPAC money; Sludge puts AIPAC PAC plus UDP at more than $104 million nationally; one report ties UDP to the Wahab (CA-14) special. No source found that says UDP spent in a Florida race, which matches our empty Schedule E result. Open and verify before use.

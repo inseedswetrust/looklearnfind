@@ -69,5 +69,5 @@ Times are order of events in one session on 2026-10-22 to 2026-10-23 (durations 
 - Found: the Kalshi FL capture file was named by date and a rerun overwrote the 14:34Z capture. Fixed: timestamped capture names.
 - Found: Al Green lost the TX-18 runoff (news reports, search summary) and was never a TX-09 candidate; his row is now `not_on_ballot`. Haynes, Omar and Wahab are `on_ballot_news_only` until an official list is opened.
 - Found: the fact-check ledger had two malformed rows (FC-025, FC-047, a missing `value` column) that the new gate caught; fixed.
-- Blocked: AIPAC PAC direct contributions (Schedule B). `fetch_aipac_direct.py` is written; the public DEMO_KEY returned HTTP 429 and no personal OpenFEC key is available here.
+- Decision (owner, 2026-10-24): the FEC Schedule B pull for AIPAC PAC is removed from the workflow. With a key supplied, the endpoint ignored a candidate filter and about 38,000 of 39,400 rows were earmarked individual donations passed through the PAC, so it was slow and not informative. `fetch_aipac_direct.py` was deleted. AIPAC and UDP ties are gathered from news by simple searches instead.
 - Research: reporting digest built from five opened articles; unopened search-summary items are labeled and not to be used until verified.

@@ -5,7 +5,7 @@
 
 Writes data/elections/dark_horse/aipac_udp_ie.json: per committee, per candidate, support/oppose totals (FEC by-candidate aggregate, periodic
 filings) AND de-duplicated transaction-level totals from 24/48-hour notices. These are spending in elections, not donations to candidates.
-Direct AIPAC PAC contributions (Schedule B) are NOT included; the file says so.
+Direct AIPAC PAC contributions (Schedule B) are deliberately not collected (decision 2026-10-24); AIPAC ties come from news searches.
 """
 import json, os, time, datetime, urllib.parse, urllib.request
 from pathlib import Path
@@ -27,7 +27,7 @@ def get(path, **q):
             if a == 3: raise
             time.sleep(2 + 3 * a)
 res = {"captured_at_utc": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "cycle": 2026,
-       "scope_note": "Independent expenditures only (FEC Schedule E). Direct PAC contributions to candidates (Schedule B) are not included.", "committees": {}}
+       "scope_note": "Independent expenditures only (FEC Schedule E). Direct PAC contributions (Schedule B) are deliberately not collected.", "committees": {}}
 for name, cid in COMMITTEES.items():
     by, page = [], 1
     while True:

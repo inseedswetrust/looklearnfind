@@ -326,7 +326,7 @@ for fn in ("fl_reporting_digest.md", "fl_conflicts_and_unknowns.md", "fl_story_a
 missing += [f"finance:{r['candidate_name']}" for r in rowsf if r["gaps"]]
 missing += [f"portrait:{r['subject']}" for r in rowsa if r["kind"] == "portrait" and r["publication_status"].startswith("NOT FOR")]
 missing += [f"poll:{r['race_id']}" for r in rowsp if r["review_status"] == "no_poll_found"]
-missing.append("aipac_direct_pac_contributions (Schedule B): not pulled; fetch_aipac_direct.py is ready but needs an OpenFEC key (DEMO_KEY was rate limited)")
+missing.append("aipac_ties_beyond_schedule_E: collected from news searches, not FEC Schedule B (removed by decision 2026-10-24)")
 files = sorted(p for p in OUT.iterdir() if p.is_file() and p.name != "manifest.json")
 man = {"packet": "florida-senate-house-research-packet", "version": "1.0.0", "generated_at_utc": NOW, "generator": "tools/elections/export_packet.py", "scope": "Florida U.S. Senate and U.S. House (28 districts); governor rows are link context only",
        "counts": {"roster_rows": n_roster, "federal_rows_on_november_ballot": recon["on_november_ballot_fed"], "races": len(races), "grade_rows": len(rowsg), "grade_rows_graded": n_graded,

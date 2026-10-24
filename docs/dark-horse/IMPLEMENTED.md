@@ -18,7 +18,7 @@
 
 ## Watchlist: what the evidence supports (not a ranking)
 
-Criteria: C1 incumbent defeated (cited), C2 FEC-documented United Democracy Project (UDP) spending against the nominee or for the defeated opponent, C3 establishment-endorsed opponent (cited). Only rows with a verified criterion are `verified`; every other row is a background research lead. UDP independent expenditures come from OpenFEC Schedule E for the 2026 cycle (de-duplicated, 24/48-hour notices preferred). **AIPAC PAC itself reported no independent expenditures.** Direct AIPAC PAC contributions (Schedule B) and other AIPAC-affiliated committees were not pulled.
+Criteria: C1 incumbent defeated (cited), C2 FEC-documented United Democracy Project (UDP) spending against the nominee or for the defeated opponent, C3 establishment-endorsed opponent (cited). Only rows with a verified criterion are `verified`; every other row is a background research lead. UDP independent expenditures come from OpenFEC Schedule E for the 2026 cycle (de-duplicated, 24/48-hour notices preferred). **AIPAC PAC itself reported no independent expenditures.** Direct AIPAC PAC contributions (Schedule B) are deliberately not collected (mostly earmarked individual donations passed through the PAC); AIPAC ties come from news searches.
 
 | Candidate | Race | Status | Primary outcome (source) | UDP spending (FEC) | Establishment opponent |
 |---|---|---|---|---|---|

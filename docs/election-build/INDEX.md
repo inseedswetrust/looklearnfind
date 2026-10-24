@@ -9,7 +9,7 @@ Single source for "where is X". Everything below is in this repository (branch `
 | 2 | Delta Report | `docs/schemas/02_DELTA_REPORT.md` | same-instrument change; reference article `michigan-senate-delta-october-2026` |
 | 3 | Spending Report | `docs/schemas/03_SPENDING_REPORT.md` | reference article `florida-house-independent-spending-october-2026` |
 | 4 | Dark Horse vs party establishment | `docs/schemas/04_DARK_HORSE_PARTY.md` | needs `lock_status = verified` candidates |
-| 5 | Dark Horse vs verified AIPAC/UDP-supported candidate | `docs/schemas/05_DARK_HORSE_AIPAC.md` | Schedule E and Schedule B kept apart |
+| 5 | Dark Horse vs verified AIPAC/UDP-supported candidate | `docs/schemas/05_DARK_HORSE_AIPAC.md` | FEC Schedule E spending kept apart from news-reported endorsements and ties |
 | 6 | AIPAC-supported candidates still running | `docs/schemas/06_AIPAC_CANDIDATES_STILL_RUNNING.md` | |
 | 7 | State and race article requirements | `docs/schemas/07_STATE_AND_RACE_ARTICLE_REQUIREMENTS.md` | the guide and race modules |
 
