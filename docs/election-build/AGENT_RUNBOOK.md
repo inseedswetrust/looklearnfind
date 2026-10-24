@@ -25,7 +25,8 @@ Skills `llf-article-format`, `llf-election-render`, `llf-factcheck-finalize`.
 5. Before publishing: `python3 tools/qa/freshness_check.py`; release zip: `python3 build.py --zip --keep-live-robots`. The owner uploads.
 
 ## 4. Make the video pack (zero direction)
-Skill `llf-video-storyboard`.
+Skills `llf-video-storyboard` (script, facts, frames) and `llf-footage-scout` (real clips). Order, locked 2026-10-24: script → shot selection → real footage search and capture → genuine candidate stills → evidence-based infographics → AI background and transition assets → Premiere handoff. A candidate on screen means real footage first; if a clip cannot be cleared the scene keeps a genuine licensed still and the manifest says so. No AI candidate likeness. An end frame for a camera move is derived from the start frame's own assets.
+0. Footage: follow `llf-footage-scout`; edit the table in `tools/video/build_clip_manifest.py`, run it, then `tools/video/make_video_manifest.py`. Infographics: `fetch_florida_infographic_data.py` (official county data), `capture_florida_sites.py`, `build_florida_infographics.py` (copy and adapt per state). Evidence for every figure goes in `docs/video/<state>-2026/INFOGRAPHIC_SOURCES.md`.
 1. `python3 tools/video/init_state_spec.py <ST>` writes `data/video/<st>_2026_state_of_the_race.json` from the Florida spec: frame types, animation timelines, plate prompts, transition prompts and timing are kept; narration, on-screen text, params and facts are `<fill>`.
 2. Fill the facts from the articles' claims files (status VERIFIED or ATTRIBUTED only; each with source and a "never say"), then the 18 segments (first segment general, last segment the best verified story of the race as an arc, ending on early voting). Narration at most 15 words per segment; every spoken or on-screen number must be in that segment's facts.
 3. `python3 tools/video/build_video_pack.py data/video/<st>_2026_state_of_the_race.json` validates (refuses on any problem), renders 1080 x 1920 layer-1 frames (opaque and transparent), the storyboard, the fact sheet, the prompt sheets and the script table. `--check` validates only.
@@ -35,7 +36,7 @@ Skill `llf-video-storyboard`.
 Articles: lane `story:<slug>` (DISCOVERED, SOURCE_CHECKED, DRAFTED, FACT_CHECKED, APPROVED, PUBLISHED). Video: lane `video:<slug>` (BRIEFED, SCRIPTED, STORYBOARDED, ASSETS_GENERATED, CUT, QA_PASSED, PUBLISHED). `python3 tools/workflow/transitions.py record <entity> <STATE> --actor <you> [--input path] [--output path] [--blocked-reason text]`; gates cannot be skipped; a failed check cannot advance; a rejection needs `--correction-id`. Dashboard: `python3 tools/qa/dashboard.py`.
 
 ## 6. Tests to run before you say anything is done
-`python3 -m unittest tests/test_dark_horse.py tests/test_phase_a.py tests/test_factcheck_gate.py tests/test_workflow.py tests/test_story_scout.py tests/test_video_pack.py` and `python3 build.py --strict`.
+`python3 -m unittest tests/test_dark_horse.py tests/test_phase_a.py tests/test_factcheck_gate.py tests/test_workflow.py tests/test_story_scout.py tests/test_video_pack.py tests/test_footage_pack.py` and `python3 build.py --strict`.
 
 ## 7. When to stop and ask
-A claim you cannot source; a fact that changed after the claims were checked; a plate or clip that shows a person, text or number; a money, market or poll figure that needs a person to judge; anything that would publish, post, upload, write to a production database or spend money.
+A claim you cannot source; a fact that changed after the claims were checked; a plate or clip that shows a person, text or number; a clip whose rights status is not `CLEARED`; a money, market or poll figure that needs a person to judge; anything that would publish, post, upload, write to a production database or spend money.

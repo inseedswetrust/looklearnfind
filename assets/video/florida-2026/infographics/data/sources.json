@@ -1,0 +1,17 @@
+{
+ "state": {
+  "url": "https://floridaelectionwatch.gov/FederalOffices/USSenator",
+  "retrieved_utc": "2026-10-24T20:24:21+00:00",
+  "sha256": "d5f2f8aaae60bb06ab2f9888554cf258d3f1d9f3bced4d32d10c0f406ab62d05"
+ },
+ "counties": {
+  "url": "https://floridaelectionwatch.gov/ContestResultsByCounty/120002",
+  "retrieved_utc": "2026-10-24T20:24:21+00:00",
+  "sha256": "edff800f66c8a7acd30a668e13a8785a7c333c0c174919cda36cf315917a4148"
+ },
+ "geometry": {
+  "url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip",
+  "retrieved_utc": "2026-10-24T20:24:21+00:00",
+  "sha256": "da4051717caec55c75e3748c3608c2a3dbde8d1ff401bbaf4f952e3c3fb63ef1"
+ }
+}

@@ -5,7 +5,7 @@ description: Turn checked LLF election articles into a complete 90-second video 
 
 # llf-video-storyboard
 
-**Version** 1.0.0 · **Owner** LLF production · **Type** skill plus scripts `tools/video/init_state_spec.py`, `tools/video/build_video_pack.py`, `tools/video/build_visual_direction.py`. Added 2026-10-24 from the Florida video. The spec file is the single source of truth: the script table, fact sheet, storyboard, prompts and frames are all generated from it, so they cannot disagree.
+**Version** 1.1.0 · **Owner** LLF production · **Type** skill plus scripts `tools/video/init_state_spec.py`, `tools/video/build_video_pack.py`, `tools/video/build_visual_direction.py`. Added 2026-10-24 from the Florida video. The spec file is the single source of truth: the script table, fact sheet, storyboard, prompts and frames are all generated from it, so they cannot disagree.
 
 ## When to use
 After a state's Senate, House or governor articles exist with claims files. Never before: every fact in the video must already be in a checked claims file.
@@ -21,8 +21,11 @@ After a state's Senate, House or governor articles exist with claims files. Neve
 6. Hand `fl_video_prompts.csv` (plates, transitions, extras) to the image tool; a person generates and picks. Log each in `docs/video/generated_assets.csv`.
 7. QA (see `llf-publication-qa`, video section). Record `video:<slug>` lane transitions with `tools/workflow/transitions.py`: BRIEFED, SCRIPTED, STORYBOARDED, ASSETS_GENERATED, CUT, QA_PASSED, PUBLISHED.
 
+## Footage-first order (locked 2026-10-24, v1.1.0)
+Script → shot selection → real footage search and capture (`llf-footage-scout`) → genuine candidate stills → evidence-based infographics → AI background and transition assets → Premiere handoff. When a candidate appears, real footage is the primary picture and a genuine licensed still is the fallback. Infographics for results, polls, maps and TIP records are built by `tools/video/build_florida_infographics.py` (copy it per state) from official data and real captures: a layered SVG master, a start frame and an end frame, where the end frame is a transform (move, scale, crop, reveal) of the start frame's own assets. Check each infographic against `docs/video/<state>-2026/INFOGRAPHIC_SOURCES.md`; a figure with no verified source is left out and listed as a gap. AI plates come last and only for empty backgrounds and transitions. The 18-segment spec above stays the narration source of truth; if a shot list uses another scene numbering, write `SCENE_CROSSWALK.md` and ask before changing the script.
+
 ## Two layers (never mix)
-Layer 1 deterministic: every name, number, chart, map, portrait and credit, from data and licensed images. Layer 2 generated: abstract paper backdrops and the motion between segments; never a person, face, text, number, logo, flag or party color; never evidence. Disclose both generated images and synthetic narration on the end card and in the caption.
+Layer 1 deterministic: every name, number, chart, map, portrait and credit, from data and licensed images. Layer 2 generated: abstract paper backdrops and the motion between segments; never a person, face, text, number, logo, flag or party color; never evidence; never a candidate likeness; never a regenerated end frame for a camera move. Disclose both generated images and synthetic narration on the end card and in the caption.
 
 ## Input and output
 Input: published or drafted articles and their claims files, `candidates.json`, portraits, markets, district geometry. Output: the pack above. The validator's exit code is the gate.
@@ -34,4 +37,5 @@ Input: published or drafted articles and their claims files, `candidates.json`, 
 Fix the spec, never the validator, unless the validator is wrong (then add a fixture first). A fact that cannot be sourced is removed from the video, not softened. A figure marked REFRESH is re-read on the day of publication and the spec changed with it.
 
 ## Changelog
+1.1.0 (2026-10-24) footage-first order locked: real footage and genuine stills before infographics, AI plates last, no AI candidate likeness, end frames derived from start frames; see `llf-footage-scout`.
 1.0.0 (2026-10-24) first version, from the Florida State of the Race video.

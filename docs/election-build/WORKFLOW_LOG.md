@@ -71,3 +71,11 @@ Times are order of events in one session on 2026-10-22 to 2026-10-23 (durations 
 - Found: the fact-check ledger had two malformed rows (FC-025, FC-047, a missing `value` column) that the new gate caught; fixed.
 - Decision (owner, 2026-10-24): the FEC Schedule B pull for AIPAC PAC is removed from the workflow. With a key supplied, the endpoint ignored a candidate filter and about 38,000 of 39,400 rows were earmarked individual donations passed through the PAC, so it was slow and not informative. `fetch_aipac_direct.py` was deleted. AIPAC and UDP ties are gathered from news by simple searches instead.
 - Research: reporting digest built from five opened articles; unopened search-summary items are labeled and not to be used until verified.
+
+## 2026-10-24 · Florida footage-first and infographic pass
+- Decision (owner): real footage is primary whenever a candidate appears; AI only for empty environments, blank plates and transitions; no AI candidate likeness; no regenerated end frames for camera moves. Order: script → shot selection → real footage → genuine stills → evidence-based infographics → AI plates → Premiere handoff. Written into `CLAUDE.md`, the runbook, `llf-video-storyboard` 1.1.0 and the new `llf-footage-scout`.
+- Found: the packet's scene numbers (13 scenes, order Senate, governor, House) do not match the locked 18-segment script (House, governor, Senate). Left unchanged; `docs/video/florida-2026/SCENE_CROSSWALK.md` lists the conflicts.
+- Found: 24 of 28 candidate clips need a license, none is cleared for use. One Wikimedia Commons file (Moody, Senate hearing) was downloaded before it was seen to be her office's branded edit; it is held as EDITORIAL_REVIEW, not cleared.
+- Found: the packet's '$16M vs under $1M' is true only through the primary (Post analysis); OpenFEC on Oct 24 shows Nixon $11.3M and Vindman $20.5M. The frames do not carry it.
+- Found: a YouTube id typed from memory was wrong (CBS Miami 1-on-1); every id in the manifest is now confirmed by oEmbed. Added to `llf-footage-scout` step 2.
+- Official data: Aug 18 Democratic Senate primary Nixon 705,835 (56.06%), Vindman 553,138 (43.94%) from floridaelectionwatch.gov; 67 county rows sum to the state totals.

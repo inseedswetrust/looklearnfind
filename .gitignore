@@ -9,3 +9,9 @@ static/api/_data/config.php
 release/looklearnfind-elections-update.zip
 data/elections/dark_horse/daily/*/captures/
 data/elections/dark_horse/server_pull/daily/*/captures/
+
+# footage: local only, rights not cleared for redistribution
+assets/video/*/source/
+assets/video/*/selects/
+assets/video/*/thumbs/
+assets/video/*/captions/
