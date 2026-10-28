@@ -1,6 +1,6 @@
 # MI-A1 fact-check (Claude, 2026-10-28)
 
-Article: `content/learn/mike-duggan-withdrawn-candidate-kalshi-michigan.html`. Checked against saved primary captures, not against ChatGPT's own claims file. **Owner sign-off is still required before anything publishes.**
+Article: `content/learn/mike-duggan-withdrawn-candidate-kalshi-michigan.html`. Checked against saved primary captures, not against ChatGPT's own claims file. **Owner signed off in chat on 2026-10-28. Deploy not yet approved.**
 
 ## Result
 
