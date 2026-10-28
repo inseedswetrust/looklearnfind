@@ -1,8 +1,30 @@
 {
- "S6MI00418": {
+ "Jocelyn_Benson": {
+  "name": "Jocelyn Benson",
+  "wikipedia": "Jocelyn Benson",
+  "extract": "Jocelyn Michelle Benson (born October 22, 1977) is an American politician and attorney who has served as the 43rd secretary of state of Michigan since 2019. A m",
+  "file": "SOS_Jocelyn_Benson_web.jpg",
+  "license": "CC BY 4.0",
+  "credit": "JFM Photo 73",
+  "source_page": "https://commons.wikimedia.org/wiki/File:SOS_Jocelyn_Benson_web.jpg",
+  "result": "ok",
+  "bytes": 44800
+ },
+ "John_James": {
+  "name": "John James",
+  "wikipedia": "John James (Michigan politician)",
+  "extract": "John Edward James (born June 8, 1981) is an American politician, businessman, and former military officer serving as the U.S. representative for Michigan's 10th",
+  "file": "Rep._John_James_official_photo,_118th_Congress.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "United States Congress",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rep._John_James_official_photo,_118th_Congress.jpg",
+  "result": "ok",
+  "bytes": 58471
+ },
+ "Abdul_El-Sayed": {
   "name": "Abdul El-Sayed",
   "wikipedia": "Abdul El-Sayed",
-  "extract": "Abdulrahman Mohamed El-Sayed (born October 31, 1984) is an American epidemiologist, public health administrator, academic and politician who is the Democratic n",
+  "extract": "Abdulrahman Mohamed El-Sayed ([äbˈduːl ɛl ˈseɪ.ɪd]  ahb-DOOL el-SAY-id; born October 31, 1984) is an American epidemiologist, public health administrator, acade",
   "file": "Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_5_(cropped).jpg",
   "license": "CC BY-SA 4.0",
   "credit": "Conlan Houston",
@@ -10,15 +32,217 @@
   "result": "ok",
   "bytes": 94258
  },
- "S4MI00595": {
+ "Mike_Rogers": {
   "name": "Mike Rogers",
   "wikipedia": "Mike Rogers (Michigan politician)",
-  "extract": "Michael J. Rogers (born June 2, 1963) is an American politician and former FBI agent who served from 2001 to 2015 as the U.S. representative for Michigan's 8th ",
+  "extract": "Michael Joseph Rogers (born June 2, 1963) is an American politician and former FBI agent who served from 2001 to 2015 as the U.S. representative for Michigan's ",
   "file": "Mike_Rogers_in_November_2019_(3x4_cropped).jpg",
   "license": "Public domain",
   "credit": "P.J. Siquig",
   "source_page": "https://commons.wikimedia.org/wiki/File:Mike_Rogers_in_November_2019_(3x4_cropped).jpg",
   "result": "ok",
   "bytes": 75193
+ },
+ "Callie_Barr": {
+  "name": "Callie Barr",
+  "result": "no confident Wikipedia match"
+ },
+ "Jack_Bergman": {
+  "name": "Jack Bergman",
+  "wikipedia": "Jack Bergman",
+  "extract": "John Warren Bergman (born February 2, 1947) is an American politician and retired United States Marine Corps lieutenant general serving as the U.S. representati",
+  "file": "Jack_Bergman_(2017).jpg",
+  "license": "Public domain",
+  "credit": "Eric Connolly; U.S. House Office of Photography",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Jack_Bergman_(2017).jpg",
+  "result": "ok",
+  "bytes": 58210
+ },
+ "Ben_Ambrose": {
+  "name": "Ben Ambrose",
+  "result": "no confident Wikipedia match"
+ },
+ "John_Moolenaar": {
+  "name": "John Moolenaar",
+  "wikipedia": "John Moolenaar",
+  "extract": "John Robert Moolenaar ( MOHL-ən-ar; born May 8, 1961) is an American politician serving as a U.S. representative from Michigan since 2015, representing the 4th ",
+  "file": "John_Moolenaar_portrait_(118th_Congress).jpg",
+  "license": "Public domain",
+  "credit": "U.S. House of Representatives",
+  "source_page": "https://commons.wikimedia.org/wiki/File:John_Moolenaar_portrait_(118th_Congress).jpg",
+  "result": "ok",
+  "bytes": 50455
+ },
+ "Hillary_Scholten": {
+  "name": "Hillary Scholten",
+  "wikipedia": "Hillary Scholten",
+  "extract": "Hillary Jeanne Scholten ( SKOHL-tən; born February 22, 1982) is an American politician and attorney who has served as the U.S. representative from Michigan's 3r",
+  "file": "Rep._Hillary_Scholten_-_118th_Congress_(1).jpg",
+  "license": "Public domain",
+  "credit": "U.S. House of Representatives",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rep._Hillary_Scholten_-_118th_Congress_(1).jpg",
+  "result": "ok",
+  "bytes": 77365
+ },
+ "Terri_DeBoer": {
+  "name": "Terri DeBoer",
+  "result": "no confident Wikipedia match"
+ },
+ "Sean_McCann": {
+  "name": "Sean McCann",
+  "result": "no confident Wikipedia match"
+ },
+ "Bill_Huizenga": {
+  "name": "Bill Huizenga",
+  "wikipedia": "Bill Huizenga",
+  "extract": "William Patrick Huizenga ( HY-zing-gə; born January 31, 1969) is an American politician serving as a U.S. representative from Michigan since 2011, representing ",
+  "file": "Rep._Bill_Huizenga_-_118th_Congress_(portrait_crop).jpg",
+  "license": "Public domain",
+  "credit": "U.S. House of Representatives",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rep._Bill_Huizenga_-_118th_Congress_(portrait_crop).jpg",
+  "result": "ok",
+  "bytes": 93477
+ },
+ "Christian_Vukasovich": {
+  "name": "Christian Vukasovich",
+  "result": "no confident Wikipedia match"
+ },
+ "Tim_Walberg": {
+  "name": "Tim Walberg",
+  "wikipedia": "Tim Walberg",
+  "extract": "Timothy Lee Walberg (born April 12, 1951) is an American politician serving as a U.S. representative from Michigan since 2011, representing the state's 5th cong",
+  "file": "TimWalbergHeadshot.jpg",
+  "license": "Public domain",
+  "credit": "Ike Hayman, House Creative Services",
+  "source_page": "https://commons.wikimedia.org/wiki/File:TimWalbergHeadshot.jpg",
+  "result": "ok",
+  "bytes": 66955
+ },
+ "Debbie_Dingell": {
+  "name": "Debbie Dingell",
+  "wikipedia": "Debbie Dingell",
+  "extract": "Deborah Ann Dingell ( DING-gəl; née Insley; November 23, 1953) is an American politician serving as a U.S. representative from Michigan since 2015, representing",
+  "file": "Debbie_Dingell_Official_Headshot.jpg",
+  "license": "Public domain",
+  "credit": "U.S. House of Representatives",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Debbie_Dingell_Official_Headshot.jpg",
+  "result": "ok",
+  "bytes": 62878
+ },
+ "Heather_Smiley": {
+  "name": "Heather Smiley",
+  "result": "no confident Wikipedia match"
+ },
+ "William_Lawrence": {
+  "name": "William Lawrence",
+  "wikipedia": "William Lawrence (activist)",
+  "extract": "William Lawrence (born 1990) is an American politician and activist who co-founded the Sunrise Movement, a climate action organization. He is the Democratic nom",
+  "file": "William_Lawrence_2026.jpg",
+  "license": "CC0",
+  "credit": "Sabio117",
+  "source_page": "https://commons.wikimedia.org/wiki/File:William_Lawrence_2026.jpg",
+  "result": "ok",
+  "bytes": 95615
+ },
+ "Tom_Barrett": {
+  "name": "Tom Barrett",
+  "wikipedia": "Tom Barrett (Michigan politician)",
+  "extract": "Thomas More Barrett (born April 30, 1981) is an American politician, financial analyst, and former U.S. Army officer serving as the U.S. representative for Mich",
+  "file": "Tom_Barrett,_official_portrait_(119th_Congress).jpg",
+  "license": "Public domain",
+  "credit": "Brian Thorpe",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Tom_Barrett,_official_portrait_(119th_Congress).jpg",
+  "result": "ok",
+  "bytes": 60886
+ },
+ "Kristen_McDonald_Rivet": {
+  "name": "Kristen McDonald Rivet",
+  "wikipedia": "Kristen McDonald Rivet",
+  "extract": "Kristen Lee McDonald Rivet (; born July 11, 1970) is an American politician who has served as the U.S. representative for Michigan's 8th congressional district ",
+  "file": "Kristen_McDonald_Rivet,_official_portrait_-_2025.jpg",
+  "license": "Public domain",
+  "credit": "Brian Thorpe",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Kristen_McDonald_Rivet,_official_portrait_-_2025.jpg",
+  "result": "ok",
+  "bytes": 49730
+ },
+ "Thomas_J._Smith": {
+  "name": "Tom Smith",
+  "result": "no confident Wikipedia match"
+ },
+ "Ray_Pooley": {
+  "name": "Ray Pooley",
+  "result": "no confident Wikipedia match"
+ },
+ "Lisa_McClain": {
+  "name": "Lisa McClain",
+  "wikipedia": "Lisa McClain",
+  "extract": "Lisa Carmella McClain (née  Iovannisci; born April 7, 1966) is an American politician who has represented Michigan's 9th congressional district since 2021. The ",
+  "file": "Rep._Lisa_McClain.jpg",
+  "license": "Public domain",
+  "credit": "Rep. Lisa McClain",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rep._Lisa_McClain.jpg",
+  "result": "ok",
+  "bytes": 67813
+ },
+ "Christina_Bertrand_Hines": {
+  "name": "Christina Hines",
+  "result": "no confident Wikipedia match"
+ },
+ "Michael_Bouchard": {
+  "name": "Mike Bouchard",
+  "wikipedia": "Mike Bouchard",
+  "extract": "Michael J. Bouchard (born April 12, 1956) is an American law enforcement officer and politician who has served as the sheriff of Oakland County, Michigan, since",
+  "file": "Mike_Bouchard_2006.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Mike Bouchard",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Mike_Bouchard_2006.jpg",
+  "result": "ok",
+  "bytes": 67314
+ },
+ "Jeremy_Moss": {
+  "name": "Jeremy Moss",
+  "wikipedia": "Jeremy Moss",
+  "extract": "Jeremy Allen Moss (born June 23, 1986) is an American politician from Southfield, Michigan, currently representing Michigan's 7th Senate district. A member of t",
+  "file": "Michigan_Senator_Jeremy_Moss_2019.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Anmanwell",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Michigan_Senator_Jeremy_Moss_2019.jpg",
+  "result": "ok",
+  "bytes": 75524
+ },
+ "Ethan_Baker": {
+  "name": "Ethan Baker",
+  "result": "no confident Wikipedia match"
+ },
+ "Rashida_Tlaib": {
+  "name": "Rashida Tlaib",
+  "wikipedia": "Rashida Tlaib",
+  "extract": "Rashida Harbi Tlaib (née  Elabed; born July 24, 1976) is an American lawyer and politician serving as a U.S. representative from Michigan since 2019, representi",
+  "file": "Tlaib_Rashida_119th_Congress_(3x4_cropped).jpg",
+  "license": "Public domain",
+  "credit": "Brian Thorpe, House Creative Services",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Tlaib_Rashida_119th_Congress_(3x4_cropped).jpg",
+  "result": "ok",
+  "bytes": 66836
+ },
+ "James_D._Hooper": {
+  "name": "James Hooper",
+  "result": "no confident Wikipedia match"
+ },
+ "Donavan_McKinney": {
+  "name": "Donavan McKinney",
+  "wikipedia": "Donavan McKinney",
+  "extract": "Donavan Deante McKinney (born June 16, 1992) is an American politician serving as a member of the Michigan House of Representatives since 2023, currently repres",
+  "file": "State_Rep_Donavan_McKinney_Swearing_In_12.12.22_(52565631658)_(cropped).jpg",
+  "license": "Public domain",
+  "credit": "City of Detroit",
+  "source_page": "https://commons.wikimedia.org/wiki/File:State_Rep_Donavan_McKinney_Swearing_In_12.12.22_(52565631658)_(cropped).jpg",
+  "result": "ok",
+  "bytes": 90941
+ },
+ "T.P._Nykoriak": {
+  "name": "T.P. Nykoriak",
+  "result": "no confident Wikipedia match"
  }
 }

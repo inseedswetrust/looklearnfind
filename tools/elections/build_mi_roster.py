@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[2]
 GP = "https://www.thegreenpapers.com/G26/MI"
 S = "Qualified"
 P = {"DEM": "Democratic", "REP": "Republican", "GRN": "Green", "LIB": "Libertarian", "UST": "U.S. Taxpayers", "NLP": "Natural Law",
-     "WCP": "Working Class", "NPA": "No Party Affiliation"}
+     "WCP": "Working Class", "NPA": "No Party Affiliation", "WRI": "Write-in"}
 
 
 def c(name, code, fec=None, inc=False, tip=None, rm=None, note=None, write_in=False, primary="", party=None):
@@ -62,14 +62,14 @@ roster = {
               c("Sharon Renier", "UST", "H4MI07137", tip="Sharon Marie Renier")],
         "6": [c("Debbie Dingell", "DEM", "H4MI12079", inc=True, primary="Renominated"), c("Heather Smiley", "REP", "H4MI06154"), c("Clyde Shabazz", "GRN", "H8MI14084", tip="Clyde K. Shabazz"),
               c("Timothy Teagan", "LIB", "H6MI06258", tip="Timothy A. Teagan"), c("Mike Mickevicius", "UST", "H6MI06241", tip='Michael Raymond "Mike" Mickevicius'),
-              c("Linda Rayburn", "WCP", "H6MI06266"), c("Bree Taylor", "NPA", party="Write-in", write_in=True)],
+              c("Linda Rayburn", "WCP", "H6MI06266"), c("Bree Taylor", "WRI", write_in=True)],
         "7": [c("William Lawrence", "DEM", "H6MI07298"), c("Tom Barrett", "REP", "H2MI07123", inc=True, tip='Thomas More "Tom" Barrett', primary="Renominated"), c("Shane Dedrick", "GRN", "H6MI07306")],
         "8": [c("Kristen McDonald Rivet", "DEM", "H4MI08218", inc=True, primary="Renominated"),
               c("Tom Smith", "REP", "H6MI08312", tip='Thomas James "Tom" Smith', primary="Won", note="suspended campaign 2026-07-16 per Green Papers; remains on the ballot"),
               c("Jim Casha", "GRN", "H4MI08176"), c("Mia Pettus", "LIB", "H6MI08320", tip="C. Mia Pettus"), c("Kathy Goodwin", "WCP", "H8MI05124")],
         "9": [c("Ray Pooley", "DEM", "H6MI09245", tip='Steven Raymond "Ray" Pooley'), c("Lisa McClain", "REP", "H0MI10287", inc=True, primary="Renominated"),
               c("Destiny Clayton", "GRN", "H6MI09260"), c("Kevin Vayko", "LIB", "H4MI09133"), c("John Vlahos", "UST", "H6MI09278"), c("Jim Walkowicz", "WCP", "H2MI09178"),
-              c("Jasen Cartwright", "NPA", "H6MI09211", tip="Jasen D. Cartwright", party="Independent (write-in)", write_in=True)],
+              c("Jasen Cartwright", "WRI", "H6MI09211", tip="Jasen D. Cartwright", party="Independent (write-in)", write_in=True)],
         "10": [c("Christina Hines", "DEM", "H6MI10276", tip="Christina Bertrand Hines", note="open seat (John James running for Governor)"),
                c("Mike Bouchard", "REP", "H6MI10359", tip='Michael "Mike" Bouchard'), c("Cubby Nkromo", "GRN", tip='Kwabena "Cubby" Nkromo'),
                c("Mike Saliba", "LIB", "H6MI10383", note="Green Papers lists two possible FEC IDs (H0MI09206 or H6MI10383)"), c("Andrea Kirby", "WCP", "H8MI09142", tip="Andrea L. Kirby")],

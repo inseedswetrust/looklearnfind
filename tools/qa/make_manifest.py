@@ -26,7 +26,7 @@ for f in sorted((ROOT / "assets/icons").glob("issue-*.svg")):
                      usage="six-issue key and chips", credit="LookLearnFind", sha256_16=sha(rel), notes="64x64 line icon, one yellow dot, currentColor"))
 data = [("DATA-ROSTER", "Florida Division of Elections candidate lists (governor; federal)", "public record", "data/elections/FL/roster.json; captures/fl_*.html", "state captures with SHA-256 in roster.json"),
         ("DATA-DISTRICTS", "Florida Legislature EDR plan EOGPCRP2026 (HB 1-D) shapefile; Census cb_2024_us_county_500k for county names", "public record (government data)", "data/elections/FL/districts.json; captures/EOGPCRP2026.zip", "simplified to 0.004 degrees; SVG paths"),
-        ("DATA-FEC", "OpenFEC candidate totals and Schedule E", "public record", "data/elections/FL/finance_fec.json, ie_all.json; data/elections/MI/finance_fec.json", "raw API captures in captures/"),
+        ("DATA-FEC", "OpenFEC candidate totals and Schedule E", "public record", "data/elections/FL/finance_fec.json, ie_all.json; data/elections/MI/senate_delta/finance_fec.json", "raw API captures in captures/"),
         ("DATA-KALSHI", "Kalshi public market API quotes and candlesticks", "Kalshi public data, shown with attribution and timestamp", "data/elections/FL/markets.json; data/elections/MI/kalshi_SENATEMI-26-D.json", "raw captures in captures/"),
         ("DATA-TIP", "TIP candidate pages and Issue Grades (read-only production export)", "owner data", "data/elections/FL/candidates.json", "link status checked live; no credentials stored")]
 for a, s, l, p, n in data:
