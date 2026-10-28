@@ -30,5 +30,37 @@
   "source_page": "https://commons.wikimedia.org/wiki/File:Gfp-illinois-springfield-capitol-and-sky.jpg",
   "license_url": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
   "bytes": 784235
+ },
+ "il-ford": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "il-ford.jpg",
+  "bytes": 337158
+ },
+ "il-garcia": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "il-garcia.jpg",
+  "bytes": 246330
+ },
+ "il-stratton": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "il-stratton.jpg",
+  "bytes": 207777
+ },
+ "mi-udp": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "mi-udp.jpg",
+  "bytes": 196238
  }
 }

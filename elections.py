@@ -411,8 +411,10 @@ def ie_table(race, limit=8):
 # ------------------------------------------------------------------ page helpers
 def _hero(key, alt, caption_title, caption_text):
     cr = FL["heroes"][key]
+    credit = (f'{e(cr["credit"])}' if cr.get("ai") else
+              f'Photo: {e(cr["credit"][:60])}, <a href="{e(cr["source_page"])}" rel="noopener">{e(cr["license"])}</a>')
     return (f'<div class="el-hero"><img src="/img/elections/{key}.jpg" alt="{e(alt)}" width="1800" height="1200" fetchpriority="high"><div class="cap"><div class="uc">{e(caption_title)}</div><p>{e(caption_text)}</p></div>'
-            f'<small class="credit">Photo: {e(cr["credit"][:60])}, <a href="{e(cr["source_page"])}" rel="noopener">{e(cr["license"])}</a></small></div>')
+            f'<small class="credit">{credit}</small></div>')
 
 def _crumbs(items):
     return '<div class="breadcrumb">' + " / ".join(f'<a href="{h}">{e(l)}</a>' if h else e(l) for l, h in items) + "</div>"
