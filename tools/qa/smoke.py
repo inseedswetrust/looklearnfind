@@ -8,10 +8,12 @@ Checks per page: HTTP 200, <title>, canonical, og:title/og:image, no noindex met
 every internal link resolves, TIP deep links resolve, external source links reachable (403 from paywalled/bot-blocking sites is reported separately).
 """
 import sys, re, json, urllib.request, urllib.parse, concurrent.futures as cf
-base = sys.argv[1].rstrip("/")
+base = sys.argv[1].rstrip("/")   # add --illinois to include the Illinois pages
 paths = ["/elections/2026/florida/", "/elections/2026/florida/governor/", "/elections/2026/florida/senate/", "/elections/2026/florida/house/",
          "/learn/michigan-senate-delta-october-2026/", "/learn/florida-house-independent-spending-october-2026/", "/learn/florida-governor-fundraising-polling-2026/",
          "/about/election-methods/"] + [f"/elections/2026/florida/house/{i}/" for i in range(1, 29)]
+if "--illinois" in sys.argv:        # Illinois State of the Race (built locally; not live until the owner approves a deploy)
+    paths += ["/elections/2026/illinois/", "/elections/2026/illinois/governor/", "/elections/2026/illinois/senate/", "/elections/2026/illinois/house/"] + [f"/elections/2026/illinois/house/{i}/" for i in range(1, 18)]
 UA = {"User-Agent": "Mozilla/5.0 (LLF smoke test)"}
 def fetch(u, method="GET"):
     try:

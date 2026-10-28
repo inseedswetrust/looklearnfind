@@ -7,11 +7,12 @@ Writes data/elections/FL/markets.json and captures/kalshi_fl_<UTC timestamp>.jso
 Rules: quotes are market-implied prices for a contract, not forecasts. We keep bid, ask, last, volume, open interest, rules text,
 contract title and the capture timestamp. Nothing is smoothed or interpolated.
 """
-import json, urllib.request, urllib.parse, datetime, time
+import json, os, urllib.request, urllib.parse, datetime, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-D = ROOT / "data/elections/FL"
+ST = os.environ.get("LLF_STATE", "FL")      # FL (default) or IL
+D = ROOT / f"data/elections/{ST}"
 B = "https://api.elections.kalshi.com/trade-api/v2"
 
 def get(p, **q):
@@ -25,9 +26,9 @@ def get(p, **q):
                 raise
             time.sleep(2)
 
-events = {"governor": "GOVPARTYFL-26", "senate": "SENATEFLS-26"}
-for n in range(1, 29):
-    events[f"house-{n:02d}"] = f"KXHOUSERACE-FL{n:02d}-26"
+events = {"FL": {"governor": "GOVPARTYFL-26", "senate": "SENATEFLS-26"}, "IL": {"governor": "GOVPARTYIL-26", "senate": "SENATEIL-26"}}[ST]
+for n in range(1, {"FL": 28, "IL": 17}[ST] + 1):
+    events[f"house-{n:02d}"] = f"KXHOUSERACE-{ST}{n:02d}-26"
 now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 raw, out = {}, {}
 for race, et in events.items():
@@ -46,6 +47,6 @@ for race, et in events.items():
          "previous": m.get("previous_price_dollars"), "volume": m.get("volume_fp") or m.get("volume"), "volume_24h": m.get("volume_24h_fp"),
          "open_interest": m.get("open_interest_fp"), "rules": m.get("rules_primary"), "close_time": m.get("close_time")} for m in mk]}
     time.sleep(0.2)
-(D / "captures" / ("kalshi_fl_" + now.replace(":", "").replace("-", "") + ".json")).write_text(json.dumps(raw))
+(D / "captures" / (f"kalshi_{ST.lower()}_" + now.replace(":", "").replace("-", "") + ".json")).write_text(json.dumps(raw))
 (D / "markets.json").write_text(json.dumps({"captured_at_utc": now, "source": "Kalshi public API v2 (api.elections.kalshi.com)", "races": out}, indent=1))
 print({k: (len(v.get("contracts", [])) if "contracts" in v else v.get("error")) for k, v in out.items()})

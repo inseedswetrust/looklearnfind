@@ -1,0 +1,762 @@
+{
+ "captured_at_utc": "2026-10-28T05:49:15Z",
+ "source": "Kalshi public API v2 (api.elections.kalshi.com)",
+ "races": {
+  "governor": {
+   "event_ticker": "GOVPARTYIL-26",
+   "title": "Illinois Governor winner?",
+   "url": "https://kalshi.com/markets/govpartyil",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "GOVPARTYIL-26-D",
+     "title": "Will the Democratic party win the governorship in Illinois",
+     "yes_label": "JB Pritzker",
+     "no_label": "JB Pritzker",
+     "status": "active",
+     "yes_bid": "0.9630",
+     "yes_ask": "0.9640",
+     "last": "0.9640",
+     "previous": "0.9650",
+     "volume": "166166.90",
+     "volume_24h": "2037.39",
+     "open_interest": "141572.27",
+     "rules": "If a representative of the Democratic party is inaugurated as the governor of Illinois pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "GOVPARTYIL-26-R",
+     "title": "Will the Republican party win the governorship in Illinois",
+     "yes_label": "Darren Bailey",
+     "no_label": "Darren Bailey",
+     "status": "active",
+     "yes_bid": "0.0370",
+     "yes_ask": "0.0390",
+     "last": "0.0390",
+     "previous": "0.0380",
+     "volume": "132574.85",
+     "volume_24h": "13015.04",
+     "open_interest": "104594.20",
+     "rules": "If a representative of the Republican party is inaugurated as the governor of Illinois pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "senate": {
+   "event_ticker": "SENATEIL-26",
+   "title": "Illinois Senate winner?",
+   "url": "https://kalshi.com/markets/senateil",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "SENATEIL-26-R",
+     "title": "Will Republicans win the Senate race in Illinois?",
+     "yes_label": "Don Tracy",
+     "no_label": "Don Tracy",
+     "status": "active",
+     "yes_bid": "0.0120",
+     "yes_ask": "0.0230",
+     "last": "0.0150",
+     "previous": "0.0270",
+     "volume": "13680.59",
+     "volume_24h": "207.00",
+     "open_interest": "9650.80",
+     "rules": "If a representative of the Republican party is sworn in as a Senator of Illinois for the term beginning in 2027, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "SENATEIL-26-D",
+     "title": "Will Democratics win the Senate race in Illinois?",
+     "yes_label": "Juliana Stratton",
+     "no_label": "Juliana Stratton",
+     "status": "active",
+     "yes_bid": "0.9750",
+     "yes_ask": "0.9910",
+     "last": "0.9880",
+     "previous": "0.9800",
+     "volume": "23501.75",
+     "volume_24h": "7.06",
+     "open_interest": "19621.16",
+     "rules": "If a representative of the Democratic party is sworn in as a Senator of Illinois for the term beginning in 2027, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-01": {
+   "event_ticker": "KXHOUSERACE-IL01-26",
+   "title": "IL-01 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL01-26-D",
+     "title": "Will Democratic win the House race for IL-01?",
+     "yes_label": "Jonathan Jackson",
+     "no_label": "Jonathan Jackson",
+     "status": "active",
+     "yes_bid": "0.9600",
+     "yes_ask": "0.9800",
+     "last": "0.9790",
+     "previous": "0.9760",
+     "volume": "4239.41",
+     "volume_24h": "91.01",
+     "open_interest": "2735.02",
+     "rules": "If the House member sworn in for IL-01 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL01-26-R",
+     "title": "Will Republican win the House race for IL-01?",
+     "yes_label": "Christian Maxwell",
+     "no_label": "Christian Maxwell",
+     "status": "active",
+     "yes_bid": "0.0200",
+     "yes_ask": "0.0520",
+     "last": "0.0350",
+     "previous": "0.0350",
+     "volume": "3372.88",
+     "volume_24h": "0.00",
+     "open_interest": "1171.49",
+     "rules": "If the House member sworn in for IL-01 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-02": {
+   "event_ticker": "KXHOUSERACE-IL02-26",
+   "title": "IL-02 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL02-26-D",
+     "title": "Will Democratic win the House race for IL-02?",
+     "yes_label": "Donna Miller",
+     "no_label": "Donna Miller",
+     "status": "active",
+     "yes_bid": "0.9520",
+     "yes_ask": "0.9870",
+     "last": "0.9860",
+     "previous": "0.9800",
+     "volume": "879.01",
+     "volume_24h": "0.01",
+     "open_interest": "242.00",
+     "rules": "If the House member sworn in for IL-02 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL02-26-R",
+     "title": "Will Republican win the House race for IL-02?",
+     "yes_label": "Michael Noack",
+     "no_label": "Michael Noack",
+     "status": "active",
+     "yes_bid": "0.0110",
+     "yes_ask": "0.0380",
+     "last": "0.0390",
+     "previous": "0.0390",
+     "volume": "276.00",
+     "volume_24h": "0.00",
+     "open_interest": "250.00",
+     "rules": "If the House member sworn in for IL-02 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-03": {
+   "event_ticker": "KXHOUSERACE-IL03-26",
+   "title": "IL-03 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL03-26-D",
+     "title": "Will Democratic win the House race for IL-03?",
+     "yes_label": "Delia Ramirez",
+     "no_label": "Delia Ramirez",
+     "status": "active",
+     "yes_bid": "0.9570",
+     "yes_ask": "0.9850",
+     "last": "0.9850",
+     "previous": "0.9700",
+     "volume": "724.85",
+     "volume_24h": "25.01",
+     "open_interest": "698.82",
+     "rules": "If the House member sworn in for IL-03 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL03-26-R",
+     "title": "Will Republican win the House race for IL-03?",
+     "yes_label": "Angel Oakley",
+     "no_label": "Angel Oakley",
+     "status": "active",
+     "yes_bid": "0.0150",
+     "yes_ask": "0.0370",
+     "last": "0.0370",
+     "previous": "0.0370",
+     "volume": "837.35",
+     "volume_24h": "0.00",
+     "open_interest": "567.35",
+     "rules": "If the House member sworn in for IL-03 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-04": {
+   "event_ticker": "KXHOUSERACE-IL04-26",
+   "title": "IL-04 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL04-26-D",
+     "title": "Will Democratic win the House race for IL-04?",
+     "yes_label": "Patty Garcia",
+     "no_label": "Patty Garcia",
+     "status": "active",
+     "yes_bid": "0.9460",
+     "yes_ask": "0.9540",
+     "last": "0.9530",
+     "previous": "0.9380",
+     "volume": "10153.26",
+     "volume_24h": "546.47",
+     "open_interest": "7418.67",
+     "rules": "If the House member sworn in for IL-04 for the term beginning in 2027 is a member of the Democratic party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL04-26-R",
+     "title": "Will Republican win the House race for IL-04?",
+     "yes_label": "Lupe Castillo",
+     "no_label": "Lupe Castillo",
+     "status": "active",
+     "yes_bid": "0.0000",
+     "yes_ask": "0.0010",
+     "last": "0.0010",
+     "previous": "0.0010",
+     "volume": "6769.25",
+     "volume_24h": "52.00",
+     "open_interest": "2770.25",
+     "rules": "If the House member sworn in for IL-04 for the term beginning in 2027 is a member of the Republican party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL04-26-MMAC",
+     "title": "Will Mayra Mac\u00edas win the House race for IL-04?",
+     "yes_label": "Mayra Mac\u00edas",
+     "no_label": "Mayra Mac\u00edas",
+     "status": "active",
+     "yes_bid": "0.0000",
+     "yes_ask": "0.0100",
+     "last": "0.0300",
+     "previous": "0.0300",
+     "volume": "3509.00",
+     "volume_24h": "0.00",
+     "open_interest": "1403.00",
+     "rules": "If the House member sworn in for IL-04 for the term beginning in 2027 is Mayra Mac\u00edas (as an independent), then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL04-26-CGET",
+     "title": "Will Chris Getty win the House race for IL-04?",
+     "yes_label": "Chris Getty",
+     "no_label": "Chris Getty",
+     "status": "active",
+     "yes_bid": "0.0500",
+     "yes_ask": "0.0600",
+     "last": "0.0600",
+     "previous": "0.0900",
+     "volume": "11778.28",
+     "volume_24h": "71.24",
+     "open_interest": "11657.28",
+     "rules": "If the House member sworn in for IL-04 for the term beginning in 2027 is Chris Getty, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-05": {
+   "event_ticker": "KXHOUSERACE-IL05-26",
+   "title": "IL-05 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL05-26-D",
+     "title": "Will Democratic win the House race for IL-05?",
+     "yes_label": "Mike Quigley",
+     "no_label": "Mike Quigley",
+     "status": "active",
+     "yes_bid": "0.9660",
+     "yes_ask": "0.9800",
+     "last": "0.9800",
+     "previous": "0.9730",
+     "volume": "1059.21",
+     "volume_24h": "0.01",
+     "open_interest": "412.60",
+     "rules": "If the House member sworn in for IL-05 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL05-26-R",
+     "title": "Will Republican win the House race for IL-05?",
+     "yes_label": "Tommy Hanson",
+     "no_label": "Tommy Hanson",
+     "status": "active",
+     "yes_bid": "0.0220",
+     "yes_ask": "0.0340",
+     "last": "0.0600",
+     "previous": "0.0600",
+     "volume": "958.97",
+     "volume_24h": "0.00",
+     "open_interest": "217.05",
+     "rules": "If the House member sworn in for IL-05 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-06": {
+   "event_ticker": "KXHOUSERACE-IL06-26",
+   "title": "IL-06 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL06-26-D",
+     "title": "Will Democratic win the House race for IL-06?",
+     "yes_label": "Sean Casten",
+     "no_label": "Sean Casten",
+     "status": "active",
+     "yes_bid": "0.9520",
+     "yes_ask": "0.9820",
+     "last": "0.9820",
+     "previous": "0.9500",
+     "volume": "39.99",
+     "volume_24h": "0.01",
+     "open_interest": "20.00",
+     "rules": "If the House member sworn in for IL-06 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL06-26-R",
+     "title": "Will Republican win the House race for IL-06?",
+     "yes_label": "Niki Conforti",
+     "no_label": "Niki Conforti",
+     "status": "active",
+     "yes_bid": "0.0180",
+     "yes_ask": "0.0430",
+     "last": "0.0530",
+     "previous": "0.0530",
+     "volume": "786.34",
+     "volume_24h": "0.00",
+     "open_interest": "525.34",
+     "rules": "If the House member sworn in for IL-06 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-07": {
+   "event_ticker": "KXHOUSERACE-IL07-26",
+   "title": "IL-07 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL07-26-D",
+     "title": "Will Democratic win the House race for IL-07?",
+     "yes_label": "La Shawn Ford",
+     "no_label": "La Shawn Ford",
+     "status": "active",
+     "yes_bid": "0.9680",
+     "yes_ask": "0.9930",
+     "last": "0.9930",
+     "previous": "0.9800",
+     "volume": "46.04",
+     "volume_24h": "1.01",
+     "open_interest": "45.03",
+     "rules": "If the House member sworn in for IL-07 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL07-26-R",
+     "title": "Will Republican win the House race for IL-07?",
+     "yes_label": "Chad Koppie",
+     "no_label": "Chad Koppie",
+     "status": "active",
+     "yes_bid": "0.0040",
+     "yes_ask": "0.0320",
+     "last": "0.0440",
+     "previous": "0.0440",
+     "volume": "102.02",
+     "volume_24h": "0.00",
+     "open_interest": "10.02",
+     "rules": "If the House member sworn in for IL-07 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-08": {
+   "event_ticker": "KXHOUSERACE-IL08-26",
+   "title": "IL-08 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL08-26-D",
+     "title": "Will Democratic win the House race for IL-08?",
+     "yes_label": "Melissa Bean",
+     "no_label": "Melissa Bean",
+     "status": "active",
+     "yes_bid": "0.9440",
+     "yes_ask": "0.9640",
+     "last": "0.9640",
+     "previous": "0.9610",
+     "volume": "1803.70",
+     "volume_24h": "0.01",
+     "open_interest": "1539.78",
+     "rules": "If the House member sworn in for IL-08 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL08-26-R",
+     "title": "Will Republican win the House race for IL-08?",
+     "yes_label": "Jennifer Davis",
+     "no_label": "Jennifer Davis",
+     "status": "active",
+     "yes_bid": "0.0340",
+     "yes_ask": "0.0540",
+     "last": "0.0540",
+     "previous": "0.0540",
+     "volume": "7015.14",
+     "volume_24h": "0.00",
+     "open_interest": "4701.27",
+     "rules": "If the House member sworn in for IL-08 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-09": {
+   "event_ticker": "KXHOUSERACE-IL09-26",
+   "title": "IL-09 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL09-26-D",
+     "title": "Will Democratic win the House race for IL-09?",
+     "yes_label": "Daniel Biss",
+     "no_label": "Daniel Biss",
+     "status": "active",
+     "yes_bid": "0.9760",
+     "yes_ask": "0.9880",
+     "last": "0.9890",
+     "previous": "0.9800",
+     "volume": "1976.01",
+     "volume_24h": "0.01",
+     "open_interest": "176.01",
+     "rules": "If the House member sworn in for IL-09 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL09-26-R",
+     "title": "Will Republican win the House race for IL-09?",
+     "yes_label": "John Elleson",
+     "no_label": "John Elleson",
+     "status": "active",
+     "yes_bid": "0.0110",
+     "yes_ask": "0.0240",
+     "last": "0.0360",
+     "previous": "0.0360",
+     "volume": "980.00",
+     "volume_24h": "0.00",
+     "open_interest": "663.75",
+     "rules": "If the House member sworn in for IL-09 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-10": {
+   "event_ticker": "KXHOUSERACE-IL10-26",
+   "title": "IL-10 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL10-26-D",
+     "title": "Will Democratic win the House race for IL-10?",
+     "yes_label": "Brad Schneider",
+     "no_label": "Brad Schneider",
+     "status": "active",
+     "yes_bid": "0.9630",
+     "yes_ask": "0.9810",
+     "last": "0.9820",
+     "previous": "0.9800",
+     "volume": "2227.04",
+     "volume_24h": "94.52",
+     "open_interest": "1101.53",
+     "rules": "If the House member sworn in for IL-10 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL10-26-R",
+     "title": "Will Republican win the House race for IL-10?",
+     "yes_label": "Carl Lambrecht",
+     "no_label": "Carl Lambrecht",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0260",
+     "last": "0.0210",
+     "previous": "0.0210",
+     "volume": "547.38",
+     "volume_24h": "0.00",
+     "open_interest": "460.40",
+     "rules": "If the House member sworn in for IL-10 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-11": {
+   "event_ticker": "KXHOUSERACE-IL11-26",
+   "title": "IL-11 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL11-26-D",
+     "title": "Will Democratic win the House race for IL-11?",
+     "yes_label": "Bill Foster",
+     "no_label": "Bill Foster",
+     "status": "active",
+     "yes_bid": "0.9630",
+     "yes_ask": "0.9810",
+     "last": "0.9820",
+     "previous": "0.9760",
+     "volume": "87.92",
+     "volume_24h": "0.01",
+     "open_interest": "77.91",
+     "rules": "If the House member sworn in for IL-11 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL11-26-R",
+     "title": "Will Republican win the House race for IL-11?",
+     "yes_label": "Jeff Walter",
+     "no_label": "Jeff Walter",
+     "status": "active",
+     "yes_bid": "0.0150",
+     "yes_ask": "0.0370",
+     "last": "0.0360",
+     "previous": "0.0360",
+     "volume": "1104.85",
+     "volume_24h": "0.00",
+     "open_interest": "1104.85",
+     "rules": "If the House member sworn in for IL-11 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-12": {
+   "event_ticker": "KXHOUSERACE-IL12-26",
+   "title": "IL-12 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL12-26-D",
+     "title": "Will Democratic win the House race for IL-12?",
+     "yes_label": "Julie Fortier",
+     "no_label": "Julie Fortier",
+     "status": "active",
+     "yes_bid": "0.0280",
+     "yes_ask": "0.0430",
+     "last": "0.0530",
+     "previous": "0.0210",
+     "volume": "2899.28",
+     "volume_24h": "88.47",
+     "open_interest": "1677.24",
+     "rules": "If the House member sworn in for IL-12 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL12-26-R",
+     "title": "Will Republican win the House race for IL-12?",
+     "yes_label": "Mike Bost",
+     "no_label": "Mike Bost",
+     "status": "active",
+     "yes_bid": "0.9610",
+     "yes_ask": "0.9680",
+     "last": "0.9680",
+     "previous": "0.9690",
+     "volume": "6461.99",
+     "volume_24h": "1.01",
+     "open_interest": "2822.17",
+     "rules": "If the House member sworn in for IL-12 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-13": {
+   "event_ticker": "KXHOUSERACE-IL13-26",
+   "title": "IL-13 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL13-26-D",
+     "title": "Will Democratic win the House race for IL-13?",
+     "yes_label": "Nikki Budzinski",
+     "no_label": "Nikki Budzinski",
+     "status": "active",
+     "yes_bid": "0.9730",
+     "yes_ask": "0.9800",
+     "last": "0.9800",
+     "previous": "0.9790",
+     "volume": "1364.02",
+     "volume_24h": "0.01",
+     "open_interest": "312.01",
+     "rules": "If the House member sworn in for IL-13 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL13-26-R",
+     "title": "Will Republican win the House race for IL-13?",
+     "yes_label": "Jeff Wilson",
+     "no_label": "Jeff Wilson",
+     "status": "active",
+     "yes_bid": "0.0170",
+     "yes_ask": "0.0240",
+     "last": "0.0750",
+     "previous": "0.0750",
+     "volume": "676.17",
+     "volume_24h": "0.00",
+     "open_interest": "676.17",
+     "rules": "If the House member sworn in for IL-13 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-14": {
+   "event_ticker": "KXHOUSERACE-IL14-26",
+   "title": "IL-14 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL14-26-D",
+     "title": "Will Democratic win the House race for IL-14?",
+     "yes_label": "Lauren Underwood",
+     "no_label": "Lauren Underwood",
+     "status": "active",
+     "yes_bid": "0.9600",
+     "yes_ask": "0.9900",
+     "last": "0.9900",
+     "previous": "0.9700",
+     "volume": "1121.14",
+     "volume_24h": "0.01",
+     "open_interest": "1083.06",
+     "rules": "If the House member sworn in for IL-14 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL14-26-R",
+     "title": "Will Republican win the House race for IL-14?",
+     "yes_label": "James Marter",
+     "no_label": "James Marter",
+     "status": "active",
+     "yes_bid": "0.0090",
+     "yes_ask": "0.0340",
+     "last": "0.0450",
+     "previous": "0.0450",
+     "volume": "2171.89",
+     "volume_24h": "0.00",
+     "open_interest": "1576.00",
+     "rules": "If the House member sworn in for IL-14 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-15": {
+   "event_ticker": "KXHOUSERACE-IL15-26",
+   "title": "IL-15 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL15-26-D",
+     "title": "Will Democratic win the House race for IL-15?",
+     "yes_label": "Jennifer Todd",
+     "no_label": "Jennifer Todd",
+     "status": "active",
+     "yes_bid": "0.0370",
+     "yes_ask": "0.0560",
+     "last": "0.0690",
+     "previous": "0.0690",
+     "volume": "2680.61",
+     "volume_24h": "0.00",
+     "open_interest": "1396.41",
+     "rules": "If the House member sworn in for IL-15 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL15-26-R",
+     "title": "Will Republican win the House race for IL-15?",
+     "yes_label": "Mary Miller",
+     "no_label": "Mary Miller",
+     "status": "active",
+     "yes_bid": "0.9560",
+     "yes_ask": "0.9640",
+     "last": "0.9600",
+     "previous": "0.9560",
+     "volume": "2093.09",
+     "volume_24h": "374.01",
+     "open_interest": "1348.14",
+     "rules": "If the House member sworn in for IL-15 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-16": {
+   "event_ticker": "KXHOUSERACE-IL16-26",
+   "title": "IL-16 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-IL16-26-D",
+     "title": "Will Democratic win the House race for IL-16?",
+     "yes_label": "Paul Nolley",
+     "no_label": "Paul Nolley",
+     "status": "active",
+     "yes_bid": "0.0240",
+     "yes_ask": "0.0560",
+     "last": "0.0260",
+     "previous": "0.0260",
+     "volume": "22644.66",
+     "volume_24h": "0.00",
+     "open_interest": "6678.10",
+     "rules": "If the House member sworn in for IL-16 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-IL16-26-R",
+     "title": "Will Republican win the House race for IL-16?",
+     "yes_label": "Darin LaHood",
+     "no_label": "Darin LaHood",
+     "status": "active",
+     "yes_bid": "0.9440",
+     "yes_ask": "0.9760",
+     "last": "0.9780",
+     "previous": "0.9630",
+     "volume": "11222.31",
+     "volume_24h": "0.01",
+     "open_interest": "1620.89",
+     "rules": "If the House member sworn in for IL-16 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-17": {
+   "event_ticker": "KXHOUSERACE-IL17-26",
+   "error": "404"
+  }
+ }
+}
