@@ -6,7 +6,7 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-28",
   "updated_by": "claude",
-  "as_of_commit": "73bc10e",
+  "as_of_commit": "6f36b2c",
   "headline": "Michigan pages, roster, TIP join, portraits, markets and story scout are built locally. Two reported pieces are live. MI-A1 is ready for a ChatGPT draft; the Michigan tile image has come back and is not yet wired in. Nothing Michigan-specific is deployed.",
   "paths": [
     "productions/2026/MI",
@@ -98,8 +98,8 @@
     {
       "id": "factcheck",
       "title": "Independent fact-check of used claims",
-      "status": "waiting_owner",
-      "note": "Claude check done (research/MI-A1_FACTCHECK.md, 3 fixes, 1 addition); owner sign-off needed before publish"
+      "status": "done",
+      "note": "Claude check (research/MI-A1_FACTCHECK.md) signed off by owner 2026-10-28; not deployed"
     },
     {
       "id": "publish",
@@ -229,8 +229,7 @@
     "Name the ChatGPT articles chat and images chat in docs/production/CHAT_REGISTRY.md, then send each its package",
     "Approve deploying the Michigan pages, the tile and MI-A1",
     "Approve promoting the five Michigan governor entries on TIP",
-    "If a MI-A3 source is paywalled or blocked, paste its text",
-    "Sign off the MI-A1 fact-check (productions/2026/MI/research/MI-A1_FACTCHECK.md) and set its publication date"
+    "If a MI-A3 source is paywalled or blocked, paste its text"
   ],
   "blocked": [
     {

@@ -51,3 +51,6 @@
 - **Article:** `content/learn/mike-duggan-withdrawn-candidate-kalshi-michigan.html` (Reported Feature). Strict build 156 pages, 0 rule violations; 139 tests pass.
 - **Fact-check (`research/MI-A1_FACTCHECK.md`):** all prices, rules and tickets match the saved Kalshi response and the Department of State listing. Fixed: a joined and elided Duggan quote (Bridge prints two quoted sentences), the May 21 wording (Bridge says "Thursday" and is dated May 21) and an ambiguous "Duggan does not appear on that listing" (a different Duggan, Brian M., is on the listing for a state House seat). Added one sentence on 24-hour volume (317.81 contracts), which ChatGPT's package did not have. Drafting-process wording removed from the open-file box and source notes.
 - **Not done:** owner sign-off on the fact-check; deploy; the three governor profiles stay unlinked until the owner approves C5. DR-1 to DR-3 open, none blocking.
+
+## 2026-10-28, late: MI-A1 fact-check signed off
+- **Owner sign-off** on `research/MI-A1_FACTCHECK.md` given in chat. Owner said do not deploy yet; nothing deployed. Publication date still to be set at deploy.
