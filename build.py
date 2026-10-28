@@ -624,9 +624,10 @@ def gen_home():
                 f'<a class="hf-card" href="{s["path"]}"><div class="hf-thumb" style="--img:url({_img(s)})" role="img" aria-label="{e(s.get("hero_alt", ""))}"><span class="corner">AI illustration</span></div>'
                 f'<span class="eyebrow">{_kick(s)}</span><h3>{e(s["title"])}</h3><p>{e(s.get("dek", ""))}</p></a>'
                 for s in (_by[k] for k in FEATURED[1:] if k in _by)) + '</div>'
-            '<div class="state-files"><span class="eyebrow">The state files</span><div class="links">'
-            '<a href="/elections/2026/florida/">Florida ↗</a><a href="/elections/2026/illinois/">Illinois ↗</a>'
-            '<a href="/learn/">All reported pieces ↗</a></div></div>')
+            '<div class="state-tiles">'
+            '<a class="state-tile" href="/elections/2026/florida/" style="--img:url(/img/elections/s1-florida.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>Florida</b><span>Governor, U.S. Senate and 28 House races, with the money and the record.</span></span></a>'
+            '<a class="state-tile" href="/elections/2026/illinois/" style="--img:url(/img/elections/s2-illinois.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>Illinois</b><span>Governor, U.S. Senate and 17 House races, with the primary money and the ballot rules.</span></span></a>'
+            '</div>')
     finds = "".join(
         f'<a href="/find/{t["slug"]}/" class="find-row"><span class="eyebrow">{i:02d}</span><b>{e(t["label"])}</b><p>{e(t["blurb"])}</p><span class="arrow">↗</span></a>'
         for i, t in enumerate(SITE["find_types"][:4], 1))
@@ -664,7 +665,7 @@ def gen_home():
 <div class="about-sheet"><span class="eyebrow">A story, opened up</span><div class="line"><b>LOOK</b><span>What is the real question?</span></div><div class="line"><b>LEARN</b><span>What do the sources show? What might we be missing?</span></div><div class="line"><b>FIND</b><span>What is worth exploring next?</span></div><div class="source">SOURCE 01 — ORIGINAL MATERIAL ↗</div></div></div></section>
 </div>'''
     shell("LookLearnFind — Ideas Worth a Second Look", "Short posts to catch your eye, reported deep dives with receipts, and real-world finds worth a visit. Curiosity should lead somewhere.",
-          "/", body, nav="", js=("common", "shelf"), bodyclass="home")
+          "/", body, nav="", js=("common", "shelf"), bodyclass="home", og="/img/og-elections.jpg")
 
 
 def gen_search_shell():
