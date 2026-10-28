@@ -726,7 +726,8 @@ def district_page(n):
             f"Every candidate on our roster in {_poss(SX['name'])} {n}{_ord(n)} congressional district, with Kalshi quotes and TIP issue grades and a link to the FEC filings.")
     _wrapup(body, f"{_poss(SX['name'])} {n}{_ord(n)} Congressional District 2026", desc, f"{ST_URL}house/{n}/", crumbs)
 
-MARKET_NOTES = {("IL", "house-04"): '<p class="small">Kalshi still lists a contract for Mayra Macías, an independent the Illinois State Board of Elections voted 8-0 on July 21, 2026 to remove from the ballot (Riverside-Brookfield Landmark, July 22). The quote is shown as the API returned it and is not an endorsement of her candidacy.</p>'}
+MARKET_NOTES = {("MI", "governor"): '<p class="small">Kalshi still lists a contract for Mike Duggan, who ended his independent campaign for governor on May 21, 2026 (Bridge Michigan, May 21, 2026) and does not appear on the Michigan Department of State candidate listing. The quote is shown as the API returned it and is not an endorsement of any candidacy.</p>',
+                ("IL", "house-04"): '<p class="small">Kalshi still lists a contract for Mayra Macías, an independent the Illinois State Board of Elections voted 8-0 on July 21, 2026 to remove from the ballot (Riverside-Brookfield Landmark, July 22). The quote is shown as the API returned it and is not an endorsement of her candidacy.</p>'}
 
 def _ord(n):
     return "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
@@ -823,7 +824,7 @@ def generic_gov_page():
 <p class="dek small-dek">Nominees won their party primaries on {SX['primary']}. TIP grades a candidate only from recorded congressional acts, so a nominee who never served in Congress shows no graded issues; not graded is not a score of zero.</p>
 <div class="ccards two">{"".join(candidate_card(c, "xl") for c in major)}</div></div>{tip_panel(major)}</div></section>
 <section class="band cream" id="markets"><div class="wrap wide two"><div><div class="kicker">Markets<i></i></div><h2 class="h3">What the Kalshi market quotes</h2>{market_card("governor", "What the market says")}</div>
-<div><p class="small">The contract resolves on the party of the person inaugurated as governor. A price is what traders were willing to pay at the capture time. It is not a forecast, a poll or a vote share.</p></div></div></section>
+<div><p class="small">The contract resolves on the party of the person inaugurated as governor. A price is what traders were willing to pay at the capture time. It is not a forecast, a poll or a vote share.</p>{MARKET_NOTES.get((SX["code"], "governor"), "")}</div></div></section>
 <section class="band" id="polls"><div class="wrap wide"><div class="kicker">Polling<i></i></div><h2 class="h3">No poll is shown</h2><p>We have not shown a poll for this race. {SX['poll_note'].format(asof=dstr(_asof().isoformat()))} We will add a poll when we can cite its pollster, field dates, sample and sponsor from the original.</p></div></section>
 <section class="band cream" id="others"><div class="wrap wide"><div class="kicker">The other candidates<i></i></div><h2 class="h3">Everyone else on our roster</h2>
 {_others_table(others, "Write-in candidates do not appear as printed ballot choices. Where a candidate has no TIP record we say so; that gap is TIP's to fill, not a statement about the candidate.")}</div></section>

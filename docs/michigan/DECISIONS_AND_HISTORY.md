@@ -13,3 +13,15 @@
 - Applied to production: profiles GOV-MI-HUDSON, GOV-MI-BRANDENBURG, GOV-MI-CAMPBELL, HOU-MI10-NKROMO, HOU-MI13-COLEMAN (`needs_review`); 5 governor entries (`review`, using existing Benson 8055 and James 4772 profiles); Nkromo and Coleman entries linked.
 - Re-exported and re-joined: 74 of 75 linked. Governor entries are `review`, so TIP's public Governor race page stays empty until they are promoted; LLF links the profiles directly.
 - Open: promote the 5 governor entries to `active` (owner's call); the TIP repo files (12_missing_profiles.sql, apply-mi-gap-profiles.mjs, refreshed MI packet) are uncommitted there.
+
+## 2026-10-28, stages 2 to 4: portraits, markets, pages, story scout, hero brief
+- **Moved** the old Senate-only delta files to `data/elections/MI/senate_delta/` (candidates, portraits, finance, Kalshi D and R) and pointed `load()` in `elections.py` there, so the Kalshi El-Sayed delta report and the new state pages no longer share `candidates.json` and `portraits.json`.
+- **Portraits:** `fetch_portraits.py MI` found 18 licensed images (public domain, CC0, CC BY, BY-SA); 12 had no confident Wikipedia match; everyone else shows a monogram. Credits in `data/elections/MI/portraits.json`.
+- **Markets:** `LLF_STATE=MI fetch_kalshi.py` (MI added): governor and Senate events plus House contracts for 9 of 13 districts (none found for MI-03, 04, 07 and 10). The governor event still lists Mike Duggan.
+- **Geometry:** Census cb_2024_us_cd119_500k, reusing the zip already in `data/elections/IL/captures/` (no new download), 13 districts.
+- **Pages:** `STATES["MI"]` in `elections.py` (hub, governor, Senate, House directory, 13 districts; `--strict` 0 violations). State copy moved into per-state settings (primary date, Senate seat note, governor hero, poll notes) so no Illinois text appears on Michigan pages; the pages say the roster follows the official listing. Governor hero is the existing CC BY-SA Lansing photo (`mi-capitol`). Write-ins use party code WRI.
+- **Tests:** `tests/test_michigan_pages.py` (10); 134 passing in total.
+- **Not done on purpose:** no Michigan tile on the homepage (needs `s3-michigan.jpg`); nothing deployed.
+- **Duggan resolved:** he ended his independent bid on May 21, 2026 (Bridge Michigan, opened), which explains why the official listing has no independent. The governor page notes his stale Kalshi contract.
+- **Story scout:** `productions/2026/MI/research/STORY_BRIEF.md` and `story_brief.json` (A1 and A2 READY; A3 and A4 NOT_READY).
+- **Hero brief:** `productions/2026/visuals/MICHIGAN_HERO_BRIEF_FOR_CHATGPT.md`.
