@@ -39,6 +39,8 @@ for _k in ("banner-politics", "banner-economy", "banner-society", "banner-everyd
     IMG[_k] = f"/img/c/{_k}.jpg"
 for _t in ("politics", "candidates", "businesses", "home-improvement", "self-improvement", "side-projects", "working-out", "cooking", "supplements", "skincare", "self-care", "money"):
     IMG["topic-" + _t] = f"/img/c/topic-{_t}.jpg"
+FEATURED = ("aipac-udp-money-delta-october-2026", "illinois-il07-ford-outside-money-october-2026",
+            "illinois-senate-primary-money-october-2026", "illinois-il04-ballot-access-october-2026")
 COPY = json.loads((ROOT / "data" / "copy.json").read_text())
 SEO = json.loads((ROOT / "data" / "seo.json").read_text())
 CAT_COPY = {c["slug"]: COPY["categories"][c["label"].title() if c["label"] != "Everyday life" else "Everyday Life"] for c in SITE["categories"]}
@@ -119,6 +121,15 @@ def load_content():
             meta["_body"] = body
             PAGES.append(meta)
     STORIES.sort(key=lambda m: m.get("date", ""), reverse=True)
+    elections.load()
+    for s in STORIES:
+        if s.get("layout") == "report":
+            for k in ("title", "dek"):
+                s[k] = elections.expand_values(s.get(k, ""))
+            if s.get("hero") and not s.get("image"):
+                IMG["hero-" + s["hero"]] = f"/img/elections/{s['hero']}.jpg"
+                s["image"] = "hero-" + s["hero"]
+                s["image_alt"] = s.get("hero_alt", "")
     FINDS.sort(key=lambda m: m.get("added", ""), reverse=True)
     for t in THREADS:
         for k in ("aliases", "topics", "related"):
@@ -596,7 +607,26 @@ def gen_home():
         f'<a class="latest-card" href="{s["path"]}"><div class="thumb" style="--img:url({IMG.get(s.get("image", ""), "")})" role="img" aria-label="{e(s.get("image_alt", ""))}"></div>'
         f'<span class="eyebrow">{e(cat_label(s.get("category", "")))} / {e(s.get("format", "Story"))}</span><h3>{e(s["title"])}</h3><p>{e(s.get("dek", ""))}</p>'
         + ('<span class="eyebrow" style="display:block;margin-top:10px;color:#6b706b">Illustrative sample</span>' if s.get("illustrative") == "yes" else "") + "</a>"
-        for s in STORIES[:3])
+        for s in [x for x in STORIES if x["slug"] not in FEATURED][:3])
+    _by = {s["slug"]: s for s in STORIES}
+    _lead = _by.get(FEATURED[0])
+    feature_html = ""
+    if _lead:
+        def _img(s):
+            return f'/img/elections/{s["hero"]}.jpg'
+        def _kick(s):
+            return f'{e(s.get("hero_title", ""))} / {e(s.get("format", "Report"))}'
+        feature_html = (
+            f'<div class="feature-lead" id="midterms"><a class="feature-img" href="{_lead["path"]}" style="--img:url({_img(_lead)})" role="img" aria-label="{e(_lead.get("hero_alt", ""))}"><span class="corner">AI illustration</span></a>'
+            f'<div class="feature-copy"><div class="stamp eyebrow">New reporting <span>●</span> {e(_lead.get("hero_title", ""))}</div><div><h3>{e(_lead["title"])}</h3><p>{e(_lead.get("dek", ""))}</p>'
+            f'<a class="text-link" href="{_lead["path"]}">Read the report <span>↗</span></a></div><span class="eyebrow">{e(_lead.get("format", "Report"))} / {e(fmt_date(_lead.get("date", "")))}</span></div></div>'
+            '<div class="feature-trio">' + "".join(
+                f'<a class="hf-card" href="{s["path"]}"><div class="hf-thumb" style="--img:url({_img(s)})" role="img" aria-label="{e(s.get("hero_alt", ""))}"><span class="corner">AI illustration</span></div>'
+                f'<span class="eyebrow">{_kick(s)}</span><h3>{e(s["title"])}</h3><p>{e(s.get("dek", ""))}</p></a>'
+                for s in (_by[k] for k in FEATURED[1:] if k in _by)) + '</div>'
+            '<div class="state-files"><span class="eyebrow">The state files</span><div class="links">'
+            '<a href="/elections/2026/florida/">Florida ↗</a><a href="/elections/2026/illinois/">Illinois ↗</a>'
+            '<a href="/learn/">All reported pieces ↗</a></div></div>')
     finds = "".join(
         f'<a href="/find/{t["slug"]}/" class="find-row"><span class="eyebrow">{i:02d}</span><b>{e(t["label"])}</b><p>{e(t["blurb"])}</p><span class="arrow">↗</span></a>'
         for i, t in enumerate(SITE["find_types"][:4], 1))
@@ -605,9 +635,7 @@ def gen_home():
 <div class="mobile-hero-text"><span class="eyebrow">SOURCE 01 — LOOK LEARN FIND</span><h1>where signal<br>meets source</h1></div></div>
 <div class="hero-ribbon"><span>Look closer / 2026 midterms</span><a class="date" href="#politics">Politics is the opening file ↓</a></div>
 <section class="chapter politics" id="politics"><div class="wrap">{chapter_head(C["politics"], "The midterms file", "#midterms")}
-<div class="politics-lead" id="midterms"><div class="politics-copy"><div class="stamp eyebrow">The opening file <span>●</span> Election 2026</div><div><h3>The midterms, in the open.</h3><p>What matters in your race? Who is asking for your vote? What does the record show? One place to begin asking better questions.</p><a class="text-link" href="#politics-sources">See the starting sources <span>↗</span></a></div><span class="eyebrow">A living guide / editorial concept</span></div>
-<div class="image" role="img" aria-label="Voters entering a neighborhood polling place"><span class="corner">01 / THE BALLOT</span></div></div>
-<div class="politics-secondary">{card("/threads/candidate-forums/", "politics-forum", "02 / The people", "Hear the answer. Check the record.", "Candidate forums, positions, votes, and the questions still unanswered.")}{card("/topics/candidates/", "politics-record", "03 / The receipts", "Read past the claim.", "Original documents, campaign money, and context that changes the picture.")}</div>
+{feature_html}
 <div class="source-bar" id="politics-sources"><span class="eyebrow">Start with original material →</span><div class="links"><a href="https://www.usa.gov/midterm-elections" target="_blank" rel="noopener">Midterm basics ↗</a><a href="https://www.usa.gov/who-you-can-vote-for" target="_blank" rel="noopener">Your ballot ↗</a><a href="https://www.fec.gov/data/elections/" target="_blank" rel="noopener">Campaign finance ↗</a></div></div></div></section>
 
 <section class="chapter economy" id="economy"><div class="wrap">{chapter_head(C["economy"], "Explore Economy", "/economy/")}
