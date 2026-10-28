@@ -10,3 +10,11 @@
 - 2026-10-28 (install): Canonical workflow lanes `production:<state>-<year>` (12 stages) and `render:<state>-<year>` were added to `tools/workflow/transitions.py`; publishing, deploying and rendering stages require a recorded owner authorization and fact-check stages a reviewer other than the actor. The older `story:` and `video:` lanes stay valid for existing entries.
 - 2026-10-28 (install): The Illinois discovery material was preserved exactly as returned. The State Board of Elections 403 is recorded as a specific data-access limitation (`docs/production/DATA_ACCESS_LIMITATIONS.md`, `docs/illinois/DATA_ACCESS_LIMITATIONS.md`); the roster is not claimed complete or official.
 - 2026-10-28 (install): Michigan was not started, no page was published or uploaded, no video was rendered and no new research was done during the install.
+
+## 2026-10-28 owner dispositions of the install's open issues
+1. Florida video uses an older script: keep flagged as legacy; it must not overwrite the finalized creative work.
+2. Midjourney settings unverified: address when producing the next video, not now.
+3. Older footage downloads: preserve existing assets and rights records; not revisited during Illinois production.
+4. Multiple workflow lanes: use the `production:` lane going forward.
+5. Illinois official roster inaccessible: must be resolved before claiming the Illinois State of the Race directory is complete.
+6. `seed_backfill.py` deletes ledger history: do not run it; preserve Illinois research and production state.
