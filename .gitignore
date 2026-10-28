@@ -19,3 +19,4 @@ assets/video/*/captions/
 # local secrets, never commit
 .env
 .env.local
+productions/2026/*/chatgpt_package/
