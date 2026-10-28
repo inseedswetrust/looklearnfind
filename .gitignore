@@ -15,3 +15,7 @@ assets/video/*/source/
 assets/video/*/selects/
 assets/video/*/thumbs/
 assets/video/*/captions/
+
+# local secrets, never commit
+.env
+.env.local

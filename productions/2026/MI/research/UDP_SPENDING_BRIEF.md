@@ -1,4 +1,7 @@
-# Michigan: UDP spending around the AIPAC announcement (story brief)
+# Money delta piece: UDP spending around the AIPAC announcement (story brief)
+
+**Update 2026-10-28 (supersedes the sections below where they differ):** with the owner's FEC key the delta was rebuilt. The FEC's UDP totals through Oct 14 show $53,603,927.44 in independent expenditures; five Form 24 notices dated Oct 15 to 23, all opposing El-Sayed, add $398,683.44, for $54,002,610.88. The ChatGPT brief's "unreconciled $189,241" is the Oct 15 and Oct 19 mailers (before the announcement). The $9 million was first reported by the New York Times (two unnamed sources), not the Washington Post as the brief said, and is unconfirmed. The owner's headline concept stands as the working headline. Draft: `../articles/aipac-udp-money-delta-october-2026.html`.
+
 
 Lane `production:mi-2026`. Written 2026-10-28 from ChatGPT's editorial brief plus LLF's own FEC check. Draft not started. Scope: U.S. Senate (Michigan).
 

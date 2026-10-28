@@ -1,0 +1,52 @@
+{
+ "fec_ie_through_2026_10_14": 53603927.44,
+ "fec_disbursements_through_2026_10_14": 85057423.26,
+ "dated_after_oct_14_total": 398683.44,
+ "dated_after_oct_14_rows": [
+  [
+   "2026-10-15",
+   94620.36,
+   "RIVIERA LLC",
+   "DIRECT MAIL",
+   "EL-SAYED, ABDUL",
+   "O"
+  ],
+  [
+   "2026-10-19",
+   94620.36,
+   "RIVIERA LLC",
+   "DIRECT MAIL",
+   "EL-SAYED, ABDUL",
+   "O"
+  ],
+  [
+   "2026-10-21",
+   94620.36,
+   "RIVIERA LLC",
+   "DIRECT MAIL",
+   "EL-SAYED, ABDUL",
+   "O"
+  ],
+  [
+   "2026-10-21",
+   20202.0,
+   "APEX STRATEGIES LLC",
+   "TEXT MESSAGING",
+   "EL-SAYED, ABDUL",
+   "O"
+  ],
+  [
+   "2026-10-23",
+   94620.36,
+   "RIVIERA LLC",
+   "DIRECT MAIL",
+   "EL-SAYED, ABDUL",
+   "O"
+  ]
+ ],
+ "filed_since_oct_15_total": 493303.8,
+ "reconstructed_cumulative": 54002610.88,
+ "before_announcement": 189240.72,
+ "announcement_day": 114822.36,
+ "after_announcement": 94620.36
+}
