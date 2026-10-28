@@ -72,7 +72,8 @@
       "evidence": [
         "productions/2026/MI/research/STORY_BRIEF.md",
         "productions/2026/MI/research/story_brief.json"
-      ]
+      ],
+      "note": "MI-A1 and MI-A4 ready; MI-A2 withdrawn; MI-A3 not ready (spending missing)"
     },
     {
       "id": "image_briefs",
@@ -143,13 +144,27 @@
           "id": "MI-A3",
           "title": "MI-13: incumbent loses primary",
           "status": "not_ready",
-          "note": "lead source blocked (403); one damaging claim unverified"
+          "note": "2026-10-28: result sourced from two opened pages (WDIV final table 57,714 to 53,494, 100% of 346 precincts, unofficial; Bridge Michigan Aug 5, partial Wayne County margin). Official canvass site unreachable; Michigan Advance and its wire copy return 403 (not circumvented). No 2026 spending figures found in any opened source. Missing piece: an FEC Schedule E pull for Thanedar and McKinney. Nothing about T.P. Nykoriak's past is used. See research/MI-A3_SOURCES.md."
         },
         {
           "id": "MI-A4",
-          "title": "MI-10: outside spending in an open seat",
-          "status": "not_ready",
-          "note": "FEC data pulled; Claude is reconciling totals; a later package carries it"
+          "title": "MI-10: who is spending in the open seat (Spending Report, schema 03), 800 to 1,100 words",
+          "status": "ready",
+          "inputs": [
+            "productions/2026/MI/package_src/stories/MI-A4/STORY_BRIEF.md",
+            "productions/2026/MI/package_src/stories/MI-A4/CLAIMS.csv",
+            "productions/2026/MI/research/mi10_reconciled.json",
+            "productions/2026/MI/research/fec_ie_MI10_MI13.json",
+            "productions/2026/MI/research/fec_committees_MI10.json",
+            "productions/2026/MI/research/fec_totals_MI10.json",
+            "tools/elections/reconcile_ie.py",
+            "productions/2026/MI/package_src/LINK_MAP.md"
+          ],
+          "returns": [
+            "MI-A4_*.html",
+            "MI-A4_CLAIMS.csv",
+            "MI-A4_NOTES.md"
+          ]
         }
       ]
     },
@@ -191,14 +206,15 @@
     {
       "id": "C2",
       "title": "MI-A4: reconcile the MI-10 Schedule E pull (notices vs reports vs FEC roll-up, committee names and types, as-of), then write STORY_BRIEF and CLAIMS (Spending Report, schema 03)",
-      "status": "todo",
+      "status": "done",
       "gate": "none"
     },
     {
       "id": "C3",
       "title": "MI-A3: find an openable source or ask the owner to paste the Michigan Advance text; read the official August 4 canvass; no use of any claim about T.P. Nykoriak's past without the court record and a response attempt",
-      "status": "todo",
-      "gate": "none"
+      "status": "done",
+      "gate": "none",
+      "note": "MI-A3 stays not_ready: results sourced, spending not. Next if wanted: FEC Schedule E pull for MI-13 (Thanedar and McKinney)."
     },
     {
       "id": "C4",

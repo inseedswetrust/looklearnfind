@@ -1,0 +1,863 @@
+{
+ "basis": "Reconcile a Schedule E pull (fetch_fec_ie.py output) for one House race: notices (F24/F5) against periodic-report rows (F3X).",
+ "dissemination_cut": "2026-10-24",
+ "pull_captured_at_utc": "2026-10-28T22:07:13Z",
+ "candidates": {
+  "H6MI10276": {
+   "name": "Christina Hines",
+   "rows_after_first_pass": 172,
+   "paired_and_removed": 6,
+   "memo_dropped": 2,
+   "total_after_first_pass": 6978534.11,
+   "support": 2537611.79,
+   "oppose": 4164104.66,
+   "rows_dated_after_2026-10-24_dissemination_or_2026-10-28_expenditure": [
+    {
+     "committee_name": "WOMEN VOTE",
+     "expenditure_amount": 1147.81,
+     "expenditure_date": "2026-10-29",
+     "dissemination_date": "2026-10-24",
+     "filing_form": "F24"
+    }
+   ],
+   "committees": [
+    {
+     "committee_id": "C00504530",
+     "committee": "CLF",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "O",
+     "total": 2659832.86,
+     "n": 5,
+     "first": "2026-09-23",
+     "last": "2026-09-30",
+     "forms": [
+      "F3X"
+     ],
+     "fec_rollup_total": 2659832.86,
+     "fec_rollup_count": 5
+    },
+    {
+     "committee_id": "C00571588",
+     "committee": "RESTORATION OF AMERICA PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 1059150.0,
+     "n": 2,
+     "first": "2026-10-06",
+     "last": "2026-10-06",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00949248",
+     "committee": "PRO-CHOICE MAJORITY ACTION",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": null,
+     "so": "S",
+     "total": 499999.87,
+     "n": 4,
+     "first": "2026-07-17",
+     "last": "2026-07-27",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 499999.87,
+     "fec_rollup_count": 4
+    },
+    {
+     "committee_id": "C00540443",
+     "committee": "GIFFORDS PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "S",
+     "total": 495191.89,
+     "n": 5,
+     "first": "2026-09-29",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 153003.5,
+     "fec_rollup_count": 1
+    },
+    {
+     "committee_id": "C00495028",
+     "committee": "HMP",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "S",
+     "total": 310296.8,
+     "n": 7,
+     "first": "2026-09-15",
+     "last": "2026-10-06",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 175056.8,
+     "fec_rollup_count": 5
+    },
+    {
+     "committee_id": "C00744920",
+     "committee": "CFFE PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "S",
+     "total": 279679.91,
+     "n": 13,
+     "first": "2026-09-04",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00960435",
+     "committee": "NO GOING BACK PAC INC.",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 206626.19,
+     "n": 17,
+     "first": "2026-09-04",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00879510",
+     "committee": "AMERICA PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 201164.59,
+     "n": 21,
+     "first": "2026-09-10",
+     "last": "2026-10-24",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00580068",
+     "committee": "PROGRESSIVE TURNOUT PROJECT",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "S",
+     "total": 144851.65,
+     "n": 6,
+     "first": "2026-09-18",
+     "last": "2026-10-23",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 40049.44,
+     "fec_rollup_count": 2
+    },
+    {
+     "committee_id": "C00951269",
+     "committee": "AMERICAN DEMOCRACY COMMITTEE",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 125588.0,
+     "n": 2,
+     "first": "2026-10-17",
+     "last": "2026-10-23",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00486845",
+     "committee": "LCV VICTORY FUND",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 118225.85,
+     "n": 7,
+     "first": "2026-09-04",
+     "last": "2026-10-23",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00961193",
+     "committee": "ASIAN AMERICANS VOICES FUND",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 97395.15,
+     "n": 8,
+     "first": "2026-10-08",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00718353",
+     "committee": "MILLIONS OF MICHIGANIANS",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 95000.0,
+     "n": 2,
+     "first": "2026-10-01",
+     "last": "2026-10-01",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00473918",
+     "committee": "WOMEN VOTE",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 61207.81,
+     "n": 2,
+     "first": "2026-10-24",
+     "last": "2026-10-24",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00828343",
+     "committee": "RELENTLESS PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": null,
+     "so": "S",
+     "total": 52139.0,
+     "n": 1,
+     "first": "2026-10-07",
+     "last": "2026-10-07",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00620971",
+     "committee": "FOR OUR FUTURE",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 50140.79,
+     "n": 4,
+     "first": "2026-09-16",
+     "last": "2026-10-19",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00886093",
+     "committee": "FOR MICHIGAN ACTION FUND",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 46697.89,
+     "n": 5,
+     "first": "2026-10-06",
+     "last": "2026-10-24",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00892471",
+     "committee": "MAGA INC.",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": null,
+     "so": "O",
+     "total": 37331.02,
+     "n": 1,
+     "first": "2026-10-12",
+     "last": "2026-10-12",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00745745",
+     "committee": "IN UNION USA",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 37094.99,
+     "n": 7,
+     "first": "2026-09-08",
+     "last": "2026-10-15",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 24781.29,
+     "fec_rollup_count": 4
+    },
+    {
+     "committee_id": "C00492140",
+     "committee": "AB PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": null,
+     "so": "S",
+     "total": 29946.13,
+     "n": 4,
+     "first": "2026-10-05",
+     "last": "2026-10-22",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00738674",
+     "committee": "REPRODUCTIVE FREEDOM FOR ALL FREEDOM FUND",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 18016.0,
+     "n": 1,
+     "first": "2026-10-23",
+     "last": "2026-10-23",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00612820",
+     "committee": "COMMUNITY CHANGE VOTERS",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 16882.72,
+     "n": 4,
+     "first": "2026-09-02",
+     "last": "2026-09-25",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C90018367",
+     "committee": "MOMSRISING TOGETHER",
+     "committee_type": "Independent expenditure filer (not a committee)",
+     "org_type": null,
+     "so": "S",
+     "total": 16267.61,
+     "n": 4,
+     "first": "2026-10-14",
+     "last": "2026-10-24",
+     "forms": [
+      "F5"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00004036",
+     "committee": "SEIU COPE (SERVICE EMPLOYEES INTERNATIONAL UNION COMMITTEE ON POLITICAL EDUCATION)",
+     "committee_type": "PAC - Qualified",
+     "org_type": "Labor Organization",
+     "so": "S",
+     "total": 10977.5,
+     "n": 4,
+     "first": "2026-10-14",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00523621",
+     "committee": "UNITED WE CAN",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 8763.14,
+     "n": 1,
+     "first": "2026-10-21",
+     "last": "2026-10-21",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00930321",
+     "committee": "NEIGHBOR VOICES PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 8758.33,
+     "n": 6,
+     "first": "2026-10-15",
+     "last": "2026-10-22",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00961854",
+     "committee": "COMMON GROUND COALITION PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 7161.23,
+     "n": 5,
+     "first": "2026-09-29",
+     "last": "2026-10-01",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C90011156",
+     "committee": "WORKING AMERICA",
+     "committee_type": "Independent expenditure filer (not a committee)",
+     "org_type": null,
+     "so": "S",
+     "total": 6937.93,
+     "n": 4,
+     "first": "2026-10-09",
+     "last": "2026-10-22",
+     "forms": [
+      "F5"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00909994",
+     "committee": "FIELD TEAM 6, INC.",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 366.6,
+     "n": 3,
+     "first": "2026-08-23",
+     "last": "2026-09-01",
+     "forms": [
+      "F3X"
+     ],
+     "fec_rollup_total": 366.6,
+     "fec_rollup_count": 3
+    },
+    {
+     "committee_id": "C00802389",
+     "committee": "GIVEGREEN UNITED ACTION",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 25.0,
+     "n": 1,
+     "first": "2026-08-31",
+     "last": "2026-08-31",
+     "forms": [
+      "F3X"
+     ],
+     "fec_rollup_total": 25.0,
+     "fec_rollup_count": 1
+    }
+   ]
+  },
+  "H6MI10359": {
+   "name": "Mike Bouchard",
+   "rows_after_first_pass": 146,
+   "paired_and_removed": 14,
+   "memo_dropped": 4,
+   "total_after_first_pass": 11388495.33,
+   "support": 918413.55,
+   "oppose": 10135610.2,
+   "rows_dated_after_2026-10-24_dissemination_or_2026-10-28_expenditure": [
+    {
+     "committee_name": "WOMEN VOTE",
+     "expenditure_amount": 1147.81,
+     "expenditure_date": "2026-10-29",
+     "dissemination_date": "2026-10-24",
+     "filing_form": "F24"
+    }
+   ],
+   "committees": [
+    {
+     "committee_id": "C00495028",
+     "committee": "HMP",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "O",
+     "total": 7212674.95,
+     "n": 23,
+     "first": "2026-09-15",
+     "last": "2026-10-24",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 175718.76,
+     "fec_rollup_count": 4
+    },
+    {
+     "committee_id": "C00486845",
+     "committee": "LCV VICTORY FUND",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 564922.84,
+     "n": 9,
+     "first": "2026-10-13",
+     "last": "2026-10-23",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00960997",
+     "committee": "READY FOR THE FIGHT",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": null,
+     "so": "O",
+     "total": 563901.8,
+     "n": 3,
+     "first": "2026-10-13",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00540443",
+     "committee": "GIFFORDS PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "O",
+     "total": 472065.9,
+     "n": 4,
+     "first": "2026-09-29",
+     "last": "2026-10-12",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 153003.5,
+     "fec_rollup_count": 1
+    },
+    {
+     "committee_id": "C00011114",
+     "committee": "AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES  P E O P L E",
+     "committee_type": "PAC - Qualified",
+     "org_type": "Labor Organization",
+     "so": "O",
+     "total": 459500.0,
+     "n": 2,
+     "first": "2026-09-29",
+     "last": "2026-09-29",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00960435",
+     "committee": "NO GOING BACK PAC INC.",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 372461.54,
+     "n": 8,
+     "first": "2026-09-04",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00492140",
+     "committee": "AB PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": null,
+     "so": "O",
+     "total": 353774.27,
+     "n": 9,
+     "first": "2026-09-08",
+     "last": "2026-09-29",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00913269",
+     "committee": "HONOR, DUTY & DISCIPLINE PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 352983.87,
+     "n": 19,
+     "first": "2026-05-26",
+     "last": "2026-10-19",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 156686.82,
+     "fec_rollup_count": 9
+    },
+    {
+     "committee_id": "C00744920",
+     "committee": "CFFE PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "O",
+     "total": 166204.85,
+     "n": 3,
+     "first": "2026-10-13",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00899419",
+     "committee": "PATRIOTIC FUND, INC.",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 106621.84,
+     "n": 4,
+     "first": "2026-09-25",
+     "last": "2026-10-15",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00568444",
+     "committee": "CENTER FORWARD COMMITTEE",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 100000.0,
+     "n": 1,
+     "first": "2026-10-20",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00879510",
+     "committee": "AMERICA PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 77601.84,
+     "n": 14,
+     "first": "2026-09-08",
+     "last": "2026-10-24",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00951269",
+     "committee": "AMERICAN DEMOCRACY COMMITTEE",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 61770.0,
+     "n": 1,
+     "first": "2026-10-20",
+     "last": "2026-10-20",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00473918",
+     "committee": "WOMEN VOTE",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 61207.81,
+     "n": 2,
+     "first": "2026-10-24",
+     "last": "2026-10-24",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C90023607",
+     "committee": "END CITIZENS UNITED ACTION FUND",
+     "committee_type": "Independent expenditure filer (not a committee)",
+     "org_type": null,
+     "so": "O",
+     "total": 50000.0,
+     "n": 2,
+     "first": "2026-10-19",
+     "last": "2026-10-19",
+     "forms": [
+      "F5"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00745745",
+     "committee": "IN UNION USA",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 42020.41,
+     "n": 7,
+     "first": "2026-09-08",
+     "last": "2026-10-15",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 24781.26,
+     "fec_rollup_count": 4
+    },
+    {
+     "committee_id": "C00961854",
+     "committee": "COMMON GROUND COALITION PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 15429.44,
+     "n": 5,
+     "first": "2026-09-29",
+     "last": "2026-10-01",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00886093",
+     "committee": "FOR MICHIGAN ACTION FUND",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 11250.0,
+     "n": 2,
+     "first": "2026-10-06",
+     "last": "2026-10-15",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00574178",
+     "committee": "RIGHT TO LIFE OF MICHIGAN VICTORY FUND",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 6237.37,
+     "n": 7,
+     "first": "2026-06-13",
+     "last": "2026-10-03",
+     "forms": [
+      "F3X"
+     ],
+     "fec_rollup_total": 6237.37,
+     "fec_rollup_count": 7
+    },
+    {
+     "committee_id": "C00741710",
+     "committee": "NRA VICTORY FUND, INC.",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 2507.09,
+     "n": 1,
+     "first": "2026-10-19",
+     "last": "2026-10-19",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C90011156",
+     "committee": "WORKING AMERICA",
+     "committee_type": "Independent expenditure filer (not a committee)",
+     "org_type": null,
+     "so": "O",
+     "total": 887.93,
+     "n": 2,
+     "first": "2026-10-09",
+     "last": "2026-10-22",
+     "forms": [
+      "F5"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    }
+   ]
+  }
+ }
+}

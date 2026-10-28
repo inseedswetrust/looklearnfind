@@ -1,0 +1,39 @@
+{
+ "fetched": "2026-10-28T23:02:28Z",
+ "candidates": {
+  "H6MI10276": {
+   "candidate_id": "H6MI10276",
+   "cycle": 2026,
+   "receipts": 4159692.85,
+   "disbursements": 3152065.09,
+   "cash_on_hand_end_period": null,
+   "last_cash_on_hand_end_period": 1007627.76,
+   "coverage_start_date": "2025-04-01T00:00:00",
+   "coverage_end_date": "2026-10-14T00:00:00",
+   "individual_contributions": 3380348.82,
+   "last_report_type_full": "PRE-GENERAL",
+   "last_report_year": 2026,
+   "candidate_contribution": 0.0,
+   "loans": 0.0,
+   "other_political_committee_contributions": 402909.64,
+   "political_party_committee_contributions": 2961.04
+  },
+  "H6MI10359": {
+   "candidate_id": "H6MI10359",
+   "cycle": 2026,
+   "receipts": 2884259.39,
+   "disbursements": 1310789.75,
+   "cash_on_hand_end_period": null,
+   "last_cash_on_hand_end_period": 1573469.64,
+   "coverage_start_date": "2025-04-08T00:00:00",
+   "coverage_end_date": "2026-10-14T00:00:00",
+   "individual_contributions": 1841619.43,
+   "last_report_type_full": "TERMINATION REPORT",
+   "last_report_year": 2026,
+   "candidate_contribution": 0.0,
+   "loans": 0.0,
+   "other_political_committee_contributions": 489252.72,
+   "political_party_committee_contributions": 10950.0
+  }
+ }
+}
