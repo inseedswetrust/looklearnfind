@@ -14,7 +14,7 @@ Single source for "where is X". Everything below is in this repository (branch `
 | 7 | State and race article requirements | `docs/schemas/07_STATE_AND_RACE_ARTICLE_REQUIREMENTS.md` | the guide and race modules |
 
 ## Skills (`.claude/skills/<name>/SKILL.md`)
-`llf-video-storyboard` 1.1.0 (footage-first, 2026-10-24) · `llf-footage-scout` 1.0.0 (new 2026-10-24) · `llf-story-scout` 1.0.0 (new 2026-10-24) · `llf-article-format` 1.1.0 · `llf-factcheck-finalize` 2.0.0 (claim-driven) · `llf-publication-qa` 1.1.0 · `election-state-packet` 1.0.1 (optional) · `darkhorse-source-monitor` 1.1.1 · `llf-delta-editorial` 1.0.0 · `llf-election-render` 1.0.0 · `workflow-retrospective` 1.0.0. `asset-manifest` is a script plus format, not a skill: `tools/qa/make_manifest.py` writes `docs/election-build/ASSET_MANIFEST.csv`; `fl_assets.csv` in the packet adds publication status.
+`llf-story-scout` 1.0.0 · `llf-article-format` 1.3.0 · `llf-factcheck-finalize` 2.2.0 · `llf-election-render` 1.1.0 · `llf-publication-qa` 1.3.0 · `llf-video-storyboard` 1.1.0 · `llf-footage-scout` 1.0.0 · `election-state-packet` 1.0.2 (optional) · `darkhorse-source-monitor` 1.1.1 · `llf-delta-editorial` 1.0.0 · `workflow-retrospective` 1.0.0 (versions read from the SKILL.md files on 2026-10-28; the last three carry theirs in a Contract section). `asset-manifest` is a script plus format, not a skill: `tools/qa/make_manifest.py` writes `docs/election-build/ASSET_MANIFEST.csv`.
 
 ## Scripts and where they live
 Collection: `tools/elections/*` (roster, FEC, Kalshi, portraits) and `tools/dark_horse/*` (daily collector, watchlist lock, coverage, Schedule E dedupe, contract guards, verify, cron wrapper). Packet: `tools/elections/export_packet.py`. QA: `tools/qa/factcheck_gate.py`, `smoke.py`, `shots.py`, `dashboard.py`. Workflow: `tools/workflow/transitions.py`. Render: `build.py`, `elections.py`.
@@ -33,3 +33,6 @@ Order of work: script → shot selection → real footage search and capture →
 
 ## Tests
 `python3 -m unittest tests/test_dark_horse.py tests/test_phase_a.py tests/test_factcheck_gate.py tests/test_workflow.py tests/test_story_scout.py tests/test_video_pack.py tests/test_footage_pack.py` (90 tests, no network) · `python3 build.py --strict`.
+
+## Illinois (2026-10-28)
+Workspace: `docs/illinois/` (readiness report, duplication check, ranked story proposals, page structure, skills and QA report, decisions log; stories 1 to 3 each with `STORY_BRIEF.md`, `CLAIMS.csv` and gate output) and `data/elections/IL/` (roster, TIP export, joined candidates, `il_candidate_tip_mapping.csv`, `il_assets.csv`, portraits). Builders: `tools/elections/build_il_roster.py`, `join_tip.py` (`LLF_STATE=IL`), `build_il_mapping.py`, `fetch_portraits.py IL`. Nothing is built or published yet.

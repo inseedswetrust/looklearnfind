@@ -1,0 +1,9 @@
+{
+ "result": "READY",
+ "ledger": "docs/illinois/stories/01_senate_money/CLAIMS.csv",
+ "rows": 13,
+ "blocking": [],
+ "warnings": [],
+ "build": null,
+ "note": "READY means the ledger is complete and consistent. It does not approve publication: a person does that."
+}

@@ -1,0 +1,721 @@
+{
+ "captured_at_utc": "2026-10-28T00:00:00Z",
+ "sources": {
+  "primary_pending": "Illinois State Board of Elections (HTTP 403 to automated access; not read)",
+  "transcribed_from": "https://www.thegreenpapers.com/G26/IL",
+  "cross_checks": [
+   "OpenFEC /candidates (state IL, election_year 2026)",
+   "TIP export docs/state-packets/IL (race_entries)"
+  ]
+ },
+ "governor": [
+  {
+   "name": "JB Pritzker",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "incumbent": true,
+   "running_mate": "Christian Mitchell",
+   "status": "Qualified",
+   "primary": "Renominated (unopposed)",
+   "state_account": "JB_Pritzker",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null
+  },
+  {
+   "name": "Darren Bailey",
+   "party_code": "REP",
+   "party": "Republican",
+   "incumbent": false,
+   "running_mate": "Aaron B. Del Mar",
+   "status": "Qualified",
+   "primary": "Won",
+   "state_account": "Darren_Bailey",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null
+  },
+  {
+   "name": "Collin Corbett",
+   "party_code": "IND",
+   "party": "Independent",
+   "incumbent": false,
+   "running_mate": "Carolyn Schofield",
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Collin_Corbett",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "note": "independent; Republican affiliation per Green Papers"
+  },
+  {
+   "name": "Taegun Eimer",
+   "party_code": "WRI",
+   "party": "Libertarian (write-in)",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Taegun_Eimer",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "write_in": true
+  },
+  {
+   "name": "Richard Mayers",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Richard_Mayers",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "write_in": true
+  },
+  {
+   "name": "Mistry Metroz",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Mistry_Metroz",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "write_in": true
+  },
+  {
+   "name": "Griselda Romero",
+   "party_code": "WRI",
+   "party": "Green (write-in)",
+   "incumbent": false,
+   "running_mate": "Eyde Arndell",
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Griselda_Romero",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "note": "removed from the ballot July 14, 2026; now a write-in",
+   "write_in": true
+  },
+  {
+   "name": "Elizabeth Sebesta",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Elizabeth_Sebesta",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "write_in": true
+  },
+  {
+   "name": "Patricia L. Tillman",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Patricia_L._Tillman",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "write_in": true
+  },
+  {
+   "name": "Rafael Varela",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Rafael_Varela",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "write_in": true
+  },
+  {
+   "name": "Mike Vick",
+   "party_code": "WRI",
+   "party": "American Solidarity (write-in)",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Mike_Vick",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "write_in": true
+  }
+ ],
+ "senate": [
+  {
+   "name": "Juliana Stratton",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_account": "Juliana_Stratton",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null
+  },
+  {
+   "name": "Don Tracy",
+   "party_code": "REP",
+   "party": "Republican",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_account": "Donald_R.__Don__Tracy",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": "Donald R. \"Don\" Tracy"
+  },
+  {
+   "name": "Whitfield Harrington Jr.",
+   "party_code": "AMC",
+   "party": "American Center (IL)",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Whitfield_Harrington_Jr.",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "note": "intends to form the American Center Party (Green Papers)"
+  },
+  {
+   "name": "Naomi Craine",
+   "party_code": "WRI",
+   "party": "Socialist Workers Party (write-in)",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Naomi_Craine",
+   "source_url": "https://www.thegreenpapers.com/G26/IL",
+   "tip_name": null,
+   "write_in": true
+  }
+ ],
+ "house": {
+  "1": [
+   {
+    "name": "Jonathan L. Jackson",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Jonathan_L._Jackson",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Christian Maxwell",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Christian_Maxwell",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Je'Rico J. Brown",
+    "party_code": "WRI",
+    "party": "Democratic (write-in)",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Je_Rico_J._Brown",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null,
+    "write_in": true
+   }
+  ],
+  "2": [
+   {
+    "name": "Donna Miller",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Donna_Miller",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null,
+    "note": "open seat (Robin Kelly ran for the Senate)"
+   },
+   {
+    "name": "Mike Noack",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Michael_Scott__Mike__Noack",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Michael Scott \"Mike\" Noack"
+   }
+  ],
+  "3": [
+   {
+    "name": "Delia C. Ramirez",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Delia_C._Ramirez",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Angel Oakley",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Angel_Oakley",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   }
+  ],
+  "4": [
+   {
+    "name": "Patty García",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Patty_Garc_a",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Patty Garc�a",
+    "note": "open seat (Jesús 'Chuy' García withdrew his petitions); TIP stores her name with a corrupted character"
+   },
+   {
+    "name": "Lupe Castillo",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Lupe_Castillo",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Chris Getty",
+    "party_code": "IND",
+    "party": "Independent",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Christopher_Roman__Chris__Getty",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Christopher Roman \"Chris\" Getty",
+    "note": "independent; Democratic affiliation per Green Papers; mayor of Lyons per WBEZ"
+   },
+   {
+    "name": "Ed Hershey",
+    "party_code": "WCP",
+    "party": "Working Class Party",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Edward__Ed__Hershey",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Edward \"Ed\" Hershey"
+   }
+  ],
+  "5": [
+   {
+    "name": "Mike Quigley",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Mike_Quigley",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Tom Hanson",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Tom__Tommy__Hanson",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Tom \"Tommy\" Hanson",
+    "note": "Green Papers lists two FEC IDs for Hanson"
+   }
+  ],
+  "6": [
+   {
+    "name": "Sean Casten",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Sean_Casten",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Niki Conforti",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Niki_Conforti",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   }
+  ],
+  "7": [
+   {
+    "name": "La Shawn K. Ford",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "La_Shawn_K._Ford",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null,
+    "note": "open seat (Danny Davis retiring)"
+   },
+   {
+    "name": "Chad Koppie Sr.",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Chad_Koppie_Sr.",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   }
+  ],
+  "8": [
+   {
+    "name": "Melissa Bean",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Melissa_Luburich_Bean",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Melissa Luburich Bean",
+    "note": "open seat (Raja Krishnamoorthi ran for the Senate)"
+   },
+   {
+    "name": "Jennifer Davis",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Jennifer_Davis",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   }
+  ],
+  "9": [
+   {
+    "name": "Daniel Biss",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Daniel_Biss",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null,
+    "note": "open seat (Jan Schakowsky retiring)"
+   },
+   {
+    "name": "John Elleson",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "John_Elleson",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   }
+  ],
+  "10": [
+   {
+    "name": "Brad Schneider",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Bradley_Scott__Brad__Schneider",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Bradley Scott \"Brad\" Schneider"
+   },
+   {
+    "name": "Carl Lambrecht",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Carl_Lambrecht",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Alexandria Keating-Sofiakis",
+    "party_code": "WRI",
+    "party": "Green (write-in)",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Alexandria_Keating-Sofiakis",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null,
+    "write_in": true
+   }
+  ],
+  "11": [
+   {
+    "name": "Bill Foster",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "G._William__Bill__Foster",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "G. William \"Bill\" Foster"
+   },
+   {
+    "name": "Jeff Walter",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Jeffrey_D.__Jeff__Walter",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Jeffrey D. \"Jeff\" Walter"
+   }
+  ],
+  "12": [
+   {
+    "name": "Mike Bost",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Michael_J.__Mike__Bost",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Michael J. \"Mike\" Bost"
+   },
+   {
+    "name": "Julie Fortier",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Julie_Fortier",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   }
+  ],
+  "13": [
+   {
+    "name": "Nikki Budzinski",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Nikki_Budzinski",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Jeff Wilson",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Jeff_Wilson",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   }
+  ],
+  "14": [
+   {
+    "name": "Lauren Underwood",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Lauren_Underwood",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Jim Marter",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "James_Thomas__Jim__Marter",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "James Thomas \"Jim\" Marter"
+   }
+  ],
+  "15": [
+   {
+    "name": "Mary E. Miller",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Mary_E._Miller",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Jennifer Ann Todd",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Jennifer_Ann_Todd",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   }
+  ],
+  "16": [
+   {
+    "name": "Darin LaHood",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Darin_McKay_LaHood",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Darin McKay LaHood"
+   },
+   {
+    "name": "Paul Nolley",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Paul_Nolley",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "John Kitover",
+    "party_code": "WRI",
+    "party": "Republican (write-in)",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "John_Kitover",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null,
+    "write_in": true
+   }
+  ],
+  "17": [
+   {
+    "name": "Eric Sorensen",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Renominated",
+    "state_account": "Eric_Sorensen",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": null
+   },
+   {
+    "name": "Dillan Vancil",
+    "party_code": "REP",
+    "party": "Republican",
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "Won",
+    "state_account": "Dillan_S._Vancil",
+    "source_url": "https://www.thegreenpapers.com/G26/IL",
+    "tip_name": "Dillan S. Vancil"
+   }
+  ]
+ }
+}

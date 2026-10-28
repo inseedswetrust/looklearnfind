@@ -1,0 +1,16 @@
+{
+  "entries_without_candidate_row": [],
+  "entries_without_fec_id": [
+    {
+      "race_key": "2026-H-IL-10",
+      "display_name": "Alexandria Keating-Sofiakis",
+      "status": "review"
+    },
+    {
+      "race_key": "2026-S-IL",
+      "display_name": "Naomi Craine",
+      "status": "review"
+    }
+  ],
+  "candidate_rows_not_in_race_entries": 197
+}

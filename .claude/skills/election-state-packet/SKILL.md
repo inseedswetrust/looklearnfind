@@ -5,7 +5,7 @@ description: Build the machine-readable research packet for one state (official 
 
 # election-state-packet
 
-**Version** 1.0.1 · **Owner** LLF production (Claude Code session) · **Type** skill that drives deterministic scripts. It does not write prose and does not publish.
+**Version** 1.0.2 · **Owner** LLF production (Claude Code session) · **Type** skill that drives deterministic scripts. It does not write prose and does not publish.
 
 **Status (owner reset 2026-10-24): optional infrastructure.** The packet is a supplementary reference, not a required input: an article needs only `STORY_BRIEF.md` and `CLAIMS.csv`. No article gate depends on any packet file, FEC field or finance coverage. Keep the roster, TIP export and TIP grade files current because stories use them; run the FEC steps only when a story needs a specific transaction detail.
 
@@ -29,4 +29,4 @@ Nothing is filled in: missing is null, listed in `missing_coverage`. The roster 
 A source that errors leaves its file present, valid and empty with the blocker named in `missing_coverage` and `fl_conflicts_and_unknowns.md`. The script exits nonzero only if the roster or the TIP export is missing.
 
 ## Changelog
-1.0.1 (2026-10-24) marked optional; no article gate depends on it. 1.0.0 (2026-10-23) first version, from the Florida Round 1 build.
+1.0.2 (2026-10-28) state-parameterized join (`LLF_STATE`), roster builder pattern for sites that block automation, portraits for story people, retry on transient TIP failures. 1.0.1 (2026-10-24) marked optional; no article gate depends on it. 1.0.0 (2026-10-23) first version, from the Florida Round 1 build.

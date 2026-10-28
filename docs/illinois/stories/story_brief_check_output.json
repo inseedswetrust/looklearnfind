@@ -1,0 +1,75 @@
+{
+ "scope": "Illinois U.S. Senate and U.S. House, general election Nov 3 2026",
+ "as_of": "2026-10-28",
+ "angles": [
+  {
+   "id": "IL-SEN-1",
+   "status": "READY",
+   "reasons": [],
+   "tip_grades_shown": [
+    {
+     "candidate": "Juliana Stratton",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/S6IL00458",
+     "display": "NOT_GRADED"
+    }
+   ],
+   "notes": [],
+   "ready_to_write": true
+  },
+  {
+   "id": "IL-07-2",
+   "status": "READY",
+   "reasons": [],
+   "tip_grades_shown": [
+    {
+     "candidate": "La Shawn K. Ford",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6IL07354",
+     "display": "NOT_GRADED"
+    }
+   ],
+   "notes": [],
+   "ready_to_write": true
+  },
+  {
+   "id": "IL-04-3",
+   "status": "READY",
+   "reasons": [],
+   "tip_grades_shown": [
+    {
+     "candidate": "Patty Garcia",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6IL04153",
+     "display": "NOT_GRADED"
+    }
+   ],
+   "notes": [],
+   "ready_to_write": true
+  },
+  {
+   "id": "IL-08-02-4",
+   "status": "NOT_READY",
+   "reasons": [
+    "damaging allegation without original evidence and a documented response effort"
+   ],
+   "tip_grades_shown": [],
+   "notes": [],
+   "ready_to_write": false
+  },
+  {
+   "id": "IL-09-5",
+   "status": "NOT_READY",
+   "reasons": [
+    "damaging allegation without original evidence and a documented response effort"
+   ],
+   "tip_grades_shown": [],
+   "notes": [],
+   "ready_to_write": false
+  }
+ ],
+ "ready_count": 3
+}

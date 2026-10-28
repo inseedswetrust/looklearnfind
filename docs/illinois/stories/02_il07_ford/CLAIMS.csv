@@ -1,0 +1,13 @@
+claim,text_location,source_url,source_date,checked_date,status,type,evidence_ref
+"Ford finished first with about 24% to Conyears-Ervin's about 20% in unofficial returns (Tribune at 78% counted: 23.1 vs 19.6, Driver 11.5)",lede,https://www.yahoo.com/news/articles/la-shawn-ford-declares-victory-023800604.html,2026-03-18,2026-10-28,ATTRIBUTED,,
+"Forest Park Review: Ford nearly 24%, Conyears-Ervin over 20% district-wide (unofficial)",lede,https://www.forestparkreview.com/2026/03/23/rory-hoskins-wins-forest-parks-congressional-vote/,2026-03-23,2026-10-28,ATTRIBUTED,,
+"UDP supported Conyears-Ervin: $4.97M in de-duplicated FEC Schedule E filings dated Feb 10 to Mar 10 2026 (LLF computation; committee C00799031)",money,https://www.fec.gov/data/committee/C00799031/,2026-10-23,2026-10-28,VERIFIED,,data/elections/dark_horse/aipac_udp_ie.json
+"AdImpact: Conyears-Ervin $5.5M including $4.7M from UDP as of Mar 13; AdImpact calls UDP an AIPAC-aligned PAC",money,https://adimpact.com/blogs/open-illinois-congressional-seats-fuel-92m-in-primary-ad-spending,2026-03-13,2026-10-28,ATTRIBUTED,,
+"The Tribune describes UDP as an AIPAC-affiliated super PAC (characterization; FEC shows committee name and ID only)",money,https://www.yahoo.com/news/articles/la-shawn-ford-declares-victory-023800604.html,2026-03-18,2026-10-28,ATTRIBUTED,,
+"Fairshake spent about $1.9M attacking Ford (AdImpact); Tribune: ads attacked him over past felony bank fraud charges; Ford called them slanderous",money,https://adimpact.com/blogs/open-illinois-congressional-seats-fuel-92m-in-primary-ad-spending,2026-03-13,2026-10-28,ATTRIBUTED,,
+"Danny Davis backed Ford and attended an early supporters' gathering (Tribune)",background,https://www.yahoo.com/news/articles/la-shawn-ford-declares-victory-023800604.html,2026-03-18,2026-10-28,ATTRIBUTED,,
+"Ford is a state representative",background,https://www.yahoo.com/news/articles/la-shawn-ford-declares-victory-023800604.html,2026-03-18,2026-10-28,VERIFIED,,
+"Ford's 2014 plea to one misdemeanor tax count with 17 felony charges dropped (Tribune; court record not opened; NOT used)",removed,https://www.yahoo.com/news/articles/la-shawn-ford-declares-victory-023800604.html,2026-03-18,2026-10-28,REMOVED,,
+"Ford faces Republican Chad Koppie Sr. in November",ballot,https://www.thegreenpapers.com/G26/IL,2026-10-28,2026-10-28,ATTRIBUTED,,
+"Field of 13 candidates (search summary only; confirm with the State Board result)",lede,https://news.wttw.com/2026/03/17/ford-conyears-ervin-tight-race-replace-danny-davis-illinois-7th-district-primary,2026-03-17,2026-10-28,NEEDS_CONTEXT,,
+"Ford has no graded TIP issues (state office; not graded is not zero)",TIP,https://theissuesparty.org/candidates/H6IL07354,2026-10-28,2026-10-28,VERIFIED,,

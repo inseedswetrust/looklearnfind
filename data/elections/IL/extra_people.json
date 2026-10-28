@@ -1,0 +1,72 @@
+[
+ {
+  "id": "x_Raja_Krishnamoorthi",
+  "name": "Raja Krishnamoorthi",
+  "office": "S",
+  "party_code": "DEM",
+  "incumbent": false
+ },
+ {
+  "id": "x_Robin_Kelly",
+  "name": "Robin Kelly",
+  "office": "S",
+  "party_code": "DEM",
+  "incumbent": false
+ },
+ {
+  "id": "x_Melissa_Conyears-Ervin",
+  "name": "Melissa Conyears-Ervin",
+  "office": "H",
+  "party_code": "DEM",
+  "incumbent": false
+ },
+ {
+  "id": "x_Laura_Fine",
+  "name": "Laura Fine",
+  "office": "H",
+  "party_code": "DEM",
+  "incumbent": false
+ },
+ {
+  "id": "x_Katherine_Abughazaleh",
+  "name": "Kat Abughazaleh",
+  "office": "H",
+  "party_code": "DEM",
+  "incumbent": false
+ },
+ {
+  "id": "x_Jesus_Garcia",
+  "name": "Chuy Garcia",
+  "office": "H",
+  "party_code": "DEM",
+  "incumbent": false
+ },
+ {
+  "id": "x_Byron_Sigcho-Lopez",
+  "name": "Byron Sigcho-Lopez",
+  "office": "H",
+  "party_code": "DEM",
+  "incumbent": false
+ },
+ {
+  "id": "x_Danny_Davis",
+  "name": "Danny Davis",
+  "office": "H",
+  "party_code": "DEM",
+  "incumbent": false
+ },
+ {
+  "id": "x_Jan_Schakowsky",
+  "name": "Jan Schakowsky",
+  "office": "H",
+  "party_code": "DEM",
+  "incumbent": false
+ },
+ {
+  "id": "x_Anthony_Driver",
+  "name": "Anthony Driver",
+  "office": "H",
+  "party_code": "DEM",
+  "incumbent": false
+ }
+]

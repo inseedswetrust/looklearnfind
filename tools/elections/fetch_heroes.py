@@ -12,6 +12,7 @@ WANT = {  # key -> (search text that finds the file, width)
     "fl-capitol": ("Old Florida State Capitol, Tallahassee, East view 20160711 1.jpg", 1800),
     "mi-capitol": ("Michigan State Capitol, Capitol Avenue, Lansing, MI - 54383520410", 1800),
     "us-capitol": ("Capitol Building Full View.jpg", 1800),
+    "il-capitol": ("Gfp-illinois-springfield-capitol-and-sky.jpg", 1800),
 }
 def cm(**q):
     q["format"] = "json"

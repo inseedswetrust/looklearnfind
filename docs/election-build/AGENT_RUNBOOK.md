@@ -9,6 +9,7 @@ Governor, U.S. Senate and U.S. House only. Neutral reporting: no win probabiliti
 
 ## 1. Set up the state (once)
 1. Roster: `python3 tools/elections/fetch_<st>_roster.py` (copy `fetch_fl_roster.py`), then the TIP export (`node scripts/export/state-packet.mjs <ST>` in the TIP repo; copy into `data/elections/<ST>/tip_export/`) and `python3 tools/elections/join_tip.py data/elections/<ST>/tip_export`.
+   If the official site blocks automated access (Illinois returns HTTP 403), do not guess: transcribe a secondary tracker with `tools/elections/build_il_roster.py` as the pattern (provenance in the file header), cross-check names and IDs against OpenFEC and TIP, set `isbe_verified`-style columns to PENDING, and list it as a blocker for a person to clear. Join with `LLF_STATE=<ST> python3 tools/elections/join_tip.py <tip_export_dir>`; portraits with `fetch_portraits.py <ST>` (extra people in `data/elections/<ST>/extra_people.json`, re-runs with `LLF_ONLY`).
 2. Markets and polls: `python3 tools/elections/fetch_kalshi.py` (adapt the state), the daily collector (`tools/dark_horse/daily.py`), portraits (`fetch_portraits.py`), district geometry (`build_fl_geometry.py` pattern).
 3. Optional reference only: `python3 tools/elections/export_packet.py` (the 14-file packet). Nothing below depends on it.
 Skill: `election-state-packet`.

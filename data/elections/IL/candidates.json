@@ -1,0 +1,2492 @@
+{
+ "as_of_utc": "2026-10-28T04:58:30Z",
+ "issues": [
+  {
+   "slug": "data_bill_of_rights",
+   "name": "Data Bill of Rights",
+   "short": "Data Rights",
+   "question": "Will you support a Data Bill of Rights giving people the right to access, move, delete, and receive a full accounting of their personal data, including prescription, grocery, food, product-purchase, loyalty-program, and other commercial data, and requiring data sellers to update a government ledger to receive safe harbor from liability?"
+  },
+  {
+   "slug": "war_crime_accountability",
+   "name": "War-Crime Accountability",
+   "short": "War-Crime Accountability",
+   "question": "Will you support a law requiring mandatory review, public reporting, and potential restrictions on U.S. weapons, funding, intelligence, or diplomatic support when credible evidence indicates that support may be connected to war crimes?"
+  },
+  {
+   "slug": "congressional_stock_trading_ban",
+   "name": "Congressional Stock Trading Ban",
+   "short": "Stock Trading Ban",
+   "question": "Will you support a ban on members of Congress, their spouses, and dependent family members trading individual stocks while in office?"
+  },
+  {
+   "slug": "citizens_united_reform",
+   "name": "Citizens United Reform",
+   "short": "Citizens United Reform",
+   "question": "Will you support constitutional or statutory reforms to reduce the influence of unlimited outside spending, dark money, and Super PAC power after Citizens United?"
+  },
+  {
+   "slug": "universal_healthcare",
+   "name": "Universal Healthcare",
+   "short": "Universal Healthcare",
+   "question": "Will you support universal healthcare coverage so every person can access medically necessary care without financial ruin?"
+  },
+  {
+   "slug": "us-israel-military-merger",
+   "name": "US-Israel Military Merger",
+   "short": "Section 224 / FY27 NDAA",
+   "question": "Do you support the provision to merge U.S. and Israeli military command structures in the FY27 NDAA (Section 219 in the House bill, formerly Section 224), and why?"
+  }
+ ],
+ "candidates": [
+  {
+   "id": "JB_Pritzker",
+   "name": "JB Pritzker",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": true,
+   "running_mate": "Christian Mitchell",
+   "status": "Qualified",
+   "primary": "Renominated (unopposed)",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "GOV-IL-PRITZKER",
+   "tip_page_id": "GOV-IL-PRITZKER",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-PRITZKER",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Darren_Bailey",
+   "name": "Darren Bailey",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Aaron B. Del Mar",
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "GOV-IL-BAILEY",
+   "tip_page_id": "GOV-IL-BAILEY",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-BAILEY",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Collin_Corbett",
+   "name": "Collin Corbett",
+   "party_code": "IND",
+   "party": "Independent",
+   "tip_name": null,
+   "write_in": false,
+   "note": "independent; Republican affiliation per Green Papers",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Carolyn Schofield",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Taegun_Eimer",
+   "name": "Taegun Eimer",
+   "party_code": "WRI",
+   "party": "Libertarian (write-in)",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Richard_Mayers",
+   "name": "Richard Mayers",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Mistry_Metroz",
+   "name": "Mistry Metroz",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Griselda_Romero",
+   "name": "Griselda Romero",
+   "party_code": "WRI",
+   "party": "Green (write-in)",
+   "tip_name": null,
+   "write_in": true,
+   "note": "removed from the ballot July 14, 2026; now a write-in",
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Eyde Arndell",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Elizabeth_Sebesta",
+   "name": "Elizabeth Sebesta",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Patricia_L._Tillman",
+   "name": "Patricia L. Tillman",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Rafael_Varela",
+   "name": "Rafael Varela",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Mike_Vick",
+   "name": "Mike Vick",
+   "party_code": "WRI",
+   "party": "American Solidarity (write-in)",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Juliana_Stratton",
+   "name": "Juliana Stratton",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "senate",
+   "race": "senate",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "S6IL00458",
+   "tip_page_id": "S6IL00458",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6IL00458",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Donald_R.__Don__Tracy",
+   "name": "Don Tracy",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": "Donald R. \"Don\" Tracy",
+   "write_in": false,
+   "note": null,
+   "office": "senate",
+   "race": "senate",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "S6IL00615",
+   "tip_page_id": "S6IL00615",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6IL00615",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Whitfield_Harrington_Jr.",
+   "name": "Whitfield Harrington Jr.",
+   "party_code": "AMC",
+   "party": "American Center (IL)",
+   "tip_name": null,
+   "write_in": false,
+   "note": "intends to form the American Center Party (Green Papers)",
+   "office": "senate",
+   "race": "senate",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "S6IL00680",
+   "tip_page_id": "S6IL00680",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6IL00680",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Naomi_Craine",
+   "name": "Naomi Craine",
+   "party_code": "WRI",
+   "party": "Socialist Workers Party (write-in)",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "senate",
+   "race": "senate",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "Jonathan_L._Jackson",
+   "name": "Jonathan L. Jackson",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-01",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H2IL01349",
+   "tip_page_id": "H2IL01349",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL01349",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "B-",
+      "score": 80,
+      "aligned": 4,
+      "against": 1,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Christian_Maxwell",
+   "name": "Christian Maxwell",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-01",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL01191",
+   "tip_page_id": "H6IL01191",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL01191",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Je_Rico_J._Brown",
+   "name": "Je'Rico J. Brown",
+   "party_code": "WRI",
+   "party": "Democratic (write-in)",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "house",
+   "race": "house-01",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL07313",
+   "tip_page_id": "H6IL07313",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL07313",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Donna_Miller",
+   "name": "Donna Miller",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": "open seat (Robin Kelly ran for the Senate)",
+   "office": "house",
+   "race": "house-02",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL02355",
+   "tip_page_id": "H6IL02355",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL02355",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Michael_Scott__Mike__Noack",
+   "name": "Mike Noack",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": "Michael Scott \"Mike\" Noack",
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-02",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL02389",
+   "tip_page_id": "H6IL02389",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL02389",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Delia_C._Ramirez",
+   "name": "Delia C. Ramirez",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-03",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H2IL03162",
+   "tip_page_id": "H2IL03162",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL03162",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 4,
+      "against": 0,
+      "recorded": 4,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Angel_Oakley",
+   "name": "Angel Oakley",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-03",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL03163",
+   "tip_page_id": "H6IL03163",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL03163",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Patty_Garc_a",
+   "name": "Patty García",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": "Patty Garc�a",
+   "write_in": false,
+   "note": "open seat (Jesús 'Chuy' García withdrew his petitions); TIP stores her name with a corrupted character",
+   "office": "house",
+   "race": "house-04",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL04153",
+   "tip_page_id": "H6IL04153",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL04153",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Lupe_Castillo",
+   "name": "Lupe Castillo",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-04",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H4IL04117",
+   "tip_page_id": "H4IL04117",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4IL04117",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Christopher_Roman__Chris__Getty",
+   "name": "Chris Getty",
+   "party_code": "IND",
+   "party": "Independent",
+   "tip_name": "Christopher Roman \"Chris\" Getty",
+   "write_in": false,
+   "note": "independent; Democratic affiliation per Green Papers; mayor of Lyons per WBEZ",
+   "office": "house",
+   "race": "house-04",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL04195",
+   "tip_page_id": "H6IL04195",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL04195",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Edward__Ed__Hershey",
+   "name": "Ed Hershey",
+   "party_code": "WCP",
+   "party": "Working Class Party",
+   "tip_name": "Edward \"Ed\" Hershey",
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-04",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H2IL04178",
+   "tip_page_id": "H2IL04178",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL04178",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Mike_Quigley",
+   "name": "Mike Quigley",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-05",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H0IL05096",
+   "tip_page_id": "H0IL05096",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0IL05096",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "B-",
+      "score": 80,
+      "aligned": 4,
+      "against": 1,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Tom__Tommy__Hanson",
+   "name": "Tom Hanson",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": "Tom \"Tommy\" Hanson",
+   "write_in": false,
+   "note": "Green Papers lists two FEC IDs for Hanson",
+   "office": "house",
+   "race": "house-05",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H8IL05073",
+   "tip_page_id": "H8IL05073",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL05073",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Sean_Casten",
+   "name": "Sean Casten",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-06",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H8IL06139",
+   "tip_page_id": "H8IL06139",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL06139",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "D-",
+      "score": 60,
+      "aligned": 3,
+      "against": 2,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Niki_Conforti",
+   "name": "Niki Conforti",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-06",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H2IL06090",
+   "tip_page_id": "H2IL06090",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL06090",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "La_Shawn_K._Ford",
+   "name": "La Shawn K. Ford",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": "open seat (Danny Davis retiring)",
+   "office": "house",
+   "race": "house-07",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL07354",
+   "tip_page_id": "H6IL07354",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL07354",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Chad_Koppie_Sr.",
+   "name": "Chad Koppie Sr.",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-07",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H2IL08203",
+   "tip_page_id": "H2IL08203",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL08203",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Melissa_Luburich_Bean",
+   "name": "Melissa Bean",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": "Melissa Luburich Bean",
+   "write_in": false,
+   "note": "open seat (Raja Krishnamoorthi ran for the Senate)",
+   "office": "house",
+   "race": "house-08",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL08329",
+   "tip_page_id": "H6IL08329",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL08329",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Jennifer_Davis",
+   "name": "Jennifer Davis",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-08",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL08311",
+   "tip_page_id": "H6IL08311",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL08311",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Daniel_Biss",
+   "name": "Daniel Biss",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": "open seat (Jan Schakowsky retiring)",
+   "office": "house",
+   "race": "house-09",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL09228",
+   "tip_page_id": "H6IL09228",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL09228",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "John_Elleson",
+   "name": "John Elleson",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-09",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H8IL09208",
+   "tip_page_id": "H8IL09208",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL09208",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Bradley_Scott__Brad__Schneider",
+   "name": "Brad Schneider",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": "Bradley Scott \"Brad\" Schneider",
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-10",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H2IL10068",
+   "tip_page_id": "H2IL10068",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL10068",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 40,
+      "aligned": 2,
+      "against": 3,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Carl_Lambrecht",
+   "name": "Carl Lambrecht",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-10",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL10176",
+   "tip_page_id": "H6IL10176",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL10176",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Alexandria_Keating-Sofiakis",
+   "name": "Alexandria Keating-Sofiakis",
+   "party_code": "WRI",
+   "party": "Green (write-in)",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "house",
+   "race": "house-10",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": null,
+   "tip_page_id": null,
+   "tip": null
+  },
+  {
+   "id": "G._William__Bill__Foster",
+   "name": "Bill Foster",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": "G. William \"Bill\" Foster",
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-11",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H8IL14067",
+   "tip_page_id": "H8IL14067",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL14067",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 50,
+      "aligned": 1,
+      "against": 1,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "D-",
+      "score": 60,
+      "aligned": 3,
+      "against": 2,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Jeffrey_D.__Jeff__Walter",
+   "name": "Jeff Walter",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": "Jeffrey D. \"Jeff\" Walter",
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-11",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL11166",
+   "tip_page_id": "H6IL11166",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL11166",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Michael_J.__Mike__Bost",
+   "name": "Mike Bost",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": "Michael J. \"Mike\" Bost",
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-12",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H4IL12060",
+   "tip_page_id": "H4IL12060",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4IL12060",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Julie_Fortier",
+   "name": "Julie Fortier",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-12",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL12131",
+   "tip_page_id": "H6IL12131",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL12131",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Nikki_Budzinski",
+   "name": "Nikki Budzinski",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-13",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H2IL13153",
+   "tip_page_id": "H2IL13153",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL13153",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "D-",
+      "score": 60,
+      "aligned": 3,
+      "against": 2,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Jeff_Wilson",
+   "name": "Jeff Wilson",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-13",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL13154",
+   "tip_page_id": "H6IL13154",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL13154",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Lauren_Underwood",
+   "name": "Lauren Underwood",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-14",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H8IL14174",
+   "tip_page_id": "H8IL14174",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL14174",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "B-",
+      "score": 80,
+      "aligned": 4,
+      "against": 1,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "James_Thomas__Jim__Marter",
+   "name": "Jim Marter",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": "James Thomas \"Jim\" Marter",
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-14",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H8IL16153",
+   "tip_page_id": "H8IL16153",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL16153",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Mary_E._Miller",
+   "name": "Mary E. Miller",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-15",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H0IL15129",
+   "tip_page_id": "H0IL15129",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0IL15129",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 4,
+      "recorded": 4,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Jennifer_Ann_Todd",
+   "name": "Jennifer Ann Todd",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-15",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL15092",
+   "tip_page_id": "H6IL15092",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL15092",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Darin_McKay_LaHood",
+   "name": "Darin LaHood",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": "Darin McKay LaHood",
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-16",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL18088",
+   "tip_page_id": "H6IL18088",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL18088",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Paul_Nolley",
+   "name": "Paul Nolley",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-16",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL16108",
+   "tip_page_id": "H6IL16108",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL16108",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "John_Kitover",
+   "name": "John Kitover",
+   "party_code": "WRI",
+   "party": "Republican (write-in)",
+   "tip_name": null,
+   "write_in": true,
+   "note": null,
+   "office": "house",
+   "race": "house-16",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL16116",
+   "tip_page_id": "H6IL16116",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL16116",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Eric_Sorensen",
+   "name": "Eric Sorensen",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "tip_name": null,
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-17",
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Renominated",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H2IL17147",
+   "tip_page_id": "H2IL17147",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL17147",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 2,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "D-",
+      "score": 60,
+      "aligned": 3,
+      "against": 2,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 3,
+      "against": 0,
+      "recorded": 3,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 2,
+      "against": 0,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "A+",
+      "score": 100,
+      "aligned": 1,
+      "against": 0,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  },
+  {
+   "id": "Dillan_S._Vancil",
+   "name": "Dillan Vancil",
+   "party_code": "REP",
+   "party": "Republican",
+   "tip_name": "Dillan S. Vancil",
+   "write_in": false,
+   "note": null,
+   "office": "house",
+   "race": "house-17",
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "Won",
+   "state_url": "https://www.thegreenpapers.com/G26/IL",
+   "fec_candidate_id": "H6IL17247",
+   "tip_page_id": "H6IL17247",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL17247",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T04:58Z"
+   }
+  }
+ ]
+}

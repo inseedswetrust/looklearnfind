@@ -1,0 +1,80 @@
+{
+ "scope": "Illinois U.S. Senate and U.S. House, general election Nov 3 2026",
+ "as_of": "2026-10-28",
+ "angles": [
+  {
+   "id": "IL-SEN-1", "working_title": "The biggest spender lost: who paid for Illinois' $55 million Senate primary",
+   "interesting_fact": "Raja Krishnamoorthi's campaign accounted for about $28.9 million of ad spending and Juliana Stratton's campaign about $1.1 million; she won, with a Pritzker-backed PAC adding $14.4 million for her and a crypto PAC $9.0 million against her.",
+   "state": "IL", "office": "U.S. Senate", "race_ids": ["2026-S-IL"], "candidate_ids": ["S6IL00458", "S6IL00615"],
+   "event_date": "2026-03-17", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "AdImpact", "headline": "Open Illinois congressional seats fuel $92M in primary ad spending", "url": "https://adimpact.com/blogs/open-illinois-congressional-seats-fuel-92m-in-primary-ad-spending", "date": "2026-03-13", "opened": true},
+    {"role": "corroboration", "publication": "Capitol News Illinois", "headline": "Stratton defeats Krishnamoorthi with help from Chicago, downstate voters", "url": "https://capitolnewsillinois.com/news/stratton-defeats-krishnamoorthi-with-help-from-chicago-downstate-voters", "date": "2026-03-17", "opened": true},
+    {"role": "corroboration", "publication": "The American Prospect", "headline": "Illinois Senate primary super PAC spending", "url": "https://prospect.org/2026/03/17/illinois-senate-primary-super-pac-spending-juliana-stratton-raja-krishnamoorthi/", "date": "2026-03-17", "opened": true}
+   ],
+   "financial_claims": [
+    {"claim": "Senate primary ad spending and reservations $55.3M as of Mar 13; Krishnamoorthi $28.9M, Stratton $15.5M ($1.1M campaign, $14.4M Illinois Future PAC), Fairshake $9.0M against Stratton", "source_url": "https://adimpact.com/blogs/open-illinois-congressional-seats-fuel-92m-in-primary-ad-spending", "period": "through Mar 13, 2026", "attributed_to": "AdImpact; includes reservations; not audited by LLF"}
+   ],
+   "tip_grades": [{"candidate": "Juliana Stratton", "issue": "all six", "grade": null, "source_profile": "https://theissuesparty.org/candidates/S6IL00458"}],
+   "synopsis": "AdImpact counted $55.3 million in Illinois Senate primary ad spending and reservations as of March 13, the most for a Senate primary in the state on record. Raja Krishnamoorthi's total, $28.9 million, came almost entirely from his campaign. Juliana Stratton's was $15.5 million, of which her campaign spent $1.1 million and the Pritzker-backed Illinois Future PAC $14.4 million; the crypto-focused PAC Fairshake spent $9.0 million attacking her, though outlets put its total between $5.5 million and nearly $10 million. Stratton won with 39.6 percent to Krishnamoorthi's 33.6 at 82 percent of precincts, per Capitol News Illinois, and faces Republican Don Tracy in November. No claim about what the money did is supported.",
+   "ready_to_write": true
+  },
+  {
+   "id": "IL-07-2", "working_title": "Ford won with about 24 percent after a PAC spent nearly $5 million for the runner-up",
+   "interesting_fact": "FEC filings show the United Democracy Project, which AdImpact calls AIPAC-aligned, spent about $4.97 million supporting Melissa Conyears-Ervin; La Shawn Ford beat her with roughly 24 percent to 20.",
+   "state": "IL", "office": "U.S. House", "race_ids": ["2026-H-IL-07"], "candidate_ids": ["H6IL07354"],
+   "event_date": "2026-03-17", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "Chicago Tribune (via Yahoo News)", "headline": "La Shawn Ford declares victory in Illinois 7th District primary", "url": "https://www.yahoo.com/news/articles/la-shawn-ford-declares-victory-023800604.html", "date": "2026-03-18", "opened": true},
+    {"role": "corroboration", "publication": "AdImpact", "headline": "Open Illinois congressional seats fuel $92M in primary ad spending", "url": "https://adimpact.com/blogs/open-illinois-congressional-seats-fuel-92m-in-primary-ad-spending", "date": "2026-03-13", "opened": true}
+   ],
+   "financial_claims": [
+    {"claim": "UDP supported Conyears-Ervin: $4,968,500 in de-duplicated FEC Schedule E rows dated Feb 10 to Mar 10, 2026; AdImpact $4.7M of her $5.5M as of Mar 13; Fairshake $1.9M attacking Ford", "source_url": "https://adimpact.com/blogs/open-illinois-congressional-seats-fuel-92m-in-primary-ad-spending", "period": "Feb 10 to Mar 13, 2026", "attributed_to": "FEC Schedule E filings (LLF de-duplication) and AdImpact; not audited by LLF"}
+   ],
+   "damaging_allegation": {"present": false, "note": "The reported 2014 federal case against Ford (Tribune) is NOT used until the court record is opened; the claim is listed UNVERIFIED in the claims file."},
+   "tip_grades": [{"candidate": "La Shawn K. Ford", "issue": "all six", "grade": null, "source_profile": "https://theissuesparty.org/candidates/H6IL07354"}],
+   "synopsis": "In the Democratic primary for the open 7th District, La Shawn Ford finished first with about 24 percent in unofficial returns, ahead of Chicago Treasurer Melissa Conyears-Ervin at about 20. The United Democracy Project, described by AdImpact as an AIPAC-aligned PAC, supported Conyears-Ervin: LLF's de-duplicated count of its FEC independent expenditure filings is about $4.97 million, and AdImpact put it at $4.7 million as of March 13. The crypto PAC Fairshake spent about $1.9 million attacking Ford, per AdImpact. Retiring Rep. Danny Davis backed Ford, the Tribune reported. Ford faces Republican Chad Koppie Sr. in November.",
+   "ready_to_write": true
+  },
+  {
+   "id": "IL-04-3", "working_title": "The congressman stepped aside at the last minute. His chief of staff was the only Democrat on the ballot",
+   "interesting_fact": "Rep. Jesus 'Chuy' Garcia filed to run, then withdrew; his chief of staff Patty Garcia filed just before the deadline and was the only Democrat in the primary; two independents were then removed from the ballot for falling short on signatures.",
+   "state": "IL", "office": "U.S. House", "race_ids": ["2026-H-IL-04"], "candidate_ids": ["H6IL04153"],
+   "event_date": "2026-07-21", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "Riverside-Brookfield Landmark", "headline": "Two independents stricken from 4th District election ballot", "url": "https://www.rblandmark.com/2026/07/22/two-independents-stricken-from-4th-district-election-ballot/", "date": "2026-07-22", "opened": true},
+    {"role": "corroboration", "publication": "WBEZ", "headline": "What to know: 4th Congressional District", "url": "https://www.wbez.org/government-politics/elections/2026/10/01/what-to-know-4th-congressional-district-patty-garcia-chris-getty-lupe-castillo-ed-hershey-us-rep-jesus-chuy-garcia", "date": "2026-10-01", "opened": true},
+    {"role": "corroboration", "publication": "ABC7 Chicago", "headline": "Rep. Chuy Garcia discusses decision not to run for reelection", "url": "https://abc7chicago.com/amp/post/illinois-4th-congressional-district-rep-jess-chuy-garca-discusses-decision-not-run-reelection-anoint-chief-staff/18123005/", "date": "2025-11-06", "opened": true}
+   ],
+   "damaging_allegation": {"present": false, "note": "'Coronation' and 'machine play' are critics' characterizations, attributed and answered by Garcia's stated reasons; no claim of coordination is made."},
+   "tip_grades": [{"candidate": "Patty Garcia", "issue": "all six", "grade": null, "source_profile": "https://theissuesparty.org/candidates/H6IL04153"}],
+   "synopsis": "Rep. Jesus 'Chuy' Garcia filed petitions on Oct. 27, 2025, then withdrew; his chief of staff, Patty Garcia (no relation), filed shortly before the Nov. 3 deadline and was the only Democrat on the primary ballot. Garcia said his cardiologist advised him to step aside and his wife is fighting MS, and rejected the idea that he was anointing a successor; critics called the move a coronation. In July the State Board of Elections voted 8-0 to remove independents Byron Sigcho-Lopez and Mayra Macias, who needed 10,816 valid signatures to Garcia's 697; hearing officers found them 1,222 and 486 short. Sigcho-Lopez sued; no ruling has been found. The November ballot lists Patty Garcia (D), Lupe Castillo (R), Chris Getty (independent) and Ed Hershey (Working Class Party).",
+   "ready_to_write": true
+  },
+  {
+   "id": "IL-08-02-4", "working_title": "Two AIPAC-backed winners are on the November ballot: Melissa Bean in IL-8 and Donna Miller in IL-2",
+   "interesting_fact": "Per AdImpact, Bean's $4.6 million included $4.2 million from three outside groups and Miller's $6.0 million included $4.4 million from Affordable Chicago Now; Common Dreams reports AIPAC-backed candidates won in both.",
+   "state": "IL", "office": "U.S. House", "race_ids": ["2026-H-IL-08", "2026-H-IL-02"], "candidate_ids": ["H6IL08329", "H6IL02355"],
+   "event_date": "2026-03-17", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "AdImpact", "headline": "Open Illinois congressional seats fuel $92M in primary ad spending", "url": "https://adimpact.com/blogs/open-illinois-congressional-seats-fuel-92m-in-primary-ad-spending", "date": "2026-03-13", "opened": true}
+   ],
+   "damaging_allegation": {"present": true, "note": "Whether Elect Chicago Women, Protect Progress, New Democrat Majority or Affordable Chicago Now are AIPAC-linked rests on press characterizations (Newsweek, Common Dreams); no primary record has been opened.", "original_evidence_url": "", "response_sought": false},
+   "synopsis": "NOT READY. The spending figures are AdImpact's as of March 13. The AIPAC link for each group is described by outlets, not shown in a document we opened. Needs Politico's roughly $22 million figure opened, committee organization filings, and responses from the candidates.",
+   "ready_to_write": false
+  },
+  {
+   "id": "IL-09-5", "working_title": "AIPAC-linked spending targeted Biss first, then Abughazaleh. Biss won",
+   "interesting_fact": "Per Newsweek and Axios, Elect Chicago Women spent about $2.8 million for Laura Fine and $1.3 million against Daniel Biss; Chicago Progressive Partnership spent about $165,500 against Kat Abughazaleh; Biss won with 29.5 percent at 91 percent counted.",
+   "state": "IL", "office": "U.S. House", "race_ids": ["2026-H-IL-09"], "candidate_ids": ["H6IL09228"],
+   "event_date": "2026-03-17", "labelled_new": false,
+   "sources": [
+    {"role": "lead", "publication": "Newsweek", "headline": "Daniel Biss wins Illinois 9th District primary after AIPAC drops millions", "url": "https://newsweek.com/daniel-biss-wins-illinois-9th-district-primary-after-aipac-drops-millions-11693729", "date": "2026-03-18", "opened": true},
+    {"role": "corroboration", "publication": "AdImpact", "headline": "Open Illinois congressional seats fuel $92M in primary ad spending", "url": "https://adimpact.com/blogs/open-illinois-congressional-seats-fuel-92m-in-primary-ad-spending", "date": "2026-03-13", "opened": true}
+   ],
+   "damaging_allegation": {"present": true, "note": "The AIPAC link of Elect Chicago Women and Chicago Progressive Partnership is Axios's and Punchbowl's characterization, repeated by Newsweek; AdImpact gives amounts but does not describe the link.", "original_evidence_url": "", "response_sought": false},
+   "synopsis": "NOT READY. Reported figures differ by outlet (Newsweek $2.8M for Fine; AdImpact $5.0M+ from Elect Chicago Women and EDW Action Fund combined), final vote shares are unconfirmed, and the AIPAC link is characterized, not documented in anything opened.",
+   "ready_to_write": false
+  }
+ ]
+}

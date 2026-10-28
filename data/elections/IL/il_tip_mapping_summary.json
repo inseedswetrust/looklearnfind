@@ -1,0 +1,149 @@
+{
+ "rows": 54,
+ "with_tip_profile": 43,
+ "gaps": [
+  [
+   "JB Pritzker",
+   "TIP profile exists but no race entry"
+  ],
+  [
+   "Darren Bailey",
+   "TIP profile exists but no race entry"
+  ],
+  [
+   "Collin Corbett",
+   "no TIP profile"
+  ],
+  [
+   "Taegun Eimer",
+   "no TIP profile"
+  ],
+  [
+   "Richard Mayers",
+   "no TIP profile"
+  ],
+  [
+   "Mistry Metroz",
+   "no TIP profile"
+  ],
+  [
+   "Griselda Romero",
+   "no TIP profile"
+  ],
+  [
+   "Elizabeth Sebesta",
+   "no TIP profile"
+  ],
+  [
+   "Patricia L. Tillman",
+   "no TIP profile"
+  ],
+  [
+   "Rafael Varela",
+   "no TIP profile"
+  ],
+  [
+   "Mike Vick",
+   "no TIP profile"
+  ],
+  [
+   "Whitfield Harrington Jr.",
+   "TIP entry rests on 'National source only'"
+  ],
+  [
+   "Naomi Craine",
+   "no TIP profile"
+  ],
+  [
+   "Je'Rico J. Brown",
+   "TIP entry rests on 'National source only'"
+  ],
+  [
+   "Chris Getty",
+   "TIP entry rests on 'National source only'"
+  ],
+  [
+   "Ed Hershey",
+   "TIP entry rests on 'National source only'"
+  ],
+  [
+   "Alexandria Keating-Sofiakis",
+   "no TIP profile"
+  ],
+  [
+   "John Kitover",
+   "TIP entry rests on 'National source only'"
+  ]
+ ],
+ "race_page_http": {
+  "https://theissuesparty.org/races/2026-GOV-IL": 200,
+  "https://theissuesparty.org/races/2026-H-IL-01": 200,
+  "https://theissuesparty.org/races/2026-H-IL-02": 200,
+  "https://theissuesparty.org/races/2026-H-IL-03": 200,
+  "https://theissuesparty.org/races/2026-H-IL-04": 200,
+  "https://theissuesparty.org/races/2026-H-IL-05": 200,
+  "https://theissuesparty.org/races/2026-H-IL-06": 200,
+  "https://theissuesparty.org/races/2026-H-IL-07": 200,
+  "https://theissuesparty.org/races/2026-H-IL-08": 200,
+  "https://theissuesparty.org/races/2026-H-IL-09": 200,
+  "https://theissuesparty.org/races/2026-H-IL-10": 200,
+  "https://theissuesparty.org/races/2026-H-IL-11": 200,
+  "https://theissuesparty.org/races/2026-H-IL-12": 200,
+  "https://theissuesparty.org/races/2026-H-IL-13": 200,
+  "https://theissuesparty.org/races/2026-H-IL-14": 200,
+  "https://theissuesparty.org/races/2026-H-IL-15": 200,
+  "https://theissuesparty.org/races/2026-H-IL-16": 200,
+  "https://theissuesparty.org/races/2026-H-IL-17": 200,
+  "https://theissuesparty.org/races/2026-S-IL": 200
+ },
+ "graded_candidates": [
+  [
+   "Jonathan L. Jackson",
+   5
+  ],
+  [
+   "Delia C. Ramirez",
+   6
+  ],
+  [
+   "Mike Quigley",
+   6
+  ],
+  [
+   "Sean Casten",
+   4
+  ],
+  [
+   "Brad Schneider",
+   4
+  ],
+  [
+   "Bill Foster",
+   5
+  ],
+  [
+   "Mike Bost",
+   4
+  ],
+  [
+   "Nikki Budzinski",
+   6
+  ],
+  [
+   "Lauren Underwood",
+   5
+  ],
+  [
+   "Mary E. Miller",
+   4
+  ],
+  [
+   "Darin LaHood",
+   4
+  ],
+  [
+   "Eric Sorensen",
+   5
+  ]
+ ]
+}

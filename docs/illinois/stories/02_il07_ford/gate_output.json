@@ -1,0 +1,9 @@
+{
+ "result": "READY",
+ "ledger": "docs/illinois/stories/02_il07_ford/CLAIMS.csv",
+ "rows": 12,
+ "blocking": [],
+ "warnings": [],
+ "build": null,
+ "note": "READY means the ledger is complete and consistent. It does not approve publication: a person does that."
+}

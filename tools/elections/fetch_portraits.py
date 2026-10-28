@@ -8,17 +8,23 @@ read its Commons license metadata, and keep it only if the license is public dom
 neutral monogram card. Output: static/img/elections/portraits/<id>.jpg (<=480px wide), data/elections/<ST>/portraits.json (credit table).
 Candidates are never matched on name alone: the article text is checked against state and office words; the match is listed for human review.
 """
-import sys, json, re, unicodedata, urllib.request, urllib.parse, time, html
+import sys, json, re, unicodedata, urllib.request, urllib.error, urllib.parse, time, html
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 ST = sys.argv[1].upper()
-STATE = {"FL": "Florida", "MI": "Michigan"}[ST]
+STATE = {"FL": "Florida", "MI": "Michigan", "IL": "Illinois"}[ST]
 UA = {"User-Agent": "LLF-election-desk/1.0 (hello@looklearnfind.com)"}
 OK = re.compile(r"^(pd|public domain|cc0|cc[- ]by|cc[- ]by[- ]sa|attribution)", re.I)
 def api(base, **q):
     q["format"] = "json"
-    with urllib.request.urlopen(urllib.request.Request(base + "?" + urllib.parse.urlencode(q), headers=UA), timeout=60) as r:
-        return json.loads(r.read())
+    for attempt in range(5):               # Wikimedia answers 503 when asked too fast: back off and retry
+        try:
+            with urllib.request.urlopen(urllib.request.Request(base + "?" + urllib.parse.urlencode(q), headers=UA), timeout=60) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as ex:
+            if ex.code not in (429, 503) or attempt == 4:
+                raise
+            time.sleep(4 * (attempt + 1))
 def wp(**q): return api("https://en.wikipedia.org/w/api.php", **q)
 def cm(**q): return api("https://commons.wikimedia.org/w/api.php", **q)
 
@@ -49,9 +55,18 @@ def license_of(fname):
     return lic, re.sub(r"<[^>]+>", "", html.unescape(md.get("Artist", {}).get("value", ""))).strip(), ii.get("thumburl"), ii.get("descriptionurl"), md.get("UsageTerms", {}).get("value", "")
 
 cands = json.loads((ROOT / f"data/elections/{ST}/candidates.json").read_text(encoding="utf-8"))["candidates"]
+extra = ROOT / f"data/elections/{ST}/extra_people.json"          # people a story needs who are not on the November roster (defeated primary candidates, retirees)
+if extra.exists():
+    cands += json.loads(extra.read_text(encoding="utf-8"))
 outdir = ROOT / "static/img/elections/portraits"
-log = {}
+import os
+ONLY = [x.strip() for x in os.environ.get("LLF_ONLY", "").split(",") if x.strip()]      # re-run just these names and merge into the existing credit table
+logf = ROOT / f"data/elections/{ST}/portraits.json"
+log = json.loads(logf.read_text(encoding="utf-8")) if ONLY and logf.exists() else {}
 for c in cands:
+    c["id"] = re.sub(r"[^A-Za-z0-9._-]", "_", c["id"])             # file-safe id (quotes in names broke Windows file names)
+    if ONLY and c["name"] not in ONLY:
+        continue
     if c["party_code"] not in ("DEM", "REP") and not c["incumbent"]:
         continue                       # minor-party and write-in candidates: monogram unless an editor adds a licensed photo by hand
     try:
@@ -69,7 +84,7 @@ for c in cands:
         log[c["id"]] = {"name": c["name"], "wikipedia": title, "extract": ext, "file": fname, "license": lic, "credit": artist or "Wikimedia Commons", "source_page": page, "result": "ok", "bytes": len(data)}
     except Exception as ex:
         log[c["id"]] = {"name": c["name"], "result": f"error {ex}"}
-    time.sleep(0.3)
+    time.sleep(1.0)
 (ROOT / f"data/elections/{ST}/portraits.json").write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
 import collections
 print(collections.Counter(v["result"] for v in log.values()))

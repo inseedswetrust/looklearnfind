@@ -12,7 +12,9 @@ import json, re, sys, unicodedata, urllib.request, concurrent.futures as cf, dat
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-D = ROOT / "data/elections/FL"
+import os
+ST = os.environ.get("LLF_STATE", "FL").upper()          # state code; default Florida keeps the old behavior
+D = ROOT / "data/elections" / ST
 TIP = Path(sys.argv[1])
 rd = lambda p: json.loads(p.read_text(encoding="utf-8"))
 roster = rd(D / "roster.json")
@@ -30,9 +32,9 @@ live = lambda c: c["status"] in ("Qualified", "Unopposed")
 
 out = []
 def add(office, race, c):
-    out.append({"id": c["state_account"], "name": c["name"], "party_code": c["party_code"], "party": PARTY.get(c["party_code"], c["party_code"]),
+    out.append({"id": c["state_account"], "name": c["name"], "party_code": c["party_code"], "party": c.get("party") or PARTY.get(c["party_code"], c["party_code"]), "tip_name": c.get("tip_name"), "write_in": bool(c.get("write_in")), "note": c.get("note"),
                 "office": office, "race": race, "incumbent": c["incumbent"], "running_mate": c.get("running_mate"),
-                "status": c["status"], "primary": c["primary"], "state_url": f"https://dos.elections.myflorida.com/candidates/CanDetail.asp?account={c['state_account']}"})
+                "status": c["status"], "primary": c["primary"], "state_url": c.get("source_url") or f"https://dos.elections.myflorida.com/candidates/CanDetail.asp?account={c['state_account']}"})
 
 for c in roster["governor"]:
     if live(c): add("governor", "governor", c)
@@ -54,8 +56,8 @@ for r in ratings:
 issue_order = [d["slug"] for d in sorted(defs, key=lambda x: x["sort_order"])]
 
 for c in out:
-    key = {"governor": "2026-GOV-FL", "senate": "2026-S-FL"}.get(c["office"]) or f"2026-H-FL-{int(c['race'].split('-')[1]):02d}"
-    e = ent_by.get((key, norm(c["name"])))
+    key = {"governor": f"2026-GOV-{ST}", "senate": f"2026-S-{ST}"}.get(c["office"]) or f"2026-H-{ST}-{int(c['race'].split('-')[1]):02d}"
+    e = ent_by.get((key, norm(c.get("tip_name") or c["name"])))
     tip_page_id = fec = None
     if e and e["fec_candidate_id"]:
         tip_page_id = fec = e["fec_candidate_id"]
@@ -67,7 +69,7 @@ for c in out:
             tip_page_id = row["fec_candidate_id"]
             fec = fec or tip_page_id
     if c["office"] == "governor":
-        for tc in cand_by_name.get(norm(c["name"]), []):
+        for tc in cand_by_name.get(norm(c.get("tip_name") or c["name"]), []):
             if tc["office_code"] == "GOV":
                 tip_page_id = tc["fec_candidate_id"]
             elif tc["fec_candidate_id"] in grades or tc["office_code"] in ("H", "S"):
@@ -87,12 +89,19 @@ for c in out:
             for s in issue_order}}
 
 def head(u):
-    try:
-        req = urllib.request.Request(u, headers={"User-Agent": "LLF-election-desk"}, method="GET")
-        with urllib.request.urlopen(req, timeout=40) as r:
-            return r.status
-    except Exception as ex:
-        return getattr(ex, "code", 0)
+    import time
+    code = 0
+    for attempt in range(4):                       # one failed request (timeout, 520, 429) is not a missing page: retry with backoff
+        try:
+            req = urllib.request.Request(u, headers={"User-Agent": "LLF-election-desk"}, method="GET")
+            with urllib.request.urlopen(req, timeout=40) as r:
+                return r.status
+        except Exception as ex:
+            code = getattr(ex, "code", 0)
+            if code == 404:
+                return 404
+            time.sleep(2 * (attempt + 1))
+    return code
 
 urls = {c["tip"]["url"] for c in out if c["tip"]} | {c["tip"]["grades_url"] for c in out if c["tip"] and c["tip"].get("grades_url")}
 with cf.ThreadPoolExecutor(6) as ex:

@@ -1,0 +1,1585 @@
+[
+{
+"candidate_id": "S6IL00391",
+"name": "BENNETT, DOUGLAS",
+"party": "REP",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00656",
+"name": "BOTSFORD, STEVE",
+"party": "DEM",
+"office": "S",
+"district": null,
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00730",
+"name": "BROWN, SEAN AMEDEE",
+"party": "DEM",
+"office": "S",
+"district": null,
+"incumbent_challenge": null,
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00565",
+"name": "BUSTOS, AWISI",
+"party": "DEM",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00490",
+"name": "CAPPARELLI, R CARY",
+"party": "REP",
+"office": "S",
+"district": null,
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00466",
+"name": "CHLEBEK, CASIMER MR.",
+"party": "REP",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00623",
+"name": "DEAN, JONATHAN",
+"party": "DEM",
+"office": "S",
+"district": null,
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00607",
+"name": "DELGADO, ADAM",
+"party": "DEM",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00151",
+"name": "DURBIN, RICHARD J.",
+"party": "DEM",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+1996,
+2002,
+2008,
+2014,
+2020,
+2026
+]
+},
+{
+"candidate_id": "S6IL00672",
+"name": "EVANS, JEANNIE",
+"party": "REP",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00425",
+"name": "GOODMAN, JOHN",
+"party": "REP",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00680",
+"name": "HARRINGTON, WHITFIELD MR JR",
+"party": "IND",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00474",
+"name": "KELLY, ROBIN",
+"party": "DEM",
+"office": "S",
+"district": null,
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00482",
+"name": "KRISHNAMOORTHI, S",
+"party": "DEM",
+"office": "S",
+"district": null,
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00540",
+"name": "LONG, PAMELA",
+"party": "REP",
+"office": "S",
+"district": null,
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00649",
+"name": "MAXWELL, BRYAN",
+"party": "DEM",
+"office": "S",
+"district": null,
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00581",
+"name": "RYAN, KEVIN",
+"party": "DEM",
+"office": "S",
+"district": null,
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00698",
+"name": "SCHWARTZBERG, STEVEN J",
+"party": null,
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00458",
+"name": "STRATTON, JULIANA",
+"party": "DEM",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00409",
+"name": "SWANN, CHRISTOPHER ALEXANDER",
+"party": "DEM",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "S6IL00615",
+"name": "TRACY, DON",
+"party": "REP",
+"office": "S",
+"district": "00",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09178",
+"name": "ABUGHAZALEH, KATHERINE M.",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H2IL08146",
+"name": "AHMED, JUNAID",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2022,
+2026
+]
+},
+{
+"candidate_id": "H6IL16090",
+"name": "ALBRIGHT, JOE",
+"party": "DEM",
+"office": "H",
+"district": "16",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09236",
+"name": "AMIWALA, BUSHRA",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09301",
+"name": "ANDREW, PHILIP JEROME",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL08253",
+"name": "BANKOLE, YASMEEN",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL08329",
+"name": "BEAN, MELISSA LUBURICH",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL17262",
+"name": "BICKELHAUPT, JULIE",
+"party": "REP",
+"office": "H",
+"district": "17",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09228",
+"name": "BISS, DANIEL",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL13162",
+"name": "BLAHA, DYLAN THOMAS",
+"party": "DEM",
+"office": "H",
+"district": "13",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H4IL12060",
+"name": "BOST, MICHAEL",
+"party": "REP",
+"office": "H",
+"district": "12",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2014,
+2016,
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL15118",
+"name": "BOWLBY, JUDY",
+"party": "REP",
+"office": "H",
+"district": "15",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07370",
+"name": "BOYKIN, RICHARD",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL02330",
+"name": "BROWN, YUMEKA S",
+"party": "DEM",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H2IL13153",
+"name": "BUDZINSKI, NIKKI",
+"party": "DEM",
+"office": "H",
+"district": "13",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H8IL06139",
+"name": "CASTEN, SEAN",
+"party": "DEM",
+"office": "H",
+"district": "06",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL04187",
+"name": "CHURCH, LINDSAY",
+"party": "IND",
+"office": "H",
+"district": "04",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL10168",
+"name": "COGHILL, MORGAN",
+"party": "DEM",
+"office": "H",
+"district": "10",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09376",
+"name": "COHEN, JEFF",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL02280",
+"name": "COLEMAN, CALVIN",
+"party": "REP",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07511",
+"name": "COLLINS, KINA I",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H2IL06090",
+"name": "CONFORTI, NIKI",
+"party": "REP",
+"office": "H",
+"district": "06",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H4IL07177",
+"name": "CONYEARS-ERVIN, MELISSA",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2024,
+2026
+]
+},
+{
+"candidate_id": "H4IL07037",
+"name": "DAVIS, DANNY K. MR.",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+1984,
+1986,
+1988,
+1996,
+1998,
+2000,
+2002,
+2004,
+2006,
+2008,
+2010,
+2012,
+2014,
+2016,
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL14160",
+"name": "DAVIS, JED",
+"party": "REP",
+"office": "H",
+"district": "14",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL08311",
+"name": "DAVIS, JENNIFER",
+"party": "REP",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL15100",
+"name": "DAVIS, PAUL R DR. JR",
+"party": "DEM",
+"office": "H",
+"district": "15",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07420",
+"name": "DRIVER, ANTHONY JR.",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL06182",
+"name": "DUENSING, SKYLAR",
+"party": "REP",
+"office": "H",
+"district": "06",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL08246",
+"name": "DUNUNG, SANJYOT",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07545",
+"name": "EHRLICH, DAVID",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09194",
+"name": "FINE, LAURA",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07438",
+"name": "FISHER, THOMAS DR.",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09327",
+"name": "FORD, JUSTIN",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07354",
+"name": "FORD, LA SHAWN K",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL12131",
+"name": "FORTIER, JULIE DR.",
+"party": "DEM",
+"office": "H",
+"district": "12",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H8IL14067",
+"name": "FOSTER, G. WILLIAM (BILL)",
+"party": "DEM",
+"office": "H",
+"district": "11",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2008,
+2010,
+2012,
+2014,
+2016,
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL02322",
+"name": "FRANCE, ERIC",
+"party": "DEM",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07339",
+"name": "FRIEDMAN, JASON",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H8IL04134",
+"name": "GARCIA, JESUS",
+"party": "DEM",
+"office": "H",
+"district": "04",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL04153",
+"name": "GARCIA, PATTY",
+"party": "DEM",
+"office": "H",
+"district": "04",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL04195",
+"name": "GETTY, CHRISTOPHER ROMAN",
+"party": "IND",
+"office": "H",
+"district": "04",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07396",
+"name": "HOSKINS, RORY E.",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09285",
+"name": "HUYNH, KHAI-HOAN",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL02124",
+"name": "JACKSON, JESSE L. JR",
+"party": "DEM",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+1996,
+1998,
+2000,
+2002,
+2004,
+2006,
+2008,
+2010,
+2012,
+2014,
+2026
+]
+},
+{
+"candidate_id": "H2IL01349",
+"name": "JACKSON, JONATHAN",
+"party": "DEM",
+"office": "H",
+"district": "01",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL09202",
+"name": "JENKINS, MIRACLE",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL08279",
+"name": "KALLAS, CHRIST",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL02397",
+"name": "KEATING, PATRICK JOHN",
+"party": "DEM",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H2IL02172",
+"name": "KELLY, ROBIN",
+"party": "DEM",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2013,
+2014,
+2016,
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL08212",
+"name": "KHOT, NEIL",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H4IL11245",
+"name": "KIM, CHARLES",
+"party": "REP",
+"office": "H",
+"district": "11",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2024,
+2026
+]
+},
+{
+"candidate_id": "H2IL08203",
+"name": "KOPPIE, CHAD",
+"party": "REP",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL08147",
+"name": "KRISHNAMOORTHI, S. RAJA",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2016,
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL18088",
+"name": "LAHOOD, DARIN MCKAY",
+"party": "REP",
+"office": "H",
+"district": "16",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2016,
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL07404",
+"name": "LEIGH, DANICA DAVID",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09277",
+"name": "LEON, BRUCE",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H4IL13241",
+"name": "LOYD, JOSHUA",
+"party": "REP",
+"office": "H",
+"district": "13",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL04179",
+"name": "MACIAS, MAYRA",
+"party": "IND",
+"office": "H",
+"district": "04",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09335",
+"name": "MANRIQUE, JILL",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H8IL16153",
+"name": "MARTER, JAMES THOMAS",
+"party": "REP",
+"office": "H",
+"district": "14",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL01191",
+"name": "MAXWELL, CHRISTIAN",
+"party": "REP",
+"office": "H",
+"district": "01",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07347",
+"name": "MCCOMBS, JOHN",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07495",
+"name": "MENDOZA, ANABEL",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL02355",
+"name": "MILLER, DONNA",
+"party": "DEM",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H0IL15129",
+"name": "MILLER, MARY",
+"party": "REP",
+"office": "H",
+"district": "15",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL08238",
+"name": "MORRISON, KEVIN B.",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL16108",
+"name": "NOLLEY, PAUL",
+"party": "DEM",
+"office": "H",
+"district": "16",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL03163",
+"name": "OAKLEY, ANGEL",
+"party": "REP",
+"office": "H",
+"district": "03",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL02298",
+"name": "PETERS, ROBERT JAMES",
+"party": "DEM",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H2IL14086",
+"name": "PIERCE, MICHAEL DAVID LTC (RET.)",
+"party": "REP",
+"office": "H",
+"district": "11",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2022,
+2026
+]
+},
+{
+"candidate_id": "H6IL09343",
+"name": "POLAN, SAM",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL02363",
+"name": "PRESTON, WILLIE JUNIOR MR",
+"party": "DEM",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09319",
+"name": "PYATI, NICK",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H0IL05096",
+"name": "QUIGLEY, MIKE",
+"party": "DEM",
+"office": "H",
+"district": "05",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2010,
+2012,
+2014,
+2016,
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H2IL03162",
+"name": "RAMIREZ, DELIA",
+"party": "DEM",
+"office": "H",
+"district": "03",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL02306",
+"name": "REGIS, ADAL",
+"party": "DEM",
+"office": "H",
+"district": "02",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H4IL08159",
+"name": "RICE, MARK",
+"party": "REP",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL07487",
+"name": "ROBINSON, JAZMIN J. MRS.",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09251",
+"name": "ROSENBLUM, HOWARD",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL06190",
+"name": "RUZEVICH, JOSEPH",
+"party": "DEM",
+"office": "H",
+"district": "06",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H8IL09067",
+"name": "SCHAKOWSKY, JANICE D",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+1998,
+2000,
+2002,
+2004,
+2006,
+2008,
+2010,
+2012,
+2014,
+2016,
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H2IL10068",
+"name": "SCHNEIDER, BRADLEY S.",
+"party": "DEM",
+"office": "H",
+"district": "10",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2012,
+2014,
+2016,
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL07503",
+"name": "SHOWALTER, REED",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL04161",
+"name": "SIGCHO LOPEZ, BYRON",
+"party": "IND",
+"office": "H",
+"district": "04",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL09293",
+"name": "SIMMONS, MIKE",
+"party": "DEM",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H2IL17147",
+"name": "SORENSEN, ERIC",
+"party": "DEM",
+"office": "H",
+"district": "17",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL09210",
+"name": "SU, DONGBO",
+"party": "REP",
+"office": "H",
+"district": "09",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL12123",
+"name": "TABACCHI, MICHAEL EUGENE MR",
+"party": "REP",
+"office": "H",
+"district": "12",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL04203",
+"name": "TAMEZ, ANTHONY MICHAEL",
+"party": "DEM",
+"office": "H",
+"district": "04",
+"incumbent_challenge": null,
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL15134",
+"name": "TEBRUGGE, RYAN",
+"party": "REP",
+"office": "H",
+"district": "15",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL07479",
+"name": "TELLO, FELIX",
+"party": "DEM",
+"office": "H",
+"district": "07",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL15092",
+"name": "TODD, JENNIFER ANN",
+"party": "DEM",
+"office": "H",
+"district": "15",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL08287",
+"name": "TULLY, DAN",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H8IL14174",
+"name": "UNDERWOOD, LAUREN",
+"party": "DEM",
+"office": "H",
+"district": "14",
+"incumbent_challenge": "I",
+"candidate_status": "C",
+"election_years": [
+2018,
+2020,
+2022,
+2024,
+2026
+]
+},
+{
+"candidate_id": "H6IL17247",
+"name": "VANCIL, DILLAN",
+"party": "REP",
+"office": "H",
+"district": "17",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL08295",
+"name": "VETTICAD, RYAN",
+"party": "DEM",
+"office": "H",
+"district": "08",
+"incumbent_challenge": "O",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL14178",
+"name": "VICIAN, GARY",
+"party": "REP",
+"office": "H",
+"district": "14",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL11166",
+"name": "WALTER, JEFFREY D",
+"party": "REP",
+"office": "H",
+"district": "11",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+},
+{
+"candidate_id": "H6IL13154",
+"name": "WILSON, JEFF",
+"party": "REP",
+"office": "H",
+"district": "13",
+"incumbent_challenge": "C",
+"candidate_status": "C",
+"election_years": [
+2026
+]
+}
+]
