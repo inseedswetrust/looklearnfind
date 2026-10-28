@@ -4,7 +4,11 @@
     python3 tools/video/build_video_pack.py <spec.json> [--check] [--no-render] [--out release/video/<id>]
 
 --check      validate only (exit 2 on any problem)
---no-render  skip the Playwright frame render (still writes the documents)
+--no-render  skip the Playwright frame render of still frames (still writes the documents)
+--render-video --authorization "<the owner's own words requesting a rendered video>"
+             the ONLY way to ask for a rendered video. Without it this tool is assets-only and never writes a video file. No renderer ships in this repo:
+             the flag records the request in the workflow ledger and stops (exit 3). See docs/production/03_VIDEO_SKILL_AND_SHOT_CONTRACT.md.
+LEGACY: this builder and its fixed 18 x 5-second spec are the Florida example. New states use tools/video/scene_pack.py (script-led timing, SCENES.csv).
 Writes: <out>/frames/segNN.png and segNN_alpha.png (layer-1 deterministic frames, 1080x1920), cover.png, storyboard.html,
         docs/video/<ID>_STORYBOARD.md, _FACT_SHEET.md, fl_video_prompts.csv, fl_video_animations.csv (via visual direction builder),
         and the script table inside docs/video/FLORIDA_VIDEO_SCRIPT_AND_PITCH.md between its markers.
@@ -17,12 +21,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+VIDEO_EXT = {".mp4", ".mov", ".webm", ".mkv", ".avi", ".m4v"}
 ONES = {"zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12, "thirteen": 13, "fourteen": 14,
         "fifteen": 15, "sixteen": 16, "seventeen": 17, "eighteen": 18, "nineteen": 19}
 TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90}
 ORD = r"(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|[a-z]+teenth|[a-z]+ieth)"
 FORBIDDEN_IN_PLATES = ["person", "people", "face", "faces", "portrait", "hand", "hands", "text", "letter", "letters", "number", "numbers", "logo", "logos", "flag", "flags", "red", "blue", "candidate", "ballot", "crowd"]
 MONTH = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}(?:\s*[–-]\s*\d{1,2})?"
+
+
+def seg_secs(spec, s):
+    """Seconds for one segment: its own `seconds` if set, else the spec default. (The fixed 5-second rule is the Florida example, not a requirement.)"""
+    return s.get("seconds", spec.get("segment_seconds", 5))
+
+
+def seg_start(spec, n):
+    return sum(seg_secs(spec, x) for x in spec["segments"] if x["n"] < n)
 
 
 def spoken_numbers(text):
@@ -76,7 +90,7 @@ def close(a, b):
 def validate(spec):
     P = []
     segs, trans = spec["segments"], spec["transitions"]
-    total = sum(spec["segment_seconds"] for _ in segs)
+    total = sum(seg_secs(spec, s) for s in segs)
     if total != spec["duration_seconds"]:
         P.append(f"segments add up to {total}s, not {spec['duration_seconds']}s")
     if [s["n"] for s in segs] != list(range(1, len(segs) + 1)):
@@ -93,8 +107,11 @@ def validate(spec):
     for s in segs:
         n = s["n"]
         words = len(s["vo"].split())
-        if words > spec["voice"]["max_words_per_segment"]:
-            P.append(f"segment {n}: narration is {words} words (max {spec['voice']['max_words_per_segment']})")
+        cap = spec["voice"].get("max_words_per_segment")
+        if cap is None:
+            cap = int(seg_secs(spec, s) * spec["voice"]["words_per_second"]) + 1      # pacing follows the scene length when no fixed cap is set
+        if words > cap:
+            P.append(f"segment {n}: narration is {words} words (max {cap})")
         if not s["facts"]:
             P.append(f"segment {n}: no fact IDs")
         for fid in s["facts"]:
@@ -108,7 +125,7 @@ def validate(spec):
             if not any(close(v, a) for a in allowed):
                 P.append(f"segment {n}: on-screen number {v:g} is not in its facts {s['facts']}")
         for a in s["animations"]:
-            if a["start"] + a["duration"] > spec["segment_seconds"] + 1e-9:
+            if a["start"] + a["duration"] > seg_secs(spec, s) + 1e-9:
                 P.append(f"segment {n}: animation '{a['element']}' runs past the segment")
         pl = s["plate"]
         if pl["id"] in ids:
@@ -292,9 +309,9 @@ def render(spec, out):
 def script_table(spec):
     rows = ["| # | Time | On screen | Narrator (synthetic) | SFX and music | Facts |", "|---|---|---|---|---|---|"]
     for s in spec["segments"]:
-        a = (s["n"] - 1) * spec["segment_seconds"]
-        t = lambda x: f"{x // 60}:{x % 60:02d}"
-        rows.append(f"| {s['n']} | {t(a)} to {t(a + spec['segment_seconds'])} | {'; '.join(s['on_screen'])} | \"{s['vo']}\" | {s['sfx']} | {', '.join(s['facts'])} |")
+        a = seg_start(spec, s["n"])
+        t = lambda x: f"{int(x) // 60}:{int(x) % 60:02d}"
+        rows.append(f"| {s['n']} | {t(a)} to {t(a + seg_secs(spec, s))} | {'; '.join(s['on_screen'])} | \"{s['vo']}\" | {s['sfx']} | {', '.join(s['facts'])} |")
     words = sum(len(s["vo"].split()) for s in spec["segments"])
     rows.append("")
     rows.append(f"Total spoken words: {words}. Read time at {spec['voice']['words_per_second']} words a second: {words / spec['voice']['words_per_second']:.0f} seconds of {spec['duration_seconds']}. Every segment is {spec['voice']['max_words_per_segment']} words or fewer.")
@@ -323,8 +340,8 @@ def storyboard_md(spec, frames=True):
     r = [f"# Storyboard: {spec['id']} (generated from the spec)", "", f"{spec['duration_seconds']} s, {spec['format']['aspect']}, {spec['format']['width']}x{spec['format']['height']}, {spec['format']['fps']} fps. Layer-1 frames are in `release/video/{spec['id']}/frames/` (`segNN.png` on paper, `segNN_alpha.png` transparent).", ""]
     tr = {t["from"]: t for t in spec["transitions"]}
     for s in spec["segments"]:
-        a = (s["n"] - 1) * spec["segment_seconds"]
-        r += [f"## Segment {s['n']} · {a}-{a + spec['segment_seconds']} s · `{s['frame']}`", f"- Frame: `seg{s['n']:02d}.png`", f"- On screen: {' / '.join(s['on_screen'])}", f"- Narrator: \"{s['vo']}\"", f"- SFX and music: {s['sfx']}", f"- Facts: {', '.join(s['facts'])}",
+        a = seg_start(spec, s["n"])
+        r += [f"## Segment {s['n']} · {a}-{a + seg_secs(spec, s)} s · `{s['frame']}`", f"- Frame: `seg{s['n']:02d}.png`", f"- On screen: {' / '.join(s['on_screen'])}", f"- Narrator: \"{s['vo']}\"", f"- SFX and music: {s['sfx']}", f"- Facts: {', '.join(s['facts'])}",
               f"- Plate {s['plate']['id']} ({s['plate']['role']}): see `fl_video_prompts.csv`",
               "- Animations (deterministic layer): " + "; ".join(f"{x['element']}: {x['action']} at {x['start']}s for {x['duration']}s ({x['easing']})" for x in s["animations"])]
         if s["n"] in tr:
@@ -348,8 +365,23 @@ def main():
         print(len(probs), "problem(s)")
         return 2
     print("spec valid:", len(spec["segments"]), "segments,", len(spec["facts"]), "facts,", len(spec["transitions"]), "transitions")
+    if "--render-video" in a:                        # the only door to a rendered video, and it needs the owner's own words
+        auth = a[a.index("--authorization") + 1].strip() if "--authorization" in a and a.index("--authorization") + 1 < len(a) else ""
+        if len(auth) < 15:
+            print("REFUSED: a rendered video needs --authorization with the owner's explicit request in their own words. A script, storyboard, image or transition request is not one.")
+            return 2
+        import datetime
+        log = ROOT / "docs/production/RENDER_REQUESTS.log"
+        log.parent.mkdir(parents=True, exist_ok=True)
+        with open(log, "a", encoding="utf-8") as f:
+            f.write(f"{datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')} {spec['id']} authorization: {auth}\n")
+        print("VIDEO_RENDER_REQUESTED recorded in docs/production/RENDER_REQUESTS.log. No renderer is installed in this repository (editing is done in Premiere Pro from the asset pack); nothing was rendered.")
+        return 3
     if "--check" in a:
         return 0
+    if spec.get("state") != "FL":
+        print("REFUSED: this builder and its fixed 18 x 5-second layout are the Florida example. Use `python3 tools/video/scene_pack.py init <ST>` (script-led timing, SCENES.csv, ASSETS.csv, TRANSITIONS.csv).")
+        return 2
     out = Path(a[a.index("--out") + 1]) if "--out" in a else ROOT / "release/video" / spec["id"]
     out.mkdir(parents=True, exist_ok=True)
     docs = ROOT / "docs/video"
@@ -364,7 +396,11 @@ def main():
     if "--no-render" not in a:
         names = render(spec, out)
         contact_sheet(spec, out)
-        print("rendered", len(names), "files to", out)
+        print("rendered", len(names), "still frames to", out)
+    vids = [x for x in out.rglob("*") if x.suffix.lower() in VIDEO_EXT]
+    if vids:                                          # assets-only guard: this tool must never leave a video behind
+        print("FAIL: a video file exists in the output:", [str(v) for v in vids])
+        return 2
     return 0
 
 

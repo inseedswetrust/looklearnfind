@@ -5,6 +5,8 @@ description: Draft an LLF Delta Report from same-contract market price history a
 
 # llf-delta-editorial
 
+**Version** 1.0.0 (header added 2026-10-28; the Contract section below carries the same number)
+
 ## Inputs
 Two or more comparable observations of the SAME venue + contract + quote type (use `tools/elections/fetch_kalshi_history.py` for candlesticks, or the daily `markets.json`), with timestamps, bid/ask, volume, and contemporaneous events that have named sources and times.
 

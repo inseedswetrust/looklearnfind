@@ -1,0 +1,114 @@
+{
+ "manifest": "LLF skill versions",
+ "lock": "LLF Canonical Local Workflow & Skills Lock v2.0 (2026-10-24)",
+ "skills": [
+  {
+   "name": "darkhorse-source-monitor",
+   "version": "1.1.1",
+   "path": ".claude/skills/darkhorse-source-monitor/SKILL.md",
+   "bytes": 3942,
+   "sha256_16": "591b5233413d1146",
+   "description": "Run, check and troubleshoot the daily dark-horse monitor (Kalshi and Polymarket quotes, VoteHub race polls) for the verified watchlist. Use when asked to refresh daily data, check status or staleness, add or verify a contract mapping, or explain a coverage gap.",
+   "legacy_alias": false
+  },
+  {
+   "name": "election-state-packet",
+   "version": "1.0.2",
+   "path": ".claude/skills/election-state-packet/SKILL.md",
+   "bytes": 3377,
+   "sha256_16": "68bb08d05bf23b13",
+   "description": "Build the machine-readable research packet for one state (official roster reconciled to TIP profiles, TIP issue grades, FEC finance and outside spending, markets, polls, assets, sources, existing pages). Use when starting a new state or refreshing a state's data before research is commissioned.",
+   "legacy_alias": false
+  },
+  {
+   "name": "llf-article-format",
+   "version": "1.3.1",
+   "path": ".claude/skills/llf-article-format/SKILL.md",
+   "bytes": 4600,
+   "sha256_16": "1630dea6e1d56446",
+   "description": "Apply LookLearnFind's approved election article schemas (State of the Race, Delta, Spending, Dark Horse vs party, Dark Horse vs AIPAC/UDP-supported, AIPAC-supported candidates still running) and the state and race guide modules, with voice rules and TIP integration. Use when drafting or reviewing any LLF election article.",
+   "legacy_alias": false
+  },
+  {
+   "name": "llf-delta-editorial",
+   "version": "1.0.0",
+   "path": ".claude/skills/llf-delta-editorial/SKILL.md",
+   "bytes": 2325,
+   "sha256_16": "a2e5b8cbea652f55",
+   "description": "Draft an LLF Delta Report from same-contract market price history and independently sourced events. Use when asked to write or update a market-movement article. Never asserts causes.",
+   "legacy_alias": false
+  },
+  {
+   "name": "llf-election-render",
+   "version": "1.1.0",
+   "path": ".claude/skills/llf-election-render/SKILL.md",
+   "bytes": 2649,
+   "sha256_16": "b40a236d6247aa79",
+   "description": "Render election articles and pages with the existing LLF components (elections.py, layout report, data macros, charts, candidate cards, district maps, responsive checks). Use when turning approved copy and mockups into built pages or when a component needs changing.",
+   "legacy_alias": false
+  },
+  {
+   "name": "llf-factcheck-finalize",
+   "version": "2.2.0",
+   "path": ".claude/skills/llf-factcheck-finalize/SKILL.md",
+   "bytes": 4434,
+   "sha256_16": "0ffd4fc53a1e9ee9",
+   "description": "Independent, claim-driven pre-publication check for LLF election articles: a short claims ledger for the central published claims, publishing rules R1 and R2, quote, grade and image checks, and a READY or BLOCKED result. Use before any story goes live.",
+   "legacy_alias": false
+  },
+  {
+   "name": "llf-footage-scout",
+   "version": "1.1.0",
+   "path": ".claude/skills/llf-footage-scout/SKILL.md",
+   "bytes": 5554,
+   "sha256_16": "a8d2ecb324d69ac4",
+   "description": "Find, inspect and rights-triage authentic campaign and news footage for an LLF state video and return a clip capture list, clip manifest and rights register with honest timecodes. A sub-procedure of llf-video-director; the owner captures footage unless they explicitly ask for a specific cleared clip to be acquired.",
+   "legacy_alias": false
+  },
+  {
+   "name": "llf-publication-qa",
+   "version": "1.4.0",
+   "path": ".claude/skills/llf-publication-qa/SKILL.md",
+   "bytes": 3738,
+   "sha256_16": "4c2b2344102b6940",
+   "description": "Pre-deploy and post-deploy checks for LLF election pages: strict build, link and placeholder tests, responsive screenshots, metadata, cross-links, live HTTP checks and rollback evidence. Use immediately before and after uploading a release zip.",
+   "legacy_alias": false
+  },
+  {
+   "name": "llf-story-scout",
+   "version": "1.0.0",
+   "path": ".claude/skills/llf-story-scout/SKILL.md",
+   "bytes": 3722,
+   "sha256_16": "66dc98e4cc660933",
+   "description": "Find and vet timely, verifiable election stories from recent reporting and primary records, then return a short STORY_BRIEF (2 to 3 angles per article) with sources, TIP links, grades and unknowns. Use before drafting any LLF election article, instead of assembling a finance dataset.",
+   "legacy_alias": false
+  },
+  {
+   "name": "llf-video-director",
+   "version": "2.0.0",
+   "path": ".claude/skills/llf-video-director/SKILL.md",
+   "bytes": 7587,
+   "sha256_16": "f286775e5858753e",
+   "description": "Create a state election video script, storyboard, per-scene image directions and assets, mostly paired Midjourney start/end transitions, sourced real-clip suggestions and a Premiere handoff, from checked articles. The single canonical video entry point. Never renders a video or MP4 without an explicit owner request.",
+   "legacy_alias": false
+  },
+  {
+   "name": "llf-video-storyboard",
+   "version": "2.0.0",
+   "path": ".claude/skills/llf-video-storyboard/SKILL.md",
+   "bytes": 7643,
+   "sha256_16": "7b791f738e483330",
+   "description": "LEGACY ALIAS of llf-video-director; use that skill for any state video. Documents the Florida fixed 18 x 5-second spec builder, kept as a historical example with its tests. Do not start a new state here.",
+   "legacy_alias": true
+  },
+  {
+   "name": "workflow-retrospective",
+   "version": "1.0.0",
+   "path": ".claude/skills/workflow-retrospective/SKILL.md",
+   "bytes": 2103,
+   "sha256_16": "adfc8fdd65ca1e50",
+   "description": "After each state, story or daily-monitor incident, record what worked, what failed and why, and propose skill or script improvements with a regression fixture. Does not change rules or skills on its own.",
+   "legacy_alias": false
+  }
+ ]
+}

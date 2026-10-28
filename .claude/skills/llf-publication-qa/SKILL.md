@@ -5,7 +5,7 @@ description: Pre-deploy and post-deploy checks for LLF election pages: strict bu
 
 # llf-publication-qa
 
-**Version** 1.3.0 · **Owner** LLF production (Claude Code) · **Type** workflow of existing scripts. It never publishes: the owner uploads the zip.
+**Version** 1.4.0 · **Owner** LLF production (Claude Code) · **Type** workflow of existing scripts. It never publishes: the owner uploads the zip.
 
 ## Before (all must pass)
 1. `PYTHONUTF8=1 python3 build.py --strict` → `PUBLISHING RULES: 0 violation(s)`.
@@ -16,12 +16,12 @@ description: Pre-deploy and post-deploy checks for LLF election pages: strict bu
 4b. Open the page and the share images: `og:image` present and 1200x630, JSON-LD has `image`, the guide pages link to the new article (`Latest reporting` band).
 5. Release zip from `python3 build.py --zip --keep-live-robots`; record its SHA-256 and the previous release for rollback (the prior zip stays in `release/`).
 
-## Video (when a video pack exists)
-1. `python3 tools/video/build_video_pack.py <spec.json> --check` prints `spec valid` (every number spoken or shown is in the fact sheet; no placeholders).
-2. Run `python3 tools/qa/freshness_check.py` and re-read every fact marked REFRESH in `docs/video/FLORIDA_VIDEO_FACT_SHEET.md`; change the spec and rebuild if any moved.
-3. Generated plates and clips: open each at full size; reject any with text, numbers, faces, people, flags, logos or red/blue; log picks in `docs/video/generated_assets.csv` with the tool's plan and commercial-use terms.
-4. Watch it three ways: muted with captions only, at phone size, and with the narration alone (does every claim hold without the picture?). Check the end card: early-voting dates, link, credits, "Narration is synthetic" and the AI-illustration line.
-5. Check the music license covers this use. The owner approves the upload; record `QA_PASSED` then `PUBLISHED` in the `video:<slug>` lane.
+## Video asset pack (when one exists; assets only, never a render)
+1. `python3 tools/video/scene_pack.py check productions/<year>/<ST>/video` prints `pack valid` (script locked and approved before scene art; timing follows speech; every number spoken or shown is in the scene's facts; rights explicit; paired transitions share an aspect ratio; not-graded TIP records not shown as failing; no video file in the pack).
+2. Run `python3 tools/qa/freshness_check.py` and re-read every fact with `refresh=true`; a market quote is never presented as live.
+3. Generated stills and transitions: open each at full size; reject any with text, numbers, faces, people, flags, logos or party colors; log picks with the tool, version, date and plan terms.
+4. QA.md: `ARTICLE_AUTHOR` and `FACTCHECK_REVIEWER` differ; the owner's script approval is recorded.
+5. Check the music license covers this use. Nothing is rendered, exported, published or uploaded without the owner's explicit authorization; record it with `--authorization` in the `production:` or `render:` lane.
 
 ## After
 `curl -sI` each new route (expect 200), the public `status.json`, the sitemap entry, canonical and Open Graph tags, and a mobile screenshot of the live page. Record time, URL and result in the workflow ledger (`tools/workflow/transitions.py record <entity> DEPLOYED` then `VERIFIED_LIVE`).
@@ -33,4 +33,4 @@ Re-upload the previous release zip over the site root (the update zip changes on
 Any failed check keeps the entity at `BUILD_TESTED` and records a `blocked_reason`; nothing is "fixed forward" on the live host.
 
 ## Changelog
-1.3.0 (2026-10-24) video QA section. 1.2.0 (2026-10-24) freshness check, Windows path note, OG and internal-link checks. 1.1.0 (2026-10-24) gate runs on the lean ledger; no packet or finance requirement. 1.0.0 (2026-10-23) first version, consolidating the checks used for the Round 0 deployments.
+1.4.0 (2026-10-28) video QA follows the asset-first contract (`scene_pack.py check`); no render. 1.3.0 (2026-10-24) video QA section. 1.2.0 (2026-10-24) freshness check, Windows path note, OG and internal-link checks. 1.1.0 (2026-10-24) gate runs on the lean ledger; no packet or finance requirement. 1.0.0 (2026-10-23) first version, consolidating the checks used for the Round 0 deployments.

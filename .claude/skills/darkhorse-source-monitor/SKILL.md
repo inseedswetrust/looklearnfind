@@ -5,6 +5,8 @@ description: Run, check and troubleshoot the daily dark-horse monitor (Kalshi an
 
 # darkhorse-source-monitor
 
+**Version** 1.1.1 (header added 2026-10-28; the Contract section below carries the same number)
+
 ## What it does
 Collects dated, normalized snapshots for the watchlisted races and writes them under `data/elections/dark_horse/daily/<date>/`. It never invents a quote, a poll or a probability.
 

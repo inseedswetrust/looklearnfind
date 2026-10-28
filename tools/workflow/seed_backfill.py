@@ -10,7 +10,8 @@ S = t.STATES
 for ent in ("florida-house-independent-spending-october-2026", "florida-governor-fundraising-polling-2026", "michigan-senate-delta-october-2026"):
     for s in S[:S.index("VERIFIED_LIVE") + 1]:
         t.record(ent, s, "claude-code", skills=["llf-factcheck-finalize@1.0.0"] if s == "EDITORIAL_QA" else [], url=f"https://looklearnfind.com/learn/{ent}/" if s in ("DEPLOYED", "VERIFIED_LIVE") else None,
-                 disposition="BACKFILL: reconstructed from docs/election-build/IMPLEMENTATION_REPORT.md; timestamp is the backfill time, not the event time")
+                 disposition="BACKFILL: reconstructed from docs/election-build/IMPLEMENTATION_REPORT.md; timestamp is the backfill time, not the event time",
+                 authorization="BACKFILL: the owner uploaded these pages themselves at the time (2026-10-23)", reviewer="backfill (no independent reviewer recorded at the time)")
 # lean story board (owner reset 2026-10-24): one entity per article hook set, with links to the brief, candidates, race, images and (later) article and social
 BR = "docs/story-briefs/"
 for ent, brief, cands, race, imgs in (

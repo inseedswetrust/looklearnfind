@@ -76,7 +76,7 @@ class TestTemplate(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             out = ROOT / "data/video/zz_2026_state_of_the_race.json"
             try:
-                subprocess.run([sys.executable, str(ROOT / "tools/video/init_state_spec.py"), "ZZ"], check=True, capture_output=True)
+                subprocess.run([sys.executable, str(ROOT / "tools/video/init_state_spec.py"), "ZZ", "--legacy"], check=True, capture_output=True)
                 r = subprocess.run([sys.executable, str(ROOT / "tools/video/build_video_pack.py"), str(out), "--check"], capture_output=True, text=True, encoding="utf-8")
                 self.assertEqual(r.returncode, 2)
                 self.assertIn("placeholder", r.stdout)

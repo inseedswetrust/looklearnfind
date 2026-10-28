@@ -5,6 +5,8 @@ description: After each state, story or daily-monitor incident, record what work
 
 # workflow-retrospective
 
+**Version** 1.0.0 (header added 2026-10-28; the Contract section below carries the same number)
+
 ## Inputs
 `docs/election-build/WORKFLOW_LOG.md`, `data/elections/dark_horse/status.json`, run manifests, reviewer notes, corrections.
 

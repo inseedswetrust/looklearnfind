@@ -32,7 +32,7 @@ def build(spec):
     for s in segs:
         pl = s["plate"]
         rows.append({"id": pl["id"], "type": "plate", "segment": s["n"], "layer1_deterministic": f"{s['frame']}: " + " / ".join(s["on_screen"]), "prompt": plate_prompt(pl["desc"]), "role": pl["role"],
-                     "start": "", "end": "", "seconds": spec["segment_seconds"], "fallback": ""})
+                     "start": "", "end": "", "seconds": s.get("seconds", spec.get("segment_seconds", 5)), "fallback": ""})
     for t in trans:
         rows.append({"id": t["id"], "type": "transition", "segment": f"{t['from']}->{t['to']}", "layer1_deterministic": "", "prompt": motion_prompt(t["motion"]), "role": "video from the two plates",
                      "start": segs[t["from"] - 1]["plate"]["id"], "end": segs[t["to"] - 1]["plate"]["id"], "seconds": t["seconds"], "fallback": t["fallback"]})

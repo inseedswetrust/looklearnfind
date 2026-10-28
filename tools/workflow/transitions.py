@@ -25,7 +25,21 @@ LEAN_ENTITIES_PREFIX = "story:"          # entities named story:<slug> use the l
 VIDEO_STATES = ["BRIEFED", "SCRIPTED", "STORYBOARDED", "ASSETS_GENERATED", "CUT", "QA_PASSED", "PUBLISHED"]
 
 
+# Canonical production lane (LLF Production Lock v2.0, docs/production/01_END_TO_END_WORKFLOW.md): one entity per state, `production:<state>-<year>`.
+PRODUCTION_STATES = ["INTAKE", "SOURCE_CHECKED", "ARTICLE_DRAFTED", "ARTICLE_FACTCHECKED", "ARTICLE_APPROVED", "ARTICLE_PUBLISHED", "VIDEO_SCRIPT_DRAFTED", "VIDEO_SCRIPT_LOCKED",
+                     "STORYBOARD_LOCKED", "SHOT_PLAN_READY", "ASSETS_READY", "USER_MJ_PREMIERE_HANDOFF"]
+# Separately authorized lane, `render:<state>-<year>`; it can only begin with the owner's explicit request for a rendered video.
+RENDER_STATES = ["VIDEO_RENDER_REQUESTED", "VIDEO_EDITED", "VIDEO_QA", "PUBLISHED"]
+# Gates enforced in code (Lock v2.0 section 04, tests h and i). The older `story:` and `video:` lanes stay valid for existing entries.
+AUTH_STATES = {"ARTICLE_PUBLISHED", "PUBLISHED", "OWNER_PUBLISH_APPROVED", "DEPLOYED", "VIDEO_RENDER_REQUESTED"}      # need the owner's authorization in their own words
+FACTCHECK_STATES = {"ARTICLE_FACTCHECKED", "FACT_CHECKED"}                                                          # need a reviewer who is not the actor
+
+
 def lane_of(entity):
+    if entity.startswith("production:"):
+        return PRODUCTION_STATES
+    if entity.startswith("render:"):
+        return RENDER_STATES
     if entity.startswith("video:"):
         return VIDEO_STATES
     return LEAN_STATES if entity.startswith(LEAN_ENTITIES_PREFIX) else STATES
@@ -46,10 +60,14 @@ def sha(p):
     return hashlib.sha256(p.read_bytes()).hexdigest() if p.is_file() else None
 
 
-def record(entity, to, actor, skills=(), inputs=(), outputs=(), checks=None, reviewer=None, disposition="", url=None, blocked_reason=None, correction_id=None, path=LEDGER, now=None, links=None):
+def record(entity, to, actor, skills=(), inputs=(), outputs=(), checks=None, reviewer=None, disposition="", url=None, blocked_reason=None, correction_id=None, path=LEDGER, now=None, links=None, authorization=None):
     STATES = lane_of(entity)
     if to not in STATES:
         raise ValueError(f"unknown state {to} for {entity}")
+    if to in AUTH_STATES and len((authorization or "").strip()) < 10:
+        raise ValueError(f"{to} needs authorization: the owner's explicit approval in their own words (nothing is published, deployed or rendered on an inferred permission)")
+    if to in FACTCHECK_STATES and (not (reviewer or "").strip() or reviewer.strip().lower() == actor.strip().lower()):
+        raise ValueError(f"{to} needs a named reviewer who is not the actor: the drafter does not check their own work")
     cur = current(entity, path)
     if cur is None:
         if to != STATES[0]:
@@ -64,7 +82,7 @@ def record(entity, to, actor, skills=(), inputs=(), outputs=(), checks=None, rev
             raise ValueError("a failed check cannot advance the entity; record the rejection with a correction ID")
     e = {"entry_id": uuid.uuid4().hex[:12], "entity": entity, "from_state": cur, "to_state": to, "at_utc": now or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
          "actor": actor, "skills": list(skills), "inputs": {str(p): sha(ROOT / p) for p in inputs}, "outputs": {str(p): sha(ROOT / p) for p in outputs}, "checks": checks or {},
-         "reviewer": reviewer, "disposition": disposition, "url": url, "links": links or {}, "blocked_reason": blocked_reason, "correction_id": correction_id}
+         "reviewer": reviewer, "authorization": authorization, "disposition": disposition, "url": url, "links": links or {}, "blocked_reason": blocked_reason, "correction_id": correction_id}
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "a", encoding="utf-8") as f:
         f.write(json.dumps(e, ensure_ascii=False) + "\n")
@@ -78,11 +96,11 @@ def main():
     r.add_argument("entity"); r.add_argument("to_state"); r.add_argument("--actor", required=True)
     r.add_argument("--skill", action="append", default=[]); r.add_argument("--input", action="append", default=[]); r.add_argument("--output", action="append", default=[])
     r.add_argument("--check", action="append", default=[]); r.add_argument("--reviewer"); r.add_argument("--disposition", default=""); r.add_argument("--url")
-    r.add_argument("--blocked-reason"); r.add_argument("--correction-id")
+    r.add_argument("--blocked-reason"); r.add_argument("--correction-id"); r.add_argument("--authorization")
     s = sub.add_parser("show"); s.add_argument("entity", nargs="?")
     a = ap.parse_args()
     if a.cmd == "record":
-        e = record(a.entity, a.to_state, a.actor, a.skill, a.input, a.output, dict(c.split("=", 1) for c in a.check), a.reviewer, a.disposition, a.url, a.blocked_reason, a.correction_id)
+        e = record(a.entity, a.to_state, a.actor, a.skill, a.input, a.output, dict(c.split("=", 1) for c in a.check), a.reviewer, a.disposition, a.url, a.blocked_reason, a.correction_id, authorization=a.authorization)
         print(json.dumps(e, indent=1))
     else:
         for e in read():

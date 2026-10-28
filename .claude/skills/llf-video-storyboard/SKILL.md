@@ -1,16 +1,18 @@
 ---
 name: llf-video-storyboard
-description: Turn checked LLF election articles into a complete 90-second video pack for a state (script, fact sheet, storyboard, deterministic frames, animation timelines, plate and transition prompts for an image tool) from one validated spec file. Use after the articles are DRAFTED or later, whenever a state video is requested.
+description: LEGACY ALIAS of llf-video-director; use that skill for any state video. Documents the Florida fixed 18 x 5-second spec builder, kept as a historical example with its tests. Do not start a new state here.
 ---
 
 # llf-video-storyboard
 
-**Version** 1.1.0 · **Owner** LLF production · **Type** skill plus scripts `tools/video/init_state_spec.py`, `tools/video/build_video_pack.py`, `tools/video/build_visual_direction.py`. Added 2026-10-24 from the Florida video. The spec file is the single source of truth: the script table, fact sheet, storyboard, prompts and frames are all generated from it, so they cannot disagree.
+> **Superseded 2026-10-28 by `llf-video-director` (LLF Production Lock v2.0).** The one video entry point is `llf-video-director`: script first and locked, script-led timing, `SCENES.csv`, `ASSETS.csv`, `TRANSITIONS.csv`, paired Midjourney start/end transitions, real-clip capture list, Premiere handoff, and **no MP4 by default**. Everything below describes the Florida example (fixed 18 x 5-second segments, frames rendered from one spec). It still runs, still has its tests, refuses other states and never writes a video file. Do not copy its 18 x 5 layout to a new state.
+
+**Version** 2.0.0 (legacy alias) · **Owner** LLF production · **Type** skill plus scripts `tools/video/init_state_spec.py`, `tools/video/build_video_pack.py`, `tools/video/build_visual_direction.py`. Added 2026-10-24 from the Florida video. The spec file is the single source of truth: the script table, fact sheet, storyboard, prompts and frames are all generated from it, so they cannot disagree.
 
 ## When to use
 After a state's Senate, House or governor articles exist with claims files. Never before: every fact in the video must already be in a checked claims file.
 
-## Procedure (no other direction needed)
+## Legacy procedure (Florida example only)
 1. `python3 tools/video/init_state_spec.py <ST>` creates `data/video/<st>_2026_state_of_the_race.json` from the Florida spec. Kept as is: timing (18 segments of 5 s), frame types, animation timelines, plate prompts, transition prompts, voice and format rules. Blanked as `<fill>`: facts, narration, on-screen text, parameters.
 2. Facts: for each fact the video may state, copy a row from an article's claims file into `facts` with `id`, `statement`, `numbers` (every number the video may say or show, as plain digits, millions as the number), `source`, `status` (VERIFIED or ATTRIBUTED only), `never_say` and `refresh`. Anything with a UNVERIFIED or REMOVED status is not a fact for the video.
 3. Segments, in this arc (the Florida arc, reuse it): 1 hook as a question about the numbers; 2 the board of all contests; 3 to 6 the broadest contest (the House: the map, the biggest verified change, three results, the issue-grade explainer); 7 to 11 the middle contest (the governor: three measurements that disagree, each labeled with what it measures and what it does not, then one line saying none is a forecast); 12 to 17 the finale (the best verified story in the Senate race as an arc: setup, the surprising fact, the poll, the movement with its single-source label, the incumbent's own words at equal size, the peak line); 18 early voting and the end card. If the state's best story is elsewhere, keep the shape: general first, story last, civic action at the end.
@@ -21,7 +23,7 @@ After a state's Senate, House or governor articles exist with claims files. Neve
 6. Hand `fl_video_prompts.csv` (plates, transitions, extras) to the image tool; a person generates and picks. Log each in `docs/video/generated_assets.csv`.
 7. QA (see `llf-publication-qa`, video section). Record `video:<slug>` lane transitions with `tools/workflow/transitions.py`: BRIEFED, SCRIPTED, STORYBOARDED, ASSETS_GENERATED, CUT, QA_PASSED, PUBLISHED.
 
-## Footage-first order (locked 2026-10-24, v1.1.0)
+## Footage-first order (2026-10-24, reconciled into the Production Lock on 2026-10-28)
 Script → shot selection → real footage search and capture (`llf-footage-scout`) → genuine candidate stills → evidence-based infographics → AI background and transition assets → Premiere handoff. When a candidate appears, real footage is the primary picture and a genuine licensed still is the fallback. Infographics for results, polls, maps and TIP records are built by `tools/video/build_florida_infographics.py` (copy it per state) from official data and real captures: a layered SVG master, a start frame and an end frame, where the end frame is a transform (move, scale, crop, reveal) of the start frame's own assets. Check each infographic against `docs/video/<state>-2026/INFOGRAPHIC_SOURCES.md`; a figure with no verified source is left out and listed as a gap. AI plates come last and only for empty backgrounds and transitions. The 18-segment spec above stays the narration source of truth; if a shot list uses another scene numbering, write `SCENE_CROSSWALK.md` and ask before changing the script.
 
 ## Two layers (never mix)
@@ -39,3 +41,4 @@ Fix the spec, never the validator, unless the validator is wrong (then add a fix
 ## Changelog
 1.1.0 (2026-10-24) footage-first order locked: real footage and genuine stills before infographics, AI plates last, no AI candidate likeness, end frames derived from start frames; see `llf-footage-scout`.
 1.0.0 (2026-10-24) first version, from the Florida State of the Race video.
+2.0.0 (2026-10-28) demoted to a legacy alias of `llf-video-director`; the 18 x 5 layout is an example, `init_state_spec.py` needs `--legacy`, the builder refuses non-Florida specs and gained the `--render-video --authorization` gate and a no-video-file guard.

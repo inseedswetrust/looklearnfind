@@ -1,6 +1,6 @@
 # Agent runbook: from "do state X" to articles and a video, with no other direction
 
-Read `CLAUDE.md` first, then this file. Everything here is a command or a file; nothing depends on remembering a conversation. Version 1.0.0, 2026-10-24. Canonical map of every file: `docs/election-build/INDEX.md`.
+Read `CLAUDE.md` first (it points to `docs/production/`, the mandatory lock), then this file. Everything here is a command or a file; nothing depends on remembering a conversation. Version 1.0.0, 2026-10-24. Canonical map of every file: `docs/election-build/INDEX.md`.
 
 **Stop points (a person must act):** independent fact-check of each article; owner approval before anything is uploaded or posted; generating images and clips in the image tool; any database write; any payment or key. Everything else an agent does alone.
 
@@ -25,19 +25,22 @@ Skills `llf-article-format`, `llf-election-render`, `llf-factcheck-finalize`.
 4. Share images: extend `tools/social/render_cards.py`; screenshots: `tools/qa/shots.py` (Windows: `MSYS_NO_PATHCONV=1`; stop any local server before `build.py`).
 5. Before publishing: `python3 tools/qa/freshness_check.py`; release zip: `python3 build.py --zip --keep-live-robots`. The owner uploads.
 
-## 4. Make the video pack (zero direction)
-Skills `llf-video-storyboard` (script, facts, frames) and `llf-footage-scout` (real clips). Order, locked 2026-10-24: script → shot selection → real footage search and capture → genuine candidate stills → evidence-based infographics → AI background and transition assets → Premiere handoff. A candidate on screen means real footage first; if a clip cannot be cleared the scene keeps a genuine licensed still and the manifest says so. No AI candidate likeness. An end frame for a camera move is derived from the start frame's own assets.
-0. Footage: follow `llf-footage-scout`; edit the table in `tools/video/build_clip_manifest.py`, run it, then `tools/video/make_video_manifest.py`. Infographics: `fetch_florida_infographic_data.py` (official county data), `capture_florida_sites.py`, `build_florida_infographics.py` (copy and adapt per state). Evidence for every figure goes in `docs/video/<state>-2026/INFOGRAPHIC_SOURCES.md`.
-1. `python3 tools/video/init_state_spec.py <ST>` writes `data/video/<st>_2026_state_of_the_race.json` from the Florida spec: frame types, animation timelines, plate prompts, transition prompts and timing are kept; narration, on-screen text, params and facts are `<fill>`.
-2. Fill the facts from the articles' claims files (status VERIFIED or ATTRIBUTED only; each with source and a "never say"), then the 18 segments (first segment general, last segment the best verified story of the race as an arc, ending on early voting). Narration at most 15 words per segment; every spoken or on-screen number must be in that segment's facts.
-3. `python3 tools/video/build_video_pack.py data/video/<st>_2026_state_of_the_race.json` validates (refuses on any problem), renders 1080 x 1920 layer-1 frames (opaque and transparent), the storyboard, the fact sheet, the prompt sheets and the script table. `--check` validates only.
-4. Hand `docs/video/fl_video_prompts.csv` to the image tool (a person), log picks in `docs/video/generated_assets.csv`, assemble, then the QA in `llf-publication-qa` (video section). The owner approves the end card, the market and money lines, and the ending.
+## 4. Video: asset pack only (Production Lock v2.0; read `docs/production/03_VIDEO_SKILL_AND_SHOT_CONTRACT.md`)
+Skill `llf-video-director` (the one entry point; `llf-footage-scout` is its clip-search sub-procedure). **Output is assets, never a video: no MP4 or preview without the owner's explicit request for a rendered video.**
+1. `python3 tools/video/scene_pack.py init <ST>` scaffolds `productions/<year>/<ST>/` and the pack (`SCRIPT.md`, `FACTS.csv`, `STORYBOARD.md`, `SCENES.csv`, `ASSETS.csv`, `TRANSITIONS.csv`, `CLIP_CAPTURE.md`, `MIDJOURNEY_INSTRUCTIONS.md`, `PREMIERE_ASSEMBLY.md`, `DECISION_LOG.md`, `QA.md`). Generic: no other state's facts.
+2. Facts from the checked articles' `CLAIMS.csv` into `FACTS.csv` (VERIFIED or ATTRIBUTED only; markets dated with `refresh=true`; polls with field dates).
+3. Hooks, then the full script. The owner approves it; only then set `STATUS: LOCKED (approved by <name> on <date>)` in `SCRIPT.md`. Scene art before that fails the check. Timing follows the speech (no fixed segment length; the Florida 18 x 5 layout is a historical example).
+4. Storyboard and `SCENES.csv`: per scene REAL_STILL, AI_CONCEPT_STILL, EXACT_DATA_GRAPHIC, REAL_CLIP or COMPOSITE; real people are real licensed stills or clips; exact data is a deterministic overlay.
+5. `ASSETS.csv` and `TRANSITIONS.csv`: mostly paired Midjourney start/end images (same aspect ratio), `setting_verified_date` after checking Midjourney's current documentation; ChatGPT generates the conceptual stills.
+6. Real clips: `llf-footage-scout` finds and rights-triages (no download by default) into `CLIP_CAPTURE.md`; the owner captures.
+7. `python3 tools/video/scene_pack.py check productions/<year>/<ST>/video` must print `pack valid`; then the QA in `llf-publication-qa` (video section). **Stop at the Premiere handoff.**
+Florida legacy (example only, refuses other states): `build_video_pack.py`, `build_clip_manifest.py`, `build_florida_infographics.py`, `make_video_manifest.py`.
 
 ## 5. Workflow records
-Articles: lane `story:<slug>` (DISCOVERED, SOURCE_CHECKED, DRAFTED, FACT_CHECKED, APPROVED, PUBLISHED). Video: lane `video:<slug>` (BRIEFED, SCRIPTED, STORYBOARDED, ASSETS_GENERATED, CUT, QA_PASSED, PUBLISHED). `python3 tools/workflow/transitions.py record <entity> <STATE> --actor <you> [--input path] [--output path] [--blocked-reason text]`; gates cannot be skipped; a failed check cannot advance; a rejection needs `--correction-id`. Dashboard: `python3 tools/qa/dashboard.py`.
+Canonical lane per state: `production:<state>-<year>`: INTAKE, SOURCE_CHECKED, ARTICLE_DRAFTED, ARTICLE_FACTCHECKED, ARTICLE_APPROVED, ARTICLE_PUBLISHED, VIDEO_SCRIPT_DRAFTED, VIDEO_SCRIPT_LOCKED, STORYBOARD_LOCKED, SHOT_PLAN_READY, ASSETS_READY, USER_MJ_PREMIERE_HANDOFF. Separately authorized lane `render:<state>-<year>`: VIDEO_RENDER_REQUESTED, VIDEO_EDITED, VIDEO_QA, PUBLISHED (can only begin with the owner's explicit request). Older lanes `story:<slug>` and `video:<slug>` stay valid for existing entries. `python3 tools/workflow/transitions.py record <entity> <STATE> --actor <you> [--input path] [--output path] [--blocked-reason text] [--reviewer name] [--authorization "<owner's words>"]`. Enforced in code: stages cannot be skipped; a failed check cannot advance; a rejection needs `--correction-id`; ARTICLE_PUBLISHED, PUBLISHED, DEPLOYED, OWNER_PUBLISH_APPROVED and VIDEO_RENDER_REQUESTED need `--authorization`; ARTICLE_FACTCHECKED and FACT_CHECKED need a `--reviewer` who is not the actor. Dashboard: `python3 tools/qa/dashboard.py`. Skill versions: `python3 tools/qa/skill_manifest.py`.
 
 ## 6. Tests to run before you say anything is done
-`python3 -m unittest tests/test_dark_horse.py tests/test_phase_a.py tests/test_factcheck_gate.py tests/test_workflow.py tests/test_story_scout.py tests/test_video_pack.py tests/test_footage_pack.py` and `python3 build.py --strict`.
+`python3 -m unittest tests/test_dark_horse.py tests/test_phase_a.py tests/test_factcheck_gate.py tests/test_workflow.py tests/test_story_scout.py tests/test_video_pack.py tests/test_footage_pack.py tests/test_production_lock.py`, `python3 tools/qa/skill_manifest.py --check` and `python3 build.py --strict`.
 
 ## 7. When to stop and ask
 A claim you cannot source; a fact that changed after the claims were checked; a plate or clip that shows a person, text or number; a clip whose rights status is not `CLEARED`; a money, market or poll figure that needs a person to judge; anything that would publish, post, upload, write to a production database or spend money.
