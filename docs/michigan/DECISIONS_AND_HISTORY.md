@@ -21,7 +21,16 @@
 - **Geometry:** Census cb_2024_us_cd119_500k, reusing the zip already in `data/elections/IL/captures/` (no new download), 13 districts.
 - **Pages:** `STATES["MI"]` in `elections.py` (hub, governor, Senate, House directory, 13 districts; `--strict` 0 violations). State copy moved into per-state settings (primary date, Senate seat note, governor hero, poll notes) so no Illinois text appears on Michigan pages; the pages say the roster follows the official listing. Governor hero is the existing CC BY-SA Lansing photo (`mi-capitol`). Write-ins use party code WRI.
 - **Tests:** `tests/test_michigan_pages.py` (10); 134 passing in total.
-- **Not done on purpose:** no Michigan tile on the homepage (needs `s3-michigan.jpg`); nothing deployed.
+- **Not done on purpose:** no Michigan tile on the homepage (needs `s4-michigan.jpg`); nothing deployed.
 - **Duggan resolved:** he ended his independent bid on May 21, 2026 (Bridge Michigan, opened), which explains why the official listing has no independent. The governor page notes his stale Kalshi contract.
 - **Story scout:** `productions/2026/MI/research/STORY_BRIEF.md` and `story_brief.json` (A1 and A2 READY; A3 and A4 NOT_READY).
 - **Hero brief:** `productions/2026/visuals/MICHIGAN_HERO_BRIEF_FOR_CHATGPT.md`.
+
+## 2026-10-28, evening: ChatGPT package, MI-A2 withdrawn, MI-A4 data pulled
+- **Gap found:** the first package for ChatGPT held only a story brief and claims; a fresh ChatGPT session also needs the charter, workflow, standards, examples, visual references, return formats and a way to request data. Rebuilt as a full knowledge package by `tools/workflow/build_chatgpt_package.py MI` (authored text in `productions/2026/MI/package_src/`; the zip copies repository files so it cannot drift; scans for secrets; writes `manifest.json` with SHA-256 and the commit).
+- **MI-A2 withdrawn:** the live Kalshi Senate delta already reports Marist 50 to 48 (likely), El-Sayed +7 (registered, margin 4.0) and the "69 cents is not a vote share" point. Kept in `package_src/archive/MI-A2/`.
+- **Contract definitions:** Kalshi's Senate and governor contracts for Benson, James, El-Sayed and Rogers resolve on party; only Duggan's resolves on a person. The briefs say so.
+- **Hero naming:** the Michigan state tile is **S4** (`s4-michigan`) to avoid the S3 homepage social card; a new MI-A1 hero brief (`mi-duggan`, five blank name stands) was added; hero briefs for ChatGPT stay short.
+- **MI-A4 / MI-A3:** `fetch_fec_ie.py` now skips TIP-only candidate IDs (it returned HTTP 422 for them). Pulled Schedule E for MI-10 and MI-13 to `productions/2026/MI/research/fec_ie_MI10_MI13.json`. After `schedule_e.dedupe` the MI-10 totals are large (outside spending both for and against Hines and Bouchard, mid-July to late October) and far above FEC's by-candidate roll-up, which lags notices. Not quotable until reconciled. Michigan Advance (MI-A3 lead) returned 403; not circumvented.
+- **Next for Claude:** reconcile MI-A4, write its brief and claims, build package v2; implement ChatGPT's MI-A1 when it returns; image processing; deploy only with approval.
+

@@ -47,3 +47,6 @@ Workspace: `docs/illinois/` (readiness report, duplication check, ranked story p
 
 ## Michigan handoff (2026-10-28)
 Start the Michigan session from `docs/michigan/HANDOFF_NEW_SESSION.md` (opening prompt in `docs/michigan/OPENING_PROMPT.md`).
+
+## ChatGPT knowledge package (2026-10-28)
+`python tools/workflow/build_chatgpt_package.py <ST>` builds the portable package for a fresh ChatGPT session from `productions/2026/<ST>/package_src/` plus repository files (workflow, standards, schemas, skills as markdown, examples, visuals, state data) into `productions/2026/<ST>/chatgpt_package/`. Michigan: opening prompt for ChatGPT in `productions/2026/MI/package_src/CHATGPT_OPENING_PROMPT.md`; opening prompt for the next Claude session in `docs/michigan/OPENING_PROMPT.md`.

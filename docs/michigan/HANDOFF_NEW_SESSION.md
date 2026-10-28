@@ -2,6 +2,14 @@
 
 Written 2026-10-28 at the end of the Illinois session. Branch `claude/funny-shannon-dg9qoe`, last commit when written: see `git log -1`. Read this file first, then follow the reading order in section 2.
 
+> ## Status update (2026-10-28, evening): read this before section 3 and section 4
+> Sections 3 and 4 below were written before Michigan work began and are partly out of date. Current state: **plan steps 1 to 7 and 8 (brief) are done** and committed (`git log`: roster, TIP gaps applied, portraits, Kalshi, state pages, story scout, hero brief). Corrections to what follows:
+> - Michigan roster, TIP export and join, 5 TIP gap profiles (approved and applied), portraits, markets, geometry, hub, governor, Senate, House directory and 13 district pages exist locally; 134 tests pass. **Not deployed.** The homepage has no Michigan tile until `static/img/elections/s4-michigan.jpg` exists (the Michigan tile is **S4**; S3 is the homepage social card).
+> - Story Scout result: MI-A1 READY (Duggan), MI-A2 WITHDRAWN (duplicate of the live Kalshi Senate delta), MI-A3 and MI-A4 not ready. FEC data for MI-10 and MI-13 is pulled (`productions/2026/MI/research/fec_ie_MI10_MI13.json`) but the totals are not reconciled.
+> - **ChatGPT package:** built by `tools/workflow/build_chatgpt_package.py MI` from `productions/2026/MI/package_src/` plus repository files; output in `productions/2026/MI/chatgpt_package/`. Opening prompt for ChatGPT: `package_src/CHATGPT_OPENING_PROMPT.md`. Package v1 covers MI-A1 and two image briefs.
+> - Blocked sources: Michigan Advance returns 403 to automated access (same rule as Illinois: no spoofing).
+> - The opening prompt for this session is `docs/michigan/OPENING_PROMPT.md` (updated). The job list there supersedes section 4.
+
 ## 1. Why a new session
 The Illinois session ran across several context compactions. Michigan is a self-contained task (own roster, own TIP join, own stories), so a fresh session starts clean and reads the repository instead of a long summary. Nothing lives only in the old conversation: every decision, rule and procedure it used is written down below or in the files listed in section 9.
 

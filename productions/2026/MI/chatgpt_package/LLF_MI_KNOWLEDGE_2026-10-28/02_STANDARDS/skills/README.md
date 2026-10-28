@@ -1,0 +1,1 @@
+These are Claude Code's working skill files, copied as plain markdown so ChatGPT can follow the same procedures. They mention repository paths and scripts that only Claude Code can run; skip those parts. `llf-article-format` is the drafting checklist.

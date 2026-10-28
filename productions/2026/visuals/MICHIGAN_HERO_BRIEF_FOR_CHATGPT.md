@@ -9,7 +9,7 @@ You are art director and image maker for LookLearnFind, a reported-journalism si
 ## Deliverable
 | ID | Use | Scene | Master | Web | Social |
 |---|---|---|---|---|---|
-| S3 | "The state files" tile: Michigan | A pale wooden table in a township hall in late-October light: blank sign-in sheets, a cup of pencils, a steel thermos and a ceramic mug, with a tall window behind showing an out-of-focus lake shoreline and bare birch trunks | 3600x2400 JPEG q90 | 1800x1200 JPEG q80, 350 KB or less | 1200x630 centered crop |
+| S4 | "The state files" tile: Michigan | A pale wooden table in a township hall in late-October light: blank sign-in sheets, a cup of pencils, a steel thermos and a ceramic mug, with a tall window behind showing an out-of-focus lake shoreline and bare birch trunks | 3600x2400 JPEG q90 | 1800x1200 JPEG q80, 350 KB or less | 1200x630 centered crop |
 
 sRGB, 4:2:0, progressive JPEG. Generate at the largest size the tool allows, then resample with Lanczos and say so. Do not invent native resolution.
 
@@ -29,9 +29,9 @@ sRGB, 4:2:0, progressive JPEG. Generate at the largest size the tool allows, the
 ## Copy deck (the page adds text in HTML; do not paint it into the art)
 | ID | Kicker (28 characters max) | Caption (110 max) | Alt text (125 max) |
 |---|---|---|---|
-| S3 | Michigan | Governor, U.S. Senate and 13 House races, with the market quotes and the record. | A wooden table in a township hall holds blank sign-in sheets, a cup of pencils and a thermos beside a window onto a lake shore. |
+| S4 | Michigan | Governor, U.S. Senate and 13 House races, with the market quotes and the record. | A wooden table in a township hall holds blank sign-in sheets, a cup of pencils and a thermos beside a window onto a lake shore. |
 
 No Oxford commas, no hype words, no verbs that imply cause or a forecast. If you change a line, keep it under the limits and tell me what you changed.
 
 ## What to return in one ZIP
-masters/, web/, social/ folders (named s3-michigan), originals/ untouched, prompts/ with the exact prompt, manifest.json (size, bytes, focal point as percentages, quiet-zone check) and a README with a pass or fail line for each hard rule. State honestly anything you could not verify.
+masters/, web/, social/ folders (named s4-michigan), originals/ untouched, prompts/ with the exact prompt, manifest.json (size, bytes, focal point as percentages, quiet-zone check) and a README with a pass or fail line for each hard rule. State honestly anything you could not verify.

@@ -7,12 +7,12 @@ Keeps: spender committee, amount, expenditure date, dissemination date, support/
 Uses most_recent=true so superseded amendment rows are dropped. Notices (24/48-hour F24) and periodic-report rows are labeled by `is_notice`;
 the reconciliation block shows whether the transaction-level sum equals FEC's by_candidate total, so a reader can see any gap instead of a silent double count.
 """
-import sys, os, json, urllib.parse, urllib.request, datetime, time
+import re, sys, os, json, urllib.parse, urllib.request, datetime, time
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 state, outfile, *races = sys.argv[1:]
 KEY = os.environ["FEC_API_KEY"]
-cands = [c for c in json.loads((ROOT / f"data/elections/{state}/candidates.json").read_text(encoding="utf-8"))["candidates"] if c["race"] in races and c["fec_candidate_id"]]
+cands = [c for c in json.loads((ROOT / f"data/elections/{state}/candidates.json").read_text(encoding="utf-8"))["candidates"] if c["race"] in races and re.match(r"^[HSP]\d", c["fec_candidate_id"] or "")]
 def get(path, **q):
     q["api_key"] = KEY
     u = "https://api.open.fec.gov/v1" + path + "?" + urllib.parse.urlencode(q, doseq=True)

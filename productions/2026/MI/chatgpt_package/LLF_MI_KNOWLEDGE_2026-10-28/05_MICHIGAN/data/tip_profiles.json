@@ -1,0 +1,1955 @@
+[
+ {
+  "fec_candidate_id": "GOV-MI-SWANSON",
+  "display_name": "Chris Swanson",
+  "office_full": "Governor",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-GOV-MI",
+  "verification_status": "verified_bio_repaired"
+ },
+ {
+  "fec_candidate_id": "GOV-MI-WHITMER",
+  "display_name": "Gretchen Whitmer",
+  "office_full": "Governor",
+  "party_label": "DEM",
+  "incumbent": true,
+  "race_key": "2026-GOV-MI",
+  "verification_status": "needs_review"
+ },
+ {
+  "fec_candidate_id": "GOV-MI-COX",
+  "display_name": "Mike Cox",
+  "office_full": "Governor",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-GOV-MI",
+  "verification_status": "needs_review"
+ },
+ {
+  "fec_candidate_id": "GOV-MI-BENSON",
+  "display_name": "Jocelyn Benson",
+  "office_full": "Governor",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-GOV-MI",
+  "verification_status": "needs_review"
+ },
+ {
+  "fec_candidate_id": "GOV-MI-HUDSON",
+  "display_name": "Anthony Hudson",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-GOV-MI",
+  "verification_status": "needs_review"
+ },
+ {
+  "fec_candidate_id": "GOV-MI-CAMPBELL",
+  "display_name": "Douglas Campbell",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-GOV-MI",
+  "verification_status": "needs_review"
+ },
+ {
+  "fec_candidate_id": "GOV-MI-JOHNSON",
+  "display_name": "Perry Johnson",
+  "office_full": "Governor",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-GOV-MI",
+  "verification_status": "needs_review"
+ },
+ {
+  "fec_candidate_id": "GOV-MI-BRANDENBURG",
+  "display_name": "Donna Brandenburg",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-GOV-MI",
+  "verification_status": "needs_review"
+ },
+ {
+  "fec_candidate_id": "H2MI10150",
+  "display_name": "John James",
+  "office_full": "Governor",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-GOV-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI02257",
+  "display_name": "Doc Kovaly",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI01155",
+  "display_name": "Callie Barr",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI01167",
+  "display_name": "Liz Hakola",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI01163",
+  "display_name": "Bensson V Professor Samuel",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI01275",
+  "display_name": "Zebulon Hart Featherly",
+  "office_full": "House",
+  "party_label": "IND",
+  "incumbent": false,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI01159",
+  "display_name": "Andrew Gale",
+  "office_full": "House",
+  "party_label": "LIB",
+  "incumbent": false,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI01283",
+  "display_name": "Arnett Satterla",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI01189",
+  "display_name": "J.D. Wilson",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI01259",
+  "display_name": "Wayne Stiles",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI01267",
+  "display_name": "Kyle Blomquist",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI01226",
+  "display_name": "Jack Bergman",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": true,
+  "race_key": "2026-H-MI-01",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H2MI11232",
+  "display_name": "Matthew Denotter",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-01",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI01309",
+  "display_name": "LaVeta Davenport",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI01242",
+  "display_name": "Justin Michal",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-01",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI02232",
+  "display_name": "Richard Carl Carrizales Jr.",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-02",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI02273",
+  "display_name": "Richard Sills",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-02",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI02265",
+  "display_name": "Charlotte Magoon",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-02",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI02216",
+  "display_name": "Benjamin Ambrose",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-02",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI02138",
+  "display_name": "Michael Lynch",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-02",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI02208",
+  "display_name": "Jamie Hill",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-02",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI02224",
+  "display_name": "Andrew Michael Ault",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-02",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI04126",
+  "display_name": "John R. Moolenaar",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": true,
+  "race_key": "2026-H-MI-02",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI02240",
+  "display_name": "Kofinsia Clyde Anthony Welford",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-02",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H0MI03316",
+  "display_name": "Hillary J. Scholten",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": true,
+  "race_key": "2026-H-MI-03",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI03180",
+  "display_name": "Zachary Ketchum",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-03",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI03276",
+  "display_name": "J Allen Fiorletta",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-03",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H0MI03308",
+  "display_name": "Peter Meijer",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-03",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI03243",
+  "display_name": "Michael Jay Markey Jr.",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-03",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H4MI03250",
+  "display_name": "Jason Ickes",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-03",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI03214",
+  "display_name": "Joe Jock",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-03",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI03206",
+  "display_name": "Ryan Cushman",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-03",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI03268",
+  "display_name": "Paul Hudson",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-03",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI03198",
+  "display_name": "Terri Deboer",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-03",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI04204",
+  "display_name": "Sean McCann",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-04",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI02094",
+  "display_name": "Bill Huizenga",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": true,
+  "race_key": "2026-H-MI-04",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI04188",
+  "display_name": "Richard Aaron",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-04",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI04159",
+  "display_name": "Jessica Swartz",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-04",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI04220",
+  "display_name": "Shafina Che Barnett",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-04",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI04196",
+  "display_name": "Diop Jermaine Harris II",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-04",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI04175",
+  "display_name": "Brendan Muir",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-04",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI05164",
+  "display_name": "Libbi Deann Urban",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-05",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI05172",
+  "display_name": "James Victor Bronke",
+  "office_full": "House",
+  "party_label": "GRE",
+  "incumbent": false,
+  "race_key": "2026-H-MI-05",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI05180",
+  "display_name": "Jacob Cason Vravis",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-05",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI07137",
+  "display_name": "Sharon Marie Renier",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-05",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI05227",
+  "display_name": "Christian A Vukasovich",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-05",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI07103",
+  "display_name": "Tim Walberg",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": true,
+  "race_key": "2026-H-MI-05",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H2MI06141",
+  "display_name": "Sherry Anne O'Donnell",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-05",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI08170",
+  "display_name": "Bryan Trouten",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-05",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI05235",
+  "display_name": "Ronald A Muszynski",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-05",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI06241",
+  "display_name": "Mike Mickevicius",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-06",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI06258",
+  "display_name": "Timothy A. Teagan",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-06",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI06266",
+  "display_name": "Linda Rayburn",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-06",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI12079",
+  "display_name": "Debbie Dingell",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": true,
+  "race_key": "2026-H-MI-06",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H8MI14084",
+  "display_name": "Clyde Shabazz",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-06",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI06154",
+  "display_name": "Heather Smiley",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-06",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI06167",
+  "display_name": "Jason Patrick Cloutier",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-06",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI06233",
+  "display_name": "Mark Alexander Ismail",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-06",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI06217",
+  "display_name": "Richard Smith",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-06",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI06225",
+  "display_name": "Cassandra Ann Stajich",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-06",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI07280",
+  "display_name": "Josh Cowen",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-07",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI07298",
+  "display_name": "William Lawrence",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-07",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI07264",
+  "display_name": "Samuel Elyon Smeltzer Badger",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-07",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI07231",
+  "display_name": "Muhammad Salman Rais",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-07",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI07306",
+  "display_name": "Shane Dedrick",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-07",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI07256",
+  "display_name": ", Bridget Brink",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-07",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H2MI07123",
+  "display_name": "Tom Barrett",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": true,
+  "race_key": "2026-H-MI-07",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI07249",
+  "display_name": "Alexandra Michele Prieditis",
+  "office_full": "House",
+  "party_label": "IND",
+  "incumbent": false,
+  "race_key": "2026-H-MI-07",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI07272",
+  "display_name": "Matthew Maasdam",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-07",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H4MI07210",
+  "display_name": "Curtis Hertel Jr.",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-07",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI08141",
+  "display_name": "Paul Junge",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI13463",
+  "display_name": "Alfred Lemmo",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI08234",
+  "display_name": "Sheldon Neeley",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI08320",
+  "display_name": "C. Mia Pettus",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI08218",
+  "display_name": "Kristen McDonald Rivet",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": true,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI08133",
+  "display_name": "Mike Detmer",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI08125",
+  "display_name": "Nicolette Snyder",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H8MI05124",
+  "display_name": "Kathy Goodwin",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI08184",
+  "display_name": "Martin Blank",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI08296",
+  "display_name": "Amir Hassan",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI08312",
+  "display_name": "Thomas James Smith",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-08",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H4MI08176",
+  "display_name": "Jim Casha",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI08259",
+  "display_name": "Mary F. Draves",
+  "office_full": "House",
+  "party_label": "UNK",
+  "incumbent": false,
+  "race_key": "2026-H-MI-08",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI10287",
+  "display_name": "Lisa C. McClain",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": true,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI09178",
+  "display_name": "Jim Walkowicz",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI09229",
+  "display_name": "Wyatt Bronson Clark",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI09245",
+  "display_name": "Steven Raymond Pooley",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-09",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI09252",
+  "display_name": "Fernando Valdez Jr.",
+  "office_full": "House",
+  "party_label": "IND",
+  "incumbent": false,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI09237",
+  "display_name": "Daltson Theodore Atwell",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI09260",
+  "display_name": "Destiny Clayton",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI09133",
+  "display_name": "Kevin Vayko",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H4MI09109",
+  "display_name": "Michelle R.E. Donovan",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI09211",
+  "display_name": "Jasen D Cartwright",
+  "office_full": "House",
+  "party_label": "IND",
+  "incumbent": false,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI09278",
+  "display_name": "John Vlahos",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-09",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI10342",
+  "display_name": "Cody R Ingram",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI10127",
+  "display_name": "Huwaida Arraf",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI13311",
+  "display_name": "Steven Elliott",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI10300",
+  "display_name": "George Adams",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10334",
+  "display_name": "Justin Kirk",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI11240",
+  "display_name": "Eric Esshaki",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10292",
+  "display_name": "Eric Chung",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10276",
+  "display_name": "Christina Hines",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10326",
+  "display_name": "Robert Lulgjuraj",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI10107",
+  "display_name": "Emily Busch",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI10077",
+  "display_name": "Carl J Marlinga",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI10176",
+  "display_name": "Carl J. Marlinga",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10318",
+  "display_name": "Casey Armitage",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10268",
+  "display_name": "Alexander Hawkins",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H2MI08154",
+  "display_name": "Brian Steven Jaye",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI10284",
+  "display_name": "Tim Greimel",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10359",
+  "display_name": "Michael Bouchard",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10219",
+  "display_name": "Anthony G. Forlini",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10367",
+  "display_name": "Steffan Demetropoulos",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI10383",
+  "display_name": "Mike Saliba",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H8MI09142",
+  "display_name": "Andrea L. Kirby",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "HOU-MI10-NKROMO",
+  "display_name": "Kwabena Nkromo",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "needs_review"
+ },
+ {
+  "fec_candidate_id": "H4MI10115",
+  "display_name": "Tiffany Tilley",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-10",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11308",
+  "display_name": "Ryan Teasdale",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H8MI11254",
+  "display_name": "Haley M. Stevens",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": true,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11209",
+  "display_name": "Mike Steger",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI11121",
+  "display_name": "Ahmed Ghanim",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11191",
+  "display_name": "Jeremy Moss",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11266",
+  "display_name": "Antonio J Prieto",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI11282",
+  "display_name": "Michelle M. Murphy",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H4MI10131",
+  "display_name": "Anil Kumar",
+  "office_full": "House",
+  "party_label": "UN",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11274",
+  "display_name": "John Paul Torres",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H6MI11217",
+  "display_name": "Anthony Media Paesano",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11241",
+  "display_name": "Don Ufford",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11290",
+  "display_name": "Ethan D Baker",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11258",
+  "display_name": "Stu Baker",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI11145",
+  "display_name": "Carmelita Greco",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11225",
+  "display_name": "Aisha Farooqi",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H8MI09118",
+  "display_name": "Andy Levin",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI11316",
+  "display_name": "Farid Ishac",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-11",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI12306",
+  "display_name": "Byron H Nolen",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI12145",
+  "display_name": "Brenda K. Sanders",
+  "office_full": "House",
+  "party_label": "GRE",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI13154",
+  "display_name": "Shanelle M Jackson",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI13497",
+  "display_name": "Linda Sawyer",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI12103",
+  "display_name": "Royce Kinniebrew",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI12111",
+  "display_name": "Royce Kinniebrew",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H8MI07039",
+  "display_name": "Gary Walkowicz",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H0MI14214",
+  "display_name": "Marc Joseph Sosnowski",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H2MI12198",
+  "display_name": "James D Hooper",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI12298",
+  "display_name": "Allen Downer",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H8MI13250",
+  "display_name": "Rashida Tlaib",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": true,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI13505",
+  "display_name": "Articia Bomer",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI12137",
+  "display_name": "Ryan Foster",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-12",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI13204",
+  "display_name": "Shri Thanedar",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": true,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI13247",
+  "display_name": "D.Etta Wilcoxon",
+  "office_full": "House",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "H2MI13246",
+  "display_name": "Adam Hollier",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI01028",
+  "display_name": "John Conyers Jr.",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI13304",
+  "display_name": "Articia Bomer",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI13337",
+  "display_name": "Chris Dardzinski",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI13254",
+  "display_name": "Donavan McKinney",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H8MI13185",
+  "display_name": "Mary Waters",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI13296",
+  "display_name": "Nazmul Hassan",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI13288",
+  "display_name": "Shelby N Campbell",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI13312",
+  "display_name": "T.P. Nykoriak",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI13320",
+  "display_name": "Raelyn Light",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "H6MI13262",
+  "display_name": "Andrew Lorenz",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H6MI13270",
+  "display_name": "Shelby N Campbell",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI13360",
+  "display_name": "Martell De'Angelo Bivings",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI14166",
+  "display_name": "Maurice Gerard Morton",
+  "office_full": "House",
+  "party_label": "IND",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI13394",
+  "display_name": "Anthony Michael Carbonaro",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "HOU-MI13-COLEMAN",
+  "display_name": "Simone R. Coleman",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-H-MI-13",
+  "verification_status": "needs_review"
+ },
+ {
+  "fec_candidate_id": "S6MI00483",
+  "display_name": "Travis Joseph Zollner",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00459",
+  "display_name": "Joseph Allen Tate",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00579",
+  "display_name": "Sharon Maureen Savage",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00533",
+  "display_name": "Jason Sherman",
+  "office_full": "Senate",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "S6MI00418",
+  "display_name": "Abdul El-Sayed",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00710",
+  "display_name": "Joseph Solis-Mullen",
+  "office_full": "Senate",
+  "party_label": "LIB",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00400",
+  "display_name": "Kent Benham",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00694",
+  "display_name": "Justin Amash",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00637",
+  "display_name": "Peter Meijer",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00496",
+  "display_name": "Nasser Beydoun",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00645",
+  "display_name": "James Kieth Frizzell Sr.",
+  "office_full": "Senate",
+  "party_label": "IND",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00384",
+  "display_name": "Frederick Heurtebise",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00392",
+  "display_name": "Mallory McMorrow",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00512",
+  "display_name": "Douglas Philip Marsh",
+  "office_full": "Senate",
+  "party_label": "GRE",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00517",
+  "display_name": "Bernadette Smith",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00442",
+  "display_name": "Lydia Lynn Christensen",
+  "office_full": "Senate",
+  "party_label": "IND",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S8MI00422",
+  "display_name": "Valerie Lee Willis",
+  "office_full": "Senate",
+  "party_label": "IND",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00509",
+  "display_name": "Thomas Wayne Stephens",
+  "office_full": "Senate",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "S4MI00595",
+  "display_name": "Michael J Rogers",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00467",
+  "display_name": "Rachel Elizabeth Howard",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00611",
+  "display_name": "Bensson Samuel",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00355",
+  "display_name": "Gary C. Peters",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": true,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00491",
+  "display_name": "Andrew Kamal",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00566",
+  "display_name": "Tim Long",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-S-MI",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "S6MI00590",
+  "display_name": "Walter P. Kristy",
+  "office_full": null,
+  "party_label": null,
+  "incumbent": null,
+  "race_key": "2026-S-MI",
+  "verification_status": "handoff_roster"
+ },
+ {
+  "fec_candidate_id": "S6MI00475",
+  "display_name": "Craig Henley Johnson II II",
+  "office_full": "Senate",
+  "party_label": null,
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": null
+ },
+ {
+  "fec_candidate_id": "S6MI00426",
+  "display_name": "Haley Stevens",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S6MI00434",
+  "display_name": "Genevieve Scott",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": "2026-S-MI",
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00462",
+  "display_name": "Nicolette Snyder",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00587",
+  "display_name": "J.D. Wilson",
+  "office_full": "Senate",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI11139",
+  "display_name": "Charles Frangie",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI14111",
+  "display_name": "Brenda Lulenar Lawrence",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H8MI09068",
+  "display_name": "Gary Peters",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S8MI00281",
+  "display_name": "Debbie Stabenow",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI13471",
+  "display_name": "David Anthony Dudenhoefer",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI03126",
+  "display_name": "Justin Amash",
+  "office_full": "House",
+  "party_label": "IND",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI08192",
+  "display_name": "Pamela L Pugh",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H4MI10123",
+  "display_name": "Rhonda M. Powell",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00538",
+  "display_name": "Pamela L Pugh",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI05119",
+  "display_name": "Daniel T Kildee",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H0MI03290",
+  "display_name": "Lynn Afendoulis",
+  "office_full": "House",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "H2MI13147",
+  "display_name": "John Goci",
+  "office_full": "House",
+  "party_label": "DEM",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "S4MI00470",
+  "display_name": "Elissa Slotkin",
+  "office_full": "Senate",
+  "party_label": "DEM",
+  "incumbent": true,
+  "race_key": null,
+  "verification_status": "seed"
+ },
+ {
+  "fec_candidate_id": "GOV-MI-JAMES",
+  "display_name": "John James",
+  "office_full": "Governor",
+  "party_label": "REP",
+  "incumbent": false,
+  "race_key": null,
+  "verification_status": "merged_alias"
+ }
+]

@@ -1,0 +1,1 @@
+Illinois briefs show the brief and claims you receive. Published pieces show where a drafted article ends up (the front matter, the openfile, sources and corrections blocks, `[[s:n]]` markers). Match their tone: plain, specific, neutral, and explicit about what a figure does not show.
