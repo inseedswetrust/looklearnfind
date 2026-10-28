@@ -1,5 +1,5 @@
 {
- "as_of_utc": "2026-10-28T17:11:22Z",
+ "as_of_utc": "2026-10-28T17:19:01Z",
  "issues": [
   {
    "slug": "data_bill_of_rights",
@@ -80,7 +80,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -98,10 +98,78 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/MI",
-   "fec_candidate_id": "GOV-MI-JAMES",
+   "fec_candidate_id": "H2MI10150",
    "tip_page_id": "GOV-MI-JAMES",
    "tip": {
     "url": "https://theissuesparty.org/candidates/GOV-MI-JAMES",
+    "grades_url": "https://theissuesparty.org/candidates/H2MI10150",
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 50,
+      "aligned": 1,
+      "against": 1,
+      "recorded": 2,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "war_crime_accountability": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 5,
+      "recorded": 5,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     },
+     "us-israel-military-merger": {
+      "state": "graded",
+      "grade": "F-",
+      "score": 0,
+      "aligned": 0,
+      "against": 1,
+      "recorded": 1,
+      "computed_at": "2026-10-26T12:16:13.048+00:00"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T17:19Z"
+   }
+  },
+  {
+   "id": "Douglas__Doug__Campbell",
+   "name": "Doug Campbell",
+   "party_code": "GRN",
+   "party": "Green",
+   "tip_name": "Douglas \"Doug\" Campbell",
+   "write_in": false,
+   "note": null,
+   "office": "governor",
+   "race": "governor",
+   "incumbent": false,
+   "running_mate": "Bobbie Clay",
+   "status": "Qualified",
+   "primary": "",
+   "state_url": "https://www.thegreenpapers.com/G26/MI",
+   "fec_candidate_id": "GOV-MI-CAMPBELL",
+   "tip_page_id": "GOV-MI-CAMPBELL",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MI-CAMPBELL",
     "grades_url": null,
     "grades": {
      "data_bill_of_rights": {
@@ -124,27 +192,8 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
-  },
-  {
-   "id": "Douglas__Doug__Campbell",
-   "name": "Doug Campbell",
-   "party_code": "GRN",
-   "party": "Green",
-   "tip_name": "Douglas \"Doug\" Campbell",
-   "write_in": false,
-   "note": null,
-   "office": "governor",
-   "race": "governor",
-   "incumbent": false,
-   "running_mate": "Bobbie Clay",
-   "status": "Qualified",
-   "primary": "",
-   "state_url": "https://www.thegreenpapers.com/G26/MI",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
   },
   {
    "id": "Anthony_Hudson",
@@ -161,9 +210,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/MI",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-MI-HUDSON",
+   "tip_page_id": "GOV-MI-HUDSON",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MI-HUDSON",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T17:19Z"
+   }
   },
   {
    "id": "Donna_Brandenburg",
@@ -180,9 +254,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/MI",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-MI-BRANDENBURG",
+   "tip_page_id": "GOV-MI-BRANDENBURG",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MI-BRANDENBURG",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T17:19Z"
+   }
   },
   {
    "id": "Abdul_El-Sayed",
@@ -225,7 +324,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -269,7 +368,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -313,7 +412,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -357,7 +456,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -401,7 +500,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -445,7 +544,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -489,7 +588,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -557,7 +656,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -601,7 +700,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -645,7 +744,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -689,7 +788,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -733,7 +832,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -777,7 +876,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -821,7 +920,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -889,7 +988,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -933,7 +1032,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -977,7 +1076,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1057,7 +1156,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1101,7 +1200,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1145,7 +1244,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1189,7 +1288,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1257,7 +1356,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1301,7 +1400,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1345,7 +1444,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1413,7 +1512,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1457,7 +1556,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1501,7 +1600,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1545,7 +1644,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1619,7 +1718,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1663,7 +1762,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1707,7 +1806,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1751,7 +1850,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1795,7 +1894,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1839,7 +1938,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1902,7 +2001,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -1964,7 +2063,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2008,7 +2107,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2076,7 +2175,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2120,7 +2219,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2164,7 +2263,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2208,7 +2307,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2252,7 +2351,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2296,7 +2395,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2364,7 +2463,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2408,7 +2507,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2452,7 +2551,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2496,7 +2595,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2540,7 +2639,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2584,7 +2683,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2628,7 +2727,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2672,7 +2771,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2690,9 +2789,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/MI",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "HOU-MI10-NKROMO",
+   "tip_page_id": "HOU-MI10-NKROMO",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-MI10-NKROMO",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T17:19Z"
+   }
   },
   {
    "id": "Mike_Saliba",
@@ -2735,7 +2859,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2779,7 +2903,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2823,7 +2947,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2867,7 +2991,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2911,7 +3035,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2955,7 +3079,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -2999,7 +3123,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3079,7 +3203,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3123,7 +3247,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3167,7 +3291,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3211,7 +3335,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3255,7 +3379,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3299,7 +3423,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3343,7 +3467,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3387,7 +3511,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3431,7 +3555,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-28T17:11Z"
+    "checked_at": "2026-10-28T17:19Z"
    }
   },
   {
@@ -3449,9 +3573,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/MI",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "HOU-MI13-COLEMAN",
+   "tip_page_id": "HOU-MI13-COLEMAN",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-MI13-COLEMAN",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T17:19Z"
+   }
   }
  ]
 }

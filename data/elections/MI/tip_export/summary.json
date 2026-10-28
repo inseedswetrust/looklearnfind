@@ -1,11 +1,11 @@
 {
   "state": "MI",
-  "as_of_utc": "2026-10-28T17:08:00.769Z",
+  "as_of_utc": "2026-10-28T17:18:25.988Z",
   "counts": {
     "races": 18,
-    "race_entries": 69,
-    "candidate_rows": 212,
-    "fec_ids": 212,
+    "race_entries": 74,
+    "candidate_rows": 217,
+    "fec_ids": 217,
     "grade_rows": 71,
     "graded": 71,
     "candidates_with_any_grade": 18,
@@ -16,11 +16,11 @@
     "money_signal_rows": 16
   },
   "entry_status": {
-    "active": 68,
-    "review": 1
+    "review": 6,
+    "active": 68
   },
   "entry_verification": {
-    "Official candidate record checked": 68,
+    "Official candidate record checked": 73,
     "National source only": 1
   },
   "race_verification": {
@@ -28,7 +28,7 @@
   },
   "reconciliation": {
     "entries_without_candidate_row": 0,
-    "entries_without_fec_id": 2,
-    "candidate_rows_not_in_race_entries": 145
+    "entries_without_fec_id": 0,
+    "candidate_rows_not_in_race_entries": 143
   }
 }

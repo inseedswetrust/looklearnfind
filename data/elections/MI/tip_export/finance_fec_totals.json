@@ -833,23 +833,6 @@
     "pulled_at": "2026-06-01T23:11:05+00:00"
   },
   {
-    "fec_candidate_id": "S6MI00434",
-    "cycle": "2026",
-    "election_full": "False",
-    "total_receipts": 76083.76,
-    "total_disbursements": 69528.6,
-    "cash_on_hand_end_period": 6555.16,
-    "debts_owed_by_committee": 48669.16,
-    "individual_contributions": 27414.6,
-    "other_political_committee_contributions": 0,
-    "party_committee_contributions": 0,
-    "candidate_contributions": 0,
-    "coverage_start_date": "2025-07-01T00:00:00",
-    "coverage_end_date": "2026-03-31T00:00:00",
-    "source_url": "https://api.open.fec.gov/v1/candidate/S6MI00434/totals/",
-    "pulled_at": "2026-05-31T08:38:34+00:00"
-  },
-  {
     "fec_candidate_id": "S6MI00517",
     "cycle": "2026",
     "election_full": "False",
@@ -1783,6 +1766,23 @@
     "coverage_end_date": "2026-03-31T00:00:00",
     "source_url": "https://api.open.fec.gov/v1/candidate/S4MI00470/totals/",
     "pulled_at": "2026-06-01T23:10:06+00:00"
+  },
+  {
+    "fec_candidate_id": "S6MI00434",
+    "cycle": "2026",
+    "election_full": "False",
+    "total_receipts": 76083.76,
+    "total_disbursements": 69528.6,
+    "cash_on_hand_end_period": 6555.16,
+    "debts_owed_by_committee": 48669.16,
+    "individual_contributions": 27414.6,
+    "other_political_committee_contributions": 0,
+    "party_committee_contributions": 0,
+    "candidate_contributions": 0,
+    "coverage_start_date": "2025-07-01T00:00:00",
+    "coverage_end_date": "2026-03-31T00:00:00",
+    "source_url": "https://api.open.fec.gov/v1/candidate/S6MI00434/totals/",
+    "pulled_at": "2026-05-31T08:38:34+00:00"
   },
   {
     "fec_candidate_id": "S8MI00281",

@@ -7,3 +7,9 @@
 - **Overwritten:** `data/elections/MI/candidates.json` was Senate-only (2 people); it now holds all 75 (the old copy is in git).
 - **Gaps:** see `TIP_FIX_LIST_FOR_APPROVAL.md`. Waiting on owner approval before any TIP write.
 - **Open:** Green Papers lists no independent for Governor; the official list also shows only the five party candidates, so none expected.
+
+## 2026-10-28, stage 1b: TIP gaps applied (owner approved A and B)
+- Duplicate check first: surname search of all TIP candidates found none of the five new people elsewhere. Existing duplicates left alone: two Shelby N Campbell rows (MI-13, disqualified) and John James `H2MI10150` / `GOV-MI-JAMES` (merged alias).
+- Applied to production: profiles GOV-MI-HUDSON, GOV-MI-BRANDENBURG, GOV-MI-CAMPBELL, HOU-MI10-NKROMO, HOU-MI13-COLEMAN (`needs_review`); 5 governor entries (`review`, using existing Benson 8055 and James 4772 profiles); Nkromo and Coleman entries linked.
+- Re-exported and re-joined: 74 of 75 linked. Governor entries are `review`, so TIP's public Governor race page stays empty until they are promoted; LLF links the profiles directly.
+- Open: promote the 5 governor entries to `active` (owner's call); the TIP repo files (12_missing_profiles.sql, apply-mi-gap-profiles.mjs, refreshed MI packet) are uncommitted there.

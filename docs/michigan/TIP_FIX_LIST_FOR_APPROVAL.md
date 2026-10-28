@@ -1,6 +1,6 @@
 # Michigan: TIP-side fixes, for owner approval
 
-Prepared 2026-10-28. **Nothing has been written to TIP.** Basis: `data/elections/MI/roster.json` (reconciled to the Michigan Department of State Official Candidate Listing, General Election 2026-11-03, read 2026-10-28), the TIP export in `data/elections/MI/tip_export/` and `data/elections/MI/candidates.json` (the join; every linked page returned HTTP 200).
+Prepared 2026-10-28. **Status 2026-10-28: A and B approved and applied to production** (5 new profiles `mi_gap_profiles_2026_10`, 5 governor entries at status `review`, Nkromo and Coleman entries linked; SQL record at the-issues-party/docs/state-packets/MI/12_missing_profiles.sql, applied by scripts/export/apply-mi-gap-profiles.mjs). Join afterwards: 74 of 75 linked, all HTTP 200; only Bree Taylor (write-in, C) is unlinked. Governor entries stay `review` (hidden on the public race page) until promoted to `active`, which needs your go-ahead. The rest of this file is the original proposal. Basis: `data/elections/MI/roster.json` (reconciled to the Michigan Department of State Official Candidate Listing, General Election 2026-11-03, read 2026-10-28), the TIP export in `data/elections/MI/tip_export/` and `data/elections/MI/candidates.json` (the join; every linked page returned HTTP 200).
 
 Result of the join: 75 roster rows, 69 linked to a TIP page, 6 not linked. TIP holds no entry that is missing from the roster.
 
