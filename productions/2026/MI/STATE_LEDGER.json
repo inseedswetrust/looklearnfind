@@ -6,7 +6,7 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-28",
   "updated_by": "claude",
-  "as_of_commit": "d7d16c2",
+  "as_of_commit": "73bc10e",
   "headline": "Michigan pages, roster, TIP join, portraits, markets and story scout are built locally. Two reported pieces are live. MI-A1 is ready for a ChatGPT draft; the Michigan tile image has come back and is not yet wired in. Nothing Michigan-specific is deployed.",
   "paths": [
     "productions/2026/MI",
@@ -92,12 +92,14 @@
     {
       "id": "article_draft",
       "title": "MI-A1 article drafted by ChatGPT",
-      "status": "todo"
+      "status": "done",
+      "note": "returned 2026-10-28; converted to content/learn/mike-duggan-withdrawn-candidate-kalshi-michigan.html"
     },
     {
       "id": "factcheck",
       "title": "Independent fact-check of used claims",
-      "status": "todo"
+      "status": "waiting_owner",
+      "note": "Claude check done (research/MI-A1_FACTCHECK.md, 3 fixes, 1 addition); owner sign-off needed before publish"
     },
     {
       "id": "publish",
@@ -119,7 +121,7 @@
         {
           "id": "MI-A1",
           "title": "The independent who left (Duggan): Reported Feature, 700 to 1,000 words",
-          "status": "ready",
+          "status": "returned",
           "inputs": [
             "productions/2026/MI/package_src/stories/MI-A1/STORY_BRIEF.md",
             "productions/2026/MI/package_src/stories/MI-A1/CLAIMS.csv",
@@ -158,7 +160,7 @@
         {
           "id": "MI-A1-HERO",
           "title": "Hero image for MI-A1 (key mi-duggan)",
-          "status": "ready",
+          "status": "returned",
           "inputs": [
             "productions/2026/MI/package_src/MI_A1_HERO_BRIEF.md"
           ],
@@ -167,7 +169,8 @@
             "web/mi-duggan.jpg",
             "README.md",
             "manifest.json"
-          ]
+          ],
+          "note": "installed as static/img/elections/mi-duggan.jpg (web file, 1800x1200, upscaled from 1536x1024)"
         },
         {
           "id": "MI-TILE",
@@ -200,7 +203,7 @@
     {
       "id": "C4",
       "title": "Receive ChatGPT's MI-A1 return: handoff.py ingest, convert to site markers and macros, independent fact-check, fix or cut, strict build",
-      "status": "todo",
+      "status": "done",
       "gate": "needs the return"
     },
     {
@@ -226,7 +229,8 @@
     "Name the ChatGPT articles chat and images chat in docs/production/CHAT_REGISTRY.md, then send each its package",
     "Approve deploying the Michigan pages, the tile and MI-A1",
     "Approve promoting the five Michigan governor entries on TIP",
-    "If a MI-A3 source is paywalled or blocked, paste its text"
+    "If a MI-A3 source is paywalled or blocked, paste its text",
+    "Sign off the MI-A1 fact-check (productions/2026/MI/research/MI-A1_FACTCHECK.md) and set its publication date"
   ],
   "blocked": [
     {

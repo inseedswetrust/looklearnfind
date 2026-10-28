@@ -70,5 +70,13 @@
   "source_page": "/about/",
   "file": "s4-michigan.jpg",
   "bytes": 166637
+ },
+ "mi-duggan": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "mi-duggan.jpg",
+  "bytes": 136513
  }
 }
