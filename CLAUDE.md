@@ -4,6 +4,8 @@
 
 Static site built by `build.py` (stdlib Python) with election pages from `elections.py`. Companion project: The Issues Party (TIP), a separate Next.js repo that holds candidate profiles and issue grades; LLF only reads and links to it.
 
+**SESSION PROTOCOL (every session, every state):** before any state work run `python tools/workflow/handoff.py status <ST>` (the state ledger is `productions/2026/<ST>/STATE_LEDGER.json`; if it says STALE, read the commits it lists and repair the ledger first). Read `docs/production/08_HANDOFF_PROTOCOL.md` and `09_OPERATING_PROCEDURES.md`. At the end of every stage update the ledger and decisions log, run `handoff.py stamp <ST>`, commit. Kickoffs for new Claude sessions and packages for ChatGPT are **generated** by `handoff.py build` from the ledger, never hand-written; `docs/production/CHAT_REGISTRY.md` says which chat holds what. Only one Claude session writes to a state at a time. Starting a new state: `handoff.py init <ST> --name <Name>`.
+
 **Start here:** `docs/production/README.md` (the lock and its precedence rules), `docs/election-build/AGENT_RUNBOOK.md` (end to end, with commands), then `docs/election-build/INDEX.md` (where everything is). Skills are in `.claude/skills/` (versions in `docs/production/SKILL_MANIFEST.md`): `llf-story-scout`, `llf-article-format`, `llf-election-render`, `llf-factcheck-finalize`, `llf-publication-qa`, **`llf-video-director` (the one video entry point)**, `llf-footage-scout` (a sub-procedure of the director), `llf-video-storyboard` (legacy alias, Florida example), `election-state-packet`, `darkhorse-source-monitor`, `llf-delta-editorial`, `workflow-retrospective`.
 
 ## Rules that never change

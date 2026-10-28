@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "state": "MI",
+  "state_name": "Michigan",
+  "year": 2026,
+  "scope": "Governor, U.S. Senate, U.S. House",
+  "updated": "2026-10-28",
+  "updated_by": "claude",
+  "as_of_commit": "",
+  "headline": "Michigan pages, roster, TIP join, portraits, markets and story scout are built locally. Two reported pieces are live. MI-A1 is ready for a ChatGPT draft; the Michigan tile image has come back and is not yet wired in. Nothing Michigan-specific is deployed.",
+  "paths": ["productions/2026/MI", "data/elections/MI", "docs/michigan", "tests/test_michigan_pages.py"],
+  "decisions_log": "docs/michigan/DECISIONS_AND_HISTORY.md",
+  "stages": [
+    {"id": "roster", "title": "Roster reconciled to the official Department of State listing", "status": "done", "evidence": ["data/elections/MI/roster.json"]},
+    {"id": "tip_join", "title": "TIP export and join (74 of 75 linked)", "status": "done", "evidence": ["data/elections/MI/tip_export/summary.json"]},
+    {"id": "tip_gaps", "title": "TIP gap profiles and entries applied (owner approved)", "status": "done", "evidence": ["docs/michigan/TIP_FIX_LIST_FOR_APPROVAL.md"]},
+    {"id": "portraits", "title": "Portraits (18 licensed, others monograms)", "status": "done", "evidence": ["data/elections/MI/portraits.json"]},
+    {"id": "markets", "title": "Kalshi markets", "status": "done", "evidence": ["data/elections/MI/markets.json"]},
+    {"id": "pages", "title": "Michigan state pages built locally (hub, governor, Senate, House directory, 13 districts)", "status": "done", "evidence": ["tests/test_michigan_pages.py"], "note": "not deployed"},
+    {"id": "scout", "title": "Story Scout: MI-A1 and MI-A2 ready, MI-A3 and MI-A4 not ready", "status": "done", "evidence": ["productions/2026/MI/research/STORY_BRIEF.md", "productions/2026/MI/research/story_brief.json"]},
+    {"id": "image_briefs", "title": "Image briefs written (tile, MI-A1 hero)", "status": "done", "evidence": ["productions/2026/visuals/MICHIGAN_HERO_BRIEF_FOR_CHATGPT.md", "productions/2026/MI/package_src/MI_A1_HERO_BRIEF.md"]},
+    {"id": "tile_image", "title": "Michigan tile image returned by ChatGPT", "status": "in_progress", "note": "file is Downloads/s3-michigan.zip; named S3 in that package, to be installed as s4-michigan"},
+    {"id": "article_draft", "title": "MI-A1 article drafted by ChatGPT", "status": "todo"},
+    {"id": "factcheck", "title": "Independent fact-check of used claims", "status": "todo"},
+    {"id": "publish", "title": "Deploy Michigan pages, MI-A1 and tile", "status": "waiting_owner"},
+    {"id": "video", "title": "Michigan video asset pack", "status": "blocked", "note": "needs approved articles and an approved script direction; asset pack only, no MP4"}
+  ],
+  "lanes": {
+    "articles": {
+      "chat": "ChatGPT chat that drafted the Florida and Illinois articles (owner to record its title in docs/production/CHAT_REGISTRY.md)",
+      "role": "Write the article drafts from Claude's briefs. Never fact-check your own draft. Never publish.",
+      "tasks": [
+        {"id": "MI-A1", "title": "The independent who left (Duggan): Reported Feature, 700 to 1,000 words", "status": "ready",
+         "inputs": ["productions/2026/MI/package_src/stories/MI-A1/STORY_BRIEF.md", "productions/2026/MI/package_src/stories/MI-A1/CLAIMS.csv", "productions/2026/MI/package_src/LINK_MAP.md"],
+         "returns": ["MI-A1_*.html", "MI-A1_CLAIMS.csv", "MI-A1_NOTES.md"]},
+        {"id": "MI-A2", "title": "Senate poll beside the market", "status": "withdrawn", "note": "the live Kalshi Senate delta already carries it"},
+        {"id": "MI-A3", "title": "MI-13: incumbent loses primary", "status": "not_ready", "note": "lead source blocked (403); one damaging claim unverified"},
+        {"id": "MI-A4", "title": "MI-10: outside spending in an open seat", "status": "not_ready", "note": "FEC data pulled; Claude is reconciling totals; a later package carries it"}
+      ]
+    },
+    "images": {
+      "chat": "ChatGPT image chat that made the Illinois heroes and the Florida and Illinois tiles (owner to record its title in docs/production/CHAT_REGISTRY.md)",
+      "role": "Make illustrated images from the briefs. Match the existing set. Never make faces, text or campaign branding.",
+      "tasks": [
+        {"id": "MI-A1-HERO", "title": "Hero image for MI-A1 (key mi-duggan)", "status": "ready",
+         "inputs": ["productions/2026/MI/package_src/MI_A1_HERO_BRIEF.md"],
+         "returns": ["masters/mi-duggan.jpg", "web/mi-duggan.jpg", "README.md", "manifest.json"]},
+        {"id": "MI-TILE", "title": "Michigan state tile (S4, s4-michigan)", "status": "returned", "note": "returned as s3-michigan; Claude installs it as s4-michigan"}
+      ]
+    }
+  },
+  "claude_tasks": [
+    {"id": "C1", "title": "Install the Michigan tile as s4-michigan.jpg, add its hero_credits entry and the third state-tile in build.py, strict build and tests", "status": "todo", "gate": "none (local)"},
+    {"id": "C2", "title": "MI-A4: reconcile the MI-10 Schedule E pull (notices vs reports vs FEC roll-up, committee names and types, as-of), then write STORY_BRIEF and CLAIMS (Spending Report, schema 03)", "status": "todo", "gate": "none"},
+    {"id": "C3", "title": "MI-A3: find an openable source or ask the owner to paste the Michigan Advance text; read the official August 4 canvass; no use of any claim about T.P. Nykoriak's past without the court record and a response attempt", "status": "todo", "gate": "none"},
+    {"id": "C4", "title": "Receive ChatGPT's MI-A1 return: handoff.py ingest, convert to site markers and macros, independent fact-check, fix or cut, strict build", "status": "todo", "gate": "needs the return"},
+    {"id": "C5", "title": "Promote the five Michigan governor TIP entries from review to active; commit the uncommitted TIP files in the TIP repo only", "status": "waiting_owner", "gate": "owner approval, TIP write"},
+    {"id": "C6", "title": "Deploy Michigan pages, tile and MI-A1 (docs/production/09_OPERATING_PROCEDURES.md, backup tar first)", "status": "waiting_owner", "gate": "owner approval, publish"},
+    {"id": "C7", "title": "Video asset pack via llf-video-director", "status": "blocked", "gate": "approved articles and approved script direction"}
+  ],
+  "waiting_on_owner": [
+    "Name the ChatGPT articles chat and images chat in docs/production/CHAT_REGISTRY.md, then send each its package",
+    "Approve deploying the Michigan pages, the tile and MI-A1",
+    "Approve promoting the five Michigan governor entries on TIP",
+    "If a MI-A3 source is paywalled or blocked, paste its text"
+  ],
+  "blocked": [
+    {"what": "Michigan Advance article (MI-A3 lead)", "why": "HTTP 403 to automated access", "rule": "do not spoof a browser; record in DATA_ACCESS_LIMITATIONS.md"},
+    {"what": "Illinois State Board of Elections list", "why": "HTTP 403", "rule": "Illinois roster stays labeled not official"}
+  ],
+  "do_not_redo": [
+    "Michigan roster, TIP export and join, TIP gap profiles",
+    "Portraits, Kalshi markets, district geometry, state pages",
+    "The money delta piece and the Kalshi El-Sayed delta (live)",
+    "MI-A2 (withdrawn)"
+  ],
+  "conflicts_to_watch": [
+    "The TIP video session is working an El-Sayed feature pitch (MI-ELSAYED-FEATURE) that overlaps the withdrawn MI-A2; confirm nobody writes the Senate poll angle twice",
+    "Only one Claude session writes to this repository per state at a time"
+  ],
+  "readback_checks": [
+    {"lane": "articles", "q": "What is the status of MI-A2 and why?", "expect_any": ["withdrawn"]},
+    {"lane": "articles", "q": "Which Kalshi contracts resolve on a person rather than a party?", "expect_any": ["duggan"]},
+    {"lane": "articles", "q": "May you cite a TIP grade in MI-A1?", "expect_any": ["no", "none", "not"]},
+    {"lane": "articles", "q": "Who fact-checks your draft?", "expect_any": ["claude", "reviewer", "not me", "independent"]},
+    {"lane": "images", "q": "What are the three things the image must never contain?", "expect_any": ["face", "text", "branding"]},
+    {"lane": "images", "q": "What is the file key for the MI-A1 hero?", "expect_any": ["mi-duggan"]},
+    {"lane": "images", "q": "What credit line will the page print under the image?", "expect_any": ["ai illustration"]}
+  ]
+}

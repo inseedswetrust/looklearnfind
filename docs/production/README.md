@@ -31,3 +31,6 @@ The package says previous directions inconsistent with it are superseded. Applie
 
 ## Sharing with ChatGPT
 Cross-model skills are not installed in ChatGPT. Each project, hand it the portable knowledge center (`LLF_KNOWLEDGE_CENTER_<date>.zip`: this folder, the skills, `CLAUDE.md`, the index, runbook, publishing rules, schemas and the manifest) so it loads the same instructions.
+
+## Added 2026-10-28: handoff protocol
+`08_HANDOFF_PROTOCOL.md` (one ledger per state; generated Claude kickoffs and ChatGPT packages; READBACK check; ingest check; how to start a new state), `09_OPERATING_PROCEDURES.md` (durable standing rules and procedures, moved out of the Michigan handoff), `CHAT_REGISTRY.md`, `templates/state/STATE_LEDGER.template.json`. These add to the package text above; they do not change `00` to `07`. `05_MICHIGAN_KICKOFF.md` is superseded for kickoffs by `handoff.py build MI --lane claude`.

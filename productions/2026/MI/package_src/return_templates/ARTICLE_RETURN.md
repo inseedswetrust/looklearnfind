@@ -2,7 +2,7 @@
 
 Return **three files** per article, named with the story ID and slug:
 
-1. `MI-A1_<slug>.html`: the article in the published source form (copy the shape of the files in `03_EXAMPLES/published_pieces/`).
+1. `MI-A1_<slug>.html`: the article in the published source form (copy the shape of the files in `examples/published_pieces/` (or the pieces already in this chat)).
 2. `MI-A1_CLAIMS.csv`: every checkable claim in the draft (format below).
 3. `MI-A1_NOTES.md`: what you changed from the brief, what you were unsure of, any data requests and the hero copy lines.
 
@@ -44,7 +44,7 @@ open: <what remains unknown>
 <!--corrections
 -->
 ```
-Rules for the body: plain HTML paragraphs, `h2` with ids, lists; no inline styles; no images (Claude adds the hero and any chart). `[[s:n]]` points to the numbered line in the sources block and goes after the sentence it supports. Where a number comes from the data files, write the number out and note the data file in the claims `evidence_ref`; Claude converts to `[[v:name]]` macros where they exist. Use exact URLs from `05_MICHIGAN/LINK_MAP.md`; do not invent URLs.
+Rules for the body: plain HTML paragraphs, `h2` with ids, lists; no inline styles; no images (Claude adds the hero and any chart). `[[s:n]]` points to the numbered line in the sources block and goes after the sentence it supports. Where a number comes from the data files, write the number out and note the data file in the claims `evidence_ref`; Claude converts to `[[v:name]]` macros where they exist. Use exact URLs from `inputs/<task id>/LINK_MAP.md`; do not invent URLs.
 
 ## 2. The claims file
 Header: `claim,text_location,source_url,source_date,checked_date,status,type,evidence_ref`

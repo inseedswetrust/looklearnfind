@@ -20,3 +20,5 @@ assets/video/*/captions/
 .env
 .env.local
 productions/2026/*/chatgpt_package/
+productions/2026/*/handoff/
+productions/2026/*/inbox/

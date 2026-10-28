@@ -1,6 +1,6 @@
 # Hero image for MI-A1 (Michigan governor: the independent who left)
 
-Match the existing set in `reference_images/` (especially `mi-udp.jpg`, the kitchen table at dusk): photographic, shallow depth of field, natural light, muted teal and amber, no people, calm.
+Match the existing set in `examples/reference_images/` (or the images already made in this chat) (especially `mi-udp.jpg`, the kitchen table at dusk): photographic, shallow depth of field, natural light, muted teal and amber, no people, calm.
 
 **Scene.** A long pale wooden table in an empty township hall in late-October afternoon light. Five identical blank cardstock name stands in a row with even gaps; a sixth stand lies flat on its side at the far end, out of focus. A tall window behind, soft bare trees outside. Nothing else on the table.
 

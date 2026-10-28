@@ -1,3 +1,5 @@
+> **This handoff is superseded (2026-10-28) by the handoff protocol: `docs/production/08_HANDOFF_PROTOCOL.md`, the ledger `productions/2026/MI/STATE_LEDGER.json` and the generated kickoff (`python tools/workflow/handoff.py build MI --lane claude`). Durable rules and procedures moved to `docs/production/09_OPERATING_PROCEDURES.md`. The text below is kept for history and is partly out of date; the ledger wins.**
+
 # Michigan 2026: handoff to a new session
 
 Written 2026-10-28 at the end of the Illinois session. Branch `claude/funny-shannon-dg9qoe`, last commit when written: see `git log -1`. Read this file first, then follow the reading order in section 2.

@@ -1,3 +1,5 @@
+> **SUPERSEDED (2026-10-28): generate the current prompt with `python tools/workflow/handoff.py build MI --lane claude`; it is written from the ledger and cannot go stale. The text below is kept for history.**
+
 # Opening prompt for Claude Code session 2 (Michigan, continuing)
 
 Updated 2026-10-28 evening. This replaces the first opening prompt, which assumed Michigan had not started. Open a new Claude Code session with working folder `C:\Users\Red Right Hand\Desktop\Issues Party\looklearnfind` and `C:\Users\Red Right Hand\Desktop\Issues Party\the-issues-party` as a second folder, then paste everything below the line.

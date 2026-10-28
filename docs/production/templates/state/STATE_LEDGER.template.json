@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "state": "{{ST}}",
+  "state_name": "{{NAME}}",
+  "year": {{YEAR}},
+  "scope": "Governor, U.S. Senate, U.S. House",
+  "updated": "{{TODAY}}",
+  "updated_by": "claude",
+  "as_of_commit": "",
+  "headline": "{{NAME}} {{YEAR}} just initialized. Nothing is built.",
+  "paths": ["productions/{{YEAR}}/{{ST}}", "data/elections/{{ST}}"],
+  "decisions_log": "productions/{{YEAR}}/{{ST}}/DECISIONS_AND_HISTORY.md",
+  "stages": [
+    {"id": "roster", "title": "Roster reconciled to the official listing (or the best labeled source)", "status": "todo"},
+    {"id": "tip_join", "title": "TIP export and join", "status": "todo"},
+    {"id": "tip_gaps", "title": "TIP gap list shown to the owner; approved fixes applied", "status": "todo"},
+    {"id": "portraits", "title": "Portraits (licensed only; monograms otherwise)", "status": "todo"},
+    {"id": "markets", "title": "Kalshi markets", "status": "todo"},
+    {"id": "pages", "title": "State pages built locally (hub, governor, Senate, House directory, districts)", "status": "todo"},
+    {"id": "scout", "title": "Story Scout: ranked angles with READY or NOT_READY", "status": "todo"},
+    {"id": "image_briefs", "title": "Image briefs (state tile and story heroes)", "status": "todo"},
+    {"id": "tile_image", "title": "State tile image returned and installed", "status": "todo"},
+    {"id": "article_draft", "title": "Articles drafted by ChatGPT", "status": "todo"},
+    {"id": "factcheck", "title": "Independent fact-check of used claims", "status": "todo"},
+    {"id": "publish", "title": "Deploy state pages, articles and tile", "status": "todo"},
+    {"id": "video", "title": "Video asset pack (after approved articles and script direction)", "status": "blocked", "note": "asset pack only; no MP4 unless explicitly requested"}
+  ],
+  "lanes": {
+    "articles": {
+      "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
+      "role": "Write the article drafts from Claude's briefs. Never fact-check your own draft. Never publish.",
+      "tasks": []
+    },
+    "images": {
+      "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
+      "role": "Make illustrated images from the briefs. Match the existing set. Never make faces, readable text or campaign branding.",
+      "tasks": []
+    }
+  },
+  "claude_tasks": [
+    {"id": "C1", "title": "Build the roster and reconcile it to the official listing", "status": "todo", "gate": "none"},
+    {"id": "C2", "title": "TIP export, join and gap list", "status": "todo", "gate": "owner approval before any TIP write"},
+    {"id": "C3", "title": "Portraits, markets, state pages, tests, strict build", "status": "todo", "gate": "none"},
+    {"id": "C4", "title": "Story Scout, then briefs and claims for every READY angle; add them as tasks in the articles lane", "status": "todo", "gate": "none"},
+    {"id": "C5", "title": "Image briefs; add them as tasks in the images lane", "status": "todo", "gate": "none"}
+  ],
+  "waiting_on_owner": [],
+  "blocked": [],
+  "do_not_redo": [],
+  "conflicts_to_watch": ["Only one Claude session writes to this state at a time"],
+  "readback_checks": [
+    {"lane": "articles", "q": "May you fact-check your own draft, and who does?", "expect_any": ["claude", "reviewer", "independent", "not"]},
+    {"lane": "articles", "q": "May you cite a TIP grade that is not visible on the linked profile?", "expect_any": ["no", "not"]},
+    {"lane": "articles", "q": "What does a Kalshi price represent?", "expect_any": ["not a forecast", "quotation", "contract"]},
+    {"lane": "images", "q": "What are the three things the image must never contain?", "expect_any": ["face", "text", "branding"]},
+    {"lane": "images", "q": "What credit line will the page print under the image?", "expect_any": ["ai illustration"]}
+  ]
+}
