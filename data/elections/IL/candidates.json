@@ -143,8 +143,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "GOV-IL-CORBETT",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-CORBETT",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Taegun_Eimer",
@@ -162,8 +187,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "GOV-IL-EIMER",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-EIMER",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Richard_Mayers",
@@ -181,8 +231,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "GOV-IL-MAYERS",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-MAYERS",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Mistry_Metroz",
@@ -200,8 +275,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "GOV-IL-METROZ",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-METROZ",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Griselda_Romero",
@@ -219,8 +319,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "GOV-IL-ROMERO",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-ROMERO",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Elizabeth_Sebesta",
@@ -238,8 +363,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "GOV-IL-SEBESTA",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-SEBESTA",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Patricia_L._Tillman",
@@ -257,8 +407,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "GOV-IL-TILLMAN",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-TILLMAN",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Rafael_Varela",
@@ -276,8 +451,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "GOV-IL-VARELA",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-VARELA",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Mike_Vick",
@@ -295,8 +495,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "GOV-IL-VICK",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-VICK",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Juliana_Stratton",
@@ -446,8 +671,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "SEN-IL-CRAINE",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/SEN-IL-CRAINE",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "Jonathan_L._Jackson",
@@ -1627,8 +1877,33 @@
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/IL",
    "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "tip_page_id": "HOU-IL10-KEATINGSOFIAKIS",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-IL10-KEATINGSOFIAKIS",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-28T12:53Z"
+   }
   },
   {
    "id": "G._William__Bill__Foster",

@@ -70,11 +70,15 @@ class IllinoisPages(unittest.TestCase):
 
     def test_directory_gaps_are_reported_not_hidden(self):
         missing = [c["name"] for c in self.cands if not (c.get("tip") and c["tip"].get("url"))]
-        self.assertGreater(len(missing), 0)
+        # Any candidate without a TIP profile must show as one; none are missing since the 11 profiles were created on 2026-10-28.
         gov = page("governor")
         for n in missing:
             if html.escape(n) in gov:
                 self.assertTrue("No TIP record yet" in gov)
+
+    def test_every_listed_candidate_links_to_tip(self):
+        for c in self.cands:
+            self.assertTrue(c.get("tip") and c["tip"].get("url"), c["name"])
 
     def test_district_geometry_has_17_districts(self):
         d = json.loads((IL / "districts.json").read_text(encoding="utf-8"))
