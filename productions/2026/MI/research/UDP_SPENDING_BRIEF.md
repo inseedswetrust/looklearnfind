@@ -49,6 +49,6 @@ UDP opposing El-Sayed about $20.1 million and supporting Haley Stevens about $10
 - The drafter does not fact-check their own article. Owner fact-checks. Nothing published without approval.
 
 ## Open items
-1. OpenFEC key (or wait) to rebuild the delta.
+1. Owner decision 2026-10-28: no OpenFEC key will be provided. The $398,684 delta is not rebuilt; the draft either attributes it to the trackers that reported it (with their different cutoffs) or leaves it out. The $209,442.72 and the Oct 7 to 23 table stand on FEC rows. (The fetch tool, `tools/dark_horse/fetch_udp_ie.py`, reads FEC_API_KEY at run time; no key is stored in the repo.)
 2. Read the Washington Post, Jewish Insider and NPR/OPB originals.
 3. Links to use (from `data/elections/MI/candidates.json`): El-Sayed https://theissuesparty.org/candidates/S6MI00418, Rogers https://theissuesparty.org/candidates/S4MI00595, race https://theissuesparty.org/races/2026-S-MI (confirm the race page returns 200 before publishing).
