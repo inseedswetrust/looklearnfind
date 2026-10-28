@@ -215,7 +215,7 @@ def handshake_md(led, lanes, pid, mine):
     L += [f"  {i}. <your answer to: {q}>" for i, q in enumerate(qs, 1)]
     L += ["missing: <inputs you expected but cannot find, or none>", "blocking_questions: <at most 3, or none>", "plan: <your order of work in 4 lines or fewer>", "```", "",
           "Why: Claude Code cannot see this chat. The readback is the only proof that what you understood matches what the ledger says. If it does not match, Claude will say what to correct before you spend effort on the wrong thing.", "",
-          "When you finish, return files exactly as `RETURN_FORMAT.md` says, put the package id at the top of your notes file, and end with a one-line status per task: `complete`, `partial` (say what is missing) or `blocked` (say why)."]
+          "When you finish, return files exactly as the `RETURN_FORMAT` file for each task says, put the package id at the top of your notes file, and end with a one-line status per task: `complete`, `partial` (say what is missing) or `blocked` (say why)."]
     return "\n".join(L) + "\n"
 
 
