@@ -6,7 +6,7 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-28",
   "updated_by": "claude",
-  "as_of_commit": "717acad",
+  "as_of_commit": "d7d16c2",
   "headline": "Michigan pages, roster, TIP join, portraits, markets and story scout are built locally. Two reported pieces are live. MI-A1 is ready for a ChatGPT draft; the Michigan tile image has come back and is not yet wired in. Nothing Michigan-specific is deployed.",
   "paths": [
     "productions/2026/MI",
@@ -86,7 +86,7 @@
     {
       "id": "tile_image",
       "title": "Michigan tile image returned by ChatGPT",
-      "status": "in_progress",
+      "status": "done",
       "note": "file is Downloads/s3-michigan.zip; named S3 in that package, to be installed as s4-michigan"
     },
     {
@@ -182,7 +182,7 @@
     {
       "id": "C1",
       "title": "Install the Michigan tile as s4-michigan.jpg, add its hero_credits entry and the third state-tile in build.py, strict build and tests",
-      "status": "todo",
+      "status": "done",
       "gate": "none (local)"
     },
     {

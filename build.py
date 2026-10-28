@@ -627,6 +627,7 @@ def gen_home():
             '<div class="state-tiles">'
             '<a class="state-tile" href="/elections/2026/florida/" style="--img:url(/img/elections/s1-florida.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>Florida</b><span>Governor, U.S. Senate and 28 House races, with the money and the record.</span></span></a>'
             '<a class="state-tile" href="/elections/2026/illinois/" style="--img:url(/img/elections/s2-illinois.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>Illinois</b><span>Governor, U.S. Senate and 17 House races, with the primary money and the ballot rules.</span></span></a>'
+            '<a class="state-tile" href="/elections/2026/michigan/" style="--img:url(/img/elections/s4-michigan.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>Michigan</b><span>Governor, U.S. Senate and 13 House races, with the market quotes and the record.</span></span></a>'
             '</div>')
     finds = "".join(
         f'<a href="/find/{t["slug"]}/" class="find-row"><span class="eyebrow">{i:02d}</span><b>{e(t["label"])}</b><p>{e(t["blurb"])}</p><span class="arrow">↗</span></a>'

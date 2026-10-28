@@ -62,5 +62,13 @@
   "source_page": "/about/",
   "file": "mi-udp.jpg",
   "bytes": 196238
+ },
+ "s4-michigan": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "s4-michigan.jpg",
+  "bytes": 166637
  }
 }
