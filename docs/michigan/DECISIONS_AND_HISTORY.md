@@ -63,3 +63,8 @@
 - **Brief and claims:** `package_src/stories/MI-A4/STORY_BRIEF.md` and `CLAIMS.csv` (36 rows, generated from the data). No party or alignment is asserted: FEC carries none for these committees. The brief says so.
 - **MI-A3** stays NOT_READY: result sourced from WDIV (final table, unofficial) and Bridge Michigan (partial county figures); the August 4 canvass site refused connections; Michigan Advance and its wire copy return 403 and were not circumvented; no 2026 spending figures in anything opened; nothing about T.P. Nykoriak's past used. Missing piece is an FEC pull for Thanedar and McKinney. `research/MI-A3_SOURCES.md`.
 - **Package:** articles package rebuilt with MI-A1 returned, MI-A4 ready.
+
+## 2026-10-29: Florida and Illinois double-count check
+- Florida (`data/elections/FL/ie_all.json`, 80 candidates, 1,563 rows): after `elections.dedupe_ie`, 135 notice/periodic pairs remain with the same committee, side, amount to the cent, same description and dates within 7 days but different transaction ids. Probable overcount $10.2M of $105.6M (about 10%). Largest: Randy Fine $3.4M of $7.3M, Scott Singer $1.5M, Austin Rogers $1.4M, Anna Paulina Luna $0.8M, Bale Dalton $0.7M, Jimmy Patronis $0.7M. `schedule_e.dedupe` gives the same result, so the Florida race pages and any article using `ie_total` are affected. NOT fixed: published numbers need the owner's call.
+- Illinois IL-07 piece: UDP pull has 175 rows, 0 pairs. The $4,968,500 figure is not double counted. Other IL figures are third-party reports.
+- Script: `productions/2026/MI/research/check_fl_il_double_count.py`.
