@@ -1,4 +1,4 @@
-STATUS: DRAFT
+STATUS: LOCKED (approved by the owner in chat on 2026-10-29: "You can explain UDP but otherwise make no further additions")
 <!-- Change to `STATUS: LOCKED (approved by <owner name> on <date>)` only after the owner approves every line. Scene art may not be made before that. -->
 
 Source script: the owner's `MICHIGAN_ELECTION_PODCAST_SCRIPT_2026-10-29.md` (copy in `inputs/podcast/`), unchanged except for two inserted lines marked `[WOVEN IN]`, the source tag `S8` and one new row in the table. Claude's own first draft is kept as `SCRIPT_v1_claude_beats.md`. Suggestions are in `NOTES_FOR_OWNER.md`, not in the script.
@@ -28,7 +28,7 @@ Those dates matter. The interviews happened before Trump's Sunday rally. This po
 The story to watch is whether El-Sayed can turn that reported advantage into actual votes, while Rogers tries to close the gap.
 
 [WOVEN IN — approved line (old beat 8), over a plain dated FEC filing graphic]
-Meanwhile, the United Democracy Project filed five notices opposing El-Sayed between October fifteenth and twenty-third, totaling about four hundred thousand dollars.
+Meanwhile, the United Democracy Project, a super PAC that reports its spending to the FEC, filed five notices opposing El-Sayed between October fifteenth and twenty-third, totaling about four hundred thousand dollars.
 
 Sources: S1; filings line: S8.
 
