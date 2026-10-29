@@ -234,7 +234,22 @@ def dedupe_ie(rows):
         k = (r.get("committee_name"), r.get("transaction_id"), r.get("expenditure_amount"), (r.get("expenditure_date") or "")[:10])
         if k not in best or (r.get("is_notice") and not best[k].get("is_notice")):
             best[k] = r
-    return list(best.values())
+    return _pair_notices(list(best.values()))
+
+def _pair_notices(rows):
+    """Second pass: some committees number or date the same payment differently on the notice and on the periodic report, so both survive. Drop the periodic row when a notice from the same committee has the same side, the same amount to the cent and a date within 7 days."""
+    day = lambda r: datetime.date.fromisoformat(((r.get("expenditure_date") or r.get("dissemination_date") or "")[:10]) or "1900-01-01")
+    notices = [r for r in rows if r.get("filing_form") in ("F24", "F5")]
+    used, drop = set(), set()
+    for p in rows:
+        if p.get("filing_form") != "F3X":
+            continue
+        for i, n in enumerate(notices):
+            if i in used or n.get("committee_id") != p.get("committee_id") or n.get("support_oppose_indicator") != p.get("support_oppose_indicator"):
+                continue
+            if abs((n.get("expenditure_amount") or 0) - (p.get("expenditure_amount") or 0)) <= 0.005 and abs((day(n) - day(p)).days) <= 7:
+                used.add(i); drop.add(id(p)); break
+    return [r for r in rows if id(r) not in drop]
 
 def race_ie(race):
     """-> (rows with candidate attached, latest date) for the race."""
