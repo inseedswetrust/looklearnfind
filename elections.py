@@ -45,6 +45,11 @@ STATES = {
                             'Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
                official=True, governor=False, primary="June 2, 2026", sen_note="a full six-year term in the seat Cory Booker holds", gov_hero=None,
                poll_note="", sen_poll_note="We have not yet opened an original pollster release for this race."),
+    "MN": dict(code="MN", name="Minnesota", slug="minnesota", ndist=8, asof="2026-10-31", record_label="Candidate listing (Green Papers)",
+               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; the Minnesota Secretary of State candidate list could not be read '
+                            '(a bot check blocked automated access), so this roster is not an official or complete list; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
+               official=False, primary="August 11, 2026", sen_note="the seat Tina Smith is leaving", gov_hero=None,
+               poll_note="We have not yet opened an original pollster release for this race as of {asof}.", sen_poll_note="We have not yet opened an original pollster release for this race."),
 }
 SX = dict(STATES["FL"])
 GAPS = []           # directory gaps (a listed candidate with no TIP profile) for states whose roster is not yet fully on TIP; reported, not blocking
@@ -713,7 +718,8 @@ GEOM_NOTE = {"FL": "District geometry: Florida Legislature EDR plan EOGPCRP2026 
              "IL": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026).",
              "MI": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026).",
              "NY": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026).",
-             "NJ": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026)."}
+             "NJ": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026).",
+             "MN": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026)."}
 
 def district_page(n):
     fl = SX["code"] == "FL"
@@ -761,7 +767,10 @@ def _ord(n):
 
 
 # ------------------------------------------------------------------ non-Florida state pages (Illinois): same modules, content from the state's own data
-ROSTER_NOTE = {"NJ": ('<strong>About this roster.</strong> The roster follows the New Jersey Division of Elections official lists of general election candidates (U.S. Senate dated July 27, 2026; U.S. House dated September 4, 2026), read on {cap}. '
+ROSTER_NOTE = {"MN": ('<strong>About this roster.</strong> The Minnesota Secretary of State candidate list could not be read by our tools (a bot check blocked automated access on {cap}). '
+                      'This roster is transcribed from Green Papers and cross-checked against OpenFEC and TIP. It is not an official or certified list, may omit late changes and is not claimed to be complete. '
+                      'Minnesota\'s Democratic party is the Democratic-Farmer-Labor Party (DFL). Write-in candidates are listed only where the source lists them.'),
+               "NJ": ('<strong>About this roster.</strong> The roster follows the New Jersey Division of Elections official lists of general election candidates (U.S. Senate dated July 27, 2026; U.S. House dated September 4, 2026), read on {cap}. '
                       'Federal candidate IDs come from Green Papers and OpenFEC, and TIP supplies the profiles. The lists carry printed ballot choices only, so a write-in appears only where a secondary source lists it and is labeled. '
                       'Late changes after those dates are not reflected. New Jersey elects no governor in 2026.'),
                "NY": ('<strong>About this roster.</strong> The New York State Board of Elections certification could not be read by our tools (HTTP 403 on {cap}). '
@@ -959,7 +968,7 @@ def build(api):
     state_hub(); gov_page(); senate_page(); house_page(); methods_page(); dark_horse_status_page()
     for i in range(1, 29):
         district_page(i)
-    for code in ("IL", "MI", "NY", "NJ"):
+    for code in ("IL", "MI", "NY", "NJ", "MN"):
         _load_state(code)
         state_hub(); (gov_page() if SX.get("governor", True) else None); (senate_page() if SX.get("senate", True) else None); house_page()
         for i in range(1, SX["ndist"] + 1):

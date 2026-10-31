@@ -26,8 +26,8 @@ def get(p, **q):
                 raise
             time.sleep(2)
 
-events = {"FL": {"governor": "GOVPARTYFL-26", "senate": "SENATEFLS-26"}, "IL": {"governor": "GOVPARTYIL-26", "senate": "SENATEIL-26"}, "MI": {"governor": "GOVPARTYMI-26", "senate": "SENATEMI-26"}, "NY": {"governor": "GOVPARTYNY-26"}, "NJ": {"senate": "SENATENJ-26"}}[ST]
-for n in range(1, {"FL": 28, "IL": 17, "MI": 13, "NY": 26, "NJ": 12}[ST] + 1):
+events = {"FL": {"governor": "GOVPARTYFL-26", "senate": "SENATEFLS-26"}, "IL": {"governor": "GOVPARTYIL-26", "senate": "SENATEIL-26"}, "MI": {"governor": "GOVPARTYMI-26", "senate": "SENATEMI-26"}, "NY": {"governor": "GOVPARTYNY-26"}, "NJ": {"senate": "SENATENJ-26"}, "MN": {"governor": "GOVPARTYMN-26", "senate": "SENATEMN-26"}}[ST]
+for n in range(1, {"FL": 28, "IL": 17, "MI": 13, "NY": 26, "NJ": 12, "MN": 8}[ST] + 1):
     events[f"house-{n:02d}"] = f"KXHOUSERACE-{ST}{n:02d}-26"
 now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 raw, out = {}, {}

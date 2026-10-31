@@ -59,6 +59,20 @@
   ]
  },
  {
+  "race_key": "2026-GOV-MN",
+  "state": "MN",
+  "office": "governor",
+  "district": null,
+  "llf_url": "/elections/2026/minnesota/governor/",
+  "tip_url": "https://theissuesparty.org/races/2026-GOV-MN",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-G-demuth-lisa",
+   "MN-G-klobuchar-amy",
+   "MN-G-young-steven"
+  ]
+ },
+ {
   "race_key": "2026-GOV-NY",
   "state": "NY",
   "office": "governor",
@@ -898,6 +912,111 @@
   ]
  },
  {
+  "race_key": "2026-H-MN-01",
+  "state": "MN",
+  "office": "house",
+  "district": 1,
+  "llf_url": "/elections/2026/minnesota/house/1/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MN-01",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-H01-finstad-brad",
+   "MN-H01-johnson-jacob"
+  ]
+ },
+ {
+  "race_key": "2026-H-MN-02",
+  "state": "MN",
+  "office": "house",
+  "district": 2,
+  "llf_url": "/elections/2026/minnesota/house/2/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MN-02",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-H02-little-matt",
+   "MN-H02-pratt-eric"
+  ]
+ },
+ {
+  "race_key": "2026-H-MN-03",
+  "state": "MN",
+  "office": "house",
+  "district": 3,
+  "llf_url": "/elections/2026/minnesota/house/3/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MN-03",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-H03-bass-tyler",
+   "MN-H03-morrison-kelly"
+  ]
+ },
+ {
+  "race_key": "2026-H-MN-04",
+  "state": "MN",
+  "office": "house",
+  "district": 4,
+  "llf_url": "/elections/2026/minnesota/house/4/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MN-04",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-H04-mccollum-betty",
+   "MN-H04-wikstrom-paul"
+  ]
+ },
+ {
+  "race_key": "2026-H-MN-05",
+  "state": "MN",
+  "office": "house",
+  "district": 5,
+  "llf_url": "/elections/2026/minnesota/house/5/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MN-05",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-H05-jackson-develle",
+   "MN-H05-nagel-john",
+   "MN-H05-omar-ilhan"
+  ]
+ },
+ {
+  "race_key": "2026-H-MN-06",
+  "state": "MN",
+  "office": "house",
+  "district": 6,
+  "llf_url": "/elections/2026/minnesota/house/6/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MN-06",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-H06-chapin-doug",
+   "MN-H06-emmer-thomas"
+  ]
+ },
+ {
+  "race_key": "2026-H-MN-07",
+  "state": "MN",
+  "office": "house",
+  "district": 7,
+  "llf_url": "/elections/2026/minnesota/house/7/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MN-07",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-H07-fischbach-michelle",
+   "MN-H07-osberg-erik"
+  ]
+ },
+ {
+  "race_key": "2026-H-MN-08",
+  "state": "MN",
+  "office": "house",
+  "district": 8,
+  "llf_url": "/elections/2026/minnesota/house/8/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MN-08",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-H08-stauber-peter",
+   "MN-H08-swanson-trina"
+  ]
+ },
+ {
   "race_key": "2026-H-NJ-01",
   "state": "NJ",
   "office": "house",
@@ -1454,6 +1573,22 @@
    "MI-S-long-tim",
    "MI-S-marsh-doug",
    "MI-S-rogers-mike"
+  ]
+ },
+ {
+  "race_key": "2026-S-MN",
+  "state": "MN",
+  "office": "senate",
+  "district": null,
+  "llf_url": "/elections/2026/minnesota/senate/",
+  "tip_url": "https://theissuesparty.org/races/2026-S-MN",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "MN-S-dwire-kevin",
+   "MN-S-flanagan-margaret",
+   "MN-S-simonetti-marisa",
+   "MN-S-tafoya-michele",
+   "MN-S-whiting-rebecca"
   ]
  },
  {

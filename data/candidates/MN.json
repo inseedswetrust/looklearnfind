@@ -1,0 +1,1109 @@
+{
+ "schema": 1,
+ "state": "MN",
+ "state_name": "Minnesota",
+ "state_slug": "minnesota",
+ "cycle": 2026,
+ "built_from": {
+  "roster_captured_at": "2026-10-31T00:00:00Z",
+  "candidates_as_of": "2026-10-31T19:51:16Z",
+  "tip_export_as_of": "2026-10-31T19:49:58.702Z"
+ },
+ "roster": {
+  "basis": "secondary",
+  "label": "Candidate listing (Green Papers)",
+  "limitations": "The state board's own candidate list could not be read, so this roster is transcribed from Green Papers and cross-checked against OpenFEC and TIP. It is not an official or certified list and may omit late changes."
+ },
+ "candidates": [
+  {
+   "llf_id": "MN-G-demuth-lisa",
+   "name": "Lisa Demuth",
+   "sort_name": "Demuth, Lisa",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-MN",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": "Ryan Wilson",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-MN-DEMUTH",
+    "tip_slug": "GOV-MN-DEMUTH"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MN-DEMUTH",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": null
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/minnesota/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-G-klobuchar-amy",
+   "name": "Amy Klobuchar",
+   "sort_name": "Klobuchar, Amy",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-MN",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": false,
+   "running_mate": "Ben Schierer",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-MN-KLOBUCHAR",
+    "tip_slug": "GOV-MN-KLOBUCHAR"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MN-KLOBUCHAR",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "merged_alias",
+    "entry_status": null
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": null,
+    "website": "https://www.klobuchar.senate.gov/public/"
+   },
+   "llf_race_path": "/elections/2026/minnesota/governor/",
+   "gaps": [
+    "tip_entry_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-G-young-steven",
+   "name": "Steven Young",
+   "sort_name": "Young, Steven",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-MN",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": "Jane Kirby",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": null
+   },
+   "tip": {
+    "url": null,
+    "http": null,
+    "checked_at": null,
+    "graded_count": null,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/minnesota/governor/",
+   "gaps": [
+    "tip_profile_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-S-dwire-kevin",
+   "name": "Kevin Dwire",
+   "sort_name": "Dwire, Kevin",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MN",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Socialist Workers Party"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": "Write-in; Green Papers lists no FEC ID"
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": null
+   },
+   "tip": {
+    "url": null,
+    "http": null,
+    "checked_at": null,
+    "graded_count": null,
+    "profile_status": null,
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/minnesota/senate/",
+   "gaps": [
+    "tip_profile_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-S-flanagan-margaret",
+   "name": "Margaret \"Peggy\" Flanagan",
+   "sort_name": "Flanagan, Margaret",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MN",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Lieutenant Governor; won the August 11 DFL primary for the Senate nomination"
+   },
+   "ids": {
+    "fec": "S6MN00440",
+    "tip_slug": "S6MN00440"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6MN00440",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Margaret_Flanagan",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/minnesota/senate/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-S-simonetti-marisa",
+   "name": "Marisa Simonetti",
+   "sort_name": "Simonetti, Marisa",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MN",
+   "party": {
+    "code": "IND",
+    "letter": "I",
+    "label": "Independent"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6MN00481",
+    "tip_slug": "S6MN00481"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6MN00481",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Marisa_Simonetti",
+    "website": "https://www.tiktok.com/@marisa.simonetti28"
+   },
+   "llf_race_path": "/elections/2026/minnesota/senate/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-S-tafoya-michele",
+   "name": "Michele Tafoya",
+   "sort_name": "Tafoya, Michele",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MN",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6MN00556",
+    "tip_slug": "S6MN00556"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6MN00556",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Michele_Tafoya",
+    "website": "https://www.youtube.com/@MicheleTafoyaforSenate"
+   },
+   "llf_race_path": "/elections/2026/minnesota/senate/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-S-whiting-rebecca",
+   "name": "Rebecca Whiting",
+   "sort_name": "Whiting, Rebecca",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MN",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6MN00572",
+    "tip_slug": "S6MN00572"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6MN00572",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/minnesota/senate/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H01-finstad-brad",
+   "name": "Brad Finstad",
+   "sort_name": "Finstad, Brad",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-MN-01",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2MN01223",
+    "tip_slug": "H2MN01223"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2MN01223",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Brad_Finstad",
+    "website": "https://finstad.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H01-johnson-jacob",
+   "name": "Jacob \"Jake\" Johnson",
+   "sort_name": "Johnson, Jacob",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-MN-01",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN01190",
+    "tip_slug": "H6MN01190"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN01190",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Jake_Johnson_%28Minnesota%29",
+    "website": "https://www.tiktok.com/@jakejohnsonmn"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H02-little-matt",
+   "name": "Matt Little",
+   "sort_name": "Little, Matt",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-MN-02",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN02230",
+    "tip_slug": "H6MN02230"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN02230",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Matt_Little",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H02-pratt-eric",
+   "name": "Eric R. Pratt",
+   "sort_name": "Pratt, Eric",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-MN-02",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN02263",
+    "tip_slug": "H6MN02263"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN02263",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Eric_Pratt_%28Minnesota%29",
+    "website": "https://www.senate.mn/members/member_bio.html?mem_id=1210"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H03-bass-tyler",
+   "name": "Tyler Michael Bass",
+   "sort_name": "Bass, Tyler",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-MN-03",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN03170",
+    "tip_slug": "H6MN03170"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN03170",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Tyler_Bass",
+    "website": "https://www.facebook.com/tylerbassforcongress"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H03-morrison-kelly",
+   "name": "Kelly Louise Morrison",
+   "sort_name": "Morrison, Kelly",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-MN-03",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MN03118",
+    "tip_slug": "H4MN03118"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MN03118",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 3,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Kelly_Morrison",
+    "website": "https://morrison.house.gov"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H04-mccollum-betty",
+   "name": "Betty McCollum",
+   "sort_name": "McCollum, Betty",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-MN-04",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0MN04049",
+    "tip_slug": "H0MN04049"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0MN04049",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Betty_McCollum",
+    "website": "https://mccollum.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H04-wikstrom-paul",
+   "name": "Paul Wikstrom",
+   "sort_name": "Wikstrom, Paul",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-MN-04",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN04293",
+    "tip_slug": "H6MN04293"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN04293",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Paul_Wikstrom",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H05-jackson-develle",
+   "name": "DeVelle LaVaughn Jackson",
+   "sort_name": "Jackson, DeVelle",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-MN-05",
+   "party": {
+    "code": "IND",
+    "letter": "I",
+    "label": "Independent"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN05373",
+    "tip_slug": "H6MN05373"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN05373",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Develle_Jackson",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/5/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H05-nagel-john",
+   "name": "John Nagel",
+   "sort_name": "Nagel, John",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-MN-05",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN05357",
+    "tip_slug": "H6MN05357"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN05357",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/John_Nagel",
+    "website": "https://www.instagram.com/nagelforcongress"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H05-omar-ilhan",
+   "name": "Ilhan Omar",
+   "sort_name": "Omar, Ilhan",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-MN-05",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8MN05239",
+    "tip_slug": "H8MN05239"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8MN05239",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Ilhan_Omar",
+    "website": "https://omar.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H06-chapin-doug",
+   "name": "Doug Chapin",
+   "sort_name": "Chapin, Doug",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-MN-06",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN06215",
+    "tip_slug": "H6MN06215"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN06215",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Doug_Chapin",
+    "website": "https://www.instagram.com/chapin4congress"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H06-emmer-thomas",
+   "name": "Thomas Earl \"Tom\" Emmer Jr.",
+   "sort_name": "Emmer, Thomas",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-MN-06",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MN06087",
+    "tip_slug": "H4MN06087"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MN06087",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Thomas_Emmer",
+    "website": "https://emmer.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/6/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H07-fischbach-michelle",
+   "name": "Michelle Fischbach",
+   "sort_name": "Fischbach, Michelle",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-MN-07",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0MN07091",
+    "tip_slug": "H0MN07091"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0MN07091",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Michelle_Fischbach",
+    "website": "https://fischbach.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/7/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H07-osberg-erik",
+   "name": "Erik Osberg",
+   "sort_name": "Osberg, Erik",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-MN-07",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN07312",
+    "tip_slug": "H6MN07312"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN07312",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Erik_Osberg",
+    "website": "https://www.youtube.com/@ErikOsbergForCongress"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/7/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H08-stauber-peter",
+   "name": "Peter Allen \"Pete\" Stauber",
+   "sort_name": "Stauber, Peter",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-MN-08",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8MN08043",
+    "tip_slug": "H8MN08043"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8MN08043",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Peter_Stauber",
+    "website": "https://stauber.house.gov"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/8/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MN-H08-swanson-trina",
+   "name": "Trina Swanson",
+   "sort_name": "Swanson, Trina",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-MN-08",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic-Farmer-Labor"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MN08179",
+    "tip_slug": "H6MN08179"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MN08179",
+    "http": 200,
+    "checked_at": "2026-10-31T19:51Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MN",
+    "ballotpedia": "https://ballotpedia.org/Trina_Swanson",
+    "website": "https://trinaforcongress.com/"
+   },
+   "llf_race_path": "/elections/2026/minnesota/house/8/",
+   "gaps": [],
+   "coverage": []
+  }
+ ]
+}

@@ -1,0 +1,436 @@
+{
+ "captured_at_utc": "2026-10-31T00:00:00Z",
+ "sources": {
+  "official_checked": null,
+  "official_blocked": "candidates.sos.mn.gov offers its filing data through a form and a media-file download behind a Radware captcha on 2026-10-31; the Secretary of State list was NOT read",
+  "transcribed_from": "https://www.thegreenpapers.com/G26/MN",
+  "cross_checks": [
+   "TIP export docs/state-packets/MN (race_entries)"
+  ]
+ },
+ "governor": [
+  {
+   "name": "Amy Klobuchar",
+   "party_code": "DEM",
+   "party": "Democratic-Farmer-Labor",
+   "ballot_lines": [
+    "Democratic-Farmer-Labor"
+   ],
+   "incumbent": false,
+   "running_mate": "Ben Schierer",
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Amy_J._Klobuchar",
+   "source_url": "https://www.thegreenpapers.com/G26/MN",
+   "tip_name": null,
+   "fec_candidate_id": null
+  },
+  {
+   "name": "Lisa Demuth",
+   "party_code": "REP",
+   "party": "Republican",
+   "ballot_lines": [
+    "Republican"
+   ],
+   "incumbent": false,
+   "running_mate": "Ryan Wilson",
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Lisa_Demuth",
+   "source_url": "https://www.thegreenpapers.com/G26/MN",
+   "tip_name": null,
+   "fec_candidate_id": null
+  },
+  {
+   "name": "Steven Young",
+   "party_code": "GRN",
+   "party": "Green",
+   "ballot_lines": [
+    "Green"
+   ],
+   "incumbent": false,
+   "running_mate": "Jane Kirby",
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Steven_Young",
+   "source_url": "https://www.thegreenpapers.com/G26/MN",
+   "tip_name": null,
+   "fec_candidate_id": null
+  }
+ ],
+ "senate": [
+  {
+   "name": "Margaret \"Peggy\" Flanagan",
+   "party_code": "DEM",
+   "party": "Democratic-Farmer-Labor",
+   "ballot_lines": [
+    "Democratic-Farmer-Labor"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Margaret__Peggy__Flanagan",
+   "source_url": "https://www.thegreenpapers.com/G26/MN",
+   "tip_name": null,
+   "fec_candidate_id": "S6MN00440",
+   "note": "Lieutenant Governor; won the August 11 DFL primary for the Senate nomination"
+  },
+  {
+   "name": "Michele Tafoya",
+   "party_code": "REP",
+   "party": "Republican",
+   "ballot_lines": [
+    "Republican"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Michele_Tafoya",
+   "source_url": "https://www.thegreenpapers.com/G26/MN",
+   "tip_name": null,
+   "fec_candidate_id": "S6MN00556"
+  },
+  {
+   "name": "Rebecca Whiting",
+   "party_code": "LIB",
+   "party": "Libertarian",
+   "ballot_lines": [
+    "Libertarian"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Rebecca_Whiting",
+   "source_url": "https://www.thegreenpapers.com/G26/MN",
+   "tip_name": null,
+   "fec_candidate_id": "S6MN00572"
+  },
+  {
+   "name": "Marisa Simonetti",
+   "party_code": "IND",
+   "party": "Independent",
+   "ballot_lines": [
+    "Independent"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Marisa_Simonetti",
+   "source_url": "https://www.thegreenpapers.com/G26/MN",
+   "tip_name": null,
+   "fec_candidate_id": "S6MN00481"
+  },
+  {
+   "name": "Kevin Dwire",
+   "party_code": "WRI",
+   "party": "Socialist Workers Party",
+   "ballot_lines": [
+    "Write-in"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Kevin_Dwire",
+   "source_url": "https://www.thegreenpapers.com/G26/MN",
+   "tip_name": null,
+   "fec_candidate_id": null,
+   "write_in": true,
+   "note": "Write-in; Green Papers lists no FEC ID"
+  }
+ ],
+ "house": {
+  "1": [
+   {
+    "name": "Jacob \"Jake\" Johnson",
+    "party_code": "DEM",
+    "party": "Democratic-Farmer-Labor",
+    "ballot_lines": [
+     "Democratic-Farmer-Labor"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Jacob__Jake__Johnson",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN01190"
+   },
+   {
+    "name": "Brad Finstad",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Brad_Finstad",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H2MN01223"
+   }
+  ],
+  "2": [
+   {
+    "name": "Matt Little",
+    "party_code": "DEM",
+    "party": "Democratic-Farmer-Labor",
+    "ballot_lines": [
+     "Democratic-Farmer-Labor"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Matt_Little",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN02230"
+   },
+   {
+    "name": "Eric R. Pratt",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Eric_R._Pratt",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN02263"
+   }
+  ],
+  "3": [
+   {
+    "name": "Kelly Louise Morrison",
+    "party_code": "DEM",
+    "party": "Democratic-Farmer-Labor",
+    "ballot_lines": [
+     "Democratic-Farmer-Labor"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Kelly_Louise_Morrison",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H4MN03118"
+   },
+   {
+    "name": "Tyler Michael Bass",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Tyler_Michael_Bass",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN03170"
+   }
+  ],
+  "4": [
+   {
+    "name": "Betty McCollum",
+    "party_code": "DEM",
+    "party": "Democratic-Farmer-Labor",
+    "ballot_lines": [
+     "Democratic-Farmer-Labor"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Betty_McCollum",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H0MN04049"
+   },
+   {
+    "name": "Paul Wikstrom",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Paul_Wikstrom",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN04293"
+   }
+  ],
+  "5": [
+   {
+    "name": "Ilhan Omar",
+    "party_code": "DEM",
+    "party": "Democratic-Farmer-Labor",
+    "ballot_lines": [
+     "Democratic-Farmer-Labor"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Ilhan_Omar",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H8MN05239"
+   },
+   {
+    "name": "John Nagel",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "John_Nagel",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN05357"
+   },
+   {
+    "name": "DeVelle LaVaughn Jackson",
+    "party_code": "IND",
+    "party": "Independent",
+    "ballot_lines": [
+     "Independent"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "DeVelle_LaVaughn_Jackson",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN05373"
+   }
+  ],
+  "6": [
+   {
+    "name": "Doug Chapin",
+    "party_code": "DEM",
+    "party": "Democratic-Farmer-Labor",
+    "ballot_lines": [
+     "Democratic-Farmer-Labor"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Doug_Chapin",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN06215"
+   },
+   {
+    "name": "Thomas Earl \"Tom\" Emmer Jr.",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Thomas_Earl__Tom__Emmer_Jr.",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H4MN06087"
+   }
+  ],
+  "7": [
+   {
+    "name": "Erik Osberg",
+    "party_code": "DEM",
+    "party": "Democratic-Farmer-Labor",
+    "ballot_lines": [
+     "Democratic-Farmer-Labor"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Erik_Osberg",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN07312"
+   },
+   {
+    "name": "Michelle Fischbach",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Michelle_Fischbach",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H0MN07091"
+   }
+  ],
+  "8": [
+   {
+    "name": "Trina Swanson",
+    "party_code": "DEM",
+    "party": "Democratic-Farmer-Labor",
+    "ballot_lines": [
+     "Democratic-Farmer-Labor"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Trina_Swanson",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H6MN08179"
+   },
+   {
+    "name": "Peter Allen \"Pete\" Stauber",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Peter_Allen__Pete__Stauber",
+    "source_url": "https://www.thegreenpapers.com/G26/MN",
+    "tip_name": null,
+    "fec_candidate_id": "H8MN08043"
+   }
+  ]
+ }
+}

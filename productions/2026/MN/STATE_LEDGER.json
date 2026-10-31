@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "state": "MN",
+  "state_name": "Minnesota",
+  "year": 2026,
+  "scope": "Governor, U.S. Senate, U.S. House",
+  "updated": "2026-10-31",
+  "updated_by": "claude",
+  "as_of_commit": "42b7c44",
+  "headline": "Minnesota 2026: roster, TIP join, portraits, markets, local pages and registry are built; TIP gap list awaits owner approval. Nothing deployed.",
+  "paths": [
+    "productions/2026/MN",
+    "data/elections/MN"
+  ],
+  "decisions_log": "productions/2026/MN/DECISIONS_AND_HISTORY.md",
+  "stages": [
+    {
+      "id": "roster",
+      "title": "Roster reconciled to the official listing (or the best labeled source)",
+      "status": "done",
+      "note": "Parsed from The Green Papers (labeled not official); Secretary of State list behind a captcha, not read. 3 governor, 5 Senate and 17 House rows.",
+      "evidence": [
+        "data/elections/MN/roster.json",
+        "data/elections/MN/captures/greenpapers_MN_2026-10-31.html"
+      ]
+    },
+    {
+      "id": "tip_join",
+      "title": "TIP export and join",
+      "status": "done",
+      "note": "TIP export and join: 23 of 25 candidates linked.",
+      "evidence": [
+        "data/elections/MN/candidates.json",
+        "data/elections/MN/tip_export/race_entries.json"
+      ]
+    },
+    {
+      "id": "tip_gaps",
+      "title": "TIP gap list shown to the owner; approved fixes applied",
+      "status": "waiting_owner",
+      "note": "Gap list written; TIP write script prepared and NOT run (needs owner approval).",
+      "evidence": [
+        "productions/2026/MN/research/TIP_GAP_LIST.md"
+      ]
+    },
+    {
+      "id": "portraits",
+      "title": "Portraits (licensed only; monograms otherwise)",
+      "status": "done",
+      "note": "9 licensed portraits found; 11 candidates show monograms.",
+      "evidence": [
+        "data/elections/MN/portraits.json"
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Kalshi markets",
+      "status": "done",
+      "note": "Kalshi governor, Senate and 8 House events captured 2026-10-31; MN-01 is the close seat.",
+      "evidence": [
+        "data/elections/MN/markets.json"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "State pages built locally (hub, governor, Senate, House directory, districts)",
+      "status": "done",
+      "note": "Built locally (225 pages, 0 violations). Not deployed, no state tile on the homepage yet, no governor hero.",
+      "evidence": [
+        "data/elections/MN/districts.json"
+      ]
+    },
+    {
+      "id": "registry",
+      "title": "Candidate registry built and validated (data/candidates/MN.json); gaps.csv reviewed",
+      "status": "done",
+      "note": "data/candidates/MN.json written and registry --check OK; 12 gap flags.",
+      "evidence": [
+        "data/candidates/MN.json",
+        "productions/2026/MN/gaps.csv"
+      ]
+    },
+    {
+      "id": "scout",
+      "title": "Story Scout: ranked angles with READY or NOT_READY",
+      "status": "todo"
+    },
+    {
+      "id": "image_briefs",
+      "title": "Image briefs (state tile and story heroes)",
+      "status": "todo"
+    },
+    {
+      "id": "tile_image",
+      "title": "State tile image returned and installed",
+      "status": "todo"
+    },
+    {
+      "id": "article_draft",
+      "title": "Articles drafted by ChatGPT",
+      "status": "todo"
+    },
+    {
+      "id": "factcheck",
+      "title": "Independent fact-check of used claims",
+      "status": "todo"
+    },
+    {
+      "id": "publish",
+      "title": "Deploy state pages, articles and tile",
+      "status": "todo"
+    },
+    {
+      "id": "video",
+      "title": "Video asset pack (after approved articles and script direction)",
+      "status": "blocked",
+      "note": "asset pack only; no MP4 unless explicitly requested"
+    }
+  ],
+  "lanes": {
+    "articles": {
+      "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
+      "role": "Write the article drafts from Claude's briefs. Never fact-check your own draft. Never publish.",
+      "tasks": []
+    },
+    "images": {
+      "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
+      "role": "Make illustrated images from the briefs. Match the existing set. Never make faces, readable text or campaign branding.",
+      "tasks": []
+    }
+  },
+  "claude_tasks": [
+    {
+      "id": "C1",
+      "title": "Build the roster and reconcile it to the official listing",
+      "status": "done",
+      "gate": "none"
+    },
+    {
+      "id": "C2",
+      "title": "TIP export, join and gap list",
+      "status": "waiting_owner",
+      "gate": "owner approval before any TIP write"
+    },
+    {
+      "id": "C3",
+      "title": "Portraits, markets, state pages, tests, strict build",
+      "status": "done",
+      "gate": "none"
+    },
+    {
+      "id": "C3b",
+      "title": "python tools/elections/build_registry.py MN (then build.py --strict); turn productions/2026/MN/gaps.csv into the TIP fix list",
+      "status": "done",
+      "gate": "owner approval before any TIP write"
+    },
+    {
+      "id": "C4",
+      "title": "Story Scout, then briefs and claims for every READY angle; add them as tasks in the articles lane",
+      "status": "todo",
+      "gate": "none"
+    },
+    {
+      "id": "C5",
+      "title": "Image briefs; add them as tasks in the images lane",
+      "status": "todo",
+      "gate": "none"
+    }
+  ],
+  "waiting_on_owner": [
+    "Approve (or amend) productions/2026/MN/research/TIP_GAP_LIST.md before any TIP write; choose which Klobuchar profile carries the governor entry",
+    "Decide whether someone opens the Minnesota Secretary of State candidate finder by hand to verify the roster (the download is behind a captcha)"
+  ],
+  "blocked": [
+    {
+      "what": "Minnesota Secretary of State candidate filings (candidates.sos.mn.gov)",
+      "why": "the state media-file download returned a Radware captcha page on 2026-10-31; the search form is interactive",
+      "rule": "never solve or get past a captcha or bot check; the roster stays Green Papers, labeled not official, until a person reads the list"
+    }
+  ],
+  "do_not_redo": [
+    "Do not retry the Secretary of State download or any captcha route",
+    "Do not run apply-mn-gap-fixes.mjs without the owner's approval"
+  ],
+  "conflicts_to_watch": [
+    "Only one Claude session writes to this state at a time"
+  ],
+  "readback_checks": [
+    {
+      "lane": "articles",
+      "q": "May you fact-check your own draft, and who does?",
+      "expect_any": [
+        "claude",
+        "reviewer",
+        "independent",
+        "not"
+      ]
+    },
+    {
+      "lane": "articles",
+      "q": "May you cite a TIP grade that is not visible on the linked profile?",
+      "expect_any": [
+        "no",
+        "not"
+      ]
+    },
+    {
+      "lane": "articles",
+      "q": "What does a Kalshi price represent?",
+      "expect_any": [
+        "not a forecast",
+        "quotation",
+        "contract"
+      ]
+    },
+    {
+      "lane": "images",
+      "q": "What are the three things the image must never contain?",
+      "expect_any": [
+        "face",
+        "text",
+        "branding"
+      ]
+    },
+    {
+      "lane": "images",
+      "q": "What credit line will the page print under the image?",
+      "expect_any": [
+        "ai illustration"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "state": "MN",
+  "as_of_utc": "2026-10-31T19:49:58.702Z",
+  "counts": {
+    "races": 11,
+    "race_entries": 22,
+    "candidate_rows": 114,
+    "fec_ids": 114,
+    "grade_rows": 50,
+    "graded": 50,
+    "candidates_with_any_grade": 12,
+    "candidates_with_finance_snapshot": 92,
+    "candidates_with_photo": 47,
+    "fec_totals_rows": 67,
+    "commitment_status_rows": 490,
+    "money_signal_rows": 8
+  },
+  "entry_status": {
+    "active": 21,
+    "review": 1
+  },
+  "entry_verification": {
+    "Confirmed from owner-supplied sources": 16,
+    "National source only": 4,
+    "Official primary or filing record checked": 2
+  },
+  "race_verification": {
+    "seed": 11
+  },
+  "reconciliation": {
+    "entries_without_candidate_row": 0,
+    "entries_without_fec_id": 1,
+    "candidate_rows_not_in_race_entries": 93
+  }
+}

@@ -1,0 +1,13 @@
+llf_id,name,office,district,party,gap,action
+MN-G-demuth-lisa,Lisa Demuth,governor,,REP,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+MN-G-demuth-lisa,Lisa Demuth,governor,,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MN-G-demuth-lisa,Lisa Demuth,governor,,REP,profile_unverified,Editor information only
+MN-G-klobuchar-amy,Amy Klobuchar,governor,,DEM,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+MN-G-young-steven,Steven Young,governor,,GRN,tip_profile_missing,"Add to the TIP fix list (owner approves the write), then re-export"
+MN-S-dwire-kevin,Kevin Dwire,senate,,WRI,tip_profile_missing,"Add to the TIP fix list (owner approves the write), then re-export"
+MN-S-flanagan-margaret,"Margaret ""Peggy"" Flanagan",senate,,DEM,profile_unverified,Editor information only
+MN-S-whiting-rebecca,Rebecca Whiting,senate,,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MN-S-whiting-rebecca,Rebecca Whiting,senate,,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MN-H05-jackson-develle,DeVelle LaVaughn Jackson,house,5,IND,profile_unverified,Editor information only
+MN-H06-emmer-thomas,"Thomas Earl ""Tom"" Emmer Jr.",house,6,REP,profile_unverified,Editor information only
+MN-H08-stauber-peter,"Peter Allen ""Pete"" Stauber",house,8,REP,profile_unverified,Editor information only

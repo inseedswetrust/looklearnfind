@@ -12,7 +12,7 @@ from pathlib import Path
 import geopandas as gpd
 
 ROOT = Path(__file__).resolve().parents[2]
-FIPS = {"IL": "17", "MI": "26", "NY": "36", "NJ": "34"}
+FIPS = {"IL": "17", "MI": "26", "NY": "36", "NJ": "34", "MN": "27"}
 st, shp = sys.argv[1], sys.argv[2]
 cty = sys.argv[3] if len(sys.argv) > 3 else None
 g = gpd.read_file(shp)

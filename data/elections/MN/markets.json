@@ -1,0 +1,422 @@
+{
+ "captured_at_utc": "2026-10-31T19:51:49Z",
+ "source": "Kalshi public API v2 (api.elections.kalshi.com)",
+ "races": {
+  "governor": {
+   "event_ticker": "GOVPARTYMN-26",
+   "title": "Minnesota Governor winner?",
+   "url": "https://kalshi.com/markets/govpartymn",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "GOVPARTYMN-26-D",
+     "title": "Will the Democratic party win the governorship in Minnesota",
+     "yes_label": "Amy Klobuchar",
+     "no_label": "Amy Klobuchar",
+     "status": "active",
+     "yes_bid": "0.9620",
+     "yes_ask": "0.9680",
+     "last": "0.9680",
+     "previous": "0.9690",
+     "volume": "245541.42",
+     "volume_24h": "678.55",
+     "open_interest": "142099.82",
+     "rules": "If a representative of the Democratic party is inaugurated as the governor of Minnesota pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "GOVPARTYMN-26-R",
+     "title": "Will the Republican party win the governorship in Minnesota",
+     "yes_label": "Lisa Demuth",
+     "no_label": "Lisa Demuth",
+     "status": "active",
+     "yes_bid": "0.0340",
+     "yes_ask": "0.0390",
+     "last": "0.0390",
+     "previous": "0.0380",
+     "volume": "456713.31",
+     "volume_24h": "17881.57",
+     "open_interest": "343487.20",
+     "rules": "If a representative of the Republican party is inaugurated as the governor of Minnesota pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "senate": {
+   "event_ticker": "SENATEMN-26",
+   "title": "Minnesota Senate winner?",
+   "url": "https://kalshi.com/markets/senatemn",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "SENATEMN-26-R",
+     "title": "Will Republicans win the Senate race in Minnesota?",
+     "yes_label": "Michele Tafoya",
+     "no_label": "Michele Tafoya",
+     "status": "active",
+     "yes_bid": "0.0940",
+     "yes_ask": "0.0960",
+     "last": "0.0960",
+     "previous": "0.0960",
+     "volume": "3921146.23",
+     "volume_24h": "156192.09",
+     "open_interest": "2571399.87",
+     "rules": "If a representative of the Republican party is sworn in as a Senator of Minnesota for the term beginning in 2027, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "SENATEMN-26-D",
+     "title": "Will Democratic (DFL)s win the Senate race in Minnesota?",
+     "yes_label": "Peggy Flanagan",
+     "no_label": "Peggy Flanagan",
+     "status": "active",
+     "yes_bid": "0.9070",
+     "yes_ask": "0.9080",
+     "last": "0.9080",
+     "previous": "0.9020",
+     "volume": "1813856.62",
+     "volume_24h": "77413.98",
+     "open_interest": "1169153.29",
+     "rules": "If a representative of the Democratic (DFL) party is sworn in as a Senator of Minnesota for the term beginning in 2027, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-01": {
+   "event_ticker": "KXHOUSERACE-MN01-26",
+   "title": "MN-01 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-MN01-26-D",
+     "title": "Will Democratic win the House race for MN-01?",
+     "yes_label": "Jake Johnson",
+     "no_label": "Jake Johnson",
+     "status": "active",
+     "yes_bid": "0.4000",
+     "yes_ask": "0.4100",
+     "last": "0.4000",
+     "previous": "0.3800",
+     "volume": "208377.98",
+     "volume_24h": "2642.31",
+     "open_interest": "119493.53",
+     "rules": "If the House member sworn in for MN-01 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-MN01-26-R",
+     "title": "Will Republican win the House race for MN-01?",
+     "yes_label": "Brad Finstad",
+     "no_label": "Brad Finstad",
+     "status": "active",
+     "yes_bid": "0.6100",
+     "yes_ask": "0.6200",
+     "last": "0.6100",
+     "previous": "0.6200",
+     "volume": "190215.22",
+     "volume_24h": "454.32",
+     "open_interest": "96002.83",
+     "rules": "If the House member sworn in for MN-01 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-02": {
+   "event_ticker": "HOUSEMN2-26",
+   "title": "MN-02 House winner?",
+   "url": "https://kalshi.com/markets/housemn2",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSEMN2-26-D",
+     "title": "Will a Democrat win the House race for MN-2?",
+     "yes_label": "Matt Little",
+     "no_label": "Matt Little",
+     "status": "active",
+     "yes_bid": "0.9360",
+     "yes_ask": "0.9370",
+     "last": "0.9370",
+     "previous": "0.9370",
+     "volume": "6425.80",
+     "volume_24h": "15.35",
+     "open_interest": "2900.26",
+     "rules": "If the House member sworn in for MN-02 for the term beginning in 2027 is a member of the Democratic (DFL) Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSEMN2-26-R",
+     "title": "Will a Republican win the House race for MN-2?",
+     "yes_label": "Eric Pratt",
+     "no_label": "Eric Pratt",
+     "status": "active",
+     "yes_bid": "0.0470",
+     "yes_ask": "0.0500",
+     "last": "0.0500",
+     "previous": "0.0500",
+     "volume": "3617.61",
+     "volume_24h": "0.00",
+     "open_interest": "2305.17",
+     "rules": "If the House member sworn in for MN-02 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-03": {
+   "event_ticker": "KXHOUSERACE-MN03-26",
+   "title": "MN-03 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-MN03-26-D",
+     "title": "Will Democratic win the House race for MN-03?",
+     "yes_label": "Kelly Morrison",
+     "no_label": "Kelly Morrison",
+     "status": "active",
+     "yes_bid": "0.9740",
+     "yes_ask": "0.9890",
+     "last": "0.9900",
+     "previous": "0.9900",
+     "volume": "1350.51",
+     "volume_24h": "0.00",
+     "open_interest": "501.51",
+     "rules": "If the House member sworn in for MN-03 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-MN03-26-R",
+     "title": "Will Republican win the House race for MN-03?",
+     "yes_label": "Tyler Bass",
+     "no_label": "Tyler Bass",
+     "status": "active",
+     "yes_bid": "0.0140",
+     "yes_ask": "0.0350",
+     "last": "0.0460",
+     "previous": "0.0460",
+     "volume": "463.50",
+     "volume_24h": "0.00",
+     "open_interest": "405.50",
+     "rules": "If the House member sworn in for MN-03 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-04": {
+   "event_ticker": "KXHOUSERACE-MN04-26",
+   "title": "MN-04 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-MN04-26-D",
+     "title": "Will Democratic win the House race for MN-04?",
+     "yes_label": "Betty McCollum",
+     "no_label": "Betty McCollum",
+     "status": "active",
+     "yes_bid": "0.9600",
+     "yes_ask": "0.9790",
+     "last": "0.9730",
+     "previous": "0.9790",
+     "volume": "18019.72",
+     "volume_24h": "100.49",
+     "open_interest": "4839.75",
+     "rules": "If the House member sworn in for MN-04 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-MN04-26-R",
+     "title": "Will Republican win the House race for MN-04?",
+     "yes_label": "Paul Wikstrom",
+     "no_label": "Paul Wikstrom",
+     "status": "active",
+     "yes_bid": "0.0120",
+     "yes_ask": "0.0390",
+     "last": "0.0420",
+     "previous": "0.0420",
+     "volume": "4353.17",
+     "volume_24h": "0.00",
+     "open_interest": "2292.18",
+     "rules": "If the House member sworn in for MN-04 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-05": {
+   "event_ticker": "KXHOUSERACE-MN05-26",
+   "title": "MN-05 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-MN05-26-D",
+     "title": "Will Democratic win the House race for MN-05?",
+     "yes_label": "Ilhan Omar",
+     "no_label": "Ilhan Omar",
+     "status": "active",
+     "yes_bid": "0.9700",
+     "yes_ask": "0.9730",
+     "last": "0.9740",
+     "previous": "0.9680",
+     "volume": "1172134.01",
+     "volume_24h": "64711.80",
+     "open_interest": "835461.50",
+     "rules": "If the House member sworn in for MN-05 for the term beginning in 2027 is a member of the Democratic party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-MN05-26-R",
+     "title": "Will Republican win the House race for MN-05?",
+     "yes_label": "John Nagel",
+     "no_label": "John Nagel",
+     "status": "active",
+     "yes_bid": "0.0270",
+     "yes_ask": "0.0320",
+     "last": "0.0320",
+     "previous": "0.0300",
+     "volume": "539746.18",
+     "volume_24h": "49101.71",
+     "open_interest": "450990.19",
+     "rules": "If the House member sworn in for MN-05 for the term beginning in 2027 is a member of the Republican party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-MN05-26-DJAC",
+     "title": "Will DeVelle Jackson win the House race for MN-05?",
+     "yes_label": "DeVelle Jackson",
+     "no_label": "DeVelle Jackson",
+     "status": "active",
+     "yes_bid": "0.0000",
+     "yes_ask": "0.0100",
+     "last": "0.0100",
+     "previous": "0.0100",
+     "volume": "85150.59",
+     "volume_24h": "467.59",
+     "open_interest": "81902.59",
+     "rules": "If the House member sworn in for MN-05 for the term beginning in 2027 is DeVelle Jackson, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-06": {
+   "event_ticker": "KXHOUSERACE-MN06-26",
+   "title": "MN-06 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-MN06-26-D",
+     "title": "Will Democratic win the House race for MN-06?",
+     "yes_label": "Doug Chapin",
+     "no_label": "Doug Chapin",
+     "status": "active",
+     "yes_bid": "0.0700",
+     "yes_ask": "0.0760",
+     "last": "0.0700",
+     "previous": "0.0600",
+     "volume": "19944.33",
+     "volume_24h": "2878.10",
+     "open_interest": "9672.89",
+     "rules": "If the House member sworn in for MN-06 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-MN06-26-R",
+     "title": "Will Republican win the House race for MN-06?",
+     "yes_label": "Tom Emmer",
+     "no_label": "Tom Emmer",
+     "status": "active",
+     "yes_bid": "0.9310",
+     "yes_ask": "0.9360",
+     "last": "0.9390",
+     "previous": "0.9450",
+     "volume": "11354.90",
+     "volume_24h": "415.00",
+     "open_interest": "5433.86",
+     "rules": "If the House member sworn in for MN-06 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-07": {
+   "event_ticker": "KXHOUSERACE-MN07-26",
+   "title": "MN-07 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-MN07-26-D",
+     "title": "Will Democratic win the House race for MN-07?",
+     "yes_label": "Erik Osberg",
+     "no_label": "Erik Osberg",
+     "status": "active",
+     "yes_bid": "0.0410",
+     "yes_ask": "0.0500",
+     "last": "0.0510",
+     "previous": "0.0430",
+     "volume": "4742.68",
+     "volume_24h": "296.79",
+     "open_interest": "3117.67",
+     "rules": "If the House member sworn in for MN-07 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-MN07-26-R",
+     "title": "Will Republican win the House race for MN-07?",
+     "yes_label": "Michelle Fischbach",
+     "no_label": "Michelle Fischbach",
+     "status": "active",
+     "yes_bid": "0.9540",
+     "yes_ask": "0.9590",
+     "last": "0.9590",
+     "previous": "0.9550",
+     "volume": "2592.28",
+     "volume_24h": "84.26",
+     "open_interest": "2229.90",
+     "rules": "If the House member sworn in for MN-07 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-08": {
+   "event_ticker": "KXHOUSERACE-MN08-26",
+   "title": "MN-08 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-MN08-26-D",
+     "title": "Will Democratic win the House race for MN-08?",
+     "yes_label": "Trina Swanson",
+     "no_label": "Trina Swanson",
+     "status": "active",
+     "yes_bid": "0.1500",
+     "yes_ask": "0.1600",
+     "last": "0.1600",
+     "previous": "0.1600",
+     "volume": "23374.65",
+     "volume_24h": "280.72",
+     "open_interest": "17327.17",
+     "rules": "If the House member sworn in for MN-08 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-MN08-26-R",
+     "title": "Will Republican win the House race for MN-08?",
+     "yes_label": "Pete Stauber",
+     "no_label": "Pete Stauber",
+     "status": "active",
+     "yes_bid": "0.8400",
+     "yes_ask": "0.8500",
+     "last": "0.8500",
+     "previous": "0.8400",
+     "volume": "33445.79",
+     "volume_24h": "2766.22",
+     "open_interest": "25296.91",
+     "rules": "If the House member sworn in for MN-08 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  }
+ }
+}
