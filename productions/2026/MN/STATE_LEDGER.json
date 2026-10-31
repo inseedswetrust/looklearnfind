@@ -6,8 +6,8 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-31",
   "updated_by": "claude",
-  "as_of_commit": "5a50699",
-  "headline": "Minnesota 2026: pages, TIP, markets, registry, images and two fact-checked articles are built locally; waiting on owner fact-check sign-off and deploy approval. Nothing deployed.",
+  "as_of_commit": "df843a1",
+  "headline": "Minnesota 2026 is live (hub, governor, Senate, House, 8 districts, 2 articles, 4 images). Governor article held; roster is Green Papers (unofficial).",
   "paths": [
     "productions/2026/MN",
     "data/elections/MN"
@@ -120,8 +120,8 @@
     {
       "id": "factcheck",
       "title": "Independent fact-check of used claims",
-      "status": "waiting_owner",
-      "note": "Independent review done; fixes applied; owner sign-off pending.",
+      "status": "done",
+      "note": "Independent review (claude-factcheck-subagent-3) done, fixes applied; owner signed off 2026-10-31.",
       "evidence": [
         "productions/2026/MN/qa/FACTCHECK_REPORT.md"
       ]
@@ -129,7 +129,8 @@
     {
       "id": "publish",
       "title": "Deploy state pages, articles and tile",
-      "status": "todo"
+      "status": "done",
+      "note": "Owner signed off the fact-check and approved the deploy 2026-10-31 ('Sign off, deploy'). Deployed: 15 Minnesota pages, 2 articles, 4 images, homepage tile; 225 local pages return 200 live. Backup ~/backups/looklearnfind.com-pre-20261031e.tgz."
     },
     {
       "id": "video",
@@ -146,7 +147,7 @@
         {
           "id": "MN-SEN-A",
           "title": "Minnesota Senate: a four-point poll lead within the margin, a market near 0.91 and a quiet race: State of the Race (schema 01), 700 to 1,000 words",
-          "status": "waiting_owner",
+          "status": "published",
           "inputs": [
             "productions/2026/MN/package_src/stories/MN-SEN-A/STORY_BRIEF.md",
             "productions/2026/MN/package_src/stories/MN-SEN-A/CLAIMS.csv",
@@ -162,7 +163,7 @@
         {
           "id": "MN-01-A",
           "title": "Minnesota's 1st: outside spending passes the Senate race and the market sits near 0.40: State of the Race (schema 01), 700 to 1,000 words",
-          "status": "waiting_owner",
+          "status": "published",
           "inputs": [
             "productions/2026/MN/package_src/stories/MN-01-A/STORY_BRIEF.md",
             "productions/2026/MN/package_src/stories/MN-01-A/CLAIMS.csv",
@@ -229,10 +230,7 @@
       "gate": "none"
     }
   ],
-  "waiting_on_owner": [
-    "Decide whether someone opens the Minnesota Secretary of State candidate finder by hand to verify the roster (the download is behind a captcha)",
-    "Sign off the Minnesota fact-check (productions/2026/MN/qa/FACTCHECK_REPORT.md) and approve the deploy of the Minnesota pages, two articles and four images"
-  ],
+  "waiting_on_owner": [],
   "blocked": [
     {
       "what": "Minnesota Secretary of State candidate filings (candidates.sos.mn.gov)",

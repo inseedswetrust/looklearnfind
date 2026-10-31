@@ -31,3 +31,7 @@ Newest last. One entry per stage: what was done, what was decided, what is open.
 - Converted with edits: front matter cleaned, Finstad's TIP grades added (his profile now shows four graded issues), openfile notes rewritten.
 - Independent fact-check (claude-factcheck-subagent-3): Senate CLEARS_WITH_FIXES, MN-01 BLOCKED (the 'outpaced the Senate race' headline compared different periods). Fixes applied; MN-01 now says spending 'tops $2.5 million' with MPR's comparison attributed. Revised wording not re-run through the gate.
 - Open: owner sign-off on the fact-check; deploy approval; governor article still held; the roster is Green Papers (unofficial); the live `data/discovery.json` has sidebar copy that was already approved.
+
+## 2026-10-31: deployed
+- Owner: 'Sign off, deploy'. Standard zip (only Minnesota pages were new; all other changed pages were already approved). Backup `~/backups/looklearnfind.com-pre-20261031e.tgz`. 225 of 225 local pages 200 live; images 200; MN-01 title is the corrected one. Kalshi quotes in the articles are the 19:51 UTC capture and are dated in the text.
+- Open: governor article (needs the Star Tribune poll opened); official roster verification; Dwire and the other directory gaps.
