@@ -1,0 +1,1802 @@
+{
+ "schema": 1,
+ "state": "NJ",
+ "state_name": "New Jersey",
+ "state_slug": "new-jersey",
+ "cycle": 2026,
+ "built_from": {
+  "roster_captured_at": "2026-10-31T00:00:00Z",
+  "candidates_as_of": "2026-10-31T13:45:57Z",
+  "tip_export_as_of": "2026-10-31T12:51:42.004Z"
+ },
+ "roster": {
+  "basis": "official",
+  "label": "New Jersey Division of Elections official candidate lists",
+  "limitations": ""
+ },
+ "candidates": [
+  {
+   "llf_id": "NJ-S-booker-cory",
+   "name": "Cory A. Booker",
+   "sort_name": "Booker, Cory",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-NJ",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S4NJ00185",
+    "tip_slug": "S4NJ00185"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S4NJ00185",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 3,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Cory_Booker",
+    "website": "https://www.booker.senate.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/senate/",
+   "gaps": [],
+   "coverage": [
+    "new-jersey-senate-booker-murphy-money-debate-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-S-fernandez-veronica",
+   "name": "Veronica Fernandez",
+   "sort_name": "Fernandez, Veronica",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-NJ",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "END THE CORRUPTION!"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S0NJ00258",
+    "tip_slug": "S0NJ00258"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S0NJ00258",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/senate/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": [
+    "new-jersey-senate-booker-murphy-money-debate-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-S-kuniansky-joanne",
+   "name": "Joanne Kuniansky",
+   "sort_name": "Kuniansky, Joanne",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-NJ",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Socialist Workers Party"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S4NJ00144",
+    "tip_slug": "S4NJ00144"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S4NJ00144",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/senate/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": [
+    "new-jersey-senate-booker-murphy-money-debate-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-S-murphy-justin",
+   "name": "Justin Michael Murphy",
+   "sort_name": "Murphy, Justin",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-NJ",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S4NJ00532",
+    "tip_slug": "S4NJ00532"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S4NJ00532",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Justin_Murphy",
+    "website": "https://www.youtube.com/@JustinMurphy4Senate"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/senate/",
+   "gaps": [],
+   "coverage": [
+    "new-jersey-senate-booker-murphy-money-debate-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-S-nicasio-eduardo",
+   "name": "Eduardo Jose Castillo Nicasio",
+   "sort_name": "Nicasio, Eduardo",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-NJ",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6NJ00495",
+    "tip_slug": "S6NJ00495"
+   },
+   "tip": {
+    "url": null,
+    "http": 404,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": null,
+    "profile_status": null,
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/senate/",
+   "gaps": [
+    "tip_profile_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H01-galdo-damon",
+   "name": "Damon Galdo",
+   "sort_name": "Galdo, Damon",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-NJ-01",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2NJ01187",
+    "tip_slug": "H2NJ01187"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2NJ01187",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Damon_Galdo",
+    "website": "https://www.tiktok.com/@damongaldonj"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H01-norcross-donald",
+   "name": "Donald W. Norcross",
+   "sort_name": "Norcross, Donald",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-NJ-01",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NJ01084",
+    "tip_slug": "H4NJ01084"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NJ01084",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Donald_Norcross",
+    "website": "https://norcross.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H02-drew-jeff",
+   "name": "Jeff Van Drew",
+   "sort_name": "Drew, Jeff",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-NJ-02",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8NJ02166",
+    "tip_slug": "H8NJ02166"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8NJ02166",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Jeff_Van_Drew",
+    "website": "https://vandrew.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H02-mora-ramon",
+   "name": "Ramon Mora, Jr.",
+   "sort_name": "Mora, Ramon",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-NJ-02",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Independent"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ02269",
+    "tip_slug": "H6NJ02269"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ02269",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Ramon_Mora",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/2/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H02-mullock-zachary",
+   "name": "Zachary \"Zack\" Mullock",
+   "sort_name": "Mullock, Zachary",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-NJ-02",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ02251",
+    "tip_slug": "H6NJ02251"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ02251",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Zack_Mullock",
+    "website": "https://www.youtube.com/@zackmullock5887"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H03-conaway-herbert",
+   "name": "Herbert \"Herb\" Conaway, Jr.",
+   "sort_name": "Conaway, Herbert",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-NJ-03",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NJ03080",
+    "tip_slug": "H4NJ03080"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NJ03080",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 3,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Herb_Conaway",
+    "website": "https://conaway.house.gov"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H03-kelly-ryan",
+   "name": "Ryan Michael Kelly",
+   "sort_name": "Kelly, Ryan",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-NJ-03",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "AFFORDABILITY, ACCOUNTABILITY, PEOPLE"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ03192",
+    "tip_slug": "H6NJ03192"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ03192",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Ryan_Kelly",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/3/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H03-mcguire-michael",
+   "name": "Michael Patrick McGuire",
+   "sort_name": "McGuire, Michael",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-NJ-03",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ03184",
+    "tip_slug": "H6NJ03184"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ03184",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Michael_McGuire",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/3/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H03-welzer-steven",
+   "name": "Steven \"Steve\" Welzer",
+   "sort_name": "Welzer, Steven",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-NJ-03",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NJ03247",
+    "tip_slug": "H4NJ03247"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NJ03247",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Steven_Welzer",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H04-peace-rachel",
+   "name": "Rachel Peace",
+   "sort_name": "Peace, Rachel",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-NJ-04",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ04257",
+    "tip_slug": "H6NJ04257"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ04257",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Rachel_Peace",
+    "website": "https://www.tiktok.com/@.peace4shore"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H04-smith-christopher",
+   "name": "Christopher Henry \"Chris\" Smith",
+   "sort_name": "Smith, Christopher",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-NJ-04",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8NJ04014",
+    "tip_slug": "H8NJ04014"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8NJ04014",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Chris_Smith_%28New_Jersey_congressional_representative%29",
+    "website": "https://chrissmith.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H05-gottheimer-joshua",
+   "name": "Joshua S. \"Josh\" Gottheimer",
+   "sort_name": "Gottheimer, Joshua",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-NJ-05",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ05171",
+    "tip_slug": "H6NJ05171"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ05171",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Josh_Gottheimer",
+    "website": "https://gottheimer.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H05-kirrane-sean",
+   "name": "Sean Joseph Kirrane",
+   "sort_name": "Kirrane, Sean",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-NJ-05",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ05221",
+    "tip_slug": "H6NJ05221"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ05221",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Sean_Kirrane",
+    "website": "https://www.instagram.com/vote.kirrane/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H05-rueda-adam",
+   "name": "Adam Rueda",
+   "sort_name": "Rueda, Adam",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-NJ-05",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "HUMANE SUSTAINABLE FUTURE"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ05247",
+    "tip_slug": "H6NJ05247"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ05247",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Adam_Rueda",
+    "website": "https://www.instagram.com/reprueda/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H06-herzig-hillary",
+   "name": "Hillary Herzig",
+   "sort_name": "Herzig, Hillary",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-NJ-06",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ06286",
+    "tip_slug": "H6NJ06286"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ06286",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Hillary_Herzig",
+    "website": "https://www.instagram.com/hillaryherzig/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H06-pallone-frank",
+   "name": "Frank Pallone, Jr.",
+   "sort_name": "Pallone, Frank",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-NJ-06",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8NJ03073",
+    "tip_slug": "H8NJ03073"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8NJ03073",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Frank_Pallone",
+    "website": "https://pallone.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H07-bennett-rebecca",
+   "name": "Rebecca Bennett",
+   "sort_name": "Bennett, Rebecca",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-NJ-07",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ07201",
+    "tip_slug": "H6NJ07201"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ07201",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Rebecca_Bennett",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/7/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": [
+    "new-jersey-nj07-bennett-kean-october-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-H07-kean-thomas",
+   "name": "Thomas H. \"Tom\" Kean, Jr.",
+   "sort_name": "Kean, Thomas",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-NJ-07",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0NJ07261",
+    "tip_slug": "H0NJ07261"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0NJ07261",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Thomas_Kean",
+    "website": "https://kean.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/7/",
+   "gaps": [],
+   "coverage": [
+    "new-jersey-nj07-bennett-kean-october-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-H07-o-toole-seamus",
+   "name": "Seamus Patrick O'Toole",
+   "sort_name": "O'Toole, Seamus",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-NJ-07",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "STOP ISRAEL'S GENOCIDE"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Green Papers lists no FEC ID (no federal filing found)"
+   },
+   "ids": {
+    "fec": "HOU-NJ07-OTOOLE",
+    "tip_slug": "HOU-NJ07-OTOOLE"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-NJ07-OTOOLE",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/7/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": [
+    "new-jersey-nj07-bennett-kean-october-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-H08-eliopoulos-aristotle",
+   "name": "Aristotle \"Ari\" Eliopoulos",
+   "sort_name": "Eliopoulos, Aristotle",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-NJ-08",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Independent"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Green Papers lists no FEC ID (no federal filing found)"
+   },
+   "ids": {
+    "fec": "HOU-NJ08-ELIOPOULOS",
+    "tip_slug": "HOU-NJ08-ELIOPOULOS"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-NJ08-ELIOPOULOS",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/8/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H08-honts-craig",
+   "name": "Craig Honts",
+   "sort_name": "Honts, Craig",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-NJ-08",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Socialist Workers Party"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Green Papers lists no FEC ID (no federal filing found)"
+   },
+   "ids": {
+    "fec": "HOU-NJ08-HONTS",
+    "tip_slug": "HOU-NJ08-HONTS"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-NJ08-HONTS",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/8/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H08-hughey-da-shone",
+   "name": "Da'shone Hughey",
+   "sort_name": "Hughey, Da'shone",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-NJ-08",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Socialist Workers Party"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ08217",
+    "tip_slug": "H6NJ08217"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ08217",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/8/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H08-menendez-rob",
+   "name": "Rob Menendez",
+   "sort_name": "Menendez, Rob",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-NJ-08",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2NJ08232",
+    "tip_slug": "H2NJ08232"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2NJ08232",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Rob_Menendez_%28New_Jersey%29",
+    "website": "https://menendez.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/8/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H09-bukovinac-terrisa",
+   "name": "Terrisa Bukovinac",
+   "sort_name": "Bukovinac, Terrisa",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-NJ-09",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "SAVE OUR BABIES"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ09306",
+    "tip_slug": "H6NJ09306"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ09306",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Terrisa_Bukovinac",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/9/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H09-pino-rosemary",
+   "name": "Rosemary L. \"Rosie\" Pino",
+   "sort_name": "Pino, Rosemary",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-NJ-09",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ09264",
+    "tip_slug": "H6NJ09264"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ09264",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Rosemary_Pino",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/9/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H09-pou-nelida",
+   "name": "Nelida \"Nellie\" Pou",
+   "sort_name": "Pou, Nelida",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-NJ-09",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NJ09194",
+    "tip_slug": "H4NJ09194"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NJ09194",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Nelida_Pou",
+    "website": "https://pou.house.gov"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/9/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H10-bucco-carmen",
+   "name": "Carmen Bucco",
+   "sort_name": "Bucco, Carmen",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-NJ-10",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NJ10135",
+    "tip_slug": "H4NJ10135"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NJ10135",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Carmen_Bucco",
+    "website": "https://www.tiktok.com/@buccofornewjersey"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/10/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H10-mciver-lamonica",
+   "name": "LaMonica R. McIver",
+   "sort_name": "McIver, LaMonica",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-NJ-10",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NJ10176",
+    "tip_slug": "H4NJ10176"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NJ10176",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Lamonica_McIver",
+    "website": "https://mciver.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/10/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H11-bond-alan",
+   "name": "Alan B. Bond",
+   "sort_name": "Bond, Alan",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-NJ-11",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Independent"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ11328",
+    "tip_slug": "H6NJ11328"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ11328",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Alan_Bond",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H11-hathaway-joe",
+   "name": "Joe Hathaway",
+   "sort_name": "Hathaway, Joe",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-NJ-11",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ11211",
+    "tip_slug": "H6NJ11211"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ11211",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Joe_Hathaway",
+    "website": "https://www.youtube.com/@JoeHathawayForCongress"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H11-mejia-analilia",
+   "name": "Analilia Mejia",
+   "sort_name": "Mejia, Analilia",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-NJ-11",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ11286",
+    "tip_slug": "H6NJ11286"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ11286",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Analilia_Mejia",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NJ-H12-hamawy-adam",
+   "name": "Adam Hamawy",
+   "sort_name": "Hamawy, Adam",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-NJ-12",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ12417",
+    "tip_slug": "H6NJ12417"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ12417",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Adam_Hamawy",
+    "website": "https://www.youtube.com/@HamawyForNJ/"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/12/",
+   "gaps": [],
+   "coverage": [
+    "new-jersey-nj12-hamawy-primary-outside-money-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-H12-jinete-andres",
+   "name": "Andres Jinete",
+   "sort_name": "Jinete, Andres",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-NJ-12",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NJ12441",
+    "tip_slug": "H6NJ12441"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NJ12441",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Andres_Jinete",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/12/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": [
+    "new-jersey-nj12-hamawy-primary-outside-money-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-H12-jordan-winston",
+   "name": "Winston Jordan",
+   "sort_name": "Jordan, Winston",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-NJ-12",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "GET MONEY OUT"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Green Papers lists no FEC ID (no federal filing found)"
+   },
+   "ids": {
+    "fec": "HOU-NJ12-JORDAN",
+    "tip_slug": "HOU-NJ12-JORDAN"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-NJ12-JORDAN",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/12/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": [
+    "new-jersey-nj12-hamawy-primary-outside-money-2026"
+   ]
+  },
+  {
+   "llf_id": "NJ-H12-mele-gregg",
+   "name": "Gregg Mele",
+   "sort_name": "Mele, Gregg",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-NJ-12",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2NJ06210",
+    "tip_slug": "H2NJ06210"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2NJ06210",
+    "http": 200,
+    "checked_at": "2026-10-31T13:45Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NJ",
+    "ballotpedia": "https://ballotpedia.org/Gregg_Mele",
+    "website": "https://www.tiktok.com/@greggmele"
+   },
+   "llf_race_path": "/elections/2026/new-jersey/house/12/",
+   "gaps": [],
+   "coverage": [
+    "new-jersey-nj12-hamawy-primary-outside-money-2026"
+   ]
+  }
+ ]
+}

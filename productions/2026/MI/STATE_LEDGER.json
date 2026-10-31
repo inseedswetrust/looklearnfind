@@ -6,7 +6,7 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-31",
   "updated_by": "claude",
-  "as_of_commit": "5836b7b",
+  "as_of_commit": "4045b52",
   "headline": "Michigan is complete except the video (owner's Remotion workflow) and optional new heroes. Hub, MI-A1, MI-A3, MI-A4, the tile and the Florida correction are live; the five governor entries are active on TIP.",
   "paths": [
     "productions/2026/MI",
@@ -64,6 +64,15 @@
         "tests/test_michigan_pages.py"
       ],
       "note": "not deployed"
+    },
+    {
+      "id": "registry",
+      "title": "Candidate registry built (data/candidates/MI.json); directory page lists all 75",
+      "status": "done",
+      "evidence": [
+        "data/candidates/MI.json",
+        "productions/2026/MI/gaps.csv"
+      ]
     },
     {
       "id": "scout",

@@ -5,7 +5,7 @@
   if (!form) return;
   var tabsEl = document.querySelector('[data-search-tabs]'), out = document.querySelector('[data-search-results]'), input = form.q;
   var index = [], ledger = {items: [], total: 0}, tab = 'all', thr = [];
-  var LABEL = {story: 'Story', find: 'Find', thread: 'Thread', topic: 'Topic', page: 'Page', look: 'Ledger'};
+  var LABEL = {story: 'Story', find: 'Find', thread: 'Thread', topic: 'Topic', page: 'Page', look: 'Ledger', candidate: 'Candidate'};
 
   function score(it, terms, full) {
     var title = it.title.toLowerCase(), dek = (it.dek || '').toLowerCase(), txt = ((it.text || '') + ' ' + (it.threads || []).join(' ')).toLowerCase(), s = 0;
@@ -34,9 +34,9 @@
       }
     });
     hits.sort(function (a, b) { return b.s - a.s; });
-    var counts = {all: hits.length + ledger.total, story: 0, find: 0, thread: 0, topic: 0, look: ledger.total};
+    var counts = {all: hits.length + ledger.total, story: 0, find: 0, thread: 0, topic: 0, candidate: 0, look: ledger.total};
     hits.forEach(function (h) { if (counts[h.it.t] !== undefined) counts[h.it.t]++; });
-    tabsEl.innerHTML = [['all', 'All'], ['story', 'Stories'], ['find', 'Finds'], ['look', 'Ledger'], ['thread', 'Threads'], ['topic', 'Topics']].map(function (t) { return '<button role="tab" data-tab="' + t[0] + '" aria-selected="' + (tab === t[0]) + '">' + t[1] + ' (' + counts[t[0]] + ')</button>'; }).join('');
+    tabsEl.innerHTML = [['all', 'All'], ['story', 'Stories'], ['find', 'Finds'], ['look', 'Ledger'], ['thread', 'Threads'], ['topic', 'Topics'], ['candidate', 'Candidates']].map(function (t) { return '<button role="tab" data-tab="' + t[0] + '" aria-selected="' + (tab === t[0]) + '">' + t[1] + ' (' + counts[t[0]] + ')</button>'; }).join('');
     var rows = hits.filter(function (h) { return tab === 'all' || h.it.t === tab; }).map(function (h) {
       var it = h.it;
       return '<a class="result" href="' + esc(it.url) + '"><div class="ty">' + LABEL[it.t] + (it.ill ? ' · sample' : '') + '</div><div><h3>' + esc(it.title) + '</h3><p>' + esc(it.dek) + '</p></div></a>';

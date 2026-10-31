@@ -1,0 +1,2418 @@
+{
+ "schema": 1,
+ "state": "IL",
+ "state_name": "Illinois",
+ "state_slug": "illinois",
+ "cycle": 2026,
+ "built_from": {
+  "roster_captured_at": "2026-10-28T00:00:00Z",
+  "candidates_as_of": "2026-10-28T04:58:30Z",
+  "tip_export_as_of": "2026-10-28T04:37:45.707Z"
+ },
+ "roster": {
+  "basis": "secondary",
+  "label": "Candidate listing (Green Papers)",
+  "limitations": "The state board's own candidate list could not be read, so this roster is transcribed from Green Papers and cross-checked against OpenFEC and TIP. It is not an official or certified list and may omit late changes."
+ },
+ "candidates": [
+  {
+   "llf_id": "IL-G-bailey-darren",
+   "name": "Darren Bailey",
+   "sort_name": "Bailey, Darren",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": "Aaron B. Del Mar",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-IL-BAILEY",
+    "tip_slug": "GOV-IL-BAILEY"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-BAILEY",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "merged_alias",
+    "entry_status": null
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": "https://baileyforillinois.com/"
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-corbett-collin",
+   "name": "Collin Corbett",
+   "sort_name": "Corbett, Collin",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "IND",
+    "letter": "I",
+    "label": "Independent"
+   },
+   "incumbent": false,
+   "running_mate": "Carolyn Schofield",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "independent; Republican affiliation per Green Papers"
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "GOV-IL-CORBETT"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-CORBETT",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-eimer-taegun",
+   "name": "Taegun Eimer",
+   "sort_name": "Eimer, Taegun",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Libertarian (write-in)"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "GOV-IL-EIMER"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-EIMER",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-mayers-richard",
+   "name": "Richard Mayers",
+   "sort_name": "Mayers, Richard",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "GOV-IL-MAYERS"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-MAYERS",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-metroz-mistry",
+   "name": "Mistry Metroz",
+   "sort_name": "Metroz, Mistry",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "GOV-IL-METROZ"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-METROZ",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-pritzker-jb",
+   "name": "JB Pritzker",
+   "sort_name": "Pritzker, JB",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": "Christian Mitchell",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-IL-PRITZKER",
+    "tip_slug": "GOV-IL-PRITZKER"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-PRITZKER",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": null
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": "http://www.jbpritzker.com"
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-romero-griselda",
+   "name": "Griselda Romero",
+   "sort_name": "Romero, Griselda",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Green (write-in)"
+   },
+   "incumbent": false,
+   "running_mate": "Eyde Arndell",
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": "removed from the ballot July 14, 2026; now a write-in"
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "GOV-IL-ROMERO"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-ROMERO",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-sebesta-elizabeth",
+   "name": "Elizabeth Sebesta",
+   "sort_name": "Sebesta, Elizabeth",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "GOV-IL-SEBESTA"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-SEBESTA",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-tillman-patricia",
+   "name": "Patricia L. Tillman",
+   "sort_name": "Tillman, Patricia",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "GOV-IL-TILLMAN"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-TILLMAN",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-varela-rafael",
+   "name": "Rafael Varela",
+   "sort_name": "Varela, Rafael",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "GOV-IL-VARELA"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-VARELA",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-G-vick-mike",
+   "name": "Mike Vick",
+   "sort_name": "Vick, Mike",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-IL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "American Solidarity (write-in)"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "GOV-IL-VICK"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-IL-VICK",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/governor/",
+   "gaps": [
+    "tip_entry_missing",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-S-craine-naomi",
+   "name": "Naomi Craine",
+   "sort_name": "Craine, Naomi",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-IL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Socialist Workers Party (write-in)"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "SEN-IL-CRAINE"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/SEN-IL-CRAINE",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/senate/",
+   "gaps": [
+    "tip_entry_review",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-S-harrington-whitfield",
+   "name": "Whitfield Harrington Jr.",
+   "sort_name": "Harrington, Whitfield",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-IL",
+   "party": {
+    "code": "AMC",
+    "letter": "A",
+    "label": "American Center (IL)"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "intends to form the American Center Party (Green Papers)"
+   },
+   "ids": {
+    "fec": "S6IL00680",
+    "tip_slug": "S6IL00680"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6IL00680",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Whitfield_Harrington",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/illinois/senate/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-S-stratton-juliana",
+   "name": "Juliana Stratton",
+   "sort_name": "Stratton, Juliana",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-IL",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6IL00458",
+    "tip_slug": "S6IL00458"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6IL00458",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Juliana_Stratton",
+    "website": "https://ltgov.illinois.gov/about.html"
+   },
+   "llf_race_path": "/elections/2026/illinois/senate/",
+   "gaps": [],
+   "coverage": [
+    "illinois-senate-primary-money-october-2026"
+   ]
+  },
+  {
+   "llf_id": "IL-S-tracy-don",
+   "name": "Don Tracy",
+   "sort_name": "Tracy, Don",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-IL",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6IL00615",
+    "tip_slug": "S6IL00615"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6IL00615",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Don_Tracy",
+    "website": "https://www.instagram.com/DonTracyForIL"
+   },
+   "llf_race_path": "/elections/2026/illinois/senate/",
+   "gaps": [],
+   "coverage": [
+    "illinois-senate-primary-money-october-2026"
+   ]
+  },
+  {
+   "llf_id": "IL-H01-brown-je-rico",
+   "name": "Je'Rico J. Brown",
+   "sort_name": "Brown, Je'Rico",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-IL-01",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Democratic (write-in)"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL07313",
+    "tip_slug": "H6IL07313"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL07313",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Jerico_Brown",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/illinois/house/1/",
+   "gaps": [
+    "tip_entry_review"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H01-jackson-jonathan",
+   "name": "Jonathan L. Jackson",
+   "sort_name": "Jackson, Jonathan",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-IL-01",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2IL01349",
+    "tip_slug": "H2IL01349"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL01349",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Jonathan_Jackson_%28Illinois%29",
+    "website": "https://jonathanjackson.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H01-maxwell-christian",
+   "name": "Christian Maxwell",
+   "sort_name": "Maxwell, Christian",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-IL-01",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL01191",
+    "tip_slug": "H6IL01191"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL01191",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Christian_Maxwell",
+    "website": "https://www.tiktok.com/@themodpun"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H02-miller-donna",
+   "name": "Donna Miller",
+   "sort_name": "Miller, Donna",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-IL-02",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "open seat (Robin Kelly ran for the Senate)"
+   },
+   "ids": {
+    "fec": "H6IL02355",
+    "tip_slug": "H6IL02355"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL02355",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Donna_Miller_%28Illinois%29",
+    "website": "https://www.instagram.com/donnaforcongress/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H02-noack-mike",
+   "name": "Mike Noack",
+   "sort_name": "Noack, Mike",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-IL-02",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL02389",
+    "tip_slug": "H6IL02389"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL02389",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Michael_Noack",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/house/2/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H03-oakley-angel",
+   "name": "Angel Oakley",
+   "sort_name": "Oakley, Angel",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-IL-03",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL03163",
+    "tip_slug": "H6IL03163"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL03163",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Angel_Oakley",
+    "website": "https://x.com/angeloakley"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H03-ramirez-delia",
+   "name": "Delia C. Ramirez",
+   "sort_name": "Ramirez, Delia",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-IL-03",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2IL03162",
+    "tip_slug": "H2IL03162"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL03162",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Delia_Ramirez",
+    "website": "https://ramirez.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H04-castillo-lupe",
+   "name": "Lupe Castillo",
+   "sort_name": "Castillo, Lupe",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-IL-04",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4IL04117",
+    "tip_slug": "H4IL04117"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4IL04117",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Lupe_Castillo",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/illinois/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H04-garcia-patty",
+   "name": "Patty García",
+   "sort_name": "García, Patty",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-IL-04",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "open seat (Jesús 'Chuy' García withdrew his petitions); TIP's candidate profile spells her name without the accent (Patty Garcia), its race entry with it"
+   },
+   "ids": {
+    "fec": "H6IL04153",
+    "tip_slug": "H6IL04153"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL04153",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Patty_Garcia",
+    "website": "https://www.instagram.com/pattyforil"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/4/",
+   "gaps": [],
+   "coverage": [
+    "illinois-il04-ballot-access-october-2026"
+   ]
+  },
+  {
+   "llf_id": "IL-H04-getty-chris",
+   "name": "Chris Getty",
+   "sort_name": "Getty, Chris",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-IL-04",
+   "party": {
+    "code": "IND",
+    "letter": "I",
+    "label": "Independent"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "independent; Democratic affiliation per Green Papers; mayor of Lyons per WBEZ"
+   },
+   "ids": {
+    "fec": "H6IL04195",
+    "tip_slug": "H6IL04195"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL04195",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Christopher_Getty",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/house/4/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": [
+    "illinois-il04-ballot-access-october-2026"
+   ]
+  },
+  {
+   "llf_id": "IL-H04-hershey-ed",
+   "name": "Ed Hershey",
+   "sort_name": "Hershey, Ed",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-IL-04",
+   "party": {
+    "code": "WCP",
+    "letter": "C",
+    "label": "Working Class Party"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2IL04178",
+    "tip_slug": "H2IL04178"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL04178",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Edward_Hershey",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/house/4/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": [
+    "illinois-il04-ballot-access-october-2026"
+   ]
+  },
+  {
+   "llf_id": "IL-H05-hanson-tom",
+   "name": "Tom Hanson",
+   "sort_name": "Hanson, Tom",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-IL-05",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Green Papers lists two FEC IDs for Hanson"
+   },
+   "ids": {
+    "fec": "H8IL05073",
+    "tip_slug": "H8IL05073"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL05073",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Tom_Hanson",
+    "website": "https://www.instagram.com/votetommyhanson/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H05-quigley-mike",
+   "name": "Mike Quigley",
+   "sort_name": "Quigley, Mike",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-IL-05",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0IL05096",
+    "tip_slug": "H0IL05096"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0IL05096",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Mike_Quigley",
+    "website": "https://quigley.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H06-casten-sean",
+   "name": "Sean Casten",
+   "sort_name": "Casten, Sean",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-IL-06",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8IL06139",
+    "tip_slug": "H8IL06139"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL06139",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Sean_Casten",
+    "website": "https://casten.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H06-conforti-niki",
+   "name": "Niki Conforti",
+   "sort_name": "Conforti, Niki",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-IL-06",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2IL06090",
+    "tip_slug": "H2IL06090"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL06090",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Niki_Conforti",
+    "website": "https://www.youtube.com/@conforti4congress"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H07-ford-la",
+   "name": "La Shawn K. Ford",
+   "sort_name": "Ford, La",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-IL-07",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "open seat (Danny Davis retiring)"
+   },
+   "ids": {
+    "fec": "H6IL07354",
+    "tip_slug": "H6IL07354"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL07354",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/La_Ford",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/house/7/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": [
+    "illinois-il07-ford-outside-money-october-2026"
+   ]
+  },
+  {
+   "llf_id": "IL-H07-koppie-chad",
+   "name": "Chad Koppie Sr.",
+   "sort_name": "Koppie, Chad",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-IL-07",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2IL08203",
+    "tip_slug": "H2IL08203"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL08203",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Chad_Koppie",
+    "website": "https://x.com/ChadKoppieIL"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/7/",
+   "gaps": [],
+   "coverage": [
+    "illinois-il07-ford-outside-money-october-2026"
+   ]
+  },
+  {
+   "llf_id": "IL-H08-bean-melissa",
+   "name": "Melissa Bean",
+   "sort_name": "Bean, Melissa",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-IL-08",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "open seat (Raja Krishnamoorthi ran for the Senate)"
+   },
+   "ids": {
+    "fec": "H6IL08329",
+    "tip_slug": "H6IL08329"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL08329",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Melissa_Bean",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/illinois/house/8/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H08-davis-jennifer",
+   "name": "Jennifer Davis",
+   "sort_name": "Davis, Jennifer",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-IL-08",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL08311",
+    "tip_slug": "H6IL08311"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL08311",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Jennifer_Davis_%28Illinois%29",
+    "website": "https://www.instagram.com/Votejenniferdavis"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/8/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H09-biss-daniel",
+   "name": "Daniel Biss",
+   "sort_name": "Biss, Daniel",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-IL-09",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "open seat (Jan Schakowsky retiring)"
+   },
+   "ids": {
+    "fec": "H6IL09228",
+    "tip_slug": "H6IL09228"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL09228",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Daniel_Biss",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/illinois/house/9/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H09-elleson-john",
+   "name": "John Elleson",
+   "sort_name": "Elleson, John",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-IL-09",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8IL09208",
+    "tip_slug": "H8IL09208"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL09208",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/John_Elleson",
+    "website": "https://www.facebook.com/johnelleson/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/9/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H10-keating-sofiakis-alexandria",
+   "name": "Alexandria Keating-Sofiakis",
+   "sort_name": "Keating-Sofiakis, Alexandria",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-IL-10",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Green (write-in)"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": "HOU-IL10-KEATINGSOFIAKIS"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-IL10-KEATINGSOFIAKIS",
+    "http": 200,
+    "checked_at": "2026-10-28T12:53Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/house/10/",
+   "gaps": [
+    "tip_entry_review",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H10-lambrecht-carl",
+   "name": "Carl Lambrecht",
+   "sort_name": "Lambrecht, Carl",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-IL-10",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL10176",
+    "tip_slug": "H6IL10176"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL10176",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/house/10/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H10-schneider-brad",
+   "name": "Brad Schneider",
+   "sort_name": "Schneider, Brad",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-IL-10",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2IL10068",
+    "tip_slug": "H2IL10068"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL10068",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Bradley_Schneider",
+    "website": "https://schneider.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/10/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H11-foster-bill",
+   "name": "Bill Foster",
+   "sort_name": "Foster, Bill",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-IL-11",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8IL14067",
+    "tip_slug": "H8IL14067"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL14067",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 5,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/G._Foster",
+    "website": "https://foster.house.gov"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/11/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H11-walter-jeff",
+   "name": "Jeff Walter",
+   "sort_name": "Walter, Jeff",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-IL-11",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL11166",
+    "tip_slug": "H6IL11166"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL11166",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Jeffrey_Walter",
+    "website": "https://www.instagram.com/JeffWalterForCongress"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H12-bost-mike",
+   "name": "Mike Bost",
+   "sort_name": "Bost, Mike",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-IL-12",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4IL12060",
+    "tip_slug": "H4IL12060"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4IL12060",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Michael_Bost",
+    "website": "https://bost.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/12/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H12-fortier-julie",
+   "name": "Julie Fortier",
+   "sort_name": "Fortier, Julie",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-IL-12",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL12131",
+    "tip_slug": "H6IL12131"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL12131",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Julie_Fortier",
+    "website": "https://www.facebook.com/profile.php?id=61581039414613"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H13-budzinski-nikki",
+   "name": "Nikki Budzinski",
+   "sort_name": "Budzinski, Nikki",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-IL-13",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2IL13153",
+    "tip_slug": "H2IL13153"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL13153",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Nikki_Budzinski",
+    "website": "https://budzinski.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/13/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H13-wilson-jeff",
+   "name": "Jeff Wilson",
+   "sort_name": "Wilson, Jeff",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-IL-13",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL13154",
+    "tip_slug": "H6IL13154"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL13154",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Jeff_Wilson",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/house/13/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H14-marter-jim",
+   "name": "Jim Marter",
+   "sort_name": "Marter, Jim",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-IL-14",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8IL16153",
+    "tip_slug": "H8IL16153"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL16153",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/James_Marter",
+    "website": "https://www.youtube.com/@marter4congress"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/14/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H14-underwood-lauren",
+   "name": "Lauren Underwood",
+   "sort_name": "Underwood, Lauren",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-IL-14",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8IL14174",
+    "tip_slug": "H8IL14174"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8IL14174",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Lauren_Underwood",
+    "website": "https://underwood.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/14/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H15-miller-mary",
+   "name": "Mary E. Miller",
+   "sort_name": "Miller, Mary",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-IL-15",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0IL15129",
+    "tip_slug": "H0IL15129"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0IL15129",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Mary_Miller_%28Illinois%29",
+    "website": "https://marymiller.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/15/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H15-todd-jennifer",
+   "name": "Jennifer Ann Todd",
+   "sort_name": "Todd, Jennifer",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-IL-15",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL15092",
+    "tip_slug": "H6IL15092"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL15092",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Jennifer_Todd",
+    "website": "https://www.tiktok.com/@jentodd2026"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/15/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H16-kitover-john",
+   "name": "John Kitover",
+   "sort_name": "Kitover, John",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-IL-16",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Republican (write-in)"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL16116",
+    "tip_slug": "H6IL16116"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL16116",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/John_Kitover",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/illinois/house/16/",
+   "gaps": [
+    "tip_entry_review"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H16-lahood-darin",
+   "name": "Darin LaHood",
+   "sort_name": "LaHood, Darin",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-IL-16",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL18088",
+    "tip_slug": "H6IL18088"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL18088",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Darin_Lahood",
+    "website": "https://lahood.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/16/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H16-nolley-paul",
+   "name": "Paul Nolley",
+   "sort_name": "Nolley, Paul",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-IL-16",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL16108",
+    "tip_slug": "H6IL16108"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL16108",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Paul_Nolley",
+    "website": "https://www.youtube.com/@NolleyforCongress"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/16/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H17-sorensen-eric",
+   "name": "Eric Sorensen",
+   "sort_name": "Sorensen, Eric",
+   "office": "house",
+   "district": 17,
+   "race_key": "2026-H-IL-17",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2IL17147",
+    "tip_slug": "H2IL17147"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2IL17147",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Eric_Sorensen",
+    "website": "https://sorensen.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/illinois/house/17/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "IL-H17-vancil-dillan",
+   "name": "Dillan Vancil",
+   "sort_name": "Vancil, Dillan",
+   "office": "house",
+   "district": 17,
+   "race_key": "2026-H-IL-17",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6IL17247",
+    "tip_slug": "H6IL17247"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6IL17247",
+    "http": 200,
+    "checked_at": "2026-10-28T04:58Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/IL",
+    "ballotpedia": "https://ballotpedia.org/Dillan_Vancil",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/illinois/house/17/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+llf_id,name,office,district,party,gap,action
+FL-G-abrams-dean,Dean Ocean Abrams,governor,,NPA,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-abrams-dean,Dean Ocean Abrams,governor,,NPA,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-anderson-kathy,Kathy Anderson,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-anderson-kathy,Kathy Anderson,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-burkett-charles,Charles Burkett,governor,,NPA,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-burkett-charles,Charles Burkett,governor,,NPA,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-datto-jeffrey,"Jeffrey Peter ""Dr. Jeff"" Datto",governor,,NPA,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-datto-jeffrey,"Jeffrey Peter ""Dr. Jeff"" Datto",governor,,NPA,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-dimanche-moliere,"Moliere ""Moe"" Dimanche",governor,,NPA,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-dimanche-moliere,"Moliere ""Moe"" Dimanche",governor,,NPA,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-jewett-scott,Scott Eckhard Jewett,governor,,LPF,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-jewett-scott,Scott Eckhard Jewett,governor,,LPF,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-jolly-david,David Jolly,governor,,DEM,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-morris-erik,Erik Morris,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-morris-erik,Erik Morris,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-russo-frank,Frank J. Russo,governor,,NPA,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-G-russo-frank,Frank J. Russo,governor,,NPA,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-S-moody-ashley,Ashley Moody,senate,,REP,profile_unverified,Editor information only
+FL-H01-davis-tyler,Tyler L. Davis,house,1,NPA,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H01-davis-tyler,Tyler L. Davis,house,1,NPA,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H01-valimont-gay,Gay Valimont,house,1,DEM,profile_unverified,Editor information only
+FL-H02-rogers-austin,Austin Rogers,house,2,REP,profile_unverified,Editor information only
+FL-H03-harp-seth,Seth Harp,house,3,DEM,profile_unverified,Editor information only
+FL-H03-klein-mike,Mike Klein,house,3,NPA,profile_unverified,Editor information only
+FL-H04-holloway-lashonda,"LaShonda ""L.J."" Holloway",house,4,DEM,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H04-holloway-lashonda,"LaShonda ""L.J."" Holloway",house,4,DEM,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H04-schaefer-todd,Todd Schaefer,house,4,NPA,profile_unverified,Editor information only
+FL-H04-sell-mike,Mike Sell,house,4,FFP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H04-sell-mike,Mike Sell,house,4,FFP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H05-upham-william,William Lintag Upham,house,5,WRI,profile_unverified,Editor information only
+FL-H06-parrott-andrew,Andrew Parrott,house,6,LPF,profile_unverified,Editor information only
+FL-H06-pavlik-alec,Alec Pavlik,house,6,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H06-pavlik-alec,Alec Pavlik,house,6,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H07-dennison-christopher,Christopher Dennison,house,7,LPF,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H07-dennison-christopher,Christopher Dennison,house,7,LPF,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H09-green-dan,Dan Green,house,9,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H09-green-dan,Dan Green,house,9,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H10-frost-maxwell,Maxwell Alejandro Frost,house,10,DEM,profile_unverified,Editor information only
+FL-H11-pericola-james,James Pericola,house,11,DEM,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H11-pericola-james,James Pericola,house,11,DEM,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H11-strada-joe,Joe Strada,house,11,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H11-strada-joe,Joe Strada,house,11,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H14-hernandez-salomon,Salomon Hernandez Sr.,house,14,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H14-hernandez-salomon,Salomon Hernandez Sr.,house,14,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H14-lambert-brian,Brian Lambert,house,14,LPF,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H14-lambert-brian,Brian Lambert,house,14,LPF,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H14-varian-keith,Keith Varian,house,14,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H14-varian-keith,Keith Varian,house,14,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H15-boone-angie,Angie Boone,house,15,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H15-boone-angie,Angie Boone,house,15,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H15-people-robert,Robert People,house,15,DEM,profile_unverified,Editor information only
+FL-H16-kirschner-kelly,Kelly Kirschner,house,16,DEM,profile_unverified,Editor information only
+FL-H17-quirk-michael,Michael J. Quirk,house,17,NPA,profile_unverified,Editor information only
+FL-H19-zakhvatayev-alexandra,Alexandra Zakhvatayev,house,19,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H19-zakhvatayev-alexandra,Alexandra Zakhvatayev,house,19,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H20-andersen-brent,Brent Andersen,house,20,REP,profile_unverified,Editor information only
+FL-H21-fabrikant-david,David Fabrikant,house,21,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H21-fabrikant-david,David Fabrikant,house,21,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H24-brown-te,Te Mayonna Brown,house,24,REP,profile_unverified,Editor information only
+FL-H24-gilbert-oliver,Oliver G. Gilbert III,house,24,DEM,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H24-gilbert-oliver,Oliver G. Gilbert III,house,24,DEM,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H24-gonzalez-patricia,Patricia Gonzalez,house,24,WRI,profile_unverified,Editor information only
+FL-H25-jassenoff-peter,Peter Jassenoff,house,25,LPF,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H25-jassenoff-peter,Peter Jassenoff,house,25,LPF,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H26-hosey-deborah,Deborah Ann Meidinger Hosey,house,26,NPA,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H26-hosey-deborah,Deborah Ann Meidinger Hosey,house,26,NPA,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+FL-H27-salazar-maria,Maria Elvira Salazar,house,27,REP,profile_unverified,Editor information only

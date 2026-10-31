@@ -1,0 +1,61 @@
+llf_id,name,office,district,party,gap,action
+IL-G-bailey-darren,Darren Bailey,governor,,REP,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-corbett-collin,Collin Corbett,governor,,IND,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-corbett-collin,Collin Corbett,governor,,IND,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-corbett-collin,Collin Corbett,governor,,IND,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-corbett-collin,Collin Corbett,governor,,IND,profile_unverified,Editor information only
+IL-G-eimer-taegun,Taegun Eimer,governor,,WRI,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-eimer-taegun,Taegun Eimer,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-eimer-taegun,Taegun Eimer,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-eimer-taegun,Taegun Eimer,governor,,WRI,profile_unverified,Editor information only
+IL-G-mayers-richard,Richard Mayers,governor,,WRI,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-mayers-richard,Richard Mayers,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-mayers-richard,Richard Mayers,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-mayers-richard,Richard Mayers,governor,,WRI,profile_unverified,Editor information only
+IL-G-metroz-mistry,Mistry Metroz,governor,,WRI,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-metroz-mistry,Mistry Metroz,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-metroz-mistry,Mistry Metroz,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-metroz-mistry,Mistry Metroz,governor,,WRI,profile_unverified,Editor information only
+IL-G-pritzker-jb,JB Pritzker,governor,,DEM,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-pritzker-jb,JB Pritzker,governor,,DEM,profile_unverified,Editor information only
+IL-G-romero-griselda,Griselda Romero,governor,,WRI,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-romero-griselda,Griselda Romero,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-romero-griselda,Griselda Romero,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-romero-griselda,Griselda Romero,governor,,WRI,profile_unverified,Editor information only
+IL-G-sebesta-elizabeth,Elizabeth Sebesta,governor,,WRI,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-sebesta-elizabeth,Elizabeth Sebesta,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-sebesta-elizabeth,Elizabeth Sebesta,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-sebesta-elizabeth,Elizabeth Sebesta,governor,,WRI,profile_unverified,Editor information only
+IL-G-tillman-patricia,Patricia L. Tillman,governor,,WRI,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-tillman-patricia,Patricia L. Tillman,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-tillman-patricia,Patricia L. Tillman,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-tillman-patricia,Patricia L. Tillman,governor,,WRI,profile_unverified,Editor information only
+IL-G-varela-rafael,Rafael Varela,governor,,WRI,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-varela-rafael,Rafael Varela,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-varela-rafael,Rafael Varela,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-varela-rafael,Rafael Varela,governor,,WRI,profile_unverified,Editor information only
+IL-G-vick-mike,Mike Vick,governor,,WRI,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+IL-G-vick-mike,Mike Vick,governor,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-vick-mike,Mike Vick,governor,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-G-vick-mike,Mike Vick,governor,,WRI,profile_unverified,Editor information only
+IL-S-craine-naomi,Naomi Craine,senate,,WRI,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+IL-S-craine-naomi,Naomi Craine,senate,,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-S-craine-naomi,Naomi Craine,senate,,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-S-craine-naomi,Naomi Craine,senate,,WRI,profile_unverified,Editor information only
+IL-H01-brown-je-rico,Je'Rico J. Brown,house,1,WRI,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+IL-H02-noack-mike,Mike Noack,house,2,REP,profile_unverified,Editor information only
+IL-H04-getty-chris,Chris Getty,house,4,IND,profile_unverified,Editor information only
+IL-H04-hershey-ed,Ed Hershey,house,4,WCP,profile_unverified,Editor information only
+IL-H07-ford-la,La Shawn K. Ford,house,7,DEM,profile_unverified,Editor information only
+IL-H10-keating-sofiakis-alexandria,Alexandria Keating-Sofiakis,house,10,WRI,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+IL-H10-keating-sofiakis-alexandria,Alexandria Keating-Sofiakis,house,10,WRI,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-H10-keating-sofiakis-alexandria,Alexandria Keating-Sofiakis,house,10,WRI,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-H10-keating-sofiakis-alexandria,Alexandria Keating-Sofiakis,house,10,WRI,profile_unverified,Editor information only
+IL-H10-lambrecht-carl,Carl Lambrecht,house,10,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-H10-lambrecht-carl,Carl Lambrecht,house,10,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+IL-H11-foster-bill,Bill Foster,house,11,DEM,profile_unverified,Editor information only
+IL-H12-bost-mike,Mike Bost,house,12,REP,profile_unverified,Editor information only
+IL-H13-wilson-jeff,Jeff Wilson,house,13,REP,profile_unverified,Editor information only
+IL-H16-kitover-john,John Kitover,house,16,WRI,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+IL-H16-lahood-darin,Darin LaHood,house,16,REP,profile_unverified,Editor information only
+IL-H17-vancil-dillan,Dillan Vancil,house,17,REP,profile_unverified,Editor information only

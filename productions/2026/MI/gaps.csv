@@ -1,0 +1,95 @@
+llf_id,name,office,district,party,gap,action
+MI-G-benson-jocelyn,Jocelyn Benson,governor,,DEM,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+MI-G-benson-jocelyn,Jocelyn Benson,governor,,DEM,profile_unverified,Editor information only
+MI-G-brandenburg-donna,Donna Brandenburg,governor,,UST,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+MI-G-brandenburg-donna,Donna Brandenburg,governor,,UST,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-G-brandenburg-donna,Donna Brandenburg,governor,,UST,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-G-brandenburg-donna,Donna Brandenburg,governor,,UST,profile_unverified,Editor information only
+MI-G-campbell-doug,Doug Campbell,governor,,GRN,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+MI-G-campbell-doug,Doug Campbell,governor,,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-G-campbell-doug,Doug Campbell,governor,,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-G-campbell-doug,Doug Campbell,governor,,GRN,profile_unverified,Editor information only
+MI-G-hudson-anthony,Anthony Hudson,governor,,LIB,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+MI-G-hudson-anthony,Anthony Hudson,governor,,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-G-hudson-anthony,Anthony Hudson,governor,,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-G-hudson-anthony,Anthony Hudson,governor,,LIB,profile_unverified,Editor information only
+MI-G-james-john,John James,governor,,REP,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+MI-S-kristy-walter,Walter Kristy,senate,,NLP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-S-kristy-walter,Walter Kristy,senate,,NLP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-S-long-tim,Tim Long,senate,,UST,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-S-long-tim,Tim Long,senate,,UST,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H01-bergman-jack,Jack Bergman,house,1,REP,profile_unverified,Editor information only
+MI-H01-davenport-laveta,LaVeta Davenport,house,1,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H01-davenport-laveta,LaVeta Davenport,house,1,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H01-hakola-liz,Liz Hakola,house,1,WCP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H01-hakola-liz,Liz Hakola,house,1,WCP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H01-kovaly-robert,Robert Kovaly,house,1,UST,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H01-kovaly-robert,Robert Kovaly,house,1,UST,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H01-satterla-arnett,Arnett Satterla,house,1,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H01-satterla-arnett,Arnett Satterla,house,1,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H02-magoon-charlotte,Charlotte Magoon,house,2,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H02-magoon-charlotte,Charlotte Magoon,house,2,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H02-sills-richard,Richard Sills,house,2,NLP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H02-sills-richard,Richard Sills,house,2,NLP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H03-jock-joe,Joe Jock,house,3,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H03-jock-joe,Joe Jock,house,3,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H04-barnett-che,Che Barnett,house,4,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H04-barnett-che,Che Barnett,house,4,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H04-huizenga-bill,Bill Huizenga,house,4,REP,profile_unverified,Editor information only
+MI-H05-muszynski-ronald,Ronald Muszynski,house,5,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H05-muszynski-ronald,Ronald Muszynski,house,5,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H05-renier-sharon,Sharon Renier,house,5,UST,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H05-renier-sharon,Sharon Renier,house,5,UST,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H05-walberg-tim,Tim Walberg,house,5,REP,profile_unverified,Editor information only
+MI-H06-mickevicius-mike,Mike Mickevicius,house,6,UST,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H06-mickevicius-mike,Mike Mickevicius,house,6,UST,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H06-rayburn-linda,Linda Rayburn,house,6,WCP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H06-rayburn-linda,Linda Rayburn,house,6,WCP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H06-shabazz-clyde,Clyde Shabazz,house,6,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H06-shabazz-clyde,Clyde Shabazz,house,6,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H06-taylor-bree,Bree Taylor,house,6,WRI,tip_profile_missing,"Add to the TIP fix list (owner approves the write), then re-export"
+MI-H06-teagan-timothy,Timothy Teagan,house,6,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H06-teagan-timothy,Timothy Teagan,house,6,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H07-dedrick-shane,Shane Dedrick,house,7,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H07-dedrick-shane,Shane Dedrick,house,7,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H08-casha-jim,Jim Casha,house,8,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H08-casha-jim,Jim Casha,house,8,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H08-goodwin-kathy,Kathy Goodwin,house,8,WCP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H08-goodwin-kathy,Kathy Goodwin,house,8,WCP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H08-pettus-mia,Mia Pettus,house,8,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H08-pettus-mia,Mia Pettus,house,8,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H08-smith-tom,Tom Smith,house,8,REP,profile_unverified,Editor information only
+MI-H09-cartwright-jasen,Jasen Cartwright,house,9,WRI,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+MI-H09-clayton-destiny,Destiny Clayton,house,9,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H09-clayton-destiny,Destiny Clayton,house,9,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H09-pooley-ray,Ray Pooley,house,9,DEM,profile_unverified,Editor information only
+MI-H09-vayko-kevin,Kevin Vayko,house,9,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H09-vayko-kevin,Kevin Vayko,house,9,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H09-vlahos-john,John Vlahos,house,9,UST,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H09-vlahos-john,John Vlahos,house,9,UST,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H09-walkowicz-jim,Jim Walkowicz,house,9,WCP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H09-walkowicz-jim,Jim Walkowicz,house,9,WCP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H10-kirby-andrea,Andrea Kirby,house,10,WCP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H10-kirby-andrea,Andrea Kirby,house,10,WCP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H10-nkromo-cubby,Cubby Nkromo,house,10,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H10-nkromo-cubby,Cubby Nkromo,house,10,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H10-nkromo-cubby,Cubby Nkromo,house,10,GRN,profile_unverified,Editor information only
+MI-H10-saliba-mike,Mike Saliba,house,10,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H10-saliba-mike,Mike Saliba,house,10,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H11-ishac-farid,Farid Ishac,house,11,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H11-ishac-farid,Farid Ishac,house,11,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H11-teasdale-ryan,Ryan Teasdale,house,11,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H11-teasdale-ryan,Ryan Teasdale,house,11,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H12-sosnowski-marc,Marc Sosnowski,house,12,UST,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H12-sosnowski-marc,Marc Sosnowski,house,12,UST,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H12-walkowicz-gary,Gary Walkowicz,house,12,WCP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H12-walkowicz-gary,Gary Walkowicz,house,12,WCP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H13-coleman-simone,Simone Coleman,house,13,WCP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H13-coleman-simone,Simone Coleman,house,13,WCP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H13-coleman-simone,Simone Coleman,house,13,WCP,profile_unverified,Editor information only
+MI-H13-dardzinski-chris,Chris Dardzinski,house,13,UST,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H13-dardzinski-chris,Chris Dardzinski,house,13,UST,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H13-light-raelyn,Raelyn Light,house,13,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H13-light-raelyn,Raelyn Light,house,13,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H13-nykoriak-t-p,T.P. Nykoriak,house,13,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MI-H13-nykoriak-t-p,T.P. Nykoriak,house,13,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy

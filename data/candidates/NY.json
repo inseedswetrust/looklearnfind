@@ -1,0 +1,2818 @@
+{
+ "schema": 1,
+ "state": "NY",
+ "state_name": "New York",
+ "state_slug": "new-york",
+ "cycle": 2026,
+ "built_from": {
+  "roster_captured_at": "2026-10-30T00:00:00Z",
+  "candidates_as_of": "2026-10-31T13:44:38Z",
+  "tip_export_as_of": "2026-10-30T16:23:01.361Z"
+ },
+ "roster": {
+  "basis": "secondary",
+  "label": "Candidate listing (Green Papers)",
+  "limitations": "The state board's own candidate list could not be read, so this roster is transcribed from Green Papers and cross-checked against OpenFEC and TIP. It is not an official or certified list and may omit late changes."
+ },
+ "candidates": [
+  {
+   "llf_id": "NY-G-blakeman-bruce",
+   "name": "Bruce A. Blakeman",
+   "sort_name": "Blakeman, Bruce",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-NY",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": "Todd M. Hood",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-NY-BLAKEMAN",
+    "tip_slug": "GOV-NY-BLAKEMAN"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-NY-BLAKEMAN",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": "https://www.blakemanfornewyork.com"
+   },
+   "llf_race_path": "/elections/2026/new-york/governor/",
+   "gaps": [
+    "tip_entry_review",
+    "profile_unverified"
+   ],
+   "coverage": [
+    "new-york-governor-hochul-blakeman-polls-october-2026"
+   ]
+  },
+  {
+   "llf_id": "NY-G-hochul-kathy",
+   "name": "Kathy Hochul",
+   "sort_name": "Hochul, Kathy",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-NY",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": "Adrienne Adams",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-NY-HOCHUL",
+    "tip_slug": "GOV-NY-HOCHUL"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-NY-HOCHUL",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": "https://kathyhochul.com"
+   },
+   "llf_race_path": "/elections/2026/new-york/governor/",
+   "gaps": [
+    "tip_entry_review",
+    "profile_unverified"
+   ],
+   "coverage": [
+    "new-york-governor-hochul-blakeman-polls-october-2026"
+   ]
+  },
+  {
+   "llf_id": "NY-G-mailhot-paul",
+   "name": "Paul Mailhot",
+   "sort_name": "Mailhot, Paul",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-NY",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Socialist Workers Party"
+   },
+   "incumbent": false,
+   "running_mate": "Willie Cotton",
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": null
+   },
+   "tip": {
+    "url": null,
+    "http": null,
+    "checked_at": null,
+    "graded_count": null,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/governor/",
+   "gaps": [
+    "tip_profile_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-G-makeley-jonathan",
+   "name": "Jonathan Makeley",
+   "sort_name": "Makeley, Jonathan",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-NY",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Prohibition Party"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": null
+   },
+   "tip": {
+    "url": null,
+    "http": null,
+    "checked_at": null,
+    "graded_count": null,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/governor/",
+   "gaps": [
+    "tip_profile_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H01-gallant-christopher",
+   "name": "Christopher J. \"Chris\" Gallant",
+   "sort_name": "Gallant, Christopher",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-NY-01",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY01159",
+    "tip_slug": "H6NY01159"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY01159",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Christopher_Gallant",
+    "website": "https://www.youtube.com/@GallantNY"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H01-lalota-nicholas",
+   "name": "Nicholas J. \"Nick\" LaLota",
+   "sort_name": "LaLota, Nicholas",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-NY-01",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2NY01190",
+    "tip_slug": "H2NY01190"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2NY01190",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Lalota_Nick",
+    "website": "https://lalota.house.gov"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/1/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H02-garbarino-andrew",
+   "name": "Andrew R. Garbarino",
+   "sort_name": "Garbarino, Andrew",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-NY-02",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0NY02234",
+    "tip_slug": "H0NY02234"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0NY02234",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Andrew_Garbarino",
+    "website": "https://garbarino.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H02-halpin-patrick",
+   "name": "Patrick \"Pat\" Halpin",
+   "sort_name": "Halpin, Patrick",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-NY-02",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY02140",
+    "tip_slug": "H6NY02140"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY02140",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Patrick_Halpin",
+    "website": "https://www.instagram.com/pat_halpin_ny/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H03-lipetri-michael",
+   "name": "Michael J. \"Mike\" LiPetri, Jr.",
+   "sort_name": "LiPetri, Michael",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-NY-03",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0NY02267",
+    "tip_slug": "H0NY02267"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0NY02267",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Mike_Lipetri",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/new-york/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H03-suozzi-thomas",
+   "name": "Thomas R. \"Tom\" Suozzi",
+   "sort_name": "Suozzi, Thomas",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-NY-03",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY03247",
+    "tip_slug": "H6NY03247"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY03247",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 5,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Thomas_Suozzi",
+    "website": "https://suozzi.house.gov"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/3/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H04-driscoll-jeanine",
+   "name": "Jeanine C. Driscoll",
+   "sort_name": "Driscoll, Jeanine",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-NY-04",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY04211",
+    "tip_slug": "H6NY04211"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY04211",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Jeanine_Driscoll",
+    "website": "https://x.com/driscoll4ny"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H04-gillen-laura",
+   "name": "Laura Gillen",
+   "sort_name": "Gillen, Laura",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-NY-04",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2NY04244",
+    "tip_slug": "H2NY04244"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2NY04244",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 3,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Laura_Gillen",
+    "website": "https://gillen.house.gov"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H04-tarnoff-blay",
+   "name": "Blay Tarnoff",
+   "sort_name": "Tarnoff, Blay",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-NY-04",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY04237",
+    "tip_slug": "H6NY04237"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY04237",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/4/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H05-marsh-george",
+   "name": "George Marsh",
+   "sort_name": "Marsh, George",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-NY-05",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY05127",
+    "tip_slug": "H6NY05127"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY05127",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/5/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H05-meeks-gregory",
+   "name": "Gregory Weldon Meeks",
+   "sort_name": "Meeks, Gregory",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-NY-05",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8NY06048",
+    "tip_slug": "H8NY06048"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8NY06048",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Gregory_Meeks",
+    "website": "https://meeks.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H06-chou-joseph",
+   "name": "Joseph Chou",
+   "sort_name": "Chou, Joseph",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-NY-06",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NY06047",
+    "tip_slug": "H4NY06047"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NY06047",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Joseph_Chou",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H06-meng-grace",
+   "name": "Grace Meng",
+   "sort_name": "Meng, Grace",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-NY-06",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2NY06116",
+    "tip_slug": "H2NY06116"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2NY06116",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Grace_Meng",
+    "website": "https://meng.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H07-ghaznavi-priscilla",
+   "name": "Priscilla Ghaznavi",
+   "sort_name": "Ghaznavi, Priscilla",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-NY-07",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Our Future"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY07255",
+    "tip_slug": "H6NY07255"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY07255",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Priscilla_Ghaznavi",
+    "website": "https://www.instagram.com/priscillaghaznaviforcongress"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/7/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H07-rivera-melvin",
+   "name": "Melvin Rivera",
+   "sort_name": "Rivera, Melvin",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-NY-07",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY07271",
+    "tip_slug": "H6NY07271"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY07271",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/7/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H07-valdez-claire",
+   "name": "Claire Valdez",
+   "sort_name": "Valdez, Claire",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-NY-07",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY07214",
+    "tip_slug": "H6NY07214"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY07214",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Claire_Valdez",
+    "website": "https://assembly.state.ny.us/mem/Claire-Valdez/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/7/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H08-ahsan-sahir",
+   "name": "Sahir Ahsan",
+   "sort_name": "Ahsan, Sahir",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-NY-08",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY08170",
+    "tip_slug": "H6NY08170"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY08170",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Sahir_Ahsan",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/8/",
+   "gaps": [
+    "tip_entry_review",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H08-jeffries-hakeem",
+   "name": "Hakeem S. Jeffries",
+   "sort_name": "Jeffries, Hakeem",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-NY-08",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2NY10092",
+    "tip_slug": "H2NY10092"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2NY10092",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Hakeem_Jeffries",
+    "website": "https://jeffries.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/8/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H08-mizrahi-lewis",
+   "name": "Lewis Mizrahi",
+   "sort_name": "Mizrahi, Lewis",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-NY-08",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY08188",
+    "tip_slug": "H6NY08188"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY08188",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/8/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H09-azumah-aka",
+   "name": "aka Joel Azumah",
+   "sort_name": "Azumah, aka",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-NY-09",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY09145",
+    "tip_slug": "H6NY09145"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY09145",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Joel_Anabilah-Azumah",
+    "website": "https://x.com/JoelAzumah"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/9/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H09-clarke-yvette",
+   "name": "Yvette D. Clarke",
+   "sort_name": "Clarke, Yvette",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-NY-09",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NY11138",
+    "tip_slug": "H4NY11138"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NY11138",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Yvette_Clarke",
+    "website": "https://clarke.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/9/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H10-lander-brad",
+   "name": "Brad Lander",
+   "sort_name": "Lander, Brad",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-NY-10",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY10176",
+    "tip_slug": "H6NY10176"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY10176",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Brad_Lander",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/new-york/house/10/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H10-moore-jennifer",
+   "name": "Jennifer E. Moore",
+   "sort_name": "Moore, Jennifer",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-NY-10",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY10218",
+    "tip_slug": "H6NY10218"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY10218",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/10/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H11-decillis-mike",
+   "name": "Mike DeCillis",
+   "sort_name": "DeCillis, Mike",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-NY-11",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY11265",
+    "tip_slug": "H6NY11265"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY11265",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Michael_Decillis",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/11/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H11-malliotakis-nicole",
+   "name": "Nicole Malliotakis",
+   "sort_name": "Malliotakis, Nicole",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-NY-11",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0NY11078",
+    "tip_slug": "H0NY11078"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0NY11078",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Nicole_Malliotakis",
+    "website": "https://malliotakis.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H12-lasher-micah",
+   "name": "Micah Charles Lasher",
+   "sort_name": "Lasher, Micah",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-NY-12",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY12172",
+    "tip_slug": "H6NY12172"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY12172",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Micah_Lasher",
+    "website": "https://nyassembly.gov/mem/Micah-C-Lasher/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H12-negron-wilneida",
+   "name": "Wilneida Negron",
+   "sort_name": "Negron, Wilneida",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-NY-12",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "For All of Us"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY12313",
+    "tip_slug": "H6NY12313"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY12313",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Wilneida_Negron",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/new-york/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H12-ortiz-karen",
+   "name": "Karen Ortiz",
+   "sort_name": "Ortiz, Karen",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-NY-12",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Karen Ortiz"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY12297",
+    "tip_slug": "H6NY12297"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY12297",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Karen_Ortiz",
+    "website": "https://www.tiktok.com/@ko4congress"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H12-shinkle-caroline",
+   "name": "Caroline Shinkle",
+   "sort_name": "Shinkle, Caroline",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-NY-12",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY12404",
+    "tip_slug": "H6NY12404"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY12404",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Caroline_Shinkle",
+    "website": "https://www.instagram.com/therealcarolineshinkle/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H13-chevalier-darializa",
+   "name": "Darializa Avila Chevalier",
+   "sort_name": "Chevalier, Darializa",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-NY-13",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY13279",
+    "tip_slug": "H6NY13279"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY13279",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Darializa_Avila_Chevalier",
+    "website": "https://www.instagram.com/darializaforny/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/13/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H13-williams-jomo",
+   "name": "Jomo Manual Williams",
+   "sort_name": "Williams, Jomo",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-NY-13",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY13303",
+    "tip_slug": "H6NY13303"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY13303",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/13/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H14-hysenaj-diamant",
+   "name": "Diamant Hysenaj",
+   "sort_name": "Hysenaj, Diamant",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-NY-14",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY14251",
+    "tip_slug": "H6NY14251"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY14251",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Diamant_Hysenaj",
+    "website": "https://www.instagram.com/diamanthysenaj_/#"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/14/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H14-ocasio-cortez-alexandria",
+   "name": "Alexandria Ocasio-Cortez",
+   "sort_name": "Ocasio-Cortez, Alexandria",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-NY-14",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8NY15148",
+    "tip_slug": "H8NY15148"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8NY15148",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Alexandria_Ocasio-Cortez",
+    "website": "https://ocasio-cortez.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/14/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H15-duran-gonzalo",
+   "name": "Gonzalo Duran",
+   "sort_name": "Duran, Gonzalo",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-NY-15",
+   "party": {
+    "code": "CON",
+    "letter": "?",
+    "label": "Conservative"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NY15154",
+    "tip_slug": "H4NY15154"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NY15154",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Gonzalo_Duran",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/new-york/house/15/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H15-easton-andre",
+   "name": "Andre Clement Easton",
+   "sort_name": "Easton, Andre",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-NY-15",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Socialism PSL"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY15167",
+    "tip_slug": "H6NY15167"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY15167",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Andre_Easton",
+    "website": "https://www.andreforthebronx.nyc/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/15/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H15-sapaskis-stylo",
+   "name": "Stylo Adonis Sapaskis",
+   "sort_name": "Sapaskis, Stylo",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-NY-15",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY16140",
+    "tip_slug": "H6NY16140"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY16140",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/15/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H15-torres-ritchie",
+   "name": "Ritchie John Torres",
+   "sort_name": "Torres, Ritchie",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-NY-15",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0NY15160",
+    "tip_slug": "H0NY15160"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0NY15160",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Ritchie_Torres",
+    "website": "https://ritchietorres.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/15/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H15-vega-jose",
+   "name": "Jose David Vega",
+   "sort_name": "Vega, Jose",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-NY-15",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "Speak The Truth"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NY15147",
+    "tip_slug": "H4NY15147"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NY15147",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Jose_Vega",
+    "website": "https://www.tiktok.com/@vegaistic"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/15/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H16-cinquemani-joseph",
+   "name": "Joseph J. Cinquemani",
+   "sort_name": "Cinquemani, Joseph",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-NY-16",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NY07052",
+    "tip_slug": "H4NY07052"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NY07052",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Joseph_Cinquemani",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/new-york/house/16/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H16-latimer-george",
+   "name": "George Stephen Latimer",
+   "sort_name": "Latimer, George",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-NY-16",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NY16087",
+    "tip_slug": "H4NY16087"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NY16087",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/George_Latimer_%28New_York%29",
+    "website": "https://latimer.house.gov"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/16/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H17-conley-caitlin",
+   "name": "Caitlin \"Cait\" Conley",
+   "sort_name": "Conley, Caitlin",
+   "office": "house",
+   "district": 17,
+   "race_key": "2026-H-NY-17",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY17171",
+    "tip_slug": "H6NY17171"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY17171",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Cait_Conley",
+    "website": "https://www.instagram.com/caitconley/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/17/",
+   "gaps": [],
+   "coverage": [
+    "new-york-17-conley-lawler-poll-market-october-2026"
+   ]
+  },
+  {
+   "llf_id": "NY-H17-lawler-michael",
+   "name": "Michael Vincent \"Mike\" Lawler",
+   "sort_name": "Lawler, Michael",
+   "office": "house",
+   "district": 17,
+   "race_key": "2026-H-NY-17",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2NY17162",
+    "tip_slug": "H2NY17162"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2NY17162",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Michael_Lawler_%28New_York%29",
+    "website": "https://lawler.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/17/",
+   "gaps": [],
+   "coverage": [
+    "new-york-17-conley-lawler-poll-market-october-2026"
+   ]
+  },
+  {
+   "llf_id": "NY-H18-auringer-jackie",
+   "name": "Jackie Mary Auringer",
+   "sort_name": "Auringer, Jackie",
+   "office": "house",
+   "district": 18,
+   "race_key": "2026-H-NY-18",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY18252",
+    "tip_slug": "H6NY18252"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY18252",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Jackie_Auringer",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/new-york/house/18/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H18-ryan-patrick",
+   "name": "Patrick K. \"Pat\" Ryan",
+   "sort_name": "Ryan, Patrick",
+   "office": "house",
+   "district": 18,
+   "race_key": "2026-H-NY-18",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8NY19223",
+    "tip_slug": "H8NY19223"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8NY19223",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Pat_Ryan_%28New_York%29",
+    "website": "https://patryan.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/18/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H19-oberacker-peter",
+   "name": "Peter Karl Oberacker, Jr.",
+   "sort_name": "Oberacker, Peter",
+   "office": "house",
+   "district": 19,
+   "race_key": "2026-H-NY-19",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY19268",
+    "tip_slug": "H6NY19268"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY19268",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Peter_Oberacker",
+    "website": "https://www.nysenate.gov/senators/peter-oberacker"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/19/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H19-riley-josh",
+   "name": "Josh Riley",
+   "sort_name": "Riley, Josh",
+   "office": "house",
+   "district": 19,
+   "race_key": "2026-H-NY-19",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8NY22177",
+    "tip_slug": "H8NY22177"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8NY22177",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Josh_Riley",
+    "website": "https://riley.house.gov"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/19/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H20-ambrosio-ralph",
+   "name": "Ralph F. Ambrosio",
+   "sort_name": "Ambrosio, Ralph",
+   "office": "house",
+   "district": 20,
+   "race_key": "2026-H-NY-20",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY20225",
+    "tip_slug": "H6NY20225"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY20225",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Ralph_Ambrosio",
+    "website": "https://www.facebook.com/ralphambrosioforcongress/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/20/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H20-tonko-paul",
+   "name": "Paul David Tonko",
+   "sort_name": "Tonko, Paul",
+   "office": "house",
+   "district": 20,
+   "race_key": "2026-H-NY-20",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8NY21203",
+    "tip_slug": "H8NY21203"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8NY21203",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Paul_Tonko",
+    "website": "https://tonko.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/20/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H21-constantino-anthony",
+   "name": "Anthony Thomas Constantino",
+   "sort_name": "Constantino, Anthony",
+   "office": "house",
+   "district": 21,
+   "race_key": "2026-H-NY-21",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY21157",
+    "tip_slug": "H6NY21157"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY21157",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Anthony_Constantino",
+    "website": "https://www.facebook.com/constantinoforcongress"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/21/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H21-gendebien-blake",
+   "name": "Blake Gendebien",
+   "sort_name": "Gendebien, Blake",
+   "office": "house",
+   "district": 21,
+   "race_key": "2026-H-NY-21",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY21199",
+    "tip_slug": "H6NY21199"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY21199",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Blake_Gendebien",
+    "website": "https://www.instagram.com/blakegendebien/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/21/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H22-buller-kailee",
+   "name": "Kailee Marie Buller",
+   "sort_name": "Buller, Kailee",
+   "office": "house",
+   "district": 22,
+   "race_key": "2026-H-NY-22",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY22213",
+    "tip_slug": "H6NY22213"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY22213",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Kailee_Buller",
+    "website": "https://www.youtube.com/@bullerforny"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/22/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H22-mannion-john",
+   "name": "John W. Mannion",
+   "sort_name": "Mannion, John",
+   "office": "house",
+   "district": 22,
+   "race_key": "2026-H-NY-22",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NY22085",
+    "tip_slug": "H4NY22085"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NY22085",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/John_Mannion",
+    "website": "https://mannion.house.gov"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/22/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H23-gies-aaron",
+   "name": "Aaron Gies",
+   "sort_name": "Gies, Aaron",
+   "office": "house",
+   "district": 23,
+   "race_key": "2026-H-NY-23",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY23559",
+    "tip_slug": "H6NY23559"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY23559",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Aaron_Gies",
+    "website": "https://www.instagram.com/aaron4ny23/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/23/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H23-langworthy-nicholas",
+   "name": "Nicholas A. \"Nick\" Langworthy",
+   "sort_name": "Langworthy, Nicholas",
+   "office": "house",
+   "district": 23,
+   "race_key": "2026-H-NY-23",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2NY23228",
+    "tip_slug": "H2NY23228"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2NY23228",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Nick_Langworthy",
+    "website": "https://langworthy.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/23/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H24-ellman-alissa",
+   "name": "Alissa J. Ellman",
+   "sort_name": "Ellman, Alissa",
+   "office": "house",
+   "district": 24,
+   "race_key": "2026-H-NY-24",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY24219",
+    "tip_slug": "H6NY24219"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY24219",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Alissa_Ellman",
+    "website": "https://www.instagram.com/alissaellman4congress/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/24/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H24-tenney-claudia",
+   "name": "Claudia Tenney",
+   "sort_name": "Tenney, Claudia",
+   "office": "house",
+   "district": 24,
+   "race_key": "2026-H-NY-24",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NY22051",
+    "tip_slug": "H4NY22051"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NY22051",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Claudia_Tenney",
+    "website": "https://tenney.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/24/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H25-mcintyre-virginia",
+   "name": "Virginia E. McIntyre",
+   "sort_name": "McIntyre, Virginia",
+   "office": "house",
+   "district": 25,
+   "race_key": "2026-H-NY-25",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY25208",
+    "tip_slug": "H6NY25208"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY25208",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Virginia_McIntyre",
+    "website": "https://www.facebook.com/people/Virginia-McIntyre-for-Congress-NY-25/61588353574507/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/25/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H25-morelle-joseph",
+   "name": "Joseph D. \"Joe\" Morelle",
+   "sort_name": "Morelle, Joseph",
+   "office": "house",
+   "district": 25,
+   "race_key": "2026-H-NY-25",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8NY25105",
+    "tip_slug": "H8NY25105"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8NY25105",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Joseph_Morelle",
+    "website": "https://morelle.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/25/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H26-hannon-dennis",
+   "name": "Dennis E. Hannon",
+   "sort_name": "Hannon, Dennis",
+   "office": "house",
+   "district": 26,
+   "race_key": "2026-H-NY-26",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6NY26131",
+    "tip_slug": "H6NY26131"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6NY26131",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/new-york/house/26/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "NY-H26-kennedy-timothy",
+   "name": "Timothy M. \"Tim\" Kennedy",
+   "sort_name": "Kennedy, Timothy",
+   "office": "house",
+   "district": 26,
+   "race_key": "2026-H-NY-26",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4NY26078",
+    "tip_slug": "H4NY26078"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4NY26078",
+    "http": 200,
+    "checked_at": "2026-10-31T13:44Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/NY",
+    "ballotpedia": "https://ballotpedia.org/Tim_Kennedy_%28New_York%29",
+    "website": "https://kennedy.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/new-york/house/26/",
+   "gaps": [],
+   "coverage": []
+  }
+ ]
+}

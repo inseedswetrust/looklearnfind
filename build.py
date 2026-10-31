@@ -600,6 +600,98 @@ def gen_learn_latest_find():
         shell(t["label"], t["blurb"], f'/find/{t["slug"]}/', body, nav="find")
 
 
+
+# ---------------------------------------------------------------- candidate directory (data/candidates, built by tools/elections/build_registry.py)
+CANDS = []          # flattened registry rows, also used by the search index and the public feed
+OFFICE_LABEL = {"governor": "Governor", "senate": "U.S. Senate"}
+
+
+def cand_office(c):
+    return OFFICE_LABEL.get(c["office"]) or f'U.S. House, District {c["district"]}'
+
+
+def cand_row(c, show_state=True):
+    tags = [x for x in (("Incumbent" if c["incumbent"] else ""), ("Write-in candidate" if c["ballot"]["write_in"] else ""),
+                        (f'Running mate {c["running_mate"]}' if c.get("running_mate") else "")) if x]
+    tagline = f'<span class="tags">{e(" · ".join(tags))}</span>' if tags else ""
+    tip = (f'<a href="{e(c["tip"]["url"])}" rel="noopener">View on TIP ↗</a>' if c["tip"]["url"]
+           else '<span class="small">No TIP record yet</span>')
+    st = f'<td>{e(c["state_name"])}</td>' if show_state else ""
+    return (f'<tr data-cand-row data-state="{e(c["state"])}" data-office="{e(c["office"])}" data-party="{e(c["party"]["letter"])}" data-name="{e(c["name"].lower())}">'
+            f'<td class="nm"><span class="pchip" title="{e(c["party"]["label"])}">{e(c["party"]["letter"])}</span>{e(c["name"])}{tagline}</td>{st}'
+            f'<td>{e(cand_office(c))}</td><td>{e(c["party"]["label"])}</td><td class="act">{tip}<a href="{e(c["llf_race_path"])}">Race page</a></td></tr>')
+
+
+def cand_table(rows, show_state=True):
+    head = "<th>Candidate</th>" + ("<th>State</th>" if show_state else "") + "<th>Office</th><th>Party</th><th>Records</th>"
+    return f'<table class="cand-table"><thead><tr>{head}</tr></thead><tbody>' + "".join(cand_row(c, show_state) for c in rows) + "</tbody></table>"
+
+
+def gen_candidates():
+    regs = [json.loads(f.read_text(encoding="utf-8")) for f in sorted((ROOT / "data" / "candidates").glob("[A-Z][A-Z].json"))]
+    if not regs:
+        return
+    regs.sort(key=lambda r: r["state_name"])
+    for r in regs:
+        for c in r["candidates"]:
+            CANDS.append(dict(c, state=r["state"], state_name=r["state_name"], state_slug=r["state_slug"], basis=r["roster"]["basis"]))
+    asof = max((r["built_from"]["candidates_as_of"] or "")[:10] for r in regs)
+    tiles = "".join(
+        f'<a class="cand-state" href="/find/candidates/{e(r["state_slug"])}/"><span class="n">{len(r["candidates"])} candidates</span><b>{e(r["state_name"])}</b>'
+        f'<span class="s">Governor, U.S. Senate and U.S. House</span>'
+        f'<span class="badge-basis{"" if r["roster"]["basis"] == "official" else " unofficial"}">{"Official state list" if r["roster"]["basis"] == "official" else "Not an official list"}</span></a>'
+        for r in regs)
+    states = "".join(f'<option value="{e(r["state"])}">{e(r["state_name"])}</option>' for r in regs)
+    parties = sorted({(c["party"]["letter"], c["party"]["label"]) for c in CANDS})
+    pl = {}
+    for letter, label in parties:
+        pl.setdefault(letter, label)
+    popts = "".join(f'<option value="{e(k)}">{e(k)}: {e(v)}</option>' for k, v in sorted(pl.items()))
+    form = (f'<form class="cand-filter" data-cand-filter role="search" aria-label="Filter candidates"><label>State<select name="state"><option value="">All</option>{states}</select></label>'
+            '<label>Office<select name="office"><option value="">All</option><option value="governor">Governor</option><option value="senate">U.S. Senate</option><option value="house">U.S. House</option></select></label>'
+            f'<label>Party<select name="party"><option value="">All</option>{popts}</select></label>'
+            '<label>Name<input type="search" name="q" placeholder="Search by name" autocomplete="off"></label></form>')
+    basis_note = ('Rosters for states marked "Not an official list" come from Green Papers because the state board\'s own list could not be read by our tools; they are cross-checked against '
+                  'OpenFEC and TIP and may omit late changes. ' if any(r["roster"]["basis"] != "official" for r in regs) else "")
+    body = page_head("Find / Candidates", "Candidates", "Positions, records, original sources.", crumbs=[("Home", "/"), ("Find", "/find/"), ("Candidates", None)], img="find-candidates", ico="find-candidates")
+    body += (f'<section class="band cream" style="padding-top:20px"><div class="wrap"><div class="cand-states">{tiles}</div>{form}'
+             f'<p class="cand-count" data-cand-count aria-live="polite">{len(CANDS)} candidates</p>{cand_table(CANDS)}'
+             f'<p class="cand-note">Every row opens the candidate\'s page on The Issues Party, which holds the record, the six issue grades and the sources. We list people the state shows on the November 3, 2026 ballot for governor, '
+             f'U.S. Senate or U.S. House, in order of state, office and district, then by surname. The order is not a ranking. {basis_note}'
+             f'Candidates with no TIP profile yet are marked. Data as of {e(fmt_date(asof))}. <a href="/data/candidates.json">JSON</a> · <a href="/data/candidates.csv">CSV</a>.</p></div></section>')
+    body += contribute_band()
+    shell("Candidates", "Every qualified candidate for governor, U.S. Senate and U.S. House in the states we cover, with a link to each record on The Issues Party.",
+          "/find/candidates/", body, nav="find", css=("candidates",), js=("common", "candidates"))
+    for r in regs:
+        unofficial = r["roster"]["basis"] != "official"
+        sec = ""
+        groups = [("Governor", [c for c in r["candidates"] if c["office"] == "governor"]), ("U.S. Senate", [c for c in r["candidates"] if c["office"] == "senate"])]
+        for d in sorted({c["district"] for c in r["candidates"] if c["office"] == "house"}):
+            groups.append((f"U.S. House, District {d}", [c for c in r["candidates"] if c["office"] == "house" and c["district"] == d]))
+        for title, cs in groups:
+            if cs:
+                sec += f'<h2 class="h3" style="margin:26px 0 8px">{e(title)}</h2>{cand_table([dict(c, state=r["state"], state_name=r["state_name"]) for c in cs], show_state=False)}'
+        lim = f'<p class="cand-note"><b>Not an official list.</b> {e(r["roster"]["limitations"])}</p>' if unofficial else f'<p class="cand-note">Roster source: {e(r["roster"]["label"])}.</p>'
+        head = page_head(f'Find / Candidates / {e(r["state_name"])}', e(r["state_name"]), f'{len(r["candidates"])} candidates for governor, U.S. Senate and U.S. House.',
+                         crumbs=[("Home", "/"), ("Find", "/find/"), ("Candidates", "/find/candidates/"), (r["state_name"], None)])
+        body = head + (f'<section class="band cream" style="padding-top:20px"><div class="wrap">{lim}{sec}'
+                       f'<p class="cand-note">Each "View on TIP" link opens the candidate\'s page on The Issues Party. <a href="/elections/2026/{e(r["state_slug"])}/">Our {e(r["state_name"])} state of the race pages</a> '
+                       f'cover the races, the money and the markets. The order is not a ranking. Data as of {e(fmt_date((r["built_from"]["candidates_as_of"] or "")[:10]))}.</p></div></section>')
+        shell(f'{r["state_name"]} candidates', f'Every qualified {r["state_name"]} candidate for governor, U.S. Senate and U.S. House, with a link to each record on The Issues Party.',
+              f'/find/candidates/{r["state_slug"]}/', body, nav="find", css=("candidates",), js=("common",), noindex=unofficial, sitemap=not unofficial)
+    pub = [{"llf_id": c["llf_id"], "name": c["name"], "state": c["state"], "state_name": c["state_name"], "office": c["office"], "district": c["district"],
+            "party": c["party"]["label"], "party_letter": c["party"]["letter"], "incumbent": c["incumbent"], "write_in": c["ballot"]["write_in"], "running_mate": c.get("running_mate"),
+            "race_key": c["race_key"], "tip_url": c["tip"]["url"], "tip_issues_graded": c["tip"]["graded_count"], "llf_race_url": CFG["url"] + c["llf_race_path"],
+            "roster_basis": c["basis"]} for c in CANDS]
+    EXTRA_FILES["data/candidates.json"] = json.dumps({"as_of": asof, "note": "Ballot facts and a link to each TIP profile. Grades are on TIP. Order is not a ranking.", "candidates": pub}, ensure_ascii=False, indent=1)
+    import csv as _csv, io as _io
+    buf = _io.StringIO()
+    w = _csv.DictWriter(buf, fieldnames=list(pub[0]), lineterminator="\n")
+    w.writeheader()
+    w.writerows(pub)
+    EXTRA_FILES["data/candidates.csv"] = buf.getvalue()
+
+
 def gen_home():
     """Markup follows reference/approved-homepage.html; styles are static/css/home.css."""
     def card(href, img, eyebrow, title, p="", pos="center"):
@@ -740,6 +832,10 @@ def write_search_index():
         idx.append(dict(t="story", title=s["title"], url=s["path"], dek=s.get("dek", ""), cat=s.get("category", ""), topics=s["topics"], threads=s["threads"], text=strip(s["_body"]), ill=s.get("illustrative") == "yes"))
     for f in FINDS:
         idx.append(dict(t="find", title=f["title"], url=f["path"], dek=f.get("dek", ""), cat=f.get("category", ""), topics=f["topics"], threads=f["threads"], text=strip(f["_body"]), ill=f.get("illustrative") == "yes"))
+    for c in CANDS:
+        if c["tip"]["url"]:
+            idx.append(dict(t="candidate", title=c["name"], url=c["tip"]["url"], dek=f'{cand_office(c)}, {c["state_name"]} ({c["party"]["label"]}). Opens on The Issues Party.', cat="politics",
+                            topics=["candidates"], threads=[], text=f'{c["state_name"]} {c["state"]} {cand_office(c)}'))
     for t in THREADS:
         idx.append(dict(t="thread", title=t["title"], url=f'/threads/{t["slug"]}/', dek=t["summary"], cat=t["category"], topics=t["topics"], threads=[], text=" ".join(t["aliases"])))
     for t in SITE["topics"]:
@@ -767,7 +863,7 @@ def main():
         render_story(s)
     for f in FINDS:
         render_find(f)
-    gen_pages(); gen_home(); gen_topics(); gen_categories(); gen_threads(); gen_learn_latest_find(); gen_search_shell(); gen_look_shells()
+    gen_pages(); gen_home(); gen_topics(); gen_categories(); gen_threads(); gen_learn_latest_find(); gen_candidates(); gen_search_shell(); gen_look_shells()
     elections.API.update(dict(shell=shell, STORIES=STORIES, card=card, take_block=take_block, kv_block=kv_block, fmt_date=fmt_date))
     elections.build(elections.API)
     for s in STORIES:

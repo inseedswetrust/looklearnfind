@@ -1,0 +1,28 @@
+llf_id,name,office,district,party,gap,action
+NY-G-blakeman-bruce,Bruce A. Blakeman,governor,,REP,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+NY-G-blakeman-bruce,Bruce A. Blakeman,governor,,REP,profile_unverified,Editor information only
+NY-G-hochul-kathy,Kathy Hochul,governor,,DEM,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+NY-G-hochul-kathy,Kathy Hochul,governor,,DEM,profile_unverified,Editor information only
+NY-G-mailhot-paul,Paul Mailhot,governor,,WRI,tip_profile_missing,"Add to the TIP fix list (owner approves the write), then re-export"
+NY-G-makeley-jonathan,Jonathan Makeley,governor,,WRI,tip_profile_missing,"Add to the TIP fix list (owner approves the write), then re-export"
+NY-H01-lalota-nicholas,"Nicholas J. ""Nick"" LaLota",house,1,REP,profile_unverified,Editor information only
+NY-H03-suozzi-thomas,"Thomas R. ""Tom"" Suozzi",house,3,DEM,profile_unverified,Editor information only
+NY-H04-tarnoff-blay,Blay Tarnoff,house,4,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H04-tarnoff-blay,Blay Tarnoff,house,4,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H05-marsh-george,George Marsh,house,5,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H05-marsh-george,George Marsh,house,5,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H07-rivera-melvin,Melvin Rivera,house,7,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H07-rivera-melvin,Melvin Rivera,house,7,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H08-ahsan-sahir,Sahir Ahsan,house,8,OTH,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+NY-H08-ahsan-sahir,Sahir Ahsan,house,8,OTH,profile_unverified,Editor information only
+NY-H08-mizrahi-lewis,Lewis Mizrahi,house,8,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H08-mizrahi-lewis,Lewis Mizrahi,house,8,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H10-moore-jennifer,Jennifer E. Moore,house,10,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H10-moore-jennifer,Jennifer E. Moore,house,10,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H11-decillis-mike,Mike DeCillis,house,11,DEM,profile_unverified,Editor information only
+NY-H13-williams-jomo,Jomo Manual Williams,house,13,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H13-williams-jomo,Jomo Manual Williams,house,13,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H15-sapaskis-stylo,Stylo Adonis Sapaskis,house,15,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H15-sapaskis-stylo,Stylo Adonis Sapaskis,house,15,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H26-hannon-dennis,Dennis E. Hannon,house,26,REP,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NY-H26-hannon-dennis,Dennis E. Hannon,house,26,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy

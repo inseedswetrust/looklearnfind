@@ -50,3 +50,6 @@ Workspace: `docs/illinois/` (readiness report, duplication check, ranked story p
 
 ## ChatGPT knowledge package (2026-10-28; superseded the same day by `handoff.py`)
 The first generator (`build_chatgpt_package.py`, removed) built the portable package for a fresh ChatGPT session from `productions/2026/<ST>/package_src/` plus repository files (workflow, standards, schemas, skills as markdown, examples, visuals, state data) into `productions/2026/<ST>/chatgpt_package/`. Michigan: opening prompt for ChatGPT in `productions/2026/MI/package_src/CHATGPT_OPENING_PROMPT.md`; opening prompt for the next Claude session in `docs/michigan/OPENING_PROMPT.md`.
+
+## Candidate directory (2026-10-31)
+`/find/candidates/` lists every qualified candidate in every state we cover, each row linking to the person's page on theissuesparty.org (no per-candidate LLF pages). Data: `data/candidates/<ST>.json` and `races.json`, built by `tools/elections/build_registry.py` from the per-state files and the TIP export; `productions/2026/<ST>/gaps.csv` lists what TIP lacks. Page code: `gen_candidates()` in `build.py`, `static/css/candidates.css`, `static/js/candidates.js`; feeds `/data/candidates.json` and `.csv`; search results open the TIP profile. Spec and status: `docs/election-build/CANDIDATE_DIRECTORY_SPEC.md`. Tests: `tests/test_candidate_registry.py`.

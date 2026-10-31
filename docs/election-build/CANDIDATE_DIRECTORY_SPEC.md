@@ -1,5 +1,7 @@
 # Candidate directory: audit and specification
 
+**Status 2026-10-31: phase 1 is built** (`tools/elections/build_registry.py`, `data/candidates/`, `gen_candidates()` in `build.py`, `static/css/candidates.css`, `static/js/candidates.js`, `tests/test_candidate_registry.py`). Not yet deployed. Phases 2 and 3 remain (topic and sidebar integration; `elections.py` reading the registry).
+
 Written 2026-10-31; revised the same day on the owner's direction: **no per-candidate pages on LookLearnFind. Every candidate row links to that person's page on theissuesparty.org, and TIP is the source for any person-level information LLF lacks.** Audience: Claude Code sessions that build and refresh state data, and whoever approves the page design. This file does two things: it records how candidate information is stored today (section 1 to 3) and it specifies how it should be stored so that `/find/candidates/` and every other surface fills itself (section 4 onward).
 
 ## 1. What is wrong, and why

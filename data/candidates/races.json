@@ -1,0 +1,1475 @@
+[
+ {
+  "race_key": "2026-GOV-FL",
+  "state": "FL",
+  "office": "governor",
+  "district": null,
+  "llf_url": "/elections/2026/florida/governor/",
+  "tip_url": "https://theissuesparty.org/races/2026-GOV-FL",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-G-abrams-dean",
+   "FL-G-anderson-kathy",
+   "FL-G-burkett-charles",
+   "FL-G-datto-jeffrey",
+   "FL-G-dimanche-moliere",
+   "FL-G-donalds-byron",
+   "FL-G-jewett-scott",
+   "FL-G-jolly-david",
+   "FL-G-morris-erik",
+   "FL-G-russo-frank"
+  ]
+ },
+ {
+  "race_key": "2026-GOV-IL",
+  "state": "IL",
+  "office": "governor",
+  "district": null,
+  "llf_url": "/elections/2026/illinois/governor/",
+  "tip_url": "https://theissuesparty.org/races/2026-GOV-IL",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-G-bailey-darren",
+   "IL-G-corbett-collin",
+   "IL-G-eimer-taegun",
+   "IL-G-mayers-richard",
+   "IL-G-metroz-mistry",
+   "IL-G-pritzker-jb",
+   "IL-G-romero-griselda",
+   "IL-G-sebesta-elizabeth",
+   "IL-G-tillman-patricia",
+   "IL-G-varela-rafael",
+   "IL-G-vick-mike"
+  ]
+ },
+ {
+  "race_key": "2026-GOV-MI",
+  "state": "MI",
+  "office": "governor",
+  "district": null,
+  "llf_url": "/elections/2026/michigan/governor/",
+  "tip_url": "https://theissuesparty.org/races/2026-GOV-MI",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-G-benson-jocelyn",
+   "MI-G-brandenburg-donna",
+   "MI-G-campbell-doug",
+   "MI-G-hudson-anthony",
+   "MI-G-james-john"
+  ]
+ },
+ {
+  "race_key": "2026-GOV-NY",
+  "state": "NY",
+  "office": "governor",
+  "district": null,
+  "llf_url": "/elections/2026/new-york/governor/",
+  "tip_url": "https://theissuesparty.org/races/2026-GOV-NY",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-G-blakeman-bruce",
+   "NY-G-hochul-kathy",
+   "NY-G-mailhot-paul",
+   "NY-G-makeley-jonathan"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-01",
+  "state": "FL",
+  "office": "house",
+  "district": 1,
+  "llf_url": "/elections/2026/florida/house/1/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-01",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H01-davis-tyler",
+   "FL-H01-patronis-jimmy",
+   "FL-H01-valimont-gay"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-02",
+  "state": "FL",
+  "office": "house",
+  "district": 2,
+  "llf_url": "/elections/2026/florida/house/2/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-02",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H02-green-amanda",
+   "FL-H02-rogers-austin"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-03",
+  "state": "FL",
+  "office": "house",
+  "district": 3,
+  "llf_url": "/elections/2026/florida/house/3/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-03",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H03-cammack-kat",
+   "FL-H03-harp-seth",
+   "FL-H03-klein-mike"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-04",
+  "state": "FL",
+  "office": "house",
+  "district": 4,
+  "llf_url": "/elections/2026/florida/house/4/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-04",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H04-bean-aaron",
+   "FL-H04-holloway-lashonda",
+   "FL-H04-schaefer-todd",
+   "FL-H04-sell-mike"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-05",
+  "state": "FL",
+  "office": "house",
+  "district": 5,
+  "llf_url": "/elections/2026/florida/house/5/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-05",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H05-grage-rachel",
+   "FL-H05-rutherford-john",
+   "FL-H05-upham-william"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-06",
+  "state": "FL",
+  "office": "house",
+  "district": 6,
+  "llf_url": "/elections/2026/florida/house/6/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-06",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H06-fine-randy",
+   "FL-H06-parrott-andrew",
+   "FL-H06-pavlik-alec",
+   "FL-H06-yonce-eric"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-07",
+  "state": "FL",
+  "office": "house",
+  "district": 7,
+  "llf_url": "/elections/2026/florida/house/7/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-07",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H07-dalton-bale",
+   "FL-H07-dennison-christopher",
+   "FL-H07-elijah-ryan"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-08",
+  "state": "FL",
+  "office": "house",
+  "district": 8,
+  "llf_url": "/elections/2026/florida/house/8/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-08",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H08-haridopolos-mike",
+   "FL-H08-jenkins-jennifer"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-09",
+  "state": "FL",
+  "office": "house",
+  "district": 9,
+  "llf_url": "/elections/2026/florida/house/9/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-09",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H09-green-dan",
+   "FL-H09-soto-darren"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-10",
+  "state": "FL",
+  "office": "house",
+  "district": 10,
+  "llf_url": "/elections/2026/florida/house/10/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-10",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H10-frost-maxwell"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-11",
+  "state": "FL",
+  "office": "house",
+  "district": 11,
+  "llf_url": "/elections/2026/florida/house/11/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-11",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H11-groves-ralph",
+   "FL-H11-pericola-james",
+   "FL-H11-strada-joe"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-12",
+  "state": "FL",
+  "office": "house",
+  "district": 12,
+  "llf_url": "/elections/2026/florida/house/12/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-12",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H12-bilirakis-gus",
+   "FL-H12-overman-kimberly",
+   "FL-H12-scrivener-branden"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-13",
+  "state": "FL",
+  "office": "house",
+  "district": 13,
+  "llf_url": "/elections/2026/florida/house/13/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-13",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H13-d-arrigo-tony",
+   "FL-H13-gray-leela",
+   "FL-H13-luna-anna"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-14",
+  "state": "FL",
+  "office": "house",
+  "district": 14,
+  "llf_url": "/elections/2026/florida/house/14/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-14",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H14-beltran-mike",
+   "FL-H14-castor-kathy",
+   "FL-H14-hernandez-salomon",
+   "FL-H14-lambert-brian",
+   "FL-H14-varian-keith"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-15",
+  "state": "FL",
+  "office": "house",
+  "district": 15,
+  "llf_url": "/elections/2026/florida/house/15/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-15",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H15-boone-angie",
+   "FL-H15-lee-laurel",
+   "FL-H15-people-robert"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-16",
+  "state": "FL",
+  "office": "house",
+  "district": 16,
+  "llf_url": "/elections/2026/florida/house/16/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-16",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H16-davis-mark",
+   "FL-H16-gruters-sydney",
+   "FL-H16-kirschner-kelly"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-17",
+  "state": "FL",
+  "office": "house",
+  "district": 17,
+  "llf_url": "/elections/2026/florida/house/17/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-17",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H17-montavon-matthew",
+   "FL-H17-quirk-michael",
+   "FL-H17-steube-greg"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-18",
+  "state": "FL",
+  "office": "house",
+  "district": 18,
+  "llf_url": "/elections/2026/florida/house/18/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-18",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H18-franklin-scott",
+   "FL-H18-gibson-curtis",
+   "FL-H18-simmons-deva"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-19",
+  "state": "FL",
+  "office": "house",
+  "district": 19,
+  "llf_url": "/elections/2026/florida/house/19/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-19",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H19-arias-victor",
+   "FL-H19-haskin-seth",
+   "FL-H19-schwartzel-jim",
+   "FL-H19-zakhvatayev-alexandra"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-20",
+  "state": "FL",
+  "office": "house",
+  "district": 20,
+  "llf_url": "/elections/2026/florida/house/20/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-20",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H20-andersen-brent",
+   "FL-H20-maxime-kedner",
+   "FL-H20-schultz-debbie"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-21",
+  "state": "FL",
+  "office": "house",
+  "district": 21,
+  "llf_url": "/elections/2026/florida/house/21/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-21",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H21-cooke-alexander",
+   "FL-H21-fabrikant-david",
+   "FL-H21-martin-james",
+   "FL-H21-mast-brian"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-22",
+  "state": "FL",
+  "office": "house",
+  "district": 22,
+  "llf_url": "/elections/2026/florida/house/22/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-22",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H22-askar-casey",
+   "FL-H22-dandiya-pia"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-23",
+  "state": "FL",
+  "office": "house",
+  "district": 23,
+  "llf_url": "/elections/2026/florida/house/23/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-23",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H23-adeimy-deborah",
+   "FL-H23-frankel-lois"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-24",
+  "state": "FL",
+  "office": "house",
+  "district": 24,
+  "llf_url": "/elections/2026/florida/house/24/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-24",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H24-brown-te",
+   "FL-H24-gilbert-oliver",
+   "FL-H24-gonzalez-patricia"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-25",
+  "state": "FL",
+  "office": "house",
+  "district": 25,
+  "llf_url": "/elections/2026/florida/house/25/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-25",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H25-hamilton-michaelangelo",
+   "FL-H25-jassenoff-peter",
+   "FL-H25-moskowitz-jared",
+   "FL-H25-singer-scott"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-26",
+  "state": "FL",
+  "office": "house",
+  "district": 26,
+  "llf_url": "/elections/2026/florida/house/26/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-26",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H26-diaz-balart-mario",
+   "FL-H26-hosey-deborah",
+   "FL-H26-locklin-nicole"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-27",
+  "state": "FL",
+  "office": "house",
+  "district": 27,
+  "llf_url": "/elections/2026/florida/house/27/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-27",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H27-rodriguez-eliott",
+   "FL-H27-salazar-maria"
+  ]
+ },
+ {
+  "race_key": "2026-H-FL-28",
+  "state": "FL",
+  "office": "house",
+  "district": 28,
+  "llf_url": "/elections/2026/florida/house/28/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-FL-28",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-H28-ehr-phil",
+   "FL-H28-gimenez-carlos",
+   "FL-H28-rojas-eddy"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-01",
+  "state": "IL",
+  "office": "house",
+  "district": 1,
+  "llf_url": "/elections/2026/illinois/house/1/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-01",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H01-brown-je-rico",
+   "IL-H01-jackson-jonathan",
+   "IL-H01-maxwell-christian"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-02",
+  "state": "IL",
+  "office": "house",
+  "district": 2,
+  "llf_url": "/elections/2026/illinois/house/2/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-02",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H02-miller-donna",
+   "IL-H02-noack-mike"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-03",
+  "state": "IL",
+  "office": "house",
+  "district": 3,
+  "llf_url": "/elections/2026/illinois/house/3/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-03",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H03-oakley-angel",
+   "IL-H03-ramirez-delia"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-04",
+  "state": "IL",
+  "office": "house",
+  "district": 4,
+  "llf_url": "/elections/2026/illinois/house/4/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-04",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H04-castillo-lupe",
+   "IL-H04-garcia-patty",
+   "IL-H04-getty-chris",
+   "IL-H04-hershey-ed"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-05",
+  "state": "IL",
+  "office": "house",
+  "district": 5,
+  "llf_url": "/elections/2026/illinois/house/5/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-05",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H05-hanson-tom",
+   "IL-H05-quigley-mike"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-06",
+  "state": "IL",
+  "office": "house",
+  "district": 6,
+  "llf_url": "/elections/2026/illinois/house/6/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-06",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H06-casten-sean",
+   "IL-H06-conforti-niki"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-07",
+  "state": "IL",
+  "office": "house",
+  "district": 7,
+  "llf_url": "/elections/2026/illinois/house/7/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-07",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H07-ford-la",
+   "IL-H07-koppie-chad"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-08",
+  "state": "IL",
+  "office": "house",
+  "district": 8,
+  "llf_url": "/elections/2026/illinois/house/8/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-08",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H08-bean-melissa",
+   "IL-H08-davis-jennifer"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-09",
+  "state": "IL",
+  "office": "house",
+  "district": 9,
+  "llf_url": "/elections/2026/illinois/house/9/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-09",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H09-biss-daniel",
+   "IL-H09-elleson-john"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-10",
+  "state": "IL",
+  "office": "house",
+  "district": 10,
+  "llf_url": "/elections/2026/illinois/house/10/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-10",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H10-keating-sofiakis-alexandria",
+   "IL-H10-lambrecht-carl",
+   "IL-H10-schneider-brad"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-11",
+  "state": "IL",
+  "office": "house",
+  "district": 11,
+  "llf_url": "/elections/2026/illinois/house/11/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-11",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H11-foster-bill",
+   "IL-H11-walter-jeff"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-12",
+  "state": "IL",
+  "office": "house",
+  "district": 12,
+  "llf_url": "/elections/2026/illinois/house/12/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-12",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H12-bost-mike",
+   "IL-H12-fortier-julie"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-13",
+  "state": "IL",
+  "office": "house",
+  "district": 13,
+  "llf_url": "/elections/2026/illinois/house/13/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-13",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H13-budzinski-nikki",
+   "IL-H13-wilson-jeff"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-14",
+  "state": "IL",
+  "office": "house",
+  "district": 14,
+  "llf_url": "/elections/2026/illinois/house/14/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-14",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H14-marter-jim",
+   "IL-H14-underwood-lauren"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-15",
+  "state": "IL",
+  "office": "house",
+  "district": 15,
+  "llf_url": "/elections/2026/illinois/house/15/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-15",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H15-miller-mary",
+   "IL-H15-todd-jennifer"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-16",
+  "state": "IL",
+  "office": "house",
+  "district": 16,
+  "llf_url": "/elections/2026/illinois/house/16/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-16",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H16-kitover-john",
+   "IL-H16-lahood-darin",
+   "IL-H16-nolley-paul"
+  ]
+ },
+ {
+  "race_key": "2026-H-IL-17",
+  "state": "IL",
+  "office": "house",
+  "district": 17,
+  "llf_url": "/elections/2026/illinois/house/17/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-IL-17",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-H17-sorensen-eric",
+   "IL-H17-vancil-dillan"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-01",
+  "state": "MI",
+  "office": "house",
+  "district": 1,
+  "llf_url": "/elections/2026/michigan/house/1/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-01",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H01-barr-callie",
+   "MI-H01-bergman-jack",
+   "MI-H01-davenport-laveta",
+   "MI-H01-featherly-zebulon",
+   "MI-H01-hakola-liz",
+   "MI-H01-kovaly-robert",
+   "MI-H01-satterla-arnett"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-02",
+  "state": "MI",
+  "office": "house",
+  "district": 2,
+  "llf_url": "/elections/2026/michigan/house/2/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-02",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H02-ambrose-ben",
+   "MI-H02-magoon-charlotte",
+   "MI-H02-moolenaar-john",
+   "MI-H02-sills-richard"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-03",
+  "state": "MI",
+  "office": "house",
+  "district": 3,
+  "llf_url": "/elections/2026/michigan/house/3/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-03",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H03-deboer-terri",
+   "MI-H03-jock-joe",
+   "MI-H03-scholten-hillary"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-04",
+  "state": "MI",
+  "office": "house",
+  "district": 4,
+  "llf_url": "/elections/2026/michigan/house/4/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-04",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H04-barnett-che",
+   "MI-H04-huizenga-bill",
+   "MI-H04-mccann-sean"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-05",
+  "state": "MI",
+  "office": "house",
+  "district": 5,
+  "llf_url": "/elections/2026/michigan/house/5/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-05",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H05-bronke-jim",
+   "MI-H05-muszynski-ronald",
+   "MI-H05-renier-sharon",
+   "MI-H05-vukasovich-christian",
+   "MI-H05-walberg-tim"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-06",
+  "state": "MI",
+  "office": "house",
+  "district": 6,
+  "llf_url": "/elections/2026/michigan/house/6/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-06",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H06-dingell-debbie",
+   "MI-H06-mickevicius-mike",
+   "MI-H06-rayburn-linda",
+   "MI-H06-shabazz-clyde",
+   "MI-H06-smiley-heather",
+   "MI-H06-taylor-bree",
+   "MI-H06-teagan-timothy"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-07",
+  "state": "MI",
+  "office": "house",
+  "district": 7,
+  "llf_url": "/elections/2026/michigan/house/7/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-07",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H07-barrett-tom",
+   "MI-H07-dedrick-shane",
+   "MI-H07-lawrence-william"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-08",
+  "state": "MI",
+  "office": "house",
+  "district": 8,
+  "llf_url": "/elections/2026/michigan/house/8/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-08",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H08-casha-jim",
+   "MI-H08-goodwin-kathy",
+   "MI-H08-pettus-mia",
+   "MI-H08-rivet-kristen",
+   "MI-H08-smith-tom"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-09",
+  "state": "MI",
+  "office": "house",
+  "district": 9,
+  "llf_url": "/elections/2026/michigan/house/9/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-09",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H09-cartwright-jasen",
+   "MI-H09-clayton-destiny",
+   "MI-H09-mcclain-lisa",
+   "MI-H09-pooley-ray",
+   "MI-H09-vayko-kevin",
+   "MI-H09-vlahos-john",
+   "MI-H09-walkowicz-jim"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-10",
+  "state": "MI",
+  "office": "house",
+  "district": 10,
+  "llf_url": "/elections/2026/michigan/house/10/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-10",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H10-bouchard-mike",
+   "MI-H10-hines-christina",
+   "MI-H10-kirby-andrea",
+   "MI-H10-nkromo-cubby",
+   "MI-H10-saliba-mike"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-11",
+  "state": "MI",
+  "office": "house",
+  "district": 11,
+  "llf_url": "/elections/2026/michigan/house/11/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-11",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H11-baker-ethan",
+   "MI-H11-ishac-farid",
+   "MI-H11-kumar-anil",
+   "MI-H11-moss-jeremy",
+   "MI-H11-teasdale-ryan"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-12",
+  "state": "MI",
+  "office": "house",
+  "district": 12,
+  "llf_url": "/elections/2026/michigan/house/12/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-12",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H12-hooper-james",
+   "MI-H12-sanders-brenda",
+   "MI-H12-sosnowski-marc",
+   "MI-H12-tlaib-rashida",
+   "MI-H12-walkowicz-gary"
+  ]
+ },
+ {
+  "race_key": "2026-H-MI-13",
+  "state": "MI",
+  "office": "house",
+  "district": 13,
+  "llf_url": "/elections/2026/michigan/house/13/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-MI-13",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-H13-coleman-simone",
+   "MI-H13-dardzinski-chris",
+   "MI-H13-light-raelyn",
+   "MI-H13-mckinney-donavan",
+   "MI-H13-nykoriak-t-p"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-01",
+  "state": "NJ",
+  "office": "house",
+  "district": 1,
+  "llf_url": "/elections/2026/new-jersey/house/1/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-01",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H01-galdo-damon",
+   "NJ-H01-norcross-donald"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-02",
+  "state": "NJ",
+  "office": "house",
+  "district": 2,
+  "llf_url": "/elections/2026/new-jersey/house/2/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-02",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H02-drew-jeff",
+   "NJ-H02-mora-ramon",
+   "NJ-H02-mullock-zachary"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-03",
+  "state": "NJ",
+  "office": "house",
+  "district": 3,
+  "llf_url": "/elections/2026/new-jersey/house/3/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-03",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H03-conaway-herbert",
+   "NJ-H03-kelly-ryan",
+   "NJ-H03-mcguire-michael",
+   "NJ-H03-welzer-steven"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-04",
+  "state": "NJ",
+  "office": "house",
+  "district": 4,
+  "llf_url": "/elections/2026/new-jersey/house/4/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-04",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H04-peace-rachel",
+   "NJ-H04-smith-christopher"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-05",
+  "state": "NJ",
+  "office": "house",
+  "district": 5,
+  "llf_url": "/elections/2026/new-jersey/house/5/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-05",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H05-gottheimer-joshua",
+   "NJ-H05-kirrane-sean",
+   "NJ-H05-rueda-adam"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-06",
+  "state": "NJ",
+  "office": "house",
+  "district": 6,
+  "llf_url": "/elections/2026/new-jersey/house/6/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-06",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H06-herzig-hillary",
+   "NJ-H06-pallone-frank"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-07",
+  "state": "NJ",
+  "office": "house",
+  "district": 7,
+  "llf_url": "/elections/2026/new-jersey/house/7/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-07",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H07-bennett-rebecca",
+   "NJ-H07-kean-thomas",
+   "NJ-H07-o-toole-seamus"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-08",
+  "state": "NJ",
+  "office": "house",
+  "district": 8,
+  "llf_url": "/elections/2026/new-jersey/house/8/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-08",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H08-eliopoulos-aristotle",
+   "NJ-H08-honts-craig",
+   "NJ-H08-hughey-da-shone",
+   "NJ-H08-menendez-rob"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-09",
+  "state": "NJ",
+  "office": "house",
+  "district": 9,
+  "llf_url": "/elections/2026/new-jersey/house/9/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-09",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H09-bukovinac-terrisa",
+   "NJ-H09-pino-rosemary",
+   "NJ-H09-pou-nelida"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-10",
+  "state": "NJ",
+  "office": "house",
+  "district": 10,
+  "llf_url": "/elections/2026/new-jersey/house/10/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-10",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H10-bucco-carmen",
+   "NJ-H10-mciver-lamonica"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-11",
+  "state": "NJ",
+  "office": "house",
+  "district": 11,
+  "llf_url": "/elections/2026/new-jersey/house/11/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-11",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H11-bond-alan",
+   "NJ-H11-hathaway-joe",
+   "NJ-H11-mejia-analilia"
+  ]
+ },
+ {
+  "race_key": "2026-H-NJ-12",
+  "state": "NJ",
+  "office": "house",
+  "district": 12,
+  "llf_url": "/elections/2026/new-jersey/house/12/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NJ-12",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-H12-hamawy-adam",
+   "NJ-H12-jinete-andres",
+   "NJ-H12-jordan-winston",
+   "NJ-H12-mele-gregg"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-01",
+  "state": "NY",
+  "office": "house",
+  "district": 1,
+  "llf_url": "/elections/2026/new-york/house/1/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-01",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H01-gallant-christopher",
+   "NY-H01-lalota-nicholas"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-02",
+  "state": "NY",
+  "office": "house",
+  "district": 2,
+  "llf_url": "/elections/2026/new-york/house/2/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-02",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H02-garbarino-andrew",
+   "NY-H02-halpin-patrick"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-03",
+  "state": "NY",
+  "office": "house",
+  "district": 3,
+  "llf_url": "/elections/2026/new-york/house/3/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-03",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H03-lipetri-michael",
+   "NY-H03-suozzi-thomas"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-04",
+  "state": "NY",
+  "office": "house",
+  "district": 4,
+  "llf_url": "/elections/2026/new-york/house/4/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-04",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H04-driscoll-jeanine",
+   "NY-H04-gillen-laura",
+   "NY-H04-tarnoff-blay"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-05",
+  "state": "NY",
+  "office": "house",
+  "district": 5,
+  "llf_url": "/elections/2026/new-york/house/5/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-05",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H05-marsh-george",
+   "NY-H05-meeks-gregory"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-06",
+  "state": "NY",
+  "office": "house",
+  "district": 6,
+  "llf_url": "/elections/2026/new-york/house/6/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-06",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H06-chou-joseph",
+   "NY-H06-meng-grace"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-07",
+  "state": "NY",
+  "office": "house",
+  "district": 7,
+  "llf_url": "/elections/2026/new-york/house/7/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-07",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H07-ghaznavi-priscilla",
+   "NY-H07-rivera-melvin",
+   "NY-H07-valdez-claire"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-08",
+  "state": "NY",
+  "office": "house",
+  "district": 8,
+  "llf_url": "/elections/2026/new-york/house/8/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-08",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H08-ahsan-sahir",
+   "NY-H08-jeffries-hakeem",
+   "NY-H08-mizrahi-lewis"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-09",
+  "state": "NY",
+  "office": "house",
+  "district": 9,
+  "llf_url": "/elections/2026/new-york/house/9/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-09",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H09-azumah-aka",
+   "NY-H09-clarke-yvette"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-10",
+  "state": "NY",
+  "office": "house",
+  "district": 10,
+  "llf_url": "/elections/2026/new-york/house/10/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-10",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H10-lander-brad",
+   "NY-H10-moore-jennifer"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-11",
+  "state": "NY",
+  "office": "house",
+  "district": 11,
+  "llf_url": "/elections/2026/new-york/house/11/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-11",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H11-decillis-mike",
+   "NY-H11-malliotakis-nicole"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-12",
+  "state": "NY",
+  "office": "house",
+  "district": 12,
+  "llf_url": "/elections/2026/new-york/house/12/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-12",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H12-lasher-micah",
+   "NY-H12-negron-wilneida",
+   "NY-H12-ortiz-karen",
+   "NY-H12-shinkle-caroline"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-13",
+  "state": "NY",
+  "office": "house",
+  "district": 13,
+  "llf_url": "/elections/2026/new-york/house/13/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-13",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H13-chevalier-darializa",
+   "NY-H13-williams-jomo"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-14",
+  "state": "NY",
+  "office": "house",
+  "district": 14,
+  "llf_url": "/elections/2026/new-york/house/14/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-14",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H14-hysenaj-diamant",
+   "NY-H14-ocasio-cortez-alexandria"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-15",
+  "state": "NY",
+  "office": "house",
+  "district": 15,
+  "llf_url": "/elections/2026/new-york/house/15/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-15",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H15-duran-gonzalo",
+   "NY-H15-easton-andre",
+   "NY-H15-sapaskis-stylo",
+   "NY-H15-torres-ritchie",
+   "NY-H15-vega-jose"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-16",
+  "state": "NY",
+  "office": "house",
+  "district": 16,
+  "llf_url": "/elections/2026/new-york/house/16/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-16",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H16-cinquemani-joseph",
+   "NY-H16-latimer-george"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-17",
+  "state": "NY",
+  "office": "house",
+  "district": 17,
+  "llf_url": "/elections/2026/new-york/house/17/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-17",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H17-conley-caitlin",
+   "NY-H17-lawler-michael"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-18",
+  "state": "NY",
+  "office": "house",
+  "district": 18,
+  "llf_url": "/elections/2026/new-york/house/18/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-18",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H18-auringer-jackie",
+   "NY-H18-ryan-patrick"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-19",
+  "state": "NY",
+  "office": "house",
+  "district": 19,
+  "llf_url": "/elections/2026/new-york/house/19/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-19",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H19-oberacker-peter",
+   "NY-H19-riley-josh"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-20",
+  "state": "NY",
+  "office": "house",
+  "district": 20,
+  "llf_url": "/elections/2026/new-york/house/20/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-20",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H20-ambrosio-ralph",
+   "NY-H20-tonko-paul"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-21",
+  "state": "NY",
+  "office": "house",
+  "district": 21,
+  "llf_url": "/elections/2026/new-york/house/21/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-21",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H21-constantino-anthony",
+   "NY-H21-gendebien-blake"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-22",
+  "state": "NY",
+  "office": "house",
+  "district": 22,
+  "llf_url": "/elections/2026/new-york/house/22/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-22",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H22-buller-kailee",
+   "NY-H22-mannion-john"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-23",
+  "state": "NY",
+  "office": "house",
+  "district": 23,
+  "llf_url": "/elections/2026/new-york/house/23/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-23",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H23-gies-aaron",
+   "NY-H23-langworthy-nicholas"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-24",
+  "state": "NY",
+  "office": "house",
+  "district": 24,
+  "llf_url": "/elections/2026/new-york/house/24/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-24",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H24-ellman-alissa",
+   "NY-H24-tenney-claudia"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-25",
+  "state": "NY",
+  "office": "house",
+  "district": 25,
+  "llf_url": "/elections/2026/new-york/house/25/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-25",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H25-mcintyre-virginia",
+   "NY-H25-morelle-joseph"
+  ]
+ },
+ {
+  "race_key": "2026-H-NY-26",
+  "state": "NY",
+  "office": "house",
+  "district": 26,
+  "llf_url": "/elections/2026/new-york/house/26/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-NY-26",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "NY-H26-hannon-dennis",
+   "NY-H26-kennedy-timothy"
+  ]
+ },
+ {
+  "race_key": "2026-S-FL",
+  "state": "FL",
+  "office": "senate",
+  "district": null,
+  "llf_url": "/elections/2026/florida/senate/",
+  "tip_url": "https://theissuesparty.org/races/2026-S-FL",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "FL-S-gillespie-neil",
+   "FL-S-moody-ashley",
+   "FL-S-nixon-angie"
+  ]
+ },
+ {
+  "race_key": "2026-S-IL",
+  "state": "IL",
+  "office": "senate",
+  "district": null,
+  "llf_url": "/elections/2026/illinois/senate/",
+  "tip_url": "https://theissuesparty.org/races/2026-S-IL",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "IL-S-craine-naomi",
+   "IL-S-harrington-whitfield",
+   "IL-S-stratton-juliana",
+   "IL-S-tracy-don"
+  ]
+ },
+ {
+  "race_key": "2026-S-MI",
+  "state": "MI",
+  "office": "senate",
+  "district": null,
+  "llf_url": "/elections/2026/michigan/senate/",
+  "tip_url": "https://theissuesparty.org/races/2026-S-MI",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "MI-S-christensen-lydia",
+   "MI-S-el-sayed-abdul",
+   "MI-S-kristy-walter",
+   "MI-S-long-tim",
+   "MI-S-marsh-doug",
+   "MI-S-rogers-mike"
+  ]
+ },
+ {
+  "race_key": "2026-S-NJ",
+  "state": "NJ",
+  "office": "senate",
+  "district": null,
+  "llf_url": "/elections/2026/new-jersey/senate/",
+  "tip_url": "https://theissuesparty.org/races/2026-S-NJ",
+  "roster_basis": "official",
+  "candidate_ids": [
+   "NJ-S-booker-cory",
+   "NJ-S-fernandez-veronica",
+   "NJ-S-kuniansky-joanne",
+   "NJ-S-murphy-justin",
+   "NJ-S-nicasio-eduardo"
+  ]
+ }
+]

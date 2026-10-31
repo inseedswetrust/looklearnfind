@@ -1,0 +1,27 @@
+llf_id,name,office,district,party,gap,action
+NJ-S-fernandez-veronica,Veronica Fernandez,senate,,OTH,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-S-fernandez-veronica,Veronica Fernandez,senate,,OTH,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-S-kuniansky-joanne,Joanne Kuniansky,senate,,OTH,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-S-kuniansky-joanne,Joanne Kuniansky,senate,,OTH,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-S-nicasio-eduardo,Eduardo Jose Castillo Nicasio,senate,,WRI,tip_profile_missing,"Add to the TIP fix list (owner approves the write), then re-export"
+NJ-H02-mora-ramon,"Ramon Mora, Jr.",house,2,OTH,profile_unverified,Editor information only
+NJ-H03-kelly-ryan,Ryan Michael Kelly,house,3,OTH,profile_unverified,Editor information only
+NJ-H03-mcguire-michael,Michael Patrick McGuire,house,3,REP,profile_unverified,Editor information only
+NJ-H07-bennett-rebecca,Rebecca Bennett,house,7,DEM,profile_unverified,Editor information only
+NJ-H07-o-toole-seamus,Seamus Patrick O'Toole,house,7,OTH,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H07-o-toole-seamus,Seamus Patrick O'Toole,house,7,OTH,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H07-o-toole-seamus,Seamus Patrick O'Toole,house,7,OTH,profile_unverified,Editor information only
+NJ-H08-eliopoulos-aristotle,"Aristotle ""Ari"" Eliopoulos",house,8,OTH,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H08-eliopoulos-aristotle,"Aristotle ""Ari"" Eliopoulos",house,8,OTH,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H08-eliopoulos-aristotle,"Aristotle ""Ari"" Eliopoulos",house,8,OTH,profile_unverified,Editor information only
+NJ-H08-honts-craig,Craig Honts,house,8,OTH,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H08-honts-craig,Craig Honts,house,8,OTH,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H08-honts-craig,Craig Honts,house,8,OTH,profile_unverified,Editor information only
+NJ-H08-hughey-da-shone,Da'shone Hughey,house,8,OTH,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H08-hughey-da-shone,Da'shone Hughey,house,8,OTH,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H09-bukovinac-terrisa,Terrisa Bukovinac,house,9,OTH,profile_unverified,Editor information only
+NJ-H10-mciver-lamonica,LaMonica R. McIver,house,10,DEM,profile_unverified,Editor information only
+NJ-H12-jinete-andres,Andres Jinete,house,12,GRN,profile_unverified,Editor information only
+NJ-H12-jordan-winston,Winston Jordan,house,12,OTH,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H12-jordan-winston,Winston Jordan,house,12,OTH,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+NJ-H12-jordan-winston,Winston Jordan,house,12,OTH,profile_unverified,Editor information only

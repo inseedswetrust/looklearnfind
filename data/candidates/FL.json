@@ -1,0 +1,4256 @@
+{
+ "schema": 1,
+ "state": "FL",
+ "state_name": "Florida",
+ "state_slug": "florida",
+ "cycle": 2026,
+ "built_from": {
+  "roster_captured_at": "2026-10-23T14:28:24Z",
+  "candidates_as_of": "2026-10-23T22:39:04Z",
+  "tip_export_as_of": "2026-10-23T22:38:30.567Z"
+ },
+ "roster": {
+  "basis": "official",
+  "label": "Florida Division of Elections record",
+  "limitations": ""
+ },
+ "candidates": [
+  {
+   "llf_id": "FL-G-abrams-dean",
+   "name": "Dean Ocean Abrams",
+   "sort_name": "Abrams, Dean",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": "Joe Van Vactor",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-FL-ABRAMS",
+    "tip_slug": "GOV-FL-ABRAMS"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-ABRAMS",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90433",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-G-anderson-kathy",
+   "name": "Kathy Anderson",
+   "sort_name": "Anderson, Kathy",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": "Daniel Nokovich",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-FL-ANDERSON",
+    "tip_slug": "GOV-FL-ANDERSON"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-ANDERSON",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90612",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-G-burkett-charles",
+   "name": "Charles Burkett",
+   "sort_name": "Burkett, Charles",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": "Ruben A. Coto",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-FL-BURKETT",
+    "tip_slug": "GOV-FL-BURKETT"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-BURKETT",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90630",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-G-datto-jeffrey",
+   "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+   "sort_name": "Datto, Jeffrey",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": "Juan Santana",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-FL-DATTO",
+    "tip_slug": "GOV-FL-DATTO"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-DATTO",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89630",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-G-dimanche-moliere",
+   "name": "Moliere \"Moe\" Dimanche",
+   "sort_name": "Dimanche, Moliere",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": "Benjiman Rojas",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-FL-DIMANCHE",
+    "tip_slug": "GOV-FL-DIMANCHE"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-DIMANCHE",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88529",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-G-donalds-byron",
+   "name": "Byron Donalds",
+   "sort_name": "Donalds, Byron",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": "Bryan Avila",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2FL14186",
+    "tip_slug": "GOV-FL-DONALDS"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-DONALDS",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89042",
+    "ballotpedia": "https://ballotpedia.org/Byron_Donalds",
+    "website": "https://www.byrondonalds.com/"
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-G-jewett-scott",
+   "name": "Scott Eckhard Jewett",
+   "sort_name": "Jewett, Scott",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "LPF",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": "Nicole Skelly",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-FL-JEWETT",
+    "tip_slug": "GOV-FL-JEWETT"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-JEWETT",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=84076",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-G-jolly-david",
+   "name": "David Jolly",
+   "sort_name": "Jolly, David",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": "Gwen Graham",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL13101",
+    "tip_slug": "H4FL13101"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL13101",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89243",
+    "ballotpedia": "https://ballotpedia.org/David_Jolly",
+    "website": "https://davidjolly.com"
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [
+    "tip_photo_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-G-morris-erik",
+   "name": "Erik Morris",
+   "sort_name": "Morris, Erik",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": "LeRoy Alaways",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-FL-MORRIS",
+    "tip_slug": "GOV-FL-MORRIS"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-MORRIS",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89939",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-G-russo-frank",
+   "name": "Frank J. Russo",
+   "sort_name": "Russo, Frank",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-FL",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": "Rachel Rodriguez",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-FL-RUSSO",
+    "tip_slug": "GOV-FL-RUSSO"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-FL-RUSSO",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89571",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/governor/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-S-gillespie-neil",
+   "name": "Neil J. Gillespie",
+   "sort_name": "Gillespie, Neil",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-FL",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6FL00863",
+    "tip_slug": "S6FL00863"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6FL00863",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89955",
+    "ballotpedia": "https://ballotpedia.org/Neil_Gilespie",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/senate/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-S-moody-ashley",
+   "name": "Ashley Moody",
+   "sort_name": "Moody, Ashley",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-FL",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6FL00640",
+    "tip_slug": "S6FL00640"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6FL00640",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 2,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89119",
+    "ballotpedia": "https://ballotpedia.org/Ashley_Moody",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/senate/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-S-nixon-angie",
+   "name": "Angie Nixon",
+   "sort_name": "Nixon, Angie",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-FL",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6FL00830",
+    "tip_slug": "S6FL00830"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6FL00830",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90009",
+    "ballotpedia": "https://ballotpedia.org/Angela_Nixon",
+    "website": "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4766&LegislativeTermId=91"
+   },
+   "llf_race_path": "/elections/2026/florida/senate/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H01-davis-tyler",
+   "name": "Tyler L. Davis",
+   "sort_name": "Davis, Tyler",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-FL-01",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL01549",
+    "tip_slug": "H6FL01549"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL01549",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89828",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/1/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H01-patronis-jimmy",
+   "name": "Jimmy Patronis",
+   "sort_name": "Patronis, Jimmy",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-FL-01",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL01390",
+    "tip_slug": "H6FL01390"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL01390",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 3,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89686",
+    "ballotpedia": "https://ballotpedia.org/Jimmy_Patronis",
+    "website": "https://patronis.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H01-valimont-gay",
+   "name": "Gay Valimont",
+   "sort_name": "Valimont, Gay",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-FL-01",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL01197",
+    "tip_slug": "H4FL01197"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL01197",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89916",
+    "ballotpedia": "https://ballotpedia.org/Jennifer_Valimont",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/1/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H02-green-amanda",
+   "name": "Amanda Marie Green",
+   "sort_name": "Green, Amanda",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-FL-02",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL02299",
+    "tip_slug": "H6FL02299"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL02299",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89535",
+    "ballotpedia": "https://ballotpedia.org/Amanda_Green_%28Florida%29",
+    "website": "https://www.tiktok.com/@amgforcongress"
+   },
+   "llf_race_path": "/elections/2026/florida/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H02-rogers-austin",
+   "name": "Austin Rogers",
+   "sort_name": "Rogers, Austin",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-FL-02",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL02331",
+    "tip_slug": "H6FL02331"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL02331",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89929",
+    "ballotpedia": "https://ballotpedia.org/Austin_Rogers",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/2/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H03-cammack-kat",
+   "name": "Kat Cammack",
+   "sort_name": "Cammack, Kat",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-FL-03",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0FL03175",
+    "tip_slug": "H0FL03175"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0FL03175",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91508",
+    "ballotpedia": "https://ballotpedia.org/Kat_Cammack",
+    "website": "https://cammack.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H03-harp-seth",
+   "name": "Seth Harp",
+   "sort_name": "Harp, Seth",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-FL-03",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL03099",
+    "tip_slug": "H6FL03099"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL03099",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89177",
+    "ballotpedia": "https://ballotpedia.org/Seth_Harp",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/3/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H03-klein-mike",
+   "name": "Mike Klein",
+   "sort_name": "Klein, Mike",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-FL-03",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL03149",
+    "tip_slug": "H6FL03149"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL03149",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91032",
+    "ballotpedia": "https://ballotpedia.org/Mike_Klein",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/3/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H04-bean-aaron",
+   "name": "Aaron Bean",
+   "sort_name": "Bean, Aaron",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-FL-04",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2FL04211",
+    "tip_slug": "H2FL04211"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL04211",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88755",
+    "ballotpedia": "https://ballotpedia.org/Aaron_Bean",
+    "website": "https://bean.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H04-holloway-lashonda",
+   "name": "LaShonda \"L.J.\" Holloway",
+   "sort_name": "Holloway, LaShonda",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-FL-04",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL05193",
+    "tip_slug": "H6FL05193"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL05193",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89716",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/4/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H04-schaefer-todd",
+   "name": "Todd Schaefer",
+   "sort_name": "Schaefer, Todd",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-FL-04",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL04068",
+    "tip_slug": "H4FL04068"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL04068",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89381",
+    "ballotpedia": "https://ballotpedia.org/Todd_Schaefer",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/4/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H04-sell-mike",
+   "name": "Mike Sell",
+   "sort_name": "Sell, Mike",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-FL-04",
+   "party": {
+    "code": "FFP",
+    "letter": "F",
+    "label": "Forward Party"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL04246",
+    "tip_slug": "H6FL04246"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL04246",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90647",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/4/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H05-grage-rachel",
+   "name": "Rachel Grage",
+   "sort_name": "Grage, Rachel",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-FL-05",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL05250",
+    "tip_slug": "H6FL05250"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL05250",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89665",
+    "ballotpedia": "https://ballotpedia.org/Rachel_Grage",
+    "website": "https://www.youtube.com/@RachelGrageforFlorida"
+   },
+   "llf_race_path": "/elections/2026/florida/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H05-rutherford-john",
+   "name": "John H. Rutherford",
+   "sort_name": "Rutherford, John",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-FL-05",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL04105",
+    "tip_slug": "H6FL04105"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL04105",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 3,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89967",
+    "ballotpedia": "https://ballotpedia.org/John_Rutherford_%28Florida%29",
+    "website": "https://rutherford.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H05-upham-william",
+   "name": "William Lintag Upham",
+   "sort_name": "Upham, William",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-FL-05",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL05292",
+    "tip_slug": "H6FL05292"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL05292",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90602",
+    "ballotpedia": "https://ballotpedia.org/William_Upham",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/5/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H06-fine-randy",
+   "name": "Randy Fine",
+   "sort_name": "Fine, Randy",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-FL-06",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL06258",
+    "tip_slug": "H6FL06258"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06258",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 3,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90492",
+    "ballotpedia": "https://ballotpedia.org/Randy_Fine",
+    "website": "https://fine.house.gov"
+   },
+   "llf_race_path": "/elections/2026/florida/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H06-parrott-andrew",
+   "name": "Andrew Parrott",
+   "sort_name": "Parrott, Andrew",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-FL-06",
+   "party": {
+    "code": "LPF",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL06316",
+    "tip_slug": "H6FL06316"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06316",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89377",
+    "ballotpedia": "https://ballotpedia.org/Andrew_Parrot",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/6/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H06-pavlik-alec",
+   "name": "Alec Pavlik",
+   "sort_name": "Pavlik, Alec",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-FL-06",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "WRI-FL06-PAVLIK",
+    "tip_slug": "WRI-FL06-PAVLIK"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/WRI-FL06-PAVLIK",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89465",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/6/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H06-yonce-eric",
+   "name": "Eric Yonce",
+   "sort_name": "Yonce, Eric",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-FL-06",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL06340",
+    "tip_slug": "H6FL06340"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06340",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89402",
+    "ballotpedia": "https://ballotpedia.org/Eric_Yonce",
+    "website": "https://www.youtube.com/@ericyonce"
+   },
+   "llf_race_path": "/elections/2026/florida/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H07-dalton-bale",
+   "name": "Bale Dalton",
+   "sort_name": "Dalton, Bale",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-FL-07",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL07215",
+    "tip_slug": "H6FL07215"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL07215",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90631",
+    "ballotpedia": "https://ballotpedia.org/Bale_Dalton",
+    "website": "https://www.youtube.com/@BaleDalton"
+   },
+   "llf_race_path": "/elections/2026/florida/house/7/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H07-dennison-christopher",
+   "name": "Christopher Dennison",
+   "sort_name": "Dennison, Christopher",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-FL-07",
+   "party": {
+    "code": "LPF",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL07249",
+    "tip_slug": "H6FL07249"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL07249",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92377",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/7/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H07-elijah-ryan",
+   "name": "Ryan Elijah",
+   "sort_name": "Elijah, Ryan",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-FL-07",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL07231",
+    "tip_slug": "H6FL07231"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL07231",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90696",
+    "ballotpedia": "https://ballotpedia.org/Ryan_Elijah",
+    "website": "https://x.com/RyanElijah"
+   },
+   "llf_race_path": "/elections/2026/florida/house/7/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H08-haridopolos-mike",
+   "name": "Mike Haridopolos",
+   "sort_name": "Haridopolos, Mike",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-FL-08",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL08168",
+    "tip_slug": "H4FL08168"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL08168",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 3,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89522",
+    "ballotpedia": "https://ballotpedia.org/Mike_Haridopolos",
+    "website": "https://haridopolos.house.gov"
+   },
+   "llf_race_path": "/elections/2026/florida/house/8/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H08-jenkins-jennifer",
+   "name": "Jennifer Jenkins",
+   "sort_name": "Jenkins, Jennifer",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-FL-08",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL06399",
+    "tip_slug": "H6FL06399"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06399",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90831",
+    "ballotpedia": "https://ballotpedia.org/Jennifer_Jenkins",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/8/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H09-green-dan",
+   "name": "Dan Green",
+   "sort_name": "Green, Dan",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-FL-09",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL09294",
+    "tip_slug": "H6FL09294"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL09294",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91337",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/9/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H09-soto-darren",
+   "name": "Darren Soto",
+   "sort_name": "Soto, Darren",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-FL-09",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL09179",
+    "tip_slug": "H6FL09179"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL09179",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89339",
+    "ballotpedia": "https://ballotpedia.org/Darren_Soto",
+    "website": "https://soto.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/9/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H10-frost-maxwell",
+   "name": "Maxwell Alejandro Frost",
+   "sort_name": "Frost, Maxwell",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-FL-10",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "unopposed",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2FL10259",
+    "tip_slug": "H2FL10259"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL10259",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 6,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89909",
+    "ballotpedia": "https://ballotpedia.org/Maxwell_Frost",
+    "website": "https://frost.house.gov"
+   },
+   "llf_race_path": "/elections/2026/florida/house/10/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H11-groves-ralph",
+   "name": "Ralph Groves",
+   "sort_name": "Groves, Ralph",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-FL-11",
+   "party": {
+    "code": "LPF",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL11089",
+    "tip_slug": "H4FL11089"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL11089",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88517",
+    "ballotpedia": "https://ballotpedia.org/Ralph_Groves",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H11-pericola-james",
+   "name": "James Pericola",
+   "sort_name": "Pericola, James",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-FL-11",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL11357",
+    "tip_slug": "H6FL11357"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL11357",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91715",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/11/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H11-strada-joe",
+   "name": "Joe Strada",
+   "sort_name": "Strada, Joe",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-FL-11",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL11332",
+    "tip_slug": "H6FL11332"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL11332",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91717",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/11/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H12-bilirakis-gus",
+   "name": "Gus Michael Bilirakis",
+   "sort_name": "Bilirakis, Gus",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-FL-12",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL09070",
+    "tip_slug": "H6FL09070"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL09070",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88868",
+    "ballotpedia": "https://ballotpedia.org/Gus_Bilirakis",
+    "website": "https://bilirakis.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H12-overman-kimberly",
+   "name": "Kimberly Overman",
+   "sort_name": "Overman, Kimberly",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-FL-12",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL15200",
+    "tip_slug": "H6FL15200"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL15200",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89453",
+    "ballotpedia": "https://ballotpedia.org/Kimberly_Overman",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H12-scrivener-branden",
+   "name": "Branden Scrivener",
+   "sort_name": "Scrivener, Branden",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-FL-12",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL12231",
+    "tip_slug": "H6FL12231"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL12231",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89778",
+    "ballotpedia": "https://ballotpedia.org/Branden_Scrivener",
+    "website": "https://www.facebook.com/share/1D7X3ejjDP/?mibextid=wwXIfr"
+   },
+   "llf_race_path": "/elections/2026/florida/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H13-d-arrigo-tony",
+   "name": "Tony D'Arrigo",
+   "sort_name": "D'Arrigo, Tony",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-FL-13",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL13234",
+    "tip_slug": "H4FL13234"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL13234",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89497",
+    "ballotpedia": "https://ballotpedia.org/Tony_D'Arrigo",
+    "website": "https://www.youtube.com/@TonyDArrigo13"
+   },
+   "llf_race_path": "/elections/2026/florida/house/13/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H13-gray-leela",
+   "name": "Leela Gray",
+   "sort_name": "Gray, Leela",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-FL-13",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL13312",
+    "tip_slug": "H6FL13312"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL13312",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90671",
+    "ballotpedia": "https://ballotpedia.org/Leela_Gray",
+    "website": "https://www.tiktok.com/@leelagrayfl"
+   },
+   "llf_race_path": "/elections/2026/florida/house/13/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H13-luna-anna",
+   "name": "Anna Paulina Luna",
+   "sort_name": "Luna, Anna",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-FL-13",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0FL13158",
+    "tip_slug": "H0FL13158"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0FL13158",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89765",
+    "ballotpedia": "https://ballotpedia.org/Anna_Paulina_Luna",
+    "website": "https://luna.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/13/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H14-beltran-mike",
+   "name": "Mike Beltran",
+   "sort_name": "Beltran, Mike",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-FL-14",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL14237",
+    "tip_slug": "H6FL14237"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL14237",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91313",
+    "ballotpedia": "https://ballotpedia.org/Mike_Beltran",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/14/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H14-castor-kathy",
+   "name": "Kathy Castor",
+   "sort_name": "Castor, Kathy",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-FL-14",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL11126",
+    "tip_slug": "H6FL11126"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL11126",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88870",
+    "ballotpedia": "https://ballotpedia.org/Kathy_Castor",
+    "website": "https://castor.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/14/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H14-hernandez-salomon",
+   "name": "Salomon Hernandez Sr.",
+   "sort_name": "Hernandez, Salomon",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-FL-14",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL14166",
+    "tip_slug": "H4FL14166"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL14166",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91055",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/14/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H14-lambert-brian",
+   "name": "Brian Lambert",
+   "sort_name": "Lambert, Brian",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-FL-14",
+   "party": {
+    "code": "LPF",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL14245",
+    "tip_slug": "H6FL14245"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL14245",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92395",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/14/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H14-varian-keith",
+   "name": "Keith Varian",
+   "sort_name": "Varian, Keith",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-FL-14",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "WRI-FL14-VARIAN",
+    "tip_slug": "WRI-FL14-VARIAN"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/WRI-FL14-VARIAN",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89166",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/14/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H15-boone-angie",
+   "name": "Angie Boone",
+   "sort_name": "Boone, Angie",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-FL-15",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "WRI-FL15-BOONE",
+    "tip_slug": "WRI-FL15-BOONE"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/WRI-FL15-BOONE",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92409",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/15/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H15-lee-laurel",
+   "name": "Laurel Lee",
+   "sort_name": "Lee, Laurel",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-FL-15",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2FL15241",
+    "tip_slug": "H2FL15241"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL15241",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89121",
+    "ballotpedia": "https://ballotpedia.org/Laurel_Lee",
+    "website": "https://laurellee.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/15/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H15-people-robert",
+   "name": "Robert People",
+   "sort_name": "People, Robert",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-FL-15",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL15168",
+    "tip_slug": "H6FL15168"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL15168",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89116",
+    "ballotpedia": "https://ballotpedia.org/Robert_People",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/15/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H16-davis-mark",
+   "name": "Mark Davis",
+   "sort_name": "Davis, Mark",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-FL-16",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL06365",
+    "tip_slug": "H6FL06365"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL06365",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89623",
+    "ballotpedia": "https://ballotpedia.org/Mark_Davis_%28Florida%29",
+    "website": "https://www.youtube.com/@DadBodsBadAttitudes"
+   },
+   "llf_race_path": "/elections/2026/florida/house/16/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H16-gruters-sydney",
+   "name": "Sydney Gruters",
+   "sort_name": "Gruters, Sydney",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-FL-16",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL16141",
+    "tip_slug": "H6FL16141"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL16141",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90251",
+    "ballotpedia": "https://ballotpedia.org/Sydney_Gruters",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/16/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H16-kirschner-kelly",
+   "name": "Kelly Kirschner",
+   "sort_name": "Kirschner, Kelly",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-FL-16",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL16158",
+    "tip_slug": "H6FL16158"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL16158",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90779",
+    "ballotpedia": "https://ballotpedia.org/Kelly_Kirschner",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/16/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H17-montavon-matthew",
+   "name": "Matthew Montavon",
+   "sort_name": "Montavon, Matthew",
+   "office": "house",
+   "district": 17,
+   "race_key": "2026-H-FL-17",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL17060",
+    "tip_slug": "H4FL17060"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL17060",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89451",
+    "ballotpedia": "https://ballotpedia.org/Matthew_Montavon",
+    "website": "https://www.youtube.com/@Montavon4Congress"
+   },
+   "llf_race_path": "/elections/2026/florida/house/17/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H17-quirk-michael",
+   "name": "Michael J. Quirk",
+   "sort_name": "Quirk, Michael",
+   "office": "house",
+   "district": 17,
+   "race_key": "2026-H-FL-17",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL17081",
+    "tip_slug": "H6FL17081"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL17081",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90646",
+    "ballotpedia": "https://ballotpedia.org/Michael_Quirk",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/17/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H17-steube-greg",
+   "name": "Greg Steube",
+   "sort_name": "Steube, Greg",
+   "office": "house",
+   "district": 17,
+   "race_key": "2026-H-FL-17",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8FL17053",
+    "tip_slug": "H8FL17053"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8FL17053",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89179",
+    "ballotpedia": "https://ballotpedia.org/Greg_Steube",
+    "website": "https://steube.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/17/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H18-franklin-scott",
+   "name": "Scott Franklin",
+   "sort_name": "Franklin, Scott",
+   "office": "house",
+   "district": 18,
+   "race_key": "2026-H-FL-18",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0FL15104",
+    "tip_slug": "H0FL15104"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0FL15104",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89125",
+    "ballotpedia": "https://ballotpedia.org/Scott_Franklin",
+    "website": "https://franklin.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/18/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H18-gibson-curtis",
+   "name": "Curtis Gibson",
+   "sort_name": "Gibson, Curtis",
+   "office": "house",
+   "district": 18,
+   "race_key": "2026-H-FL-18",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL18212",
+    "tip_slug": "H6FL18212"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL18212",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89631",
+    "ballotpedia": "https://ballotpedia.org/Curtis_Gibson",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/18/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H18-simmons-deva",
+   "name": "Deva Simmons",
+   "sort_name": "Simmons, Deva",
+   "office": "house",
+   "district": 18,
+   "race_key": "2026-H-FL-18",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL18204",
+    "tip_slug": "H6FL18204"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL18204",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89643",
+    "ballotpedia": "https://ballotpedia.org/Deva_Simmons",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/18/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H19-arias-victor",
+   "name": "Victor Arias",
+   "sort_name": "Arias, Victor",
+   "office": "house",
+   "district": 19,
+   "race_key": "2026-H-FL-19",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL19277",
+    "tip_slug": "H6FL19277"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL19277",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89740",
+    "ballotpedia": "https://ballotpedia.org/Victor_Arias",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/19/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H19-haskin-seth",
+   "name": "Seth Haskin",
+   "sort_name": "Haskin, Seth",
+   "office": "house",
+   "district": 19,
+   "race_key": "2026-H-FL-19",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL19319",
+    "tip_slug": "H6FL19319"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL19319",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90744",
+    "ballotpedia": "https://ballotpedia.org/Seth_Haskin",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/19/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H19-schwartzel-jim",
+   "name": "Jim Schwartzel",
+   "sort_name": "Schwartzel, Jim",
+   "office": "house",
+   "district": 19,
+   "race_key": "2026-H-FL-19",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL19137",
+    "tip_slug": "H6FL19137"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL19137",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89137",
+    "ballotpedia": "https://ballotpedia.org/Jim_Schwartzel",
+    "website": "https://x.com/jimschwartzel"
+   },
+   "llf_race_path": "/elections/2026/florida/house/19/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H19-zakhvatayev-alexandra",
+   "name": "Alexandra Zakhvatayev",
+   "sort_name": "Zakhvatayev, Alexandra",
+   "office": "house",
+   "district": 19,
+   "race_key": "2026-H-FL-19",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "WRI-FL19-ZAKHVATAYEV",
+    "tip_slug": "WRI-FL19-ZAKHVATAYEV"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/WRI-FL19-ZAKHVATAYEV",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90481",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/19/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H20-andersen-brent",
+   "name": "Brent Andersen",
+   "sort_name": "Andersen, Brent",
+   "office": "house",
+   "district": 20,
+   "race_key": "2026-H-FL-20",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL20143",
+    "tip_slug": "H6FL20143"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL20143",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91278",
+    "ballotpedia": "https://ballotpedia.org/Brent_Andersen",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/20/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H20-maxime-kedner",
+   "name": "Kedner Maxime",
+   "sort_name": "Maxime, Kedner",
+   "office": "house",
+   "district": 20,
+   "race_key": "2026-H-FL-20",
+   "party": {
+    "code": "IND",
+    "letter": "I",
+    "label": "Independent Party of Florida"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL20119",
+    "tip_slug": "H6FL20119"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL20119",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90814",
+    "ballotpedia": "https://ballotpedia.org/Kedner_Maxime",
+    "website": "https://www.maximeforcongress.com/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/20/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H20-schultz-debbie",
+   "name": "Debbie Wasserman Schultz",
+   "sort_name": "Schultz, Debbie",
+   "office": "house",
+   "district": 20,
+   "race_key": "2026-H-FL-20",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL20023",
+    "tip_slug": "H4FL20023"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL20023",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91577",
+    "ballotpedia": "https://ballotpedia.org/Debbie_Wasserman_Schultz",
+    "website": "https://wassermanschultz.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/20/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H21-cooke-alexander",
+   "name": "Alexander Cooke",
+   "sort_name": "Cooke, Alexander",
+   "office": "house",
+   "district": 21,
+   "race_key": "2026-H-FL-21",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL21109",
+    "tip_slug": "H6FL21109"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL21109",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92578",
+    "ballotpedia": "https://ballotpedia.org/Alexander_Cooke",
+    "website": "https://www.facebook.com/Cookeforflorida"
+   },
+   "llf_race_path": "/elections/2026/florida/house/21/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H21-fabrikant-david",
+   "name": "David Fabrikant",
+   "sort_name": "Fabrikant, David",
+   "office": "house",
+   "district": 21,
+   "race_key": "2026-H-FL-21",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "WRI-FL21-FABRIKANT",
+    "tip_slug": "WRI-FL21-FABRIKANT"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/WRI-FL21-FABRIKANT",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "official_roster_checked",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92567",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/21/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H21-martin-james",
+   "name": "James T. Martin",
+   "sort_name": "Martin, James",
+   "office": "house",
+   "district": 21,
+   "race_key": "2026-H-FL-21",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL21075",
+    "tip_slug": "H6FL21075"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL21075",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89846",
+    "ballotpedia": "https://ballotpedia.org/James_Martin_%28Florida%29",
+    "website": "https://www.tiktok.com/@martin.for.congress"
+   },
+   "llf_race_path": "/elections/2026/florida/house/21/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H21-mast-brian",
+   "name": "Brian Mast",
+   "sort_name": "Mast, Brian",
+   "office": "house",
+   "district": 21,
+   "race_key": "2026-H-FL-21",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL18097",
+    "tip_slug": "H6FL18097"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL18097",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88912",
+    "ballotpedia": "https://ballotpedia.org/Brian_Mast",
+    "website": "https://mast.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/21/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H22-askar-casey",
+   "name": "Casey Askar",
+   "sort_name": "Askar, Casey",
+   "office": "house",
+   "district": 22,
+   "race_key": "2026-H-FL-22",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL22248",
+    "tip_slug": "H0FL19221"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0FL19221",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92109",
+    "ballotpedia": "https://ballotpedia.org/Casey_Askar",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/22/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H22-dandiya-pia",
+   "name": "Pia Dandiya",
+   "sort_name": "Dandiya, Pia",
+   "office": "house",
+   "district": 22,
+   "race_key": "2026-H-FL-22",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL21059",
+    "tip_slug": "H6FL21059"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL21059",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89301",
+    "ballotpedia": "https://ballotpedia.org/Pia_Dandiya",
+    "website": "https://www.instagram.com/piaforcongress/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/22/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H23-adeimy-deborah",
+   "name": "Deborah Adeimy",
+   "sort_name": "Adeimy, Deborah",
+   "office": "house",
+   "district": 23,
+   "race_key": "2026-H-FL-23",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2FL21132",
+    "tip_slug": "H2FL21132"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL21132",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89070",
+    "ballotpedia": "https://ballotpedia.org/Deborah_Adeimy",
+    "website": "https://www.instagram.com/congressdebadeimy"
+   },
+   "llf_race_path": "/elections/2026/florida/house/23/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H23-frankel-lois",
+   "name": "Lois Frankel",
+   "sort_name": "Frankel, Lois",
+   "office": "house",
+   "district": 23,
+   "race_key": "2026-H-FL-23",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2FL14053",
+    "tip_slug": "H2FL14053"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL14053",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89248",
+    "ballotpedia": "https://ballotpedia.org/Lois_Frankel",
+    "website": "https://frankel.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/23/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H24-brown-te",
+   "name": "Te Mayonna Brown",
+   "sort_name": "Brown, Te",
+   "office": "house",
+   "district": 24,
+   "race_key": "2026-H-FL-24",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL14203",
+    "tip_slug": "H6FL14203"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL14203",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90703",
+    "ballotpedia": "https://ballotpedia.org/Te_Brown",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/24/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H24-gilbert-oliver",
+   "name": "Oliver G. Gilbert III",
+   "sort_name": "Gilbert, Oliver",
+   "office": "house",
+   "district": 24,
+   "race_key": "2026-H-FL-24",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL24095",
+    "tip_slug": "H6FL24095"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL24095",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91544",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/24/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H24-gonzalez-patricia",
+   "name": "Patricia Gonzalez",
+   "sort_name": "Gonzalez, Patricia",
+   "office": "house",
+   "district": 24,
+   "race_key": "2026-H-FL-24",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2FL24052",
+    "tip_slug": "H2FL24052"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL24052",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92610",
+    "ballotpedia": "https://ballotpedia.org/Patricia_Gonzalez",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/24/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H25-hamilton-michaelangelo",
+   "name": "Michaelangelo Hamilton",
+   "sort_name": "Hamilton, Michaelangelo",
+   "office": "house",
+   "district": 25,
+   "race_key": "2026-H-FL-25",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL23105",
+    "tip_slug": "H6FL23105"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL23105",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=84732",
+    "ballotpedia": "https://ballotpedia.org/Michaelangelo_Hamilton",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/25/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H25-jassenoff-peter",
+   "name": "Peter Jassenoff",
+   "sort_name": "Jassenoff, Peter",
+   "office": "house",
+   "district": 25,
+   "race_key": "2026-H-FL-25",
+   "party": {
+    "code": "LPF",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL25068",
+    "tip_slug": "H6FL25068"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL25068",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92357",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/25/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H25-moskowitz-jared",
+   "name": "Jared Moskowitz",
+   "sort_name": "Moskowitz, Jared",
+   "office": "house",
+   "district": 25,
+   "race_key": "2026-H-FL-25",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2FL22171",
+    "tip_slug": "H2FL22171"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL22171",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=88911",
+    "ballotpedia": "https://ballotpedia.org/Jared_Moskowitz",
+    "website": "https://moskowitz.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/25/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H25-singer-scott",
+   "name": "Scott Singer",
+   "sort_name": "Singer, Scott",
+   "office": "house",
+   "district": 25,
+   "race_key": "2026-H-FL-25",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL23188",
+    "tip_slug": "H6FL23188"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL23188",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89801",
+    "ballotpedia": "https://ballotpedia.org/Scott_Singer",
+    "website": "https://www.youtube.com/@scottsingerusa7487"
+   },
+   "llf_race_path": "/elections/2026/florida/house/25/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H26-diaz-balart-mario",
+   "name": "Mario Diaz-Balart",
+   "sort_name": "Diaz-Balart, Mario",
+   "office": "house",
+   "district": 26,
+   "race_key": "2026-H-FL-26",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2FL25018",
+    "tip_slug": "H2FL25018"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2FL25018",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90330",
+    "ballotpedia": "https://ballotpedia.org/Mario_Diaz-Balart",
+    "website": "https://mariodiazbalart.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/26/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H26-hosey-deborah",
+   "name": "Deborah Ann Meidinger Hosey",
+   "sort_name": "Hosey, Deborah",
+   "office": "house",
+   "district": 26,
+   "race_key": "2026-H-FL-26",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL26074",
+    "tip_slug": "H6FL26074"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL26074",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=92137",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/florida/house/26/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H26-locklin-nicole",
+   "name": "Nicole Locklin",
+   "sort_name": "Locklin, Nicole",
+   "office": "house",
+   "district": 26,
+   "race_key": "2026-H-FL-26",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL26058",
+    "tip_slug": "H6FL26058"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL26058",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89980",
+    "ballotpedia": "https://ballotpedia.org/Nicole_Locklin",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/26/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H27-rodriguez-eliott",
+   "name": "Eliott Rodriguez",
+   "sort_name": "Rodriguez, Eliott",
+   "office": "house",
+   "district": 27,
+   "race_key": "2026-H-FL-27",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL27098",
+    "tip_slug": "H6FL27098"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL27098",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=89933",
+    "ballotpedia": "https://ballotpedia.org/Eliott_Rodriguez",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/florida/house/27/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H27-salazar-maria",
+   "name": "Maria Elvira Salazar",
+   "sort_name": "Salazar, Maria",
+   "office": "house",
+   "district": 27,
+   "race_key": "2026-H-FL-27",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8FL27185",
+    "tip_slug": "H8FL27185"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8FL27185",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90721",
+    "ballotpedia": "https://ballotpedia.org/Maria_Salazar",
+    "website": "https://salazar.house.gov"
+   },
+   "llf_race_path": "/elections/2026/florida/house/27/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H28-ehr-phil",
+   "name": "Phil \"Felipe\" Ehr",
+   "sort_name": "Ehr, Phil",
+   "office": "house",
+   "district": 28,
+   "race_key": "2026-H-FL-28",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4FL28042",
+    "tip_slug": "H4FL28042"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4FL28042",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91699",
+    "ballotpedia": "https://ballotpedia.org/Phil_Ehr",
+    "website": "https://www.youtube.com/@ehrforcongress"
+   },
+   "llf_race_path": "/elections/2026/florida/house/28/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H28-gimenez-carlos",
+   "name": "Carlos A. Gimenez",
+   "sort_name": "Gimenez, Carlos",
+   "office": "house",
+   "district": 28,
+   "race_key": "2026-H-FL-28",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0FL26036",
+    "tip_slug": "H0FL26036"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0FL26036",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=91226",
+    "ballotpedia": "https://ballotpedia.org/Carlos_Gimenez",
+    "website": "https://gimenez.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/28/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "FL-H28-rojas-eddy",
+   "name": "Eddy Rojas",
+   "sort_name": "Rojas, Eddy",
+   "office": "house",
+   "district": 28,
+   "race_key": "2026-H-FL-28",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6FL28021",
+    "tip_slug": "H6FL28021"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6FL28021",
+    "http": 200,
+    "checked_at": "2026-10-23T22:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=90340",
+    "ballotpedia": "https://ballotpedia.org/Eddy_Rojas",
+    "website": "https://www.instagram.com/rojasforcongress/"
+   },
+   "llf_race_path": "/elections/2026/florida/house/28/",
+   "gaps": [],
+   "coverage": []
+  }
+ ]
+}

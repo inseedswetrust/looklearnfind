@@ -1,0 +1,3397 @@
+{
+ "schema": 1,
+ "state": "MI",
+ "state_name": "Michigan",
+ "state_slug": "michigan",
+ "cycle": 2026,
+ "built_from": {
+  "roster_captured_at": "2026-10-28T00:00:00Z",
+  "candidates_as_of": "2026-10-28T20:25:07Z",
+  "tip_export_as_of": "2026-10-28T17:18:25.988Z"
+ },
+ "roster": {
+  "basis": "official",
+  "label": "Michigan Department of State candidate listing",
+  "limitations": ""
+ },
+ "candidates": [
+  {
+   "llf_id": "MI-G-benson-jocelyn",
+   "name": "Jocelyn Benson",
+   "sort_name": "Benson, Jocelyn",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-MI",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": "Winnie Brinks",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Secretary of State"
+   },
+   "ids": {
+    "fec": "GOV-MI-BENSON",
+    "tip_slug": "GOV-MI-BENSON"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MI-BENSON",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": "http://jocelynbenson.com/"
+   },
+   "llf_race_path": "/elections/2026/michigan/governor/",
+   "gaps": [
+    "tip_entry_review",
+    "profile_unverified"
+   ],
+   "coverage": [
+    "mike-duggan-withdrawn-candidate-kalshi-michigan"
+   ]
+  },
+  {
+   "llf_id": "MI-G-brandenburg-donna",
+   "name": "Donna Brandenburg",
+   "sort_name": "Brandenburg, Donna",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-MI",
+   "party": {
+    "code": "UST",
+    "letter": "T",
+    "label": "U.S. Taxpayers"
+   },
+   "incumbent": false,
+   "running_mate": "Robert Donald Cowper, II",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-MI-BRANDENBURG",
+    "tip_slug": "GOV-MI-BRANDENBURG"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MI-BRANDENBURG",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/governor/",
+   "gaps": [
+    "tip_entry_review",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-G-campbell-doug",
+   "name": "Doug Campbell",
+   "sort_name": "Campbell, Doug",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-MI",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": "Bobbie Clay",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-MI-CAMPBELL",
+    "tip_slug": "GOV-MI-CAMPBELL"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MI-CAMPBELL",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/governor/",
+   "gaps": [
+    "tip_entry_review",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-G-hudson-anthony",
+   "name": "Anthony Hudson",
+   "sort_name": "Hudson, Anthony",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-MI",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": "Beau Parmenter",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-MI-HUDSON",
+    "tip_slug": "GOV-MI-HUDSON"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MI-HUDSON",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/governor/",
+   "gaps": [
+    "tip_entry_review",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-G-james-john",
+   "name": "John James",
+   "sort_name": "James, John",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-MI",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": "Jay DeBoyer",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Member of Congress, MI-10 (open seat); received his party's nomination 2026-08-04"
+   },
+   "ids": {
+    "fec": "H2MI10150",
+    "tip_slug": "GOV-MI-JAMES"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MI-JAMES",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/John_James_%28Michigan%29",
+    "website": "https://james.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/michigan/governor/",
+   "gaps": [
+    "tip_entry_review"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-S-christensen-lydia",
+   "name": "Lydia Christensen",
+   "sort_name": "Christensen, Lydia",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MI",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6MI00442",
+    "tip_slug": "S6MI00442"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6MI00442",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Lydia_Christensen",
+    "website": "https://www.tiktok.com/@lydiaforussenate"
+   },
+   "llf_race_path": "/elections/2026/michigan/senate/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-S-el-sayed-abdul",
+   "name": "Abdul El-Sayed",
+   "sort_name": "El-Sayed, Abdul",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MI",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "open seat (Gary Peters not seeking re-election)"
+   },
+   "ids": {
+    "fec": "S6MI00418",
+    "tip_slug": "S6MI00418"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6MI00418",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Abdul_El-Sayed",
+    "website": "https://www.tiktok.com/@abdulelsayed"
+   },
+   "llf_race_path": "/elections/2026/michigan/senate/",
+   "gaps": [],
+   "coverage": [
+    "aipac-udp-money-delta-october-2026"
+   ]
+  },
+  {
+   "llf_id": "MI-S-kristy-walter",
+   "name": "Walter Kristy",
+   "sort_name": "Kristy, Walter",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MI",
+   "party": {
+    "code": "NLP",
+    "letter": "P",
+    "label": "Natural Law"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6MI00590",
+    "tip_slug": "S6MI00590"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6MI00590",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/senate/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-S-long-tim",
+   "name": "Tim Long",
+   "sort_name": "Long, Tim",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MI",
+   "party": {
+    "code": "UST",
+    "letter": "T",
+    "label": "U.S. Taxpayers"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S6MI00566",
+    "tip_slug": "S6MI00566"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S6MI00566",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/senate/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-S-marsh-doug",
+   "name": "Doug Marsh",
+   "sort_name": "Marsh, Doug",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MI",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "S4MI00512",
+    "tip_slug": "S4MI00512"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S4MI00512",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Douglas_Marsh",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/senate/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-S-rogers-mike",
+   "name": "Mike Rogers",
+   "sort_name": "Rogers, Mike",
+   "office": "senate",
+   "district": null,
+   "race_key": "2026-S-MI",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "former Member of Congress"
+   },
+   "ids": {
+    "fec": "S4MI00595",
+    "tip_slug": "S4MI00595"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/S4MI00595",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Mike_Rogers_%28Michigan%29",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/michigan/senate/",
+   "gaps": [],
+   "coverage": [
+    "aipac-udp-money-delta-october-2026"
+   ]
+  },
+  {
+   "llf_id": "MI-H01-barr-callie",
+   "name": "Callie Barr",
+   "sort_name": "Barr, Callie",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-MI-01",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI01155",
+    "tip_slug": "H4MI01155"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI01155",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Callie_Barr",
+    "website": "https://www.youtube.com/@Callie4Congress"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H01-bergman-jack",
+   "name": "Jack Bergman",
+   "sort_name": "Bergman, Jack",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-MI-01",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI01226",
+    "tip_slug": "H6MI01226"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI01226",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/John_Bergman",
+    "website": "https://bergman.house.gov"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/1/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H01-davenport-laveta",
+   "name": "LaVeta Davenport",
+   "sort_name": "Davenport, LaVeta",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-MI-01",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI01309",
+    "tip_slug": "H6MI01309"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI01309",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/1/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H01-featherly-zebulon",
+   "name": "Zebulon Featherly",
+   "sort_name": "Featherly, Zebulon",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-MI-01",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI01275",
+    "tip_slug": "H6MI01275"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI01275",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Zebulon_Featherly",
+    "website": "https://www.youtube.com/@ZebulonFeatherly"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H01-hakola-liz",
+   "name": "Liz Hakola",
+   "sort_name": "Hakola, Liz",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-MI-01",
+   "party": {
+    "code": "WCP",
+    "letter": "C",
+    "label": "Working Class"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2MI01167",
+    "tip_slug": "H2MI01167"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2MI01167",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/1/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H01-kovaly-robert",
+   "name": "Robert Kovaly",
+   "sort_name": "Kovaly, Robert",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-MI-01",
+   "party": {
+    "code": "UST",
+    "letter": "T",
+    "label": "U.S. Taxpayers"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI02257",
+    "tip_slug": "H6MI02257"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI02257",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/1/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H01-satterla-arnett",
+   "name": "Arnett Satterla",
+   "sort_name": "Satterla, Arnett",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-MI-01",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI01283",
+    "tip_slug": "H6MI01283"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI01283",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/1/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H02-ambrose-ben",
+   "name": "Ben Ambrose",
+   "sort_name": "Ambrose, Ben",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-MI-02",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI02216",
+    "tip_slug": "H6MI02216"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI02216",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Benjamin_Ambrose",
+    "website": "https://www.ambrose4congress.com/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H02-magoon-charlotte",
+   "name": "Charlotte Magoon",
+   "sort_name": "Magoon, Charlotte",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-MI-02",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI02265",
+    "tip_slug": "H6MI02265"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI02265",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/2/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H02-moolenaar-john",
+   "name": "John Moolenaar",
+   "sort_name": "Moolenaar, John",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-MI-02",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI04126",
+    "tip_slug": "H4MI04126"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI04126",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/John_Moolenaar",
+    "website": "https://moolenaar.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H02-sills-richard",
+   "name": "Richard Sills",
+   "sort_name": "Sills, Richard",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-MI-02",
+   "party": {
+    "code": "NLP",
+    "letter": "P",
+    "label": "Natural Law"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI02273",
+    "tip_slug": "H6MI02273"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI02273",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/2/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H03-deboer-terri",
+   "name": "Terri DeBoer",
+   "sort_name": "DeBoer, Terri",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-MI-03",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI03198",
+    "tip_slug": "H6MI03198"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI03198",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Terri_Deboer",
+    "website": "https://www.instagram.com/terrideboer"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H03-jock-joe",
+   "name": "Joe Jock",
+   "sort_name": "Jock, Joe",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-MI-03",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI03214",
+    "tip_slug": "H6MI03214"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI03214",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/3/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H03-scholten-hillary",
+   "name": "Hillary Scholten",
+   "sort_name": "Scholten, Hillary",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-MI-03",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0MI03316",
+    "tip_slug": "H0MI03316"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0MI03316",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Hillary_Scholten",
+    "website": "https://scholten.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H04-barnett-che",
+   "name": "Che Barnett",
+   "sort_name": "Barnett, Che",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-MI-04",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI04220",
+    "tip_slug": "H6MI04220"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI04220",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/4/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H04-huizenga-bill",
+   "name": "Bill Huizenga",
+   "sort_name": "Huizenga, Bill",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-MI-04",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0MI02094",
+    "tip_slug": "H0MI02094"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0MI02094",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/William_Huizenga",
+    "website": "https://huizenga.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/4/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H04-mccann-sean",
+   "name": "Sean McCann",
+   "sort_name": "McCann, Sean",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-MI-04",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "state Senator"
+   },
+   "ids": {
+    "fec": "H6MI04204",
+    "tip_slug": "H6MI04204"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI04204",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Sean_McCann",
+    "website": "https://senatedems.com/mccann/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H05-bronke-jim",
+   "name": "Jim Bronke",
+   "sort_name": "Bronke, Jim",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-MI-05",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI05172",
+    "tip_slug": "H4MI05172"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI05172",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/James_Bronke",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H05-muszynski-ronald",
+   "name": "Ronald Muszynski",
+   "sort_name": "Muszynski, Ronald",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-MI-05",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI05235",
+    "tip_slug": "H6MI05235"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI05235",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/5/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H05-renier-sharon",
+   "name": "Sharon Renier",
+   "sort_name": "Renier, Sharon",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-MI-05",
+   "party": {
+    "code": "UST",
+    "letter": "T",
+    "label": "U.S. Taxpayers"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI07137",
+    "tip_slug": "H4MI07137"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI07137",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/5/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H05-vukasovich-christian",
+   "name": "Christian Vukasovich",
+   "sort_name": "Vukasovich, Christian",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-MI-05",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI05227",
+    "tip_slug": "H6MI05227"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI05227",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Christian_Vukasovich",
+    "website": "https://x.com/c4michigan"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/5/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H05-walberg-tim",
+   "name": "Tim Walberg",
+   "sort_name": "Walberg, Tim",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-MI-05",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI07103",
+    "tip_slug": "H4MI07103"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI07103",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Timothy_Walberg",
+    "website": "https://walberg.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/5/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H06-dingell-debbie",
+   "name": "Debbie Dingell",
+   "sort_name": "Dingell, Debbie",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-MI-06",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI12079",
+    "tip_slug": "H4MI12079"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI12079",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Debbie_Dingell",
+    "website": "https://debbiedingell.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H06-mickevicius-mike",
+   "name": "Mike Mickevicius",
+   "sort_name": "Mickevicius, Mike",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-MI-06",
+   "party": {
+    "code": "UST",
+    "letter": "T",
+    "label": "U.S. Taxpayers"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI06241",
+    "tip_slug": "H6MI06241"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI06241",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/6/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H06-rayburn-linda",
+   "name": "Linda Rayburn",
+   "sort_name": "Rayburn, Linda",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-MI-06",
+   "party": {
+    "code": "WCP",
+    "letter": "C",
+    "label": "Working Class"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI06266",
+    "tip_slug": "H6MI06266"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI06266",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/6/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H06-shabazz-clyde",
+   "name": "Clyde Shabazz",
+   "sort_name": "Shabazz, Clyde",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-MI-06",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8MI14084",
+    "tip_slug": "H8MI14084"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8MI14084",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/6/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H06-smiley-heather",
+   "name": "Heather Smiley",
+   "sort_name": "Smiley, Heather",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-MI-06",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI06154",
+    "tip_slug": "H4MI06154"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI06154",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Heather_Smiley",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H06-taylor-bree",
+   "name": "Bree Taylor",
+   "sort_name": "Taylor, Bree",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-MI-06",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Write-in"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": null,
+    "tip_slug": null
+   },
+   "tip": {
+    "url": null,
+    "http": null,
+    "checked_at": null,
+    "graded_count": null,
+    "profile_status": null,
+    "entry_status": null
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/6/",
+   "gaps": [
+    "tip_profile_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H06-teagan-timothy",
+   "name": "Timothy Teagan",
+   "sort_name": "Teagan, Timothy",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-MI-06",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI06258",
+    "tip_slug": "H6MI06258"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI06258",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/6/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H07-barrett-tom",
+   "name": "Tom Barrett",
+   "sort_name": "Barrett, Tom",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-MI-07",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2MI07123",
+    "tip_slug": "H2MI07123"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2MI07123",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 3,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Tom_Barrett_%28Michigan%29",
+    "website": "https://barrett.house.gov"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/7/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H07-dedrick-shane",
+   "name": "Shane Dedrick",
+   "sort_name": "Dedrick, Shane",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-MI-07",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI07306",
+    "tip_slug": "H6MI07306"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI07306",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/7/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H07-lawrence-william",
+   "name": "William Lawrence",
+   "sort_name": "Lawrence, William",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-MI-07",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI07298",
+    "tip_slug": "H6MI07298"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI07298",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/William_Lawrence_%28Michigan%29",
+    "website": "https://www.tiktok.com/@wewill2026"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/7/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H08-casha-jim",
+   "name": "Jim Casha",
+   "sort_name": "Casha, Jim",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-MI-08",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI08176",
+    "tip_slug": "H4MI08176"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI08176",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/8/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H08-goodwin-kathy",
+   "name": "Kathy Goodwin",
+   "sort_name": "Goodwin, Kathy",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-MI-08",
+   "party": {
+    "code": "WCP",
+    "letter": "C",
+    "label": "Working Class"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8MI05124",
+    "tip_slug": "H8MI05124"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8MI05124",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/8/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H08-pettus-mia",
+   "name": "Mia Pettus",
+   "sort_name": "Pettus, Mia",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-MI-08",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI08320",
+    "tip_slug": "H6MI08320"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI08320",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/8/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H08-rivet-kristen",
+   "name": "Kristen McDonald Rivet",
+   "sort_name": "Rivet, Kristen",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-MI-08",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI08218",
+    "tip_slug": "H4MI08218"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI08218",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Kristen_McDonald_Rivet",
+    "website": "https://mcdonaldrivet.house.gov"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/8/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H08-smith-tom",
+   "name": "Tom Smith",
+   "sort_name": "Smith, Tom",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-MI-08",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "suspended campaign 2026-07-16 per Green Papers; remains on the ballot"
+   },
+   "ids": {
+    "fec": "H6MI08312",
+    "tip_slug": "H6MI08312"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI08312",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Thomas_Smith",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/8/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H09-cartwright-jasen",
+   "name": "Jasen Cartwright",
+   "sort_name": "Cartwright, Jasen",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-MI-09",
+   "party": {
+    "code": "WRI",
+    "letter": "W",
+    "label": "Independent (write-in)"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": true,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI09211",
+    "tip_slug": "H6MI09211"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI09211",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Jasen_Cartwright",
+    "website": "https://www.youtube.com/@JasenCartwrightForMichigan"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/9/",
+   "gaps": [
+    "tip_entry_review"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H09-clayton-destiny",
+   "name": "Destiny Clayton",
+   "sort_name": "Clayton, Destiny",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-MI-09",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI09260",
+    "tip_slug": "H6MI09260"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI09260",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/9/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H09-mcclain-lisa",
+   "name": "Lisa McClain",
+   "sort_name": "McClain, Lisa",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-MI-09",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0MI10287",
+    "tip_slug": "H0MI10287"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0MI10287",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Lisa_McClain",
+    "website": "https://mcclain.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/9/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H09-pooley-ray",
+   "name": "Ray Pooley",
+   "sort_name": "Pooley, Ray",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-MI-09",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI09245",
+    "tip_slug": "H6MI09245"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI09245",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Steven_Pooley",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/9/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H09-vayko-kevin",
+   "name": "Kevin Vayko",
+   "sort_name": "Vayko, Kevin",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-MI-09",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4MI09133",
+    "tip_slug": "H4MI09133"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI09133",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/9/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H09-vlahos-john",
+   "name": "John Vlahos",
+   "sort_name": "Vlahos, John",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-MI-09",
+   "party": {
+    "code": "UST",
+    "letter": "T",
+    "label": "U.S. Taxpayers"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI09278",
+    "tip_slug": "H6MI09278"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI09278",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/9/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H09-walkowicz-jim",
+   "name": "Jim Walkowicz",
+   "sort_name": "Walkowicz, Jim",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-MI-09",
+   "party": {
+    "code": "WCP",
+    "letter": "C",
+    "label": "Working Class"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2MI09178",
+    "tip_slug": "H2MI09178"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2MI09178",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/9/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H10-bouchard-mike",
+   "name": "Mike Bouchard",
+   "sort_name": "Bouchard, Mike",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-MI-10",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI10359",
+    "tip_slug": "H6MI10359"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI10359",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Michael_Bouchard_%28Michigan_congressional_candidate%29",
+    "website": "https://www.instagram.com/bouchardformi/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/10/",
+   "gaps": [],
+   "coverage": [
+    "michigan-10-outside-spending-reporting-calendar-2026"
+   ]
+  },
+  {
+   "llf_id": "MI-H10-hines-christina",
+   "name": "Christina Hines",
+   "sort_name": "Hines, Christina",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-MI-10",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "open seat (John James running for Governor)"
+   },
+   "ids": {
+    "fec": "H6MI10276",
+    "tip_slug": "H6MI10276"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI10276",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Christina_Hines",
+    "website": "https://www.instagram.com/cbhines586"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/10/",
+   "gaps": [],
+   "coverage": [
+    "michigan-10-outside-spending-reporting-calendar-2026"
+   ]
+  },
+  {
+   "llf_id": "MI-H10-kirby-andrea",
+   "name": "Andrea Kirby",
+   "sort_name": "Kirby, Andrea",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-MI-10",
+   "party": {
+    "code": "WCP",
+    "letter": "C",
+    "label": "Working Class"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8MI09142",
+    "tip_slug": "H8MI09142"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8MI09142",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/10/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H10-nkromo-cubby",
+   "name": "Cubby Nkromo",
+   "sort_name": "Nkromo, Cubby",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-MI-10",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "HOU-MI10-NKROMO",
+    "tip_slug": "HOU-MI10-NKROMO"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-MI10-NKROMO",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/10/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H10-saliba-mike",
+   "name": "Mike Saliba",
+   "sort_name": "Saliba, Mike",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-MI-10",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Green Papers lists two possible FEC IDs (H0MI09206 or H6MI10383)"
+   },
+   "ids": {
+    "fec": "H6MI10383",
+    "tip_slug": "H6MI10383"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI10383",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/10/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H11-baker-ethan",
+   "name": "Ethan Baker",
+   "sort_name": "Baker, Ethan",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-MI-11",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Troy Mayor"
+   },
+   "ids": {
+    "fec": "H6MI11290",
+    "tip_slug": "H6MI11290"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI11290",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Ethan_Baker",
+    "website": "https://www.instagram.com/ethanbakermi/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H11-ishac-farid",
+   "name": "Farid Ishac",
+   "sort_name": "Ishac, Farid",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-MI-11",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI11316",
+    "tip_slug": "H6MI11316"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI11316",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/11/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H11-kumar-anil",
+   "name": "Anil Kumar",
+   "sort_name": "Kumar, Anil",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-MI-11",
+   "party": {
+    "code": "NPA",
+    "letter": "N",
+    "label": "No Party Affiliation"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "Wayne State University Board Member; filed with the FEC as unaffiliated 2026-03-18; Democratic affiliation per Green Papers"
+   },
+   "ids": {
+    "fec": "H4MI10131",
+    "tip_slug": "H4MI10131"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI10131",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Anil_Kumar",
+    "website": "https://bog.wayne.edu/members/kumar"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H11-moss-jeremy",
+   "name": "Jeremy Moss",
+   "sort_name": "Moss, Jeremy",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-MI-11",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "state Senator; open seat (Haley Stevens ran for the Senate and did not win the nomination)"
+   },
+   "ids": {
+    "fec": "H6MI11191",
+    "tip_slug": "H6MI11191"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI11191",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Jeremy_Moss",
+    "website": "https://senatedems.com/moss/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H11-teasdale-ryan",
+   "name": "Ryan Teasdale",
+   "sort_name": "Teasdale, Ryan",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-MI-11",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI11308",
+    "tip_slug": "H6MI11308"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI11308",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/11/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H12-hooper-james",
+   "name": "James Hooper",
+   "sort_name": "Hooper, James",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-MI-12",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2MI12198",
+    "tip_slug": "H2MI12198"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2MI12198",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/James_Hooper",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/michigan/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H12-sanders-brenda",
+   "name": "Brenda Sanders",
+   "sort_name": "Sanders, Brenda",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-MI-12",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "former District Judge"
+   },
+   "ids": {
+    "fec": "H4MI12145",
+    "tip_slug": "H4MI12145"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4MI12145",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Brenda_Sanders",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H12-sosnowski-marc",
+   "name": "Marc Sosnowski",
+   "sort_name": "Sosnowski, Marc",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-MI-12",
+   "party": {
+    "code": "UST",
+    "letter": "T",
+    "label": "U.S. Taxpayers"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0MI14214",
+    "tip_slug": "H0MI14214"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0MI14214",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/12/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H12-tlaib-rashida",
+   "name": "Rashida Tlaib",
+   "sort_name": "Tlaib, Rashida",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-MI-12",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8MI13250",
+    "tip_slug": "H8MI13250"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8MI13250",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Rashida_Tlaib",
+    "website": "https://tlaib.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H12-walkowicz-gary",
+   "name": "Gary Walkowicz",
+   "sort_name": "Walkowicz, Gary",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-MI-12",
+   "party": {
+    "code": "WCP",
+    "letter": "C",
+    "label": "Working Class"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8MI07039",
+    "tip_slug": "H8MI07039"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8MI07039",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/12/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H13-coleman-simone",
+   "name": "Simone Coleman",
+   "sort_name": "Coleman, Simone",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-MI-13",
+   "party": {
+    "code": "WCP",
+    "letter": "C",
+    "label": "Working Class"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "HOU-MI13-COLEMAN",
+    "tip_slug": "HOU-MI13-COLEMAN"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/HOU-MI13-COLEMAN",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/13/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H13-dardzinski-chris",
+   "name": "Chris Dardzinski",
+   "sort_name": "Dardzinski, Chris",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-MI-13",
+   "party": {
+    "code": "UST",
+    "letter": "T",
+    "label": "U.S. Taxpayers"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "former Lincoln Park City Council Member"
+   },
+   "ids": {
+    "fec": "H2MI13337",
+    "tip_slug": "H2MI13337"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2MI13337",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/13/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H13-light-raelyn",
+   "name": "Raelyn Light",
+   "sort_name": "Light, Raelyn",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-MI-13",
+   "party": {
+    "code": "GRN",
+    "letter": "G",
+    "label": "Green"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI13320",
+    "tip_slug": "H6MI13320"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI13320",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/13/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "MI-H13-mckinney-donavan",
+   "name": "Donavan McKinney",
+   "sort_name": "McKinney, Donavan",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-MI-13",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": "state Representative; open seat (Shri Thanedar lost the primary)"
+   },
+   "ids": {
+    "fec": "H6MI13254",
+    "tip_slug": "H6MI13254"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI13254",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": "https://ballotpedia.org/Donavan_McKinney",
+    "website": "https://housedems.com/donavan-mckinney"
+   },
+   "llf_race_path": "/elections/2026/michigan/house/13/",
+   "gaps": [],
+   "coverage": [
+    "michigan-13-primary-outside-spending-2026"
+   ]
+  },
+  {
+   "llf_id": "MI-H13-nykoriak-t-p",
+   "name": "T.P. Nykoriak",
+   "sort_name": "Nykoriak, T.P.",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-MI-13",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6MI13312",
+    "tip_slug": "H6MI13312"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6MI13312",
+    "http": 200,
+    "checked_at": "2026-10-28T20:25Z",
+    "graded_count": 0,
+    "profile_status": "handoff_roster",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/MI",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/michigan/house/13/",
+   "gaps": [
+    "tip_photo_missing",
+    "tip_links_missing"
+   ],
+   "coverage": [
+    "michigan-13-primary-outside-spending-2026"
+   ]
+  }
+ ]
+}
