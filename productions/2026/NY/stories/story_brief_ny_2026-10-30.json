@@ -1,0 +1,187 @@
+{
+ "scope": "New York governor and U.S. House, general election Nov 3 2026",
+ "as_of": "2026-10-30",
+ "angles": [
+  {
+   "id": "NY-GOV-A",
+   "working_title": "Hochul's lead grew to double digits as independents flipped",
+   "interesting_fact": "Siena's Oct 19 to 22 poll has Gov. Kathy Hochul ahead of Bruce Blakeman 54 to 40 among 807 likely voters, up from nine points in September, and independents moved from Blakeman +5 to Hochul +11.",
+   "state": "NY",
+   "office": "Governor",
+   "race_ids": [
+    "2026-GOV-NY"
+   ],
+   "candidate_ids": [
+    "GOV-NY-HOCHUL",
+    "GOV-NY-BLAKEMAN"
+   ],
+   "event_date": "2026-10-28",
+   "labelled_new": true,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "City & State New York (reporting the Siena poll)",
+     "headline": "New Siena poll has Hochul 14 points over Blakeman days before election",
+     "url": "https://www.cityandstateny.com/politics/2026/10/new-siena-poll-has-hochul-14-points-over-blakeman-days-election/416857/",
+     "date": "2026-10-28",
+     "opened": true
+    },
+    {
+     "role": "corroboration",
+     "publication": "Marist Poll",
+     "headline": "The Midterm Elections in New York, October 2026",
+     "url": "https://maristpoll.marist.edu/polls/the-midterm-elections-in-new-york-october-2026/",
+     "date": "2026-10-27",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Kathy Hochul",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/GOV-NY-HOCHUL"
+    },
+    {
+     "candidate": "Bruce Blakeman",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/GOV-NY-BLAKEMAN"
+    }
+   ],
+   "synopsis": "Siena polled 807 likely voters Oct 19 to 22 (margin of error 4.1): Hochul 54, Blakeman 40, 6 percent undecided, against a nine-point lead in September. Siena reports independents went from Blakeman 44 to 39 to Hochul 51 to 40, and the two are running about even upstate and in the downstate suburbs. Marist, polling 1,448 registered voters Oct 22 to 25, has Hochul 53 to 42 among likely voters (margin 3.9), a smaller gap than Siena, and its page names no sponsor. Kalshi's governor contract last traded at 0.957 for Hochul and 0.044 for Blakeman with a bid and ask 0.956 and 0.959 on the Hochul side, captured Oct 30. A pro-Blakeman super PAC poll showing him down 47 to 43 was found only in a search summary and is not used. Governor is a state office, so TIP shows both as not graded.",
+   "ready_to_write": true
+  },
+  {
+   "id": "NY-17-A",
+   "working_title": "NY-17: a tied poll and a market that leans Democratic",
+   "interesting_fact": "Emerson/PIX11 has Democrat Cait Conley 48, Rep. Mike Lawler 46 in the Hudson Valley's NY-17, and Kalshi's NY-17 contract last traded at 0.62 for Conley and 0.39 for Lawler.",
+   "state": "NY",
+   "office": "U.S. House",
+   "race_ids": [
+    "2026-H-NY-17"
+   ],
+   "candidate_ids": [
+    "H2NY17162",
+    "H6NY17171"
+   ],
+   "event_date": "2026-10-05",
+   "labelled_new": true,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "Emerson College Polling / PIX11",
+     "headline": "NY-17 2026 Poll",
+     "url": "https://emersoncollegepolling.com/ny-17-2026-poll/",
+     "date": "2026-10-01",
+     "opened": true
+    },
+    {
+     "role": "corroboration",
+     "publication": "City & State New York",
+     "headline": "Mike Lawler might be the only Republican who could win NY-17. Can he do it again?",
+     "url": "https://www.cityandstateny.com/politics/2026/10/mike-lawler-might-be-only-republican-who-could-win-ny-17-can-he-do-it-again/416404/",
+     "date": "2026-10-05",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Mike Lawler",
+     "issue": "data_bill_of_rights",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H2NY17162"
+    },
+    {
+     "candidate": "Mike Lawler",
+     "issue": "war_crime_accountability",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H2NY17162"
+    },
+    {
+     "candidate": "Mike Lawler",
+     "issue": "us-israel-military-merger",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H2NY17162"
+    },
+    {
+     "candidate": "Mike Lawler",
+     "issue": "congressional_stock_trading_ban",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/H2NY17162"
+    },
+    {
+     "candidate": "Mike Lawler",
+     "issue": "universal_healthcare",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/H2NY17162"
+    },
+    {
+     "candidate": "Cait Conley",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6NY17171"
+    }
+   ],
+   "synopsis": "Emerson College Polling for PIX11 surveyed 400 likely voters in NY-17 Sept 27 to 29 (credibility interval 4.9): Conley 48, Lawler 46, 7 percent undecided, so the two are inside the margin. Lawler is 45 favorable and 46 unfavorable; Conley is 44 and 35 with 22 neutral. City & State (Oct 5) reports the district has about 78,000 more registered Democrats than Republicans, that Harris won it 49.9 to 49.3 in 2024 and that Lawler flipped it in 2022; it describes super PAC money on both sides. Kalshi's NY-17 event (HOUSENY17-26) shows Conley 0.62 last, 0.61 bid and 0.62 ask, and Lawler 0.39 last, captured Oct 30. TIP shows Lawler with F- on the Data Bill of Rights, War-Crime Accountability and US-Israel Military Merger and A+ on the Stock Trading Ban and Universal Healthcare; Citizens United Reform is not graded and Conley, a first-time candidate, is not graded on any. A House Majority PAC poll (Conley 51, Lawler 45) is partisan-sponsored and was seen only in a search summary, so it is not used.",
+   "ready_to_write": true
+  },
+  {
+   "id": "NY-NYC-A",
+   "working_title": "Three Mamdani-backed NYC upsets and who paid to stop one",
+   "interesting_fact": "Darializa Avila Chevalier ousted Rep. Adriano Espaillat in the NY-13 primary, 49.3 to 46 with 86 percent counted, while a super PAC funded by AIPAC's UDP reportedly spent over $2.8 million against her; Brad Lander and Claire Valdez also won.",
+   "state": "NY",
+   "office": "U.S. House",
+   "race_ids": [
+    "2026-H-NY-13",
+    "2026-H-NY-10",
+    "2026-H-NY-07"
+   ],
+   "candidate_ids": [
+    "H6NY13279",
+    "H6NY10176",
+    "H6NY07214"
+   ],
+   "event_date": "2026-06-23",
+   "labelled_new": false,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "Jewish Telegraphic Agency",
+     "headline": "From Columbia protests to Democratic nominee, Avila Chevalier completes Mamdani's sweep of NYC primaries",
+     "url": "https://www.jta.org/2026/06/23/politics/espaillat-faces-left-wing-challenge-from-avila-chevalier-in-ny-13-primary",
+     "date": "2026-06-23",
+     "opened": true
+    }
+   ],
+   "damaging_allegation": {
+    "present": false,
+    "note": "The article attributes the spending to BOLD America, which it says is funded by UDP; the spending figures are the outlet's, attributed 'reportedly'.",
+    "original_evidence_url": "",
+    "response_sought": true
+   },
+   "tip_grades": [
+    {
+     "candidate": "Darializa Avila Chevalier",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6NY13279"
+    },
+    {
+     "candidate": "Brad Lander",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6NY10176"
+    },
+    {
+     "candidate": "Claire Valdez",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6NY07214"
+    }
+   ],
+   "synopsis": "NOT READY. The result and the Mamdani, Justice Democrats and Hochul endorsements rest on one opened article, and outlets disagree on vote totals (a Patch count of 32,734 to 30,399 against a different certified-looking count of 36,292 to 33,555 on an aggregator). The $2.8 million BOLD America figure and its UDP funding are single-sourced to that article, and our own FEC read earlier found no UDP spending for or against Avila Chevalier, which conflicts until a committee-level record is opened. Needed: a second independent source or the FEC committee record for BOLD America, and the certified NY-13 result. All three are about 98 percent on Kalshi's Democratic line as of Oct 30 and none has a graded TIP record.",
+   "ready_to_write": false
+  }
+ ]
+}

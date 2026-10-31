@@ -78,5 +78,61 @@
   "source_page": "/about/",
   "file": "mi-duggan.jpg",
   "bytes": 136513
+ },
+ "s5-new-york": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "s5-new-york.jpg",
+  "bytes": 349509
+ },
+ "ny-capitol": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "ny-capitol.jpg",
+  "bytes": 346568
+ },
+ "ny-17": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "ny-17.jpg",
+  "bytes": 347429
+ },
+ "s6-new-jersey": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "s6-new-jersey.jpg",
+  "bytes": 348063
+ },
+ "nj-07": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "nj-07.jpg",
+  "bytes": 348936
+ },
+ "nj-12": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "nj-12.jpg",
+  "bytes": 348561
+ },
+ "nj-senate": {
+  "ai": true,
+  "credit": "AI illustration. Not a photograph of a real place or event.",
+  "license": "AI illustration",
+  "source_page": "/about/",
+  "file": "nj-senate.jpg",
+  "bytes": 341849
  }
 }

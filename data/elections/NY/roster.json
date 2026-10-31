@@ -1,0 +1,1137 @@
+{
+ "captured_at_utc": "2026-10-30T00:00:00Z",
+ "sources": {
+  "official_checked": null,
+  "official_blocked": "elections.ny.gov returned HTTP 403 on 2026-10-30; certification NOT read",
+  "transcribed_from": "https://www.thegreenpapers.com/G26/NY",
+  "cross_checks": [
+   "TIP export docs/state-packets/NY (race_entries)"
+  ]
+ },
+ "governor": [
+  {
+   "name": "Kathy Hochul",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "ballot_lines": [
+    "Democratic",
+    "Working Families"
+   ],
+   "incumbent": true,
+   "running_mate": "Adrienne Adams",
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Kathleen_Courtney__Kathy__Hochul",
+   "source_url": "https://www.thegreenpapers.com/G26/NY",
+   "tip_name": null,
+   "fec_candidate_id": null
+  },
+  {
+   "name": "Bruce A. Blakeman",
+   "party_code": "REP",
+   "party": "Republican",
+   "ballot_lines": [
+    "Republican",
+    "Conservative",
+    "Vote Affordable"
+   ],
+   "incumbent": false,
+   "running_mate": "Todd M. Hood",
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Bruce_A._Blakeman",
+   "source_url": "https://www.thegreenpapers.com/G26/NY",
+   "tip_name": null,
+   "fec_candidate_id": null
+  },
+  {
+   "name": "Paul Mailhot",
+   "party_code": "WRI",
+   "party": "Socialist Workers Party",
+   "ballot_lines": [
+    "Write-in"
+   ],
+   "incumbent": false,
+   "running_mate": "Willie Cotton",
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Paul_Mailhot",
+   "source_url": "https://www.thegreenpapers.com/G26/NY",
+   "tip_name": null,
+   "fec_candidate_id": null,
+   "write_in": true
+  },
+  {
+   "name": "Jonathan Makeley",
+   "party_code": "WRI",
+   "party": "Prohibition Party",
+   "ballot_lines": [
+    "Write-in"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Jonathan_Makeley",
+   "source_url": "https://www.thegreenpapers.com/G26/NY",
+   "tip_name": null,
+   "fec_candidate_id": null,
+   "write_in": true
+  }
+ ],
+ "senate": [],
+ "house": {
+  "1": [
+   {
+    "name": "Christopher J. \"Chris\" Gallant",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Christopher_J.__Chris__Gallant",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Christopher J. Gallant",
+    "fec_candidate_id": "H6NY01159"
+   },
+   {
+    "name": "Nicholas J. \"Nick\" LaLota",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Nicholas_J.__Nick__LaLota",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Nicholas J. Lalota",
+    "fec_candidate_id": "H2NY01190"
+   }
+  ],
+  "2": [
+   {
+    "name": "Patrick \"Pat\" Halpin",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Patrick__Pat__Halpin",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Patrick Halpin",
+    "fec_candidate_id": "H6NY02140"
+   },
+   {
+    "name": "Andrew R. Garbarino",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Andrew_R._Garbarino",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H0NY02234"
+   }
+  ],
+  "3": [
+   {
+    "name": "Thomas R. \"Tom\" Suozzi",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Thomas_R.__Tom__Suozzi",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Thomas R. Suozzi",
+    "fec_candidate_id": "H6NY03247"
+   },
+   {
+    "name": "Michael J. \"Mike\" LiPetri, Jr.",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Michael_J.__Mike__LiPetri__Jr.",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Michael J. LiPetri Jr",
+    "fec_candidate_id": "H0NY02267"
+   }
+  ],
+  "4": [
+   {
+    "name": "Laura Gillen",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Laura_Gillen",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Laura A. Gillen",
+    "fec_candidate_id": "H2NY04244"
+   },
+   {
+    "name": "Jeanine C. Driscoll",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Jeanine_C._Driscoll",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY04211",
+    "parsed_name_was": "14 April 2026: Replacement candidate named after former Valley Stream Mayor John DeGrace withdrew."
+   },
+   {
+    "name": "Blay Tarnoff",
+    "party_code": "LIB",
+    "party": "Libertarian",
+    "ballot_lines": [
+     "Libertarian"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Blay_Tarnoff",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY04237"
+   }
+  ],
+  "5": [
+   {
+    "name": "Gregory Weldon Meeks",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Gregory_Weldon_Meeks",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Gregory W. Meeks",
+    "fec_candidate_id": "H8NY06048"
+   },
+   {
+    "name": "George Marsh",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Queens United"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "George_Marsh",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY05127"
+   }
+  ],
+  "6": [
+   {
+    "name": "Grace Meng",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Grace_Meng",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H2NY06116"
+   },
+   {
+    "name": "Joseph Chou",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Joseph_Chou",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H4NY06047"
+   }
+  ],
+  "7": [
+   {
+    "name": "Claire Valdez",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Claire_Valdez",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY07214"
+   },
+   {
+    "name": "Melvin Rivera",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Melvin_Rivera",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY07271"
+   },
+   {
+    "name": "Priscilla Ghaznavi",
+    "party_code": "OTH",
+    "party": "Our Future",
+    "ballot_lines": [
+     "Our Future"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Priscilla_Ghaznavi",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY07255"
+   }
+  ],
+  "8": [
+   {
+    "name": "Hakeem S. Jeffries",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Hakeem_S._Jeffries",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H2NY10092"
+   },
+   {
+    "name": "Lewis Mizrahi",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Lewis_Mizrahi",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY08188"
+   },
+   {
+    "name": "Sahir Ahsan",
+    "party_code": "OTH",
+    "party": "Write-in",
+    "ballot_lines": [
+     "Write-in"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Sahir_Ahsan",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY08170"
+   }
+  ],
+  "9": [
+   {
+    "name": "Yvette D. Clarke",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Yvette_D._Clarke",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H4NY11138"
+   },
+   {
+    "name": "aka Joel Azumah",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "aka_Joel_Azumah",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Joel Azumah",
+    "fec_candidate_id": "H6NY09145"
+   }
+  ],
+  "10": [
+   {
+    "name": "Brad Lander",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Brad_Lander",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY10176"
+   },
+   {
+    "name": "Jennifer E. Moore",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Jennifer_E._Moore",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY10218"
+   }
+  ],
+  "11": [
+   {
+    "name": "Mike DeCillis",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Mike_DeCillis",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY11265",
+    "parsed_name_was": "30 April 2026: The Supreme Court, St. George, restored him to the primary ballot."
+   },
+   {
+    "name": "Nicole Malliotakis",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Nicole_Malliotakis",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H0NY11078"
+   }
+  ],
+  "12": [
+   {
+    "name": "Micah Charles Lasher",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Micah_Charles_Lasher",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Micah C. Lasher",
+    "fec_candidate_id": "H6NY12172"
+   },
+   {
+    "name": "Caroline Shinkle",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Caroline_Shinkle",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY12404"
+   },
+   {
+    "name": "Wilneida Negron",
+    "party_code": "OTH",
+    "party": "For All of Us",
+    "ballot_lines": [
+     "For All of Us"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Wilneida_Negron",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY12313"
+   },
+   {
+    "name": "Karen Ortiz",
+    "party_code": "OTH",
+    "party": "Karen Ortiz",
+    "ballot_lines": [
+     "Karen Ortiz"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Karen_Ortiz",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY12297"
+   }
+  ],
+  "13": [
+   {
+    "name": "Darializa Avila Chevalier",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Darializa_Avila_Chevalier",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY13279"
+   },
+   {
+    "name": "Jomo Manual Williams",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Jomo_Manual_Williams",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Jomo M. Williams",
+    "fec_candidate_id": "H6NY13303"
+   }
+  ],
+  "14": [
+   {
+    "name": "Alexandria Ocasio-Cortez",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Alexandria_Ocasio-Cortez",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H8NY15148"
+   },
+   {
+    "name": "Diamant Hysenaj",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Diamant_Hysenaj",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY14251"
+   }
+  ],
+  "15": [
+   {
+    "name": "Ritchie John Torres",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Ritchie_John_Torres",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Ritchie Torres",
+    "fec_candidate_id": "H0NY15160"
+   },
+   {
+    "name": "Stylo Adonis Sapaskis",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Stylo_Adonis_Sapaskis",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Stylo Sapaskis",
+    "fec_candidate_id": "H6NY16140"
+   },
+   {
+    "name": "Gonzalo Duran",
+    "party_code": "CON",
+    "party": "Conservative",
+    "ballot_lines": [
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Gonzalo_Duran",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H4NY15154"
+   },
+   {
+    "name": "Andre Clement Easton",
+    "party_code": "OTH",
+    "party": "Socialism PSL",
+    "ballot_lines": [
+     "Socialism PSL"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Andre_Clement_Easton",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY15167"
+   },
+   {
+    "name": "Jose David Vega",
+    "party_code": "OTH",
+    "party": "Speak The Truth",
+    "ballot_lines": [
+     "Speak The Truth"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Jose_David_Vega",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H4NY15147",
+    "parsed_name_was": "Ran for but lost the 6 April Democratic primary."
+   }
+  ],
+  "16": [
+   {
+    "name": "George Stephen Latimer",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "George_Stephen_Latimer",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "George S. Latimer",
+    "fec_candidate_id": "H4NY16087"
+   },
+   {
+    "name": "Joseph J. Cinquemani",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Joseph_J._Cinquemani",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H4NY07052"
+   }
+  ],
+  "17": [
+   {
+    "name": "Caitlin \"Cait\" Conley",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Caitlin__Cait__Conley",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Cait Conley",
+    "fec_candidate_id": "H6NY17171"
+   },
+   {
+    "name": "Michael Vincent \"Mike\" Lawler",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Michael_Vincent__Mike__Lawler",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Mike Lawler",
+    "fec_candidate_id": "H2NY17162"
+   }
+  ],
+  "18": [
+   {
+    "name": "Patrick K. \"Pat\" Ryan",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Patrick_K.__Pat__Ryan",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Pat Ryan",
+    "fec_candidate_id": "H8NY19223"
+   },
+   {
+    "name": "Jackie Mary Auringer",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Jackie_Mary_Auringer",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY18252",
+    "parsed_name_was": "14 April 2026: Replacement candidate named after Sharanjit Singh Thind withdrew."
+   }
+  ],
+  "19": [
+   {
+    "name": "Josh Riley",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Josh_Riley",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H8NY22177"
+   },
+   {
+    "name": "Peter Karl Oberacker, Jr.",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Peter_Karl_Oberacker__Jr.",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Peter K. Oberacker",
+    "fec_candidate_id": "H6NY19268"
+   }
+  ],
+  "20": [
+   {
+    "name": "Paul David Tonko",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Paul_David_Tonko",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Paul D. Tonko",
+    "fec_candidate_id": "H8NY21203"
+   },
+   {
+    "name": "Ralph F. Ambrosio",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Ralph_F._Ambrosio",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY20225"
+   }
+  ],
+  "21": [
+   {
+    "name": "Blake Gendebien",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Blake_Gendebien",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY21199"
+   },
+   {
+    "name": "Anthony Thomas Constantino",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Taxpayer Rights"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Anthony_Thomas_Constantino",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Anthony Constantino",
+    "fec_candidate_id": "H6NY21157"
+   }
+  ],
+  "22": [
+   {
+    "name": "John W. Mannion",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "John_W._Mannion",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H4NY22085"
+   },
+   {
+    "name": "Kailee Marie Buller",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Kailee_Marie_Buller",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Kailee Buller",
+    "fec_candidate_id": "H6NY22213"
+   }
+  ],
+  "23": [
+   {
+    "name": "Aaron Gies",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Aaron_Gies",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY23559"
+   },
+   {
+    "name": "Nicholas A. \"Nick\" Langworthy",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Nicholas_A.__Nick__Langworthy",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Nicholas A. Langworthy",
+    "fec_candidate_id": "H2NY23228"
+   }
+  ],
+  "24": [
+   {
+    "name": "Alissa J. Ellman",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Alissa_J._Ellman",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY24219"
+   },
+   {
+    "name": "Claudia Tenney",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Claudia_Tenney",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H4NY22051"
+   }
+  ],
+  "25": [
+   {
+    "name": "Joseph D. \"Joe\" Morelle",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic",
+     "Working Families"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Joseph_D.__Joe__Morelle",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Joseph D. Morelle",
+    "fec_candidate_id": "H8NY25105"
+   },
+   {
+    "name": "Virginia E. McIntyre",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Virginia_E._McIntyre",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY25208"
+   }
+  ],
+  "26": [
+   {
+    "name": "Timothy M. \"Tim\" Kennedy",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Timothy_M.__Tim__Kennedy",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": "Timothy M. Kennedy",
+    "fec_candidate_id": "H4NY26078"
+   },
+   {
+    "name": "Dennis E. Hannon",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican",
+     "Conservative"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Dennis_E._Hannon",
+    "source_url": "https://www.thegreenpapers.com/G26/NY",
+    "tip_name": null,
+    "fec_candidate_id": "H6NY26131"
+   }
+  ]
+ }
+}

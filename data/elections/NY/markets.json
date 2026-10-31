@@ -1,0 +1,1014 @@
+{
+ "captured_at_utc": "2026-10-30T17:57:41Z",
+ "source": "Kalshi public API v2 (api.elections.kalshi.com)",
+ "races": {
+  "governor": {
+   "event_ticker": "GOVPARTYNY-26",
+   "title": "New York Governor winner?",
+   "url": "https://kalshi.com/markets/govpartyny",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "GOVPARTYNY-26-D",
+     "title": "Will the Democratic party win the governorship in New York",
+     "yes_label": "Kathy Hochul",
+     "no_label": "Kathy Hochul",
+     "status": "active",
+     "yes_bid": "0.9560",
+     "yes_ask": "0.9570",
+     "last": "0.9550",
+     "previous": "0.9570",
+     "volume": "1302418.96",
+     "volume_24h": "21918.15",
+     "open_interest": "1087961.03",
+     "rules": "If a representative of the Democratic party is inaugurated as the governor of New York pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "GOVPARTYNY-26-R",
+     "title": "Will the Republican party win the governorship in New York",
+     "yes_label": "Bruce Blakeman",
+     "no_label": "Bruce Blakeman",
+     "status": "active",
+     "yes_bid": "0.0420",
+     "yes_ask": "0.0440",
+     "last": "0.0440",
+     "previous": "0.0470",
+     "volume": "4771561.44",
+     "volume_24h": "257638.33",
+     "open_interest": "3599153.41",
+     "rules": "If a representative of the Republican party is inaugurated as the governor of New York pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-01": {
+   "event_ticker": "KXHOUSERACE-NY01-26",
+   "title": "NY-01 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY01-26-D",
+     "title": "Will Democratic win the House race for NY-01?",
+     "yes_label": "Chris Gallant",
+     "no_label": "Chris Gallant",
+     "status": "active",
+     "yes_bid": "0.2100",
+     "yes_ask": "0.2200",
+     "last": "0.2200",
+     "previous": "0.2300",
+     "volume": "228438.61",
+     "volume_24h": "28423.40",
+     "open_interest": "180999.01",
+     "rules": "If the House member sworn in for NY-01 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY01-26-R",
+     "title": "Will Republican win the House race for NY-01?",
+     "yes_label": "Nick LaLota",
+     "no_label": "Nick LaLota",
+     "status": "active",
+     "yes_bid": "0.7800",
+     "yes_ask": "0.7900",
+     "last": "0.7900",
+     "previous": "0.7900",
+     "volume": "54036.96",
+     "volume_24h": "20981.02",
+     "open_interest": "35510.97",
+     "rules": "If the House member sworn in for NY-01 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-02": {
+   "event_ticker": "KXHOUSERACE-NY02-26",
+   "title": "NY-02 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY02-26-D",
+     "title": "Will Democratic win the House race for NY-02?",
+     "yes_label": "Patrick Halpin",
+     "no_label": "Patrick Halpin",
+     "status": "active",
+     "yes_bid": "0.2000",
+     "yes_ask": "0.2100",
+     "last": "0.2100",
+     "previous": "0.2200",
+     "volume": "42800.65",
+     "volume_24h": "1189.73",
+     "open_interest": "33423.38",
+     "rules": "If the House member sworn in for NY-02 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY02-26-R",
+     "title": "Will Republican win the House race for NY-02?",
+     "yes_label": "Andrew Garbarino",
+     "no_label": "Andrew Garbarino",
+     "status": "active",
+     "yes_bid": "0.7800",
+     "yes_ask": "0.8000",
+     "last": "0.7900",
+     "previous": "0.8000",
+     "volume": "14778.19",
+     "volume_24h": "1176.10",
+     "open_interest": "10565.45",
+     "rules": "If the House member sworn in for NY-02 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-03": {
+   "event_ticker": "HOUSENY03-26",
+   "error": "404"
+  },
+  "house-04": {
+   "event_ticker": "HOUSENY04-26",
+   "error": "404"
+  },
+  "house-05": {
+   "event_ticker": "KXHOUSERACE-NY05-26",
+   "title": "NY-05 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY05-26-D",
+     "title": "Will Democratic win the House race for NY-05?",
+     "yes_label": "Gregory Meeks",
+     "no_label": "Gregory Meeks",
+     "status": "active",
+     "yes_bid": "0.9730",
+     "yes_ask": "0.9970",
+     "last": "0.9680",
+     "previous": "0.9680",
+     "volume": "826.98",
+     "volume_24h": "0.00",
+     "open_interest": "793.61",
+     "rules": "If the House member sworn in for NY-05 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY05-26-R",
+     "title": "Will Republican win the House race for NY-05?",
+     "yes_label": "George Marsh",
+     "no_label": "George Marsh",
+     "status": "active",
+     "yes_bid": "0.0030",
+     "yes_ask": "0.0220",
+     "last": "0.0240",
+     "previous": "0.0240",
+     "volume": "3220.16",
+     "volume_24h": "0.00",
+     "open_interest": "2125.50",
+     "rules": "If the House member sworn in for NY-05 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-06": {
+   "event_ticker": "KXHOUSERACE-NY06-26",
+   "title": "NY-06 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY06-26-D",
+     "title": "Will Democratic win the House race for NY-06?",
+     "yes_label": "Grace Meng",
+     "no_label": "Grace Meng",
+     "status": "active",
+     "yes_bid": "0.9830",
+     "yes_ask": "0.9920",
+     "last": "0.9410",
+     "previous": "0.9410",
+     "volume": "332.50",
+     "volume_24h": "0.00",
+     "open_interest": "330.50",
+     "rules": "If the House member sworn in for NY-06 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY06-26-R",
+     "title": "Will Republican win the House race for NY-06?",
+     "yes_label": "Joseph Chou",
+     "no_label": "Joseph Chou",
+     "status": "active",
+     "yes_bid": "0.0060",
+     "yes_ask": "0.0190",
+     "last": "0.0190",
+     "previous": "0.0190",
+     "volume": "1364.13",
+     "volume_24h": "0.00",
+     "open_interest": "1295.13",
+     "rules": "If the House member sworn in for NY-06 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-07": {
+   "event_ticker": "KXHOUSERACE-NY07-26",
+   "title": "NY-07 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY07-26-D",
+     "title": "Will Democratic win the House race for NY-07?",
+     "yes_label": "Claire Valdez",
+     "no_label": "Claire Valdez",
+     "status": "active",
+     "yes_bid": "0.9850",
+     "yes_ask": "0.9880",
+     "last": "0.9850",
+     "previous": "0.9800",
+     "volume": "153.00",
+     "volume_24h": "150.00",
+     "open_interest": "152.00",
+     "rules": "If the House member sworn in for NY-07 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY07-26-R",
+     "title": "Will Republican win the House race for NY-07?",
+     "yes_label": "Melvin Rivera",
+     "no_label": "Melvin Rivera",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0280",
+     "last": "0.0350",
+     "previous": "0.0350",
+     "volume": "476.91",
+     "volume_24h": "0.00",
+     "open_interest": "453.03",
+     "rules": "If the House member sworn in for NY-07 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-08": {
+   "event_ticker": "KXHOUSERACE-NY08-26",
+   "title": "NY-08 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY08-26-D",
+     "title": "Will Democratic win the House race for NY-08?",
+     "yes_label": "Hakeem Jeffries",
+     "no_label": "Hakeem Jeffries",
+     "status": "active",
+     "yes_bid": "0.9810",
+     "yes_ask": "0.9900",
+     "last": "0.9470",
+     "previous": "0.9470",
+     "volume": "447.09",
+     "volume_24h": "0.00",
+     "open_interest": "204.08",
+     "rules": "If the House member sworn in for NY-08 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY08-26-R",
+     "title": "Will Republican win the House race for NY-08?",
+     "yes_label": "Lewis Mizrahi",
+     "no_label": "Lewis Mizrahi",
+     "status": "active",
+     "yes_bid": "0.0060",
+     "yes_ask": "0.0200",
+     "last": "0.0210",
+     "previous": "0.0150",
+     "volume": "793.64",
+     "volume_24h": "194.00",
+     "open_interest": "540.64",
+     "rules": "If the House member sworn in for NY-08 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-09": {
+   "event_ticker": "KXHOUSERACE-NY09-26",
+   "title": "NY-09 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY09-26-D",
+     "title": "Will Democratic win the House race for NY-09?",
+     "yes_label": "Yvette Clarke",
+     "no_label": "Yvette Clarke",
+     "status": "active",
+     "yes_bid": "0.9810",
+     "yes_ask": "0.9890",
+     "last": "0.9820",
+     "previous": "0.9800",
+     "volume": "3348.89",
+     "volume_24h": "0.34",
+     "open_interest": "1310.13",
+     "rules": "If the House member sworn in for NY-09 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY09-26-R",
+     "title": "Will Republican win the House race for NY-09?",
+     "yes_label": "Joel Anabilah-Azumah",
+     "no_label": "Joel Anabilah-Azumah",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0270",
+     "last": "0.0140",
+     "previous": "0.0140",
+     "volume": "568.21",
+     "volume_24h": "0.00",
+     "open_interest": "568.21",
+     "rules": "If the House member sworn in for NY-09 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-10": {
+   "event_ticker": "KXHOUSERACE-NY10-26",
+   "title": "NY-10 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY10-26-D",
+     "title": "Will Democratic win the House race for NY-10?",
+     "yes_label": "Brad Lander",
+     "no_label": "Brad Lander",
+     "status": "active",
+     "yes_bid": "0.9800",
+     "yes_ask": "0.9940",
+     "last": "0.9890",
+     "previous": "0.9890",
+     "volume": "695.75",
+     "volume_24h": "0.00",
+     "open_interest": "638.91",
+     "rules": "If the House member sworn in for NY-10 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY10-26-R",
+     "title": "Will Republican win the House race for NY-10?",
+     "yes_label": "Jennifer Moore",
+     "no_label": "Jennifer Moore",
+     "status": "active",
+     "yes_bid": "0.0070",
+     "yes_ask": "0.0200",
+     "last": "0.0190",
+     "previous": "0.0190",
+     "volume": "20003.45",
+     "volume_24h": "0.00",
+     "open_interest": "5543.07",
+     "rules": "If the House member sworn in for NY-10 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-11": {
+   "event_ticker": "KXHOUSERACE-NY11-26",
+   "title": "NY-11 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY11-26-D",
+     "title": "Will Democratic win the House race for NY-11?",
+     "yes_label": "Michael DeCillis",
+     "no_label": "Michael DeCillis",
+     "status": "active",
+     "yes_bid": "0.0790",
+     "yes_ask": "0.0840",
+     "last": "0.0800",
+     "previous": "0.0800",
+     "volume": "27931.19",
+     "volume_24h": "502.01",
+     "open_interest": "10632.23",
+     "rules": "If the House member sworn in for NY-11 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY11-26-R",
+     "title": "Will Republican win the House race for NY-11?",
+     "yes_label": "Nicole Malliotakis",
+     "no_label": "Nicole Malliotakis",
+     "status": "active",
+     "yes_bid": "0.9120",
+     "yes_ask": "0.9210",
+     "last": "0.9200",
+     "previous": "0.9140",
+     "volume": "15354.38",
+     "volume_24h": "10.80",
+     "open_interest": "4697.95",
+     "rules": "If the House member sworn in for NY-11 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-12": {
+   "event_ticker": "KXHOUSERACE-NY12-26",
+   "title": "NY-12 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY12-26-D",
+     "title": "Will Democratic win the House race for NY-12?",
+     "yes_label": "Micah Lasher",
+     "no_label": "Micah Lasher",
+     "status": "active",
+     "yes_bid": "0.9740",
+     "yes_ask": "0.9900",
+     "last": "0.9840",
+     "previous": "0.9840",
+     "volume": "2356.43",
+     "volume_24h": "0.00",
+     "open_interest": "1781.88",
+     "rules": "If the House member sworn in for NY-12 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY12-26-R",
+     "title": "Will Republican win the House race for NY-12?",
+     "yes_label": "Caroline Shinkle",
+     "no_label": "Caroline Shinkle",
+     "status": "active",
+     "yes_bid": "0.0080",
+     "yes_ask": "0.0190",
+     "last": "0.0190",
+     "previous": "0.0200",
+     "volume": "8124.12",
+     "volume_24h": "25.00",
+     "open_interest": "7539.18",
+     "rules": "If the House member sworn in for NY-12 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-13": {
+   "event_ticker": "KXHOUSERACE-NY13-26",
+   "title": "NY-13 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY13-26-D",
+     "title": "Will Democratic win the House race for NY-13?",
+     "yes_label": "Darializa Avila Chevalier",
+     "no_label": "Darializa Avila Chevalier",
+     "status": "active",
+     "yes_bid": "0.9830",
+     "yes_ask": "0.9970",
+     "last": "0.9810",
+     "previous": "0.9810",
+     "volume": "2066.10",
+     "volume_24h": "0.00",
+     "open_interest": "1220.10",
+     "rules": "If the House member sworn in for NY-13 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY13-26-R",
+     "title": "Will Republican win the House race for NY-13?",
+     "yes_label": "Manual \"Jomo\" Williams",
+     "no_label": "Manual \"Jomo\" Williams",
+     "status": "active",
+     "yes_bid": "0.0020",
+     "yes_ask": "0.0150",
+     "last": "0.0150",
+     "previous": "0.0150",
+     "volume": "1839.05",
+     "volume_24h": "0.00",
+     "open_interest": "1728.44",
+     "rules": "If the House member sworn in for NY-13 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-14": {
+   "event_ticker": "KXHOUSERACE-NY14-26",
+   "title": "NY-14 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY14-26-D",
+     "title": "Will Democratic win the House race for NY-14?",
+     "yes_label": "Alexandria Ocasio-Cortez",
+     "no_label": "Alexandria Ocasio-Cortez",
+     "status": "active",
+     "yes_bid": "0.9830",
+     "yes_ask": "0.9900",
+     "last": "0.9890",
+     "previous": "0.9890",
+     "volume": "827.09",
+     "volume_24h": "0.00",
+     "open_interest": "547.08",
+     "rules": "If the House member sworn in for NY-14 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY14-26-R",
+     "title": "Will Republican win the House race for NY-14?",
+     "yes_label": "Diamant Hysenaj",
+     "no_label": "Diamant Hysenaj",
+     "status": "active",
+     "yes_bid": "0.0040",
+     "yes_ask": "0.0210",
+     "last": "0.0210",
+     "previous": "0.0210",
+     "volume": "2394.52",
+     "volume_24h": "0.00",
+     "open_interest": "1655.30",
+     "rules": "If the House member sworn in for NY-14 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-15": {
+   "event_ticker": "KXHOUSERACE-NY15-26",
+   "title": "NY-15 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY15-26-D",
+     "title": "Will Democratic win the House race for NY-15?",
+     "yes_label": "Ritchie Torres",
+     "no_label": "Ritchie Torres",
+     "status": "active",
+     "yes_bid": "0.9710",
+     "yes_ask": "0.9870",
+     "last": "0.9660",
+     "previous": "0.9660",
+     "volume": "1351.95",
+     "volume_24h": "0.00",
+     "open_interest": "1295.95",
+     "rules": "If the House member sworn in for NY-15 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY15-26-R",
+     "title": "Will Republican win the House race for NY-15?",
+     "yes_label": "Stylo Sapaskis",
+     "no_label": "Stylo Sapaskis",
+     "status": "active",
+     "yes_bid": "0.0130",
+     "yes_ask": "0.0300",
+     "last": "0.0350",
+     "previous": "0.0350",
+     "volume": "1886.88",
+     "volume_24h": "0.00",
+     "open_interest": "1578.02",
+     "rules": "If the House member sworn in for NY-15 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-16": {
+   "event_ticker": "KXHOUSERACE-NY16-26",
+   "title": "NY-16 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY16-26-D",
+     "title": "Will Democratic win the House race for NY-16?",
+     "yes_label": "George Latimer",
+     "no_label": "George Latimer",
+     "status": "active",
+     "yes_bid": "0.9680",
+     "yes_ask": "0.9890",
+     "last": "0.9880",
+     "previous": "0.9880",
+     "volume": "532.39",
+     "volume_24h": "0.00",
+     "open_interest": "373.37",
+     "rules": "If the House member sworn in for NY-16 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY16-26-R",
+     "title": "Will Republican win the House race for NY-16?",
+     "yes_label": "Joseph Cinquemani",
+     "no_label": "Joseph Cinquemani",
+     "status": "active",
+     "yes_bid": "0.0070",
+     "yes_ask": "0.0330",
+     "last": "0.0840",
+     "previous": "0.0840",
+     "volume": "125.82",
+     "volume_24h": "0.00",
+     "open_interest": "124.82",
+     "rules": "If the House member sworn in for NY-16 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-17": {
+   "event_ticker": "HOUSENY17-26",
+   "title": "NY-17 House winner?",
+   "url": "https://kalshi.com/markets/houseny17",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSENY17-26-D",
+     "title": "Will Democratic win the House race for NY-17?",
+     "yes_label": "Cait Conley",
+     "no_label": "Cait Conley",
+     "status": "active",
+     "yes_bid": "0.6100",
+     "yes_ask": "0.6200",
+     "last": "0.6200",
+     "previous": "0.6200",
+     "volume": "201311.41",
+     "volume_24h": "20725.71",
+     "open_interest": "126312.36",
+     "rules": "If the House member sworn in for NY-17 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSENY17-26-R",
+     "title": "Will Republican win the House race for NY-17?",
+     "yes_label": "Mike Lawler",
+     "no_label": "Mike Lawler",
+     "status": "active",
+     "yes_bid": "0.3800",
+     "yes_ask": "0.3900",
+     "last": "0.3900",
+     "previous": "0.3800",
+     "volume": "449798.43",
+     "volume_24h": "58243.76",
+     "open_interest": "263381.73",
+     "rules": "If the House member sworn in for NY-17 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-18": {
+   "event_ticker": "HOUSENY18-26",
+   "title": "NY-18 House winner?",
+   "url": "https://kalshi.com/markets/houseny18",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSENY18-26-D",
+     "title": "Will a Democrat win the House race for NY-18?",
+     "yes_label": "Pat Ryan",
+     "no_label": "Pat Ryan",
+     "status": "active",
+     "yes_bid": "0.9520",
+     "yes_ask": "0.9730",
+     "last": "0.9760",
+     "previous": "0.9760",
+     "volume": "10299.41",
+     "volume_24h": "0.00",
+     "open_interest": "4719.57",
+     "rules": "If the House member sworn in for NY-18 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSENY18-26-R",
+     "title": "Will a Republican win the House race for NY-18?",
+     "yes_label": "Jacqueline Auringer",
+     "no_label": "Jacqueline Auringer",
+     "status": "active",
+     "yes_bid": "0.0400",
+     "yes_ask": "0.0410",
+     "last": "0.0500",
+     "previous": "0.0500",
+     "volume": "10404.62",
+     "volume_24h": "0.00",
+     "open_interest": "1967.62",
+     "rules": "If the House member sworn in for NY-18 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-19": {
+   "event_ticker": "HOUSENY19-26",
+   "title": "NY-19 House winner?",
+   "url": "https://kalshi.com/markets/houseny19",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSENY19-26-D",
+     "title": "Will Democratic win the House race for NY-19?",
+     "yes_label": "Josh Riley",
+     "no_label": "Josh Riley",
+     "status": "active",
+     "yes_bid": "0.9520",
+     "yes_ask": "0.9630",
+     "last": "0.9630",
+     "previous": "0.9570",
+     "volume": "8052.20",
+     "volume_24h": "74.43",
+     "open_interest": "4892.40",
+     "rules": "If the House member sworn in for NY-19 for the term beginning in 2027 is a member of the Democratic party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSENY19-26-R",
+     "title": "Will Republican win the House race for NY-19?",
+     "yes_label": "Peter Oberacker",
+     "no_label": "Peter Oberacker",
+     "status": "active",
+     "yes_bid": "0.0330",
+     "yes_ask": "0.0400",
+     "last": "0.0440",
+     "previous": "0.0490",
+     "volume": "3896.06",
+     "volume_24h": "2.13",
+     "open_interest": "2609.83",
+     "rules": "If the House member sworn in for NY-19 for the term beginning in 2027 is a member of the Republican party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-20": {
+   "event_ticker": "KXHOUSERACE-NY20-26",
+   "title": "NY-20 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY20-26-D",
+     "title": "Will Democratic win the House race for NY-20?",
+     "yes_label": "Paul Tonko",
+     "no_label": "Paul Tonko",
+     "status": "active",
+     "yes_bid": "0.9700",
+     "yes_ask": "0.9800",
+     "last": "0.9800",
+     "previous": "0.9800",
+     "volume": "1379.76",
+     "volume_24h": "0.00",
+     "open_interest": "1112.07",
+     "rules": "If the House member sworn in for NY-20 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY20-26-R",
+     "title": "Will Republican win the House race for NY-20?",
+     "yes_label": "Ralph Ambrosio",
+     "no_label": "Ralph Ambrosio",
+     "status": "active",
+     "yes_bid": "0.0110",
+     "yes_ask": "0.0290",
+     "last": "0.0290",
+     "previous": "0.0290",
+     "volume": "598.10",
+     "volume_24h": "0.00",
+     "open_interest": "575.10",
+     "rules": "If the House member sworn in for NY-20 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-21": {
+   "event_ticker": "KXHOUSERACE-NY21-26",
+   "title": "NY-21 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY21-26-D",
+     "title": "Will Democratic win the House race for NY-21?",
+     "yes_label": "Blake Gendebien",
+     "no_label": "Blake Gendebien",
+     "status": "active",
+     "yes_bid": "0.3300",
+     "yes_ask": "0.3400",
+     "last": "0.3400",
+     "previous": "0.3400",
+     "volume": "135180.80",
+     "volume_24h": "3890.46",
+     "open_interest": "86046.28",
+     "rules": "If the House member sworn in for NY-21 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY21-26-R",
+     "title": "Will Republican win the House race for NY-21?",
+     "yes_label": "Anthony Constantino",
+     "no_label": "Anthony Constantino",
+     "status": "active",
+     "yes_bid": "0.6600",
+     "yes_ask": "0.6700",
+     "last": "0.6600",
+     "previous": "0.6600",
+     "volume": "69271.10",
+     "volume_24h": "577.13",
+     "open_interest": "44363.38",
+     "rules": "If the House member sworn in for NY-21 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-22": {
+   "event_ticker": "HOUSENY22-26",
+   "title": "NY-22 House winner?",
+   "url": "https://kalshi.com/markets/houseny22",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSENY22-26-D",
+     "title": "Will a Democrat win the House race for NY-22?",
+     "yes_label": "John Mannion",
+     "no_label": "John Mannion",
+     "status": "active",
+     "yes_bid": "0.9560",
+     "yes_ask": "0.9700",
+     "last": "0.9740",
+     "previous": "0.9740",
+     "volume": "6238.59",
+     "volume_24h": "0.00",
+     "open_interest": "3955.59",
+     "rules": "If the House member sworn in for NY-22 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSENY22-26-R",
+     "title": "Will a Republican win the House race for NY-22?",
+     "yes_label": "Kailee Buller",
+     "no_label": "Kailee Buller",
+     "status": "active",
+     "yes_bid": "0.0240",
+     "yes_ask": "0.0380",
+     "last": "0.0390",
+     "previous": "0.0390",
+     "volume": "13854.76",
+     "volume_24h": "0.00",
+     "open_interest": "7330.74",
+     "rules": "If the House member sworn in for NY-22 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-23": {
+   "event_ticker": "KXHOUSERACE-NY23-26",
+   "title": "NY-23 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY23-26-D",
+     "title": "Will Democratic win the House race for NY-23?",
+     "yes_label": "Aaron Gies",
+     "no_label": "Aaron Gies",
+     "status": "active",
+     "yes_bid": "0.0210",
+     "yes_ask": "0.0400",
+     "last": "0.0430",
+     "previous": "0.0220",
+     "volume": "9937.79",
+     "volume_24h": "125.05",
+     "open_interest": "4189.27",
+     "rules": "If the House member sworn in for NY-23 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY23-26-R",
+     "title": "Will Republican win the House race for NY-23?",
+     "yes_label": "Nick Langworthy",
+     "no_label": "Nick Langworthy",
+     "status": "active",
+     "yes_bid": "0.9610",
+     "yes_ask": "0.9750",
+     "last": "0.9430",
+     "previous": "0.9430",
+     "volume": "11616.38",
+     "volume_24h": "0.00",
+     "open_interest": "3591.79",
+     "rules": "If the House member sworn in for NY-23 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-24": {
+   "event_ticker": "KXHOUSERACE-NY24-26",
+   "title": "NY-24 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY24-26-D",
+     "title": "Will Democratic win the House race for NY-24?",
+     "yes_label": "Alissa Ellman",
+     "no_label": "Alissa Ellman",
+     "status": "active",
+     "yes_bid": "0.0400",
+     "yes_ask": "0.0500",
+     "last": "0.0410",
+     "previous": "0.0440",
+     "volume": "10549.91",
+     "volume_24h": "427.23",
+     "open_interest": "5966.13",
+     "rules": "If the House member sworn in for NY-24 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY24-26-R",
+     "title": "Will Republican win the House race for NY-24?",
+     "yes_label": "Claudia Tenney",
+     "no_label": "Claudia Tenney",
+     "status": "active",
+     "yes_bid": "0.9520",
+     "yes_ask": "0.9610",
+     "last": "0.9670",
+     "previous": "0.9670",
+     "volume": "9035.51",
+     "volume_24h": "0.00",
+     "open_interest": "4467.43",
+     "rules": "If the House member sworn in for NY-24 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-25": {
+   "event_ticker": "KXHOUSERACE-NY25-26",
+   "title": "NY-25 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY25-26-D",
+     "title": "Will Democratic win the House race for NY-25?",
+     "yes_label": "Joseph Morelle",
+     "no_label": "Joseph Morelle",
+     "status": "active",
+     "yes_bid": "0.9830",
+     "yes_ask": "0.9900",
+     "last": "0.9810",
+     "previous": "0.9810",
+     "volume": "1363.75",
+     "volume_24h": "0.00",
+     "open_interest": "300.99",
+     "rules": "If the House member sworn in for NY-25 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY25-26-R",
+     "title": "Will Republican win the House race for NY-25?",
+     "yes_label": "Virginia McIntyre",
+     "no_label": "Virginia McIntyre",
+     "status": "active",
+     "yes_bid": "0.0030",
+     "yes_ask": "0.0230",
+     "last": "0.0310",
+     "previous": "0.0310",
+     "volume": "370.88",
+     "volume_24h": "0.00",
+     "open_interest": "370.88",
+     "rules": "If the House member sworn in for NY-25 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-26": {
+   "event_ticker": "KXHOUSERACE-NY26-26",
+   "title": "NY-26 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NY26-26-D",
+     "title": "Will Democratic win the House race for NY-26?",
+     "yes_label": "Tim Kennedy",
+     "no_label": "Tim Kennedy",
+     "status": "active",
+     "yes_bid": "0.9660",
+     "yes_ask": "0.9890",
+     "last": "0.9650",
+     "previous": "0.9650",
+     "volume": "438.50",
+     "volume_24h": "0.00",
+     "open_interest": "405.02",
+     "rules": "If the House member sworn in for NY-26 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NY26-26-R",
+     "title": "Will Republican win the House race for NY-26?",
+     "yes_label": "Dennis Hannon",
+     "no_label": "Dennis Hannon",
+     "status": "active",
+     "yes_bid": "0.0120",
+     "yes_ask": "0.0340",
+     "last": "0.0340",
+     "previous": "0.0340",
+     "volume": "420.98",
+     "volume_24h": "0.00",
+     "open_interest": "419.98",
+     "rules": "If the House member sworn in for NY-26 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  }
+ }
+}

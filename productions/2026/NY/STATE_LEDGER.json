@@ -1,0 +1,229 @@
+{
+ "schema": 1,
+ "state": "NY",
+ "state_name": "New York",
+ "year": 2026,
+ "scope": "Governor, U.S. Senate, U.S. House",
+ "updated": "2026-10-30",
+ "updated_by": "claude",
+ "as_of_commit": "",
+ "headline": "New York 2026 LIVE; headline quote-mark fix on both articles deployed 2026-10-31.",
+ "paths": [
+  "productions/2026/NY",
+  "data/elections/NY"
+ ],
+ "decisions_log": "productions/2026/NY/DECISIONS_AND_HISTORY.md",
+ "stages": [
+  {
+   "id": "roster",
+   "title": "Roster reconciled to the official listing (or the best labeled source)",
+   "status": "done",
+   "evidence": "data/elections/NY/roster.json"
+  },
+  {
+   "id": "tip_join",
+   "title": "TIP export and join",
+   "status": "done"
+  },
+  {
+   "id": "tip_gaps",
+   "title": "TIP gap list shown to the owner; approved fixes applied",
+   "status": "done"
+  },
+  {
+   "id": "portraits",
+   "title": "Portraits (licensed only; monograms otherwise)",
+   "status": "done"
+  },
+  {
+   "id": "markets",
+   "title": "Kalshi markets",
+   "status": "done"
+  },
+  {
+   "id": "pages",
+   "title": "State pages built locally (hub, governor, Senate, House directory, districts)",
+   "status": "done",
+   "evidence": "dist/elections/2026/new-york/index.html"
+  },
+  {
+   "id": "scout",
+   "title": "Story Scout: ranked angles with READY or NOT_READY",
+   "status": "done",
+   "evidence": "productions/2026/NY/stories/STORY_BRIEF.md"
+  },
+  {
+   "id": "image_briefs",
+   "title": "Image briefs (state tile and story heroes)",
+   "status": "todo"
+  },
+  {
+   "id": "tile_image",
+   "title": "State tile image returned and installed",
+   "status": "done"
+  },
+  {
+   "id": "article_draft",
+   "title": "Articles drafted by ChatGPT",
+   "status": "done"
+  },
+  {
+   "id": "factcheck",
+   "title": "Independent fact-check of used claims",
+   "status": "done"
+  },
+  {
+   "id": "publish",
+   "title": "Deploy state pages, articles and tile",
+   "status": "done"
+  },
+  {
+   "id": "video",
+   "title": "Video asset pack (after approved articles and script direction)",
+   "status": "blocked",
+   "note": "asset pack only; no MP4 unless explicitly requested"
+  }
+ ],
+ "lanes": {
+  "articles": {
+   "chat": "Kimi (ChatGPT tokens unavailable); text only, no images. Owner to record the chat title in docs/production/CHAT_REGISTRY.md",
+   "role": "Write the article drafts from Claude's briefs. Never fact-check your own draft. Never publish.",
+   "tasks": [
+    {
+     "id": "NY-GOV-A",
+     "title": "Hochul's lead grew to double digits as independents flipped: State of the Race (schema 01), 700 to 1,000 words",
+     "status": "published",
+     "inputs": [
+      "productions/2026/NY/package_src/stories/NY-GOV-A/STORY_BRIEF.md",
+      "productions/2026/NY/package_src/stories/NY-GOV-A/CLAIMS.csv",
+      "productions/2026/NY/package_src/LINK_MAP.md"
+     ],
+     "returns": [
+      "NY-GOV-A_*.html",
+      "NY-GOV-A_CLAIMS.csv",
+      "NY-GOV-A_NOTES.md"
+     ],
+     "note": "Published 2026-10-30 on owner approval (\"looks good, ship it\") after owner read of the revised drafts; the revised wording was not re-run through the independent gate."
+    },
+    {
+     "id": "NY-17-A",
+     "title": "NY-17: a tied poll and a market that leans Democratic: State of the Race (schema 01), 700 to 1,000 words",
+     "status": "published",
+     "inputs": [
+      "productions/2026/NY/package_src/stories/NY-17-A/STORY_BRIEF.md",
+      "productions/2026/NY/package_src/stories/NY-17-A/CLAIMS.csv",
+      "productions/2026/NY/package_src/LINK_MAP.md"
+     ],
+     "returns": [
+      "NY-17-A_*.html",
+      "NY-17-A_CLAIMS.csv",
+      "NY-17-A_NOTES.md"
+     ],
+     "note": "Published 2026-10-30 on owner approval (\"looks good, ship it\") after owner read of the revised drafts; the revised wording was not re-run through the independent gate."
+    },
+    {
+     "id": "NY-NYC-A",
+     "title": "Three Mamdani-backed NYC upsets",
+     "status": "not_ready",
+     "note": "2026-10-30: BOLD America/UDP spending ($2.8M+) is single-sourced (JTA) and conflicts with our FEC read; NY-13 vote totals differ between outlets. Needs a second source or the FEC committee record plus the certified result."
+    }
+   ]
+  },
+  "images": {
+   "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
+   "role": "Make illustrated images from the briefs. Match the existing set. Never make faces, readable text or campaign branding.",
+   "tasks": []
+  }
+ },
+ "claude_tasks": [
+  {
+   "id": "C1",
+   "title": "Build the roster and reconcile it to the official listing",
+   "status": "done",
+   "gate": "none"
+  },
+  {
+   "id": "C2",
+   "title": "TIP export, join and gap list",
+   "status": "done",
+   "gate": "owner approval before any TIP write"
+  },
+  {
+   "id": "C3",
+   "title": "Portraits, markets, state pages, tests, strict build",
+   "status": "done",
+   "gate": "none"
+  },
+  {
+   "id": "C4",
+   "title": "Story Scout, then briefs and claims for every READY angle; add them as tasks in the articles lane",
+   "status": "done",
+   "gate": "none"
+  },
+  {
+   "id": "C5",
+   "title": "Image briefs; add them as tasks in the images lane",
+   "status": "todo",
+   "gate": "none"
+  }
+ ],
+ "waiting_on_owner": [
+  "Commit the 2026-10-31 work (see advice) once the sidebar chat is settled"
+ ],
+ "blocked": [
+  {
+   "what": "elections.ny.gov (State Board of Elections certification)",
+   "why": "HTTP 403 to automated fetches on 2026-10-30; roster is from Green Papers",
+   "rule": "never work around a block; record it in DATA_ACCESS_LIMITATIONS.md and label the roster unofficial"
+  }
+ ],
+ "do_not_redo": [],
+ "conflicts_to_watch": [
+  "Only one Claude session writes to this state at a time"
+ ],
+ "readback_checks": [
+  {
+   "lane": "articles",
+   "q": "May you fact-check your own draft, and who does?",
+   "expect_any": [
+    "claude",
+    "reviewer",
+    "independent",
+    "not"
+   ]
+  },
+  {
+   "lane": "articles",
+   "q": "May you cite a TIP grade that is not visible on the linked profile?",
+   "expect_any": [
+    "no",
+    "not"
+   ]
+  },
+  {
+   "lane": "articles",
+   "q": "What does a Kalshi price represent?",
+   "expect_any": [
+    "not a forecast",
+    "quotation",
+    "contract"
+   ]
+  },
+  {
+   "lane": "images",
+   "q": "What are the three things the image must never contain?",
+   "expect_any": [
+    "face",
+    "text",
+    "branding"
+   ]
+  },
+  {
+   "lane": "images",
+   "q": "What credit line will the page print under the image?",
+   "expect_any": [
+    "ai illustration"
+   ]
+  }
+ ]
+}
