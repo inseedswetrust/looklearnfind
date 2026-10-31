@@ -6,8 +6,8 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-31",
   "updated_by": "claude",
-  "as_of_commit": "42b7c44",
-  "headline": "Minnesota 2026: roster, TIP join, portraits, markets, local pages and registry are built; TIP gap list awaits owner approval. Nothing deployed.",
+  "as_of_commit": "16347f0",
+  "headline": "Minnesota 2026: roster, TIP join, markets, local pages, registry and Story Scout are done; TIP gap list awaits owner approval; two articles are ready for the Kimi package. Nothing deployed.",
   "paths": [
     "productions/2026/MN",
     "data/elections/MN"
@@ -83,12 +83,21 @@
     {
       "id": "scout",
       "title": "Story Scout: ranked angles with READY or NOT_READY",
-      "status": "todo"
+      "status": "done",
+      "note": "Two READY angles (MN-SEN-A, MN-01-A) and one held (MN-GOV-A).",
+      "evidence": [
+        "productions/2026/MN/stories/STORY_BRIEF.md",
+        "productions/2026/MN/stories/story_brief_mn_2026-10-31.json"
+      ]
     },
     {
       "id": "image_briefs",
       "title": "Image briefs (state tile and story heroes)",
-      "status": "todo"
+      "status": "done",
+      "note": "Four images requested (tile, governor, Senate, MN-01); to be sent to ChatGPT.",
+      "evidence": [
+        "productions/2026/MN/visuals/IMAGE_REQUEST.md"
+      ]
     },
     {
       "id": "tile_image",
@@ -121,7 +130,48 @@
     "articles": {
       "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
       "role": "Write the article drafts from Claude's briefs. Never fact-check your own draft. Never publish.",
-      "tasks": []
+      "tasks": [
+        {
+          "id": "MN-SEN-A",
+          "title": "Minnesota Senate: a four-point poll lead within the margin, a market near 0.91 and a quiet race: State of the Race (schema 01), 700 to 1,000 words",
+          "status": "ready",
+          "inputs": [
+            "productions/2026/MN/package_src/stories/MN-SEN-A/STORY_BRIEF.md",
+            "productions/2026/MN/package_src/stories/MN-SEN-A/CLAIMS.csv",
+            "productions/2026/MN/package_src/LINK_MAP.md"
+          ],
+          "returns": [
+            "MN-SEN-A_*.html",
+            "MN-SEN-A_CLAIMS.csv",
+            "MN-SEN-A_NOTES.md"
+          ],
+          "note": "Poll original not opened; attribute the 47% to 43% poll to MPR News."
+        },
+        {
+          "id": "MN-01-A",
+          "title": "Minnesota's 1st: outside spending passes the Senate race and the market sits near 0.40: State of the Race (schema 01), 700 to 1,000 words",
+          "status": "ready",
+          "inputs": [
+            "productions/2026/MN/package_src/stories/MN-01-A/STORY_BRIEF.md",
+            "productions/2026/MN/package_src/stories/MN-01-A/CLAIMS.csv",
+            "productions/2026/MN/package_src/LINK_MAP.md"
+          ],
+          "returns": [
+            "MN-01-A_*.html",
+            "MN-01-A_CLAIMS.csv",
+            "MN-01-A_NOTES.md"
+          ],
+          "note": "Republican-side spending figures from MPR ($600,000) and FOX 9 ($400,000) are not reconciled; give both as reported."
+        },
+        {
+          "id": "MN-GOV-A",
+          "title": "Minnesota governor: Klobuchar poll lead and market near 0.97",
+          "status": "not_ready",
+          "inputs": [],
+          "returns": [],
+          "note": "Held: Star Tribune poll original not opened (HTTP 429); no second opened source; TIP has no governor race entries."
+        }
+      ]
     },
     "images": {
       "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
@@ -157,19 +207,20 @@
     {
       "id": "C4",
       "title": "Story Scout, then briefs and claims for every READY angle; add them as tasks in the articles lane",
-      "status": "todo",
+      "status": "done",
       "gate": "none"
     },
     {
       "id": "C5",
       "title": "Image briefs; add them as tasks in the images lane",
-      "status": "todo",
+      "status": "done",
       "gate": "none"
     }
   ],
   "waiting_on_owner": [
     "Approve (or amend) productions/2026/MN/research/TIP_GAP_LIST.md before any TIP write; choose which Klobuchar profile carries the governor entry",
-    "Decide whether someone opens the Minnesota Secretary of State candidate finder by hand to verify the roster (the download is behind a captcha)"
+    "Decide whether someone opens the Minnesota Secretary of State candidate finder by hand to verify the roster (the download is behind a captcha)",
+    "Send productions/2026/MN/visuals/IMAGE_REQUEST.md to ChatGPT; send the Kimi articles package (zip and PASTE_THIS_FIRST.txt) to Kimi"
   ],
   "blocked": [
     {

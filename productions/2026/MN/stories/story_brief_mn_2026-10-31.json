@@ -1,0 +1,168 @@
+{
+ "scope": "Minnesota Governor, U.S. Senate and U.S. House, general election Nov 3 2026",
+ "as_of": "2026-10-31",
+ "angles": [
+  {
+   "id": "MN-SEN-A",
+   "working_title": "Minnesota Senate: a four-point poll lead within the margin, a market near 0.91 and a race that has stayed quiet",
+   "interesting_fact": "A Star Tribune/KARE 11 poll reported by MPR News had Peggy Flanagan at 47% and Michele Tafoya at 43% with about 9% undecided, a gap inside the 3.5-point margin of error, while Kalshi's Democratic-party contract for the seat last traded at 0.908.",
+   "state": "MN",
+   "office": "U.S. Senate",
+   "race_ids": [
+    "2026-S-MN"
+   ],
+   "candidate_ids": [
+    "S6MN00440",
+    "S6MN00556"
+   ],
+   "event_date": "2026-10-12",
+   "labelled_new": true,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "MPR News",
+     "headline": "Peggy Flanagan and Michele Tafoya's Senate race stays quiet in Minnesota",
+     "url": "https://www.mprnews.org/story/2026/10/12/peggy-flanagan-michele-tafoya-senate-race-stays-quiet-in-minnesota",
+     "date": "2026-10-12",
+     "opened": true
+    },
+    {
+     "role": "corroboration",
+     "publication": "KTTC",
+     "headline": "In only scheduled debate, Flanagan and Tafoya spar over track records and policy positions",
+     "url": "https://www.kttc.com/2026/10/16/only-scheduled-debate-flanagan-tafoya-spar-over-track-records-policy-positions/",
+     "date": "2026-10-16",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Peggy Flanagan",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/S6MN00440"
+    },
+    {
+     "candidate": "Michele Tafoya",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/S6MN00556"
+    }
+   ],
+   "financial_claims": [
+    {
+     "claim": "About $2 million of outside spending since the primary, about $1.3 million of it for pro-Flanagan freeway billboards; more than $20 million from outside groups in the primary, mostly on the DFL side",
+     "source": "MPR News, citing public records",
+     "period": "primary through Friday October 9, 2026",
+     "source_url": "https://www.mprnews.org/story/2026/10/12/peggy-flanagan-michele-tafoya-senate-race-stays-quiet-in-minnesota",
+     "attributed_to": "MPR News, which cites public records"
+    }
+   ],
+   "synopsis": "MPR News (Oct 12) reports the Senate race to replace Tina Smith has drawn little outside attention compared with Texas, Michigan and Kansas, with few news conferences or big rallies. It cites a Star Tribune/KARE 11 poll published that Monday (fielded the prior week, margin of error 3.5 points) with Flanagan at 47%, Tafoya at 43% and about 9% undecided, and says outside groups spent more than $20 million in the primary but only about $2 million since, about $1.3 million of it on pro-Flanagan billboards. Sen. John Thune told MPR there is 'more interest' without committing Senate Leadership Fund money. KTTC (Oct 16) covers the only scheduled debate: Flanagan tied Tafoya to President Trump, Tafoya tied Flanagan to Gov. Tim Walz and fraud cases and called herself a pro-choice Republican. Kalshi's Senate event (SENATEMN-26), captured Oct 31 19:51 UTC, shows the Democratic-party contract at 0.908 last (bid 0.907, ask 0.908) and the Republican-party contract at 0.096 last (bid 0.094, ask 0.096). Neither candidate has a congressional record and neither is graded on TIP. A KSTP/SurveyUSA poll (45% to 42%, margin 4.2 points) is reported by Political Wire but its original was not opened and it is not used. The Star Tribune original returned an error and was not opened, so the poll is attributed to MPR's report.",
+   "ready_to_write": true
+  },
+  {
+   "id": "MN-01-A",
+   "working_title": "Minnesota's 1st: outside spending passes the Senate race and the market sits near 0.40",
+   "interesting_fact": "MPR News, citing FEC data, reports more than $2.5 million of outside spending in Minnesota's 1st District, most of it against Rep. Brad Finstad, more than in the state's Senate race, while Kalshi's Democratic-party contract for the seat last traded at 0.40.",
+   "state": "MN",
+   "office": "U.S. House",
+   "race_ids": [
+    "2026-H-MN-01"
+   ],
+   "candidate_ids": [
+    "H2MN01223",
+    "H6MN01190"
+   ],
+   "event_date": "2026-10-09",
+   "labelled_new": true,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "MPR News",
+     "headline": "Brad Finstad, Jake Johnson debate in 1st Congressional District race",
+     "url": "https://www.mprnews.org/story/2026/10/09/brad-finstad-jake-johnson-debate-in-1st-congressional-district-race",
+     "date": "2026-10-09",
+     "opened": true
+    },
+    {
+     "role": "corroboration",
+     "publication": "FOX 9",
+     "headline": "Southern Minnesota affordability, farm pressures tighten 1st District race",
+     "url": "https://www.fox9.com/news/southern-minnesota-affordability-farm-pressures-tighten-1st-district-race",
+     "date": "2026-10-22",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Brad Finstad",
+     "issue": "see profile",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H2MN01223"
+    },
+    {
+     "candidate": "Jake Johnson",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6MN01190"
+    }
+   ],
+   "financial_claims": [
+    {
+     "claim": "More than $2.5 million of outside spending in MN-01, most of it opposing Finstad, with a group tied to House Majority Whip Tom Emmer deploying $600,000 in ads critical of Johnson that week; outside spending here has outpaced the statewide Senate race",
+     "source": "MPR News, citing FEC data",
+     "period": "2026 cycle through the week of October 5, 2026",
+     "source_url": "https://www.mprnews.org/story/2026/10/09/brad-finstad-jake-johnson-debate-in-1st-congressional-district-race",
+     "attributed_to": "MPR News, which cites FEC data"
+    },
+    {
+     "claim": "Johnson has outspent Finstad by more than $500,000 and GOP political action committees recently added about $400,000 to the race",
+     "source": "FOX 9",
+     "period": "as of October 22, 2026",
+     "source_url": "https://www.fox9.com/news/southern-minnesota-affordability-farm-pressures-tighten-1st-district-race",
+     "attributed_to": "FOX 9 (no source given for the figures; MPR's $600,000 and FOX 9's $400,000 for Republican-side spending are not reconciled)"
+    }
+   ],
+   "synopsis": "MPR News (Oct 9) covers the Oct 8 debate on two southern Minnesota TV stations between Rep. Brad Finstad (R) and Jake Johnson (DFL), a Rochester math teacher: Finstad defended Trump's tariffs and cited $50 billion in rural health care funding; Johnson called tariffs a tax, said he would vote to end them and said the administration cut $137 billion from rural health care through Medicaid. MPR, citing FEC data, says more than $2.5 million of outside money has flowed into the race, most of it against Finstad, that a group tied to Majority Whip Tom Emmer put $600,000 of critical ads on Johnson that week, and that outside spending here has outpaced the statewide Senate race. FOX 9 (Oct 22) calls it one of the closest of Minnesota's eight House races, says Finstad won by 17 points in 2024, that Johnson, a first-time candidate, has outspent Finstad by more than $500,000 and that GOP PACs recently added about $400,000; political scientist Larry Jacobs attributes the competitiveness to farm affordability pressure. The two outlets' Republican-side figures differ and are given as reported. FOX 9 says polling suggests Finstad's hold is slipping but cites no poll. Kalshi's MN-01 event (KXHOUSERACE-MN01-26), captured Oct 31 19:51 UTC, shows the Democratic-party contract at 0.40 last (bid 0.40, ask 0.41) and the Republican-party contract at 0.61 last (bid 0.61, ask 0.62), the closest of Minnesota's eight House events. Public polls found are a campaign-released PPP poll (February) and a Big Data Poll whose sponsor was not checked, so no poll is used. No race ratings are used: the ones found came from campaign sites. TIP: Finstad is the incumbent; Johnson has no congressional record and is not graded.",
+   "ready_to_write": true
+  },
+  {
+   "id": "MN-GOV-A",
+   "working_title": "Minnesota governor: Klobuchar leads in the polls reported and the market sits near 0.97",
+   "interesting_fact": "A Star Tribune/KARE 11 poll reported by Political Wire has Amy Klobuchar at 50% and Lisa Demuth at 41%, while Kalshi's Democratic-party contract for the governorship last traded at 0.968.",
+   "state": "MN",
+   "office": "Governor",
+   "race_ids": [
+    "2026-GOV-MN"
+   ],
+   "candidate_ids": [
+    "GOV-MN-KLOBUCHAR",
+    "GOV-MN-DEMUTH"
+   ],
+   "event_date": "2026-10-13",
+   "labelled_new": true,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "Political Wire",
+     "headline": "Amy Klobuchar hits 50% for Minnesota governor",
+     "url": "https://politicalwire.com/2026/10/13/amy-klobuchar-hits-50-for-minnesota-governor/",
+     "date": "2026-10-13",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Amy Klobuchar",
+     "issue": "see profile",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/GOV-MN-KLOBUCHAR"
+    }
+   ],
+   "synopsis": "Political Wire (Oct 13) reports a Star Tribune/KARE 11/Minnesota Poll of likely voters with Klobuchar at 50% and Demuth at 41% (margin of error 3.5 points). The poll's original at the Star Tribune returned HTTP 429 and was not opened, and the aggregator gives no field dates or sample, so the angle is held. Kalshi's governor event (GOVPARTYMN-26), captured Oct 31, shows the Democratic-party contract at 0.968 last (bid 0.962, ask 0.968) and the Republican-party contract at 0.039 last. No governor race entry exists on TIP yet (gap list item 1), so there is no race link. Retry the Star Tribune page and find a second opened source (for example a KSTP/SurveyUSA release) before writing.",
+   "ready_to_write": false,
+   "hold": "Held: poll original (Star Tribune) returned HTTP 429 and was not opened; the aggregator item gives no field dates or sample; TIP has no governor race entries yet."
+  }
+ ]
+}

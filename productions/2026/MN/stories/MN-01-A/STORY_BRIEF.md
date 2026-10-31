@@ -1,0 +1,14 @@
+# MN-01-A
+
+As of 2026-10-31. Schema: docs/schemas/01_STATE_OF_THE_RACE.md. Kalshi contracts are party-winner contracts labeled with a name or party: say "the Democratic-party contract", never "a contract on <candidate>". Minnesota's Democratic party is the Democratic-Farmer-Labor Party (DFL). The roster is parsed from Green Papers and is not an official list; do not call it official.
+
+## MN-01-A: Minnesota's 1st: outside spending passes the Senate race and the market sits near 0.40 (READY)
+MPR News (Oct 9) covers the Oct 8 debate on two southern Minnesota TV stations between Rep. Brad Finstad (R) and Jake Johnson (DFL), a Rochester math teacher: Finstad defended Trump's tariffs and cited $50 billion in rural health care funding; Johnson called tariffs a tax, said he would vote to end them and said the administration cut $137 billion from rural health care through Medicaid. MPR, citing FEC data, says more than $2.5 million of outside money has flowed into the race, most of it against Finstad, that a group tied to Majority Whip Tom Emmer put $600,000 of critical ads on Johnson that week, and that outside spending here has outpaced the statewide Senate race. FOX 9 (Oct 22) calls it one of the closest of Minnesota's eight House races, says Finstad won by 17 points in 2024, that Johnson, a first-time candidate, has outspent Finstad by more than $500,000 and that GOP PACs recently added about $400,000; political scientist Larry Jacobs attributes the competitiveness to farm affordability pressure. The two outlets' Republican-side figures differ and are given as reported. FOX 9 says polling suggests Finstad's hold is slipping but cites no poll. Kalshi's MN-01 event (KXHOUSERACE-MN01-26), captured Oct 31 19:51 UTC, shows the Democratic-party contract at 0.40 last (bid 0.40, ask 0.41) and the Republican-party contract at 0.61 last (bid 0.61, ask 0.62), the closest of Minnesota's eight House events. Public polls found are a campaign-released PPP poll (February) and a Big Data Poll whose sponsor was not checked, so no poll is used. No race ratings are used: the ones found came from campaign sites. TIP: Finstad is the incumbent; Johnson has no congressional record and is not graded.
+
+Sources:
+- MPR News, 2026-10-09: Brad Finstad, Jake Johnson debate in 1st Congressional District race (https://www.mprnews.org/story/2026/10/09/brad-finstad-jake-johnson-debate-in-1st-congressional-district-race), opened: True
+- FOX 9, 2026-10-22: Southern Minnesota affordability, farm pressures tighten 1st District race (https://www.fox9.com/news/southern-minnesota-affordability-farm-pressures-tighten-1st-district-race), opened: True
+
+TIP:
+- Brad Finstad: see profile NOT GRADED (https://theissuesparty.org/candidates/H2MN01223)
+- Jake Johnson: all six NOT GRADED (https://theissuesparty.org/candidates/H6MN01190)
