@@ -18,3 +18,8 @@ Newest last. One entry per stage: what was done, what was decided, what is open.
 - Images: `productions/2026/MN/visuals/IMAGE_REQUEST.md` (tile, governor, Senate and MN-01 heroes) for ChatGPT, separate from the Kimi articles package.
 - Package: `handoff.py build MN --lane articles --mode fresh` (listing text is the Green Papers dump, labeled not official).
 - Open: owner approval of the TIP gap list; image return; fact-check; homepage tile, hero credits and `data/discovery.json` entries when articles arrive; nothing deployed.
+
+## 2026-10-31: TIP gap fixes applied (owner approved, Klobuchar profile GOV-MN-KLOBUCHAR)
+- `apply-mn-gap-fixes.mjs` (TIP repo): created needs_review profile GOV-MN-YOUNG, inserted governor entries for Klobuchar, Demuth and Young at `review`, cleared incumbent_name on 2026-GOV-MN, 2026-S-MN and 2026-H-MN-02. First run failed on the `id` column (generated); script fixed and rerun, idempotent.
+- Re-exported and rejoined: 24 of 25 linked (Kevin Dwire, a write-in, stays unlinked). Registry gaps now show the governor entries as `tip_entry_review`.
+- Open: promoting the governor entries to `active` is a separate owner approval.

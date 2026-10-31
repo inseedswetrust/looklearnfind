@@ -1,5 +1,5 @@
 {
- "as_of_utc": "2026-10-31T19:51:16Z",
+ "as_of_utc": "2026-10-31T20:02:10Z",
  "issues": [
   {
    "slug": "data_bill_of_rights",
@@ -80,7 +80,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -124,7 +124,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -142,9 +142,34 @@
    "status": "Qualified",
    "primary": "",
    "state_url": "https://www.thegreenpapers.com/G26/MN",
-   "fec_candidate_id": null,
-   "tip_page_id": null,
-   "tip": null
+   "fec_candidate_id": "GOV-MN-YOUNG",
+   "tip_page_id": "GOV-MN-YOUNG",
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-MN-YOUNG",
+    "grades_url": null,
+    "grades": {
+     "data_bill_of_rights": {
+      "state": "not_graded"
+     },
+     "war_crime_accountability": {
+      "state": "not_graded"
+     },
+     "congressional_stock_trading_ban": {
+      "state": "not_graded"
+     },
+     "citizens_united_reform": {
+      "state": "not_graded"
+     },
+     "universal_healthcare": {
+      "state": "not_graded"
+     },
+     "us-israel-military-merger": {
+      "state": "not_graded"
+     }
+    },
+    "http_status": 200,
+    "checked_at": "2026-10-31T20:02Z"
+   }
   },
   {
    "id": "Margaret__Peggy__Flanagan",
@@ -187,7 +212,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -231,7 +256,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -275,7 +300,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -319,7 +344,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -382,7 +407,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -450,7 +475,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -494,7 +519,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -538,7 +563,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -600,7 +625,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -644,7 +669,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -724,7 +749,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -768,7 +793,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -848,7 +873,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -892,7 +917,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -936,7 +961,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -980,7 +1005,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -1048,7 +1073,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -1092,7 +1117,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -1160,7 +1185,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -1204,7 +1229,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   },
   {
@@ -1272,7 +1297,7 @@
      }
     },
     "http_status": 200,
-    "checked_at": "2026-10-31T19:51Z"
+    "checked_at": "2026-10-31T20:02Z"
    }
   }
  ]

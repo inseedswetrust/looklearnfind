@@ -1,9 +1,12 @@
 llf_id,name,office,district,party,gap,action
-MN-G-demuth-lisa,Lisa Demuth,governor,,REP,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
+MN-G-demuth-lisa,Lisa Demuth,governor,,REP,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
 MN-G-demuth-lisa,Lisa Demuth,governor,,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
 MN-G-demuth-lisa,Lisa Demuth,governor,,REP,profile_unverified,Editor information only
-MN-G-klobuchar-amy,Amy Klobuchar,governor,,DEM,tip_entry_missing,"Add a race entry on TIP (owner approves the write), then re-export"
-MN-G-young-steven,Steven Young,governor,,GRN,tip_profile_missing,"Add to the TIP fix list (owner approves the write), then re-export"
+MN-G-klobuchar-amy,Amy Klobuchar,governor,,DEM,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+MN-G-young-steven,Steven Young,governor,,GRN,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+MN-G-young-steven,Steven Young,governor,,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+MN-G-young-steven,Steven Young,governor,,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+MN-G-young-steven,Steven Young,governor,,GRN,profile_unverified,Editor information only
 MN-S-dwire-kevin,Kevin Dwire,senate,,WRI,tip_profile_missing,"Add to the TIP fix list (owner approves the write), then re-export"
 MN-S-flanagan-margaret,"Margaret ""Peggy"" Flanagan",senate,,DEM,profile_unverified,Editor information only
 MN-S-whiting-rebecca,Rebecca Whiting,senate,,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy

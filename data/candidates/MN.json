@@ -6,8 +6,8 @@
  "cycle": 2026,
  "built_from": {
   "roster_captured_at": "2026-10-31T00:00:00Z",
-  "candidates_as_of": "2026-10-31T19:51:16Z",
-  "tip_export_as_of": "2026-10-31T19:49:58.702Z"
+  "candidates_as_of": "2026-10-31T20:02:10Z",
+  "tip_export_as_of": "2026-10-31T20:01:55.700Z"
  },
  "roster": {
   "basis": "secondary",
@@ -41,10 +41,12 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/GOV-MN-DEMUTH",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "needs_review",
-    "entry_status": null
+    "entry_status": [
+     "review"
+    ]
    },
    "tip_photo": true,
    "links": {
@@ -54,7 +56,7 @@
    },
    "llf_race_path": "/elections/2026/minnesota/governor/",
    "gaps": [
-    "tip_entry_missing",
+    "tip_entry_review",
     "tip_links_missing",
     "profile_unverified"
    ],
@@ -86,10 +88,12 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/GOV-MN-KLOBUCHAR",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "merged_alias",
-    "entry_status": null
+    "entry_status": [
+     "review"
+    ]
    },
    "tip_photo": true,
    "links": {
@@ -99,7 +103,7 @@
    },
    "llf_race_path": "/elections/2026/minnesota/governor/",
    "gaps": [
-    "tip_entry_missing"
+    "tip_entry_review"
    ],
    "coverage": []
   },
@@ -123,16 +127,18 @@
     "note": null
    },
    "ids": {
-    "fec": null,
-    "tip_slug": null
+    "fec": "GOV-MN-YOUNG",
+    "tip_slug": "GOV-MN-YOUNG"
    },
    "tip": {
-    "url": null,
-    "http": null,
-    "checked_at": null,
-    "graded_count": null,
-    "profile_status": null,
-    "entry_status": null
+    "url": "https://theissuesparty.org/candidates/GOV-MN-YOUNG",
+    "http": 200,
+    "checked_at": "2026-10-31T20:02Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
    },
    "tip_photo": false,
    "links": {
@@ -142,7 +148,10 @@
    },
    "llf_race_path": "/elections/2026/minnesota/governor/",
    "gaps": [
-    "tip_profile_missing"
+    "tip_entry_review",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
    ],
    "coverage": []
   },
@@ -217,7 +226,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/S6MN00440",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": null,
     "entry_status": [
@@ -262,7 +271,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/S6MN00481",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -305,7 +314,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/S6MN00556",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -348,7 +357,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/S6MN00572",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "handoff_roster",
     "entry_status": [
@@ -394,7 +403,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2MN01223",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 4,
     "profile_status": "seed",
     "entry_status": [
@@ -437,7 +446,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN01190",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -480,7 +489,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN02230",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -523,7 +532,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN02263",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -566,7 +575,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN03170",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -609,7 +618,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4MN03118",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 3,
     "profile_status": "seed",
     "entry_status": [
@@ -652,7 +661,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H0MN04049",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 6,
     "profile_status": "seed",
     "entry_status": [
@@ -695,7 +704,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN04293",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -738,7 +747,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN05373",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": null,
     "entry_status": [
@@ -783,7 +792,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN05357",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -826,7 +835,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8MN05239",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 6,
     "profile_status": "seed",
     "entry_status": [
@@ -869,7 +878,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN06215",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -912,7 +921,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4MN06087",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 4,
     "profile_status": null,
     "entry_status": [
@@ -957,7 +966,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H0MN07091",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 4,
     "profile_status": "seed",
     "entry_status": [
@@ -1000,7 +1009,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN07312",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -1043,7 +1052,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8MN08043",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 4,
     "profile_status": null,
     "entry_status": [
@@ -1088,7 +1097,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6MN08179",
     "http": 200,
-    "checked_at": "2026-10-31T19:51Z",
+    "checked_at": "2026-10-31T20:02Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
