@@ -10,3 +10,4 @@ A limitation is recorded here instead of being worked around or treated as a com
 | 2026-10-23 | Florida campaign finance database (state office money) | blocked to automated access | governor money is quoted from press reports with dates | a person exports the data |
 | 2026-10-23 | VoteHub terms page | HTTP 403 | licensing of VoteHub poll listings is unverified; originals must be opened before a poll figure is published | a person reads the terms |
 | 2026-10-28 | Illinois: the Sigcho-Lopez lawsuit docket | not checked | lawsuit status is unknown in the IL-04 brief | a person checks the court docket |
+| 2026-10-30 | New York State Board of Elections (`elections.ny.gov`) | HTTP 403 to automated fetches | NY roster is parsed from The Green Papers; certification not read | a person opens the State Board November certification |

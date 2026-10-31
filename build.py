@@ -642,6 +642,8 @@ def gen_home():
             '<a class="state-tile" href="/elections/2026/florida/" style="--img:url(/img/elections/s1-florida.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>Florida</b><span>Governor, U.S. Senate and 28 House races, with the money and the record.</span></span></a>'
             '<a class="state-tile" href="/elections/2026/illinois/" style="--img:url(/img/elections/s2-illinois.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>Illinois</b><span>Governor, U.S. Senate and 17 House races, with the primary money and the ballot rules.</span></span></a>'
             '<a class="state-tile" href="/elections/2026/michigan/" style="--img:url(/img/elections/s4-michigan.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>Michigan</b><span>Governor, U.S. Senate and 13 House races, with the market quotes and the record.</span></span></a>'
+            '<a class="state-tile" href="/elections/2026/new-york/" style="--img:url(/img/elections/s5-new-york.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>New York</b><span>Governor and 26 House races, with the market quotes and the record.</span></span></a>'
+            '<a class="state-tile" href="/elections/2026/new-jersey/" style="--img:url(/img/elections/s6-new-jersey.jpg)"><span class="corner">AI illustration</span><span class="st-copy"><span class="eyebrow">The state files</span><b>New Jersey</b><span>U.S. Senate and 12 House races, with the market quotes and the record.</span></span></a>'
             '</div>')
     finds = "".join(
         f'<a href="/find/{t["slug"]}/" class="find-row"><span class="eyebrow">{i:02d}</span><b>{e(t["label"])}</b><p>{e(t["blurb"])}</p><span class="arrow">↗</span></a>'
@@ -751,11 +753,11 @@ def write_search_index():
 
 
 def main():
-    load_content()
     global CATALOG
+    load_content()
     index_content()
-    if OUT.exists():
     CATALOG = sidebar.Catalog(STORIES, fmt_date)
+    if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
     shutil.copytree(ROOT / "static", OUT, dirs_exist_ok=True)
@@ -781,7 +783,6 @@ def main():
             dest = OUT / path.lstrip("/")
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html)
-    write_search_index()
     problems = sidebar.validate(set(PAGES_OUT))
     if problems:
         raise SystemExit("Sidebar metadata invalid: " + "; ".join(problems))
@@ -789,6 +790,7 @@ def main():
         dest = OUT / rel
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(text, encoding="utf-8")
+    write_search_index()
     write_sprite()
     lm = CFG["updated"]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

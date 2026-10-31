@@ -11,7 +11,7 @@ import json, os, urllib.request, urllib.parse, datetime, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-ST = os.environ.get("LLF_STATE", "FL")      # FL (default), IL or MI
+ST = os.environ.get("LLF_STATE", "FL")      # FL (default), IL, MI, NY or NJ
 D = ROOT / f"data/elections/{ST}"
 B = "https://api.elections.kalshi.com/trade-api/v2"
 
@@ -26,14 +26,28 @@ def get(p, **q):
                 raise
             time.sleep(2)
 
-events = {"FL": {"governor": "GOVPARTYFL-26", "senate": "SENATEFLS-26"}, "IL": {"governor": "GOVPARTYIL-26", "senate": "SENATEIL-26"}, "MI": {"governor": "GOVPARTYMI-26", "senate": "SENATEMI-26"}}[ST]
-for n in range(1, {"FL": 28, "IL": 17, "MI": 13}[ST] + 1):
+events = {"FL": {"governor": "GOVPARTYFL-26", "senate": "SENATEFLS-26"}, "IL": {"governor": "GOVPARTYIL-26", "senate": "SENATEIL-26"}, "MI": {"governor": "GOVPARTYMI-26", "senate": "SENATEMI-26"}, "NY": {"governor": "GOVPARTYNY-26"}, "NJ": {"senate": "SENATENJ-26"}}[ST]
+for n in range(1, {"FL": 28, "IL": 17, "MI": 13, "NY": 26, "NJ": 12}[ST] + 1):
     events[f"house-{n:02d}"] = f"KXHOUSERACE-{ST}{n:02d}-26"
 now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 raw, out = {}, {}
 for race, et in events.items():
     try:
-        j = get(f"/events/{et}", with_nested_markets="true")
+        try:
+            j = get(f"/events/{et}", with_nested_markets="true")
+        except Exception:
+            if not et.startswith("KXHOUSERACE-"):
+                raise
+            nn = race.split('-')[1]
+            for alt in (f"HOUSE{ST}{nn}-26", f"HOUSE{ST}{int(nn)}-26"):          # competitive seats: HOUSE<ST><nn>-26, unpadded below 10 in some states
+                try:
+                    et = alt
+                    j = get(f"/events/{et}", with_nested_markets="true")
+                    break
+                except Exception:
+                    j = None
+            if j is None:
+                raise
     except Exception as ex:
         out[race] = {"event_ticker": et, "error": str(getattr(ex, "code", ex))}
         continue

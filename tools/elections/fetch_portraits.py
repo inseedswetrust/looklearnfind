@@ -12,7 +12,7 @@ import sys, json, re, unicodedata, urllib.request, urllib.error, urllib.parse, t
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 ST = sys.argv[1].upper()
-STATE = {"FL": "Florida", "MI": "Michigan", "IL": "Illinois"}[ST]
+STATE = {"FL": "Florida", "MI": "Michigan", "IL": "Illinois", "NY": "New York", "NJ": "New Jersey"}[ST]
 UA = {"User-Agent": "LLF-election-desk/1.0 (hello@looklearnfind.com)"}
 OK = re.compile(r"^(pd|public domain|cc0|cc[- ]by|cc[- ]by[- ]sa|attribution)", re.I)
 def api(base, **q):

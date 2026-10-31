@@ -158,9 +158,9 @@ def cmd_init(a):
     p = lpath(st)
     if p.exists():
         sys.exit(f"{p} exists; not overwriting")
-    tpl = json.loads((R / "docs/production/templates/state/STATE_LEDGER.template.json").read_text(encoding="utf-8"))
+    raw = (R / "docs/production/templates/state/STATE_LEDGER.template.json").read_text(encoding="utf-8")
     name = a.name or st
-    raw = json.dumps(tpl).replace("{{ST}}", st).replace("{{NAME}}", name).replace("{{YEAR}}", str(YEAR)).replace("{{TODAY}}", TODAY)
+    raw = raw.replace("{{ST}}", st).replace("{{NAME}}", name).replace("{{YEAR}}", str(YEAR)).replace("{{TODAY}}", TODAY)
     led = json.loads(raw)
     for sub in ("research", "stories", "articles", "visuals", "inbox", "handoff", "package_src"):
         (pdir(st) / sub).mkdir(parents=True, exist_ok=True)

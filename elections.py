@@ -35,6 +35,16 @@ STATES = {
                             'Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
                official=True, primary="August 4, 2026", sen_note="the seat Gary Peters is leaving", gov_hero=("mi-capitol", "The Michigan State Capitol in Lansing"),
                poll_note="We have not yet opened an original pollster release for this race as of {asof}.", sen_poll_note="We have not yet opened an original pollster release for this race."),
+    "NY": dict(code="NY", name="New York", slug="new-york", ndist=26, asof="2026-10-30", record_label="Candidate listing (Green Papers)",
+               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; the New York State Board of Elections certification could not be read '
+                            '(HTTP 403), so this roster is not an official or complete list; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
+               official=False, senate=False, primary="June 23, 2026", sen_note="", gov_hero=("ny-capitol", "An AI illustration of the New York State Capitol in Albany"),
+               poll_note="We have not yet opened an original pollster release for this race as of {asof}.", sen_poll_note=""),
+    "NJ": dict(code="NJ", name="New Jersey", slug="new-jersey", ndist=12, asof="2026-10-31", record_label="New Jersey Division of Elections official candidate lists",
+               source_note=('Sources: New Jersey Division of Elections official general election candidate lists (U.S. Senate dated July 27, 2026; U.S. House dated September 4, 2026; read {cap}), reconciled with Green Papers, OpenFEC candidate records and TIP; '
+                            'Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
+               official=True, governor=False, primary="June 2, 2026", sen_note="a full six-year term in the seat Cory Booker holds", gov_hero=None,
+               poll_note="", sen_poll_note="We have not yet opened an original pollster release for this race."),
 }
 SX = dict(STATES["FL"])
 GAPS = []           # directory gaps (a listed candidate with no TIP profile) for states whose roster is not yet fully on TIP; reported, not blocking
@@ -467,7 +477,7 @@ def _src_line():
 
 def _counts():
     cs = FL["cands"]
-    return {"cands": len(cs), "gov": len(FL["by_race"]["governor"]), "sen": len(FL["by_race"]["senate"]), "house": sum(len(v) for k, v in FL["by_race"].items() if k.startswith("house-")),
+    return {"cands": len(cs), "gov": len(FL["by_race"].get("governor", [])), "sen": len(FL["by_race"].get("senate", [])), "house": sum(len(v) for k, v in FL["by_race"].items() if k.startswith("house-")),
             "graded": sum(1 for c in cs if graded_count(c)), "tip": sum(1 for c in cs if c.get("tip") and c["tip"].get("url"))}
 
 # ------------------------------------------------------------------ State landing
@@ -701,7 +711,9 @@ def house_page():
 
 GEOM_NOTE = {"FL": "District geometry: Florida Legislature EDR plan EOGPCRP2026 (HB 1-D).",
              "IL": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026).",
-             "MI": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026)."}
+             "MI": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026).",
+             "NY": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026).",
+             "NJ": "District geometry: U.S. Census Bureau cartographic boundary file cb_2024_us_cd119_500k (119th Congress districts, in use for 2026)."}
 
 def district_page(n):
     fl = SX["code"] == "FL"
@@ -718,7 +730,7 @@ def district_page(n):
         dek = (f'<p class="deck">{len(cs)} candidates qualified for the November 3 general election.</p><p class="dek">Largest counties by share of district area: {e(cn)}. Under the 2026 plan (HB 1-D), enacted in May 2026 and still in litigation.</p>'
                f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span>{race_link_span(race)}</p>')
     else:
-        dek = (f'<p class="deck">{len(cs)} candidates on our roster for the November 3 general election.</p><p class="dek">{e(_seat_note(cs))}. {_roster_basis()}</p>'
+        dek = (f'<p class="deck">{len(cs)} candidates on our roster for the November 3 general election.</p><p class="dek">{e(_seat_note(cs).rstrip("."))}. {_roster_basis()}</p>'
                f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span>{race_link_span(race)}</p>')
     hero = f'<div class="el-hero mapheroc one">{state_map(highlight=n, links=False)}</div>'
     body = _race_head("State of the Race / U.S. House", f"{_poss(SX['name'])} {n}{_ord(n)} Congressional District", dek, crumbs, hero,
@@ -749,7 +761,13 @@ def _ord(n):
 
 
 # ------------------------------------------------------------------ non-Florida state pages (Illinois): same modules, content from the state's own data
-ROSTER_NOTE = {"IL": ('<strong>About this roster.</strong> The Illinois State Board of Elections candidate list could not be read by our tools (HTTP 403 on {cap}). '
+ROSTER_NOTE = {"NJ": ('<strong>About this roster.</strong> The roster follows the New Jersey Division of Elections official lists of general election candidates (U.S. Senate dated July 27, 2026; U.S. House dated September 4, 2026), read on {cap}. '
+                      'Federal candidate IDs come from Green Papers and OpenFEC, and TIP supplies the profiles. The lists carry printed ballot choices only, so a write-in appears only where a secondary source lists it and is labeled. '
+                      'Late changes after those dates are not reflected. New Jersey elects no governor in 2026.'),
+               "NY": ('<strong>About this roster.</strong> The New York State Board of Elections certification could not be read by our tools (HTTP 403 on {cap}). '
+                      'This roster is transcribed from Green Papers and cross-checked against OpenFEC and TIP. It is not an official or certified list, may omit late changes and is not claimed to be complete. '
+                      'New York has no U.S. Senate election in 2026. Write-in candidates are listed only where the source lists them.'),
+               "IL": ('<strong>About this roster.</strong> The Illinois State Board of Elections candidate list could not be read by our tools (HTTP 403 on {cap}). '
                       'This roster is transcribed from Green Papers and cross-checked against OpenFEC and TIP. It is not an official or certified list, may omit late changes and is not claimed to be complete. '
                       'Write-in candidates are listed only where the source lists them.'),
                "MI": ('<strong>About this roster.</strong> The roster follows the Michigan Department of State Official Candidate Listing for the November 3, 2026 general election, read on {cap}; '
@@ -779,33 +797,42 @@ def generic_hub():
     CUR[0] = ST_URL
     n = _counts()
     crumbs = [("Home", "/"), ("Politics", "/politics/"), ("State of the Race", None), (name, None)]
-    tiles = [board_tile("Governor", ST_URL + "governor/", FL["by_race"]["governor"], f'{n["gov"]} candidates'),
-             board_tile("U.S. Senate", ST_URL + "senate/", FL["by_race"]["senate"], "open seat" if not any(c["incumbent"] for c in FL["by_race"]["senate"]) else "regular election")]
+    has_sen = SX.get("senate", True)
+    has_gov = SX.get("governor", True)
+    tiles = [board_tile("Governor", ST_URL + "governor/", FL["by_race"]["governor"], f'{n["gov"]} candidates')] if has_gov else []
+    if has_sen:
+        tiles.append(board_tile("U.S. Senate", ST_URL + "senate/", FL["by_race"]["senate"], "open seat" if not any(c["incumbent"] for c in FL["by_race"]["senate"]) else "regular election"))
     for i in range(1, nd + 1):
         tiles.append(board_tile(_dl(i), f"{ST_URL}house/{i}/", FL["by_race"][f"house-{i:02d}"], _seat_note(FL["by_race"][f"house-{i:02d}"])))
     board = '<div class="board">' + "".join(tiles) + "</div>"
-    mrows = _market_rows((("Governor", "governor", "governor/"), ("U.S. Senate", "senate", "senate/")))
-    contests = nd + 2
+    mrows = _market_rows((("Governor", "governor", "governor/"),) * has_gov + ((("U.S. Senate", "senate", "senate/"),) if has_sen else ()))
+    contests = nd + int(has_sen) + int(has_gov)
+    sen_dek = (f'{n["gov"]} governor candidates, ' if has_gov else "") + (f'{n["sen"]} Senate candidates, ' if has_sen else "")
+    sen_lab = {(1, 1): "governor, U.S. Senate and U.S. House", (1, 0): "governor and U.S. House", (0, 1): "U.S. Senate and U.S. House", (0, 0): "U.S. House"}[(int(has_gov), int(has_sen))]
+    sen_q = {(1, 1): "governor, Senate and the House", (1, 0): "governor and the House", (0, 1): "Senate and the House", (0, 0): "the House"}[(int(has_gov), int(has_sen))]
+    sen_note = {(1, 1): "Governor and Senate contracts", (1, 0): "Governor contracts", (0, 1): "Senate contracts", (0, 0): "Contracts"}[(int(has_gov), int(has_sen))]
+    no_sen = "" if has_sen else f"<li>{name} has no U.S. Senate election in 2026.</li>" + ("" if has_gov else "")
+    sen_link = f'<li><a href="https://www.fec.gov/data/elections/senate/{SX["code"]}/2026/" rel="noopener">Senate: FEC candidate committee totals ↗</a></li>' if has_sen else no_sen
     oseats = _open_seats()
     body = f'''<section class="page-head el-head"><div class="wrap wide"><div>{_crumbs(crumbs)}
 <div class="kicker">Politics / State of the Race<i></i></div><h1 class="display">{name}: the <em>State of the Race</em></h1>
-<p class="dek">Every state has a ballot. This is {_poss(name)}: {n["gov"]} governor candidates, {n["sen"]} Senate candidates and {n["house"]} House candidates in {nd} districts on our roster, with the market quotes and the public record behind them. Where we could not verify something, the page says so.</p>
-<p class="meta"><span class="stamp">{name} 2026</span> <span>Checked {dstr(_asof().isoformat())} · {n["cands"]} candidates in {contests} contests · governor, U.S. Senate and U.S. House only</span></p></div>
+<p class="dek">Every state has a ballot. This is {_poss(name)}: {sen_dek}{n["house"]} House candidates in {nd} districts on our roster, with the market quotes and the public record behind them. Where we could not verify something, the page says so.</p>
+<p class="meta"><span class="stamp">{name} 2026</span> <span>Checked {dstr(_asof().isoformat())} · {n["cands"]} candidates in {contests} contests · {sen_lab} only</span></p></div>
 <div class="map-card">{state_map()}<p class="small">{_poss(name)} {nd} congressional districts, as in use for the 2026 election. Select a district.</p></div></div></section>
 <section class="band cream"><div class="wrap wide split3"><div><div class="kicker">Start with the board<i></i></div><h2 class="h2">What is on the ballot in {name}, and what does the record show?</h2></div>
-<ol class="qs"><li><a href="#board">Who is running for governor, Senate and the House?</a></li><li><a href="#money">What is the market quoting?</a></li><li><a href="#tip">What does the congressional record show on six issues?</a></li></ol></div></section>
+<ol class="qs"><li><a href="#board">Who is running for {sen_q}?</a></li><li><a href="#money">What is the market quoting?</a></li><li><a href="#tip">What does the congressional record show on six issues?</a></li></ol></div></section>
 <section class="band" id="board"><div class="wrap wide"><div class="kicker">The State Board<i></i></div><div class="bhead"><h2 class="h2">All {contests} contests, {n["cands"]} candidates on our roster</h2>
 <p class="dek">Each tile lists every candidate in our {name} roster for the November 3 general election, in LLF display order (Republican, Democratic, other parties, no party, then write-ins), not ballot order. A dot marks the sitting officeholder. <span class="pchip">W</span> marks a write-in, who does not appear as a printed ballot choice. {len(oseats)} House seats have no incumbent on the ballot.</p></div>
 {_roster_note()}
 {board}<p class="small boardnote">Candidates are listed as the source spells them. Late changes and spelling: see <a href="/about/corrections/">corrections</a>.</p></div></section>
 <section class="band cream" id="money"><div class="wrap wide"><div class="kicker">Markets and money<i></i></div><div class="two"><div><h2 class="h3">Kalshi quotes for the statewide races</h2>
 <div class="tablewrap"><table class="data"><thead><tr><th>Race</th><th>Contract last trade</th><th class="num">Bid / ask</th></tr></thead><tbody>{mrows}</tbody></table></div>
-<p class="small">Kalshi contract prices are market-implied estimates, not forecasts or vote shares. Governor and Senate contracts resolve on the party of the person sworn in. Captured {utc_stamp(FL["markets"]["captured_at_utc"])}. House district contracts are on each district page.</p></div>
-<div><h2 class="h3">Where to read the money</h2><ul class="plain"><li><a href="https://www.fec.gov/data/elections/senate/{SX["code"]}/2026/" rel="noopener">Senate: FEC candidate committee totals ↗</a></li><li><a href="{ST_URL}house/">House: every district, with its FEC page ↗</a></li><li>Governor candidates file with the state, not the FEC.</li></ul></div></div></div></section>
+<p class="small">Kalshi contract prices are market-implied estimates, not forecasts or vote shares. {sen_note} resolve on the party of the person sworn in. Captured {utc_stamp(FL["markets"]["captured_at_utc"])}. House district contracts are on each district page.</p></div>
+<div><h2 class="h3">Where to read the money</h2><ul class="plain">{sen_link}<li><a href="{ST_URL}house/">House: every district, with its FEC page ↗</a></li>{"<li>Governor candidates file with the state, not the FEC.</li>" if has_gov else f"<li>{name} elects no governor in 2026.</li>"}</ul></div></div></div></section>
 <section class="band" id="tip"><div class="wrap wide two"><div><div class="kicker">TIP Issue Grades<i></i></div><h2 class="h2">Six issues, graded only from recorded acts</h2>
 <p class="dek">TIP grades a candidate on an issue only when there are recorded congressional acts on it. {n["graded"]} of {n["cands"]} {name} candidates have at least one grade today. Everyone else is shown as not graded, never as zero. A grade is TIP's published method applied to the record. It is not a verdict on a person.</p></div>{tip_panel()}</div></section>
 <section class="band"><div class="wrap wide"><div class="kicker">Sources and method<i></i></div><p class="small meth">{e(_src_line())} <a href="/about/election-methods/">Full methods, definitions and corrections policy ↗</a>. Last verified {dstr(_asof().isoformat())}. This guide excludes ballot measures, Cabinet offices, state legislature and judicial races by design.</p></div></section>'''
-    _wrapup(body, f"{name} 2026: State of the Race", f"All {contests} {name} contests for governor, U.S. Senate and U.S. House: {n['cands']} candidates on our roster, market quotes and the TIP issue record, with sources and the limits of the roster.", ST_URL, crumbs)
+    _wrapup(body, f"{name} 2026: State of the Race", f"All {contests} {name} contests for {sen_lab}: {n['cands']} candidates on our roster, market quotes and the TIP issue record, with sources and the limits of the roster.", ST_URL, crumbs)
 
 def _others_table(cs, note):
     for c in cs:
@@ -832,8 +859,11 @@ def generic_gov_page():
     dek = (f'<p class="deck">The candidates, the market and what is on file.</p><p class="dek">{name} elects a governor on November 3. {len(cs)} candidates are on our roster: the Republican and Democratic nominees and {tail}. '
            + (f'The incumbent, {e(inc["name"])}, was renominated. ' if inc else "") + f'Governor is a state office, so TIP shows the six-issue federal record only where a candidate served in Congress.{roster_tail}</p>'
            f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span>{race_link_span("governor")}</p>')
-    gkey, galt = SX["gov_hero"]
-    hero = _hero(gkey, galt, "A governor's race", f"{_poss(name)} next governor will be chosen on November 3. Here is what is on file.")
+    if SX.get("gov_hero"):
+        gkey, galt = SX["gov_hero"]
+        hero = _hero(gkey, galt, "A governor's race", f"{_poss(name)} next governor will be chosen on November 3. Here is what is on file.")
+    else:
+        hero = ""           # no licensed photo installed for this state yet
     body = _race_head("State of the Race / Governor", f"{name} Governor Race", dek, crumbs, hero, toc)
     body += f'''<section class="band" id="candidates"><div class="wrap wide cwrap"><div><div class="kicker">The candidates<i></i></div><h2 class="h2">The nominees</h2>
 <p class="dek small-dek">Nominees won their party primaries on {SX['primary']}. TIP grades a candidate only from recorded congressional acts, so a nominee who never served in Congress shows no graded issues; not graded is not a score of zero.</p>
@@ -929,9 +959,9 @@ def build(api):
     state_hub(); gov_page(); senate_page(); house_page(); methods_page(); dark_horse_status_page()
     for i in range(1, 29):
         district_page(i)
-    for code in ("IL", "MI"):
+    for code in ("IL", "MI", "NY", "NJ"):
         _load_state(code)
-        state_hub(); gov_page(); senate_page(); house_page()
+        state_hub(); (gov_page() if SX.get("governor", True) else None); (senate_page() if SX.get("senate", True) else None); house_page()
         for i in range(1, SX["ndist"] + 1):
             district_page(i)
     load()          # report articles read the Florida data
