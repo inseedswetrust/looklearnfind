@@ -96,3 +96,6 @@
 ## 2026-10-31 (night): candidate directory phase 1 built (all states)
 - Built after the owner pointed out the directory was the point of the session: `tools/elections/build_registry.py`, `data/candidates/{FL,IL,MI,NJ,NY}.json` and `races.json` (329 candidates), `gaps.csv` per state, `gen_candidates()` in `build.py`, filterable table at `/find/candidates/`, a list per state, `/data/candidates.json` and `.csv`, search entries that open the TIP profile. Per-state lists for the unofficial rosters (Illinois, New York) are noindex and out of the sitemap. 149 tests pass; strict build 212 pages. **Not deployed.**
 - The MI TIP export predates the governor promotion, so `gaps.csv` still lists five `tip_entry_review` flags for Michigan; re-export from TIP (`state-packet.mjs MI`) to clear them.
+
+## 2026-10-31 (night): candidate directory deployed
+- Owner approved. Full update zip uploaded after a backup (`~/backups/looklearnfind.com-pre-20261031f.tgz`). Live: `/find/candidates/` (329 rows; the old empty message is gone), five state lists (Illinois and New York noindex and out of the sitemap), `/data/candidates.json` and `.csv`, `candidates.css` and `.js`, search index with candidate entries. Live and local text hashes of the directory page match.
