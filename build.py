@@ -17,6 +17,7 @@ import json, re, shutil, sys, datetime
 from pathlib import Path
 from html import escape
 import elections
+import sidebar
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "dist"
@@ -243,6 +244,8 @@ def illus_bar():
 
 # ---------------------------------------------------------------- page shell
 PAGES_OUT = {}     # path -> (html)
+EXTRA_FILES = {}   # relative path -> text, written beside the pages (precomputed discovery results)
+CATALOG = None
 SITEMAP = []
 SEARCH = []
 
@@ -257,7 +260,7 @@ def nav_html(active):
     return "".join(out)
 
 
-def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False, illustrative=False, bodyclass="", lead="", sitemap=True, jsonld=""):
+def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False, illustrative=False, bodyclass="", lead="", sitemap=True, jsonld="", rail=None):
     canonical = CFG["url"] + path
     seo = SEO.get(path.rstrip("/") or "/")
     if seo:
@@ -268,6 +271,15 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
     og_img = CFG["url"] + og
     if path == "/":
         css = tuple(css) + ("home",)
+    rail_html = mobile_html = ""
+    if rail:
+        slug, toc = rail
+        cur = CATALOG.items[slug]
+        rail_html, mobile_html, ddata = sidebar.render(cur, CATALOG, toc)
+        EXTRA_FILES[f"data/discovery/{slug}.json"] = json.dumps(ddata, ensure_ascii=False, separators=(",", ":"))
+        css = tuple(css) + ("sidebar",)
+        js = tuple(js) + ("sidebar",)
+        bodyclass = (bodyclass + " has-rail").strip()
     if "shelf" in js and "ledger" not in css:
         css = tuple(css) + ("ledger",)
     links = "".join(f'<link rel="stylesheet" href="/css/{c}.css?v={CFG["updated"]}">' for c in ("site",) + tuple(css))
@@ -293,8 +305,10 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
 {links}
 {jsonld}
 </head>
-<body class="{bodyclass}">
+<body class="{bodyclass}" data-format="learn">
+<script>document.documentElement.classList.add("js")</script>
 <a class="skip" href="#main">Skip to content</a>
+{mobile_html}{rail_html}
 <header class="mast"><div class="wrap">
 <a class="logo" href="/" aria-label="LookLearnFind home"><img src="/img/logo-cream.png" alt="LOOK LEARN FIND 01" width="1040" height="701"></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
@@ -738,8 +752,10 @@ def write_search_index():
 
 def main():
     load_content()
+    global CATALOG
     index_content()
     if OUT.exists():
+    CATALOG = sidebar.Catalog(STORIES, fmt_date)
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
     shutil.copytree(ROOT / "static", OUT, dirs_exist_ok=True)
@@ -766,6 +782,13 @@ def main():
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html)
     write_search_index()
+    problems = sidebar.validate(set(PAGES_OUT))
+    if problems:
+        raise SystemExit("Sidebar metadata invalid: " + "; ".join(problems))
+    for rel, text in EXTRA_FILES.items():
+        dest = OUT / rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(text, encoding="utf-8")
     write_sprite()
     lm = CFG["updated"]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

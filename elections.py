@@ -1196,7 +1196,7 @@ def render_report(s):
     ld = '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "NewsArticle", "headline": s["title"], "description": s.get("dek", ""),
           "datePublished": s.get("date", ""), "dateModified": s.get("updated", s.get("date", "")), "author": {"@type": "Organization", "name": "LookLearnFind"},
           "publisher": {"@type": "Organization", "name": "LookLearnFind"}, **({"image": "https://looklearnfind.com" + s["og"]} if s.get("og") else {}), "mainEntityOfPage": "https://looklearnfind.com" + s["path"]}) + "</script>"
-    API["shell"](s["title"], s.get("dek", ""), s["path"], html, nav="politics", css=("elections",), js=("common", "elections"), jsonld=ld, og=(s.get("og") or None))
+    API["shell"](s["title"], s.get("dek", ""), s["path"], html, nav="politics", css=("elections",), js=("common", "elections"), jsonld=ld, og=(s.get("og") or None), rail=(s["slug"], [(a, re.sub("<[^>]+>", "", x)) for a, x in toc_items]))
 
 
 # ------------------------------------------------------------------ Florida Senate and House articles (2026-10-24)

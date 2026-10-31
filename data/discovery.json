@@ -1,0 +1,33 @@
+{
+  "version": "2026-10-31.1",
+  "note": "Editorial metadata for the Look Learn Find sidebar. Only items listed here can be recommended. 'states' lists jurisdictions an item is about; an empty list means national scope, stated explicitly. 'priority' is a commissioning control, not popularity. 'short' is the headline length the rail can carry. Every hub and guide URL is validated against the built pages.",
+  "threads": {
+    "outside-money": "Outside money",
+    "polls-and-markets": "Polls and markets",
+    "districts-and-ballots": "Districts and ballots"
+  },
+  "stories": {
+    "aipac-udp-money-delta-october-2026": {"states": ["MI"], "thread": "outside-money", "subject": "Campaign money", "short": "AIPAC's super PAC kept spending", "priority": 3, "related": [{"id": "illinois-il07-ford-outside-money-october-2026", "reason": "Same super PAC, different race"}]},
+    "illinois-il07-ford-outside-money-october-2026": {"states": ["IL"], "thread": "outside-money", "subject": "Campaign money", "short": "A PAC spent $5 million for the runner-up", "priority": 2, "related": [{"id": "illinois-senate-primary-money-october-2026", "reason": "Same state, same primary night"}]},
+    "illinois-senate-primary-money-october-2026": {"states": ["IL"], "thread": "outside-money", "subject": "Campaign money", "short": "$28.9 million in ads. She won with $1.1 million.", "priority": 2, "related": [{"id": "illinois-il07-ford-outside-money-october-2026", "reason": "Same state, same primary night"}]},
+    "illinois-il04-ballot-access-october-2026": {"states": ["IL"], "thread": "districts-and-ballots", "subject": "Ballots and districts", "short": "697 signatures to run. 10,816 as an independent.", "priority": 2, "related": []},
+    "florida-governor-fundraising-polling-2026": {"states": ["FL"], "thread": "polls-and-markets", "subject": "Polls and markets", "short": "Florida governor: a money gap and a closer poll", "priority": 3, "related": [{"id": "florida-senate-special-election-poll-debate-october-2026", "reason": "The other statewide race on Florida's ballot"}]},
+    "florida-senate-special-election-poll-debate-october-2026": {"states": ["FL"], "thread": "polls-and-markets", "subject": "Polls and markets", "short": "Florida's Senate race tightens in a new poll", "priority": 3, "related": [{"id": "florida-governor-fundraising-polling-2026", "reason": "The other statewide race on Florida's ballot"}]},
+    "florida-house-independent-spending-october-2026": {"states": ["FL"], "thread": "outside-money", "subject": "Campaign money", "short": "Florida's House ad war, district by district", "priority": 2, "related": [{"id": "florida-house-new-map-primaries-october-2026", "reason": "The same House districts"}]},
+    "florida-house-new-map-primaries-october-2026": {"states": ["FL"], "thread": "districts-and-ballots", "subject": "Ballots and districts", "short": "Florida redrew 21 House districts", "priority": 2, "related": [{"id": "florida-house-independent-spending-october-2026", "reason": "The same House districts"}]},
+    "michigan-senate-delta-october-2026": {"states": ["MI"], "thread": "polls-and-markets", "subject": "Polls and markets", "short": "Michigan Senate market: the slide came before the debate", "priority": 3, "related": [{"id": "aipac-udp-money-delta-october-2026", "reason": "The same Senate race, seen through money"}]},
+    "mike-duggan-withdrawn-candidate-kalshi-michigan": {"states": ["MI"], "thread": "polls-and-markets", "subject": "Polls and markets", "short": "Duggan left in May. The market still lists him.", "priority": 2, "related": [{"id": "michigan-senate-delta-october-2026", "reason": "Another Michigan market quote, read carefully"}]},
+    "new-york-17-conley-lawler-poll-market-october-2026": {"states": ["NY"], "thread": "polls-and-markets", "subject": "Polls and markets", "short": "NY-17: a close poll and a market quote", "priority": 2, "related": [{"id": "new-york-governor-hochul-blakeman-polls-october-2026", "reason": "Another New York poll, read the same way"}]},
+    "new-york-governor-hochul-blakeman-polls-october-2026": {"states": ["NY"], "thread": "polls-and-markets", "subject": "Polls and markets", "short": "Hochul's lead grew as independents flipped", "priority": 3, "related": [{"id": "new-york-17-conley-lawler-poll-market-october-2026", "reason": "Another New York poll, read the same way"}]}
+  },
+  "national": [
+    {"id": "dark-horse-status", "url": "/elections/2026/dark-horse/status/", "kind": "Tracker", "title": "Dark-horse monitor coverage", "short": "Which races our market monitor covers", "hook": "A national list of the races where we track market quotes and polls, and the gaps.", "image": "us-capitol", "image_alt": "The U.S. Capitol dome, a national image not tied to one race.", "priority": 1}
+  ],
+  "hubs": {
+    "FL": {"url": "/elections/2026/florida/", "image": "s1-florida", "guides": [["Governor", "/elections/2026/florida/governor/"], ["U.S. Senate", "/elections/2026/florida/senate/"], ["U.S. House", "/elections/2026/florida/house/"]]},
+    "IL": {"url": "/elections/2026/illinois/", "image": "s2-illinois", "guides": [["Governor", "/elections/2026/illinois/governor/"], ["U.S. Senate", "/elections/2026/illinois/senate/"], ["U.S. House", "/elections/2026/illinois/house/"]]},
+    "MI": {"url": "/elections/2026/michigan/", "image": "s4-michigan", "guides": [["Governor", "/elections/2026/michigan/governor/"], ["U.S. Senate", "/elections/2026/michigan/senate/"], ["U.S. House", "/elections/2026/michigan/house/"]]},
+    "NJ": {"url": "/elections/2026/new-jersey/", "image": "us-capitol", "image_alt": "The U.S. Capitol dome, a national image not tied to New Jersey.", "guides": [["U.S. Senate", "/elections/2026/new-jersey/senate/"], ["U.S. House", "/elections/2026/new-jersey/house/"]]},
+    "NY": {"url": "/elections/2026/new-york/", "image": "s5-new-york", "guides": [["Governor", "/elections/2026/new-york/governor/"], ["U.S. House", "/elections/2026/new-york/house/"]]}
+  }
+}
