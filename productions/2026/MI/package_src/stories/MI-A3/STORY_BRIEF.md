@@ -1,6 +1,6 @@
 # MI-A3: Who spent in Michigan's 13th District Democratic primary, where the incumbent lost
 
-As of 2026-10-31 (FEC data retrieved 2026-10-31T18:33:29Z; the latest expenditure in the pull is dated 2026-09-15) · Status: READY · Race: https://theissuesparty.org/races/2026-H-MI-13 · Format: Spending Report (schema 03, `docs/schemas/03_SPENDING_REPORT.md`) · Length: 800 to 1,100 words
+As of 2026-10-31 (FEC data retrieved 2026-10-31T18:33:29Z; the latest dissemination date in the pull is 2026-08-04) · Status: READY · Race: https://theissuesparty.org/races/2026-H-MI-13 · Format: Spending Report (schema 03, `docs/schemas/03_SPENDING_REPORT.md`) · Length: 800 to 1,100 words
 
 ## The one-sentence story
 In the August 4 Democratic primary in Michigan's 13th District, Donavan McKinney beat Rep. Shri Thanedar, 52 percent to 48 percent in the final table WDIV published; FEC filings show outside committees reported about $1,727,586.94 supporting McKinney and $1,848,181.00 supporting Thanedar, and one committee, Protect Progress, reported $2,043,345.00 in all (supporting Thanedar $1,774,655.00 and opposing McKinney $268,690.00).
@@ -13,7 +13,7 @@ State that these are figures committees reported to the FEC, that notice amounts
 ## Verified facts (all in `CLAIMS.csv`; numbers computed from the files in `inputs/MI-A3/`)
 **The result (attributed, unofficial):** WDIV ClickOnDetroit's final table, published Aug 5, 2026, lists McKinney 57,714 (52%) and Thanedar 53,494 (48%) with 100 percent of precincts (346 of 346) and says the Associated Press projected McKinney the winner. The page does not say the figures are unofficial or when AP called it. We could not read the official canvass (the Bureau of Elections results site refused connections), so call the figures "unofficial results published by WDIV". Bridge Michigan (Aug 5) reports AP called the race for McKinney and that Thanedar was first elected in 2022.
 
-**Outside spending reported to the FEC (Schedule E), 2026-01-08 to 2026-09-15, memo rows dropped and each periodic-report row paired with its notice so nothing counts twice:**
+**Outside spending reported to the FEC (Schedule E), 2026-01-08 to 2026-08-04, memo rows dropped and each periodic-report row paired with its notice so nothing counts twice:**
 | Candidate | Reported supporting | Reported opposing |
 |---|---|---|
 | Donavan McKinney (D) | $1,727,586.94 | $268,690.00 |

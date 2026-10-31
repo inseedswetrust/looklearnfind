@@ -7,7 +7,7 @@
   "updated": "2026-10-31",
   "updated_by": "claude",
   "as_of_commit": "d16b937",
-  "headline": "Michigan hub, MI-A1 (Duggan) and the homepage tile are live (deployed 2026-10-31 on owner approval). MI-A3 and MI-A4 briefs are READY for ChatGPT drafts. The Michigan video is in assembly (separate Remotion workflow). A correction note for the Florida House spending article (totals changed by the double-count fix) is committed locally and not yet deployed. Five Michigan governor entries on TIP are still at review.",
+  "headline": "Michigan hub, MI-A1, the homepage tile and the Florida correction note are live. MI-A3 (MI-13) and MI-A4 (MI-10) are drafted, converted, fact-checked and built locally; they need the owner's sign-off and a deploy. The Michigan video is in assembly (separate Remotion workflow). Five Michigan governor entries on TIP are still at review.",
   "paths": [
     "productions/2026/MI",
     "data/elections/MI",
@@ -143,7 +143,7 @@
         {
           "id": "MI-A3",
           "title": "MI-13: who spent in the primary where the incumbent lost (Spending Report, schema 03), 800 to 1,100 words",
-          "status": "ready",
+          "status": "returned",
           "inputs": [
             "productions/2026/MI/package_src/stories/MI-A3/STORY_BRIEF.md",
             "productions/2026/MI/package_src/stories/MI-A3/CLAIMS.csv",
@@ -159,12 +159,12 @@
             "MI-A3_CLAIMS.csv",
             "MI-A3_NOTES.md"
           ],
-          "note": "Official canvass unread (state results site refused connections); result attributed to WDIV and Bridge as unofficial. Nothing about T.P. Nykoriak's past used."
+          "note": "Drafted by ChatGPT 2026-10-31; converted to content/learn/ with real sources and process language removed; fact-checked by Claude (research/MI-A3_A4_FACTCHECK.md); awaiting owner sign-off and deploy. Hero placeholders: mi-capitol (MI-A3), mi-udp (MI-A4)."
         },
         {
           "id": "MI-A4",
           "title": "MI-10: who is spending in the open seat (Spending Report, schema 03), 800 to 1,100 words",
-          "status": "ready",
+          "status": "returned",
           "inputs": [
             "productions/2026/MI/package_src/stories/MI-A4/STORY_BRIEF.md",
             "productions/2026/MI/package_src/stories/MI-A4/CLAIMS.csv",
@@ -179,7 +179,8 @@
             "MI-A4_*.html",
             "MI-A4_CLAIMS.csv",
             "MI-A4_NOTES.md"
-          ]
+          ],
+          "note": "Drafted by ChatGPT 2026-10-31; converted to content/learn/ with real sources and process language removed; fact-checked by Claude (research/MI-A3_A4_FACTCHECK.md); awaiting owner sign-off and deploy. Hero placeholders: mi-capitol (MI-A3), mi-udp (MI-A4)."
         }
       ]
     },
@@ -254,13 +255,24 @@
       "title": "Video asset pack via llf-video-director",
       "status": "in_progress",
       "gate": "owner-driven in the TIP Remotion workflow; script locked 2026-10-29; Phase B package received; assembly started; no MP4 committed; see productions/2026/MI/video/DECISION_LOG.md"
+    },
+    {
+      "id": "C8",
+      "title": "Convert, fact-check and build MI-A3 and MI-A4 (content/learn, data/discovery.json entries, factcheck file)",
+      "status": "done",
+      "gate": "none; deploy needs owner approval"
+    },
+    {
+      "id": "C9",
+      "title": "Deploy MI-A3 and MI-A4 (and optional new heroes) after the owner signs off the fact-check",
+      "status": "waiting_owner",
+      "gate": "owner sign-off and approval, publish"
     }
   ],
   "waiting_on_owner": [
-    "Send the MI-A3 and MI-A4 package to ChatGPT (paste text and zip in productions/2026/MI/handoff/)",
-    "Approve deploying the Florida House spending correction note (the corrected totals are already live without it)",
-    "Approve promoting the five Michigan governor entries on TIP from review to active, with the list in docs/michigan/TIP_FIX_LIST_FOR_APPROVAL.md",
-    "Michigan official canvass: paste the certified August 4 MI-13 result if you want MI-A3 to cite it instead of WDIV"
+    "Sign off research/MI-A3_A4_FACTCHECK.md and approve deploying MI-A3 and MI-A4 (heroes are placeholders: mi-capitol and mi-udp; new heroes optional)",
+    "Approve promoting the five Michigan governor entries on TIP from review to active (docs/michigan/TIP_FIX_LIST_FOR_APPROVAL.md)",
+    "Optional: paste the certified August 4 MI-13 result so MI-A3 can cite it instead of WDIV"
   ],
   "blocked": [
     {

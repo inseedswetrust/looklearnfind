@@ -7,14 +7,6 @@ TOOL = R / "tools/workflow/handoff.py"
 LEDGER = R / "productions/2026/MI/STATE_LEDGER.json"
 
 
-def _first_ready():
-    led = json.loads(LEDGER.read_text(encoding="utf-8"))
-    return next(t for lane in led["lanes"].values() for t in lane["tasks"] if t["status"] == "ready" and any(i.endswith("STORY_BRIEF.md") for i in t.get("inputs", [])))["id"]
-
-
-FIRST = _first_ready()
-
-
 def run(*a):
     return subprocess.run([sys.executable, str(TOOL), *a], capture_output=True, text=True, encoding="utf-8", cwd=R)
 
@@ -27,6 +19,13 @@ def readback(pid, tasks, answers, extra=""):
 class HandoffTests(unittest.TestCase):
     def setUp(self):
         self.saved = LEDGER.read_bytes()
+        # the real ledger changes as work proceeds; make sure one article task is ready with a brief so the build has something to hand off
+        led = json.loads(self.saved)
+        cand = [t for t in led["lanes"]["articles"]["tasks"] if any(i.endswith("STORY_BRIEF.md") for i in t.get("inputs", []))]
+        for t in cand:
+            t["status"] = "ready"
+        LEDGER.write_text(json.dumps(led), encoding="utf-8")
+        self.first = next(t["id"] for t in led["lanes"]["articles"]["tasks"] if t["status"] == "ready" and t in cand)
         self.tmp = Path(tempfile.mkdtemp())
 
     def tearDown(self):
@@ -63,11 +62,11 @@ class HandoffTests(unittest.TestCase):
         H = R / "productions/2026/MI/handoff" / pid
         z = zipfile.ZipFile(H / f"{pid}.zip")
         names = z.namelist()
-        for need in ("HANDSHAKE.md", "TASKS.md", "STATE_STATUS.md", "manifest.json", "standards/00_READ_ORDER.md", f"inputs/{FIRST}/STORY_BRIEF.md"):
+        for need in ("HANDSHAKE.md", "TASKS.md", "STATE_STATUS.md", "manifest.json", "standards/00_READ_ORDER.md", f"inputs/{self.first}/STORY_BRIEF.md"):
             self.assertIn(f"{pid}/{need}", names)
         self.assertFalse(any("ANSWER_KEY" in n for n in names))
         key = json.loads((H / "ANSWER_KEY.json").read_text(encoding="utf-8"))
-        self.assertIn(FIRST, key["tasks_assigned"])
+        self.assertIn(self.first, key["tasks_assigned"])
         self.assertIn("MI-A2", key["tasks_excluded"])
         # readback: pass
         good = [{"articles": "Withdrawn", "images": "x"}[c["lane"]] if False else " ".join(c["expect_any"]) for c in key["checks"]]
@@ -84,7 +83,7 @@ class HandoffTests(unittest.TestCase):
         # ingest: incomplete (only one notes file)
         d = self.tmp / "ret"
         d.mkdir()
-        (d / f"{FIRST}_NOTES.md").write_text(pid, encoding="utf-8")
+        (d / f"{self.first}_NOTES.md").write_text(pid, encoding="utf-8")
         self.assertEqual(run("ingest", "MI", str(d), "--package-id", pid).returncode, 1)
         # ingest: complete (every returned pattern of every assigned task)
         html = ("---\ntitle: t\ndek: d\nformat: Reported Feature\nhero: h\nhero_alt: a\nhero_title: h\nhero_text: x\n---\n<!--openfile\nquestion: q\n-->\n"
@@ -108,7 +107,7 @@ class HandoffTests(unittest.TestCase):
         self.assertIn("COMPLETE", r3.stdout)
         led = json.loads(LEDGER.read_text(encoding="utf-8"))
         st = {t["id"]: t["status"] for t in led["lanes"]["articles"]["tasks"]}
-        self.assertEqual(st[FIRST], "returned")
+        self.assertEqual(st[self.first], "returned")
 
     def test_package_has_no_secret(self):
         r = run("build", "MI", "--lane", "claude")

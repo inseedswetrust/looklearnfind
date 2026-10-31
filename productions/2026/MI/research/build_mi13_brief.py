@@ -20,8 +20,8 @@ PP_S, PP_O = by(TH, "C00848440", "S"), by(MK, "C00848440", "O")
 JD_S, JD_O = by(MK, "C00630665", "S"), by(TH, "C00630665", "O")
 WFP, NNU = by(MK, "C00606962", "S"), by(MK, "C00490375", "S")
 AP = by(MK, "C00932723", "S")
-dates = sorted(r["expenditure_date"][:10] for c in pull["candidates"].values() for r in c["transactions"] if (r.get("expenditure_amount") or 0) > 0)
-first, last = dates[0], dates[-1]
+first = min(x["first"] for c in (MK, TH) for x in c["committees"])  # dissemination dates, as in the reconciliation
+last = max(x["last"] for c in (MK, TH) for x in c["committees"])
 pp_total = PP_S["total"] + PP_O["total"]
 udp_rows = [r for c in pull["candidates"].values() for r in c["transactions"] if r["committee_id"] == "C00799031"]
 assert not udp_rows, "UDP appears in the pull; rewrite the negative claim"
@@ -33,7 +33,7 @@ BRIDGE = "https://bridgemi.com/michigan-government/michigan-congressional-primar
 
 brief = f"""# MI-A3: Who spent in Michigan's 13th District Democratic primary, where the incumbent lost
 
-As of 2026-10-31 (FEC data retrieved {cap}; the latest expenditure in the pull is dated {last}) · Status: READY · Race: https://theissuesparty.org/races/2026-H-MI-13 · Format: Spending Report (schema 03, `docs/schemas/03_SPENDING_REPORT.md`) · Length: 800 to 1,100 words
+As of 2026-10-31 (FEC data retrieved {cap}; the latest dissemination date in the pull is {last}) · Status: READY · Race: https://theissuesparty.org/races/2026-H-MI-13 · Format: Spending Report (schema 03, `docs/schemas/03_SPENDING_REPORT.md`) · Length: 800 to 1,100 words
 
 ## The one-sentence story
 In the August 4 Democratic primary in Michigan's 13th District, Donavan McKinney beat Rep. Shri Thanedar, 52 percent to 48 percent in the final table WDIV published; FEC filings show outside committees reported about {m(MK['support'])} supporting McKinney and {m(TH['support'])} supporting Thanedar, and one committee, Protect Progress, reported {m(pp_total)} in all (supporting Thanedar {m(PP_S['total'])} and opposing McKinney {m(PP_O['total'])}).
@@ -99,7 +99,7 @@ def add(claim, loc, url, d, status, typ, ev):
 add("WDIV's final table lists McKinney 57,714 (52%) and Thanedar 53,494 (48%) with 346 of 346 precincts and says AP projected McKinney", "lede", WDIV, "2026-08-05", "ATTRIBUTED", "number", "WDIV ClickOnDetroit; opened and read by LLF 2026-10-28; unofficial; canvass not read")
 add("Bridge Michigan reports AP called the race for McKinney and that Thanedar was first elected in 2022", "result", BRIDGE, "2026-08-05", "ATTRIBUTED", "status", "Bridge Michigan (Jordyn Hermani); opened and read by LLF 2026-10-28")
 for cand, c in (("McKinney", MK), ("Thanedar", TH)):
-    add(f"Outside committees reported {m(c['support'])} supporting and {m(c['oppose'])} opposing {cand} (Schedule E, {first} to {last})", "lede / table", FEC, cap[:10], "VERIFIED", "number", EV)
+    add(f"Outside committees reported {m(c['support'])} supporting and {m(c['oppose'])} opposing {cand} (Schedule E, disseminated {first} to {last})", "lede / table", FEC, cap[:10], "VERIFIED", "number", EV)
 for label, x, cand, so in (("Protect Progress", PP_S, "Thanedar", "supporting"), ("Protect Progress", PP_O, "McKinney", "opposing"), ("Justice Democrats PAC", JD_S, "McKinney", "supporting"),
                            ("Justice Democrats PAC", JD_O, "Thanedar", "opposing"), ("Working Families Party PAC", WFP, "McKinney", "supporting"),
                            ("National Nurses United for Patient Protection", NNU, "McKinney", "supporting"), ("American Priorities (AP)", AP, "McKinney", "supporting")):
