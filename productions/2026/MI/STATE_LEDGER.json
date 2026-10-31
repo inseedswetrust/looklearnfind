@@ -6,7 +6,7 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-31",
   "updated_by": "claude",
-  "as_of_commit": "f660440",
+  "as_of_commit": "c02f978",
   "headline": "Michigan hub, MI-A1, MI-A3 (MI-13), MI-A4 (MI-10), the homepage tile and the Florida correction note are live. The Michigan video is in assembly (separate Remotion workflow). Five Michigan governor entries on TIP are still at review.",
   "paths": [
     "productions/2026/MI",
