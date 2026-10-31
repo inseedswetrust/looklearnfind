@@ -25,3 +25,9 @@ Newest last. One entry per stage: what was done, what was decided, what is open.
 - Open: promoting the governor entries to `active` is a separate owner approval.
 
 - 2026-10-31: owner approved promotion; the three governor entries (Klobuchar, Demuth, Young) are now `active` on TIP. Rows backed up first in the TIP repo (`docs/state-packets/backups/MN-governor-entries-before-promote-2026-10-31.json`); script `promote-mn-governor-entries.mjs`. Re-exported and rejoined; registry refreshed.
+
+## 2026-10-31: drafts and images returned, fact-check
+- Kimi drafts (MN-SEN-A, MN-01-A) and ChatGPT images (s7-minnesota, mn-capitol, mn-senate, mn-01) ingested and installed. Added the Minnesota homepage tile, governor hero, hero credits, hub and story entries in `data/discovery.json` (merged around the Michigan entries another session committed).
+- Converted with edits: front matter cleaned, Finstad's TIP grades added (his profile now shows four graded issues), openfile notes rewritten.
+- Independent fact-check (claude-factcheck-subagent-3): Senate CLEARS_WITH_FIXES, MN-01 BLOCKED (the 'outpaced the Senate race' headline compared different periods). Fixes applied; MN-01 now says spending 'tops $2.5 million' with MPR's comparison attributed. Revised wording not re-run through the gate.
+- Open: owner sign-off on the fact-check; deploy approval; governor article still held; the roster is Green Papers (unofficial); the live `data/discovery.json` has sidebar copy that was already approved.

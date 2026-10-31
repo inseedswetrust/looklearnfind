@@ -6,8 +6,8 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-31",
   "updated_by": "claude",
-  "as_of_commit": "2a90241",
-  "headline": "Minnesota 2026: roster, TIP join, markets, local pages, registry and Story Scout are done; TIP gap list awaits owner approval; two articles are ready for the Kimi package. Nothing deployed.",
+  "as_of_commit": "5a50699",
+  "headline": "Minnesota 2026: pages, TIP, markets, registry, images and two fact-checked articles are built locally; waiting on owner fact-check sign-off and deploy approval. Nothing deployed.",
   "paths": [
     "productions/2026/MN",
     "data/elections/MN"
@@ -102,17 +102,29 @@
     {
       "id": "tile_image",
       "title": "State tile image returned and installed",
-      "status": "todo"
+      "status": "done",
+      "note": "s7-minnesota installed with mn-capitol, mn-senate and mn-01; masters upscaled from 1536x1024.",
+      "evidence": [
+        "static/img/elections/s7-minnesota.jpg"
+      ]
     },
     {
       "id": "article_draft",
       "title": "Articles drafted by ChatGPT",
-      "status": "todo"
+      "status": "done",
+      "note": "Two drafts returned and ingested (Kimi).",
+      "evidence": [
+        "productions/2026/MN/articles/minnesota-senate-quiet-campaign-poll-october-2026.html"
+      ]
     },
     {
       "id": "factcheck",
       "title": "Independent fact-check of used claims",
-      "status": "todo"
+      "status": "waiting_owner",
+      "note": "Independent review done; fixes applied; owner sign-off pending.",
+      "evidence": [
+        "productions/2026/MN/qa/FACTCHECK_REPORT.md"
+      ]
     },
     {
       "id": "publish",
@@ -134,7 +146,7 @@
         {
           "id": "MN-SEN-A",
           "title": "Minnesota Senate: a four-point poll lead within the margin, a market near 0.91 and a quiet race: State of the Race (schema 01), 700 to 1,000 words",
-          "status": "ready",
+          "status": "waiting_owner",
           "inputs": [
             "productions/2026/MN/package_src/stories/MN-SEN-A/STORY_BRIEF.md",
             "productions/2026/MN/package_src/stories/MN-SEN-A/CLAIMS.csv",
@@ -145,12 +157,12 @@
             "MN-SEN-A_CLAIMS.csv",
             "MN-SEN-A_NOTES.md"
           ],
-          "note": "Poll original not opened; attribute the 47% to 43% poll to MPR News."
+          "note": "Returned by Kimi, converted by Claude, independently fact-checked (claude-factcheck-subagent-3): fixes applied. Revised wording not re-run through the gate. Report: productions/2026/MN/qa/FACTCHECK_REPORT.md. Waiting on owner fact-check sign-off and deploy approval."
         },
         {
           "id": "MN-01-A",
           "title": "Minnesota's 1st: outside spending passes the Senate race and the market sits near 0.40: State of the Race (schema 01), 700 to 1,000 words",
-          "status": "ready",
+          "status": "waiting_owner",
           "inputs": [
             "productions/2026/MN/package_src/stories/MN-01-A/STORY_BRIEF.md",
             "productions/2026/MN/package_src/stories/MN-01-A/CLAIMS.csv",
@@ -161,7 +173,7 @@
             "MN-01-A_CLAIMS.csv",
             "MN-01-A_NOTES.md"
           ],
-          "note": "Republican-side spending figures from MPR ($600,000) and FOX 9 ($400,000) are not reconciled; give both as reported."
+          "note": "Returned by Kimi, converted by Claude, independently fact-checked (claude-factcheck-subagent-3): fixes applied. Revised wording not re-run through the gate. Report: productions/2026/MN/qa/FACTCHECK_REPORT.md. Waiting on owner fact-check sign-off and deploy approval."
         },
         {
           "id": "MN-GOV-A",
@@ -219,7 +231,7 @@
   ],
   "waiting_on_owner": [
     "Decide whether someone opens the Minnesota Secretary of State candidate finder by hand to verify the roster (the download is behind a captcha)",
-    "Send productions/2026/MN/visuals/IMAGE_REQUEST.md to ChatGPT; send the Kimi articles package (zip and PASTE_THIS_FIRST.txt) to Kimi"
+    "Sign off the Minnesota fact-check (productions/2026/MN/qa/FACTCHECK_REPORT.md) and approve the deploy of the Minnesota pages, two articles and four images"
   ],
   "blocked": [
     {

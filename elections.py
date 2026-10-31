@@ -48,7 +48,7 @@ STATES = {
     "MN": dict(code="MN", name="Minnesota", slug="minnesota", ndist=8, asof="2026-10-31", record_label="Candidate listing (Green Papers)",
                source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; the Minnesota Secretary of State candidate list could not be read '
                             '(a bot check blocked automated access), so this roster is not an official or complete list; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
-               official=False, primary="August 11, 2026", sen_note="the seat Tina Smith is leaving", gov_hero=None,
+               official=False, primary="August 11, 2026", sen_note="the seat Tina Smith is leaving", gov_hero=("mn-capitol", "An AI illustration of the Minnesota State Capitol in St. Paul"),
                poll_note="We have not yet opened an original pollster release for this race as of {asof}.", sen_poll_note="We have not yet opened an original pollster release for this race."),
 }
 SX = dict(STATES["FL"])

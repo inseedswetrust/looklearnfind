@@ -239,7 +239,9 @@
    "gaps": [
     "profile_unverified"
    ],
-   "coverage": []
+   "coverage": [
+    "minnesota-senate-quiet-campaign-poll-october-2026"
+   ]
   },
   {
    "llf_id": "MN-S-simonetti-marisa",
@@ -325,7 +327,9 @@
    },
    "llf_race_path": "/elections/2026/minnesota/senate/",
    "gaps": [],
-   "coverage": []
+   "coverage": [
+    "minnesota-senate-quiet-campaign-poll-october-2026"
+   ]
   },
   {
    "llf_id": "MN-S-whiting-rebecca",
@@ -414,7 +418,9 @@
    },
    "llf_race_path": "/elections/2026/minnesota/house/1/",
    "gaps": [],
-   "coverage": []
+   "coverage": [
+    "minnesota-first-district-outside-spending-october-2026"
+   ]
   },
   {
    "llf_id": "MN-H01-johnson-jacob",
@@ -457,7 +463,9 @@
    },
    "llf_race_path": "/elections/2026/minnesota/house/1/",
    "gaps": [],
-   "coverage": []
+   "coverage": [
+    "minnesota-first-district-outside-spending-october-2026"
+   ]
   },
   {
    "llf_id": "MN-H02-little-matt",

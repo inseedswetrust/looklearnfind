@@ -1,0 +1,178 @@
+{
+  "project": "LookLearnFind Minnesota election images",
+  "created_date": "2026-10-31",
+  "asset_count": 4,
+  "generated_with": "Built-in image_gen.imagegen",
+  "page_credit": "AI illustration",
+  "resolution_note": "The tool returned 1536x1024 for each scene. Masters and web files are Lanczos upscales to the requested dimensions. No claim of native 3600x2400 generation.",
+  "color_note": "Generated RGB originals had no ICC profile; treated as sRGB for export.",
+  "web_byte_limit": 350000,
+  "limits_review": {
+    "no_people": "PASS — visual review found no people, faces, human silhouettes or human reflections",
+    "no_readable_text_numbers_logos_flags": "PASS — visual review found none",
+    "no_campaign_signs_or_party_signals": "PASS — two farm boards are bare natural wood without printing or campaign elements",
+    "quiet_bottom_corners": "PASS — visual review of 3:2 exports; HTML overlay sizes not supplied"
+  },
+  "verification_limits": [
+    "Landmarks are generated interpretations, not documentary photographs or surveyed architectural reproductions.",
+    "The Capitol includes small architectural statuary as part of its building ornament; no living people are depicted.",
+    "Lens, aperture and natural-light appearance are simulated.",
+    "Only the earlier Michigan image was visible in this chat; other companion sets are matched through the user-provided style direction.",
+    "The image-generation tool exposes no explicit size selector; the prompt requested its largest available landscape size."
+  ],
+  "reference_pages": [
+    "https://www.mnhs.org/capitol/learn/architecture",
+    "https://www.minneapolisparks.org/parks-destinations/historical_sites/stone_arch_bridge/",
+    "https://www.minneapolisparks.org/parks-destinations/parks-lakes/mill_ruins_park/"
+  ],
+  "assets": [
+    {
+      "key": "s7-minnesota",
+      "native_generated_size_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "787ea24f5c282799f320d79df926b08a174d6c4de434e6c515ab89c898c853bb",
+      "focal_point_pct": {
+        "x": 50,
+        "y": 65
+      },
+      "quiet_corners": "PASS — visual review of 22%-width by 22%-height lower corner zones; blurred ground/lawn/water without primary objects",
+      "exports": [
+        {
+          "path": "masters/s7-minnesota.jpg",
+          "width_px": 3600,
+          "height_px": 2400,
+          "bytes": 1288824,
+          "quality": 90,
+          "encoding": "progressive JPEG, 4:2:0, embedded sRGB ICC",
+          "resampler": "Lanczos",
+          "scale_from_native": 2.34375,
+          "sha256": "245a7a46150f2c3c8014e0e8eeab2955a4afe5b928a4062b32f21f5669ec46b7"
+        },
+        {
+          "path": "web/s7-minnesota.jpg",
+          "width_px": 1800,
+          "height_px": 1200,
+          "bytes": 326654,
+          "quality": 80,
+          "encoding": "progressive JPEG, 4:2:0, embedded sRGB ICC",
+          "resampler": "Lanczos",
+          "scale_from_native": 1.171875,
+          "sha256": "23dee6cfc6c682b22730d7e273a1314ddd792c25c923e788008f2965ab25c8bf"
+        }
+      ]
+    },
+    {
+      "key": "mn-capitol",
+      "native_generated_size_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "20ba905e7d8f301d5e7c0353d1292f64dbb62e95199a3cd5298055732f12ac06",
+      "focal_point_pct": {
+        "x": 50,
+        "y": 42
+      },
+      "quiet_corners": "PASS — visual review of 22%-width by 22%-height lower corner zones; blurred ground/lawn/water without primary objects",
+      "exports": [
+        {
+          "path": "masters/mn-capitol.jpg",
+          "width_px": 3600,
+          "height_px": 2400,
+          "bytes": 1118667,
+          "quality": 90,
+          "encoding": "progressive JPEG, 4:2:0, embedded sRGB ICC",
+          "resampler": "Lanczos",
+          "scale_from_native": 2.34375,
+          "sha256": "a2be1c1daeb49283bf7169d6aafa18f3cf5e710c870497c3c6026cc7d8fd8cde"
+        },
+        {
+          "path": "web/mn-capitol.jpg",
+          "width_px": 1800,
+          "height_px": 1200,
+          "bytes": 274380,
+          "quality": 80,
+          "encoding": "progressive JPEG, 4:2:0, embedded sRGB ICC",
+          "resampler": "Lanczos",
+          "scale_from_native": 1.171875,
+          "sha256": "ce21d4f1656ec8dcc11f1a18d76144559ce1289dbc811562b0af8ced62553192"
+        }
+      ]
+    },
+    {
+      "key": "mn-senate",
+      "native_generated_size_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "d794e50998fc9149ca3c7cebd696a9e1d48338e90aa8e2fcf822f0983d8eeba7",
+      "focal_point_pct": {
+        "x": 51,
+        "y": 43
+      },
+      "quiet_corners": "PASS — visual review of 22%-width by 22%-height lower corner zones; blurred ground/lawn/water without primary objects",
+      "exports": [
+        {
+          "path": "masters/mn-senate.jpg",
+          "width_px": 3600,
+          "height_px": 2400,
+          "bytes": 1108047,
+          "quality": 90,
+          "encoding": "progressive JPEG, 4:2:0, embedded sRGB ICC",
+          "resampler": "Lanczos",
+          "scale_from_native": 2.34375,
+          "sha256": "76e27b79ab7ad80cde2864a19dbc6838fd04a5857a9f9ea694be0c8580ca8794"
+        },
+        {
+          "path": "web/mn-senate.jpg",
+          "width_px": 1800,
+          "height_px": 1200,
+          "bytes": 273461,
+          "quality": 80,
+          "encoding": "progressive JPEG, 4:2:0, embedded sRGB ICC",
+          "resampler": "Lanczos",
+          "scale_from_native": 1.171875,
+          "sha256": "cfcf70d7649f9fc26b8488f5948705c1999ee06be4d4bd8c766459c483582754"
+        }
+      ]
+    },
+    {
+      "key": "mn-01",
+      "native_generated_size_px": [
+        1536,
+        1024
+      ],
+      "source_sha256": "da998b7181c8280b66c04325ae33578b39581c6ff6e992bb57f09b1945a70c2a",
+      "focal_point_pct": {
+        "x": 51,
+        "y": 44
+      },
+      "quiet_corners": "PASS — visual review of 22%-width by 22%-height lower corner zones; blurred ground/lawn/water without primary objects",
+      "exports": [
+        {
+          "path": "masters/mn-01.jpg",
+          "width_px": 3600,
+          "height_px": 2400,
+          "bytes": 1110967,
+          "quality": 90,
+          "encoding": "progressive JPEG, 4:2:0, embedded sRGB ICC",
+          "resampler": "Lanczos",
+          "scale_from_native": 2.34375,
+          "sha256": "b2b992acfa7610d5203ffc627e4a4333f2291a56922be926acf7201357546678"
+        },
+        {
+          "path": "web/mn-01.jpg",
+          "width_px": 1800,
+          "height_px": 1200,
+          "bytes": 271725,
+          "quality": 80,
+          "encoding": "progressive JPEG, 4:2:0, embedded sRGB ICC",
+          "resampler": "Lanczos",
+          "scale_from_native": 1.171875,
+          "sha256": "e834d26b646be02654aec06e0966f12503892c64d09eef180383e51ce506b531"
+        }
+      ]
+    }
+  ]
+}
