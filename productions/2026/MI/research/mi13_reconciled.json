@@ -1,0 +1,420 @@
+{
+ "basis": "Reconcile a Schedule E pull (fetch_fec_ie.py output) for one House race: notices (F24/F5) against periodic-report rows (F3X).",
+ "dissemination_cut": "2026-10-24",
+ "pull_captured_at_utc": "2026-10-31T18:33:29Z",
+ "candidates": {
+  "H6MI13254": {
+   "name": "Donavan McKinney",
+   "rows_after_first_pass": 128,
+   "paired_and_removed": 6,
+   "memo_dropped": 25,
+   "total_after_first_pass": 2175559.07,
+   "support": 1727586.94,
+   "oppose": 268690.0,
+   "rows_dated_after_2026-10-24_dissemination_or_2026-10-28_expenditure": [],
+   "committees": [
+    {
+     "committee_id": "C00630665",
+     "committee": "JUSTICE DEMOCRATS PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "S",
+     "total": 460546.7,
+     "n": 12,
+     "first": "2026-06-22",
+     "last": "2026-07-28",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 460546.7,
+     "fec_rollup_count": 12
+    },
+    {
+     "committee_id": "C00606962",
+     "committee": "WORKING FAMILIES PARTY PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "S",
+     "total": 427788.4,
+     "n": 22,
+     "first": "2026-06-23",
+     "last": "2026-08-04",
+     "forms": [
+      "F24",
+      "F3X"
+     ],
+     "fec_rollup_total": 297869.11,
+     "fec_rollup_count": 14
+    },
+    {
+     "committee_id": "C00490375",
+     "committee": "NATIONAL NURSES UNITED FOR PATIENT PROTECTION",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 400000.0,
+     "n": 1,
+     "first": "2026-06-18",
+     "last": "2026-06-18",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 400000.0,
+     "fec_rollup_count": 1
+    },
+    {
+     "committee_id": "C00848440",
+     "committee": "PROTECT PROGRESS",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "O",
+     "total": 268690.0,
+     "n": 5,
+     "first": "2026-07-17",
+     "last": "2026-07-29",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 268690.0,
+     "fec_rollup_count": 5
+    },
+    {
+     "committee_id": "C00932723",
+     "committee": "AMERICAN PRIORITIES (AP)",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 150000.0,
+     "n": 2,
+     "first": "2026-07-28",
+     "last": "2026-07-31",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 150000.0,
+     "fec_rollup_count": 2
+    },
+    {
+     "committee_id": "C00733915",
+     "committee": "MICHIGAN PEOPLES CHOICE",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 100000.0,
+     "n": 2,
+     "first": "2026-07-23",
+     "last": "2026-07-24",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00844530",
+     "committee": "ROLLING SEA ACTION FUND",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": null,
+     "so": "S",
+     "total": 50000.0,
+     "n": 1,
+     "first": "2026-07-23",
+     "last": "2026-07-23",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00453704",
+     "committee": "EMGAGE FEDERAL POLITICAL ACTION COMMITTEE",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": "Membership Organization",
+     "so": "S",
+     "total": 35464.9,
+     "n": 7,
+     "first": "2026-06-24",
+     "last": "2026-08-02",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 17727.16,
+     "fec_rollup_count": 2
+    },
+    {
+     "committee_id": "C00881011",
+     "committee": "UNITY & JUSTICE FUND",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 32663.1,
+     "n": 15,
+     "first": "2026-07-11",
+     "last": "2026-08-04",
+     "forms": [
+      "F24",
+      "F3X"
+     ],
+     "fec_rollup_total": 10406.25,
+     "fec_rollup_count": 8
+    },
+    {
+     "committee_id": "C00754069",
+     "committee": "PAF",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": null,
+     "so": "S",
+     "total": 20000.0,
+     "n": 1,
+     "first": "2026-07-14",
+     "last": "2026-07-14",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00004036",
+     "committee": "SEIU COPE (SERVICE EMPLOYEES INTERNATIONAL UNION COMMITTEE ON POLITICAL EDUCATION)",
+     "committee_type": "PAC - Qualified",
+     "org_type": "Labor Organization",
+     "so": "S",
+     "total": 17142.6,
+     "n": 4,
+     "first": "2026-07-15",
+     "last": "2026-07-23",
+     "forms": [
+      "F24",
+      "F3X"
+     ],
+     "fec_rollup_total": 17142.6,
+     "fec_rollup_count": 4
+    },
+    {
+     "committee_id": "C00897314",
+     "committee": "SF SOLIDARITY PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 13592.0,
+     "n": 2,
+     "first": "2026-07-27",
+     "last": "2026-07-27",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00678839",
+     "committee": "INDIVISIBLE ACTION",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "S",
+     "total": 12360.38,
+     "n": 6,
+     "first": "2026-07-22",
+     "last": "2026-08-03",
+     "forms": [
+      "F24",
+      "F3X"
+     ],
+     "fec_rollup_total": 12170.41,
+     "fec_rollup_count": 5
+    },
+    {
+     "committee_id": "C00523621",
+     "committee": "UNITED WE CAN",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 5375.0,
+     "n": 1,
+     "first": "2026-07-30",
+     "last": "2026-07-30",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00890665",
+     "committee": "MI PODER PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 2062.5,
+     "n": 4,
+     "first": "2026-07-30",
+     "last": "2026-08-01",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C90019357",
+     "committee": "FOOD AND WATER ACTION",
+     "committee_type": "Independent expenditure filer (not a committee)",
+     "org_type": null,
+     "so": "S",
+     "total": 406.36,
+     "n": 1,
+     "first": "2026-07-21",
+     "last": "2026-07-21",
+     "forms": [
+      "F5"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00776419",
+     "committee": "THE PEOPLE UNITED PAC",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 175.0,
+     "n": 4,
+     "first": "2026-01-08",
+     "last": "2026-07-20",
+     "forms": [
+      "F3X"
+     ],
+     "fec_rollup_total": 175.0,
+     "fec_rollup_count": 4
+    },
+    {
+     "committee_id": "C00483693",
+     "committee": "SIERRA CLUB INDEPENDENT ACTION",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 10.0,
+     "n": 1,
+     "first": "2026-04-16",
+     "last": "2026-04-16",
+     "forms": [
+      "F3X"
+     ],
+     "fec_rollup_total": 10.0,
+     "fec_rollup_count": 1
+    }
+   ]
+  },
+  "H2MI13204": {
+   "name": "Shri Thanedar",
+   "rows_after_first_pass": 41,
+   "paired_and_removed": 1,
+   "memo_dropped": 1,
+   "total_after_first_pass": 2325623.57,
+   "support": 1848181.0,
+   "oppose": 463165.48,
+   "rows_dated_after_2026-10-24_dissemination_or_2026-10-28_expenditure": [],
+   "committees": [
+    {
+     "committee_id": "C00848440",
+     "committee": "PROTECT PROGRESS",
+     "committee_type": "Super PAC (Independent Expenditure-Only)",
+     "org_type": null,
+     "so": "S",
+     "total": 1774655.0,
+     "n": 4,
+     "first": "2026-07-18",
+     "last": "2026-07-28",
+     "forms": [
+      "F24",
+      "F3X"
+     ],
+     "fec_rollup_total": 1761655.0,
+     "fec_rollup_count": 3
+    },
+    {
+     "committee_id": "C00630665",
+     "committee": "JUSTICE DEMOCRATS PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "O",
+     "total": 428888.39,
+     "n": 11,
+     "first": "2026-06-22",
+     "last": "2026-07-28",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 428888.39,
+     "fec_rollup_count": 11
+    },
+    {
+     "committee_id": "C00822536",
+     "committee": "HEALTHCARE FOR ACTION PAC",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Qualified",
+     "org_type": null,
+     "so": "S",
+     "total": 62584.0,
+     "n": 4,
+     "first": "2026-07-22",
+     "last": "2026-07-28",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00754069",
+     "committee": "PAF",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": null,
+     "so": "O",
+     "total": 20000.0,
+     "n": 1,
+     "first": "2026-07-14",
+     "last": "2026-07-14",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": null,
+     "fec_rollup_count": null
+    },
+    {
+     "committee_id": "C00453704",
+     "committee": "EMGAGE FEDERAL POLITICAL ACTION COMMITTEE",
+     "committee_type": "Hybrid PAC (with Non-Contribution Account) - Nonqualified",
+     "org_type": "Membership Organization",
+     "so": "O",
+     "total": 14277.09,
+     "n": 1,
+     "first": "2026-06-30",
+     "last": "2026-06-30",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 14277.09,
+     "fec_rollup_count": 1
+    },
+    {
+     "committee_id": "C00030718",
+     "committee": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+     "committee_type": "PAC - Qualified",
+     "org_type": "Membership Organization",
+     "so": "S",
+     "total": 10942.0,
+     "n": 3,
+     "first": "2026-07-23",
+     "last": "2026-07-23",
+     "forms": [
+      "F24"
+     ],
+     "fec_rollup_total": 10942.0,
+     "fec_rollup_count": 3
+    }
+   ]
+  }
+ }
+}

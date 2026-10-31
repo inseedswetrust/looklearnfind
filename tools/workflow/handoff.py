@@ -20,7 +20,7 @@ TODAY = datetime.date.today().isoformat()
 
 TASK_OPEN = {"ready"}
 STAGE_STATUSES = {"done", "in_progress", "todo", "blocked", "waiting_owner"}
-TASK_STATUSES = {"ready", "sent", "returned", "accepted", "withdrawn", "not_ready", "done", "todo", "blocked", "waiting_owner"}
+TASK_STATUSES = {"ready", "in_progress", "sent", "returned", "accepted", "withdrawn", "not_ready", "done", "todo", "blocked", "waiting_owner"}
 
 
 # ---------------------------------------------------------------- helpers

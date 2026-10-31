@@ -4,10 +4,10 @@
   "state_name": "Michigan",
   "year": 2026,
   "scope": "Governor, U.S. Senate, U.S. House",
-  "updated": "2026-10-28",
+  "updated": "2026-10-31",
   "updated_by": "claude",
   "as_of_commit": "dce594c",
-  "headline": "Michigan pages, roster, TIP join, portraits, markets and story scout are built locally. Two reported pieces are live. MI-A1 is ready for a ChatGPT draft; the Michigan tile image has come back and is not yet wired in. Nothing Michigan-specific is deployed.",
+  "headline": "Michigan hub, MI-A1 (Duggan) and the homepage tile are live (deployed 2026-10-31 on owner approval). MI-A3 and MI-A4 briefs are READY for ChatGPT drafts. The Michigan video is in assembly (separate Remotion workflow). A correction note for the Florida House spending article (totals changed by the double-count fix) is committed locally and not yet deployed. Five Michigan governor entries on TIP are still at review.",
   "paths": [
     "productions/2026/MI",
     "data/elections/MI",
@@ -105,13 +105,13 @@
     {
       "id": "publish",
       "title": "Deploy Michigan pages, MI-A1 and tile",
-      "status": "waiting_owner"
+      "status": "done"
     },
     {
       "id": "video",
       "title": "Michigan video asset pack",
-      "status": "blocked",
-      "note": "needs approved articles and an approved script direction; asset pack only, no MP4"
+      "status": "in_progress",
+      "note": "script locked by the owner 2026-10-29; ChatGPT Phase B visuals received; Remotion assembly started in tip-michigan-remotion; asset pack only in this repository, no MP4 committed"
     }
   ],
   "lanes": {
@@ -142,9 +142,24 @@
         },
         {
           "id": "MI-A3",
-          "title": "MI-13: incumbent loses primary",
-          "status": "not_ready",
-          "note": "2026-10-28: result sourced from two opened pages (WDIV final table 57,714 to 53,494, 100% of 346 precincts, unofficial; Bridge Michigan Aug 5, partial Wayne County margin). Official canvass site unreachable; Michigan Advance and its wire copy return 403 (not circumvented). No 2026 spending figures found in any opened source. Missing piece: an FEC Schedule E pull for Thanedar and McKinney. Nothing about T.P. Nykoriak's past is used. See research/MI-A3_SOURCES.md."
+          "title": "MI-13: who spent in the primary where the incumbent lost (Spending Report, schema 03), 800 to 1,100 words",
+          "status": "ready",
+          "inputs": [
+            "productions/2026/MI/package_src/stories/MI-A3/STORY_BRIEF.md",
+            "productions/2026/MI/package_src/stories/MI-A3/CLAIMS.csv",
+            "productions/2026/MI/research/mi13_reconciled.json",
+            "productions/2026/MI/research/fec_ie_MI13.json",
+            "productions/2026/MI/research/fec_committees_MI13.json",
+            "productions/2026/MI/research/fec_totals_MI13.json",
+            "tools/elections/reconcile_ie.py",
+            "productions/2026/MI/package_src/LINK_MAP.md"
+          ],
+          "returns": [
+            "MI-A3_*.html",
+            "MI-A3_CLAIMS.csv",
+            "MI-A3_NOTES.md"
+          ],
+          "note": "Official canvass unread (state results site refused connections); result attributed to WDIV and Bridge as unofficial. Nothing about T.P. Nykoriak's past used."
         },
         {
           "id": "MI-A4",
@@ -211,7 +226,7 @@
     },
     {
       "id": "C3",
-      "title": "MI-A3: find an openable source or ask the owner to paste the Michigan Advance text; read the official August 4 canvass; no use of any claim about T.P. Nykoriak's past without the court record and a response attempt",
+      "title": "MI-A3: find an openable source or ask the owner to paste the Michigan Advance text; read the official August 4 canvass; no use of any claim about T.P. Nykoriak's past without the court record and a response attempt (done 2026-10-31: FEC pull and reconciliation for McKinney and Thanedar, brief and 18 claims written; canvass still unread)",
       "status": "done",
       "gate": "none",
       "note": "MI-A3 stays not_ready: results sourced, spending not. Next if wanted: FEC Schedule E pull for MI-13 (Thanedar and McKinney)."
@@ -237,15 +252,15 @@
     {
       "id": "C7",
       "title": "Video asset pack via llf-video-director",
-      "status": "blocked",
-      "gate": "approved articles and approved script direction"
+      "status": "in_progress",
+      "gate": "owner-driven in the TIP Remotion workflow; script locked 2026-10-29; Phase B package received; assembly started; no MP4 committed; see productions/2026/MI/video/DECISION_LOG.md"
     }
   ],
   "waiting_on_owner": [
-    "Name the ChatGPT articles chat and images chat in docs/production/CHAT_REGISTRY.md, then send each its package",
-    "Approve deploying the Michigan pages, the tile and MI-A1",
-    "Approve promoting the five Michigan governor entries on TIP",
-    "If a MI-A3 source is paywalled or blocked, paste its text"
+    "Send the MI-A3 and MI-A4 package to ChatGPT (paste text and zip in productions/2026/MI/handoff/)",
+    "Approve deploying the Florida House spending correction note (the corrected totals are already live without it)",
+    "Approve promoting the five Michigan governor entries on TIP from review to active, with the list in docs/michigan/TIP_FIX_LIST_FOR_APPROVAL.md",
+    "Michigan official canvass: paste the certified August 4 MI-13 result if you want MI-A3 to cite it instead of WDIV"
   ],
   "blocked": [
     {
