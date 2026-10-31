@@ -126,3 +126,5 @@ body.has-rail .rep .dek{font-family:var(--serif)}
 body.has-rail .story-body table{display:block;max-width:100%;overflow-x:auto}
 body.has-rail{overflow-x:clip}
 .outline .cur:empty{display:none}
+@media(max-width:900px){body.has-rail .explore-btn{display:none}.js body.has-rail .explore-btn{display:block}}
+.mobile-bar .brand-small{box-sizing:content-box;padding-block:5px}

@@ -35,7 +35,7 @@
     var thread = s.slot === "Along this thread";
     var a = el("a", "rec " + (thread ? "thread-card" : "radar-card")); a.href = s.url; a.setAttribute("data-slot", s.slot);
     if (s.image) {
-      var t = el("span", "thumb"), im = el("img"); im.src = s.image; im.alt = s.alt || ""; im.width = 300; im.height = 200; im.loading = "lazy"; t.appendChild(im);
+      var t = el("span", "thumb"), im = el("img"); im.src = s.image; im.alt = s.alt || ""; im.width = 300; im.height = 200; t.appendChild(im);
       if (s.ai) t.appendChild(el("span", "ai-tag", "AI illustration"));
       a.appendChild(t);
     }

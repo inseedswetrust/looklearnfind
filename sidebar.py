@@ -57,7 +57,7 @@ def validate(pages):
 def _img(key, alt, ai=None):
     if ai is None:
         ai = bool(CREDITS.get(key, {}).get("ai")) or key.startswith("s") and key[1:2].isdigit()
-    return {"image": f"/img/elections/{key}.jpg", "alt": alt, "ai": bool(ai)}
+    return {"image": f"/img/elections/thumb/{key}.jpg", "alt": alt, "ai": bool(ai)}
 
 
 class Catalog:
@@ -69,6 +69,7 @@ class Catalog:
             m = META["stories"].get(s["slug"])
             if not m or s.get("layout") != "report":
                 continue
+            _HEROES.add(s["hero"]) if s.get("hero") else None
             im = _img(s["hero"], s.get("hero_alt", "")) if s.get("hero") else {"image": "", "alt": "", "ai": False}
             self.items[s["slug"]] = dict(
                 id=s["slug"], url=s["path"], kind=s.get("format", "Report"), title=s["title"], short=m["short"],
@@ -79,7 +80,7 @@ class Catalog:
             ik = n["image"]
             self.national.append(dict(id=n["id"], url=n["url"], kind=n["kind"], title=n["title"], short=n["short"], date="", states=[],
                                       thread="", subject="National", priority=n["priority"], related=[], category="politics", format="learn",
-                                      hero="", hook=n["hook"], image=f"/img/elections/{ik}.jpg", alt=n["image_alt"], ai=False))
+                                      hero="", hook=n["hook"], image=f"/img/elections/thumb/{ik}.jpg", alt=n["image_alt"], ai=False))
 
     # ---- coverage
     def reports(self, code):
@@ -197,7 +198,7 @@ def card_html(slot):
     label = slot["slot"]
     cls = "thread-card" if label == "Along this thread" else "radar-card"
     ai = '<span class="ai-tag">AI illustration</span>' if slot["ai"] else ""
-    img = f'<span class="thumb"><img src="{e(slot["image"])}" alt="{e(slot["alt"])}" width="300" height="200" loading="lazy" decoding="async">{ai}</span>' if slot["image"] else ""
+    img = f'<span class="thumb"><img src="{e(slot["image"])}" alt="{e(slot["alt"])}" width="300" height="200" decoding="async">{ai}</span>' if slot["image"] else ""
     return (f'<a class="rec {cls}" href="{e(slot["url"])}" data-slot="{e(label)}">{img}<span class="rec-body"><span class="eyebrow">{e(label)}</span>'
             f'<span class="card-title">{e(slot["title"])}</span><span class="rec-kind">{e(slot["kind"])} · {e(slot["reason"])}</span></span><span class="arrow" aria-hidden="true">→</span></a>')
 
@@ -262,3 +263,28 @@ def render(cur, cat, toc):
 
 def outline_from_body(body):
     return [(a, re.sub(r"<[^>]+>", "", t)) for a, t in re.findall(r'<h2 id="([a-z0-9-]+)">(.*?)</h2>', body)]
+
+
+def make_thumbs(out):
+    """Write 480px-wide thumbnails (full heroes are 200-370 KB each, far too heavy for a 100px rail card)."""
+    from PIL import Image
+    keys = {i["image"].rsplit("/", 1)[1][:-4] for i in _all_images()}
+    dest = Path(out) / "img" / "elections" / "thumb"
+    dest.mkdir(parents=True, exist_ok=True)
+    for k in sorted(keys):
+        src = Path(out) / "img" / "elections" / f"{k}.jpg"
+        if not src.exists():
+            raise SystemExit(f"sidebar thumbnail source missing: {src}")
+        im = Image.open(src).convert("RGB")
+        im.thumbnail((480, 480))
+        im.save(dest / f"{k}.jpg", "JPEG", quality=78, optimize=True)
+
+
+def _all_images():
+    out = [dict(image=f"/img/elections/thumb/{n['image']}.jpg") for n in META["national"]]
+    out += [dict(image=f"/img/elections/thumb/{h['image']}.jpg") for h in HUBS.values()]
+    out += [dict(image=f"/img/elections/thumb/{r}.jpg") for r in _HEROES]
+    return out
+
+
+_HEROES = set()

@@ -786,6 +786,7 @@ def main():
     problems = sidebar.validate(set(PAGES_OUT))
     if problems:
         raise SystemExit("Sidebar metadata invalid: " + "; ".join(problems))
+    sidebar.make_thumbs(OUT)
     for rel, text in EXTRA_FILES.items():
         dest = OUT / rel
         dest.parent.mkdir(parents=True, exist_ok=True)
