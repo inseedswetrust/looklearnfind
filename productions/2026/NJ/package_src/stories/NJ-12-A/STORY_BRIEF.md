@@ -1,0 +1,7 @@
+# NJ-12-A
+
+As of 2026-10-31. Schema: docs/schemas/01_STATE_OF_THE_RACE.md. Kalshi contracts are party-winner contracts labeled with the candidate name: say "the Democratic-party contract (labeled X)", never "a contract on X".
+
+## NJ-12-A: NJ-12: a first-time candidate wins a 12-way primary with a pro-Palestinian super PAC behind him, and AIPAC stays out (READY)
+The New Jersey Globe (June 2, a projection on most ballots) has Hamawy at 28 percent, 14 points ahead of East Brunswick Mayor Brad Cohen, in a field of 12 Democrats; JTA (June 3) puts the lead at 12 points with 86 percent counted. Both report that American Priorities, a super PAC that backs pro-Palestinian progressives, spent for him: close to $1.6 million (Globe) or $2 million (JTA), so the figure is attributed as a range. The Globe says AIPAC stayed out of this race; JTA reports no AIPAC or United Democracy Project spending for or against him. Bernie Sanders and Alexandria Ocasio-Cortez backed him, and Watson Coleman, who announced in November 2025 she would not run, stayed neutral. He faces Republican Gregg Mele (one source spells it Greg) in a seat forecasters rate safe Democratic; Kalshi's NJ-12 Democratic-party contract, labeled Hamawy, last traded at 0.979 on Oct 31. TIP shows neither candidate graded. Questions about his past charity ties, reported by JTA with his campaign's response, are left out because the original material was not opened. Final certified vote shares were not found.
+

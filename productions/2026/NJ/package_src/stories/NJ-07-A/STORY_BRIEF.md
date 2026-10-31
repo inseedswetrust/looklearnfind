@@ -1,0 +1,7 @@
+# NJ-07-A
+
+As of 2026-10-31. Schema: docs/schemas/01_STATE_OF_THE_RACE.md. Kalshi contracts are party-winner contracts labeled with the candidate name: say "the Democratic-party contract (labeled X)", never "a contract on X".
+
+## NJ-07-A: NJ-07: forecasters lean Democratic, the market quotes 0.93, and the incumbent was away for four months (READY)
+The Philadelphia Inquirer (Oct 15) reports Democrat Rebecca Bennett, 39, a former Navy helicopter pilot and health technology executive, gaining on Rep. Tom Kean Jr., who returned in June after a nearly four-month medical leave. The Inquirer says three forecasters, including Cook Political Report, rate the race as leaning Democratic, that two major GOP PACs pulled funding, and that Kean raised $4.89 million through June 30 against Bennett's announced $4 million since July 1 (a campaign figure). WHYY (Sept 28) says the district has about 17,000 more registered Republicans than Democrats. Kalshi's NJ-07 event (HOUSENJ7-26), captured Oct 31, shows the Democratic-party contract, labeled Bennett, at 0.932 last with a bid of 0.931 and an ask of 0.932, and the Republican-party contract, labeled Kean, at 0.071. TIP grades Kean F- on three issues and A+ on Universal Healthcare; Bennett has no congressional record and is not graded. Polls found so far (a 314 Action Fund press release and an InsiderNJ poll) have partisan or interested sponsors and are not used. Kean's health is mentioned only as the leave both outlets report; no diagnosis is used.
+

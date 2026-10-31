@@ -1,0 +1,526 @@
+{
+ "captured_at_utc": "2026-10-31T12:54:08Z",
+ "source": "Kalshi public API v2 (api.elections.kalshi.com)",
+ "races": {
+  "senate": {
+   "event_ticker": "SENATENJ-26",
+   "title": "New Jersey Senate winner?",
+   "url": "https://kalshi.com/markets/senatenj",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "SENATENJ-26-R",
+     "title": "Will Republicans win the Senate race in New Jersey?",
+     "yes_label": "Justin Murphy",
+     "no_label": "Justin Murphy",
+     "status": "active",
+     "yes_bid": "0.0220",
+     "yes_ask": "0.0280",
+     "last": "0.0280",
+     "previous": "0.0290",
+     "volume": "214534.42",
+     "volume_24h": "7825.42",
+     "open_interest": "182992.43",
+     "rules": "If a representative of the Republican party is sworn in as a Senator of New Jersey for the term beginning in 2027, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "SENATENJ-26-D",
+     "title": "Will Democratics win the Senate race in New Jersey?",
+     "yes_label": "Cory Booker",
+     "no_label": "Cory Booker",
+     "status": "active",
+     "yes_bid": "0.9750",
+     "yes_ask": "0.9810",
+     "last": "0.9810",
+     "previous": "0.9740",
+     "volume": "51324.64",
+     "volume_24h": "3326.87",
+     "open_interest": "38343.53",
+     "rules": "If a representative of the Democratic party is sworn in as a Senator of New Jersey for the term beginning in 2027, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-01": {
+   "event_ticker": "KXHOUSERACE-NJ01-26",
+   "title": "NJ-01 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NJ01-26-D",
+     "title": "Will Democratic win the House race for NJ-01?",
+     "yes_label": "Donald Norcross",
+     "no_label": "Donald Norcross",
+     "status": "active",
+     "yes_bid": "0.9670",
+     "yes_ask": "0.9800",
+     "last": "0.9790",
+     "previous": "0.9790",
+     "volume": "1146.57",
+     "volume_24h": "110.00",
+     "open_interest": "691.28",
+     "rules": "If the House member sworn in for NJ-01 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NJ01-26-R",
+     "title": "Will Republican win the House race for NJ-01?",
+     "yes_label": "Damon Galdo",
+     "no_label": "Damon Galdo",
+     "status": "active",
+     "yes_bid": "0.0200",
+     "yes_ask": "0.0320",
+     "last": "0.0150",
+     "previous": "0.0150",
+     "volume": "1955.49",
+     "volume_24h": "0.00",
+     "open_interest": "1724.97",
+     "rules": "If the House member sworn in for NJ-01 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-02": {
+   "event_ticker": "KXHOUSERACE-NJ02-26",
+   "title": "NJ-02 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NJ02-26-D",
+     "title": "Will Democratic win the House race for NJ-02?",
+     "yes_label": "Zack Mullock",
+     "no_label": "Zack Mullock",
+     "status": "active",
+     "yes_bid": "0.3000",
+     "yes_ask": "0.3100",
+     "last": "0.3100",
+     "previous": "0.2900",
+     "volume": "215103.24",
+     "volume_24h": "11767.69",
+     "open_interest": "148675.94",
+     "rules": "If the House member sworn in for NJ-02 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NJ02-26-R",
+     "title": "Will Republican win the House race for NJ-02?",
+     "yes_label": "Jeff Van Drew",
+     "no_label": "Jeff Van Drew",
+     "status": "active",
+     "yes_bid": "0.6900",
+     "yes_ask": "0.7000",
+     "last": "0.6900",
+     "previous": "0.7000",
+     "volume": "101343.33",
+     "volume_24h": "7067.35",
+     "open_interest": "61904.94",
+     "rules": "If the House member sworn in for NJ-02 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-03": {
+   "event_ticker": "KXHOUSERACE-NJ03-26",
+   "title": "NJ-03 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NJ03-26-D",
+     "title": "Will Democratic win the House race for NJ-03?",
+     "yes_label": "Herb Conaway",
+     "no_label": "Herb Conaway",
+     "status": "active",
+     "yes_bid": "0.9740",
+     "yes_ask": "0.9800",
+     "last": "0.9800",
+     "previous": "0.9800",
+     "volume": "2008.00",
+     "volume_24h": "42.00",
+     "open_interest": "1200.00",
+     "rules": "If the House member sworn in for NJ-03 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NJ03-26-R",
+     "title": "Will Republican win the House race for NJ-03?",
+     "yes_label": "Michael McGuire",
+     "no_label": "Michael McGuire",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0280",
+     "last": "0.0350",
+     "previous": "0.0350",
+     "volume": "3876.18",
+     "volume_24h": "0.00",
+     "open_interest": "2267.18",
+     "rules": "If the House member sworn in for NJ-03 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-04": {
+   "event_ticker": "KXHOUSERACE-NJ04-26",
+   "title": "NJ-04 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NJ04-26-D",
+     "title": "Will Democratic win the House race for NJ-04?",
+     "yes_label": "Rachel Peace",
+     "no_label": "Rachel Peace",
+     "status": "active",
+     "yes_bid": "0.0440",
+     "yes_ask": "0.0480",
+     "last": "0.0490",
+     "previous": "0.0410",
+     "volume": "37103.45",
+     "volume_24h": "27860.87",
+     "open_interest": "32253.77",
+     "rules": "If the House member sworn in for NJ-04 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NJ04-26-R",
+     "title": "Will Republican win the House race for NJ-04?",
+     "yes_label": "Chris Smith",
+     "no_label": "Chris Smith",
+     "status": "active",
+     "yes_bid": "0.9510",
+     "yes_ask": "0.9540",
+     "last": "0.9510",
+     "previous": "0.9600",
+     "volume": "62446.12",
+     "volume_24h": "57499.61",
+     "open_interest": "59074.98",
+     "rules": "If the House member sworn in for NJ-04 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-05": {
+   "event_ticker": "HOUSENJ5-26",
+   "title": "NJ-05 House winner?",
+   "url": "https://kalshi.com/markets/housenj5",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSENJ5-26-D",
+     "title": "Will a Democrat win the House race for NJ-5?",
+     "yes_label": "Josh Gottheimer",
+     "no_label": "Josh Gottheimer",
+     "status": "active",
+     "yes_bid": "0.9740",
+     "yes_ask": "0.9780",
+     "last": "0.9750",
+     "previous": "0.9710",
+     "volume": "5601.97",
+     "volume_24h": "68.21",
+     "open_interest": "3655.99",
+     "rules": "If the House member sworn in for NJ-05 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSENJ5-26-R",
+     "title": "Will a Republican win the House race for NJ-5?",
+     "yes_label": "Sean Kirrane",
+     "no_label": "Sean Kirrane",
+     "status": "active",
+     "yes_bid": "0.0160",
+     "yes_ask": "0.0340",
+     "last": "0.0630",
+     "previous": "0.0630",
+     "volume": "4799.96",
+     "volume_24h": "0.00",
+     "open_interest": "3431.64",
+     "rules": "If the House member sworn in for NJ-05 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-06": {
+   "event_ticker": "KXHOUSERACE-NJ06-26",
+   "title": "NJ-06 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NJ06-26-D",
+     "title": "Will Democratic win the House race for NJ-06?",
+     "yes_label": "Frank Pallone",
+     "no_label": "Frank Pallone",
+     "status": "active",
+     "yes_bid": "0.9740",
+     "yes_ask": "0.9950",
+     "last": "0.9770",
+     "previous": "0.9570",
+     "volume": "677.96",
+     "volume_24h": "292.00",
+     "open_interest": "424.96",
+     "rules": "If the House member sworn in for NJ-06 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NJ06-26-R",
+     "title": "Will Republican win the House race for NJ-06?",
+     "yes_label": "Hillary Herzig",
+     "no_label": "Hillary Herzig",
+     "status": "active",
+     "yes_bid": "0.0040",
+     "yes_ask": "0.0240",
+     "last": "0.0290",
+     "previous": "0.0040",
+     "volume": "726.76",
+     "volume_24h": "1.01",
+     "open_interest": "111.75",
+     "rules": "If the House member sworn in for NJ-06 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-07": {
+   "event_ticker": "HOUSENJ7-26",
+   "title": "NJ-07 House winner?",
+   "url": "https://kalshi.com/markets/housenj7",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSENJ7-26-D",
+     "title": "Will Democratic win the House race for NJ-7?",
+     "yes_label": "Rebecca Bennett",
+     "no_label": "Rebecca Bennett",
+     "status": "active",
+     "yes_bid": "0.9310",
+     "yes_ask": "0.9320",
+     "last": "0.9320",
+     "previous": "0.9320",
+     "volume": "134512.01",
+     "volume_24h": "18.12",
+     "open_interest": "17742.33",
+     "rules": "If the House member sworn in for NJ-07 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSENJ7-26-R",
+     "title": "Will Republican win the House race for NJ-7?",
+     "yes_label": "Thomas Kean Jr.",
+     "no_label": "Thomas Kean Jr.",
+     "status": "active",
+     "yes_bid": "0.0630",
+     "yes_ask": "0.0700",
+     "last": "0.0710",
+     "previous": "0.0600",
+     "volume": "104774.58",
+     "volume_24h": "5711.79",
+     "open_interest": "82636.91",
+     "rules": "If the House member sworn in for NJ-07 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-08": {
+   "event_ticker": "KXHOUSERACE-NJ08-26",
+   "title": "NJ-08 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NJ08-26-D",
+     "title": "Will Democratic win the House race for NJ-08?",
+     "yes_label": "Rob Menendez",
+     "no_label": "Rob Menendez",
+     "status": "active",
+     "yes_bid": "0.9730",
+     "yes_ask": "0.9970",
+     "last": "0.9800",
+     "previous": "0.9970",
+     "volume": "991.09",
+     "volume_24h": "84.00",
+     "open_interest": "755.06",
+     "rules": "If the House member sworn in for NJ-08 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NJ08-26-R",
+     "title": "Will Republican win the House race for NJ-08?",
+     "yes_label": "Republican party",
+     "no_label": "Republican party",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0250",
+     "last": "0.0230",
+     "previous": "0.0230",
+     "volume": "15923.46",
+     "volume_24h": "0.00",
+     "open_interest": "15411.42",
+     "rules": "If the House member sworn in for NJ-08 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-09": {
+   "event_ticker": "HOUSENJ9-26",
+   "title": "NJ-09 House winner?",
+   "url": "https://kalshi.com/markets/housenj9",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSENJ9-26-D",
+     "title": "Will Democratic win the House race for NJ-9?",
+     "yes_label": "Nellie Pou",
+     "no_label": "Nellie Pou",
+     "status": "active",
+     "yes_bid": "0.9560",
+     "yes_ask": "0.9780",
+     "last": "0.9790",
+     "previous": "0.9540",
+     "volume": "12820.30",
+     "volume_24h": "142.19",
+     "open_interest": "4549.59",
+     "rules": "If the House member sworn in for NJ-09 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSENJ9-26-R",
+     "title": "Will Republican win the House race for NJ-9?",
+     "yes_label": "Rosie Pino",
+     "no_label": "Rosie Pino",
+     "status": "active",
+     "yes_bid": "0.0180",
+     "yes_ask": "0.0350",
+     "last": "0.0330",
+     "previous": "0.0330",
+     "volume": "2922.58",
+     "volume_24h": "100.00",
+     "open_interest": "2190.91",
+     "rules": "If the House member sworn in for NJ-09 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-10": {
+   "event_ticker": "KXHOUSERACE-NJ10-26",
+   "title": "NJ-10 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NJ10-26-D",
+     "title": "Will Democratic win the House race for NJ-10?",
+     "yes_label": "LaMonica McIver",
+     "no_label": "LaMonica McIver",
+     "status": "active",
+     "yes_bid": "0.9740",
+     "yes_ask": "0.9970",
+     "last": "0.9970",
+     "previous": "0.9970",
+     "volume": "59.00",
+     "volume_24h": "0.00",
+     "open_interest": "27.00",
+     "rules": "If the House member sworn in for NJ-10 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NJ10-26-R",
+     "title": "Will Republican win the House race for NJ-10?",
+     "yes_label": "Carmen Bucco",
+     "no_label": "Carmen Bucco",
+     "status": "active",
+     "yes_bid": "0.0030",
+     "yes_ask": "0.0270",
+     "last": "0.0040",
+     "previous": "0.0040",
+     "volume": "1553.00",
+     "volume_24h": "0.00",
+     "open_interest": "1504.00",
+     "rules": "If the House member sworn in for NJ-10 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-11": {
+   "event_ticker": "KXHOUSERACE-NJ11-26",
+   "title": "NJ-11 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NJ11-26-D",
+     "title": "Will Democratic win the House race for NJ-11?",
+     "yes_label": "Analilia Mejia",
+     "no_label": "Analilia Mejia",
+     "status": "active",
+     "yes_bid": "0.9740",
+     "yes_ask": "0.9940",
+     "last": "0.9890",
+     "previous": "0.9890",
+     "volume": "13603.45",
+     "volume_24h": "0.00",
+     "open_interest": "3836.20",
+     "rules": "If the House member sworn in for NJ-11 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NJ11-26-R",
+     "title": "Will Republican win the House race for NJ-11?",
+     "yes_label": "Joe Hathaway",
+     "no_label": "Joe Hathaway",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0190",
+     "last": "0.0190",
+     "previous": "0.0020",
+     "volume": "6986.21",
+     "volume_24h": "66.00",
+     "open_interest": "3009.37",
+     "rules": "If the House member sworn in for NJ-11 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-12": {
+   "event_ticker": "KXHOUSERACE-NJ12-26",
+   "title": "NJ-12 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-NJ12-26-D",
+     "title": "Will Democratic win the House race for NJ-12?",
+     "yes_label": "Adam Hamawy",
+     "no_label": "Adam Hamawy",
+     "status": "active",
+     "yes_bid": "0.9710",
+     "yes_ask": "0.9920",
+     "last": "0.9790",
+     "previous": "0.9790",
+     "volume": "9728.26",
+     "volume_24h": "0.00",
+     "open_interest": "2163.36",
+     "rules": "If the House member sworn in for NJ-12 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-NJ12-26-R",
+     "title": "Will Republican win the House race for NJ-12?",
+     "yes_label": "Gregg Mele",
+     "no_label": "Gregg Mele",
+     "status": "active",
+     "yes_bid": "0.0100",
+     "yes_ask": "0.0280",
+     "last": "0.0420",
+     "previous": "0.0420",
+     "volume": "3527.57",
+     "volume_24h": "0.00",
+     "open_interest": "2919.57",
+     "rules": "If the House member sworn in for NJ-12 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  }
+ }
+}

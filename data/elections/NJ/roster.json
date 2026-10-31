@@ -1,0 +1,689 @@
+{
+ "captured_at_utc": "2026-10-31T00:00:00Z",
+ "sources": {
+  "official_checked": "New Jersey Division of Elections Official Lists, General Election 11/03/2026: U.S. Senate dated 07/27/2026, U.S. House dated 09/04/2026 (PDFs in data/elections/NJ/captures; read 2026-10-31; 35 House names and 4 Senate names match)",
+  "transcribed_from": "https://www.thegreenpapers.com/G26/NJ",
+  "cross_checks": [
+   "TIP export docs/state-packets/NJ (race_entries)"
+  ]
+ },
+ "governor": [],
+ "senate": [
+  {
+   "name": "Cory A. Booker",
+   "party_code": "DEM",
+   "party": "Democratic",
+   "ballot_lines": [
+    "Democratic"
+   ],
+   "incumbent": true,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Cory_A._Booker",
+   "source_url": "https://www.thegreenpapers.com/G26/NJ",
+   "tip_name": "CORY BOOKER",
+   "fec_candidate_id": "S4NJ00185"
+  },
+  {
+   "name": "Justin Michael Murphy",
+   "party_code": "REP",
+   "party": "Republican",
+   "ballot_lines": [
+    "Republican"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Justin_Michael_Murphy",
+   "source_url": "https://www.thegreenpapers.com/G26/NJ",
+   "tip_name": "JUSTIN MURPHY",
+   "fec_candidate_id": "S4NJ00532"
+  },
+  {
+   "name": "Veronica Fernandez",
+   "party_code": "OTH",
+   "party": "END THE CORRUPTION!",
+   "ballot_lines": [
+    "END THE CORRUPTION!"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Veronica_Fernandez",
+   "source_url": "https://www.thegreenpapers.com/G26/NJ",
+   "tip_name": null,
+   "fec_candidate_id": "S0NJ00258"
+  },
+  {
+   "name": "Joanne Kuniansky",
+   "party_code": "OTH",
+   "party": "Socialist Workers Party",
+   "ballot_lines": [
+    "Socialist Workers Party"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Joanne_Kuniansky",
+   "source_url": "https://www.thegreenpapers.com/G26/NJ",
+   "tip_name": null,
+   "fec_candidate_id": "S4NJ00144"
+  },
+  {
+   "name": "Eduardo Jose Castillo Nicasio",
+   "party_code": "WRI",
+   "party": "Write-in",
+   "ballot_lines": [
+    "Write-in"
+   ],
+   "incumbent": false,
+   "running_mate": null,
+   "status": "Qualified",
+   "primary": "",
+   "state_account": "Eduardo_Jose_Castillo_Nicasio",
+   "source_url": "https://www.thegreenpapers.com/G26/NJ",
+   "tip_name": null,
+   "fec_candidate_id": "S6NJ00495",
+   "write_in": true
+  }
+ ],
+ "house": {
+  "1": [
+   {
+    "name": "Donald W. Norcross",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Donald_W._Norcross",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "DONALD NORCROSS",
+    "fec_candidate_id": "H4NJ01084"
+   },
+   {
+    "name": "Damon Galdo",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Damon_Galdo",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "DAMON GALDO",
+    "fec_candidate_id": "H2NJ01187"
+   }
+  ],
+  "2": [
+   {
+    "name": "Zachary \"Zack\" Mullock",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Zachary__Zack__Mullock",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "ZACK MULLOCK",
+    "fec_candidate_id": "H6NJ02251"
+   },
+   {
+    "name": "Jeff Van Drew",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Jeff_Van_Drew",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "JEFF VAN DREW",
+    "fec_candidate_id": "H8NJ02166"
+   },
+   {
+    "name": "Ramon Mora, Jr.",
+    "party_code": "OTH",
+    "party": "Independent",
+    "ballot_lines": [
+     "Independent"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Ramon_Mora__Jr.",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "Ramon Mora Jr.",
+    "fec_candidate_id": "H6NJ02269"
+   }
+  ],
+  "3": [
+   {
+    "name": "Herbert \"Herb\" Conaway, Jr.",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Herbert__Herb__Conaway__Jr.",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "HERB CONAWAY",
+    "fec_candidate_id": "H4NJ03080"
+   },
+   {
+    "name": "Michael Patrick McGuire",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Michael_Patrick_McGuire",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "MICHAEL P. MCGUIRE",
+    "fec_candidate_id": "H6NJ03184"
+   },
+   {
+    "name": "Steven \"Steve\" Welzer",
+    "party_code": "GRN",
+    "party": "Green",
+    "ballot_lines": [
+     "Green"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Steven__Steve__Welzer",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H4NJ03247"
+   },
+   {
+    "name": "Ryan Michael Kelly",
+    "party_code": "OTH",
+    "party": "AFFORDABILITY, ACCOUNTABILITY, PEOPLE",
+    "ballot_lines": [
+     "AFFORDABILITY, ACCOUNTABILITY, PEOPLE"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Ryan_Michael_Kelly",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H6NJ03192"
+   }
+  ],
+  "4": [
+   {
+    "name": "Rachel Peace",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Rachel_Peace",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "RACHEL PEACE",
+    "fec_candidate_id": "H6NJ04257"
+   },
+   {
+    "name": "Christopher Henry \"Chris\" Smith",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Christopher_Henry__Chris__Smith",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "CHRISTOPHER H. SMITH",
+    "fec_candidate_id": "H8NJ04014"
+   }
+  ],
+  "5": [
+   {
+    "name": "Joshua S. \"Josh\" Gottheimer",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Joshua_S.__Josh__Gottheimer",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "JOSH GOTTHEIMER",
+    "fec_candidate_id": "H6NJ05171"
+   },
+   {
+    "name": "Sean Joseph Kirrane",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Sean_Joseph_Kirrane",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "SEAN KIRRANE",
+    "fec_candidate_id": "H6NJ05221"
+   },
+   {
+    "name": "Adam Rueda",
+    "party_code": "OTH",
+    "party": "HUMANE SUSTAINABLE FUTURE",
+    "ballot_lines": [
+     "HUMANE SUSTAINABLE FUTURE"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Adam_Rueda",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H6NJ05247"
+   }
+  ],
+  "6": [
+   {
+    "name": "Frank Pallone, Jr.",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Frank_Pallone__Jr.",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "FRANK PALLONE JR.",
+    "fec_candidate_id": "H8NJ03073"
+   },
+   {
+    "name": "Hillary Herzig",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Hillary_Herzig",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H6NJ06286",
+    "parsed_name_was": "FEC H6NJ06278 or H6NJ06286"
+   }
+  ],
+  "7": [
+   {
+    "name": "Rebecca Bennett",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Rebecca_Bennett",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "REBECCA BENNETT",
+    "fec_candidate_id": "H6NJ07201"
+   },
+   {
+    "name": "Thomas H. \"Tom\" Kean, Jr.",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Thomas_H.__Tom__Kean__Jr.",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "THOMAS H. KEAN JR.",
+    "fec_candidate_id": "H0NJ07261"
+   },
+   {
+    "name": "Seamus Patrick O'Toole",
+    "party_code": "OTH",
+    "party": "STOP ISRAEL'S GENOCIDE",
+    "ballot_lines": [
+     "STOP ISRAEL'S GENOCIDE"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Seamus_Patrick_O_Toole",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": null,
+    "note": "Green Papers lists no FEC ID (no federal filing found)"
+   }
+  ],
+  "8": [
+   {
+    "name": "Rob Menendez",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Rob_Menendez",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H2NJ08232",
+    "parsed_name_was": "FEC H2NJ08232 or H2NJ13075"
+   },
+   {
+    "name": "Da'shone Hughey",
+    "party_code": "OTH",
+    "party": "Socialist Workers Party",
+    "ballot_lines": [
+     "Socialist Workers Party"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Da_shone_Hughey",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H6NJ08217"
+   },
+   {
+    "name": "Craig Honts",
+    "party_code": "OTH",
+    "party": "Socialist Workers Party",
+    "ballot_lines": [
+     "Socialist Workers Party"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Craig_Honts",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": null,
+    "note": "Green Papers lists no FEC ID (no federal filing found)"
+   },
+   {
+    "name": "Aristotle \"Ari\" Eliopoulos",
+    "party_code": "OTH",
+    "party": "Independent",
+    "ballot_lines": [
+     "Independent"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Aristotle__Ari__Eliopoulos",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": null,
+    "note": "Green Papers lists no FEC ID (no federal filing found)"
+   }
+  ],
+  "9": [
+   {
+    "name": "Nelida \"Nellie\" Pou",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Nelida__Nellie__Pou",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "NELIDA POU",
+    "fec_candidate_id": "H4NJ09194"
+   },
+   {
+    "name": "Rosemary L. \"Rosie\" Pino",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Rosemary_L.__Rosie__Pino",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "ROSIE PINO",
+    "fec_candidate_id": "H6NJ09264"
+   },
+   {
+    "name": "Terrisa Bukovinac",
+    "party_code": "OTH",
+    "party": "SAVE OUR BABIES",
+    "ballot_lines": [
+     "SAVE OUR BABIES"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Terrisa_Bukovinac",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H6NJ09306",
+    "parsed_name_was": "Resident of ELLENDALE, TN."
+   }
+  ],
+  "10": [
+   {
+    "name": "LaMonica R. McIver",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "LaMonica_R._McIver",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "LAMONICA R. MCIVER",
+    "fec_candidate_id": "H4NJ10176"
+   },
+   {
+    "name": "Carmen Bucco",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Carmen_Bucco",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "CARMEN BUCCO",
+    "fec_candidate_id": "H4NJ10135"
+   }
+  ],
+  "11": [
+   {
+    "name": "Analilia Mejia",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": true,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Analilia_Mejia",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H6NJ11286",
+    "parsed_name_was": "5 February 2026: Received 29.1% in the primary. Advances to Special General Election on Thursday 16 April."
+   },
+   {
+    "name": "Joe Hathaway",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Joe_Hathaway",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "JOE HATHAWAY",
+    "fec_candidate_id": "H6NJ11211"
+   },
+   {
+    "name": "Alan B. Bond",
+    "party_code": "OTH",
+    "party": "Independent",
+    "ballot_lines": [
+     "Independent"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Alan_B._Bond",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H6NJ11328",
+    "parsed_name_was": "Slogan: HOPE FOR TOMORROW!"
+   }
+  ],
+  "12": [
+   {
+    "name": "Adam Hamawy",
+    "party_code": "DEM",
+    "party": "Democratic",
+    "ballot_lines": [
+     "Democratic"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Adam_Hamawy",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "ADAM HAMAWY",
+    "fec_candidate_id": "H6NJ12417"
+   },
+   {
+    "name": "Gregg Mele",
+    "party_code": "REP",
+    "party": "Republican",
+    "ballot_lines": [
+     "Republican"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Gregg_Mele",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": "GREGG MELE",
+    "fec_candidate_id": "H2NJ06210"
+   },
+   {
+    "name": "Andres Jinete",
+    "party_code": "GRN",
+    "party": "Green",
+    "ballot_lines": [
+     "Green"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Andres_Jinete",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": "H6NJ12441"
+   },
+   {
+    "name": "Winston Jordan",
+    "party_code": "OTH",
+    "party": "GET MONEY OUT",
+    "ballot_lines": [
+     "GET MONEY OUT"
+    ],
+    "incumbent": false,
+    "running_mate": null,
+    "status": "Qualified",
+    "primary": "",
+    "state_account": "Winston_Jordan",
+    "source_url": "https://www.thegreenpapers.com/G26/NJ",
+    "tip_name": null,
+    "fec_candidate_id": null,
+    "note": "Green Papers lists no FEC ID (no federal filing found)"
+   }
+  ]
+ }
+}

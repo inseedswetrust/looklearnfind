@@ -1,0 +1,7 @@
+# NJ-SEN-A
+
+As of 2026-10-31. Schema: docs/schemas/01_STATE_OF_THE_RACE.md. Kalshi contracts are party-winner contracts labeled with the candidate name: say "the Democratic-party contract (labeled X)", never "a contract on X".
+
+## NJ-SEN-A: Senate: Booker's $22.9 million to Murphy's $10,000, and one debate answer that traveled (READY)
+OpenFEC candidate totals (PRE-GENERAL report, coverage through Oct 14) show Booker with $21.3 million in receipts this cycle and $22.9 million cash on hand, and Murphy with $68,189 in receipts and $10,190 cash on hand; these are reported figures, not audited by LLF. Fox News (Oct 19) reports Murphy, the Republican nominee and a Navy veteran, told Trump to 'finish it' in the Iran war during a debate with Booker, that Booker appeared stunned, and that Murphy said he had not expected the exchange to go viral; the article does not give the debate date, and Booker's campaign did not comment. WHYY (Sept 22) confirms the four-candidate ballot (Booker, Murphy, Veronica Fernandez of End the Corruption! and Joanne Kuniansky of the Socialist Workers Party) and Murphy's platform. Kalshi's Senate contracts, captured Oct 31, show the Democratic-party contract, labeled Booker, at 0.981 last (bid 0.975, ask 0.981) and the Republican-party contract, labeled Murphy, at 0.028. No poll was found. TIP: Booker F- on War-Crime Accountability and A+ on Citizens United Reform and Universal Healthcare; Murphy not graded.
+

@@ -1,0 +1,195 @@
+{
+ "scope": "New Jersey U.S. Senate and U.S. House, general election Nov 3 2026",
+ "as_of": "2026-10-31",
+ "angles": [
+  {
+   "id": "NJ-07-A",
+   "working_title": "NJ-07: forecasters lean Democratic, the market quotes 0.93, and the incumbent was away for four months",
+   "interesting_fact": "In a district with about 17,000 more registered Republicans than Democrats, three forecasters rate NJ-07 as leaning Democratic, Kalshi's Democratic-party contract last traded at 0.93, and Rep. Tom Kean Jr. returned in June from a nearly four-month medical leave.",
+   "state": "NJ",
+   "office": "U.S. House",
+   "race_ids": [
+    "2026-H-NJ-07"
+   ],
+   "candidate_ids": [
+    "H0NJ07261",
+    "H6NJ07201"
+   ],
+   "event_date": "2026-10-15",
+   "labelled_new": true,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "The Philadelphia Inquirer",
+     "headline": "Rebecca Bennett is gaining ground on Rep. Tom Kean Jr. in New Jersey's 7th District",
+     "url": "https://www.inquirer.com/politics/new-jersey/rebecca-bennett-campaign-7th-district-nj-tom-kean-jr-20261015.html",
+     "date": "2026-10-15",
+     "opened": true
+    },
+    {
+     "role": "corroboration",
+     "publication": "WHYY",
+     "headline": "Election 2026: New Jersey 7th Congressional District voter guide",
+     "url": "https://whyy.org/articles/election-2026-new-jersey-7th-congressional-district-voter-guide/",
+     "date": "2026-09-28",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Tom Kean Jr.",
+     "issue": "data_bill_of_rights",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H0NJ07261"
+    },
+    {
+     "candidate": "Tom Kean Jr.",
+     "issue": "war_crime_accountability",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H0NJ07261"
+    },
+    {
+     "candidate": "Tom Kean Jr.",
+     "issue": "us-israel-military-merger",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H0NJ07261"
+    },
+    {
+     "candidate": "Tom Kean Jr.",
+     "issue": "universal_healthcare",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/H0NJ07261"
+    },
+    {
+     "candidate": "Rebecca Bennett",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6NJ07201"
+    }
+   ],
+   "synopsis": "The Philadelphia Inquirer (Oct 15) reports Democrat Rebecca Bennett, 39, a former Navy helicopter pilot and health technology executive, gaining on Rep. Tom Kean Jr., who returned in June after a nearly four-month medical leave. The Inquirer says three forecasters, including Cook Political Report, rate the race as leaning Democratic, that two major GOP PACs pulled funding, and that Kean raised $4.89 million through June 30 against Bennett's announced $4 million since July 1 (a campaign figure). WHYY (Sept 28) says the district has about 17,000 more registered Republicans than Democrats. Kalshi's NJ-07 event (HOUSENJ7-26), captured Oct 31, shows the Democratic-party contract, labeled Bennett, at 0.932 last with a bid of 0.931 and an ask of 0.932, and the Republican-party contract, labeled Kean, at 0.071. TIP grades Kean F- on three issues and A+ on Universal Healthcare; Bennett has no congressional record and is not graded. Polls found so far (a 314 Action Fund press release and an InsiderNJ poll) have partisan or interested sponsors and are not used. Kean's health is mentioned only as the leave both outlets report; no diagnosis is used.",
+   "ready_to_write": true
+  },
+  {
+   "id": "NJ-12-A",
+   "working_title": "NJ-12: a first-time candidate wins a 12-way primary with a pro-Palestinian super PAC behind him, and AIPAC stays out",
+   "interesting_fact": "Army surgeon Adam Hamawy, who has never held office, won the 12-candidate Democratic primary for the seat Bonnie Watson Coleman is leaving with about 28 percent, with a super PAC called American Priorities reported to have spent $1.6 million to $2 million for him.",
+   "state": "NJ",
+   "office": "U.S. House",
+   "race_ids": [
+    "2026-H-NJ-12"
+   ],
+   "candidate_ids": [
+    "H6NJ12417",
+    "H2NJ06210"
+   ],
+   "event_date": "2026-06-02",
+   "labelled_new": false,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "New Jersey Globe",
+     "headline": "Hamawy wins wide-open NJ-12 race in major victory for the left",
+     "url": "https://newjerseyglobe.com/congress/hamawy-wins-wide-open-nj-12-race-in-major-victory-for-the-left/",
+     "date": "2026-06-02",
+     "opened": true
+    },
+    {
+     "role": "corroboration",
+     "publication": "Jewish Telegraphic Agency",
+     "headline": "Staunch Israel critic and Gaza trauma surgeon Adam Hamawy wins NJ-12 primary",
+     "url": "https://www.jta.org/2026/06/03/politics/staunch-israel-critic-and-gaza-trauma-surgeon-adam-hamawy-wins-nj-12-primary",
+     "date": "2026-06-03",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Adam Hamawy",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6NJ12417"
+    },
+    {
+     "candidate": "Gregg Mele",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H2NJ06210"
+    }
+   ],
+   "synopsis": "The New Jersey Globe (June 2, a projection on most ballots) has Hamawy at 28 percent, 14 points ahead of East Brunswick Mayor Brad Cohen, in a field of 12 Democrats; JTA (June 3) puts the lead at 12 points with 86 percent counted. Both report that American Priorities, a super PAC that backs pro-Palestinian progressives, spent for him: close to $1.6 million (Globe) or $2 million (JTA), so the figure is attributed as a range. The Globe says AIPAC stayed out of this race; JTA reports no AIPAC or United Democracy Project spending for or against him. Bernie Sanders and Alexandria Ocasio-Cortez backed him, and Watson Coleman, who announced in November 2025 she would not run, stayed neutral. He faces Republican Gregg Mele (one source spells it Greg) in a seat forecasters rate safe Democratic; Kalshi's NJ-12 Democratic-party contract, labeled Hamawy, last traded at 0.979 on Oct 31. TIP shows neither candidate graded. Questions about his past charity ties, reported by JTA with his campaign's response, are left out because the original material was not opened. Final certified vote shares were not found.",
+   "ready_to_write": true
+  },
+  {
+   "id": "NJ-SEN-A",
+   "working_title": "Senate: Booker's $22.9 million to Murphy's $10,000, and one debate answer that traveled",
+   "interesting_fact": "FEC reports through Oct 14 show Sen. Cory Booker with $22.9 million cash on hand and Republican Justin Murphy with $10,190, and Murphy's answer urging Trump to 'finish' the Iran war at a debate went viral.",
+   "state": "NJ",
+   "office": "U.S. Senate",
+   "race_ids": [
+    "2026-S-NJ"
+   ],
+   "candidate_ids": [
+    "S4NJ00185",
+    "S4NJ00532"
+   ],
+   "event_date": "2026-10-19",
+   "labelled_new": true,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "Fox News",
+     "headline": "Booker rival who 'shoots from the hip' hopes viral debate moment can break GOP's Senate drought",
+     "url": "https://www.foxnews.com/politics/booker-rival-shoots-hip-hopes-viral-debate-moment-break-gops-senate-drought",
+     "date": "2026-10-19",
+     "opened": true
+    },
+    {
+     "role": "corroboration",
+     "publication": "WHYY",
+     "headline": "New Jersey election 2026: Cory Booker faces 3 challengers in U.S. Senate race",
+     "url": "https://whyy.org/articles/election-2026-new-jersey-senate-voter-guide-booker/",
+     "date": "2026-09-22",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Cory Booker",
+     "issue": "war_crime_accountability",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/S4NJ00185"
+    },
+    {
+     "candidate": "Cory Booker",
+     "issue": "citizens_united_reform",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/S4NJ00185"
+    },
+    {
+     "candidate": "Cory Booker",
+     "issue": "universal_healthcare",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/S4NJ00185"
+    },
+    {
+     "candidate": "Justin Murphy",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/S4NJ00532"
+    }
+   ],
+   "financial_claims": [
+    {
+     "claim": "Booker 2026-cycle receipts $21,275,162.52 and cash on hand $22,899,410.72; Murphy receipts $68,188.87 and cash on hand $10,190.62",
+     "source": "OpenFEC candidate totals (S4NJ00185, S4NJ00532), PRE-GENERAL report, coverage through 2026-10-14",
+     "period": "2026 cycle through 2026-10-14",
+     "source_url": "https://api.open.fec.gov/v1/candidate/S4NJ00185/totals/?cycle=2026 and https://api.open.fec.gov/v1/candidate/S4NJ00532/totals/?cycle=2026",
+     "attributed_to": "OpenFEC candidate totals as reported on each candidate committee's PRE-GENERAL filing"
+    }
+   ],
+   "synopsis": "OpenFEC candidate totals (PRE-GENERAL report, coverage through Oct 14) show Booker with $21.3 million in receipts this cycle and $22.9 million cash on hand, and Murphy with $68,189 in receipts and $10,190 cash on hand; these are reported figures, not audited by LLF. Fox News (Oct 19) reports Murphy, the Republican nominee and a Navy veteran, told Trump to 'finish it' in the Iran war during a debate with Booker, that Booker appeared stunned, and that Murphy said he had not expected the exchange to go viral; the article does not give the debate date, and Booker's campaign did not comment. WHYY (Sept 22) confirms the four-candidate ballot (Booker, Murphy, Veronica Fernandez of End the Corruption! and Joanne Kuniansky of the Socialist Workers Party) and Murphy's platform. Kalshi's Senate contracts, captured Oct 31, show the Democratic-party contract, labeled Booker, at 0.981 last (bid 0.975, ask 0.981) and the Republican-party contract, labeled Murphy, at 0.028. No poll was found. TIP: Booker F- on War-Crime Accountability and A+ on Citizens United Reform and Universal Healthcare; Murphy not graded.",
+   "ready_to_write": true
+  }
+ ]
+}

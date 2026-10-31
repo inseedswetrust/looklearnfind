@@ -1,0 +1,232 @@
+{
+ "schema": 1,
+ "state": "NJ",
+ "state_name": "New Jersey",
+ "year": 2026,
+ "scope": "Governor, U.S. Senate, U.S. House",
+ "updated": "2026-10-31",
+ "updated_by": "claude",
+ "as_of_commit": "",
+ "headline": "New Jersey 2026 LIVE (2026-10-31): hub, Senate page, 12 districts, tile, three articles with heroes. Verified against the official NJ lists.",
+ "paths": [
+  "productions/2026/NJ",
+  "data/elections/NJ"
+ ],
+ "decisions_log": "productions/2026/NJ/DECISIONS_AND_HISTORY.md",
+ "stages": [
+  {
+   "id": "roster",
+   "title": "Roster reconciled to the official listing (or the best labeled source)",
+   "status": "done",
+   "evidence": "data/elections/NJ/roster.json"
+  },
+  {
+   "id": "tip_join",
+   "title": "TIP export and join",
+   "status": "done"
+  },
+  {
+   "id": "tip_gaps",
+   "title": "TIP gap list shown to the owner; approved fixes applied",
+   "status": "done"
+  },
+  {
+   "id": "portraits",
+   "title": "Portraits (licensed only; monograms otherwise)",
+   "status": "done"
+  },
+  {
+   "id": "markets",
+   "title": "Kalshi markets",
+   "status": "done"
+  },
+  {
+   "id": "pages",
+   "title": "State pages built locally (hub, governor, Senate, House directory, districts)",
+   "status": "done"
+  },
+  {
+   "id": "scout",
+   "title": "Story Scout: ranked angles with READY or NOT_READY",
+   "status": "done",
+   "evidence": "productions/2026/NJ/stories/STORY_BRIEF.md"
+  },
+  {
+   "id": "image_briefs",
+   "title": "Image briefs (state tile and story heroes)",
+   "status": "todo"
+  },
+  {
+   "id": "tile_image",
+   "title": "State tile image returned and installed",
+   "status": "done"
+  },
+  {
+   "id": "article_draft",
+   "title": "Articles drafted by ChatGPT",
+   "status": "done"
+  },
+  {
+   "id": "factcheck",
+   "title": "Independent fact-check of used claims",
+   "status": "done"
+  },
+  {
+   "id": "publish",
+   "title": "Deploy state pages, articles and tile",
+   "status": "done"
+  },
+  {
+   "id": "video",
+   "title": "Video asset pack (after approved articles and script direction)",
+   "status": "blocked",
+   "note": "asset pack only; no MP4 unless explicitly requested"
+  }
+ ],
+ "lanes": {
+  "articles": {
+   "chat": "Kimi (text only, no images); owner to record the chat title in docs/production/CHAT_REGISTRY.md",
+   "role": "Write the article drafts from Claude's briefs. Never fact-check your own draft. Never publish.",
+   "tasks": [
+    {
+     "id": "NJ-07-A",
+     "title": "NJ-07: forecasters lean Democratic, the market quotes 0.93, and the incumbent was away four months: State of the Race (schema 01), 700 to 1,000 words",
+     "status": "published",
+     "inputs": [
+      "productions/2026/NJ/package_src/stories/NJ-07-A/STORY_BRIEF.md",
+      "productions/2026/NJ/package_src/stories/NJ-07-A/CLAIMS.csv",
+      "productions/2026/NJ/package_src/LINK_MAP.md"
+     ],
+     "returns": [
+      "NJ-07-A_*.html",
+      "NJ-07-A_CLAIMS.csv",
+      "NJ-07-A_NOTES.md"
+     ],
+     "note": "Independent fact-check (claude-factcheck-subagent-2, 2026-10-31): BLOCKED on all three; Claude applied the corrections. Revised wording not re-run through the gate. Report: productions/2026/NJ/qa/FACTCHECK_REPORT.md."
+    },
+    {
+     "id": "NJ-12-A",
+     "title": "NJ-12: a first-time candidate wins a 12-way primary with a pro-Palestinian super PAC behind him: State of the Race (schema 01), 700 to 1,000 words",
+     "status": "published",
+     "inputs": [
+      "productions/2026/NJ/package_src/stories/NJ-12-A/STORY_BRIEF.md",
+      "productions/2026/NJ/package_src/stories/NJ-12-A/CLAIMS.csv",
+      "productions/2026/NJ/package_src/LINK_MAP.md"
+     ],
+     "returns": [
+      "NJ-12-A_*.html",
+      "NJ-12-A_CLAIMS.csv",
+      "NJ-12-A_NOTES.md"
+     ],
+     "note": "Independent fact-check (claude-factcheck-subagent-2, 2026-10-31): BLOCKED on all three; Claude applied the corrections. Revised wording not re-run through the gate. Report: productions/2026/NJ/qa/FACTCHECK_REPORT.md."
+    },
+    {
+     "id": "NJ-SEN-A",
+     "title": "Senate: Booker's $22.9 million to Murphy's $10,000 and one debate answer that traveled: State of the Race (schema 01), 700 to 1,000 words",
+     "status": "published",
+     "inputs": [
+      "productions/2026/NJ/package_src/stories/NJ-SEN-A/STORY_BRIEF.md",
+      "productions/2026/NJ/package_src/stories/NJ-SEN-A/CLAIMS.csv",
+      "productions/2026/NJ/package_src/LINK_MAP.md"
+     ],
+     "returns": [
+      "NJ-SEN-A_*.html",
+      "NJ-SEN-A_CLAIMS.csv",
+      "NJ-SEN-A_NOTES.md"
+     ],
+     "note": "Independent fact-check (claude-factcheck-subagent-2, 2026-10-31): BLOCKED on all three; Claude applied the corrections. Revised wording not re-run through the gate. Report: productions/2026/NJ/qa/FACTCHECK_REPORT.md."
+    }
+   ]
+  },
+  "images": {
+   "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
+   "role": "Make illustrated images from the briefs. Match the existing set. Never make faces, readable text or campaign branding.",
+   "tasks": []
+  }
+ },
+ "claude_tasks": [
+  {
+   "id": "C1",
+   "title": "Build the roster and reconcile it to the official listing",
+   "status": "done",
+   "gate": "none"
+  },
+  {
+   "id": "C2",
+   "title": "TIP export, join and gap list",
+   "status": "done",
+   "gate": "owner approval before any TIP write"
+  },
+  {
+   "id": "C3",
+   "title": "Portraits, markets, state pages, tests, strict build",
+   "status": "done",
+   "gate": "none"
+  },
+  {
+   "id": "C4",
+   "title": "Story Scout, then briefs and claims for every READY angle; add them as tasks in the articles lane",
+   "status": "done",
+   "gate": "none"
+  },
+  {
+   "id": "C5",
+   "title": "Image briefs; add them as tasks in the images lane",
+   "status": "todo",
+   "gate": "none"
+  }
+ ],
+ "waiting_on_owner": [
+  "Commit the 2026-10-31 work (see advice) once the sidebar chat is settled"
+ ],
+ "blocked": [],
+ "do_not_redo": [],
+ "conflicts_to_watch": [
+  "Only one Claude session writes to this state at a time"
+ ],
+ "readback_checks": [
+  {
+   "lane": "articles",
+   "q": "May you fact-check your own draft, and who does?",
+   "expect_any": [
+    "claude",
+    "reviewer",
+    "independent",
+    "not"
+   ]
+  },
+  {
+   "lane": "articles",
+   "q": "May you cite a TIP grade that is not visible on the linked profile?",
+   "expect_any": [
+    "no",
+    "not"
+   ]
+  },
+  {
+   "lane": "articles",
+   "q": "What does a Kalshi price represent?",
+   "expect_any": [
+    "not a forecast",
+    "quotation",
+    "contract"
+   ]
+  },
+  {
+   "lane": "images",
+   "q": "What are the three things the image must never contain?",
+   "expect_any": [
+    "face",
+    "text",
+    "branding"
+   ]
+  },
+  {
+   "lane": "images",
+   "q": "What credit line will the page print under the image?",
+   "expect_any": [
+    "ai illustration"
+   ]
+  }
+ ]
+}
