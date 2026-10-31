@@ -88,3 +88,7 @@
 
 ## 2026-10-31 (night): MI-A3 and MI-A4 deployed
 - Owner signed off `research/MI-A3_A4_FACTCHECK.md` in chat and said deploy. Full update zip uploaded after a backup (`~/backups/looklearnfind.com-pre-20261031e.tgz`). Live and local text hashes match for both pieces and the homepage; /learn/, both district pages, the Michigan hub and the search index return 200. Heroes are placeholders (`mi-capitol`, `mi-udp`).
+
+## 2026-10-31 (night): governor entries promoted on TIP; closing
+- Owner approved promoting the five Michigan governor entries. Backed up the rows (`the-issues-party/docs/state-packets/backups/MI-governor-entries-before-promote-2026-10-31.json`), then set status `active` on all five with `scripts/export/promote-mi-governor-entries.mjs`; verified all five read `active` and the public race page https://theissuesparty.org/races/2026-GOV-MI lists Benson, James, Hudson, Brandenburg and Campbell. The owner chose not to supply the certified August 4 MI-13 canvass; MI-A3 stays attributed to WDIV and Bridge Michigan as unofficial.
+- Remaining for Michigan: video (owner's Remotion workflow) and optional new heroes for MI-A3 and MI-A4. New-state path: `docs/production/10_NEW_STATE_QUICKSTART.md`.

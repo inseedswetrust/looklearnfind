@@ -6,8 +6,8 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-31",
   "updated_by": "claude",
-  "as_of_commit": "c02f978",
-  "headline": "Michigan hub, MI-A1, MI-A3 (MI-13), MI-A4 (MI-10), the homepage tile and the Florida correction note are live. The Michigan video is in assembly (separate Remotion workflow). Five Michigan governor entries on TIP are still at review.",
+  "as_of_commit": "39d92ba",
+  "headline": "Michigan is complete except the video (owner's Remotion workflow) and optional new heroes. Hub, MI-A1, MI-A3, MI-A4, the tile and the Florida correction are live; the five governor entries are active on TIP.",
   "paths": [
     "productions/2026/MI",
     "data/elections/MI",
@@ -241,8 +241,8 @@
     {
       "id": "C5",
       "title": "Promote the five Michigan governor TIP entries from review to active; commit the uncommitted TIP files in the TIP repo only",
-      "status": "waiting_owner",
-      "gate": "owner approval, TIP write"
+      "status": "done",
+      "gate": "owner approved 2026-10-31; five governor entries promoted to active (scripts/export/promote-mi-governor-entries.mjs in the TIP repo; backup in docs/state-packets/backups/)"
     },
     {
       "id": "C6",
@@ -270,8 +270,7 @@
     }
   ],
   "waiting_on_owner": [
-    "Approve promoting the five Michigan governor entries on TIP from review to active (docs/michigan/TIP_FIX_LIST_FOR_APPROVAL.md)",
-    "Optional: new heroes for MI-A3 and MI-A4; the certified August 4 MI-13 canvass"
+    "Optional: new heroes for MI-A3 and MI-A4"
   ],
   "blocked": [
     {
