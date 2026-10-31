@@ -85,3 +85,6 @@
 - **Errors found:** (a) my MI-A3 brief used payment dates for the window ("January 8 through September 15"); by dissemination date it is January 8 through August 4 (fixed in the generator, brief, claims and article). (b) The FEC candidate summary double counts transfers between a candidate's own committees; Bouchard has four authorized committees, so the article uses his principal committee only.
 - **Test fix:** `tests/test_handoff.py` now prepares its own ready task, so it no longer depends on the live ledger state.
 - **Waiting:** owner sign-off and deploy for MI-A3 and MI-A4; TIP governor promotion.
+
+## 2026-10-31 (night): MI-A3 and MI-A4 deployed
+- Owner signed off `research/MI-A3_A4_FACTCHECK.md` in chat and said deploy. Full update zip uploaded after a backup (`~/backups/looklearnfind.com-pre-20261031e.tgz`). Live and local text hashes match for both pieces and the homepage; /learn/, both district pages, the Michigan hub and the search index return 200. Heroes are placeholders (`mi-capitol`, `mi-udp`).
