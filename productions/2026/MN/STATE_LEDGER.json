@@ -6,7 +6,7 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-31",
   "updated_by": "claude",
-  "as_of_commit": "b737893",
+  "as_of_commit": "2a90241",
   "headline": "Minnesota 2026: roster, TIP join, markets, local pages, registry and Story Scout are done; TIP gap list awaits owner approval; two articles are ready for the Kimi package. Nothing deployed.",
   "paths": [
     "productions/2026/MN",
@@ -38,7 +38,7 @@
       "id": "tip_gaps",
       "title": "TIP gap list shown to the owner; approved fixes applied",
       "status": "done",
-      "note": "Approved 2026-10-31 (GOV-MN-KLOBUCHAR carries the governor entry). Applied: Young profile, 3 governor entries at review, 3 incumbent fields cleared. Promotion to active is a separate approval.",
+      "note": "Approved 2026-10-31 (GOV-MN-KLOBUCHAR carries the governor entry). Applied: Young profile, 3 governor entries at review, 3 incumbent fields cleared. Promotion to active is a separate approval. Governor entries promoted to active 2026-10-31 (backup in the TIP repo docs/state-packets/backups/MN-governor-entries-before-promote-2026-10-31.json).",
       "evidence": [
         "productions/2026/MN/research/TIP_GAP_LIST.md"
       ]
@@ -219,8 +219,7 @@
   ],
   "waiting_on_owner": [
     "Decide whether someone opens the Minnesota Secretary of State candidate finder by hand to verify the roster (the download is behind a captcha)",
-    "Send productions/2026/MN/visuals/IMAGE_REQUEST.md to ChatGPT; send the Kimi articles package (zip and PASTE_THIS_FIRST.txt) to Kimi",
-    "Approve promoting the three Minnesota governor entries from review to active on TIP (separate approval; rows are backed up first)"
+    "Send productions/2026/MN/visuals/IMAGE_REQUEST.md to ChatGPT; send the Kimi articles package (zip and PASTE_THIS_FIRST.txt) to Kimi"
   ],
   "blocked": [
     {

@@ -23,3 +23,5 @@ Newest last. One entry per stage: what was done, what was decided, what is open.
 - `apply-mn-gap-fixes.mjs` (TIP repo): created needs_review profile GOV-MN-YOUNG, inserted governor entries for Klobuchar, Demuth and Young at `review`, cleared incumbent_name on 2026-GOV-MN, 2026-S-MN and 2026-H-MN-02. First run failed on the `id` column (generated); script fixed and rerun, idempotent.
 - Re-exported and rejoined: 24 of 25 linked (Kevin Dwire, a write-in, stays unlinked). Registry gaps now show the governor entries as `tip_entry_review`.
 - Open: promoting the governor entries to `active` is a separate owner approval.
+
+- 2026-10-31: owner approved promotion; the three governor entries (Klobuchar, Demuth, Young) are now `active` on TIP. Rows backed up first in the TIP repo (`docs/state-packets/backups/MN-governor-entries-before-promote-2026-10-31.json`); script `promote-mn-governor-entries.mjs`. Re-exported and rejoined; registry refreshed.

@@ -1,9 +1,6 @@
 llf_id,name,office,district,party,gap,action
-MN-G-demuth-lisa,Lisa Demuth,governor,,REP,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
 MN-G-demuth-lisa,Lisa Demuth,governor,,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
 MN-G-demuth-lisa,Lisa Demuth,governor,,REP,profile_unverified,Editor information only
-MN-G-klobuchar-amy,Amy Klobuchar,governor,,DEM,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
-MN-G-young-steven,Steven Young,governor,,GRN,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
 MN-G-young-steven,Steven Young,governor,,GRN,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
 MN-G-young-steven,Steven Young,governor,,GRN,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
 MN-G-young-steven,Steven Young,governor,,GRN,profile_unverified,Editor information only

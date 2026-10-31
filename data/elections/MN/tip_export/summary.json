@@ -1,6 +1,6 @@
 {
   "state": "MN",
-  "as_of_utc": "2026-10-31T20:01:55.700Z",
+  "as_of_utc": "2026-10-31T20:06:04.050Z",
   "counts": {
     "races": 11,
     "race_entries": 25,
@@ -16,8 +16,8 @@
     "money_signal_rows": 8
   },
   "entry_status": {
-    "review": 4,
-    "active": 21
+    "active": 24,
+    "review": 1
   },
   "entry_verification": {
     "National source only": 7,
