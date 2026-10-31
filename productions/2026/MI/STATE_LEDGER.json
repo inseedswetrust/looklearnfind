@@ -6,7 +6,7 @@
   "scope": "Governor, U.S. Senate, U.S. House",
   "updated": "2026-10-31",
   "updated_by": "claude",
-  "as_of_commit": "dce594c",
+  "as_of_commit": "d16b937",
   "headline": "Michigan hub, MI-A1 (Duggan) and the homepage tile are live (deployed 2026-10-31 on owner approval). MI-A3 and MI-A4 briefs are READY for ChatGPT drafts. The Michigan video is in assembly (separate Remotion workflow). A correction note for the Florida House spending article (totals changed by the double-count fix) is committed locally and not yet deployed. Five Michigan governor entries on TIP are still at review.",
   "paths": [
     "productions/2026/MI",
