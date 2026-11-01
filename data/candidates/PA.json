@@ -6,8 +6,8 @@
  "cycle": 2026,
  "built_from": {
   "roster_captured_at": "2026-11-01T00:00:00Z",
-  "candidates_as_of": "2026-11-01T15:39:27Z",
-  "tip_export_as_of": "2026-11-01T15:35:35.042Z"
+  "candidates_as_of": "2026-11-01T17:36:02Z",
+  "tip_export_as_of": "2026-11-01T17:35:42.935Z"
  },
  "roster": {
   "basis": "secondary",
@@ -41,11 +41,11 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/GOV-PA-GARRITY",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "needs_review",
     "entry_status": [
-     "review"
+     "active"
     ]
    },
    "tip_photo": true,
@@ -56,7 +56,6 @@
    },
    "llf_race_path": "/elections/2026/pennsylvania/governor/",
    "gaps": [
-    "tip_entry_review",
     "tip_links_missing",
     "profile_unverified"
    ],
@@ -90,11 +89,11 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/GOV-PA-KRAWCHUK",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "needs_review",
     "entry_status": [
-     "review"
+     "active"
     ]
    },
    "tip_photo": false,
@@ -105,7 +104,6 @@
    },
    "llf_race_path": "/elections/2026/pennsylvania/governor/",
    "gaps": [
-    "tip_entry_review",
     "tip_photo_missing",
     "tip_links_missing",
     "profile_unverified"
@@ -140,11 +138,11 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/GOV-PA-SHAPIRO",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "needs_review",
     "entry_status": [
-     "review"
+     "active"
     ]
    },
    "tip_photo": true,
@@ -155,7 +153,6 @@
    },
    "llf_race_path": "/elections/2026/pennsylvania/governor/",
    "gaps": [
-    "tip_entry_review",
     "profile_unverified"
    ],
    "coverage": [
@@ -188,7 +185,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA08277",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 5,
     "profile_status": "seed",
     "entry_status": [
@@ -233,7 +230,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA01181",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": null,
     "entry_status": [
@@ -280,7 +277,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA02205",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -323,7 +320,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4PA13199",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 5,
     "profile_status": "seed",
     "entry_status": [
@@ -366,7 +363,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA03369",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": null,
     "entry_status": [
@@ -411,7 +408,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA03203",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -454,7 +451,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8PA04116",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": "seed",
     "entry_status": [
@@ -497,7 +494,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA04169",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -540,7 +537,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA05216",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": null,
     "entry_status": [
@@ -585,7 +582,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8PA07200",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 5,
     "profile_status": null,
     "entry_status": [
@@ -630,7 +627,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8PA06087",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": "seed",
     "entry_status": [
@@ -673,7 +670,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA06156",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": null,
     "entry_status": [
@@ -718,7 +715,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA07188",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -761,7 +758,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8PA15195",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": null,
     "entry_status": [
@@ -806,7 +803,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4PA08124",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": "seed",
     "entry_status": [
@@ -849,7 +846,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA08293",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -892,7 +889,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8PA10147",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": null,
     "entry_status": [
@@ -937,7 +934,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA09127",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -980,7 +977,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2PA04135",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 5,
     "profile_status": "seed",
     "entry_status": [
@@ -1023,7 +1020,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4PA10104",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -1066,7 +1063,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA11099",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -1109,7 +1106,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA16320",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": "seed",
     "entry_status": [
@@ -1152,7 +1149,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4PA12068",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": null,
     "entry_status": [
@@ -1197,7 +1194,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2PA18200",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 6,
     "profile_status": "seed",
     "entry_status": [
@@ -1240,7 +1237,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H4PA13298",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -1283,7 +1280,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8PA13125",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": "seed",
     "entry_status": [
@@ -1326,7 +1323,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA14200",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [
@@ -1369,7 +1366,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8PA18199",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": "seed",
     "entry_status": [
@@ -1412,7 +1409,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA15181",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": null,
     "entry_status": [
@@ -1457,7 +1454,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H8PA05071",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": "seed",
     "entry_status": [
@@ -1500,7 +1497,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H0PA03271",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 4,
     "profile_status": null,
     "entry_status": [
@@ -1545,7 +1542,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA16379",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": null,
     "entry_status": [
@@ -1590,7 +1587,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H2PA17103",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 6,
     "profile_status": "seed",
     "entry_status": [
@@ -1633,7 +1630,7 @@
    "tip": {
     "url": "https://theissuesparty.org/candidates/H6PA17203",
     "http": 200,
-    "checked_at": "2026-11-01T15:39Z",
+    "checked_at": "2026-11-01T17:36Z",
     "graded_count": 0,
     "profile_status": "seed",
     "entry_status": [

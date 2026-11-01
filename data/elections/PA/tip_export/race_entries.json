@@ -1,23 +1,5 @@
 [
   {
-    "id": 1419,
-    "source_key": "2026-PA-GOVERNOR|Printed|Ken Krawchuk",
-    "race_key": "2026-GOV-PA",
-    "candidate_id": 8345,
-    "fec_candidate_id": "GOV-PA-KRAWCHUK",
-    "display_name": "Ken Krawchuk",
-    "party_label": "Libertarian",
-    "ballot_party_label": null,
-    "ballot_type": "printed",
-    "status": "review",
-    "verification_status": "National source only",
-    "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "checked_date": "2026-11-01",
-    "notes": "From the Green Papers Pennsylvania page; the Department of State list was not read. Not independently confirmed.",
-    "created_at": "2026-11-01T15:35:23.241+00:00",
-    "updated_at": "2026-11-01T15:35:23.241+00:00"
-  },
-  {
     "id": 1418,
     "source_key": "2026-PA-GOVERNOR|Printed|Stacy Garrity",
     "race_key": "2026-GOV-PA",
@@ -27,13 +9,31 @@
     "party_label": "Republican",
     "ballot_party_label": null,
     "ballot_type": "printed",
-    "status": "review",
+    "status": "active",
     "verification_status": "National source only",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
     "checked_date": "2026-11-01",
     "notes": "From the Green Papers Pennsylvania page; the Department of State list was not read. Not independently confirmed.",
     "created_at": "2026-11-01T15:35:23.241+00:00",
-    "updated_at": "2026-11-01T15:35:23.241+00:00"
+    "updated_at": "2026-11-01T17:35:36.807+00:00"
+  },
+  {
+    "id": 1419,
+    "source_key": "2026-PA-GOVERNOR|Printed|Ken Krawchuk",
+    "race_key": "2026-GOV-PA",
+    "candidate_id": 8345,
+    "fec_candidate_id": "GOV-PA-KRAWCHUK",
+    "display_name": "Ken Krawchuk",
+    "party_label": "Libertarian",
+    "ballot_party_label": null,
+    "ballot_type": "printed",
+    "status": "active",
+    "verification_status": "National source only",
+    "source_url": "https://www.thegreenpapers.com/G26/PA",
+    "checked_date": "2026-11-01",
+    "notes": "From the Green Papers Pennsylvania page; the Department of State list was not read. Not independently confirmed.",
+    "created_at": "2026-11-01T15:35:23.241+00:00",
+    "updated_at": "2026-11-01T17:35:36.807+00:00"
   },
   {
     "id": 1417,
@@ -45,13 +45,13 @@
     "party_label": "Democratic",
     "ballot_party_label": null,
     "ballot_type": "printed",
-    "status": "review",
+    "status": "active",
     "verification_status": "National source only",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
     "checked_date": "2026-11-01",
     "notes": "From the Green Papers Pennsylvania page; the Department of State list was not read. Not independently confirmed.",
     "created_at": "2026-11-01T15:35:23.241+00:00",
-    "updated_at": "2026-11-01T15:35:23.241+00:00"
+    "updated_at": "2026-11-01T17:35:36.807+00:00"
   },
   {
     "id": 1038,

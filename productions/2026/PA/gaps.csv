@@ -1,12 +1,9 @@
 llf_id,name,office,district,party,gap,action
-PA-G-garrity-stacy,Stacy Garrity,governor,,REP,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
 PA-G-garrity-stacy,Stacy Garrity,governor,,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
 PA-G-garrity-stacy,Stacy Garrity,governor,,REP,profile_unverified,Editor information only
-PA-G-krawchuk-ken,Ken Krawchuk,governor,,LIB,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
 PA-G-krawchuk-ken,Ken Krawchuk,governor,,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
 PA-G-krawchuk-ken,Ken Krawchuk,governor,,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
 PA-G-krawchuk-ken,Ken Krawchuk,governor,,LIB,profile_unverified,Editor information only
-PA-G-shapiro-josh,Josh Shapiro,governor,,DEM,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
 PA-G-shapiro-josh,Josh Shapiro,governor,,DEM,profile_unverified,Editor information only
 PA-H01-harvie-bob,Bob Harvie Jr.,house,1,DEM,profile_unverified,Editor information only
 PA-H03-mahoney-dennis,Dennis Mahoney,house,3,OTH,profile_unverified,Editor information only

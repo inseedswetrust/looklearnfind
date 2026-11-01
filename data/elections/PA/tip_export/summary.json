@@ -1,6 +1,6 @@
 {
   "state": "PA",
-  "as_of_utc": "2026-11-01T15:35:35.042Z",
+  "as_of_utc": "2026-11-01T17:35:42.935Z",
   "counts": {
     "races": 24,
     "race_entries": 41,
@@ -16,8 +16,8 @@
     "money_signal_rows": 18
   },
   "entry_status": {
-    "review": 5,
-    "active": 36
+    "active": 39,
+    "review": 2
   },
   "entry_verification": {
     "National source only": 8,
