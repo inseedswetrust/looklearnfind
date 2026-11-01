@@ -7,7 +7,7 @@
   "updated": "2026-11-01",
   "updated_by": "claude",
   "as_of_commit": "ac32892",
-  "headline": "Pennsylvania: data, pages and TIP governor entries done locally (not pushed, not live). Two READY story angles; Kimi articles and ChatGPT image requests next.",
+  "headline": "Pennsylvania built locally with homepage tile, governor and PA-01 articles and images. Fact-checked; waiting on owner sign-off and deploy approval. Nothing live.",
   "paths": [
     "productions/2026/PA",
     "data/elections/PA"
@@ -62,17 +62,17 @@
     {
       "id": "tile_image",
       "title": "State tile image returned and installed",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "article_draft",
       "title": "Articles drafted by ChatGPT",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "factcheck",
       "title": "Independent fact-check of used claims",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "publish",
@@ -94,7 +94,7 @@
         {
           "id": "PA-GOV-A",
           "title": "Pennsylvania governor: a 25-point Quinnipiac lead and a market near 0.98 for Shapiro: State of the Race (schema 01), 700 to 1,000 words",
-          "status": "ready",
+          "status": "fact_checked",
           "inputs": [
             "productions/2026/PA/package_src/stories/PA-GOV-A/STORY_BRIEF.md",
             "productions/2026/PA/package_src/stories/PA-GOV-A/CLAIMS.csv",
@@ -105,12 +105,12 @@
             "PA-GOV-A_CLAIMS.csv",
             "PA-GOV-A_NOTES.md"
           ],
-          "note": "Brief checked READY by story_brief_check.py on 2026-11-01."
+          "note": "Returned by Kimi, converted by Claude, independently fact-checked (subagent): fixes applied. Report: productions/2026/PA/qa/FACTCHECK_REPORT.md. Waiting on owner sign-off and deploy approval."
         },
         {
           "id": "PA-01-A",
           "title": "Pennsylvania's 1st: outside money for Fitzpatrick and two different Congressional Leadership Fund figures: State of the Race (schema 01), 700 to 1,000 words",
-          "status": "ready",
+          "status": "fact_checked",
           "inputs": [
             "productions/2026/PA/package_src/stories/PA-01-A/STORY_BRIEF.md",
             "productions/2026/PA/package_src/stories/PA-01-A/CLAIMS.csv",
@@ -121,7 +121,7 @@
             "PA-01-A_CLAIMS.csv",
             "PA-01-A_NOTES.md"
           ],
-          "note": "Brief checked READY by story_brief_check.py on 2026-11-01."
+          "note": "Returned by Kimi, converted by Claude, independently fact-checked (subagent): fixes applied. Report: productions/2026/PA/qa/FACTCHECK_REPORT.md. Waiting on owner sign-off and deploy approval."
         }
       ]
     },
@@ -132,7 +132,7 @@
         {
           "id": "PA-IMG-1",
           "title": "Three AI illustrations: s8-pennsylvania, pa-capitol, pa-01",
-          "status": "ready",
+          "status": "done",
           "inputs": [
             "productions/2026/PA/visuals/IMAGE_REQUEST.md"
           ],
@@ -141,7 +141,7 @@
             "pa-capitol.jpg",
             "pa-01.jpg"
           ],
-          "note": "Short prompt, matches the existing set."
+          "note": "Returned and installed: s8-pennsylvania, pa-capitol, pa-01."
         }
       ]
     }

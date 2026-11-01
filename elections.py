@@ -53,7 +53,7 @@ STATES = {
     "PA": dict(code="PA", name="Pennsylvania", slug="pennsylvania", ndist=17, asof="2026-11-01", record_label="Candidate listing (Green Papers)",
                source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; the Pennsylvania Department of State candidate list was not read, '
                             'so this roster is not an official or complete list; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
-               official=False, senate=False, primary="May 19, 2026", sen_note="", gov_hero=None,
+               official=False, senate=False, primary="May 19, 2026", sen_note="", gov_hero=("pa-capitol", "An AI illustration of the Pennsylvania State Capitol in Harrisburg"),
                poll_note="We have not yet opened an original pollster release for this race as of {asof}.", sen_poll_note=""),
 }
 SX = dict(STATES["FL"])

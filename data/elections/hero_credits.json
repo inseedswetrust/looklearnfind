@@ -166,5 +166,29 @@
     "source_page": "/about/",
     "file": "mn-01.jpg",
     "bytes": 271725
+  },
+  "s8-pennsylvania": {
+    "ai": true,
+    "credit": "AI illustration. Not a photograph of a real place or event.",
+    "license": "AI illustration",
+    "source_page": "/about/",
+    "file": "s8-pennsylvania.jpg",
+    "bytes": 349995
+  },
+  "pa-capitol": {
+    "ai": true,
+    "credit": "AI illustration. Not a photograph of a real place or event.",
+    "license": "AI illustration",
+    "source_page": "/about/",
+    "file": "pa-capitol.jpg",
+    "bytes": 342022
+  },
+  "pa-01": {
+    "ai": true,
+    "credit": "AI illustration. Not a photograph of a real place or event.",
+    "license": "AI illustration",
+    "source_page": "/about/",
+    "file": "pa-01.jpg",
+    "bytes": 346459
   }
 }

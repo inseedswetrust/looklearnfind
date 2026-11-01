@@ -60,7 +60,9 @@
     "tip_links_missing",
     "profile_unverified"
    ],
-   "coverage": []
+   "coverage": [
+    "pennsylvania-governor-poll-party-market-2026"
+   ]
   },
   {
    "llf_id": "PA-G-krawchuk-ken",
@@ -108,7 +110,9 @@
     "tip_links_missing",
     "profile_unverified"
    ],
-   "coverage": []
+   "coverage": [
+    "pennsylvania-governor-poll-party-market-2026"
+   ]
   },
   {
    "llf_id": "PA-G-shapiro-josh",
@@ -154,7 +158,9 @@
     "tip_entry_review",
     "profile_unverified"
    ],
-   "coverage": []
+   "coverage": [
+    "pennsylvania-governor-poll-party-market-2026"
+   ]
   },
   {
    "llf_id": "PA-H01-fitzpatrick-brian",
@@ -197,7 +203,9 @@
    },
    "llf_race_path": "/elections/2026/pennsylvania/house/1/",
    "gaps": [],
-   "coverage": []
+   "coverage": [
+    "pennsylvania-first-district-clf-spending-2026"
+   ]
   },
   {
    "llf_id": "PA-H01-harvie-bob",
@@ -242,7 +250,9 @@
    "gaps": [
     "profile_unverified"
    ],
-   "coverage": []
+   "coverage": [
+    "pennsylvania-first-district-clf-spending-2026"
+   ]
   },
   {
    "llf_id": "PA-H02-arriaga-jessica",
