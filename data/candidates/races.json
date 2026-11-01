@@ -88,6 +88,20 @@
   ]
  },
  {
+  "race_key": "2026-GOV-PA",
+  "state": "PA",
+  "office": "governor",
+  "district": null,
+  "llf_url": "/elections/2026/pennsylvania/governor/",
+  "tip_url": "https://theissuesparty.org/races/2026-GOV-PA",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-G-garrity-stacy",
+   "PA-G-krawchuk-ken",
+   "PA-G-shapiro-josh"
+  ]
+ },
+ {
   "race_key": "2026-H-FL-01",
   "state": "FL",
   "office": "house",
@@ -1527,6 +1541,227 @@
   "candidate_ids": [
    "NY-H26-hannon-dennis",
    "NY-H26-kennedy-timothy"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-01",
+  "state": "PA",
+  "office": "house",
+  "district": 1,
+  "llf_url": "/elections/2026/pennsylvania/house/1/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-01",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H01-fitzpatrick-brian",
+   "PA-H01-harvie-bob"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-02",
+  "state": "PA",
+  "office": "house",
+  "district": 2,
+  "llf_url": "/elections/2026/pennsylvania/house/2/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-02",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H02-arriaga-jessica",
+   "PA-H02-boyle-brendan"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-03",
+  "state": "PA",
+  "office": "house",
+  "district": 3,
+  "llf_url": "/elections/2026/pennsylvania/house/3/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-03",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H03-mahoney-dennis",
+   "PA-H03-rabb-chris"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-04",
+  "state": "PA",
+  "office": "house",
+  "district": 4,
+  "llf_url": "/elections/2026/pennsylvania/house/4/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-04",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H04-dean-madeleine",
+   "PA-H04-stuski-aurora"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-05",
+  "state": "PA",
+  "office": "house",
+  "district": 5,
+  "llf_url": "/elections/2026/pennsylvania/house/5/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-05",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H05-manganaro-nick",
+   "PA-H05-scanlon-mary"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-06",
+  "state": "PA",
+  "office": "house",
+  "district": 6,
+  "llf_url": "/elections/2026/pennsylvania/house/6/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-06",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H06-houlahan-chrissy",
+   "PA-H06-young-marty"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-07",
+  "state": "PA",
+  "office": "house",
+  "district": 7,
+  "llf_url": "/elections/2026/pennsylvania/house/7/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-07",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H07-brooks-bob",
+   "PA-H07-mackenzie-ryan"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-08",
+  "state": "PA",
+  "office": "house",
+  "district": 8,
+  "llf_url": "/elections/2026/pennsylvania/house/8/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-08",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H08-bresnahan-rob",
+   "PA-H08-cognetti-paige"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-09",
+  "state": "PA",
+  "office": "house",
+  "district": 9,
+  "llf_url": "/elections/2026/pennsylvania/house/9/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-09",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H09-meuser-dan",
+   "PA-H09-wallace-rachel"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-10",
+  "state": "PA",
+  "office": "house",
+  "district": 10,
+  "llf_url": "/elections/2026/pennsylvania/house/10/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-10",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H10-perry-scott",
+   "PA-H10-stelson-janelle"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-11",
+  "state": "PA",
+  "office": "house",
+  "district": 11,
+  "llf_url": "/elections/2026/pennsylvania/house/11/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-11",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H11-mannion-nancy",
+   "PA-H11-smucker-lloyd"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-12",
+  "state": "PA",
+  "office": "house",
+  "district": 12,
+  "llf_url": "/elections/2026/pennsylvania/house/12/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-12",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H12-hayes-james",
+   "PA-H12-lee-summer"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-13",
+  "state": "PA",
+  "office": "house",
+  "district": 13,
+  "llf_url": "/elections/2026/pennsylvania/house/13/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-13",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H13-farnham-beth",
+   "PA-H13-joyce-john"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-14",
+  "state": "PA",
+  "office": "house",
+  "district": 14,
+  "llf_url": "/elections/2026/pennsylvania/house/14/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-14",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H14-bradstock-ian",
+   "PA-H14-reschenthaler-guy"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-15",
+  "state": "PA",
+  "office": "house",
+  "district": 15,
+  "llf_url": "/elections/2026/pennsylvania/house/15/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-15",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H15-bilger-ray",
+   "PA-H15-thompson-glenn"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-16",
+  "state": "PA",
+  "office": "house",
+  "district": 16,
+  "llf_url": "/elections/2026/pennsylvania/house/16/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-16",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H16-kelly-mike",
+   "PA-H16-wagner-justin"
+  ]
+ },
+ {
+  "race_key": "2026-H-PA-17",
+  "state": "PA",
+  "office": "house",
+  "district": 17,
+  "llf_url": "/elections/2026/pennsylvania/house/17/",
+  "tip_url": "https://theissuesparty.org/races/2026-H-PA-17",
+  "roster_basis": "secondary",
+  "candidate_ids": [
+   "PA-H17-deluzio-chris",
+   "PA-H17-guy-tony"
   ]
  },
  {

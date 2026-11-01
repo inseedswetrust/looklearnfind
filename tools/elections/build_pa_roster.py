@@ -21,8 +21,24 @@ BULLET = "•"
 ny.CODES.update({"Independent": "IND"})
 
 
+SHORT = {"Madeleine Dean Cunnane": "Madeleine Dean", 'David Alan "lan" Bradstock': "Ian Bradstock", 'Glenn William "G.T." Thompson Jr.': "Glenn Thompson"}
+
+
+def short(name):
+    """Green Papers prints legal names; the site uses first or nickname plus last name (and a Jr. or III suffix)."""
+    if name in SHORT:
+        return SHORT[name]
+    m = re.match(r'^(.*?)\s*"([^"]+)"\s*(.*)$', name)
+    if m:
+        return f"{m.group(2)} {m.group(3)}".strip()
+    toks = name.split()
+    suf = [x for x in toks[1:] if x in ("Jr.", "III")]
+    core = [x for x in toks if x not in suf]
+    return " ".join([core[0], core[-1]] + suf) if len(core) > 2 else name
+
+
 def tidy(p):
-    p["name"] = p["name"].replace(", Jr.", " Jr.").replace(", III", " III")
+    p["name"] = short(p["name"].replace(", Jr.", " Jr.").replace(", III", " III"))
     p["state_account"] = re.sub(r"[^A-Za-z0-9._-]", "_", p["name"])
     return p
 
@@ -70,11 +86,8 @@ def main():
         by = {x["fec_candidate_id"]: x["display_name"] for x in rows if x.get("fec_candidate_id")}
         for x in [y for v in roster["house"].values() for y in v]:
             n = by.get(x["fec_candidate_id"]) if x["fec_candidate_id"] else None
-            if n:
-                if re.search(r"\d|:|Slogan|FEC|Ran for|Resident of", x["name"]) or not ({w for w in re.findall(r"[a-z]{3,}", x["name"].lower())} & {w for w in re.findall(r"[a-z]{3,}", n.lower())}):
-                    x["parsed_name_was"] = x["name"]
-                    x["name"], x["state_account"] = n, re.sub(r"[^A-Za-z0-9._-]", "_", n)
-                x["tip_name"] = n if n != x["name"] else None
+            if n:                                   # TIP display names are the short public forms; Green Papers prints legal names
+                x["tip_name"] = n
     out = ROOT / "data/elections/PA/roster.json"
     out.write_text(json.dumps(roster, indent=1, ensure_ascii=False), encoding="utf-8")
     print("wrote", out, len(roster["governor"]), "gov;", len(roster["house"]), "districts;", sum(len(v) for v in roster["house"].values()), "house rows")

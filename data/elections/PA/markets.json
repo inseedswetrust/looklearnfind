@@ -1,0 +1,726 @@
+{
+ "captured_at_utc": "2026-11-01T15:35:47Z",
+ "source": "Kalshi public API v2 (api.elections.kalshi.com)",
+ "races": {
+  "governor": {
+   "event_ticker": "GOVPARTYPA-26",
+   "title": "Pennsylvania Governor winner?",
+   "url": "https://kalshi.com/markets/govpartypa",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "GOVPARTYPA-26-D",
+     "title": "Will the Democratic party win the governorship in Pennsylvania",
+     "yes_label": "Josh Shapiro",
+     "no_label": "Josh Shapiro",
+     "status": "active",
+     "yes_bid": "0.9810",
+     "yes_ask": "0.9840",
+     "last": "0.9840",
+     "previous": "0.9740",
+     "volume": "343096.75",
+     "volume_24h": "12955.20",
+     "open_interest": "306475.42",
+     "rules": "If a representative of the Democratic party is inaugurated as the governor of Pennsylvania pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "GOVPARTYPA-26-R",
+     "title": "Will the Republican party win the governorship in Pennsylvania",
+     "yes_label": "Stacy Garrity",
+     "no_label": "Stacy Garrity",
+     "status": "active",
+     "yes_bid": "0.0180",
+     "yes_ask": "0.0210",
+     "last": "0.0220",
+     "previous": "0.0280",
+     "volume": "867457.10",
+     "volume_24h": "56348.19",
+     "open_interest": "677866.14",
+     "rules": "If a representative of the Republican party is inaugurated as the governor of Pennsylvania pursuant to the 2026 election, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-01": {
+   "event_ticker": "HOUSEPA1-26",
+   "title": "PA-01 House winner?",
+   "url": "https://kalshi.com/markets/housepa1",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSEPA1-26-D",
+     "title": "Will Democratic win the House race for PA-1?",
+     "yes_label": "Bob Harvie",
+     "no_label": "Bob Harvie",
+     "status": "active",
+     "yes_bid": "0.5200",
+     "yes_ask": "0.5300",
+     "last": "0.5300",
+     "previous": "0.5600",
+     "volume": "297320.67",
+     "volume_24h": "26374.24",
+     "open_interest": "213584.50",
+     "rules": "If the House member sworn in for PA-01 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSEPA1-26-R",
+     "title": "Will Republican win the House race for PA-1?",
+     "yes_label": "Brian Fitzpatrick",
+     "no_label": "Brian Fitzpatrick",
+     "status": "active",
+     "yes_bid": "0.4600",
+     "yes_ask": "0.4700",
+     "last": "0.4700",
+     "previous": "0.4500",
+     "volume": "131562.47",
+     "volume_24h": "724.45",
+     "open_interest": "89127.49",
+     "rules": "If the House member sworn in for PA-01 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-02": {
+   "event_ticker": "KXHOUSERACE-PA02-26",
+   "title": "PA-02 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA02-26-D",
+     "title": "Will Democratic win the House race for PA-02?",
+     "yes_label": "Brendan Boyle",
+     "no_label": "Brendan Boyle",
+     "status": "active",
+     "yes_bid": "0.9860",
+     "yes_ask": "0.9980",
+     "last": "0.9820",
+     "previous": "0.9820",
+     "volume": "57.00",
+     "volume_24h": "0.00",
+     "open_interest": "51.00",
+     "rules": "If the House member sworn in for PA-02 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA02-26-R",
+     "title": "Will Republican win the House race for PA-02?",
+     "yes_label": "Jessica Arriaga",
+     "no_label": "Jessica Arriaga",
+     "status": "active",
+     "yes_bid": "0.0020",
+     "yes_ask": "0.0070",
+     "last": "0.0060",
+     "previous": "0.0440",
+     "volume": "83.84",
+     "volume_24h": "75.84",
+     "open_interest": "83.84",
+     "rules": "If the House member sworn in for PA-02 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-03": {
+   "event_ticker": "KXHOUSERACE-PA03-26",
+   "title": "PA-03 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA03-26-D",
+     "title": "Will Democratic win the House race for PA-03?",
+     "yes_label": "Chris Rabb",
+     "no_label": "Chris Rabb",
+     "status": "active",
+     "yes_bid": "0.9590",
+     "yes_ask": "0.9900",
+     "last": "0.9590",
+     "previous": "0.9880",
+     "volume": "673.53",
+     "volume_24h": "184.50",
+     "open_interest": "459.51",
+     "rules": "If the House member sworn in for PA-03 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA03-26-R",
+     "title": "Will Republican win the House race for PA-03?",
+     "yes_label": "Republican party",
+     "no_label": "Republican party",
+     "status": "active",
+     "yes_bid": "0.0200",
+     "yes_ask": "0.0400",
+     "last": "0.0400",
+     "previous": "0.0270",
+     "volume": "964.63",
+     "volume_24h": "127.12",
+     "open_interest": "828.28",
+     "rules": "If the House member sworn in for PA-03 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-04": {
+   "event_ticker": "KXHOUSERACE-PA04-26",
+   "title": "PA-04 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA04-26-D",
+     "title": "Will Democratic win the House race for PA-04?",
+     "yes_label": "Madeleine Dean",
+     "no_label": "Madeleine Dean",
+     "status": "active",
+     "yes_bid": "0.9660",
+     "yes_ask": "0.9800",
+     "last": "0.9660",
+     "previous": "0.9800",
+     "volume": "1772.20",
+     "volume_24h": "100.00",
+     "open_interest": "1018.11",
+     "rules": "If the House member sworn in for PA-04 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA04-26-R",
+     "title": "Will Republican win the House race for PA-04?",
+     "yes_label": "Aurora Stuski",
+     "no_label": "Aurora Stuski",
+     "status": "active",
+     "yes_bid": "0.0110",
+     "yes_ask": "0.0340",
+     "last": "0.0340",
+     "previous": "0.0460",
+     "volume": "2462.36",
+     "volume_24h": "10.00",
+     "open_interest": "1005.36",
+     "rules": "If the House member sworn in for PA-04 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-05": {
+   "event_ticker": "KXHOUSERACE-PA05-26",
+   "title": "PA-05 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA05-26-D",
+     "title": "Will Democratic win the House race for PA-05?",
+     "yes_label": "Mary Gay Scanlon",
+     "no_label": "Mary Gay Scanlon",
+     "status": "active",
+     "yes_bid": "0.9780",
+     "yes_ask": "0.9960",
+     "last": "0.9940",
+     "previous": "0.9710",
+     "volume": "735.91",
+     "volume_24h": "5.02",
+     "open_interest": "657.05",
+     "rules": "If the House member sworn in for PA-05 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA05-26-R",
+     "title": "Will Republican win the House race for PA-05?",
+     "yes_label": "Nicholas Manganaro",
+     "no_label": "Nicholas Manganaro",
+     "status": "active",
+     "yes_bid": "0.0030",
+     "yes_ask": "0.0260",
+     "last": "0.0260",
+     "previous": "0.0270",
+     "volume": "1492.10",
+     "volume_24h": "25.00",
+     "open_interest": "983.94",
+     "rules": "If the House member sworn in for PA-05 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-06": {
+   "event_ticker": "KXHOUSERACE-PA06-26",
+   "title": "PA-06 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA06-26-D",
+     "title": "Will Democratic win the House race for PA-06?",
+     "yes_label": "Chrissy Houlahan",
+     "no_label": "Chrissy Houlahan",
+     "status": "active",
+     "yes_bid": "0.9760",
+     "yes_ask": "0.9950",
+     "last": "0.9800",
+     "previous": "0.9800",
+     "volume": "3015.62",
+     "volume_24h": "0.00",
+     "open_interest": "2887.00",
+     "rules": "If the House member sworn in for PA-06 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA06-26-R",
+     "title": "Will Republican win the House race for PA-06?",
+     "yes_label": "Marty Young",
+     "no_label": "Marty Young",
+     "status": "active",
+     "yes_bid": "0.0030",
+     "yes_ask": "0.0190",
+     "last": "0.0220",
+     "previous": "0.0360",
+     "volume": "4226.38",
+     "volume_24h": "6.00",
+     "open_interest": "3811.33",
+     "rules": "If the House member sworn in for PA-06 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-07": {
+   "event_ticker": "HOUSEPA7-26",
+   "title": "PA-07 House winner?",
+   "url": "https://kalshi.com/markets/housepa7",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSEPA7-26-D",
+     "title": "Will Democratic win the House race for PA-7?",
+     "yes_label": "Bob Brooks",
+     "no_label": "Bob Brooks",
+     "status": "active",
+     "yes_bid": "0.8600",
+     "yes_ask": "0.8700",
+     "last": "0.8600",
+     "previous": "0.8600",
+     "volume": "245125.87",
+     "volume_24h": "1020.50",
+     "open_interest": "79339.47",
+     "rules": "If the House member sworn in for PA-07 for the term beginning in 2027 is a member of the Democratic party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSEPA7-26-R",
+     "title": "Will Republican win the House race for PA-7?",
+     "yes_label": "Ryan Mackenzie",
+     "no_label": "Ryan Mackenzie",
+     "status": "active",
+     "yes_bid": "0.1300",
+     "yes_ask": "0.1400",
+     "last": "0.1400",
+     "previous": "0.1400",
+     "volume": "130712.78",
+     "volume_24h": "84.19",
+     "open_interest": "67396.88",
+     "rules": "If the House member sworn in for PA-07 for the term beginning in 2027 is a member of the Republican party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-08": {
+   "event_ticker": "HOUSEPA8-26",
+   "title": "PA-08 House winner?",
+   "url": "https://kalshi.com/markets/housepa8",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSEPA8-26-D",
+     "title": "Will Democratic win the House race for PA-8?",
+     "yes_label": "Paige Cognetti",
+     "no_label": "Paige Cognetti",
+     "status": "active",
+     "yes_bid": "0.8800",
+     "yes_ask": "0.8900",
+     "last": "0.8900",
+     "previous": "0.8800",
+     "volume": "105967.67",
+     "volume_24h": "19.61",
+     "open_interest": "51449.72",
+     "rules": "If the House member sworn in for PA-08 for the term beginning in 2027 is a member of the Democratic party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSEPA8-26-R",
+     "title": "Will Republican win the House race for PA-8?",
+     "yes_label": "Rob Bresnahan",
+     "no_label": "Rob Bresnahan",
+     "status": "active",
+     "yes_bid": "0.1200",
+     "yes_ask": "0.1300",
+     "last": "0.1300",
+     "previous": "0.1200",
+     "volume": "295485.17",
+     "volume_24h": "9470.32",
+     "open_interest": "128862.44",
+     "rules": "If the House member sworn in for PA-08 for the term beginning in 2027 is a member of the Republican party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-09": {
+   "event_ticker": "KXHOUSERACE-PA09-26",
+   "title": "PA-09 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA09-26-D",
+     "title": "Will Democratic win the House race for PA-09?",
+     "yes_label": "Rachel Wallace",
+     "no_label": "Rachel Wallace",
+     "status": "active",
+     "yes_bid": "0.0210",
+     "yes_ask": "0.0370",
+     "last": "0.0200",
+     "previous": "0.0370",
+     "volume": "4965.60",
+     "volume_24h": "735.14",
+     "open_interest": "3450.96",
+     "rules": "If the House member sworn in for PA-09 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA09-26-R",
+     "title": "Will Republican win the House race for PA-09?",
+     "yes_label": "Dan Meuser",
+     "no_label": "Dan Meuser",
+     "status": "active",
+     "yes_bid": "0.9620",
+     "yes_ask": "0.9700",
+     "last": "0.9640",
+     "previous": "0.9690",
+     "volume": "6009.51",
+     "volume_24h": "25.83",
+     "open_interest": "3874.29",
+     "rules": "If the House member sworn in for PA-09 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-10": {
+   "event_ticker": "HOUSEPA10-26",
+   "title": "PA-10 House winner?",
+   "url": "https://kalshi.com/markets/housepa10",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSEPA10-26-D",
+     "title": "Will Democratic win the House race for PA-10?",
+     "yes_label": "Janelle Stelson",
+     "no_label": "Janelle Stelson",
+     "status": "active",
+     "yes_bid": "0.8100",
+     "yes_ask": "0.8200",
+     "last": "0.8100",
+     "previous": "0.8100",
+     "volume": "43498.34",
+     "volume_24h": "1529.89",
+     "open_interest": "11424.73",
+     "rules": "If the House member sworn in for PA-10 for the term beginning in 2027 is a member of the Democratic party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSEPA10-26-R",
+     "title": "Will Republican win the House race for PA-10?",
+     "yes_label": "Scott Perry",
+     "no_label": "Scott Perry",
+     "status": "active",
+     "yes_bid": "0.1800",
+     "yes_ask": "0.1900",
+     "last": "0.1900",
+     "previous": "0.1800",
+     "volume": "26033.65",
+     "volume_24h": "219.19",
+     "open_interest": "14541.10",
+     "rules": "If the House member sworn in for PA-10 for the term beginning in 2027 is a member of the Republican party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-11": {
+   "event_ticker": "KXHOUSERACE-PA11-26",
+   "title": "PA-11 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA11-26-D",
+     "title": "Will Democratic win the House race for PA-11?",
+     "yes_label": "Nancy Mannion",
+     "no_label": "Nancy Mannion",
+     "status": "active",
+     "yes_bid": "0.0480",
+     "yes_ask": "0.0490",
+     "last": "0.0520",
+     "previous": "0.0520",
+     "volume": "4895.90",
+     "volume_24h": "0.00",
+     "open_interest": "2204.35",
+     "rules": "If the House member sworn in for PA-11 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA11-26-R",
+     "title": "Will Republican win the House race for PA-11?",
+     "yes_label": "Lloyd Smucker",
+     "no_label": "Lloyd Smucker",
+     "status": "active",
+     "yes_bid": "0.9530",
+     "yes_ask": "0.9590",
+     "last": "0.9540",
+     "previous": "0.9510",
+     "volume": "4440.95",
+     "volume_24h": "92.00",
+     "open_interest": "2469.90",
+     "rules": "If the House member sworn in for PA-11 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-12": {
+   "event_ticker": "KXHOUSERACE-PA12-26",
+   "title": "PA-12 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA12-26-D",
+     "title": "Will Democratic win the House race for PA-12?",
+     "yes_label": "Summer Lee",
+     "no_label": "Summer Lee",
+     "status": "active",
+     "yes_bid": "0.9730",
+     "yes_ask": "0.9880",
+     "last": "0.9890",
+     "previous": "0.9890",
+     "volume": "68186.87",
+     "volume_24h": "0.00",
+     "open_interest": "57056.71",
+     "rules": "If the House member sworn in for PA-12 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA12-26-R",
+     "title": "Will Republican win the House race for PA-12?",
+     "yes_label": "James Hayes",
+     "no_label": "James Hayes",
+     "status": "active",
+     "yes_bid": "0.0120",
+     "yes_ask": "0.0250",
+     "last": "0.0250",
+     "previous": "0.0300",
+     "volume": "3183.32",
+     "volume_24h": "108.23",
+     "open_interest": "2340.32",
+     "rules": "If the House member sworn in for PA-12 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-13": {
+   "event_ticker": "KXHOUSERACE-PA13-26",
+   "title": "PA-13 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA13-26-D",
+     "title": "Will Democratic win the House race for PA-13?",
+     "yes_label": "Beth Farnham",
+     "no_label": "Beth Farnham",
+     "status": "active",
+     "yes_bid": "0.0110",
+     "yes_ask": "0.0190",
+     "last": "0.0170",
+     "previous": "0.0210",
+     "volume": "1567.08",
+     "volume_24h": "39.06",
+     "open_interest": "767.41",
+     "rules": "If the House member sworn in for PA-13 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA13-26-R",
+     "title": "Will Republican win the House race for PA-13?",
+     "yes_label": "John Joyce",
+     "no_label": "John Joyce",
+     "status": "active",
+     "yes_bid": "0.9650",
+     "yes_ask": "0.9890",
+     "last": "0.9760",
+     "previous": "0.9760",
+     "volume": "736.89",
+     "volume_24h": "0.00",
+     "open_interest": "478.89",
+     "rules": "If the House member sworn in for PA-13 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-14": {
+   "event_ticker": "KXHOUSERACE-PA14-26",
+   "title": "PA-14 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA14-26-D",
+     "title": "Will Democratic win the House race for PA-14?",
+     "yes_label": "Alan Bradstock",
+     "no_label": "Alan Bradstock",
+     "status": "active",
+     "yes_bid": "0.0210",
+     "yes_ask": "0.0480",
+     "last": "0.0480",
+     "previous": "0.0490",
+     "volume": "2338.98",
+     "volume_24h": "58.54",
+     "open_interest": "1628.92",
+     "rules": "If the House member sworn in for PA-14 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA14-26-R",
+     "title": "Will Republican win the House race for PA-14?",
+     "yes_label": "Guy Reschenthaler",
+     "no_label": "Guy Reschenthaler",
+     "status": "active",
+     "yes_bid": "0.9520",
+     "yes_ask": "0.9690",
+     "last": "0.9600",
+     "previous": "0.9600",
+     "volume": "736.60",
+     "volume_24h": "0.00",
+     "open_interest": "623.60",
+     "rules": "If the House member sworn in for PA-14 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-15": {
+   "event_ticker": "KXHOUSERACE-PA15-26",
+   "title": "PA-15 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA15-26-D",
+     "title": "Will Democratic win the House race for PA-15?",
+     "yes_label": "Ray Bilger",
+     "no_label": "Ray Bilger",
+     "status": "active",
+     "yes_bid": "0.0400",
+     "yes_ask": "0.0450",
+     "last": "0.0460",
+     "previous": "0.0460",
+     "volume": "6531.74",
+     "volume_24h": "0.00",
+     "open_interest": "5299.21",
+     "rules": "If the House member sworn in for PA-15 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA15-26-R",
+     "title": "Will Republican win the House race for PA-15?",
+     "yes_label": "Glenn Thompson",
+     "no_label": "Glenn Thompson",
+     "status": "active",
+     "yes_bid": "0.9550",
+     "yes_ask": "0.9600",
+     "last": "0.9540",
+     "previous": "0.9540",
+     "volume": "9544.47",
+     "volume_24h": "0.00",
+     "open_interest": "8930.00",
+     "rules": "If the House member sworn in for PA-15 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-16": {
+   "event_ticker": "KXHOUSERACE-PA16-26",
+   "title": "PA-16 House winner?",
+   "url": "https://kalshi.com/markets/kxhouserace",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "KXHOUSERACE-PA16-26-D",
+     "title": "Will Democratic win the House race for PA-16?",
+     "yes_label": "Justin Wagner",
+     "no_label": "Justin Wagner",
+     "status": "active",
+     "yes_bid": "0.0600",
+     "yes_ask": "0.0680",
+     "last": "0.0600",
+     "previous": "0.0690",
+     "volume": "11155.87",
+     "volume_24h": "151.81",
+     "open_interest": "5129.22",
+     "rules": "If the House member sworn in for PA-16 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "KXHOUSERACE-PA16-26-R",
+     "title": "Will Republican win the House race for PA-16?",
+     "yes_label": "Mike Kelly",
+     "no_label": "Mike Kelly",
+     "status": "active",
+     "yes_bid": "0.9260",
+     "yes_ask": "0.9400",
+     "last": "0.9300",
+     "previous": "0.9490",
+     "volume": "4741.51",
+     "volume_24h": "134.33",
+     "open_interest": "1972.63",
+     "rules": "If the House member sworn in for PA-16 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  },
+  "house-17": {
+   "event_ticker": "HOUSEPA17-26",
+   "title": "PA-17 House winner?",
+   "url": "https://kalshi.com/markets/housepa17",
+   "mutually_exclusive": true,
+   "contracts": [
+    {
+     "ticker": "HOUSEPA17-26-D",
+     "title": "Will Democratic win the House race for PA-17?",
+     "yes_label": "Chris Deluzio",
+     "no_label": "Chris Deluzio",
+     "status": "active",
+     "yes_bid": "0.9610",
+     "yes_ask": "0.9740",
+     "last": "0.9600",
+     "previous": "0.9680",
+     "volume": "9872.49",
+     "volume_24h": "250.39",
+     "open_interest": "3461.26",
+     "rules": "If the House member sworn in for PA-17 for the term beginning in 2027 is a member of the Democratic Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    },
+    {
+     "ticker": "HOUSEPA17-26-R",
+     "title": "Will Republican win the House race for PA-17?",
+     "yes_label": "Tony Guy",
+     "no_label": "Tony Guy",
+     "status": "active",
+     "yes_bid": "0.0300",
+     "yes_ask": "0.0360",
+     "last": "0.0390",
+     "previous": "0.0430",
+     "volume": "7401.41",
+     "volume_24h": "10.00",
+     "open_interest": "3178.21",
+     "rules": "If the House member sworn in for PA-17 for the term beginning in 2027 is a member of the Republican Party, then the market resolves to Yes.",
+     "close_time": "2027-11-03T15:00:00Z"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,21 @@
+llf_id,name,office,district,party,gap,action
+PA-G-garrity-stacy,Stacy Garrity,governor,,REP,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+PA-G-garrity-stacy,Stacy Garrity,governor,,REP,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+PA-G-garrity-stacy,Stacy Garrity,governor,,REP,profile_unverified,Editor information only
+PA-G-krawchuk-ken,Ken Krawchuk,governor,,LIB,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+PA-G-krawchuk-ken,Ken Krawchuk,governor,,LIB,tip_photo_missing,Report only: TIP enrichment; LLF keeps no copy
+PA-G-krawchuk-ken,Ken Krawchuk,governor,,LIB,tip_links_missing,Report only: TIP enrichment; LLF keeps no copy
+PA-G-krawchuk-ken,Ken Krawchuk,governor,,LIB,profile_unverified,Editor information only
+PA-G-shapiro-josh,Josh Shapiro,governor,,DEM,tip_entry_review,"Owner promotes the entry from review to active, or re-export if already promoted"
+PA-G-shapiro-josh,Josh Shapiro,governor,,DEM,profile_unverified,Editor information only
+PA-H01-harvie-bob,Bob Harvie Jr.,house,1,DEM,profile_unverified,Editor information only
+PA-H03-mahoney-dennis,Dennis Mahoney,house,3,OTH,profile_unverified,Editor information only
+PA-H05-manganaro-nick,Nick Manganaro,house,5,REP,profile_unverified,Editor information only
+PA-H05-scanlon-mary,Mary Scanlon,house,5,DEM,profile_unverified,Editor information only
+PA-H06-young-marty,Marty Young,house,6,REP,profile_unverified,Editor information only
+PA-H07-mackenzie-ryan,Ryan Mackenzie,house,7,REP,profile_unverified,Editor information only
+PA-H09-meuser-dan,Dan Meuser,house,9,REP,profile_unverified,Editor information only
+PA-H12-hayes-james,James Hayes,house,12,REP,profile_unverified,Editor information only
+PA-H15-bilger-ray,Ray Bilger,house,15,DEM,profile_unverified,Editor information only
+PA-H16-kelly-mike,Mike Kelly Jr.,house,16,REP,profile_unverified,Editor information only
+PA-H16-wagner-justin,Justin Wagner,house,16,DEM,profile_unverified,Editor information only

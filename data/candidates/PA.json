@@ -1,0 +1,1644 @@
+{
+ "schema": 1,
+ "state": "PA",
+ "state_name": "Pennsylvania",
+ "state_slug": "pennsylvania",
+ "cycle": 2026,
+ "built_from": {
+  "roster_captured_at": "2026-11-01T00:00:00Z",
+  "candidates_as_of": "2026-11-01T15:39:27Z",
+  "tip_export_as_of": "2026-11-01T15:35:35.042Z"
+ },
+ "roster": {
+  "basis": "secondary",
+  "label": "Candidate listing (Green Papers)",
+  "limitations": "The state board's own candidate list could not be read, so this roster is transcribed from Green Papers and cross-checked against OpenFEC and TIP. It is not an official or certified list and may omit late changes."
+ },
+ "candidates": [
+  {
+   "llf_id": "PA-G-garrity-stacy",
+   "name": "Stacy Garrity",
+   "sort_name": "Garrity, Stacy",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-PA",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": "Jason L. Richey",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-PA-GARRITY",
+    "tip_slug": "GOV-PA-GARRITY"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-PA-GARRITY",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/governor/",
+   "gaps": [
+    "tip_entry_review",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-G-krawchuk-ken",
+   "name": "Ken Krawchuk",
+   "sort_name": "Krawchuk, Ken",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-PA",
+   "party": {
+    "code": "LIB",
+    "letter": "L",
+    "label": "Libertarian"
+   },
+   "incumbent": false,
+   "running_mate": "John C. Thomas",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-PA-KRAWCHUK",
+    "tip_slug": "GOV-PA-KRAWCHUK"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-PA-KRAWCHUK",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": false,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": null,
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/governor/",
+   "gaps": [
+    "tip_entry_review",
+    "tip_photo_missing",
+    "tip_links_missing",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-G-shapiro-josh",
+   "name": "Josh Shapiro",
+   "sort_name": "Shapiro, Josh",
+   "office": "governor",
+   "district": null,
+   "race_key": "2026-GOV-PA",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": "Austin Davis",
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "GOV-PA-SHAPIRO",
+    "tip_slug": "GOV-PA-SHAPIRO"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/GOV-PA-SHAPIRO",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "needs_review",
+    "entry_status": [
+     "review"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": null,
+    "website": "https://www.joshshapiro.org/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/governor/",
+   "gaps": [
+    "tip_entry_review",
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H01-fitzpatrick-brian",
+   "name": "Brian Fitzpatrick",
+   "sort_name": "Fitzpatrick, Brian",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-PA-01",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA08277",
+    "tip_slug": "H6PA08277"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA08277",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Brian_Fitzpatrick",
+    "website": "https://fitzpatrick.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/1/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H01-harvie-bob",
+   "name": "Bob Harvie Jr.",
+   "sort_name": "Harvie, Bob",
+   "office": "house",
+   "district": 1,
+   "race_key": "2026-H-PA-01",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA01181",
+    "tip_slug": "H6PA01181"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA01181",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Robert_Harvie",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/1/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H02-arriaga-jessica",
+   "name": "Jessica Arriaga",
+   "sort_name": "Arriaga, Jessica",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-PA-02",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA02205",
+    "tip_slug": "H6PA02205"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA02205",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Jessica_Arriaga",
+    "website": "https://www.instagram.com/jessicaarriaga4philly"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H02-boyle-brendan",
+   "name": "Brendan Boyle",
+   "sort_name": "Boyle, Brendan",
+   "office": "house",
+   "district": 2,
+   "race_key": "2026-H-PA-02",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4PA13199",
+    "tip_slug": "H4PA13199"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4PA13199",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Brendan_Boyle",
+    "website": "https://boyle.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/2/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H03-mahoney-dennis",
+   "name": "Dennis Mahoney",
+   "sort_name": "Mahoney, Dennis",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-PA-03",
+   "party": {
+    "code": "OTH",
+    "letter": "?",
+    "label": "The Independent Party"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA03369",
+    "tip_slug": "H6PA03369"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA03369",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Dennis_Mahoney",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/3/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H03-rabb-chris",
+   "name": "Chris Rabb",
+   "sort_name": "Rabb, Chris",
+   "office": "house",
+   "district": 3,
+   "race_key": "2026-H-PA-03",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA03203",
+    "tip_slug": "H6PA03203"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA03203",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Christopher_Rabb",
+    "website": "https://www.palegis.us/house/members/bio/1760/rep-rabb"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/3/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H04-dean-madeleine",
+   "name": "Madeleine Dean",
+   "sort_name": "Dean, Madeleine",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-PA-04",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8PA04116",
+    "tip_slug": "H8PA04116"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8PA04116",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Madeleine_Dean",
+    "website": "https://dean.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H04-stuski-aurora",
+   "name": "Aurora Stuski",
+   "sort_name": "Stuski, Aurora",
+   "office": "house",
+   "district": 4,
+   "race_key": "2026-H-PA-04",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA04169",
+    "tip_slug": "H6PA04169"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA04169",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Aurora_Stuski",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/4/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H05-manganaro-nick",
+   "name": "Nick Manganaro",
+   "sort_name": "Manganaro, Nick",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-PA-05",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA05216",
+    "tip_slug": "H6PA05216"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA05216",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Nicholas_Manganaro",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/5/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H05-scanlon-mary",
+   "name": "Mary Scanlon",
+   "sort_name": "Scanlon, Mary",
+   "office": "house",
+   "district": 5,
+   "race_key": "2026-H-PA-05",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8PA07200",
+    "tip_slug": "H8PA07200"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8PA07200",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 5,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Mary_Scanlon",
+    "website": "https://scanlon.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/5/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H06-houlahan-chrissy",
+   "name": "Chrissy Houlahan",
+   "sort_name": "Houlahan, Chrissy",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-PA-06",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8PA06087",
+    "tip_slug": "H8PA06087"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8PA06087",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Chrissy_Houlahan",
+    "website": "https://houlahan.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/6/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H06-young-marty",
+   "name": "Marty Young",
+   "sort_name": "Young, Marty",
+   "office": "house",
+   "district": 6,
+   "race_key": "2026-H-PA-06",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA06156",
+    "tip_slug": "H6PA06156"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA06156",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Martin_Young",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/6/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H07-brooks-bob",
+   "name": "Bob Brooks",
+   "sort_name": "Brooks, Bob",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-PA-07",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA07188",
+    "tip_slug": "H6PA07188"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA07188",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Bob_Brooks_%28Pennsylvania%29",
+    "website": "https://www.instagram.com/VoteBobBrooks"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/7/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H07-mackenzie-ryan",
+   "name": "Ryan Mackenzie",
+   "sort_name": "Mackenzie, Ryan",
+   "office": "house",
+   "district": 7,
+   "race_key": "2026-H-PA-07",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8PA15195",
+    "tip_slug": "H8PA15195"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8PA15195",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Ryan_MacKenzie",
+    "website": "https://mackenzie.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/7/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H08-bresnahan-rob",
+   "name": "Rob Bresnahan Jr.",
+   "sort_name": "Bresnahan, Rob",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-PA-08",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4PA08124",
+    "tip_slug": "H4PA08124"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4PA08124",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Rob_Bresnahan",
+    "website": "https://bresnahan.house.gov"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/8/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H08-cognetti-paige",
+   "name": "Paige Cognetti",
+   "sort_name": "Cognetti, Paige",
+   "office": "house",
+   "district": 8,
+   "race_key": "2026-H-PA-08",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA08293",
+    "tip_slug": "H6PA08293"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA08293",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Paige_Cognetti",
+    "website": "https://www.instagram.com/PaigeForPA/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/8/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H09-meuser-dan",
+   "name": "Dan Meuser",
+   "sort_name": "Meuser, Dan",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-PA-09",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8PA10147",
+    "tip_slug": "H8PA10147"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8PA10147",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Daniel_Meuser",
+    "website": "https://meuser.house.gov"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/9/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H09-wallace-rachel",
+   "name": "Rachel Wallace",
+   "sort_name": "Wallace, Rachel",
+   "office": "house",
+   "district": 9,
+   "race_key": "2026-H-PA-09",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA09127",
+    "tip_slug": "H6PA09127"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA09127",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Rachel_Wallace_%28Pennsylvania%29",
+    "website": "https://www.youtube.com/@wallace2026-l8f"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/9/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H10-perry-scott",
+   "name": "Scott Perry",
+   "sort_name": "Perry, Scott",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-PA-10",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2PA04135",
+    "tip_slug": "H2PA04135"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2PA04135",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 5,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Scott_Perry",
+    "website": "https://perry.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/10/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H10-stelson-janelle",
+   "name": "Janelle Stelson",
+   "sort_name": "Stelson, Janelle",
+   "office": "house",
+   "district": 10,
+   "race_key": "2026-H-PA-10",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4PA10104",
+    "tip_slug": "H4PA10104"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4PA10104",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Janelle_Stelson",
+    "website": "https://www.instagram.com/janellestelson"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/10/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H11-mannion-nancy",
+   "name": "Nancy Mannion",
+   "sort_name": "Mannion, Nancy",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-PA-11",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA11099",
+    "tip_slug": "H6PA11099"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA11099",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Nancy_Mannion",
+    "website": "https://www.instagram.com/nancymannionpa"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H11-smucker-lloyd",
+   "name": "Lloyd Smucker",
+   "sort_name": "Smucker, Lloyd",
+   "office": "house",
+   "district": 11,
+   "race_key": "2026-H-PA-11",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA16320",
+    "tip_slug": "H6PA16320"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA16320",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Lloyd_Smucker",
+    "website": "https://smucker.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/11/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H12-hayes-james",
+   "name": "James Hayes",
+   "sort_name": "Hayes, James",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-PA-12",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4PA12068",
+    "tip_slug": "H4PA12068"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4PA12068",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/James_Hayes",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/12/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H12-lee-summer",
+   "name": "Summer Lee",
+   "sort_name": "Lee, Summer",
+   "office": "house",
+   "district": 12,
+   "race_key": "2026-H-PA-12",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2PA18200",
+    "tip_slug": "H2PA18200"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2PA18200",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Summer_Lee",
+    "website": "https://summerlee.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/12/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H13-farnham-beth",
+   "name": "Beth Farnham",
+   "sort_name": "Farnham, Beth",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-PA-13",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H4PA13298",
+    "tip_slug": "H4PA13298"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H4PA13298",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Elizabeth_Farnham",
+    "website": ""
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/13/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H13-joyce-john",
+   "name": "John Joyce",
+   "sort_name": "Joyce, John",
+   "office": "house",
+   "district": 13,
+   "race_key": "2026-H-PA-13",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8PA13125",
+    "tip_slug": "H8PA13125"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8PA13125",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/John_Joyce_%28Pennsylvania%29",
+    "website": "https://johnjoyce.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/13/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H14-bradstock-ian",
+   "name": "Ian Bradstock",
+   "sort_name": "Bradstock, Ian",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-PA-14",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA14200",
+    "tip_slug": "H6PA14200"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA14200",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/David_Bradstock",
+    "website": "https://www.youtube.com/@BradstockforCongress"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/14/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H14-reschenthaler-guy",
+   "name": "Guy Reschenthaler",
+   "sort_name": "Reschenthaler, Guy",
+   "office": "house",
+   "district": 14,
+   "race_key": "2026-H-PA-14",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8PA18199",
+    "tip_slug": "H8PA18199"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8PA18199",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Guy_Reschenthaler",
+    "website": "https://reschenthaler.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/14/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H15-bilger-ray",
+   "name": "Ray Bilger",
+   "sort_name": "Bilger, Ray",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-PA-15",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA15181",
+    "tip_slug": "H6PA15181"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA15181",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Raymond_Bilger",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/15/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H15-thompson-glenn",
+   "name": "Glenn Thompson",
+   "sort_name": "Thompson, Glenn",
+   "office": "house",
+   "district": 15,
+   "race_key": "2026-H-PA-15",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H8PA05071",
+    "tip_slug": "H8PA05071"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H8PA05071",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Glenn_Thompson_%28Pennsylvania%29",
+    "website": "https://thompson.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/15/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H16-kelly-mike",
+   "name": "Mike Kelly Jr.",
+   "sort_name": "Kelly, Mike",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-PA-16",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H0PA03271",
+    "tip_slug": "H0PA03271"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H0PA03271",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 4,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/George_Kelly",
+    "website": "https://kelly.house.gov"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/16/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H16-wagner-justin",
+   "name": "Justin Wagner",
+   "sort_name": "Wagner, Justin",
+   "office": "house",
+   "district": 16,
+   "race_key": "2026-H-PA-16",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA16379",
+    "tip_slug": "H6PA16379"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA16379",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": null,
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Justin_Wagner",
+    "website": null
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/16/",
+   "gaps": [
+    "profile_unverified"
+   ],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H17-deluzio-chris",
+   "name": "Chris Deluzio",
+   "sort_name": "Deluzio, Chris",
+   "office": "house",
+   "district": 17,
+   "race_key": "2026-H-PA-17",
+   "party": {
+    "code": "DEM",
+    "letter": "D",
+    "label": "Democratic"
+   },
+   "incumbent": true,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H2PA17103",
+    "tip_slug": "H2PA17103"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H2PA17103",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 6,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Christopher_Deluzio",
+    "website": "https://deluzio.house.gov/"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/17/",
+   "gaps": [],
+   "coverage": []
+  },
+  {
+   "llf_id": "PA-H17-guy-tony",
+   "name": "Tony Guy",
+   "sort_name": "Guy, Tony",
+   "office": "house",
+   "district": 17,
+   "race_key": "2026-H-PA-17",
+   "party": {
+    "code": "REP",
+    "letter": "R",
+    "label": "Republican"
+   },
+   "incumbent": false,
+   "running_mate": null,
+   "ballot": {
+    "status": "qualified",
+    "write_in": false,
+    "note": null
+   },
+   "ids": {
+    "fec": "H6PA17203",
+    "tip_slug": "H6PA17203"
+   },
+   "tip": {
+    "url": "https://theissuesparty.org/candidates/H6PA17203",
+    "http": 200,
+    "checked_at": "2026-11-01T15:39Z",
+    "graded_count": 0,
+    "profile_status": "seed",
+    "entry_status": [
+     "active"
+    ]
+   },
+   "tip_photo": true,
+   "links": {
+    "state_record": "https://www.thegreenpapers.com/G26/PA",
+    "ballotpedia": "https://ballotpedia.org/Tony_Guy",
+    "website": "https://www.youtube.com/@TonyGuyforCongress"
+   },
+   "llf_race_path": "/elections/2026/pennsylvania/house/17/",
+   "gaps": [],
+   "coverage": []
+  }
+ ]
+}

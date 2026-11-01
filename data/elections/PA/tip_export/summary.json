@@ -1,11 +1,11 @@
 {
   "state": "PA",
-  "as_of_utc": "2026-11-01T15:27:17.583Z",
+  "as_of_utc": "2026-11-01T15:35:35.042Z",
   "counts": {
     "races": 24,
-    "race_entries": 38,
-    "candidate_rows": 169,
-    "fec_ids": 169,
+    "race_entries": 41,
+    "candidate_rows": 170,
+    "fec_ids": 170,
     "grade_rows": 85,
     "graded": 85,
     "candidates_with_any_grade": 22,
@@ -16,12 +16,12 @@
     "money_signal_rows": 18
   },
   "entry_status": {
-    "active": 36,
-    "review": 2
+    "review": 5,
+    "active": 36
   },
   "entry_verification": {
-    "Official candidate record checked": 33,
-    "National source only": 5
+    "National source only": 8,
+    "Official candidate record checked": 33
   },
   "race_verification": {
     "seed": 24
@@ -29,6 +29,6 @@
   "reconciliation": {
     "entries_without_candidate_row": 0,
     "entries_without_fec_id": 2,
-    "candidate_rows_not_in_race_entries": 133
+    "candidate_rows_not_in_race_entries": 131
   }
 }

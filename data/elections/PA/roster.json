@@ -62,7 +62,7 @@
  "house": {
   "1": [
    {
-    "name": "Robert J. \"Bob\" Harvie Jr.",
+    "name": "Bob Harvie Jr.",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -72,13 +72,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Robert_J.__Bob__Harvie_Jr.",
+    "state_account": "Bob_Harvie_Jr.",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Robert J. \"Bob\" Harvie Jr.",
     "fec_candidate_id": "H6PA01181"
    },
    {
-    "name": "Brian K. Fitzpatrick",
+    "name": "Brian Fitzpatrick",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -88,15 +88,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Brian_K._Fitzpatrick",
+    "state_account": "Brian_Fitzpatrick",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Brian K. Fitzpatrick",
     "fec_candidate_id": "H6PA08277"
    }
   ],
   "2": [
    {
-    "name": "Brendan F. Boyle",
+    "name": "Brendan Boyle",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -106,9 +106,9 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Brendan_F._Boyle",
+    "state_account": "Brendan_Boyle",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Brendan F. Boyle",
     "fec_candidate_id": "H4PA13199"
    },
    {
@@ -124,13 +124,13 @@
     "primary": "",
     "state_account": "Jessica_Arriaga",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Jessica Arriaga",
     "fec_candidate_id": "H6PA02205"
    }
   ],
   "3": [
    {
-    "name": "Christopher M. \"Chris\" Rabb",
+    "name": "Chris Rabb",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -140,13 +140,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Christopher_M.__Chris__Rabb",
+    "state_account": "Chris_Rabb",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Christopher M. \"Chris\" Rabb",
     "fec_candidate_id": "H6PA03203"
    },
    {
-    "name": "Dennis Joseph Mahoney",
+    "name": "Dennis Mahoney",
     "party_code": "OTH",
     "party": "The Independent Party",
     "ballot_lines": [
@@ -156,15 +156,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Dennis_Joseph_Mahoney",
+    "state_account": "Dennis_Mahoney",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Dennis Joseph Mahoney",
     "fec_candidate_id": "H6PA03369"
    }
   ],
   "4": [
    {
-    "name": "Madeleine Dean Cunnane",
+    "name": "Madeleine Dean",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -174,9 +174,9 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Madeleine_Dean_Cunnane",
+    "state_account": "Madeleine_Dean",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Madeleine Dean Cunnane",
     "fec_candidate_id": "H8PA04116"
    },
    {
@@ -192,13 +192,13 @@
     "primary": "",
     "state_account": "Aurora_Stuski",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Aurora Stuski",
     "fec_candidate_id": "H6PA04169"
    }
   ],
   "5": [
    {
-    "name": "Mary Gay Scanlon",
+    "name": "Mary Scanlon",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -208,13 +208,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Mary_Gay_Scanlon",
+    "state_account": "Mary_Scanlon",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Mary Gay Scanlon",
     "fec_candidate_id": "H8PA07200"
    },
    {
-    "name": "Nicholas Waln Morris \"Nick\" Manganaro",
+    "name": "Nick Manganaro",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -224,15 +224,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Nicholas_Waln_Morris__Nick__Manganaro",
+    "state_account": "Nick_Manganaro",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Nicholas Waln Morris \"Nick\" Manganaro",
     "fec_candidate_id": "H6PA05216"
    }
   ],
   "6": [
    {
-    "name": "Christina Jampoler \"Chrissy\" Houlahan",
+    "name": "Chrissy Houlahan",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -242,13 +242,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Christina_Jampoler__Chrissy__Houlahan",
+    "state_account": "Chrissy_Houlahan",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Christina Jampoler \"Chrissy\" Houlahan",
     "fec_candidate_id": "H8PA06087"
    },
    {
-    "name": "Martin \"Marty\" Young",
+    "name": "Marty Young",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -258,15 +258,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Martin__Marty__Young",
+    "state_account": "Marty_Young",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Martin \"Marty\" Young",
     "fec_candidate_id": "H6PA06156"
    }
   ],
   "7": [
    {
-    "name": "Robert R. \"Bob\" Brooks",
+    "name": "Bob Brooks",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -276,13 +276,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Robert_R.__Bob__Brooks",
+    "state_account": "Bob_Brooks",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Robert R. \"Bob\" Brooks",
     "fec_candidate_id": "H6PA07188"
    },
    {
-    "name": "Ryan Edward Mackenzie",
+    "name": "Ryan Mackenzie",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -292,15 +292,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Ryan_Edward_Mackenzie",
+    "state_account": "Ryan_Mackenzie",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Ryan Edward Mackenzie",
     "fec_candidate_id": "H8PA15195"
    }
   ],
   "8": [
    {
-    "name": "Paige Gebhardt Cognetti",
+    "name": "Paige Cognetti",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -310,13 +310,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Paige_Gebhardt_Cognetti",
+    "state_account": "Paige_Cognetti",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Paige Gebhardt Cognetti",
     "fec_candidate_id": "H6PA08293"
    },
    {
-    "name": "Robert Paul \"Rob\" Bresnahan Jr.",
+    "name": "Rob Bresnahan Jr.",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -326,15 +326,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Robert_Paul__Rob__Bresnahan_Jr.",
+    "state_account": "Rob_Bresnahan_Jr.",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Robert Paul \"Rob\" Bresnahan Jr.",
     "fec_candidate_id": "H4PA08124"
    }
   ],
   "9": [
    {
-    "name": "Rachel Lillian Wallace",
+    "name": "Rachel Wallace",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -344,13 +344,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Rachel_Lillian_Wallace",
+    "state_account": "Rachel_Wallace",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Rachel Lillian Wallace",
     "fec_candidate_id": "H6PA09127"
    },
    {
-    "name": "Daniel Philip \"Dan\" Meuser",
+    "name": "Dan Meuser",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -360,9 +360,9 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Daniel_Philip__Dan__Meuser",
+    "state_account": "Dan_Meuser",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Daniel Philip \"Dan\" Meuser",
     "fec_candidate_id": "H8PA10147"
    }
   ],
@@ -380,11 +380,11 @@
     "primary": "",
     "state_account": "Janelle_Stelson",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Janelle Stelson",
     "fec_candidate_id": "H4PA10104"
    },
    {
-    "name": "Scott G. Perry",
+    "name": "Scott Perry",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -394,15 +394,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Scott_G._Perry",
+    "state_account": "Scott_Perry",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Scott G. Perry",
     "fec_candidate_id": "H2PA04135"
    }
   ],
   "11": [
    {
-    "name": "Nancy Ellen Mannion",
+    "name": "Nancy Mannion",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -412,13 +412,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Nancy_Ellen_Mannion",
+    "state_account": "Nancy_Mannion",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Nancy Ellen Mannion",
     "fec_candidate_id": "H6PA11099"
    },
    {
-    "name": "Lloyd K. Smucker",
+    "name": "Lloyd Smucker",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -428,15 +428,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Lloyd_K._Smucker",
+    "state_account": "Lloyd_Smucker",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Lloyd K. Smucker",
     "fec_candidate_id": "H6PA16320"
    }
   ],
   "12": [
    {
-    "name": "Summer Lynn Lee",
+    "name": "Summer Lee",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -446,9 +446,9 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Summer_Lynn_Lee",
+    "state_account": "Summer_Lee",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Summer Lynn Lee",
     "fec_candidate_id": "H2PA18200"
    },
    {
@@ -464,13 +464,13 @@
     "primary": "",
     "state_account": "James_Hayes",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "James Hayes",
     "fec_candidate_id": "H4PA12068"
    }
   ],
   "13": [
    {
-    "name": "Elizabeth Rhoads \"Beth\" Farnham",
+    "name": "Beth Farnham",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -480,9 +480,9 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Elizabeth_Rhoads__Beth__Farnham",
+    "state_account": "Beth_Farnham",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Elizabeth Rhoads \"Beth\" Farnham",
     "fec_candidate_id": "H4PA13298"
    },
    {
@@ -498,13 +498,13 @@
     "primary": "",
     "state_account": "John_Joyce",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "John Joyce",
     "fec_candidate_id": "H8PA13125"
    }
   ],
   "14": [
    {
-    "name": "David Alan \"lan\" Bradstock",
+    "name": "Ian Bradstock",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -514,13 +514,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "David_Alan__lan__Bradstock",
+    "state_account": "Ian_Bradstock",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "David Alan \"lan\" Bradstock",
     "fec_candidate_id": "H6PA14200"
    },
    {
-    "name": "Guy Lorin Reschenthaler",
+    "name": "Guy Reschenthaler",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -530,15 +530,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Guy_Lorin_Reschenthaler",
+    "state_account": "Guy_Reschenthaler",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Guy Lorin Reschenthaler",
     "fec_candidate_id": "H8PA18199"
    }
   ],
   "15": [
    {
-    "name": "Raymond Allen \"Ray\" Bilger",
+    "name": "Ray Bilger",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -548,13 +548,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Raymond_Allen__Ray__Bilger",
+    "state_account": "Ray_Bilger",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Raymond Allen \"Ray\" Bilger",
     "fec_candidate_id": "H6PA15181"
    },
    {
-    "name": "Glenn William \"G.T.\" Thompson Jr.",
+    "name": "Glenn Thompson",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -564,15 +564,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Glenn_William__G.T.__Thompson_Jr.",
+    "state_account": "Glenn_Thompson",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Glenn William \"G.T.\" Thompson Jr.",
     "fec_candidate_id": "H8PA05071"
    }
   ],
   "16": [
    {
-    "name": "Justin Reed Wagner",
+    "name": "Justin Wagner",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -582,13 +582,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Justin_Reed_Wagner",
+    "state_account": "Justin_Wagner",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Justin Reed Wagner",
     "fec_candidate_id": "H6PA16379"
    },
    {
-    "name": "George Joseph \"Mike\" Kelly Jr.",
+    "name": "Mike Kelly Jr.",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -598,15 +598,15 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "George_Joseph__Mike__Kelly_Jr.",
+    "state_account": "Mike_Kelly_Jr.",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "George Joseph \"Mike\" Kelly Jr.",
     "fec_candidate_id": "H0PA03271"
    }
   ],
   "17": [
    {
-    "name": "Christopher Raphael \"Chris\" Deluzio",
+    "name": "Chris Deluzio",
     "party_code": "DEM",
     "party": "Democratic",
     "ballot_lines": [
@@ -616,13 +616,13 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Christopher_Raphael__Chris__Deluzio",
+    "state_account": "Chris_Deluzio",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Christopher Raphael \"Chris\" Deluzio",
     "fec_candidate_id": "H2PA17103"
    },
    {
-    "name": "Anthony G. \"Tony\" Guy",
+    "name": "Tony Guy",
     "party_code": "REP",
     "party": "Republican",
     "ballot_lines": [
@@ -632,9 +632,9 @@
     "running_mate": null,
     "status": "Qualified",
     "primary": "",
-    "state_account": "Anthony_G.__Tony__Guy",
+    "state_account": "Tony_Guy",
     "source_url": "https://www.thegreenpapers.com/G26/PA",
-    "tip_name": null,
+    "tip_name": "Anthony G. \"Tony\" Guy",
     "fec_candidate_id": "H6PA17203"
    }
   ]
