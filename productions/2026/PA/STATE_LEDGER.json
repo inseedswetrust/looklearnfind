@@ -3,11 +3,11 @@
   "state": "PA",
   "state_name": "Pennsylvania",
   "year": 2026,
-  "scope": "Governor, U.S. Senate, U.S. House",
+  "scope": "Governor and U.S. House (no U.S. Senate race in 2026)",
   "updated": "2026-11-01",
   "updated_by": "claude",
   "as_of_commit": "c99a468",
-  "headline": "Pennsylvania 2026 just initialized. Nothing is built.",
+  "headline": "Pennsylvania: data, pages and TIP governor entries done locally (not pushed, not live). Two READY story angles; Kimi articles and ChatGPT image requests next.",
   "paths": [
     "productions/2026/PA",
     "data/elections/PA"
@@ -17,47 +17,47 @@
     {
       "id": "roster",
       "title": "Roster reconciled to the official listing (or the best labeled source)",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "tip_join",
       "title": "TIP export and join",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "tip_gaps",
       "title": "TIP gap list shown to the owner; approved fixes applied",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "portraits",
       "title": "Portraits (licensed only; monograms otherwise)",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "markets",
       "title": "Kalshi markets",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "pages",
       "title": "State pages built locally (hub, governor, Senate, House directory, districts)",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "registry",
       "title": "Candidate registry built and validated (data/candidates/PA.json); gaps.csv reviewed",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "scout",
       "title": "Story Scout: ranked angles with READY or NOT_READY",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "image_briefs",
       "title": "Image briefs (state tile and story heroes)",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "tile_image",
@@ -90,12 +90,60 @@
     "articles": {
       "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
       "role": "Write the article drafts from Claude's briefs. Never fact-check your own draft. Never publish.",
-      "tasks": []
+      "tasks": [
+        {
+          "id": "PA-GOV-A",
+          "title": "Pennsylvania governor: a 25-point Quinnipiac lead and a market near 0.98 for Shapiro: State of the Race (schema 01), 700 to 1,000 words",
+          "status": "ready",
+          "inputs": [
+            "productions/2026/PA/package_src/stories/PA-GOV-A/STORY_BRIEF.md",
+            "productions/2026/PA/package_src/stories/PA-GOV-A/CLAIMS.csv",
+            "productions/2026/PA/package_src/LINK_MAP.md"
+          ],
+          "returns": [
+            "PA-GOV-A_*.html",
+            "PA-GOV-A_CLAIMS.csv",
+            "PA-GOV-A_NOTES.md"
+          ],
+          "note": "Brief checked READY by story_brief_check.py on 2026-11-01."
+        },
+        {
+          "id": "PA-01-A",
+          "title": "Pennsylvania's 1st: outside money for Fitzpatrick and two different Congressional Leadership Fund figures: State of the Race (schema 01), 700 to 1,000 words",
+          "status": "ready",
+          "inputs": [
+            "productions/2026/PA/package_src/stories/PA-01-A/STORY_BRIEF.md",
+            "productions/2026/PA/package_src/stories/PA-01-A/CLAIMS.csv",
+            "productions/2026/PA/package_src/LINK_MAP.md"
+          ],
+          "returns": [
+            "PA-01-A_*.html",
+            "PA-01-A_CLAIMS.csv",
+            "PA-01-A_NOTES.md"
+          ],
+          "note": "Brief checked READY by story_brief_check.py on 2026-11-01."
+        }
+      ]
     },
     "images": {
       "chat": "unrecorded (owner: record the title in docs/production/CHAT_REGISTRY.md)",
       "role": "Make illustrated images from the briefs. Match the existing set. Never make faces, readable text or campaign branding.",
-      "tasks": []
+      "tasks": [
+        {
+          "id": "PA-IMG-1",
+          "title": "Three AI illustrations: s8-pennsylvania, pa-capitol, pa-01",
+          "status": "ready",
+          "inputs": [
+            "productions/2026/PA/visuals/IMAGE_REQUEST.md"
+          ],
+          "returns": [
+            "s8-pennsylvania.jpg",
+            "pa-capitol.jpg",
+            "pa-01.jpg"
+          ],
+          "note": "Short prompt, matches the existing set."
+        }
+      ]
     }
   },
   "claude_tasks": [

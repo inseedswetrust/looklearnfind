@@ -1,0 +1,164 @@
+{
+ "scope": "Pennsylvania Governor and U.S. House, general election Nov 3 2026 (no U.S. Senate race)",
+ "as_of": "2026-11-01",
+ "angles": [
+  {
+   "id": "PA-GOV-A",
+   "working_title": "Pennsylvania governor: a 25-point Quinnipiac lead and a market near 0.98 for Shapiro",
+   "interesting_fact": "Quinnipiac's October 1-5 likely-voter poll had Gov. Josh Shapiro at 59% and Stacy Garrity at 34% (margin of error 3.9 points), and Kalshi's Democratic-party governor contract last traded at 0.984 on November 1.",
+   "state": "PA",
+   "office": "Governor",
+   "race_ids": [
+    "2026-GOV-PA"
+   ],
+   "candidate_ids": [
+    "GOV-PA-SHAPIRO",
+    "GOV-PA-GARRITY",
+    "GOV-PA-KRAWCHUK"
+   ],
+   "event_date": "2026-10-07",
+   "labelled_new": true,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "Quinnipiac University Poll",
+     "headline": "PA Governor's Race: Shapiro 59%, Garrity 34%",
+     "url": "https://poll.qu.edu/poll-release?releaseid=3970",
+     "date": "2026-10-07",
+     "opened": true
+    },
+    {
+     "role": "corroboration",
+     "publication": "City & State Pennsylvania",
+     "headline": "Quinnipiac poll: Shapiro-Garrity race looks like a rout",
+     "url": "https://www.cityandstatepa.com/politics/2026/10/quinnipiac-poll-shapiro-garrity-race-looks-rout/416473/",
+     "date": "2026-10-07",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Josh Shapiro",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/GOV-PA-SHAPIRO"
+    },
+    {
+     "candidate": "Stacy Garrity",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/GOV-PA-GARRITY"
+    }
+   ],
+   "financial_claims": [],
+   "synopsis": "Quinnipiac's October 7 release reports Shapiro at 59%, Garrity at 34%, Libertarian Ken Krawchuk at 2% and 4% undecided among 1,159 likely voters interviewed October 1 to 5 (margin of error 3.9 points including design effect). Shapiro's job approval was 63% to 30%. Quinnipiac says it is the first likely-voter poll of the cycle and cannot be compared with earlier registered-voter surveys (July: Shapiro 53%, Garrity 40%). The same poll found 54% to 39% favoring Democratic control of the U.S. House. Kalshi's governor event GOVPARTYPA-26, captured Nov 1 15:35 UTC, shows the Democratic-party contract at 0.984 last and the Republican-party contract at 0.022. A price is not a forecast. Neither governor candidate has a congressional record, so TIP shows all six issues Not graded.",
+   "unknowns": [
+    "Quinnipiac text read through a fetch summary; verify exact figures against the release",
+    "Other polls (PennLive/Bravo, SP&R) seen only in search results, not opened"
+   ],
+   "ready_to_write": true
+  },
+  {
+   "id": "PA-01-A",
+   "working_title": "Pennsylvania's 1st: outside money arrives for Fitzpatrick, and two reports give different Congressional Leadership Fund figures",
+   "interesting_fact": "The Inquirer reported on October 16 that the Congressional Leadership Fund redirected $3.6 million to help Rep. Brian Fitzpatrick against Bob Harvie, while Jewish Insider reported on October 17 that the group put $4.5 million into the race that week.",
+   "state": "PA",
+   "office": "U.S. House",
+   "race_ids": [
+    "2026-H-PA-01"
+   ],
+   "candidate_ids": [
+    "H6PA08277",
+    "H6PA01181"
+   ],
+   "event_date": "2026-10-16",
+   "labelled_new": true,
+   "sources": [
+    {
+     "role": "lead",
+     "publication": "The Philadelphia Inquirer",
+     "headline": "Fitzpatrick, Harvie and campaign finance (Sam Janesch)",
+     "url": "https://www.inquirer.com/politics/pennsylvania/brian-fitzpatrick-bob-harvie-pennsylvania-midterms-campaign-finance-20261016.html",
+     "date": "2026-10-16",
+     "opened": true
+    },
+    {
+     "role": "corroboration",
+     "publication": "Jewish Insider",
+     "headline": "RJC drops $400,000 to boost Brian Fitzpatrick in Pennsylvania swing district",
+     "url": "https://jewishinsider.com/2026/10/rjc-drops-400000-to-boost-brian-fitzpatrick-in-pennsylvania-swing-district/",
+     "date": "2026-10-17",
+     "opened": true
+    }
+   ],
+   "tip_grades": [
+    {
+     "candidate": "Brian Fitzpatrick",
+     "issue": "Data Bill of Rights",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H6PA08277"
+    },
+    {
+     "candidate": "Brian Fitzpatrick",
+     "issue": "War-Crime Accountability",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H6PA08277"
+    },
+    {
+     "candidate": "Brian Fitzpatrick",
+     "issue": "Congressional Stock Trading Ban",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/H6PA08277"
+    },
+    {
+     "candidate": "Brian Fitzpatrick",
+     "issue": "Universal Healthcare",
+     "grade": "A+",
+     "source_profile": "https://theissuesparty.org/candidates/H6PA08277"
+    },
+    {
+     "candidate": "Brian Fitzpatrick",
+     "issue": "US-Israel Military Merger",
+     "grade": "F-",
+     "source_profile": "https://theissuesparty.org/candidates/H6PA08277"
+    },
+    {
+     "candidate": "Bob Harvie",
+     "issue": "all six",
+     "grade": null,
+     "source_profile": "https://theissuesparty.org/candidates/H6PA01181"
+    }
+   ],
+   "financial_claims": [
+    {
+     "claim": "CLF redirected $3.6 million to boost Fitzpatrick; the DCCC began a nearly $1 million campaign for Harvie that week",
+     "source": "The Philadelphia Inquirer",
+     "period": "week of October 12-16, 2026",
+     "source_url": "https://www.inquirer.com/politics/pennsylvania/brian-fitzpatrick-bob-harvie-pennsylvania-midterms-campaign-finance-20261016.html",
+     "attributed_to": "The Philadelphia Inquirer"
+    },
+    {
+     "claim": "CLF put $4.5 million into the race this week, its first spending there since 2020; the RJC Victory Fund launched a $400,000 digital and streaming campaign",
+     "source": "Jewish Insider",
+     "period": "week of October 12-17, 2026",
+     "source_url": "https://jewishinsider.com/2026/10/rjc-drops-400000-to-boost-brian-fitzpatrick-in-pennsylvania-swing-district/",
+     "attributed_to": "Jewish Insider"
+    },
+    {
+     "claim": "Harvie raised about $888,000 and spent $962,000 from July 1 to Sept. 30, with $721,000 on hand Oct. 1; Fitzpatrick spent $5 million over the summer, mostly on advertising, with $2.4 million on hand",
+     "source": "The Philadelphia Inquirer, citing disclosures",
+     "period": "July 1 to September 30, 2026",
+     "source_url": "https://www.inquirer.com/politics/pennsylvania/brian-fitzpatrick-bob-harvie-pennsylvania-midterms-campaign-finance-20261016.html",
+     "attributed_to": "The Philadelphia Inquirer"
+    }
+   ],
+   "synopsis": "The Inquirer (Oct 16) reports the Congressional Leadership Fund redirected $3.6 million to Rep. Brian Fitzpatrick in his race against Democrat Bob Harvie, the DCCC began a nearly $1 million campaign for Harvie, and Fitzpatrick spent $5 million over the summer while Harvie raised about $888,000. Jewish Insider (Oct 17) puts CLF spending at $4.5 million that week, its first in the district since 2020, and adds a $400,000 Republican Jewish Coalition digital buy; it calls the seat one of two that Kamala Harris won in 2024 and a Republican holds, rated lean Republican by Cook. The figures differ and neither outlet explains why, so both are given with attribution and not added. Kalshi's PA-01 event (HOUSEPA1-26), captured Nov 1 15:35 UTC, shows the Democratic-party contract at 0.53 last. Fitzpatrick has TIP grades (A+ Stock Trading Ban and Universal Healthcare; F- Data Bill of Rights, War-Crime Accountability and US-Israel Military Merger); Harvie is not graded.",
+   "unknowns": [
+    "Why the CLF figures differ is not explained by either outlet",
+    "House Majority PAC $6.7 million reservation seen only in a search summary, not opened",
+    "No poll found"
+   ],
+   "ready_to_write": true
+  }
+ ]
+}

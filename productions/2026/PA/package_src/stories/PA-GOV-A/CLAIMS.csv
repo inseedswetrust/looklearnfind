@@ -1,0 +1,8 @@
+claim,text_location,source_url,source_date,checked_date,status
+"Quinnipiac's October 1-5 poll of 1,159 likely voters: Shapiro 59%, Garrity 34%, Krawchuk 2%, 4% undecided, 1% refused; margin of error 3.9 points including design effect",brief PA-GOV-A,https://poll.qu.edu/poll-release?releaseid=3970,2026-10-07,2026-11-01,ATTRIBUTED
+Shapiro's job approval 63% approve and 30% disapprove (Quinnipiac),brief PA-GOV-A,https://poll.qu.edu/poll-release?releaseid=3970,2026-10-07,2026-11-01,ATTRIBUTED
+Quinnipiac calls this its first likely-voter poll of the cycle and says it cannot be compared with earlier registered-voter surveys; its July registered-voter poll had Shapiro 53% and Garrity 40%,brief PA-GOV-A,https://poll.qu.edu/poll-release?releaseid=3970,2026-10-07,2026-11-01,NEEDS_CONTEXT
+54% of Pennsylvania likely voters favor Democratic control of the U.S. House and 39% favor Republican control (Quinnipiac),brief PA-GOV-A,https://poll.qu.edu/poll-release?releaseid=3970,2026-10-07,2026-11-01,ATTRIBUTED
+City & State Pennsylvania reported the poll as a race that 'looks like a rout' (a quote attributed there to the Quinnipiac poll's analyst),brief PA-GOV-A,https://www.cityandstatepa.com/politics/2026/10/quinnipiac-poll-shapiro-garrity-race-looks-rout/416473/,2026-10-07,2026-11-01,ATTRIBUTED
+"Kalshi GOVPARTYPA-26, captured 2026-11-01 15:35 UTC: Democratic-party contract last 0.984 (bid 0.981, ask 0.984); Republican-party contract last 0.022 (bid 0.018, ask 0.021). A price is not a forecast",brief PA-GOV-A,data/elections/PA/markets.json,2026-11-01,2026-11-01,ATTRIBUTED
+Shapiro and Garrity have no congressional record; TIP shows all six issues Not graded,brief PA-GOV-A,https://theissuesparty.org/candidates/GOV-PA-SHAPIRO,2026-11-01,2026-11-01,ATTRIBUTED
