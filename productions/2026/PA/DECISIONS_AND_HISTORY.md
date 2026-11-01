@@ -6,3 +6,4 @@
 - 2026-11-01 Story Scout: PA-GOV-A (Quinnipiac poll and market) and PA-01-A (outside money, with two differing CLF figures) are READY. Penn Capital-Star returned HTTP 403 and was not used.
 - 2026-11-01 Election Day is two days away; articles are written in the present tense and describe no results.
 - 2026-11-01 Kimi drafts (PA-GOV-A, PA-01-A) and ChatGPT images (s8-pennsylvania, pa-capitol, pa-01) ingested and installed; homepage tile, governor hero, hub and story entries added. Independent fact-check: both CLEARS_WITH_FIXES, fixes applied. Waiting on owner sign-off and deploy.
+- 2026-11-01 Owner signed off the fact-check and said deploy. Live: 27 of 27 URLs 200. Backup ~/backups/looklearnfind.com-pre-20261101.tgz.

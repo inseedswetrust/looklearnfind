@@ -7,7 +7,7 @@
   "updated": "2026-11-01",
   "updated_by": "claude",
   "as_of_commit": "bced978",
-  "headline": "Pennsylvania built locally with homepage tile, governor and PA-01 articles and images. Fact-checked; waiting on owner sign-off and deploy approval. Nothing live.",
+  "headline": "Pennsylvania live (hub, governor, House, 17 districts, 2 articles, 3 images, homepage tile). Video not started.",
   "paths": [
     "productions/2026/PA",
     "data/elections/PA"
@@ -77,7 +77,7 @@
     {
       "id": "publish",
       "title": "Deploy state pages, articles and tile",
-      "status": "todo"
+      "status": "done"
     },
     {
       "id": "video",
@@ -94,7 +94,7 @@
         {
           "id": "PA-GOV-A",
           "title": "Pennsylvania governor: a 25-point Quinnipiac lead and a market near 0.98 for Shapiro: State of the Race (schema 01), 700 to 1,000 words",
-          "status": "fact_checked",
+          "status": "published",
           "inputs": [
             "productions/2026/PA/package_src/stories/PA-GOV-A/STORY_BRIEF.md",
             "productions/2026/PA/package_src/stories/PA-GOV-A/CLAIMS.csv",
@@ -105,12 +105,12 @@
             "PA-GOV-A_CLAIMS.csv",
             "PA-GOV-A_NOTES.md"
           ],
-          "note": "Returned by Kimi, converted by Claude, independently fact-checked (subagent): fixes applied. Report: productions/2026/PA/qa/FACTCHECK_REPORT.md. Waiting on owner sign-off and deploy approval."
+          "note": "Fact-checked, owner signed off 2026-11-01, deployed 2026-11-01. Report: productions/2026/PA/qa/FACTCHECK_REPORT.md."
         },
         {
           "id": "PA-01-A",
           "title": "Pennsylvania's 1st: outside money for Fitzpatrick and two different Congressional Leadership Fund figures: State of the Race (schema 01), 700 to 1,000 words",
-          "status": "fact_checked",
+          "status": "published",
           "inputs": [
             "productions/2026/PA/package_src/stories/PA-01-A/STORY_BRIEF.md",
             "productions/2026/PA/package_src/stories/PA-01-A/CLAIMS.csv",
@@ -121,7 +121,7 @@
             "PA-01-A_CLAIMS.csv",
             "PA-01-A_NOTES.md"
           ],
-          "note": "Returned by Kimi, converted by Claude, independently fact-checked (subagent): fixes applied. Report: productions/2026/PA/qa/FACTCHECK_REPORT.md. Waiting on owner sign-off and deploy approval."
+          "note": "Fact-checked, owner signed off 2026-11-01, deployed 2026-11-01. Report: productions/2026/PA/qa/FACTCHECK_REPORT.md."
         }
       ]
     },
