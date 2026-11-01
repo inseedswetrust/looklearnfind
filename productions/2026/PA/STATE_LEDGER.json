@@ -6,7 +6,7 @@
   "scope": "Governor and U.S. House (no U.S. Senate race in 2026)",
   "updated": "2026-11-01",
   "updated_by": "claude",
-  "as_of_commit": "ac32892",
+  "as_of_commit": "bced978",
   "headline": "Pennsylvania built locally with homepage tile, governor and PA-01 articles and images. Fact-checked; waiting on owner sign-off and deploy approval. Nothing live.",
   "paths": [
     "productions/2026/PA",
