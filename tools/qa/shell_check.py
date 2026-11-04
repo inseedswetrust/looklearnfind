@@ -7,7 +7,7 @@
 
 Asserts per page and width (docs/design/LLF_GLOBAL_SHELL.md): one rail in the DOM, visible and fixed on desktop (>=901px) and hidden on mobile; one mobile bar,
 fixed and visible on mobile only; the page content is offset by the rail (no overlap); no horizontal scroll; the lit LOOK / LEARN / FIND word matches the route
-matrix; global search present and reachable; "/" focuses search but not while typing in a field; the Explore sheet opens and Escape closes it; no console errors.
+matrix; global search present and reachable; "/" focuses search but not while typing in a field; the mobile drawer opens on "/" and Escape closes it (full drawer behavior: tools/qa/drawer_check.py); no console errors.
 Exit code 1 on any failure. Needs `python3 build.py` to have produced dist/.
 """
 import argparse, json, subprocess, sys, threading, time, functools
@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 DIST = ROOT / "dist"
 WIDTHS = [1440, 1280, 1024, 900, 390, 320]
+SHOT_WIDTHS = (1440, 1024, 390, 320)
 # (path, expected lit mode, label). Mode matrix: docs/design/LLF_GLOBAL_SHELL.md
 PAGES = [
     ("/", "", "home"),
@@ -41,6 +42,8 @@ PAGES = [
     ("/search/", "", "search"),
     ("/about/", "", "about"),
     ("/privacy/", "", "legal"),
+    ("/account/", "", "account (shell on Ledger shells)"),
+    ("/admin/", "", "admin (shell on Ledger shells)"),
     ("/404.html", "", "404"),
 ]
 SHOTS = [("/", "homepage"), ("/elections/2026/pennsylvania/", "pennsylvania-hub"), ("/elections/2026/pennsylvania/house/1/", "race-page"),
@@ -99,22 +102,27 @@ def main():
                     const lit = [...q('.format-nav a[aria-current=page]')].map(a => a.textContent.trim().toLowerCase());
                     const word = document.body.getAttribute('data-format');
                     return {
-                      roots: q('[data-llf-global-shell]').length, rails: q('#llf-rail').length, bars: q('.mobile-bar').length, sheets: q('#explore-sheet').length,
+                      roots: q('[data-llf-global-shell]').length, rails: q('#llf-rail').length, bars: q('.mobile-bar').length, sheets: q('.explore-sheet, dialog').length,
                       railVisible: vis(rail), railPos: rail ? getComputedStyle(rail).position : '', railRect: rail ? rail.getBoundingClientRect().toJSON() : null,
                       barVisible: vis(bar), barPos: bar ? getComputedStyle(bar).position : '',
                       mainLeft: main ? main.getBoundingClientRect().left : null, bodyPad: parseFloat(getComputedStyle(document.body).paddingLeft),
                       scrollW: document.documentElement.scrollWidth, clientW: document.documentElement.clientWidth,
                       lit, word, search: q('input[name=q][type=search]').length, searchForm: !!document.querySelector('form[action="/search/"]'),
-                      oldRail: q('.llf-rail').length, h1: q('h1').length
+                      oldRail: q('.llf-rail').length, h1: q('h1').length,
+                      mastLinks: [...q('.mast .nav a')].map(a => a.getAttribute('href')), mastVisible: [...q('.mast .nav a')].every(vis),
+                      hasOutline: document.body.classList.contains('has-outline'), onpageVisible: [...q('.onpage')].some(vis)
                     };
                 }""")
                 if resp is None or (resp.status >= 400 and path != "/404.html"):
                     fail(f"HTTP {resp.status if resp else 'none'}")
                 if info["roots"] != 1: fail(f"{info['roots']} shell roots")
                 if info["rails"] != 1: fail(f"{info['rails']} rails")
-                if info["bars"] != 1 or info["sheets"] != 1: fail(f"{info['bars']} mobile bars, {info['sheets']} sheets")
+                if info["bars"] != 1 or info["sheets"] != 0: fail(f"{info['bars']} mobile bars, {info['sheets']} legacy sheets (the rail is the drawer)")
+                if info["mastLinks"] != ["/search/", "/account/"]: fail(f"mast links {info['mastLinks']} (expected search and account only)")
+                if w >= 901 and (not info["mastVisible"]): fail("mast search and account not visible on desktop")
+                if w >= 901 and info["hasOutline"] and info["onpageVisible"]: fail("in-content outline still visible beside the rail outline")
                 if info["oldRail"] != 1: fail(f"{info['oldRail']} elements with class llf-rail (a second rail?)")
-                if info["search"] < 2 or not info["searchForm"]: fail("global search missing")
+                if info["search"] < 1 or not info["searchForm"]: fail("global search missing")
                 if w >= 901:
                     if not info["railVisible"] or info["railPos"] != "fixed": fail(f"desktop rail not visible and fixed (visible={info['railVisible']}, position={info['railPos']})")
                     if info["barVisible"]: fail("mobile bar visible on desktop")
@@ -137,12 +145,12 @@ def main():
                 page.evaluate("window.scrollTo(0, 0)")
                 if errs: fail("console errors: " + "; ".join(errs[:3]))
                 checks += 1
-                if w in (1440, 390) and args.shots and any(path == p for p, _ in SHOTS):
+                if w in SHOT_WIDTHS and args.shots and any(path == p for p, _ in SHOTS):
                     out = Path(args.shots); out.mkdir(parents=True, exist_ok=True)
                     name = dict(SHOTS)[path]
-                    kind = "desktop" if w >= 901 else "mobile"
-                    page.screenshot(path=str(out / f"{name}-{kind}.png"))
-                    page.screenshot(path=str(out / f"{name}-{kind}-full.png"), full_page=True)
+                    page.screenshot(path=str(out / f"{name}-{w}.png"))
+                    if w in (1440, 390):
+                        page.screenshot(path=str(out / f"{name}-{w}-full.png"), full_page=True)
                 page.close()
             # interaction checks once per width on the article
             page = ctx.new_page()
@@ -150,16 +158,16 @@ def main():
             page.wait_for_timeout(150)
             page.keyboard.press("/")
             focused = page.evaluate("document.activeElement && document.activeElement.id")
-            want = "llf-site-search" if w >= 901 else "llf-mobile-search"
+            want = "llf-site-search"
             if focused != want: fails.append(f"{w}px: '/' focused {focused!r}, expected {want!r}")
             page.keyboard.type("/x")
             val = page.evaluate("document.activeElement.value")
             if val != "/x": fails.append(f"{w}px: '/' was captured while typing in a field (value {val!r})")
             if w < 901:
-                if not page.evaluate("document.getElementById('explore-sheet').open"): fails.append(f"{w}px: Explore sheet did not open with '/'")
+                if not page.evaluate("document.getElementById('llf-rail').classList.contains('is-open')"): fails.append(f"{w}px: the drawer did not open with '/'")
                 page.keyboard.press("Escape")          # first Escape clears a search field in most browsers; the next closes the dialog
-                if page.evaluate("document.getElementById('explore-sheet').open"): page.keyboard.press("Escape")
-                if page.evaluate("document.getElementById('explore-sheet').open"): fails.append(f"{w}px: Escape did not close the Explore sheet")
+                if page.evaluate("document.getElementById('llf-rail').classList.contains('is-open')"): page.keyboard.press("Escape")
+                if page.evaluate("document.getElementById('llf-rail').classList.contains('is-open')"): fails.append(f"{w}px: Escape did not close the drawer")
             page.close()
             ctx.close()
         browser.close()

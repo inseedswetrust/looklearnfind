@@ -35,20 +35,37 @@ class ShellInBuiltSite(unittest.TestCase):
                 bad.append(rel)
         self.assertEqual(bad, [], "pages without exactly one shared shell root")
 
-    def test_one_rail_one_mobile_bar_one_sheet_everywhere(self):
+    def test_one_rail_that_is_also_the_drawer_everywhere(self):
         for rel, h in self.pages.items():
             with self.subTest(page=rel):
                 self.assertEqual(h.count('id="llf-rail"'), 1)
                 self.assertEqual(h.count('class="mobile-bar"'), 1)
-                self.assertEqual(h.count('id="explore-sheet"'), 1)
+                self.assertNotIn('id="explore-sheet"', h)                       # the old full-screen Explore sheet is gone
+                self.assertEqual(h.count('class="nav-open"'), 1)
+                trig = re.search(r'<a class="nav-open"[^>]*>', h).group(0)
+                for attr in ('aria-controls="llf-rail"', 'aria-expanded="false"', 'aria-label="Open navigation"', 'href="#llf-rail"'):
+                    self.assertIn(attr, trig)
+                self.assertEqual(h.count('class="drawer-close"'), 1)
+                self.assertEqual(h.count('class="drawer-backdrop"'), 1)
+                rail = re.search(r'<aside class="llf-rail".*?</aside>', h, re.S).group(0)
+                # drawer order: brand, modes, search, browse, (context), utility links
+                idx = [rail.find(x) for x in ('class="brand brand-large"', 'class="format-nav"', 'class="rail-search"', 'class="rail-browse"', 'class="rail-bottom"')]
+                self.assertEqual(idx, sorted(idx))
+                self.assertTrue(all(i >= 0 for i in idx))
+
+    def test_mobile_bar_has_no_second_navigation(self):
+        for rel, h in self.pages.items():
+            with self.subTest(page=rel):
+                bar = re.search(r'<div class="mobile-bar".*?</div></div>|<div class="mobile-bar".*?</a></div>', h, re.S).group(0)
+                self.assertEqual(sorted(set(re.findall(r'href="([^"]+)"', bar))), ["#llf-rail", "/"])
 
     def test_global_search_everywhere(self):
         for rel, h in self.pages.items():
             with self.subTest(page=rel):
                 self.assertIn('action="/search/"', h)
-                self.assertGreaterEqual(h.count('type="search"'), 2)     # rail and Explore sheet (some pages carry a third page-level search)
-                self.assertIn('id="llf-site-search"', h)
-                self.assertIn('id="llf-mobile-search"', h)
+                self.assertGreaterEqual(h.count('type="search"'), 1)     # the one rail/drawer search (some pages carry a page-level search too)
+                self.assertEqual(h.count('id="llf-site-search"'), 1)
+                self.assertNotIn('id="llf-mobile-search"', h)
 
     def test_browse_links_are_the_same_on_every_page(self):
         def browse(h):
@@ -94,16 +111,73 @@ class ShellInBuiltSite(unittest.TestCase):
                 self.assertIn("/css/shell.css", h)
                 self.assertIn("/js/shell.js", h)
 
-    def test_stories_carry_the_lens_and_recommendations_in_the_one_rail(self):
+    def test_expired_recommendations_are_hidden_everywhere(self):
+        import sidebar
+        self.assertFalse(sidebar.recommendations_current())          # data/discovery.json recommendations.current_ids is empty after the pre-election review
+        for rel, h in self.pages.items():
+            with self.subTest(page=rel):
+                for needle in ("Along this thread", "On our radar", "data-recs", "data-context=", "data-state-select"):
+                    self.assertNotIn(needle, h)
+
+    def test_story_context_is_state_picker_outline_and_source_link(self):
         h = self.pages["learn/pennsylvania-governor-poll-party-market-2026/index.html"]
-        self.assertIn('data-context="pennsylvania-governor-poll-party-market-2026"', h)
-        self.assertIn("data-state-select", h)
-        self.assertIn("data-recs", h)
-        # and a non-story page has the state picker (political pages) but no lens
+        rail = re.search(r'<aside class="llf-rail".*?</aside>', h, re.S).group(0)
+        self.assertIn("data-state-nav-select", rail)
+        self.assertIn('class="context-nav"', rail)
+        self.assertIn("data-outline", rail)
+        self.assertIn('href="#sources"', rail)
         hub = self.pages["elections/2026/pennsylvania/index.html"]
         self.assertIn("data-state-nav-select", hub)
-        self.assertNotIn("data-state-select", hub)
         self.assertNotIn("data-state-nav", self.pages["economy/index.html"])     # the state picker is contextual: political pages only
+
+    def test_election_pages_get_stable_section_ids_and_a_rail_outline(self):
+        for rel in ("elections/2026/pennsylvania/index.html", "elections/2026/pennsylvania/governor/index.html", "elections/2026/pennsylvania/house/index.html",
+                    "elections/2026/minnesota/senate/index.html", "elections/2026/florida/index.html"):
+            with self.subTest(page=rel):
+                h = self.pages[rel]
+                main = re.search(r'<main id="main">(.*?)</main>', h, re.S).group(1)
+                for attrs in re.findall(r"<h2([^>]*)>", main):
+                    self.assertRegex(attrs, r'\sid="[a-z0-9-]+"')               # every h2 has an id from the generator
+                rail = re.search(r'<aside class="llf-rail".*?</aside>', h, re.S).group(0)
+                targets = re.findall(r'<li><a href="#([^"]+)">', rail)
+                self.assertGreaterEqual(len(targets), 2)
+                for tgt in targets:
+                    self.assertIn(f'id="{tgt}"', main)                              # every outline link has a target
+
+    def test_mast_carries_only_search_and_account(self):
+        for rel, h in self.pages.items():
+            with self.subTest(page=rel):
+                mast = re.search(r'<header class="mast[^"]*">.*?</header>', h, re.S).group(0)
+                self.assertNotIn('class="menu-btn"', mast)
+                nav = re.search(r'<nav class="nav".*?</nav>', mast, re.S).group(0)
+                self.assertEqual(re.findall(r'href="([^"]+)"', nav), ["/search/", "/account/"])
+                for topic in ("/politics/", "/economy/", "/society/", "/everyday-life/", "/topics/", "/latest/"):
+                    self.assertNotIn(f'href="{topic}"', mast)
+
+    def test_search_and_browse_are_in_the_rail_on_every_section(self):
+        for rel in ("economy/index.html", "society/index.html", "find/index.html", "look/index.html", "elections/2026/pennsylvania/index.html", "index.html"):
+            with self.subTest(page=rel):
+                h = self.pages[rel]
+                rail = re.search(r'<aside class="llf-rail".*?</aside>', h, re.S).group(0)
+                self.assertIn('action="/search/"', rail)
+                for topic in ("/politics/", "/economy/", "/society/", "/everyday-life/", "/topics/", "/latest/"):
+                    self.assertIn(f'href="{topic}"', rail)
+
+    def test_in_content_outline_is_consolidated_into_the_rail_without_removing_it(self):
+        for rel in ("learn/pennsylvania-governor-poll-party-market-2026/index.html", "elections/2026/pennsylvania/house/1/index.html"):
+            with self.subTest(page=rel):
+                h = self.pages[rel]
+                self.assertRegex(h, r'<body class="[^"]*has-outline')
+                content = re.search(r'<nav class="onpage".*?</nav>', h, re.S).group(0)       # still in the page (mobile, print, no CSS)
+                content_targets = re.findall(r'href="#([^"]+)"', content)
+                rail = re.search(r'<details class="outline" data-outline[^>]*>.*?</details>', re.search(r'<aside class="llf-rail".*?</aside>', h, re.S).group(0), re.S).group(0)
+                self.assertEqual(re.findall(r'href="#([^"]+)"', rail), content_targets)       # same anchors, nothing lost
+                self.assertIn("open", re.match(r'<details[^>]*>', rail).group(0))            # starts open on desktop
+
+    def test_article_content_and_citations_are_untouched(self):
+        h = self.pages["learn/pennsylvania-governor-poll-party-market-2026/index.html"]
+        for needle in ('id="source-1"', 'id="source-6"', "Open file", "Updates and corrections", "https://poll.qu.edu/poll-release?releaseid=3970"):
+            self.assertIn(needle, h)
 
     def test_skip_link_and_landmarks(self):
         for rel, h in self.pages.items():
@@ -172,8 +246,11 @@ class ShellAssertion(unittest.TestCase):
 
     def test_duplicate_shell_is_reported(self):
         shell, _ = shared_nav.render(path="/x/", site_nav=[{"key": "politics", "label": "Politics", "href": "/politics/"}], active="", mode="", hubs={}, states={})
-        self.assertEqual(shared_nav.check_pages({"/ok/": shell}), [])
-        self.assertTrue(shared_nav.check_pages({"/dup/": shell + shell}))
+        import build
+        page = build.mast_html() + shell
+        self.assertEqual(shared_nav.check_pages({"/ok/": page}), [])
+        self.assertTrue(shared_nav.check_pages({"/dup/": page + shell}))
+        self.assertTrue(shared_nav.check_pages({"/fatmast/": page.replace('href="/account/"', 'href="/economy/"')}))   # a mast that repeats a topic link or drops account is reported
 
     def test_strict_build_runs_the_assertion(self):
         src = (ROOT / "build.py").read_text(encoding="utf-8")

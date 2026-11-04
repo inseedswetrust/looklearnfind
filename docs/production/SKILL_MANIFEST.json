@@ -42,8 +42,8 @@
    "name": "llf-election-render",
    "version": "1.1.1",
    "path": ".claude/skills/llf-election-render/SKILL.md",
-   "bytes": 3138,
-   "sha256_16": "d4b20dd1050eed8a",
+   "bytes": 3176,
+   "sha256_16": "ea70d04e802208b2",
    "description": "Render election articles and pages with the existing LLF components (elections.py, layout report, data macros, charts, candidate cards, district maps, responsive checks). Use when turning approved copy and mockups into built pages or when a component needs changing.",
    "legacy_alias": false
   },

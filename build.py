@@ -263,6 +263,14 @@ def nav_html(active):
     return "".join(out)
 
 
+def mast_html():
+    """Slim mast used with the global shell: the rail is the primary navigation, so the mast repeats no topic links. It keeps search and account access."""
+    return ('<header class="mast mast-slim"><div class="wrap">'
+            '<a class="logo" href="/" aria-label="LookLearnFind home"><img src="/img/logo-cream.png" alt="LOOK LEARN FIND 01" width="1040" height="701"></a>'
+            '<nav class="nav" id="nav" aria-label="Search and account"><a class="mag" href="/search/" aria-label="Search LookLearnFind"><span aria-hidden="true">&#8981;</span><span class="mag-label">Search</span></a>'
+            '<a class="acct" href="/account/" data-acct>Sign in</a></nav></div></header>')
+
+
 def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False, illustrative=False, bodyclass="", lead="", sitemap=True, jsonld="", rail=None, mode=None):
     canonical = CFG["url"] + path
     seo = SEO.get(path.rstrip("/") or "/")
@@ -279,7 +287,9 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
     if GLOBAL_SHELL:
         # One shared shell for every page: nothing below this point may add a rail, dock or sheet of its own.
         article = None
-        toc = sidebar.outline_from_body(body)
+        if path.startswith("/elections/"):
+            body = shared_nav.ensure_heading_ids(body)     # stable section ids from the generator, so the rail outline always has anchors
+        toc = shared_nav.toc_from_body(body)
         if rail:
             slug, toc = rail
             article = (CATALOG.items[slug], CATALOG)
@@ -289,7 +299,7 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
             EXTRA_FILES[f"data/discovery/{slug}.json"] = json.dumps(ddata, ensure_ascii=False, separators=(",", ":"))
         css = ("shell",) + tuple(css)
         js = tuple(js) + ("shell",)
-        bodyclass = (bodyclass + " has-shell").strip()
+        bodyclass = (bodyclass + " has-shell" + (" has-outline" if len(toc or []) >= 2 else "")).strip()
     elif rail:
         slug, toc = rail
         cur = CATALOG.items[slug]
@@ -303,6 +313,11 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
     links = "".join(f'<link rel="stylesheet" href="/css/{c}.css?v={CFG["updated"]}">' for c in ("site",) + tuple(css))
     scripts = "".join(f'<script src="/js/{j}.js?v={CFG["updated"]}" defer></script>' for j in ("site",) + tuple(js))
     robots = '<meta name="robots" content="noindex">' if noindex else ""
+    mast_block = mast_html() if GLOBAL_SHELL else (
+        '<header class="mast"><div class="wrap">'
+        '<a class="logo" href="/" aria-label="LookLearnFind home"><img src="/img/logo-cream.png" alt="LOOK LEARN FIND 01" width="1040" height="701"></a>'
+        '<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>'
+        f'<nav class="nav" id="nav" aria-label="Main">{nav_html(nav)}</nav></div></header>')
     foot_nav = "".join(f'<a href="{n["href"]}">{e(n["label"])}</a>' for n in SITE["nav"])
     html = f'''<!doctype html>
 <html lang="en">
@@ -327,11 +342,7 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
 <script>document.documentElement.classList.add("js")</script>
 <a class="skip" href="#main">Skip to content</a>
 {mobile_html}{rail_html}
-<header class="mast"><div class="wrap">
-<a class="logo" href="/" aria-label="LookLearnFind home"><img src="/img/logo-cream.png" alt="LOOK LEARN FIND 01" width="1040" height="701"></a>
-<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
-<nav class="nav" id="nav" aria-label="Main">{nav_html(nav)}</nav>
-</div></header>
+{mast_block}
 {illus_bar() if illustrative else ""}
 <main id="main">
 {body}

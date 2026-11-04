@@ -1,5 +1,6 @@
 {
-  "version": "2026-10-31.1",
+  "version": "2026-11-04.1",
+  "recommendations": {"reviewed": "2026-11-04", "decision": "hidden", "current_ids": [], "reason": "Every story in this registry is pre-election reporting and no post-election story exists yet, so the Along this thread and On our radar module is hidden. Add a story id to current_ids only after it is verified as post-election and relevant; an empty list keeps the module hidden."},
   "note": "Editorial metadata for the Look Learn Find sidebar. Only items listed here can be recommended. 'states' lists jurisdictions an item is about; an empty list means national scope, stated explicitly. 'priority' is a commissioning control, not popularity. 'short' is the headline length the rail can carry. Every hub and guide URL is validated against the built pages.",
   "threads": {
     "outside-money": "Outside money",

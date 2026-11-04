@@ -25,3 +25,9 @@
 - **Package decisions that were resolved by the owner's instruction:** exact palette values (the package values were applied), shell on every page including account and admin (the instruction was "every page"), top mast kept, replacement of the stories-only sidebar by the global shell (legacy kept behind a rollback flag).
 - **Not authorized and not done:** any deploy or upload, publishing results, the `/elections/` and `/elections/2026/` landing pages, changes to hub headings or titles, a ninth top-level nav item, editorial copy edits, changes to the production lock text.
 - **Open for the owner:** the conflicts listed in `docs/design/CONFLICTS_AND_FLAGS.md`.
+
+## 2026-11-04 owner decisions: mobile drawer and refinement (local, not deployed)
+- **Approved:** the shared navigation and desktop direction; the slim mast (Search and Sign in only); Look and Find as modes and About in the utility links; the post-election heading direction "Pennsylvania 2026: What Changed and What Comes Next" for the Living State Hub (live hub not to be updated yet; use the labelled Capitol AI illustration; prefer the headline on warm paper beside the image); stable section ids from the generators with outlines in the rail and the drawer; roster source wording corrected with state-specific agency names; the national hub link only after `/elections/2026/` exists and passes checks; shell kept on Account (Admin to be tested); legacy sidebar retained behind the flag.
+- **Required and done locally:** a left slide-in navigation drawer replacing the Explore sheet; a readable single-column layout from 901 to 1100px.
+- **Recommendations review:** all 21 registered stories are pre-election, so the module is hidden (`recommendations.current_ids` empty in `data/discovery.json`).
+- **Not authorized:** commit, push, publish or deploy; results, calls or analytical conclusions.

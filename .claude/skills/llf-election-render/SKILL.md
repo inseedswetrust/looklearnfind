@@ -14,7 +14,7 @@ description: Render election articles and pages with the existing LLF components
 `poll_unf`, `sept_polls`, `sen_cards`, `mk_sen`, `stats_sen`, `map_story` (five districts with leader-line pins), `trump_bars`, `result_bars`, `house_cards_a`, `house_cards_b`, `mk_h14`, `mk_h25`, `stats_house`, rails `sen` and `house`; values come from `data/elections/FL/story_data.json` (each value carries its source). Share images: `tools/social/render_cards.py`. A new component needs a `role=img` label, a caption with source and date, and a mobile screenshot at 390 px.
 
 ## Global shell (2026-11-04)
-Pages written through `build.shell()` receive the one shared rail, mobile bar and Explore sheet automatically (`shared_nav.py`, `docs/design/LLF_GLOBAL_SHELL.md`). Render work adds no navigation markup, loads no second rail and keeps section headings `id`ed for the outline. After a layout change run `python3 tools/qa/shell_check.py` as well as `tools/qa/shots.py`.
+Pages written through `build.shell()` receive the one shared rail (the desktop sidebar and the mobile slide-in drawer) and mobile bar automatically (`shared_nav.py`, `docs/design/LLF_GLOBAL_SHELL.md`). Render work adds no navigation markup, loads no second rail and keeps section headings `id`ed for the outline. After a layout change run `python3 tools/qa/shell_check.py` as well as `tools/qa/shots.py`.
 
 ## Steps
 1. Put the article in `content/learn/<slug>.html`; add data to `elections.values()` rather than typing numbers.

@@ -28,6 +28,15 @@ FORMATS = (("look", "Look", "/look/"), ("learn", "Learn", "/learn/"), ("find", "
 HUBS = META["hubs"]
 THREADS = META["threads"]
 EXPIRY = "2026-11-04"  # after the general election the editorial picks must be reviewed
+REC = META.get("recommendations", {})
+CURRENT_IDS = set(REC.get("current_ids", []))
+
+
+def recommendations_current():
+    """Recommendations are shown only for story ids that were reviewed as current after the election (data/discovery.json `recommendations.current_ids`).
+    An empty list hides the module: a pre-election piece is never suggested as if it were still current."""
+    return bool(CURRENT_IDS)
+
 
 
 def validate(pages):
@@ -119,10 +128,10 @@ class Catalog:
 
     def select(self, cur, lens):
         """Return the two-slot result for article `cur` under `lens` ('ALL' or a state code)."""
-        others = [i for i in self.items.values() if i["id"] != cur["id"]]
+        others = [i for i in self.items.values() if i["id"] != cur["id"] and i["id"] in CURRENT_IDS]
         slots = []
         if lens == "ALL":
-            related = [self.items[r["id"]] for r in cur["related"] if r["id"] in self.items]
+            related = [self.items[r["id"]] for r in cur["related"] if r["id"] in self.items and r["id"] in CURRENT_IDS]
             thread = related[0] if related else next(iter(self._order([i for i in others if i["thread"] == cur["thread"]])), None)
             if thread:
                 reason = next((r["reason"] for r in cur["related"] if r["id"] == thread["id"]), f"Also in {THREADS[cur['thread']]}")
@@ -135,7 +144,7 @@ class Catalog:
                 slots.append(("On our radar", pick, "Editor's pick" + (f" · {STATES[pick['states'][0]]}" if len(pick["states"]) == 1 else "")))
             return dict(lens="ALL", status="Suggestions: all states.", hub=None, slots=self._pack(slots), gap=False)
         pool = [i for i in others if lens in i["states"]]
-        related_ids = [r["id"] for r in cur["related"]]
+        related_ids = [r["id"] for r in cur["related"] if r["id"] in CURRENT_IDS]
         thread = next((i for i in pool if i["id"] in related_ids), None)
         reason = None
         if thread:
@@ -154,7 +163,7 @@ class Catalog:
             slots.append(("On our radar", hub, f"Where every {STATES[lens]} contest is listed"))
         gap = not slots
         if len(slots) < 2:
-            nat = next(iter(self._order(self.national)), None)
+            nat = next(iter(self._order([n for n in self.national if n["id"] in CURRENT_IDS])), None)
             if nat:
                 slots.append(("National context", nat, "National, not specific to " + STATES[lens]))
         name = STATES[lens]

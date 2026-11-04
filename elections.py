@@ -672,7 +672,7 @@ def house_page():
         dek = (f'<p class="deck">All {nd} districts. Every candidate on our roster.</p><p class="dek">{SX["name"]} elects {nd} U.S. House members on the congressional map in use since 2022. {n["house"]} candidates are on our roster across the {nd} districts, write-ins included. '
                f'{len(oseats)} seats have no incumbent on the ballot: {", ".join(_dl(i) for i in oseats[:-1])} and {_dl(oseats[-1])}. {_roster_basis()}</p>'
                f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span></p>')
-    hero = f'<div class="el-hero mapheroc">{state_map()}</div>'
+    hero = f'<div class="el-hero mapheroc" id="map">{state_map()}</div>'          # id: the page's own "On this page" list links to #map
     body = _race_head("State of the Race / U.S. House", f"{SX['name']} House Races", dek, crumbs, hero, toc)
     tiles = []
     for i in range(1, nd + 1):
@@ -792,10 +792,20 @@ ROSTER_NOTE = {"PA": ('<strong>About this roster.</strong> The Pennsylvania Depa
                       'candidates the listing marks as disqualified are left out. Federal candidate IDs come from Green Papers and OpenFEC, and TIP supplies the profiles. '
                       'The listing carries printed ballot choices only, so write-in candidates appear where a secondary source lists them and are labeled. Late changes after that date are not reflected.')}
 
+# State-specific wording for why the official list was not used (sources: docs/production/DATA_ACCESS_LIMITATIONS.md and each state's DECISIONS_AND_HISTORY.md).
+ROSTER_UNAVAILABLE = {
+    "IL": "the Illinois State Board of Elections candidate list could not be read by our tools (HTTP 403)",
+    "NY": "the New York State Board of Elections certification could not be read by our tools (HTTP 403)",
+    "MN": "the Minnesota Secretary of State candidate list could not be read by our tools (a bot check blocked automated access)",
+    "PA": "the Pennsylvania Department of State candidate list could not be found by our tools",
+}
+
+
 def _roster_basis():
     if SX.get("official"):
         return f"The roster follows the {SX['name']} Department of State's official candidate listing, with write-ins added only where a secondary source lists them."
-    return "The roster comes from Green Papers because the State Board of Elections list could not be read, so it is not an official or complete list."
+    why = ROSTER_UNAVAILABLE.get(SX["code"], "the state's official candidate list could not be read")
+    return f"The roster comes from Green Papers because {why}, so it is not an official or complete list."
 
 def _roster_note():
     return f'<p class="small boardnote">{ROSTER_NOTE[SX["code"]].format(cap=dstr(FL["roster"]["captured_at_utc"]))}</p>'

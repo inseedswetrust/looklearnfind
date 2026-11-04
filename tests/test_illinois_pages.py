@@ -26,7 +26,7 @@ class IllinoisPages(unittest.TestCase):
     def test_no_florida_content_on_illinois_pages(self):
         for f in DIST.rglob("index.html"):
             # the global shell's state picker legitimately names every state; the test is about page content
-            t = re.sub(r"<[^>]+>", " ", re.sub(r'<div class="llf-shell".*?</dialog></div>', " ", f.read_text(encoding="utf-8"), flags=re.S))
+            t = re.sub(r"<[^>]+>", " ", re.sub(r'<div class="llf-shell".*?<a class="nav-open".*?</a></div></div>', " ", f.read_text(encoding="utf-8"), flags=re.S))
             for w in ("Florida", "FL-", "Donalds", "Jolly", "Moody", "DeSantis", "HB 1-D"):
                 self.assertNotIn(w, t, f"{w} in {f}")
 
