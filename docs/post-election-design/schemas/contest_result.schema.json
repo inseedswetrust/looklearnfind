@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "llf/results/contest_result.schema.json",
+  "title": "Contest result (one race at one capture)",
+  "description": "PROPOSAL, not implemented. A snapshot of what one source reported for one race at one time. Never invent percent_reporting.",
+  "type": "object",
+  "required": ["race", "capture_version", "result_stage", "provider_observed_at", "retrieved_at", "provenance", "candidates"],
+  "properties": {
+    "race": { "$ref": "race.schema.json" },
+    "capture_version": { "type": "string", "description": "Identifier of the capture this snapshot was normalized from." },
+    "result_stage": { "enum": ["not_available", "counting", "called", "certified", "recount", "contested"], "description": "UI-neutral lifecycle. Race-level stages may differ within a state." },
+    "provider_observed_at": { "type": ["string", "null"], "format": "date-time", "description": "Time the source says its data was last updated; null if the source gives none." },
+    "retrieved_at": { "type": "string", "format": "date-time" },
+    "counting_method": { "type": "string", "description": "Source wording, for example how mail or provisional ballots are counted. Optional." },
+    "reporting": {
+      "type": "object",
+      "description": "Present only if the authority publishes it. Never derived by LLF.",
+      "required": ["basis", "definition"],
+      "properties": {
+        "basis": { "enum": ["precincts", "counties", "ballots", "estimated_votes", "other"] },
+        "reported": { "type": "number" },
+        "total": { "type": "number" },
+        "percent": { "type": "number", "minimum": 0, "maximum": 100 },
+        "definition": { "type": "string", "description": "The authority's own definition, quoted or closely paraphrased." }
+      },
+      "additionalProperties": false
+    },
+    "total_votes": { "type": ["integer", "null"], "minimum": 0, "description": "Race total as stated by the source; null if not stated." },
+    "total_votes_basis": { "enum": ["source_stated", "sum_of_candidates", "not_available"] },
+    "call": {
+      "type": ["object", "null"],
+      "description": "An independent race call. Distinct from the numeric leader and from certification.",
+      "required": ["called_for", "called_by", "called_at", "source_url"],
+      "properties": {
+        "called_for": { "type": "string", "description": "Candidate key." },
+        "called_by": { "type": "string", "description": "Named organization or authority." },
+        "called_at": { "type": "string", "format": "date-time" },
+        "source_url": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+    "certification": {
+      "type": ["object", "null"],
+      "required": ["certified_by", "certified_at", "source_url"],
+      "properties": {
+        "certified_by": { "type": "string" },
+        "certified_at": { "type": "string", "format": "date-time" },
+        "source_url": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+    "candidates": { "type": "array", "items": { "$ref": "candidate_result.schema.json" } },
+    "provenance": { "$ref": "provenance.schema.json" },
+    "editor_note": { "type": "string" }
+  },
+  "allOf": [
+    { "if": { "properties": { "result_stage": { "const": "called" } } }, "then": { "required": ["call"], "properties": { "call": { "type": "object" } } } },
+    { "if": { "properties": { "result_stage": { "const": "certified" } } }, "then": { "required": ["certification"], "properties": { "certification": { "type": "object" } } } }
+  ],
+  "additionalProperties": false
+}

@@ -22,22 +22,33 @@ Use subjects expansively but concretely: a candidate's record, a small business,
 
 ## Approved identity
 
-- **Logo:** stacked cream LOOK / LEARN / FIND wordmark on charcoal, fine rule, small `01` footnote. Use `reference/homepage/assets/logo-01.png`. Do not redraw it or sprinkle the 01 as decoration.
+- **Logo:** stacked cream LOOK / LEARN / FIND wordmark on charcoal, fine rule, small `01` footnote. Use `reference/homepage/assets/logo-01.png` (served as `/img/logo-cream.png`). Do not redraw it or sprinkle the 01 as decoration. In the rail and mobile bar the original artwork is used as an alpha mask, one clip per word, and the word of the current **mode** is lit yellow (see Navigation below).
 - **Homepage opening:** keep the split-portrait overlap hero, yellow overlap, `SOURCE 01` notation, and the exact copy "where signal meets source." Artwork: `overlap-hero.png`. On small screens, art-direct the crop and use live text if embedded words would become illegible.
 - **Underlying idea:** overlapping viewpoints, a marginal note, and a footnote that lets the viewer go beneath the surface. An intelligent editorial system, not a detective board or bureaucratic dossier.
 - **Notation:** small indexes, fine rules, arrows, source markers, margin-like annotations. Make them functional where possible.
 
 ## Color and type
 
-| Role | Treatment |
-| --- | --- |
-| Main paper | `#f5f2eb`; adjacent creams `#f8f6f0`, `#fffdf8` |
-| Ink / masthead | `#1c1d1b` to `#1e1e1e` |
-| Quiet surfaces and rules | `#eee9df`; rules about `#c9c4b9` |
-| Teal-green | `#145b5d`, darker `#0f4145`; links, actions, labels, occasional intentional chapter treatments |
-| Yellow notation | `#dfca00`; a small confident marker, not a wash |
-| Display / editorial text | Iowan Old Style / Baskerville / Palatino / Georgia-style serif, tight headline spacing |
-| Navigation / utility | Arial / Helvetica-style sans; small uppercase, letterspaced |
+**Design tokens v1** (2026-11-04, owner-approved direction; source of truth is the `:root` block of `static/css/site.css`, names `--llf-*`; legacy names such as `--teal` and `--paper` resolve to these values). Specification and rules: `docs/design/LLF_GLOBAL_SHELL.md`.
+
+| Role | Token | Value |
+| --- | --- | --- |
+| Rail, mast and mobile bar | `--llf-night` | `#1d1e20` (neutral charcoal, no longer dark green) |
+| Rail secondary surfaces | `--llf-night-soft` | `#292a2d` |
+| Main paper | `--llf-paper` | `#f8f6f0` (with `#fbfaf6` and `#fffdf9` for raised surfaces) |
+| Ink | `--llf-ink` | `#222326` |
+| Muted text | `--llf-muted` | `#646b70` (5.0:1 on paper) |
+| Editorial blue: links, labels, source cues | `--llf-blue` | `#28636c` (6.3:1 on paper) |
+| Deeper blue: actions, emphasis | `--llf-blue-dark` | `#173e47` |
+| Fine rules | `--llf-line` | `#d7d3c9` |
+| Brand yellow | `--llf-yellow` | `#f0d800` |
+| Rail width (desktop, 901px and up) | `--llf-rail-width` | `236px` |
+| Display / editorial text | `--serif` | Newsreader Variable (self-hosted) with Iowan Old Style / Baskerville / Palatino / Georgia fallbacks; tight headline spacing |
+| Navigation / utility | `--sans` | Arial / Helvetica-style sans; small uppercase, letterspaced |
+
+**Yellow is for mode, status and navigation focus only: the lit LOOK, LEARN or FIND word, the current-section marker, focus rings and the small notation dot. It is never a party color, a chart series or a wash, and never text on paper (1.3:1).** Charts use neutral colors, labels and patterns, not party colors.
+
+**Deprecated palette (kept for migration only):** the earlier green set. Main paper `#f5f2eb`, ink `#1c1d1b`, rules `#c9c4b9`, teal-green `#145b5d` with darker `#0f4145`, yellow `#dfca00`, masthead `#1d1d1d`, rail background petrol image `sidebar-politics.webp`. `static/css/sidebar.css` and `static/js/sidebar.js` still carry the old rail and load only when the rollback flag turns the global shell off. Do not use the deprecated values in new work. Article HTML and data files contain none of them.
 
 Prototypes use system font stacks. Preserve the contrast between expressive serif reading and precise sans utility text when choosing production fonts. Do not switch to a tech-product sans, rounded playful font, or luxury fashion lettering.
 
@@ -103,3 +114,17 @@ Contributions sharpen the work: a question, an original source, a video worth ke
 Can a visitor tell what caught our eye, what the claim or recommendation rests on, who contributed it, what remains open, and what to explore or try next? Does the page still feel like the homepage when the topic shifts from midterms to cooking or skincare? Is the treatment right for the task: spacious for chapters, readable for stories, fast to scan for the Ledger?
 
 Conflict rule: follow the latest approved decisions — locked logo and hero; four-category, twelve-topic map; About's Look → Learn → Find; v2 table-format Ledger with 9:16 previews and light surfaces.
+
+## Navigation and the global shell (approved 2026-11-04)
+
+Approved directions: a persistent dark charcoal sidebar, the original LLF logo, a yellow active-word indicator for Look / Learn / Find, global search and cross-category browsing. Full specification, route-to-mode matrix, accessibility rules and authoring steps: `docs/design/LLF_GLOBAL_SHELL.md`.
+
+- **One shell for every page.** `build.shell()` is the only function that writes a page, and it renders the shell (`shared_nav.py`) into all of them: homepage, categories, topics, threads, articles, Find, Look, search, About, legal, account, 404 and every election page. No template carries navigation markup. A build assertion and `tests/test_global_shell.py` fail a page that lacks exactly one shell root.
+- **Desktop (901px and up):** a fixed 236px rail (logo, Look / Learn / Find modes, global search, Browse, a contextual block, About links). The mast stays on top for the brand navigation and is offset by the rail. One content canvas; no second permanent column.
+- **Mobile (900px and under):** a persistent compact bar (logo, modes, Explore). The Explore sheet holds the same destinations as the rail. Nothing overlays the content.
+- **Modes are editorial state, not site sections.** The lit word comes from the page model: `/look/` and `/u/` light LOOK, `/find/` lights FIND, `/learn/` and `/elections/` light LEARN. Home, category, topic, thread, About, legal, search and error pages light none. Browsing Politics never makes Politics the shell.
+- **Contextual block (below the global links, never replacing them):** on a story, the state lens and recommendations; on political and election pages, a state picker; on any page with `<h2 id>` headings, an "On this page" outline; otherwise nothing.
+- **Search** is global (`/search/?q=`); `/` focuses it unless the reader is typing in a field. Every link works without JavaScript.
+- **Rules:** no Oxford comma in any shell copy; do not add a ninth top-level nav item without owner approval (`data/site.json` is the nav source); the shell never states a result and never calls a race.
+
+Conflict rule (addendum 2026-11-04): where this file and `docs/design/LLF_GLOBAL_SHELL.md` differ on navigation, palette or the shell, the design file governs.

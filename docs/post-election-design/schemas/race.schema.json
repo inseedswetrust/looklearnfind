@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "llf/results/race.schema.json",
+  "title": "Race (identity of a contest)",
+  "description": "PROPOSAL, not implemented. Identity only; holds no results.",
+  "type": "object",
+  "required": ["cycle", "office", "jurisdiction", "election_date", "ballot_type"],
+  "properties": {
+    "race_key": { "type": "string", "pattern": "^[0-9]{4}-(GOV|S|H)-[A-Z]{2}(-[0-9]{2})?$", "description": "TIP race key, for example 2026-GOV-PA or 2026-H-PA-01." },
+    "local_key": { "type": "string", "description": "Used only when no TIP race_key exists; must be explained in mapping_note." },
+    "mapping_note": { "type": "string" },
+    "cycle": { "type": "string", "pattern": "^[0-9]{4}$" },
+    "office": { "enum": ["governor", "senate", "house"] },
+    "jurisdiction": { "type": "object", "required": ["state"], "properties": { "state": { "type": "string", "pattern": "^[A-Z]{2}$" }, "district": { "type": ["integer", "null"] } }, "additionalProperties": false },
+    "election_date": { "type": "string", "format": "date" },
+    "ballot_type": { "enum": ["general", "special_general", "primary", "runoff"] },
+    "source_jurisdiction": { "type": "string", "description": "The authority whose count applies, for example a state department or board." }
+  },
+  "anyOf": [{ "required": ["race_key"] }, { "required": ["local_key", "mapping_note"] }],
+  "additionalProperties": false
+}

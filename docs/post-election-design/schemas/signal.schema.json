@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "llf/results/signal.schema.json",
+  "title": "Election Signal",
+  "description": "PROPOSAL, not implemented. A dated analytical finding. A signal with no evidence is invalid; none is manufactured to fill a slot.",
+  "type": "object",
+  "required": ["signal_id", "statement", "geography", "comparison_period", "evidence", "as_of", "caveats", "author", "approval_status"],
+  "properties": {
+    "signal_id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "statement": { "type": "string", "description": "One plain sentence stating the finding, with no cause attributed unless a source states it." },
+    "kind": { "enum": ["turnout", "geographic_shift", "outside_spending", "accountability", "other"] },
+    "geography": { "type": "object", "required": ["state"], "properties": { "state": { "type": "string", "pattern": "^[A-Z]{2}$" }, "district": { "type": ["integer", "null"] }, "county": { "type": ["string", "null"] } }, "additionalProperties": false },
+    "comparison_period": { "type": "string", "description": "What is compared with what, with dates, for example '2026 general versus 2022 general'." },
+    "evidence": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["source_url", "retrieved_at"], "properties": { "source_url": { "type": "string" }, "retrieved_at": { "type": "string", "format": "date-time" }, "file": { "type": "string" }, "method_note": { "type": "string" } }, "additionalProperties": false } },
+    "as_of": { "type": "string", "format": "date-time" },
+    "caveats": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "author": { "type": "string" },
+    "reviewer": { "type": ["string", "null"] },
+    "approval_status": { "enum": ["draft", "source_verified", "fact_checked", "owner_approved", "published", "withdrawn"] }
+  },
+  "allOf": [
+    { "if": { "properties": { "approval_status": { "enum": ["fact_checked", "owner_approved", "published"] } } }, "then": { "required": ["reviewer"], "properties": { "reviewer": { "type": "string" } } } }
+  ],
+  "additionalProperties": false
+}

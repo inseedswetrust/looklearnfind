@@ -1,5 +1,5 @@
 /* Look Ledger: table index, controls, drawer, entry page, add flow, profile, admin. Derived from the v2 mockups. */
-:root{--green:#185e57;--feature:#f3f0de}
+:root{--green:#185e57;--feature:#f0eee7}
 .ledger-page{background:var(--paper2)}
 .hero{background:var(--paper2)}
 .hero .hero-head{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:end}
@@ -66,7 +66,7 @@
 .thumb .duration{position:absolute;right:5px;top:5px;z-index:2;color:#fff;background:rgba(31,42,36,.7);font:700 9px var(--sans);padding:4px}
 .thumb .play{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);border:1px solid #fff;border-radius:50%;width:34px;height:34px;display:grid;place-items:center;color:#fff;background:rgba(20,62,59,.6);font-size:11px;padding-left:2px;text-decoration:none}
 .thumb .platform{position:absolute;z-index:2;left:6px;bottom:7px;color:#fff;background:rgba(30,44,41,.8);font:700 8px var(--sans);letter-spacing:.06em;padding:4px 5px;text-transform:uppercase}
-.thumb.fallback{background:#1f2f2c;color:#f5f2eb;display:flex;align-items:center;justify-content:center;padding:10px;text-align:left}
+.thumb.fallback{background:#1f2f2c;color:#f8f6f0;display:flex;align-items:center;justify-content:center;padding:10px;text-align:left}
 .thumb.fallback:after{display:none}
 .thumb.fallback .ft{font:13px/1.15 var(--serif);letter-spacing:-.01em;max-height:100px;overflow:hidden}
 .thumb.fallback .nothumb{position:absolute;left:6px;right:6px;top:30px;font:700 7px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--yellow)}
@@ -79,7 +79,7 @@
 .entry-note{font-size:15px;line-height:1.28;margin:0;color:#3d4740;max-width:440px}
 .tag{display:inline-block;border:1px solid #b9c4b9;padding:5px 7px;margin:0 4px 5px 0;font:700 9px/1 var(--sans);text-transform:uppercase;letter-spacing:.04em;text-decoration:none;background:transparent;color:inherit}
 a.tag:hover{border-color:var(--green);color:var(--green)}
-.meta-secondary{font:11px/1.45 var(--sans);color:#5d6a61;margin-top:8px}
+.meta-secondary{font:11px/1.45 var(--sans);color:#646b70;margin-top:8px}
 .person{font:13px/1.27 var(--sans);margin-top:5px}
 .person a{text-decoration:none;border-bottom:1px solid #b9c4b9}
 .by-label{color:#717e73;font:700 9px var(--sans);letter-spacing:.08em;text-transform:uppercase;margin-top:3px}

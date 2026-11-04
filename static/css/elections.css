@@ -79,7 +79,7 @@ table.data.wide td:nth-child(3){min-width:260px}
 .ph{flex:none;width:78px;height:98px;background:var(--warm);overflow:hidden;display:grid;place-items:center;border:1px solid var(--rule)}
 .ccard.xl .ph{width:110px;height:138px}
 .ph img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
-.ph.mono{font:400 28px var(--serif);letter-spacing:.02em;color:var(--teal);background:repeating-linear-gradient(135deg,#eee9df,#eee9df 8px,#f5f2eb 8px,#f5f2eb 16px)}
+.ph.mono{font:400 28px var(--serif);letter-spacing:.02em;color:var(--teal);background:repeating-linear-gradient(135deg,#eeeae2,#eeeae2 8px,#f8f6f0 8px,#f8f6f0 16px)}
 .mono{display:grid;place-items:center;font:400 26px var(--serif);color:var(--teal)}
 .nm{display:flex;gap:9px;align-items:center}
 .nm h3{font-size:22px;line-height:1.1;letter-spacing:-.02em}
@@ -143,7 +143,7 @@ table.data.wide td:nth-child(3){min-width:260px}
 .pollbox{border:1px solid var(--rule);background:var(--cream);padding:16px}
 .pbar{display:flex;height:36px;margin:12px 0;border:1px solid var(--ink)}
 .pbar .p{display:flex;align-items:center;padding:0 10px;font:700 12px var(--sans);color:#fff;white-space:nowrap}
-.pbar .p.r{background:#1c1d1b}.pbar .p.d{background:#145b5d}
+.pbar .p.r{background:#222326}.pbar .p.d{background:#28636c}
 .pn{display:flex;gap:24px;justify-content:space-between;font:700 11px var(--sans);letter-spacing:.08em;text-transform:uppercase;margin-bottom:18px}
 .pn a{text-decoration:none;color:var(--teal)}
 
@@ -153,7 +153,7 @@ table.data.wide td:nth-child(3){min-width:260px}
 .dcard:hover{background:#fff}
 .dmap{flex:none;width:78px}
 .dmap svg{width:100%;height:auto}
-.dmap .outline{fill:#e7ebe5;stroke:#c9c4b9;stroke-width:1}
+.dmap .outline{fill:#e7ebe5;stroke:#d7d3c9;stroke-width:1}
 .dmap .dist.on{fill:var(--teal)}
 .dbody{min-width:0}
 .dn{font:700 13px var(--sans);letter-spacing:.06em;color:var(--teal);display:block}
@@ -194,21 +194,21 @@ table.data.wide td:nth-child(3){min-width:260px}
 .chartwrap figcaption{font:12px/1.5 var(--sans);color:var(--muted);margin-top:8px}
 .chart{width:100%;height:auto;display:block}
 .chart .grid{stroke:#d9d4c9;stroke-width:1}
-.chart .ax{font:11px Arial,sans-serif;fill:#5d6a61}
+.chart .ax{font:11px Arial,sans-serif;fill:#646b70}
 .chart .tick{stroke:#8a8f88}
 .chart .line{fill:none;stroke:var(--teal);stroke-width:2}
 .chart .dot{fill:var(--teal)}
 .chart .band{fill:rgba(20,91,93,.14)}
-.chart .ev{stroke:#1c1d1b;stroke-dasharray:4 3;stroke-width:1}
-.chart .evl{font:700 10px Arial,sans-serif;fill:#1c1d1b}
-.chart .bar.r{fill:#1c1d1b}.chart .bar.d{fill:#145b5d}
+.chart .ev{stroke:#222326;stroke-dasharray:4 3;stroke-width:1}
+.chart .evl{font:700 10px Arial,sans-serif;fill:#222326}
+.chart .bar.r{fill:#222326}.chart .bar.d{fill:#28636c}
 .etabs{display:flex;gap:0;margin-bottom:10px}
 .etabs button{border:1px solid var(--rule2);background:transparent;padding:8px 14px;font:700 10px var(--sans);letter-spacing:.1em;text-transform:uppercase;margin-right:-1px}
 .etabs button[aria-selected=true]{background:var(--teal);color:#fff;border-color:var(--teal)}
 .legend2{display:flex;gap:18px;flex-wrap:wrap;font:12px var(--sans);margin-top:6px}
 .legend2 .sw{display:inline-block;width:14px;height:10px;margin-right:6px;vertical-align:middle}
-.sw.line{background:var(--teal);height:3px}.sw.band{background:rgba(20,91,93,.25)}.sw.ev{border-left:2px dashed #1c1d1b;width:2px;height:12px}
-.sw.bar.r{background:#1c1d1b}.sw.bar.d{background:#145b5d}
+.sw.line{background:var(--teal);height:3px}.sw.band{background:rgba(20,91,93,.25)}.sw.ev{border-left:2px dashed #222326;width:2px;height:12px}
+.sw.bar.r{background:#222326}.sw.bar.d{background:#28636c}
 .explore{list-style:none;margin:16px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px}
 .explore li{border-top:1px solid var(--rule);padding:11px 0;font:15px var(--sans)}
 .explore a{color:var(--teal);text-decoration:none}
@@ -293,3 +293,6 @@ table.data.wide td:nth-child(3){min-width:260px}
 @media(max-width:400px){.statrow{grid-template-columns:1fr}.issue-strip{grid-template-columns:repeat(3,minmax(0,1fr))}.rgrid{padding-left:16px;padding-right:16px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 @media print{.rside,.onpage,.band,.explore,.el-hero .credit,nav,header.site,footer{display:none!important}.rgrid{display:block;padding:0}.rmain{max-width:none;font-size:11pt}.ccard,.chartwrap{break-inside:avoid}.rmain a[href^="http"]::after{content:" (" attr(href) ")";font-size:9pt;word-break:break-all}}
+
+/* article header: single column on small screens (the two-column rule above out-ranked the general mobile rule and left the hero as a narrow strip) */
+@media(max-width:900px){.report .el-head.rep .wrap{grid-template-columns:minmax(0,1fr)}}

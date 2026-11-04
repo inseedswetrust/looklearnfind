@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "llf/results/provenance.schema.json",
+  "title": "Provenance of a captured result",
+  "description": "PROPOSAL, not implemented. Mirrors the dated, hashed raw captures already kept in data/elections/<ST>/captures/.",
+  "type": "object",
+  "required": ["source_id", "source_url", "source_agency", "retrieved_at", "sha256", "raw_path", "qa_state"],
+  "properties": {
+    "source_id": { "type": "string", "description": "Entry in the state's results/sources.json and the source registry." },
+    "source_url": { "type": "string", "format": "uri" },
+    "source_agency": { "type": "string" },
+    "retrieved_at": { "type": "string", "format": "date-time" },
+    "http_status": { "type": "integer" },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "raw_path": { "type": "string", "description": "Repository-relative path to the raw capture." },
+    "qa_state": { "enum": ["captured", "normalized", "validated", "approved", "rejected"] },
+    "validation_report": { "type": "string", "description": "Path to the validate job output." },
+    "captured_by": { "type": "string" },
+    "reviewer": { "type": ["string", "null"], "description": "Must differ from captured_by for qa_state approved." },
+    "authorization": { "type": ["string", "null"], "description": "Owner's recorded words authorizing publication (R14)." },
+    "editor_note": { "type": "string" }
+  },
+  "allOf": [
+    { "if": { "properties": { "qa_state": { "const": "approved" } } }, "then": { "required": ["reviewer", "authorization"], "properties": { "reviewer": { "type": "string" }, "authorization": { "type": "string" } } } }
+  ],
+  "additionalProperties": false
+}

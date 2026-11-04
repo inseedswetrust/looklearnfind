@@ -13,15 +13,18 @@ Sources
   static/                copied as-is (css, js, img, api/ PHP backend, .htaccess)
 See docs/ for the brand guide, sitemap and nexus design.
 """
-import json, re, shutil, sys, datetime
+import json, os, re, shutil, sys, datetime
 from pathlib import Path
 from html import escape
 import elections
+import shared_nav
 import sidebar
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "dist"
 CFG = json.loads((ROOT / "config.json").read_text())
+# Global shell (docs/design/LLF_GLOBAL_SHELL.md). `"global_shell": false` in config.json or LLF_GLOBAL_SHELL=0 restores the legacy layout for staging or rollback.
+GLOBAL_SHELL = bool(CFG.get("global_shell", True)) and os.environ.get("LLF_GLOBAL_SHELL", "1") != "0"
 SITE = json.loads((ROOT / "data" / "site.json").read_text())
 THREADS = json.loads((ROOT / "data" / "threads.json").read_text())
 
@@ -260,7 +263,7 @@ def nav_html(active):
     return "".join(out)
 
 
-def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False, illustrative=False, bodyclass="", lead="", sitemap=True, jsonld="", rail=None):
+def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False, illustrative=False, bodyclass="", lead="", sitemap=True, jsonld="", rail=None, mode=None):
     canonical = CFG["url"] + path
     seo = SEO.get(path.rstrip("/") or "/")
     if seo:
@@ -272,7 +275,22 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
     if path == "/":
         css = tuple(css) + ("home",)
     rail_html = mobile_html = ""
-    if rail:
+    fmt = "learn"
+    if GLOBAL_SHELL:
+        # One shared shell for every page: nothing below this point may add a rail, dock or sheet of its own.
+        article = None
+        toc = sidebar.outline_from_body(body)
+        if rail:
+            slug, toc = rail
+            article = (CATALOG.items[slug], CATALOG)
+        fmt = shared_nav.page_mode(path, mode)
+        rail_html, ddata = shared_nav.render(path=path, site_nav=SITE["nav"], active=nav, mode=fmt, hubs=sidebar.HUBS, states=sidebar.STATES, article=article, toc=toc)
+        if ddata:
+            EXTRA_FILES[f"data/discovery/{slug}.json"] = json.dumps(ddata, ensure_ascii=False, separators=(",", ":"))
+        css = ("shell",) + tuple(css)
+        js = tuple(js) + ("shell",)
+        bodyclass = (bodyclass + " has-shell").strip()
+    elif rail:
         slug, toc = rail
         cur = CATALOG.items[slug]
         rail_html, mobile_html, ddata = sidebar.render(cur, CATALOG, toc)
@@ -294,7 +312,7 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
 <title>{e(full_title)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{canonical}">
-<meta name="theme-color" content="#1d1d1d">
+<meta name="theme-color" content="#1d1e20">
 {robots}
 <meta property="og:type" content="website"><meta property="og:site_name" content="LookLearnFind">
 <meta property="og:title" content="{e(title.split("|")[0].strip())}"><meta property="og:description" content="{e(desc)}">
@@ -305,7 +323,7 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
 {links}
 {jsonld}
 </head>
-<body class="{bodyclass}" data-format="learn">
+<body class="{bodyclass}" data-format="{fmt}">
 <script>document.documentElement.classList.add("js")</script>
 <a class="skip" href="#main">Skip to content</a>
 {mobile_html}{rail_html}
@@ -875,6 +893,13 @@ def main():
     print(vtxt)
     if "--strict" in sys.argv and nviol:
         raise SystemExit("Publishing rules failed (--strict). Fix or get a TIP profile for each listed candidate.")
+    if GLOBAL_SHELL:
+        shell_bad = shared_nav.check_pages(PAGES_OUT)
+        print(f"GLOBAL SHELL: {len(shell_bad)} violation(s)")
+        for b in shell_bad[:20]:
+            print(f"  {b}")
+        if "--strict" in sys.argv and shell_bad:
+            raise SystemExit("Global shell check failed (--strict): every generated page must carry exactly one shared shell.")
     for path, html in PAGES_OUT.items():
         dest = OUT / path.strip("/") / "index.html" if path != "/" else OUT / "index.html"
         if path.endswith(".html"):

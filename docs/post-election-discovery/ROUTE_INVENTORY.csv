@@ -1,0 +1,54 @@
+system,route_pattern,kind,purpose,built_instances,indexable_instances,example,component_or_generator,data_dependency,status
+"LLF (static, Python build)",/,single page,Homepage,1,1,/,"build.py (home template, static/css/home.css)","data/site.json, data/copy.json, data/discovery.json, content/learn front matter",live
+"LLF (static, Python build)",/{category}/,template,Category landing,4,4,/economy/,build.py,"data/site.json categories, content/learn",live
+"LLF (static, Python build)",/topics/,single page,Topics index,1,1,/topics/,build.py,data/site.json topics,live
+"LLF (static, Python build)",/topics/{slug}/,template,Topic page,12,12,/topics/businesses/,build.py,"data/site.json topics, content front matter",live
+"LLF (static, Python build)",/latest/,single page,"Newest across Look, Learn, Find",1,1,/latest/,build.py,content/*,live
+"LLF (static, Python build)",/learn/,single page,Story index,1,1,/learn/,build.py,content/learn,live
+"LLF (static, Python build)",/learn/{slug}/,template,Story reader (articles),24,24,/learn/aipac-udp-money-delta-october-2026/,build.py render_story(),"content/learn/{slug}.html (front matter, openfile, sources, corrections blocks), data/discovery.json",live
+"LLF (static, Python build)",/find/,single page,Find hub,1,1,/find/,build.py,"content/find, data/site.json find_types",live
+"LLF (static, Python build)",/find/candidates/,single page,Candidate directory (all states),1,1,/find/candidates/,build.py gen_candidates(),data/candidates/*.json (registry from tools/elections/build_registry.py),live
+"LLF (static, Python build)",/find/candidates/{state}/,template,Candidate directory by state,7,3,/find/candidates/florida/,build.py gen_candidates(),data/candidates/{ST}.json,"live (FL, MI, NJ indexable; IL, MN, NY, PA noindex)"
+"LLF (static, Python build)",/find/{type}/,template,Find type listing,4,4,/find/businesses/,build.py,content/find,live
+"LLF (static, Python build)",/find/{type}/{slug}/,template,Find entry,3,3,/find/businesses/talk-to-your-local-grocer/,build.py,content/find/{slug}.html,live (3 hand-written entries)
+"LLF (static, Python build)",/look/,single page,Look Ledger index (saved videos),1,1,/look/,static shell + static/js/ledger.js + PHP API,SQLite videos/saves via /api/ledger/list,live shell; 0 public entries
+"LLF (static, Python build)",/look/add/,single page,Add a Ledger save,1,0,/look/add/,static shell + static/js/add.js,"PHP API ledger/preview, ledger/save",live; noindex
+"LLF (static, Python build)",/look/L-{n}/ (rewrite),template,Ledger entry shell,1,1,/look/entry/,.htaccess rewrite to /look/entry/index.html,PHP API ledger/entry,live shell; no entries
+"LLF (static, Python build)",/threads/,single page,Threads index,1,1,/threads/,build.py,data/threads.json (22 curated) plus DB-approved threads via PHP API,live
+"LLF (static, Python build)","/threads/{slug}/ (DB-approved, rewrite)",template,Thread shell for DB-only threads,1,0,/threads/t/,.htaccess rewrite,PHP API threads/get,live shell; noindex
+"LLF (static, Python build)",/threads/{slug}/,template,Thread page,22,22,/threads/a-business-up-close/,build.py,data/threads.json,live
+"LLF (static, Python build)",/u/{handle} (rewrite),template,Public profile shell,1,1,/u/,.htaccess rewrite,PHP API profile,live shell
+"LLF (static, Python build)",/{account|admin}/,template,Account and Ledger review desk,2,0,/account/,static shell + JS + PHP API,"SQLite users, sessions, reports, audit",live; noindex
+"LLF (static, Python build)",/search/,single page,Client-side search,1,1,/search/,static/js/search.js over /search-index.json,"dist/search-index.json (451 items: 386 candidate, 24 story, 22 thread, 12 topic, 4 page, 3 find)",live
+"LLF (static, Python build)",/{page}/,template,Static page,7,3,/about/,build.py (content/*.html),content/*.html,"live (privacy, terms, disclosures, community noindex)"
+"LLF (static, Python build)",/about/{slug}/,template,About subpage,4,2,/about/corrections/,build.py,content/about/*.html,live (corrections and who-we-are noindex)
+"LLF (static, Python build)",/elections/2026/dark-horse/status/,single page,Dark Horse monitor status page,1,0,/elections/2026/dark-horse/status/,build.py,data/elections/dark_horse/status.json,live; noindex
+"LLF (static, Python build)",/elections/2026/{state}/,template,State hub,7,7,/elections/2026/florida/,elections.py hub builder,"data/elections/{ST}/*, data/discovery.json hubs, hero_credits.json",live (7 states)
+"LLF (static, Python build)",/elections/2026/{state}/governor/,template,Governor race page,6,6,/elections/2026/florida/governor/,elections.py,"roster.json, candidates.json, markets.json","live (FL, IL, MI, MN, NY, PA)"
+"LLF (static, Python build)",/elections/2026/{state}/senate/,template,U.S. Senate race page,5,5,/elections/2026/florida/senate/,elections.py,"roster.json, candidates.json, markets.json","live (FL, IL, MI, MN, NJ)"
+"LLF (static, Python build)",/elections/2026/{state}/house/,template,House index with district map,7,7,/elections/2026/florida/house/,elections.py,"districts.json, candidates.json, markets.json",live (7 states)
+"LLF (static, Python build)",/elections/2026/{state}/house/{n}/,template,Congressional district page,121,121,/elections/2026/florida/house/1/,elections.py,"districts.json, candidates.json, markets.json, news/IE data","live (FL 28, IL 17, MI 13, NJ 12, NY 26, MN 8, PA 17 = 121)"
+"LLF (static, Python build)",/api/{route},non-HTML,"PHP JSON API (Ledger, auth, threads, admin; 49 route cases)",,,/api/{route},static/api/index.php + lib/*.php,"SQLite file (users, videos, saves, threads, follows, collections, reports, audit, desk, newsletter, messages)",live; ledger empty
+"LLF (static, Python build)",/sitemap.xml,non-HTML,Sitemap,,,/sitemap.xml,build.py,all indexable built pages,live (231 URLs)
+"LLF (static, Python build)",/robots.txt,non-HTML,Robots with AI-training disallows,,,/robots.txt,hosted file kept by --keep-live-robots,n/a,live (Allow: /; Content-Signal ai-train=no)
+"LLF (static, Python build)",/search-index.json,non-HTML,Search index,,,/search-index.json,build.py,built content and candidate registry,live
+"LLF (static, Python build)",/threads.json,non-HTML,Thread data for client,,,/threads.json,build.py,data/threads.json,live
+"LLF (static, Python build)",/site-data.json,non-HTML,"Categories, topics, kinds",,,/site-data.json,build.py,data/site.json,live
+"LLF (static, Python build)",/data/candidates.json and /data/candidates.csv,non-HTML,Public candidate feed,,,/data/candidates.json and /data/candidates.csv,build.py gen_candidates(),data/candidates/*.json,live
+"LLF (static, Python build)",/data/discovery/{story-id}.json,non-HTML,Per-story sidebar discovery payload (state lens),,,/data/discovery/{story-id}.json,sidebar.py,data/discovery.json,live (21 files)
+"LLF (static, Python build)",/elections/2026/dark-horse/status.json,non-HTML,Monitor status copied by the daily job,,,/elections/2026/dark-horse/status.json,tools/dark_horse/cron_run.sh,data/elections/dark_horse/status.json,live
+"TIP (Next.js 16, Supabase)",/,page,Homepage,1,1,/,app/(public)/page.tsx,"races, candidates",live; revalidate 300
+"TIP (Next.js 16, Supabase)",/candidates/{fec_candidate_id},dynamic route,"Candidate profile hub with issue grades, finance, record",6224,6224,/candidates/{fec_candidate_id},"app/(public)/candidates/[fec_candidate_id]/page.tsx (1,642 lines)","candidates, candidate_issue_grades, candidate_commitment_statuses, fec_candidate_totals, race_entries, legislative_*",live; revalidate 300; Person JSON-LD; opengraph-image
+"TIP (Next.js 16, Supabase)",/candidates/{id}/issues-ledger/{commitment_slug}/ping,dynamic route,Ping a candidate on a commitment,,,/candidates/{id}/issues-ledger/{commitment_slug}/ping,app/(public)/candidates/.../ping/page.tsx,"public_interest_commitments, candidate_commitment_pings",live; revalidate 60
+"TIP (Next.js 16, Supabase)",/races,page,Races index,1,1,/races,app/races/page.tsx,races,live
+"TIP (Next.js 16, Supabase)",/races/{slug},dynamic route,Race comparison page (race_key),512,512,/races/{slug},app/races/[slug]/page.tsx,"races, race_entries, candidates, grades",live; generateMetadata; alias redirect logic in lib/elections/aliases.ts
+"TIP (Next.js 16, Supabase)",/states/dc and /states/dc/{slug},dynamic route,D.C. beta state hub,37,37,/states/dc,app/states/dc/*,lib/states/dc/db (contests),live beta (listed only while beta public)
+"TIP (Next.js 16, Supabase)",/dc/priority-lab,page,D.C. Priority Lab quiz,1,1,/dc/priority-lab,app/dc/priority-lab/page.tsx,"dc_priority_lab_events, dc_priority_lab_responses",live behind flag
+"TIP (Next.js 16, Supabase)","/parties, /parties/{slug}, /parties/let-the-people-know, /parties/scan-before-you-decide, /parties/committee/{slug}, /parties/create, /parties/host",dynamic route,Action Parties,3,3,"/parties,",app/(public)/parties/*,"action_parties, action_party_members, committee_action_parties",live; create and host disallowed in robots
+"TIP (Next.js 16, Supabase)",/p/{code},dynamic route,Short-link redirect to a party (302),,,/p/{code},app/p/[code]/route.ts,action_parties,live
+"TIP (Next.js 16, Supabase)",/match,page,Candidate match quiz,1,1,/match,app/(public)/match/page.tsx,candidate_match_*,live
+"TIP (Next.js 16, Supabase)",/money-league,page,Money league,1,1,/money-league,app/(public)/money-league/page.tsx,fec totals,live; revalidate 300
+"TIP (Next.js 16, Supabase)","/voting, /about, /privacy, /terms, /search, /notifications",page,Public utility pages,4,4,"/voting,",app/(public)/*,,live; search and notifications not in sitemap
+"TIP (Next.js 16, Supabase)","/account/*, /following, /admin/*, /sign-in, /auth/*",page,Authenticated and admin areas,,,"/account/*,","app/account, app/following, app/admin, app/(auth)","profiles, follows, social_*",live; disallowed in robots; middleware.ts gates /account and /following only
+"TIP (Next.js 16, Supabase)","/api/race-labels/{raceKey}, /api/social/jobs/poll, /api/social/jobs/reconcile, /api/admin/dc-priority-lab/export",dynamic route,API route handlers,,,"/api/race-labels/{raceKey},",app/api/*,"races, social_* tables",live
+"TIP (Next.js 16, Supabase)","/sitemap.xml, /robots.txt",page,"Dynamic sitemap (force-dynamic, anon Supabase) and robots","6,782 URLs live","6,782 URLs live","/sitemap.xml,","app/sitemap.ts, app/robots.ts","candidates, races",live

@@ -18,3 +18,10 @@
 4. Multiple workflow lanes: use the `production:` lane going forward.
 5. Illinois official roster inaccessible: must be resolved before claiming the Illinois State of the Race directory is complete.
 6. `seed_backfill.py` deletes ledger history: do not run it; preserve Illinois research and production state.
+
+## 2026-11-04 owner design decisions: global shell
+- **Approved direction (owner, in chat):** dark charcoal persistent sidebar, the original LLF logo, a yellow active-word indicator for Look / Learn / Find, global search and cross-category navigation; implement the supplied design system as the site-wide foundation; update the permanent brand and development instructions; add tests that stop a page being generated without the shell; work locally only, no deploy or publish.
+- **Implemented locally** (see `docs/design/IMPLEMENTATION_CHANGES.md`): shared shell in `build.shell()`, palette tokens, mockups on the new shell, tests, instructions.
+- **Package decisions that were resolved by the owner's instruction:** exact palette values (the package values were applied), shell on every page including account and admin (the instruction was "every page"), top mast kept, replacement of the stories-only sidebar by the global shell (legacy kept behind a rollback flag).
+- **Not authorized and not done:** any deploy or upload, publishing results, the `/elections/` and `/elections/2026/` landing pages, changes to hub headings or titles, a ninth top-level nav item, editorial copy edits, changes to the production lock text.
+- **Open for the owner:** the conflicts listed in `docs/design/CONFLICTS_AND_FLAGS.md`.

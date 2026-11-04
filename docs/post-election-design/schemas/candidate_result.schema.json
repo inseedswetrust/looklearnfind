@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "llf/results/candidate_result.schema.json",
+  "title": "Candidate result (counted votes for one candidate in one contest)",
+  "description": "PROPOSAL, not implemented. 'Leader' is a numeric fact about the count and is separate from a call and from certification.",
+  "type": "object",
+  "required": ["candidate_key", "display_name", "ballot_category", "votes"],
+  "properties": {
+    "candidate_key": { "type": "string", "description": "FEC candidate ID or TIP placeholder ID (for example GOV-PA-SHAPIRO), matching data/elections/<ST>/candidates.json; or a validated independent key with mapping_note." },
+    "mapping_note": { "type": "string" },
+    "display_name": { "type": "string", "description": "Name as printed by the source." },
+    "party_label": { "type": ["string", "null"] },
+    "ballot_category": { "enum": ["printed", "write_in", "scattering", "other"] },
+    "votes": { "type": ["integer", "null"], "minimum": 0 },
+    "vote_percent": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "percent_method": { "enum": ["source", "computed_from_total", "not_available"], "description": "vote_percent requires 'source' or 'computed_from_total'; computed values use a validated race total." },
+    "is_leader": { "type": "boolean", "description": "Highest counted votes at this capture. Not a call." },
+    "withdrawn_or_replaced": { "type": "boolean" }
+  },
+  "allOf": [
+    { "if": { "required": ["vote_percent"], "properties": { "vote_percent": { "type": "number" } } }, "then": { "required": ["percent_method"], "properties": { "percent_method": { "enum": ["source", "computed_from_total"] } } } }
+  ],
+  "additionalProperties": false
+}

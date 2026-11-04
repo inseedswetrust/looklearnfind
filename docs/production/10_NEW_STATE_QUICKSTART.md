@@ -23,6 +23,7 @@ A state that already has a ledger (Michigan) is continued with `python tools/wor
 10. Deploy only with the owner's yes (procedure in `09`). End every stage with the ledger update, decision log, `handoff.py stamp`, commit.
 
 ## Gotchas learned (each one cost time)
+- **Navigation is not part of a page.** Every page, including new election pages, gets the global shell from `build.shell()`; do not write sidebar, mast or nav markup in a state page, article or template. A page written any other way fails `python build.py --strict` (`GLOBAL SHELL` check) and `tests/test_global_shell.py`. Give section headings `id`s if you want the "On this page" outline. Spec: `docs/design/LLF_GLOBAL_SHELL.md`.
 - Run `build.py` from the repository root. If the shell's working directory is `dist/`, the build dies with a PermissionError. Stop any `python -m http.server` first.
 - Every new politics story needs an entry in `data/discovery.json` or the build fails with a KeyError. Insert it as a one-line entry; do not reformat the file.
 - Never quote the `title:` in front matter. `format:` is a public label ("Spending Report", "Reported Feature", "Delta Report"), never a schema name.

@@ -1262,7 +1262,7 @@ def _bar_row(y, label, pct, scale, fill, note=""):
 
 def poll_unf():
     u = _sd()["unf_oct"]
-    rows = (_bar_row(8, "Ashley Moody (R)", u["moody"], 60, "#1c1d1b") + _bar_row(50, "Angie Nixon (D)", u["nixon"], 60, "#145b5d") + _bar_row(92, "Undecided", u["undecided"], 60, "#aeb8ad"))
+    rows = (_bar_row(8, "Ashley Moody (R)", u["moody"], 60, "#222326") + _bar_row(50, "Angie Nixon (D)", u["nixon"], 60, "#28636c") + _bar_row(92, "Undecided", u["undecided"], 60, "#bbbdbb"))
     alt = f'UNF poll, {u["field_start"]} to {u["field_end"]}: Moody {u["moody"]} percent, Nixon {u["nixon"]} percent, undecided {u["undecided"]} percent, {u["n"]:,} likely voters, margin of error plus or minus {u["moe"]}.'
     return (f'<figure class="chartwrap pollcard"><h4>UNF poll, Florida U.S. Senate</h4><svg class="chart" viewBox="0 0 680 140" role="img" aria-label="{e(alt)}">{rows}</svg>'
             f'<figcaption>{e(u["pollster"])}, fielded Oct 12–19 by telephone among {u["n"]:,} {e(u["population"])}; margin of error ±{u["moe"]} points overall. Published Oct 21. Reported by '
@@ -1328,8 +1328,8 @@ def trump_bars():
     t = _sd()["trump_2024"]
     def row(y, lab, tr, ha, who):
         wt, wh = round(tr / 100 * 430), round(ha / 100 * 430)
-        return (f'<text x="0" y="{y + 18}" class="rl">{e(lab)}</text><text x="0" y="{y + 36}" class="rn">{e(who)}</text><rect x="150" y="{y}" width="{wt}" height="26" fill="#1c1d1b"/>'
-                f'<text x="158" y="{y + 19}" class="rv inv">Trump {tr}</text><rect x="{150 + wt}" y="{y}" width="{wh}" height="26" fill="#145b5d"/><text x="{158 + wt}" y="{y + 19}" class="rv inv">Harris {ha}</text>')
+        return (f'<text x="0" y="{y + 18}" class="rl">{e(lab)}</text><text x="0" y="{y + 36}" class="rn">{e(who)}</text><rect x="150" y="{y}" width="{wt}" height="26" fill="#222326"/>'
+                f'<text x="158" y="{y + 19}" class="rv inv">Trump {tr}</text><rect x="{150 + wt}" y="{y}" width="{wh}" height="26" fill="#28636c"/><text x="{158 + wt}" y="{y + 19}" class="rv inv">Harris {ha}</text>')
     alt = f'Reported 2024 presidential vote on the new lines: FL-14 Trump {t["fl14"]["trump"]}, Harris {t["fl14"]["harris"]}; FL-9 Trump {t["fl09"]["trump"]}, Harris {t["fl09"]["harris"]}.'
     return (f'<figure class="chartwrap"><h4>2024 presidential vote on the new district lines (reported)</h4><svg class="chart" viewBox="0 0 640 110" role="img" aria-label="{e(alt)}">'
             + row(6, "FL-14", t["fl14"]["trump"], t["fl14"]["harris"], "Castor (D) district") + row(56, "FL-9", t["fl09"]["trump"], t["fl09"]["harris"], "Soto (D) district")
@@ -1337,9 +1337,9 @@ def trump_bars():
 
 def result_bars():
     r = _sd()["primary_results"]
-    rows = (_bar_row(8, "FL-6 · Fine (R)", r["fl06"]["winner_pct"], 70, "#145b5d", f'beat Bilzerian ({r["fl06"]["runner_up_pct"]:g}%) in the Republican primary')
-            + _bar_row(62, "FL-25 · Moskowitz (D)", r["fl25"]["winner_pct"], 70, "#145b5d", "beat DSA-backed Larkin (share not reported)")
-            + _bar_row(116, "FL-20 · Wasserman Schultz (D)", r["fl20"]["winner_pct"], 70, "#145b5d", "won a crowded field (other shares not reported)"))
+    rows = (_bar_row(8, "FL-6 · Fine (R)", r["fl06"]["winner_pct"], 70, "#28636c", f'beat Bilzerian ({r["fl06"]["runner_up_pct"]:g}%) in the Republican primary')
+            + _bar_row(62, "FL-25 · Moskowitz (D)", r["fl25"]["winner_pct"], 70, "#28636c", "beat DSA-backed Larkin (share not reported)")
+            + _bar_row(116, "FL-20 · Wasserman Schultz (D)", r["fl20"]["winner_pct"], 70, "#28636c", "won a crowded field (other shares not reported)"))
     alt = f'Reported Aug 18 primary results: Fine {r["fl06"]["winner_pct"]} percent in FL-6, Moskowitz {r["fl25"]["winner_pct"]} percent in FL-25, Wasserman Schultz {r["fl20"]["winner_pct"]} percent in FL-20.'
     return (f'<figure class="chartwrap"><h4>August 18 primaries: winners\' reported shares</h4><svg class="chart" viewBox="0 0 680 170" role="img" aria-label="{e(alt)}">{rows}</svg>'
             f'<figcaption>Shares as reported by <a href="{e(r["source"])}" rel="noopener">Algemeiner</a> on Aug 19; {e(r["caveat"])}. The Division of Elections roster records all three as winners.</figcaption></figure>')

@@ -1,0 +1,91 @@
+record_type,system,state,id,url,label,category,date,detail,count
+find_entry,LLF,,a-written-scope-checklist,/find/a-written-scope-checklist/,find,everyday-life,,words=0; source_rows=0; tip_links=0; corrections=0; thread=; hero=; in_discovery=False,1
+find_entry,LLF,,talk-to-your-local-grocer,/find/talk-to-your-local-grocer/,find,economy,,words=0; source_rows=0; tip_links=0; corrections=0; thread=; hero=; in_discovery=False,1
+find_entry,LLF,,visit-an-old-map-room,/find/visit-an-old-map-room/,find,society,,words=0; source_rows=0; tip_links=0; corrections=0; thread=; hero=; in_discovery=False,1
+article,LLF,MI,aipac-udp-money-delta-october-2026,/learn/aipac-udp-money-delta-october-2026/,Spending Report,politics,2026-10-28,words=1067; source_rows=4; tip_links=4; corrections=0; thread=outside-money; hero=mi-udp; in_discovery=True,1
+article,LLF,,before-you-say-yes-to-the-estimate,/learn/before-you-say-yes-to-the-estimate/,Practical,everyday-life,2026-09-27,words=91; source_rows=2; tip_links=0; corrections=0; thread=; hero=; in_discovery=False,1
+article,LLF,FL,florida-governor-fundraising-polling-2026,/learn/florida-governor-fundraising-polling-2026/,Reported feature,politics,2026-10-23,words=835; source_rows=10; tip_links=0; corrections=1; thread=polls-and-markets; hero=fl-capitol; in_discovery=True,1
+article,LLF,FL,florida-house-independent-spending-october-2026,/learn/florida-house-independent-spending-october-2026/,Spending Report,politics,2026-10-23,words=620; source_rows=4; tip_links=0; corrections=2; thread=outside-money; hero=fl-capitol; in_discovery=True,1
+article,LLF,FL,florida-house-new-map-primaries-october-2026,/learn/florida-house-new-map-primaries-october-2026/,State of the Race,politics,2026-10-24,words=746; source_rows=10; tip_links=1; corrections=1; thread=districts-and-ballots; hero=fl-capitol; in_discovery=True,1
+article,LLF,FL,florida-senate-special-election-poll-debate-october-2026,/learn/florida-senate-special-election-poll-debate-october-2026/,State of the Race,politics,2026-10-24,words=812; source_rows=10; tip_links=1; corrections=1; thread=polls-and-markets; hero=fl-capitol; in_discovery=True,1
+article,LLF,IL,illinois-il04-ballot-access-october-2026,/learn/illinois-il04-ballot-access-october-2026/,Reported Feature,politics,2026-10-28,words=621; source_rows=5; tip_links=4; corrections=0; thread=districts-and-ballots; hero=il-garcia; in_discovery=True,1
+article,LLF,IL,illinois-il07-ford-outside-money-october-2026,/learn/illinois-il07-ford-outside-money-october-2026/,Spending Report,politics,2026-10-28,words=1045; source_rows=8; tip_links=4; corrections=0; thread=outside-money; hero=il-ford; in_discovery=True,1
+article,LLF,IL,illinois-senate-primary-money-october-2026,/learn/illinois-senate-primary-money-october-2026/,Spending Report,politics,2026-10-28,words=714; source_rows=3; tip_links=3; corrections=0; thread=outside-money; hero=il-stratton; in_discovery=True,1
+article,LLF,MI,michigan-10-outside-spending-reporting-calendar-2026,/learn/michigan-10-outside-spending-reporting-calendar-2026/,Spending Report,politics,2026-10-31,words=868; source_rows=7; tip_links=4; corrections=0; thread=outside-money; hero=mi-udp; in_discovery=True,1
+article,LLF,MI,michigan-13-primary-outside-spending-2026,/learn/michigan-13-primary-outside-spending-2026/,Spending Report,politics,2026-10-31,words=856; source_rows=7; tip_links=4; corrections=0; thread=outside-money; hero=mi-capitol; in_discovery=True,1
+article,LLF,MI,michigan-senate-delta-october-2026,/learn/michigan-senate-delta-october-2026/,Delta Report,politics,2026-10-23,words=797; source_rows=7; tip_links=0; corrections=1; thread=polls-and-markets; hero=mi-capitol; in_discovery=True,1
+article,LLF,MI,mike-duggan-withdrawn-candidate-kalshi-michigan,/learn/mike-duggan-withdrawn-candidate-kalshi-michigan/,Reported Feature,politics,2026-10-28,words=761; source_rows=3; tip_links=3; corrections=0; thread=polls-and-markets; hero=mi-duggan; in_discovery=True,1
+article,LLF,MN,minnesota-first-district-outside-spending-october-2026,/learn/minnesota-first-district-outside-spending-october-2026/,Reported Feature,politics,2026-10-31,words=877; source_rows=6; tip_links=7; corrections=1; thread=outside-money; hero=mn-01; in_discovery=True,1
+article,LLF,MN,minnesota-senate-quiet-campaign-poll-october-2026,/learn/minnesota-senate-quiet-campaign-poll-october-2026/,Reported Feature,politics,2026-10-31,words=827; source_rows=4; tip_links=7; corrections=1; thread=polls-and-markets; hero=mn-senate; in_discovery=True,1
+article,LLF,NJ,new-jersey-nj07-bennett-kean-october-2026,/learn/new-jersey-nj07-bennett-kean-october-2026/,Reported Feature,politics,2026-10-31,words=408; source_rows=6; tip_links=6; corrections=1; thread=polls-and-markets; hero=nj-07; in_discovery=True,1
+article,LLF,NJ,new-jersey-nj12-hamawy-primary-outside-money-2026,/learn/new-jersey-nj12-hamawy-primary-outside-money-2026/,Reported Feature,politics,2026-10-31,words=443; source_rows=7; tip_links=7; corrections=1; thread=outside-money; hero=nj-12; in_discovery=True,1
+article,LLF,NJ,new-jersey-senate-booker-murphy-money-debate-2026,/learn/new-jersey-senate-booker-murphy-money-debate-2026/,Reported Feature,politics,2026-10-31,words=356; source_rows=8; tip_links=7; corrections=1; thread=outside-money; hero=nj-senate; in_discovery=True,1
+article,LLF,NY,new-york-17-conley-lawler-poll-market-october-2026,/learn/new-york-17-conley-lawler-poll-market-october-2026/,State of the Race,politics,2026-10-30,words=339; source_rows=4; tip_links=4; corrections=1; thread=polls-and-markets; hero=ny-17; in_discovery=True,1
+article,LLF,NY,new-york-governor-hochul-blakeman-polls-october-2026,/learn/new-york-governor-hochul-blakeman-polls-october-2026/,State of the Race,politics,2026-10-30,words=397; source_rows=5; tip_links=4; corrections=1; thread=polls-and-markets; hero=ny-capitol; in_discovery=True,1
+article,LLF,PA,pennsylvania-first-district-clf-spending-2026,/learn/pennsylvania-first-district-clf-spending-2026/,State of the Race,politics,2026-11-01,words=717; source_rows=6; tip_links=7; corrections=1; thread=outside-money; hero=pa-01; in_discovery=True,1
+article,LLF,PA,pennsylvania-governor-poll-party-market-2026,/learn/pennsylvania-governor-poll-party-market-2026/,State of the Race,politics,2026-11-01,words=734; source_rows=6; tip_links=8; corrections=1; thread=polls-and-markets; hero=pa-capitol; in_discovery=True,1
+article,LLF,,what-goes-into-the-price-you-pay,/learn/what-goes-into-the-price-you-pay/,Explained,economy,2026-09-25,words=87; source_rows=2; tip_links=0; corrections=0; thread=; hero=; in_discovery=False,1
+article,LLF,,what-was-tartary,/learn/what-was-tartary/,Field guide,society,2026-09-29,words=226; source_rows=3; tip_links=0; corrections=0; thread=; hero=; in_discovery=False,1
+state_data,LLF,FL,data/elections/FL,/elections/2026/florida/,state hub data,elections,2026-10-23T22:40:03Z,"candidates=96; with_tip_page=96; offices={'governor': 10, 'senate': 3, 'house': 83}; market_events=30; district_shapes=28; built_pages=32; house_pages=28; governor_page=True; senate_page=True",96
+state_data,LLF,IL,data/elections/IL,/elections/2026/illinois/,state hub data,elections,2026-10-28T05:49:15Z,"candidates=54; with_tip_page=54; offices={'governor': 11, 'senate': 4, 'house': 39}; market_events=19; district_shapes=17; built_pages=21; house_pages=17; governor_page=True; senate_page=True",54
+state_data,LLF,MI,data/elections/MI,/elections/2026/michigan/,state hub data,elections,2026-10-28T20:21:35Z,"candidates=75; with_tip_page=74; offices={'governor': 5, 'senate': 6, 'house': 64}; market_events=15; district_shapes=13; built_pages=17; house_pages=13; governor_page=True; senate_page=True",75
+state_data,LLF,NY,data/elections/NY,/elections/2026/new-york/,state hub data,elections,2026-10-30T17:57:41Z,"candidates=64; with_tip_page=62; offices={'governor': 4, 'house': 60}; market_events=27; district_shapes=26; built_pages=29; house_pages=26; governor_page=True; senate_page=False",64
+state_data,LLF,NJ,data/elections/NJ,/elections/2026/new-jersey/,state hub data,elections,2026-10-31T12:54:08Z,"candidates=40; with_tip_page=40; offices={'senate': 5, 'house': 35}; market_events=13; district_shapes=12; built_pages=15; house_pages=12; governor_page=False; senate_page=True",40
+state_data,LLF,MN,data/elections/MN,/elections/2026/minnesota/,state hub data,elections,2026-10-31T19:51:49Z,"candidates=25; with_tip_page=24; offices={'governor': 3, 'senate': 5, 'house': 17}; market_events=10; district_shapes=8; built_pages=12; house_pages=8; governor_page=True; senate_page=True",25
+state_data,LLF,PA,data/elections/PA,/elections/2026/pennsylvania/,state hub data,elections,2026-11-01T15:35:47Z,"candidates=37; with_tip_page=37; offices={'governor': 3, 'house': 34}; market_events=18; district_shapes=17; built_pages=20; house_pages=17; governor_page=True; senate_page=False",37
+tip_db_state,TIP database,AK,races/candidates AK,,rows by state,database,2026-11-04,"races={'H': 1, 'S': 1, 'GOV': 1}; candidates=35",3
+tip_db_state,TIP database,AL,races/candidates AL,,rows by state,database,2026-11-04,"races={'H': 8, 'GOV': 1, 'S': 1}; candidates=79",10
+tip_db_state,TIP database,AR,races/candidates AR,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 4, 'S': 1}; candidates=35",6
+tip_db_state,TIP database,AS,races/candidates AS,,rows by state,database,2026-11-04,races={'H': 1}; candidates=3,1
+tip_db_state,TIP database,AZ,races/candidates AZ,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 10, 'S': 1}; candidates=156",12
+tip_db_state,TIP database,CA,races/candidates CA,,rows by state,database,2026-11-04,"races={'H': 54, 'GOV': 1, 'S': 1}; candidates=582",56
+tip_db_state,TIP database,CO,races/candidates CO,,rows by state,database,2026-11-04,"races={'H': 9, 'GOV': 1, 'S': 1}; candidates=160",11
+tip_db_state,TIP database,CT,races/candidates CT,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 5, 'S': 1}; candidates=54",7
+tip_db_state,TIP database,DC,races/candidates DC,,rows by state,database,2026-11-04,"races={'H': 1, 'S': 1}; candidates=27",2
+tip_db_state,TIP database,DE,races/candidates DE,,rows by state,database,2026-11-04,"races={'H': 1, 'S': 1}; candidates=21",2
+tip_db_state,TIP database,FL,races/candidates FL,,rows by state,database,2026-11-04,"races={'H': 30, 'GOV': 1, 'S': 1}; candidates=475",32
+tip_db_state,TIP database,GA,races/candidates GA,,rows by state,database,2026-11-04,"races={'H': 16, 'GOV': 1, 'S': 1}; candidates=227",18
+tip_db_state,TIP database,GU,races/candidates GU,,rows by state,database,2026-11-04,"races={'H': 1, 'GOV': 1}; candidates=9",2
+tip_db_state,TIP database,HI,races/candidates HI,,rows by state,database,2026-11-04,"races={'H': 2, 'GOV': 1, 'S': 1}; candidates=18",4
+tip_db_state,TIP database,IA,races/candidates IA,,rows by state,database,2026-11-04,"races={'H': 6, 'GOV': 1, 'S': 1}; candidates=70",8
+tip_db_state,TIP database,ID,races/candidates ID,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 2, 'S': 1}; candidates=34",4
+tip_db_state,TIP database,IL,races/candidates IL,,rows by state,database,2026-11-04,"races={'H': 18, 'GOV': 1, 'S': 1}; candidates=249",20
+tip_db_state,TIP database,IN,races/candidates IN,,rows by state,database,2026-11-04,"races={'H': 9, 'S': 1}; candidates=125",10
+tip_db_state,TIP database,KS,races/candidates KS,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 4, 'S': 1}; candidates=67",6
+tip_db_state,TIP database,KY,races/candidates KY,,rows by state,database,2026-11-04,"races={'H': 6, 'S': 1}; candidates=89",7
+tip_db_state,TIP database,LA,races/candidates LA,,rows by state,database,2026-11-04,"races={'S': 1, 'H': 6}; candidates=91",7
+tip_db_state,TIP database,MA,races/candidates MA,,rows by state,database,2026-11-04,"races={'H': 9, 'GOV': 1, 'S': 1}; candidates=77",11
+tip_db_state,TIP database,MD,races/candidates MD,,rows by state,database,2026-11-04,"races={'H': 10, 'S': 1}; candidates=146",11
+tip_db_state,TIP database,ME,races/candidates ME,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 2, 'S': 1}; candidates=46",4
+tip_db_state,TIP database,MI,races/candidates MI,,rows by state,database,2026-11-04,"races={'H': 16, 'GOV': 1, 'S': 1}; candidates=217",18
+tip_db_state,TIP database,MN,races/candidates MN,,rows by state,database,2026-11-04,"races={'H': 9, 'GOV': 1, 'S': 1}; candidates=115",11
+tip_db_state,TIP database,MO,races/candidates MO,,rows by state,database,2026-11-04,"races={'H': 9, 'S': 1}; candidates=104",10
+tip_db_state,TIP database,MP,races/candidates MP,,rows by state,database,2026-11-04,races={'H': 2}; candidates=4,2
+tip_db_state,TIP database,MS,races/candidates MS,,rows by state,database,2026-11-04,"races={'H': 4, 'S': 1}; candidates=41",5
+tip_db_state,TIP database,MT,races/candidates MT,,rows by state,database,2026-11-04,"races={'H': 4, 'S': 1}; candidates=43",5
+tip_db_state,TIP database,NC,races/candidates NC,,rows by state,database,2026-11-04,"races={'H': 14, 'S': 1}; candidates=181",15
+tip_db_state,TIP database,ND,races/candidates ND,,rows by state,database,2026-11-04,"races={'H': 1, 'S': 1}; candidates=21",2
+tip_db_state,TIP database,NE,races/candidates NE,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 3, 'S': 1}; candidates=41",5
+tip_db_state,TIP database,NH,races/candidates NH,,rows by state,database,2026-11-04,"races={'H': 3, 'GOV': 1, 'S': 1}; candidates=55",5
+tip_db_state,TIP database,NJ,races/candidates NJ,,rows by state,database,2026-11-04,"races={'H': 12, 'S': 1}; candidates=198",13
+tip_db_state,TIP database,NM,races/candidates NM,,rows by state,database,2026-11-04,"races={'H': 3, 'GOV': 1, 'S': 1}; candidates=38",5
+tip_db_state,TIP database,NV,races/candidates NV,,rows by state,database,2026-11-04,"races={'H': 5, 'GOV': 1, 'S': 1}; candidates=104",7
+tip_db_state,TIP database,NY,races/candidates NY,,rows by state,database,2026-11-04,"races={'H': 30, 'GOV': 1, 'S': 1}; candidates=321",32
+tip_db_state,TIP database,OH,races/candidates OH,,rows by state,database,2026-11-04,"races={'H': 19, 'GOV': 1, 'S': 1}; candidates=169",21
+tip_db_state,TIP database,OK,races/candidates OK,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 6, 'S': 1}; candidates=77",8
+tip_db_state,TIP database,OR,races/candidates OR,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 7, 'S': 1}; candidates=65",9
+tip_db_state,TIP database,PA,races/candidates PA,,rows by state,database,2026-11-04,"races={'H': 22, 'GOV': 1, 'S': 1}; candidates=170",24
+tip_db_state,TIP database,PR,races/candidates PR,,rows by state,database,2026-11-04,races={'H': 1}; candidates=4,1
+tip_db_state,TIP database,RI,races/candidates RI,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 2, 'S': 1}; candidates=33",4
+tip_db_state,TIP database,SC,races/candidates SC,,rows by state,database,2026-11-04,"races={'H': 9, 'GOV': 1, 'S': 1}; candidates=104",11
+tip_db_state,TIP database,SD,races/candidates SD,,rows by state,database,2026-11-04,"races={'GOV': 1, 'H': 1, 'S': 1}; candidates=20",3
+tip_db_state,TIP database,TN,races/candidates TN,,rows by state,database,2026-11-04,"races={'H': 9, 'GOV': 1, 'S': 1}; candidates=138",11
+tip_db_state,TIP database,TX,races/candidates TX,,rows by state,database,2026-11-04,"races={'H': 38, 'GOV': 1, 'S': 1}; candidates=522",40
+tip_db_state,TIP database,UT,races/candidates UT,,rows by state,database,2026-11-04,"races={'H': 5, 'S': 1}; candidates=74",6
+tip_db_state,TIP database,VA,races/candidates VA,,rows by state,database,2026-11-04,"races={'H': 11, 'S': 1}; candidates=200",12
+tip_db_state,TIP database,VI,races/candidates VI,,rows by state,database,2026-11-04,races={'H': 1}; candidates=7,1
+tip_db_state,TIP database,VT,races/candidates VT,,rows by state,database,2026-11-04,"races={'GOV': 1, 'S': 1, 'H': 1}; candidates=14",3
+tip_db_state,TIP database,WA,races/candidates WA,,rows by state,database,2026-11-04,"races={'H': 12, 'S': 1}; candidates=113",13
+tip_db_state,TIP database,WI,races/candidates WI,,rows by state,database,2026-11-04,"races={'H': 8, 'GOV': 1, 'S': 1}; candidates=106",10
+tip_db_state,TIP database,WV,races/candidates WV,,rows by state,database,2026-11-04,"races={'H': 4, 'S': 1}; candidates=43",5
+tip_db_state,TIP database,WY,races/candidates WY,,rows by state,database,2026-11-04,"races={'H': 1, 'GOV': 1, 'S': 1}; candidates=26",3

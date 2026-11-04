@@ -26,7 +26,8 @@ class MichiganPages(unittest.TestCase):
 
     def test_no_other_state_content_on_michigan_pages(self):
         for f in DIST.rglob("index.html"):
-            t = re.sub(r"<[^>]+>", " ", f.read_text(encoding="utf-8"))
+            # the global shell's state picker legitimately names every state; the test is about page content
+            t = re.sub(r"<[^>]+>", " ", re.sub(r'<div class="llf-shell".*?</dialog></div>', " ", f.read_text(encoding="utf-8"), flags=re.S))
             for w in ("Florida", "Illinois", "Durbin", "Pritzker", "Donalds", "HB 1-D", "March 17"):
                 self.assertNotIn(w, t, f"{w} in {f}")
 

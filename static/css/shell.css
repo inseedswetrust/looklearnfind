@@ -1,0 +1,174 @@
+/* LookLearnFind global shell: persistent rail (desktop), mobile bar and Explore sheet. Rendered once per page by shared_nav.py via build.shell().
+   Tokens come from site.css (:root, --llf-*). Never copy this markup into a page template. Design rules: docs/design/LLF_GLOBAL_SHELL.md */
+body.has-shell{--rail:var(--llf-rail-width,236px);--line-l:rgba(245,243,237,.22);--disp:"Newsreader Variable","Iowan Old Style",Baskerville,Georgia,serif;overflow-x:clip}
+body.has-shell .mobile-bar,body.has-shell .explore-sheet{display:none}
+.llf-shell a{text-decoration:none}
+.llf-shell :is(a,button,select,summary,input):focus-visible{outline:3px solid var(--llf-yellow);outline-offset:3px}
+.explore-sheet :is(a,button,select,summary,input):focus-visible{outline-color:var(--llf-yellow)}
+
+/* ---------- desktop: one fixed rail, content offset by the same variable */
+@media(min-width:901px){
+  body.has-shell{padding-left:var(--rail)}
+  body.has-shell .skip:focus{left:calc(var(--rail) + 12px)}
+  body.has-shell .mast .logo{display:none}
+  body.has-shell .mast .wrap{height:64px;max-width:none;padding:0 clamp(20px,2.6vw,40px);justify-content:flex-end}
+  body.has-shell .nav{gap:clamp(12px,1.5vw,24px)}
+  .llf-rail{position:fixed;inset:0 auto 0 0;width:var(--rail);z-index:40;background:var(--llf-night);color:#f5f3ed;font-family:var(--sans);box-shadow:2px 0 14px rgba(0,0,0,.07)}
+  .rail-scroll{height:100%;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#6b6c70 transparent;padding:20px 19px 22px;display:flex;flex-direction:column;gap:20px}
+  body.has-shell .wrap.wide{max-width:1330px;padding-inline:clamp(22px,3.2vw,48px)}
+  body.has-shell .wrap{max-width:1230px}
+  body.has-shell .mast .wrap{max-width:none}
+}
+
+/* ---------- stateful logo: the original artwork as an alpha mask, one clip per word */
+.brand{position:relative;display:block;aspect-ratio:1040/701;flex-shrink:0}
+.brand-large{width:137px;max-width:100%}
+.brand-fallback{position:absolute;inset:0;width:100%;height:100%}
+.word{position:absolute;inset:0;display:none;background:var(--llf-paper);-webkit-mask:url(/img/logo-cream.png) center/100% 100% no-repeat;mask:url(/img/logo-cream.png) center/100% 100% no-repeat;transition:background-color .3s ease}
+@supports ((-webkit-mask-image:url(x)) or (mask-image:url(x))){.brand-fallback{visibility:hidden}.word{display:block}}
+.word.w-look{clip-path:inset(0 0 66% 0)}.word.w-learn{clip-path:inset(34% 0 32% 0)}.word.w-find{clip-path:inset(68% 0 0 0)}
+body[data-format=look] .word.w-look,body[data-format=learn] .word.w-learn,body[data-format=find] .word.w-find{background:var(--llf-yellow)}
+.brand.is-changing .word::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,var(--llf-yellow) 48%,transparent 66%);transform:translateX(-110%);animation:logo-sweep .42s ease both}
+.brand.is-changing .word.w-learn::after{animation-delay:40ms}.brand.is-changing .word.w-find::after{animation-delay:80ms}
+@keyframes logo-sweep{to{transform:translateX(110%)}}
+
+/* ---------- Look / Learn / Find modes */
+.format-nav{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid #55565a;margin:-3px 0 0}
+.format-nav a{position:relative;min-height:44px;display:flex;align-items:center;justify-content:center;color:#d1d1d1;font:13px var(--sans)}
+.format-nav a:hover{color:#fff}
+.format-nav a[aria-current=page]{color:var(--llf-yellow);font-weight:700}
+.format-nav a[aria-current=page]::after{content:"";position:absolute;bottom:0;left:12px;right:12px;height:3px;background:var(--llf-yellow)}
+
+/* ---------- labels, search, browse */
+.llf-shell .eyebrow{display:block;font:700 10px/1.4 var(--sans);letter-spacing:.15em;text-transform:uppercase;color:#c7c7c9;margin:0 0 9px}
+.rail-search{margin:0}.search-control{position:relative}
+.search-control span{position:absolute;left:12px;top:8px;font-size:22px;line-height:1;color:#ccc;pointer-events:none}
+.rail-search input,.sheet-body input[type=search]{box-sizing:border-box;width:100%;min-height:44px;border:1px solid #7e8084;border-radius:5px;background:#323336;color:#fff;padding:9px 10px 9px 38px;font:13px var(--sans)}
+.rail-search input::placeholder,.sheet-body input::placeholder{color:#ddd;opacity:1}
+.rail-browse{display:flex;flex-direction:column;gap:1px}
+.rail-browse .eyebrow{margin-bottom:6px}
+.rail-browse a{padding:10px 9px 10px 12px;border-left:3px solid transparent;color:#e7e7e7;font:13px/1.2 var(--sans);min-height:20px}
+.rail-browse a:hover,.rail-browse a[aria-current=page]{background:#343538;border-left-color:var(--llf-yellow)}
+.rail-browse a[aria-current=page]{font-weight:700;color:#fff}
+.rail-context{display:flex;flex-direction:column;gap:18px}
+.rail-context:empty{display:none}
+.rail-bottom{border-top:1px solid #525357;padding-top:14px;margin-top:auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 12px;font:11px var(--sans)}
+.rail-bottom a{color:#d5d5d6}.rail-bottom a:hover{color:#fff}
+
+/* ---------- state picker and lens */
+.state-form[hidden]{display:none}
+.js .state-form{display:block}
+.js .llf-shell noscript{display:none}
+.llf-shell .state-form,.llf-shell .context-nav,.llf-shell .outline,.llf-shell .recommendations{border-top:1px solid #525357;padding-top:16px}
+.select-wrap{position:relative}
+.select-wrap select{display:block;width:100%;appearance:none;-webkit-appearance:none;background:#323336;color:#fff;border:1px solid #777;border-radius:4px;padding:8px 32px 8px 10px;min-height:44px;font:13px var(--sans)}
+.select-wrap select option{background:var(--llf-paper);color:var(--llf-ink)}
+.select-wrap>span{position:absolute;right:12px;top:8px;font:18px/1.6 var(--sans);pointer-events:none;color:#ddd}
+.state-help,.lens-status{font:12px/1.5 var(--sans);color:#c9c9cb;margin:7px 0 0}
+.lens-status:empty{display:none}
+.coverage-link{display:block;font:12px/1.4 var(--sans);margin-top:10px;color:#e9d95b!important;text-decoration:underline!important;text-underline-offset:4px}
+.coverage-link[hidden]{display:none}
+.state-fallback{font:13px var(--sans);color:#d1d1d1}
+.state-fallback summary{cursor:pointer;min-height:32px}.state-fallback ul{list-style:none;margin:6px 0 0;padding:0}.state-fallback a{color:#fff;text-decoration:underline;display:inline-block;padding:4px 0}
+
+/* ---------- parent, outline */
+.context-nav>a{font:13px/1.6 var(--sans);color:#f5f3ed}
+.context-nav p{font:500 22px/1.05 var(--disp);letter-spacing:-.02em;margin:8px 0 0;color:#f5f3ed}
+.outline summary{cursor:pointer;list-style:none;min-height:30px;color:#f5f3ed}
+.outline summary::-webkit-details-marker{display:none}
+.outline summary::after{content:"";display:inline-block;position:relative;width:7px;height:7px;margin-left:10px;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:rotate(45deg) translateY(-3px);transition:transform .2s}
+.outline[open] summary::after{transform:rotate(-135deg) translateY(-1px)}
+.outline .cur{display:block;font:500 13px/1.3 var(--sans);letter-spacing:0;text-transform:none;color:var(--llf-yellow);margin-top:3px}
+.outline[open] .cur,.outline .cur:empty{display:none}
+.outline ol{list-style:none;margin:6px 0 0;padding:0}
+.outline a{display:block;border-left:2px solid #595a5e;padding:6px 0 6px 12px;font:12px/1.35 var(--sans);color:#d5d5d6;min-height:32px}
+.outline a:hover{color:#fff}
+.outline a[aria-current=location]{color:#fff;border-color:var(--llf-yellow)}
+
+/* ---------- recommendations (article pages): stacked cards that fit the narrow rail */
+.recommendations{display:flex;flex-direction:column;gap:16px}
+.rec{display:block;color:inherit;position:relative}
+.rec .thumb{position:relative;display:block;margin-bottom:9px}
+.rec img{display:block;width:100%;height:104px;object-fit:cover;border-radius:4px;background:#34353a}
+.ai-tag{position:absolute;left:4px;bottom:4px;font:8px/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;background:rgba(10,10,12,.8);color:#fff;padding:2px 5px;border-radius:2px}
+.rec .eyebrow{font-size:9px;margin-bottom:5px}
+.card-title{display:block;font:600 19px/1.08 var(--disp);letter-spacing:-.015em;overflow-wrap:anywhere;text-wrap:balance;color:#fff}
+.rec-kind{display:block;font:11px/1.4 var(--sans);margin-top:6px;color:#c9c9cb}
+.rec .arrow{position:absolute;right:2px;bottom:0;font:20px var(--sans);color:var(--llf-yellow)}
+.rec:hover .card-title{text-decoration:underline;text-underline-offset:3px}
+.thread-card{background:#292a2d;border:1px solid #3d3e42;border-radius:6px;padding:12px}
+.thread-card .arrow{right:12px;bottom:10px}
+.gap{font:12px/1.5 var(--sans);color:#c9c9cb}
+.source-link{display:flex;align-items:center;justify-content:space-between;gap:10px;font:13px var(--sans);color:#f5f3ed;border-top:1px solid #525357;padding-top:14px}
+.source-link span:last-child{font-size:20px;color:var(--llf-yellow)}
+
+/* ---------- laptop heights: keep every control reachable */
+@media(min-width:901px) and (max-height:760px){.rail-scroll{gap:14px;padding-top:14px}.brand-large{width:112px}.rec img{height:80px}}
+
+/* ---------- mobile bar and Explore sheet: same destinations as the rail, never over the content */
+@media(max-width:900px){
+  body.has-shell{padding-top:64px}
+  body.has-shell .mast{display:none}
+  .llf-rail{display:none}
+  body.has-shell .mobile-bar{display:flex;position:fixed;inset:0 0 auto;z-index:60;min-height:64px;padding:4px 14px;padding-top:max(4px,env(safe-area-inset-top));gap:12px;align-items:center;justify-content:space-between;background:var(--llf-night);color:#fff;border-bottom:1px solid #3d3e42;font-family:var(--sans)}
+  .mobile-bar .brand-small{width:64px;flex-shrink:0;box-sizing:content-box;padding-block:4px}
+  .mobile-formats{display:flex;gap:clamp(10px,3vw,20px);margin:0;border:0;grid-template-columns:none}
+  .mobile-formats a{font:13px var(--sans);min-height:44px;min-width:36px;display:grid;align-items:center;border-bottom:2px solid transparent;color:#ddd}
+  .mobile-formats a[aria-current=page]{color:var(--llf-yellow);border-color:var(--llf-yellow);font-weight:700}
+  .mobile-formats a[aria-current=page]::after{display:none}
+  .explore-btn{display:block;border:1px solid #777;background:transparent;color:#fff;border-radius:3px;padding:6px 12px;min-height:44px;font:12px var(--sans)}
+  body.has-shell .explore-sheet{display:none}
+  body.has-shell .explore-sheet[open]{display:block;position:fixed;inset:64px 0 0;margin:0;width:100%;max-width:none;height:auto;max-height:calc(100dvh - 64px);border:0;padding:0;background:#28292b;color:#fff;overflow-y:auto;z-index:50;font-family:var(--sans)}
+  .explore-sheet::backdrop{background:rgba(0,0,0,.5)}
+  .dialog-top{position:sticky;top:0;z-index:1;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:#28292b;border-bottom:1px solid #4a4b4f}
+  .dialog-top h2{font:600 24px/1 var(--disp);margin:0;color:#fff}
+  .dialog-top button{padding:8px 16px;border:1px solid #777;border-radius:3px;background:none;color:#fff;min-height:44px;font:14px var(--sans)}
+  .sheet-body{padding:16px 20px 30px;display:flex;flex-direction:column;gap:20px}
+  .sheet-body .rail-search label{margin-bottom:8px}
+  .sheet-browse{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .sheet-browse .eyebrow{grid-column:1/-1}
+  .sheet-browse a{border:0;border-bottom:1px solid #606165;padding:12px;font-size:14px}
+  .sheet-more{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .sheet-more a{color:#fff;padding:12px;border-bottom:1px solid #606165;font-size:14px}
+  .sheet-body .outline a{min-height:44px;display:flex;align-items:center}
+  body.has-shell [id]{scroll-margin-top:80px}
+}
+@media(max-width:370px){body.has-shell .mobile-bar{gap:8px;padding-inline:10px}.mobile-bar .brand-small{width:52px}.mobile-formats{gap:9px}.mobile-formats a{font-size:12px}.explore-btn{padding-inline:9px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.word,.outline summary::after{transition:none}.brand.is-changing .word::after{animation:none}}
+body.has-shell .story-body table{display:block;max-width:100%;overflow-x:auto}
+.js body.has-shell .explore-btn{display:block}
+
+/* ---------- editorial finishing: subdued blue accents; yellow is only for mode and navigation focus, never a party */
+.has-shell .kicker,.has-shell .breadcrumb a,.has-shell .link.teal,.has-shell .open-file h3{color:var(--llf-blue)}
+
+/* consecutive footnote markers ("SOURCE 01" "SOURCE 02") must be able to wrap on a narrow screen instead of widening the page */
+.has-shell .fn{display:inline-block}
+
+/* ---------- layout safety: the rail takes 236px from the content area, so grids tuned to the viewport width get a little tighter */
+body.has-shell .topic-grid>*{min-width:0}
+body.has-shell .searchbar input{min-width:0}
+@media(min-width:801px) and (max-width:1280px){
+  body.has-shell .controls-main{grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,.6fr)) auto}
+  body.has-shell .controls-main .cselect{min-width:0;padding-inline:10px}
+}
+@media(min-width:901px) and (max-width:1280px){
+  body.has-shell.home .topic-card{padding:16px 16px 14px;min-height:190px}
+  body.has-shell.home .topic-card svg{width:56px;height:56px}
+  body.has-shell.home .topic-card h3{font-size:22px}
+}
+@media(max-width:600px){
+  body.has-shell.home .topic-card{padding:14px;min-height:160px}
+  body.has-shell.home .topic-card svg{width:52px;height:52px}
+  body.has-shell.home .topic-card h3{font-size:20px}
+  body.has-shell .topic{padding:12px;min-height:140px}
+  body.has-shell .topic svg{width:36px;height:36px}
+}
+
+/* 901 to 1060px: the old mast collapsed its links into a Menu button here. The rail already carries every destination, so the mast keeps only search and Sign in. */
+@media(min-width:901px) and (max-width:1060px){
+  body.has-shell .menu-btn{display:none}
+  body.has-shell .nav{display:flex;position:static;flex-direction:row;align-items:center;gap:18px;padding:0;border:0;background:none;width:auto}
+  body.has-shell .nav a:not(.acct):not(.mag){display:none}
+  body.has-shell .nav a.acct,body.has-shell .nav a.mag{width:auto;padding:8px 0;border:0;font-size:10px}
+  body.has-shell .nav .sep{display:block}
+}
