@@ -8,11 +8,11 @@ Source: `docs/politics/brand/edition-001/DAILY_SIGNAL_2026-11-05_EDITORIAL_DRAFT
 |---|---|---|---|---|---|---|---|
 | Opening: The national picture | `/politics/daily/2026-11-05/#national-picture` | 9 | 8 | 9 | 0 | partly supported: 1; supported: 3; unsupported: 1 | none |
 | Five signals worth following | `/politics/daily/2026-11-05/#five-signals` | 6 | 11 | 6 | 5 | no claims logged | none |
-| 01 / A new majority. The same leaders? | `/politics/daily/2026-11-05/#leadership` | 8 | 9 | 8 | 1 | supported: 2; unverified: 1 | none |
-| 02 / The political map broke in unexpected places | `/politics/daily/2026-11-05/#geography` | 7 | 8 | 7 | 1 | partly supported: 1; unsupported: 1 | none |
-| 03 / The cost of living dominated. What will Congress actually do? | `/politics/daily/2026-11-05/#voters` | 7 | 8 | 7 | 1 | unverified: 2 | none |
-| 04 / Nearly $12 billion later, what did the money accomplish? | `/politics/daily/2026-11-05/#money` | 7 | 8 | 7 | 1 | supported: 1 | none |
-| 05 / The biggest changes may happen outside Washington | `/politics/daily/2026-11-05/#states` | 7 | 8 | 7 | 1 | supported: 1; unverified: 1 | none |
+| 01 / A new majority. The same leaders? | `/politics/daily/2026-11-05/#leadership` | 8 | 9 | 8 | 3 | supported: 2; unverified: 1 | none |
+| 02 / The political map broke in unexpected places | `/politics/daily/2026-11-05/#geography` | 7 | 8 | 7 | 3 | partly supported: 1; unsupported: 1 | none |
+| 03 / The cost of living dominated. What will Congress actually do? | `/politics/daily/2026-11-05/#voters` | 7 | 8 | 7 | 3 | unverified: 2 | none |
+| 04 / Nearly $12 billion later, what did the money accomplish? | `/politics/daily/2026-11-05/#money` | 7 | 8 | 7 | 3 | supported: 1 | none |
+| 05 / The biggest changes may happen outside Washington | `/politics/daily/2026-11-05/#states` | 7 | 8 | 7 | 3 | supported: 1; unverified: 1 | none |
 | What we are watching next | `/politics/daily/2026-11-05/#what-next` | 6 | 6 | 6 | 0 | no claims logged | none |
 | Go to the source | `/politics/daily/2026-11-05/#sources` | 11 | 15 | 11 | 10 | no claims logged | none |
 

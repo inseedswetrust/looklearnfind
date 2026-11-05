@@ -113,6 +113,76 @@ def capitol():
     return img.size
 
 
+def newsprint():
+    """A torn scrap of newsprint: columns of grey word-shaped bars and a rule. It contains no legible text and no real publication."""
+    from PIL import ImageDraw
+    w, h = 640, 760
+    img = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    base = Image.new("RGB", (w, h), (236, 231, 218))
+    d = ImageDraw.Draw(base)
+    r = np.random.default_rng(7)
+    for col in range(3):
+        x0 = 36 + col * 190
+        d.rectangle([x0, 44, x0 + 170, 70], fill=(70, 68, 64))                       # a headline bar
+        y = 96
+        while y < h - 50:
+            x = x0
+            while x < x0 + 168:
+                ww = int(r.integers(14, 46))
+                d.rectangle([x, y, min(x + ww, x0 + 170), y + 7], fill=(int(r.integers(96, 130)),) * 3)
+                x += ww + 7
+            y += 17
+        d.line([x0 + 180, 40, x0 + 180, h - 36], fill=(150, 146, 138), width=1)
+    mask = np.zeros((h, w), np.uint8)
+    mask[18:h - 18, 18:w - 18] = 255
+    mask = paper_edge(mask, 6, rough=0.3)
+    out = np.dstack([np.asarray(base), mask])
+    Image.fromarray(out, "RGBA").save(OUT / "newsprint.png", optimize=True)
+
+
+def composite():
+    """The leadership photo composition (1500x1000): real official portraits as paper-edged cutouts over layered architecture, a newsprint scrap and directional
+    teal geometry. Nothing is generated: every face is the original photograph with the background removed. Output: static/img/politics/leadership-composite.jpg"""
+    from PIL import ImageFilter
+    W, H = 1500, 1000
+    base = Image.new("RGBA", (W, H), (231, 227, 218, 255))
+
+    def place(layer, xy, angle=0, shadow=0):
+        if angle:
+            layer = layer.rotate(angle, expand=True, resample=Image.BICUBIC)
+        if shadow:
+            sh = Image.new("RGBA", layer.size, (0, 0, 0, 0))
+            sh.putalpha(layer.getchannel("A").point(lambda v: int(v * 0.55)))
+            sh = sh.filter(ImageFilter.GaussianBlur(shadow))
+            base.alpha_composite(sh, (xy[0] + shadow // 2, xy[1] + shadow))
+        base.alpha_composite(layer, xy)
+
+    geo = Image.open(OUT / "teal-geometry.png").convert("RGBA").resize((W, H))
+    geo.putalpha(geo.getchannel("A").point(lambda v: int(v * 0.9)))
+    base.alpha_composite(geo)
+    band = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    from PIL import ImageDraw
+    d = ImageDraw.Draw(band)
+    d.polygon([(0, H), (480, H), (860, 0), (330, 0)], fill=(22, 167, 155, 255))          # directional teal band behind the figures
+    d.polygon([(1010, H), (1500, H), (1500, 330)], fill=(22, 167, 155, 150))            # a lighter plane at the right edge
+    base.alpha_composite(band)
+    cap = Image.open(OUT / "capitol-cut.png").convert("RGBA")
+    cap = cap.resize((int(cap.width * 900 / cap.height), 900), Image.LANCZOS)
+    place(cap, (W - cap.width + 120, -60))
+    news = Image.open(OUT / "newsprint.png").convert("RGBA")
+    news = news.resize((int(news.width * 0.62), int(news.height * 0.62)), Image.LANCZOS)
+    place(news, (-30, 70), angle=-5, shadow=10)
+    jef = Image.open(OUT / "jeffries-cutout.png").convert("RGBA")
+    jef = jef.resize((860, int(jef.height * 860 / jef.width)), Image.LANCZOS)
+    place(jef, (20, H - jef.height + 60), angle=-2, shadow=22)
+    sch = Image.open(OUT / "schumer-cutout.png").convert("RGBA")
+    sch = sch.resize((800, int(sch.height * 800 / sch.width)), Image.LANCZOS)
+    place(sch, (640, H - sch.height + 70), angle=2, shadow=22)
+    out = base.convert("RGB")
+    out.save(OUT / "leadership-composite.jpg", quality=90, optimize=True)
+    return out.size
+
+
 def main():
     def jhint(m, s):                       # flag and backdrop are background; face and suit are foreground
         m[:, : int(120 * s)] = cv2.GC_BGD
@@ -129,9 +199,12 @@ def main():
         m[int(1500 * s):, int(700 * s): int(1700 * s)] = cv2.GC_FGD
         m[int(40 * s): int(500 * s), int(600 * s): int(1050 * s)] = cv2.GC_PR_FGD
 
-    sizes = {"capitol": capitol(),
+    newsprint()
+    capitol_size = capitol()
+    sizes = {"capitol": capitol_size,
              "jeffries": cutout("jeffries", (150, 150, 1000, 1470), True, jhint, crop=0.70),
              "schumer": cutout("schumer", (300, 60, 1500, 1840), True, shint, crop=0.76)}
+    sizes["composite"] = composite()
     print(sizes)
 
 

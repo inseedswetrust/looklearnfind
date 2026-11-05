@@ -60,6 +60,13 @@
       "note": "External advocacy, not LookLearnFind reporting. Linked only when a specific campaign is approved."
     },
     "art": {
+      "composite": {
+        "src": "/img/politics/leadership-composite.jpg?v=20261105c",
+        "width": 1500,
+        "height": 1000,
+        "asset_id": "POL-LEADERSHIP-COMPOSITE",
+        "alt": "Black-and-white portraits of Hakeem Jeffries and Chuck Schumer cut out like newspaper clippings over the U.S. Capitol dome, a newsprint scrap and diagonal teal geometry."
+      },
       "a": {
         "src": "/img/politics/jeffries-cutout.png?v=20261105b",
         "width": 900,
@@ -74,7 +81,23 @@
         "alt": "Chuck Schumer, in an official photograph.",
         "asset_id": "POL-SCHUMER-CUT"
       },
-      "caption": "Photo illustration assembled from two separate official portraits, both public domain: Hakeem Jeffries (Office of Representative Hakeem Jeffries, 2021) and Chuck Schumer (U.S. Senate Photographic Studio, 2017). The two are not pictured together."
+      "caption": "Photo illustration assembled from two separate official portraits, both public domain: Hakeem Jeffries (Office of Representative Hakeem Jeffries, 2021) and Chuck Schumer (U.S. Senate Photographic Studio, 2017), with a U.S. Capitol photograph (Noclip, public domain). The two are not pictured together."
+    },
+    "record_module": {
+      "eyebrow": "THE LEADERSHIP RECORD",
+      "title": "Follow who says what, with the source beside it.",
+      "links": [
+        {
+          "label": "Read the leadership chapter",
+          "route": "edition#leadership"
+        },
+        {
+          "label": "Hakeem Jeffries: candidate record at The Issues Party",
+          "href": "https://theissuesparty.org/candidates/H2NY10092",
+          "external": true
+        }
+      ],
+      "note": "The Issues Party is a separate advocacy platform, not LookLearnFind reporting. Linking to a record does not mean the candidate endorses it."
     }
   },
   "election": {
@@ -228,6 +251,12 @@
         "treatment": "mono",
         "key": "us-capitol",
         "alt": "The U.S. Capitol in black and white."
+      },
+      "chapter_image": {
+        "src": "/img/politics/leadership-composite.jpg?v=20261105c",
+        "treatment": "none",
+        "alt": "Black-and-white portraits of Hakeem Jeffries and Chuck Schumer cut out like newspaper clippings over the Capitol dome.",
+        "credit": "Photo illustration: two official portraits (public domain)"
       }
     },
     {

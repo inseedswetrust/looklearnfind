@@ -159,7 +159,7 @@ class Built(unittest.TestCase):
         self.assertEqual(pc.check_edition_pages(DIST, allow_preview=True), [])
 
     def test_nine_zones_in_the_approved_order(self):
-        ids = ["pol-h1", "daily-signal", "accountability-desk", "election-2026", "follow-the-money", "state-of-the-record", "election-signals", "current-reporting", "go-to-the-source"]
+        ids = ["pol-h1", "daily-signal", "accountability-desk", "five-signals-today", "election-2026", "follow-the-money", "state-of-the-record", "election-signals", "current-reporting", "go-to-the-source"]
         pos = [self.land.index(f'id="{i}"') for i in ids]
         self.assertEqual(pos, sorted(pos))
 
@@ -182,7 +182,7 @@ class Built(unittest.TestCase):
         self.assertEqual(self.land.count('class="pol-tab"'), 1); self.assertIn('class="pol-duo"', self.land)
 
     def test_cutouts_use_real_portraits_with_a_caption_that_denies_a_joint_appearance(self):
-        self.assertIn("jeffries-cutout.png", self.land); self.assertIn("schumer-cutout.png", self.land)
+        self.assertIn("leadership-composite.jpg", self.land)
         self.assertIn("the two are not pictured together", self.land.lower())
 
     def test_historical_context_is_labelled(self):
@@ -203,7 +203,7 @@ class Built(unittest.TestCase):
         p.write_text(self.land.replace("</main>", "<p>The challenger won.</p></main>", 1), encoding="utf-8")
         self.assertTrue(any("election-claim" in x for x in pc.check_pages(d)))
         rows = pc.load_assets()
-        rows["static/img/politics/jeffries-cutout.png"] = dict(rows["static/img/politics/jeffries-cutout.png"], usage_status="pending")
+        rows["static/img/politics/leadership-composite.jpg"] = dict(rows["static/img/politics/leadership-composite.jpg"], usage_status="pending")
         self.assertTrue(any("usage_status" in x for x in pc.check_pages(DIST, assets=rows)))
 
     def test_search_includes_hubs(self):
@@ -272,7 +272,7 @@ class Edition001(unittest.TestCase):
 
     def test_rendered_edition_has_outline_label_ids_back_links_and_the_editors_note(self):
         h = politics.render_edition(self.r, lambda s: s)
-        self.assertIn('data-outline-label="On this briefing"', h)
+        self.assertIn('data-outline-label="In this edition"', h)
         for i in ("national-picture", "five-signals", "leadership", "geography", "voters", "money", "states", "what-next", "sources"):
             self.assertIn(f'id="{i}"', h)
         self.assertEqual(h.count("Back to today's signals"), 5)
@@ -307,9 +307,21 @@ class EditionBuilt(unittest.TestCase):
 
     def test_rail_outline_is_named_and_lists_the_five_signals(self):
         rail = self.h.split("<main", 1)[0]
-        self.assertIn("On this briefing", rail)
+        self.assertIn("In this edition", rail)
         for lab in ("Leadership", "Election geography", "Voter priorities", "Campaign money", "State power"):
             self.assertIn(lab, rail)
+
+    def test_chapters_have_photos_a_sticky_bar_and_previous_next_links(self):
+        import re
+        self.assertEqual(self.h.count('class="pol-ed__fig"'), 5)
+        self.assertEqual(len(re.findall(r'data-chapter="(?:leadership|geography|voters|money|states)"', self.h)), 5)
+        sig = re.search(r'id="five-signals".*?</section>', self.h, re.S).group(0)
+        self.assertEqual(sig.count("<img"), 5); self.assertEqual(sig.count("Jump to chapter"), 5)
+        self.assertEqual(self.h.count('class="pol-ed__pn"'), 5)
+        self.assertIn('href="#national-picture"><span>← Back to the opening', self.h); self.assertIn('href="#what-next"><span>Next →', self.h)
+        self.assertIn("pol-duo--ed", self.h)
+        self.assertIn("data-chapter", (ROOT / "static" / "js" / "politics.js").read_text(encoding="utf-8"))
+        self.assertIn('/js/politics.js', self.h)
 
     def test_the_approved_edition_is_indexable_and_in_the_sitemap_and_search(self):
         self.assertNotIn("noindex", self.h)
@@ -324,7 +336,7 @@ class EditionBuilt(unittest.TestCase):
         import re
         land = (DIST / "politics" / "index.html").read_text(encoding="utf-8")
         strip_end = land.index('id="five-signals-today"')
-        self.assertGreater(strip_end, land.index('id="daily-signal"')); self.assertLess(strip_end, land.index('id="accountability-desk"'))
+        self.assertGreater(strip_end, land.index('id="accountability-desk"')); self.assertLess(strip_end, land.index('id="election-2026"'))      # Five Signals follows the Accountability Desk
         items = re.findall(r'<li class="pol-teaser">.*?</li>', land, re.S)
         self.assertEqual(len(items), 5)
         titles = ["A new majority. The same leaders?", "The political map broke in places nobody expected.", "The cost of living dominated. What will Congress actually do?",

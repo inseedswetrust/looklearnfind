@@ -31,3 +31,12 @@ Yellow underlines, the "Politics tools" rail group, the invented Jeffries/Schume
 - Approval or creation of the gated routes (leadership tracker, `/politics/money/`, `/politics/signals/`, `/elections/2026/`), the FEC link and a validated results source.
 - Whether `/politics/` replaces the old category page on deploy (the old Look, Learn and Find shelves are gone).
 - Owner review of the visual build before any deploy.
+
+## Correction pass 3 (2026-11-05): order, edition template, chapter images
+- **Homepage order** now follows the approved sequence: hero, Daily Signal strip, Accountability Desk, Five Signals, Election 2026 / Follow the Money / State of the Record, Election Signals and Current Reporting, Go to the Source, then the shell's newsletter and footer. The contract check fails any other order.
+- **Accountability Desk:** one large composite built from the real portraits (black and white, paper edges, newsprint scrap, the Capitol, directional teal bands), with the leadership record as a secondary module (the leadership chapter and Hakeem Jeffries's record at The Issues Party, labelled as external advocacy).
+- **Five Signals:** a lead story across the full width and four horizontal cards with two-sentence summaries, so the summaries are readable at desktop widths.
+- **Daily Signal edition template:** hero spread, sticky chapter bar with active highlighting, "In this edition" rail and drawer outline, five photo teasers that jump to five photo-led chapters (previous and next links in each), What we are watching next, the ten-source register, the editor's note and the update history. The build now fails if any chapter, paragraph, image, teaser link, source or note is missing.
+- **Chapter images:** 01 the Jeffries/Schumer composite, 02 Kansas State Capitol, 03 supermarket price tag, 04 one-dollar bill detail, 05 Michigan State Capitol. All rights are recorded in `brand/ASSET_MANIFEST.csv`.
+- **Not used:** the AI Jeffries/Schumer plate from the mockup. It alters both faces (Schumer is given glasses he does not wear in his official photograph), which the Creative Lock forbids. The real-portrait composite replaces it.
+- **Still different from the mockup:** the Capitol is a frontal photograph, not the diagonal dome crop; the rail has no "Politics tools" group (the shell is locked); no yellow underlines; no invented chart.

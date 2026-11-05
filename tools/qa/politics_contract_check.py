@@ -191,8 +191,8 @@ def check_edition_pages(dist, allow_preview=False):
             if a not in ids and a != "main":
                 probs.append(f"{name}: in-page link #{a} has no target")
         if "pol-ed" in h:
-            if "On this briefing" not in h.split('<main', 1)[0]:
-                probs.append(f"{name}: the rail outline must read 'On this briefing'")
+            if "In this edition" not in h.split('<main', 1)[0]:
+                probs.append(f"{name}: the rail outline must read 'In this edition'")
             for need in ("leadership", "geography", "voters", "money", "states", "sources", "five-signals"):
                 if need not in ids:
                     probs.append(f"{name}: missing section id {need}")
@@ -246,8 +246,12 @@ def check_pages(dist, baseline=None, assets=None):
         for href in set(re.findall(r'href="(/[^"]*)"', main)):
             if not exists(dist, href):
                 probs.append(f"/politics/: link {href} does not resolve")
-        if "theissuesparty.org" in land and "Not LookLearnFind reporting" not in land:
+        if "theissuesparty.org" in land and "not lookLearnfind reporting".lower() not in land.lower():
             probs.append("/politics/: TIP link must be labeled external advocacy")
+        order = ["pol-h1", "daily-signal", "accountability-desk", "five-signals-today", "election-2026", "follow-the-money", "state-of-the-record", "election-signals", "current-reporting", "go-to-the-source"]
+        pos = [(land.find(f'id="{i}"'), i) for i in order if f'id="{i}"' in land]
+        if [p for p, _ in pos] != sorted(p for p, _ in pos):
+            probs.append("/politics/: the modules are out of the approved order (hero, Daily Signal, Accountability, Five Signals, tiles, signals and reporting, source)")
         if len(re.findall(r'class="pol-tab"', land)) > 1:
             probs.append("/politics/: more than one yellow tab (one attention marker per viewport)")
         if 'class="pol-duo"' not in land:

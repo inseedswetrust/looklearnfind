@@ -119,7 +119,7 @@ def main(argv):
     teasers = []
     for t in home["teasers"]:
         src = next(i for i in rec["blocks"]["signals"]["items"] if i["target"] == t["target"])
-        m = re.search(rf'<li class="pol-teaser"><a class="pol-teaser__a" href="/politics/daily/2026-11-05/#{t["target"]}">.*?</li>', land, re.S)
+        m = next((x for x in re.finditer(r'<li class="pol-teaser">.*?</li>', land, re.S) if f'/politics/daily/2026-11-05/#{t["target"]}"' in x.group(0)), None)
         ok_sum = bool(m) and norm(src["teaser"]) in norm(m.group(0))
         ok_img = bool(m) and t["image"]["src"] in m.group(0) and (ROOT / "static" / t["image"]["src"].lstrip("/")).exists()
         ok_target = f'id="{t["target"]}"' in page
