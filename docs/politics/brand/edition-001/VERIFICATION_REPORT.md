@@ -25,3 +25,10 @@ Run by Claude as a reviewer who did not draft the text. Claim-level table: `CLAI
 5. Open the Reuters and AP articles (or replace them) so claims 5, 8, 11, 12 and 14 can be checked.
 6. Source or remove the two unsupported characterizations.
 7. Assign an editor who is not the author; then set `fact_check.state` to `passed` with a reviewer name and `status` to `approved`.
+
+## Resolution (2026-11-05): published with fixes on the owner's decision
+The owner approved publishing with the flagged lines corrected. This is an **owner approval after a partial review, not an independent fact-check pass**: `fact_check.state` is `owner_approved`.
+- Twelve corrections (K1 to K12, `CORRECTIONS.json`) removed or reworded the unsupported lines: Ohio dropped from the Senate list, the Texas governorship claim and the "governorships changed hands" wording removed, "secured" changed to "projected", the unsourced "larger than expected" and Trump-margin claims removed, and the spending estimate now names OpenSecrets and AdImpact as projections.
+- The claims that rest on the unreadable Reuters and AP articles stay in the text and are disclosed in a published editor's note under the headline.
+- The corrections are listed in the update log on the page. The source Markdown is kept unchanged; the completeness check applies the corrections before comparing (`CONTENT_COMPLETENESS_REPORT.md`).
+- Still open: an independent check of the Reuters and AP claims (C08, C11, C12 and the Reuters state-race report).

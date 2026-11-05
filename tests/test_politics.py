@@ -172,7 +172,7 @@ class Built(unittest.TestCase):
         for dead in ("/politics/accountability/", "/politics/money/", "/politics/signals/", 'href="/elections/2026/"', "fec.gov"):
             self.assertNotIn(dead, self.land)
 
-    @unittest.skipIf("DRAFT PREVIEW" in (DIST / "politics" / "index.html").read_text(encoding="utf-8"), "preview build shows the draft edition")
+    @unittest.skipIf('id="five-signals-today"' in (DIST / "politics" / "index.html").read_text(encoding="utf-8"), "the approved edition is live, so there is no fallback")
     def test_empty_briefing_shows_fallback_not_pipeline_wording(self):
         self.assertIn("Our next briefing is being prepared", self.land)
         for s in ("fact-check", "owner approval", "two_video", "awaiting"):
@@ -220,10 +220,10 @@ class Edition001(unittest.TestCase):
     def setUp(self):
         self.r = json.loads(DRAFT.read_text(encoding="utf-8"))
 
-    def test_it_is_a_draft_with_a_pending_fact_check(self):
-        self.assertEqual(self.r["status"], "draft"); self.assertIn(self.r["fact_check"]["state"], ("pending", "flags"))
-        self.assertEqual(self.r["story_id"], "DS-2026-11-05-001")
-
+    def test_it_is_owner_approved_with_a_disclosed_partial_review(self):
+        self.assertEqual(self.r["status"], "approved"); self.assertEqual(self.r["fact_check"]["state"], "owner_approved")
+        self.assertTrue(self.r["fact_check"]["approved_by"] and self.r["fact_check"]["approved_on"])
+        self.assertIn("could not be opened", self.r["editors_note"]); self.assertEqual(self.r["story_id"], "DS-2026-11-05-001")
     def test_five_signals_link_to_five_sections_and_the_rail_matches(self):
         b = self.r["blocks"]
         ids = [s["id"] for s in b["sections"]]
@@ -240,61 +240,67 @@ class Edition001(unittest.TestCase):
             import re
             self.assertIn(re.sub(r"<[^>]+>", "", para).split(".")[0][:40], md.replace("**", "").replace("*", ""))
 
-    def test_loader_hides_the_draft_unless_previewing(self):
-        d = DRAFT.parent
-        self.assertEqual([r for r in politics.load_daily(d)[0] if r["story_id"] == self.r["story_id"]], [])
-        self.assertEqual(len([r for r in politics.load_daily(d, include_drafts=True)[0] if r["story_id"] == self.r["story_id"]]), 1)
-
+    def test_loader_hides_a_draft_unless_previewing(self):
+        d = pathlib.Path(tempfile.mkdtemp()); self.addCleanup(shutil.rmtree, d, True)
+        (d / "a.json").write_text(json.dumps(dict(self.r, status="draft", fact_check={"state": "flags", "reviewer": ""})), encoding="utf-8")
+        self.assertEqual(politics.load_daily(d)[0], [])
+        self.assertEqual(len(politics.load_daily(d, include_drafts=True)[0]), 1)
+        (d / "a.json").write_text(json.dumps(self.r), encoding="utf-8")
+        self.assertEqual(len(politics.load_daily(d)[0]), 1)
     def test_contract_accepts_the_draft_record(self):
         errs, _ = pc.check_daily_records(DRAFT.parent, TODAY)
         self.assertEqual(errs, [])
 
-    def test_approval_requires_a_passed_fact_check_by_someone_else(self):
+    def test_approval_requires_a_passed_fact_check_or_a_recorded_owner_approval(self):
         d = pathlib.Path(tempfile.mkdtemp()); self.addCleanup(shutil.rmtree, d, True)
-        bad = dict(self.r, status="approved", editor="Reviewer")
+        bad = dict(self.r, status="approved", editor="Reviewer", fact_check={"state": "flags", "reviewer": ""})
         (d / "a.json").write_text(json.dumps(bad), encoding="utf-8")
         self.assertTrue(any("fact check" in e for e in pc.check_daily_records(d, TODAY)[0]))
+        self.assertEqual(politics.load_daily(d)[0], [])
         ok = dict(self.r, status="approved", editor="Reviewer", fact_check={"state": "passed", "reviewer": "Reviewer"})
         (d / "a.json").write_text(json.dumps(ok), encoding="utf-8")
         self.assertFalse(any("fact check" in e for e in pc.check_daily_records(d, TODAY)[0]))
         self.assertEqual(len(politics.load_daily(d)[0]), 1)
-        (d / "a.json").write_text(json.dumps(dict(ok, fact_check={"state": "pending", "reviewer": ""})), encoding="utf-8")
-        self.assertEqual(politics.load_daily(d)[0], [])
-
+        noapprover = dict(self.r, fact_check={"state": "owner_approved", "reviewer": ""})
+        (d / "a.json").write_text(json.dumps(noapprover), encoding="utf-8")
+        self.assertTrue(any("owner approval" in e for e in pc.check_daily_records(d, TODAY)[0]))
     def test_broken_teaser_target_is_an_error(self):
         d = pathlib.Path(tempfile.mkdtemp()); self.addCleanup(shutil.rmtree, d, True)
         r = json.loads(json.dumps(self.r)); r["blocks"]["signals"]["items"][0]["target"] = "nowhere"
         (d / "a.json").write_text(json.dumps(r), encoding="utf-8")
         self.assertTrue(any("nowhere" in e for e in pc.check_daily_records(d, TODAY)[0]))
 
-    def test_rendered_edition_has_outline_label_ids_and_back_links(self):
+    def test_rendered_edition_has_outline_label_ids_back_links_and_the_editors_note(self):
         h = politics.render_edition(self.r, lambda s: s)
         self.assertIn('data-outline-label="On this briefing"', h)
         for i in ("national-picture", "five-signals", "leadership", "geography", "voters", "money", "states", "what-next", "sources"):
             self.assertIn(f'id="{i}"', h)
         self.assertEqual(h.count("Back to today's signals"), 5)
-        self.assertIn("Draft for review", h)
+        self.assertNotIn("Draft for review", h); self.assertIn("pol-note", h); self.assertIn("could not be opened", h)
 
-    def test_source_review_is_recorded_with_flags_and_nothing_is_approved(self):
-        rv = self.r["review"]
-        self.assertEqual(len(rv["claims"]), 15); self.assertEqual(self.r["fact_check"]["state"], "flags"); self.assertEqual(self.r["status"], "draft")
-        self.assertEqual(sum(rv["counts"].values()), 15)
-        statuses = {c["id"]: c["status"] for c in rv["claims"]}
-        self.assertEqual(statuses["C09"], "partly supported")      # the Ohio Senate claim is not supported by the one readable source
-        self.assertIn(statuses["C14"], ("unverified",))            # the Texas governorship claim
-        self.assertTrue(all(c["source"] and c["note"] for c in rv["claims"]))
-
-    def test_draft_renders_the_review_table_but_an_approved_edition_would_not(self):
+    def test_corrections_were_applied_and_the_flagged_claims_are_gone(self):
         h = politics.render_edition(self.r, lambda s: s)
-        self.assertIn('id="source-review"', h); self.assertIn("Source review (draft)", h)
-        ok = dict(self.r, status="approved", editor="Reviewer", fact_check={"state": "passed", "reviewer": "Reviewer"})
-        self.assertNotIn('id="source-review"', politics.render_edition(ok, lambda s: s))
-
+        for gone in ("Texas, Kansas, Iowa, Ohio", "including Texas", "secured majority control", "larger than many election observers", "five-state comparison", "supported Donald Trump by large margins"):
+            self.assertNotIn(gone, h)
+        for kept in ("Texas, Kansas, Iowa and South Carolina", "projected to hold the majority", "OpenSecrets projected about $11.9 billion", "four-state comparison"):
+            self.assertIn(kept, h)
+        self.assertIn("projected to have won both chambers", self.r["dek"])
+    def test_source_review_is_recorded_and_every_flag_has_a_resolution(self):
+        rv = self.r["review"]
+        self.assertEqual(len(rv["claims"]), 15); self.assertEqual(sum(rv["counts"].values()), 15)
+        statuses = {c["id"]: c["status"] for c in rv["claims"]}
+        self.assertEqual(statuses["C09"], "partly supported"); self.assertEqual(statuses["C14"], "unverified")
+        self.assertTrue(all(c["source"] and c["note"] and c.get("resolution") for c in rv["claims"]))
+        self.assertTrue(next(c for c in rv["claims"] if c["id"] == "C09")["resolution"].startswith("Corrected"))
+    def test_only_a_draft_renders_the_review_table(self):
+        h = politics.render_edition(dict(self.r, status="draft"), lambda s: s)
+        self.assertIn('id="source-review"', h); self.assertIn("Source review (draft)", h); self.assertIn("Draft for review", h)
+        self.assertNotIn('id="source-review"', politics.render_edition(self.r, lambda s: s))
     def test_read_time_is_computed_from_the_text(self):
         self.assertGreaterEqual(politics.read_minutes(self.r), 5)
 
 
-@unittest.skipUnless((DIST / "politics" / "daily" / "2026-11-05" / "index.html").exists(), "needs a preview build (LLF_PREVIEW_DRAFTS=1)")
+@unittest.skipUnless((DIST / "politics" / "daily" / "2026-11-05" / "index.html").exists(), "needs a build that includes the edition")
 class EditionBuilt(unittest.TestCase):
     def setUp(self):
         self.h = (DIST / "politics" / "daily" / "2026-11-05" / "index.html").read_text(encoding="utf-8")
@@ -305,17 +311,15 @@ class EditionBuilt(unittest.TestCase):
         for lab in ("Leadership", "Election geography", "Voter priorities", "Campaign money", "State power"):
             self.assertIn(lab, rail)
 
-    def test_the_draft_is_noindex_and_not_in_sitemap_or_search(self):
-        self.assertIn('content="noindex', self.h)
-        self.assertNotIn("2026-11-05", (DIST / "sitemap.xml").read_text(encoding="utf-8").split("/politics/daily/")[-1][:12] if "/politics/daily/" in (DIST / "sitemap.xml").read_text(encoding="utf-8") else "")
-        self.assertNotIn("/politics/daily/2026-11-05/", (DIST / "search-index.json").read_text(encoding="utf-8"))
-
-    def test_landing_shows_the_draft_with_five_signals_and_a_label(self):
+    def test_the_approved_edition_is_indexable_and_in_the_sitemap_and_search(self):
+        self.assertNotIn("noindex", self.h)
+        self.assertIn("/politics/daily/2026-11-05/", (DIST / "sitemap.xml").read_text(encoding="utf-8"))
+        self.assertIn("/politics/daily/2026-11-05/", (DIST / "search-index.json").read_text(encoding="utf-8"))
+        self.assertIn('class="pol-note"', self.h); self.assertNotIn("pol-draftbar", self.h)
+    def test_landing_shows_the_live_edition_with_five_signals(self):
         land = (DIST / "politics" / "index.html").read_text(encoding="utf-8")
-        self.assertIn("DRAFT PREVIEW", land); self.assertIn("Five signals today", land)
-        self.assertIn("/politics/daily/2026-11-05/#leadership", land)
-        self.assertIn("EDITION 001", land)
-
+        self.assertNotIn("DRAFT PREVIEW", land); self.assertIn("Five signals today", land)
+        self.assertIn("/politics/daily/2026-11-05/#leadership", land); self.assertIn("EDITION 001", land)
     def test_five_teasers_follow_the_strip_in_order_with_images_summaries_and_links(self):
         import re
         land = (DIST / "politics" / "index.html").read_text(encoding="utf-8")
@@ -336,9 +340,8 @@ class EditionBuilt(unittest.TestCase):
         m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
         self.assertEqual(m.main(["--no-report"]), 0)
 
-    def test_a_release_check_fails_on_a_preview_build(self):
-        self.assertTrue(pc.check_edition_pages(DIST))
-
+    def test_the_release_check_passes_with_the_approved_edition(self):
+        self.assertEqual(pc.check_edition_pages(DIST), [])
 
 if __name__ == "__main__":
     unittest.main()

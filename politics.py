@@ -36,8 +36,8 @@ def load_daily(directory=None, include_drafts=False):
         if miss:
             bad.append(f"{f.name}: missing {', '.join(miss)}")
             continue
-        if r["status"] == "approved" and (r.get("fact_check") or {"state": "passed"}).get("state") != "passed":
-            bad.append(f"{f.name}: approved without a passed fact check")
+        if r["status"] == "approved" and (r.get("fact_check") or {"state": "passed"}).get("state") not in ("passed", "owner_approved"):
+            bad.append(f"{f.name}: approved without a passed fact check or a recorded owner approval")
             continue
         if r["status"] == "approved" or (include_drafts and r["status"] == "draft"):
             out.append(r)
@@ -298,6 +298,7 @@ def render_edition(r, fmt_date, preview=False):
     """The long-form briefing: opening, five jump-linked signals, five deep sections, what we are watching, numbered sources. One shared shell, one rail."""
     b = r["blocks"]
     op, sg = b["opening"], b["signals"]
+    note = f'<p class="pol-note" role="note">{e(r["editors_note"])}</p>' if r.get("editors_note") and r["status"] == "approved" else ""
     draft = ('<p class="pol-draftbar" role="note"><b>Draft for review.</b> Not approved or published. The independent fact check is pending, '
              'so figures, calls and control claims below are unverified.</p>') if r["status"] != "approved" else ""
     rv = r.get("review") if r["status"] != "approved" else None
@@ -327,7 +328,7 @@ def render_edition(r, fmt_date, preview=False):
     return (f'<article class="pol-ed" data-outline-label="On this briefing" data-story-id="{e(r["story_id"])}">'
             f'<header class="pol-ed__head"><div class="breadcrumb"><a href="/">Home</a> / <a href="/politics/">Politics</a> / <a href="/politics/daily/">The Daily Signal</a> / {e(fmt_date(r["date"]))}</div>'
             f'<div class="pol-eyebrow">THE DAILY SIGNAL / EDITION {e(r["edition"])}</div><h1>{e(r["title"])}</h1><p class="pol-ed__dek">{e(r["dek"])}</p>'
-            f'<p class="pol-credit">{e(fmt_date(r["date"]))} / {read_minutes(r)} min read. Story ID {e(r["story_id"])}. By {e(r["author"])}. {("Edited by " + e(r["editor"])) if not r["editor"].lower().startswith("not yet") else "Editor not yet assigned"}. Source cutoff {e(fmt_date(r["source_cutoff"]))}.</p>{draft}</header>'
+            f'<p class="pol-credit">{e(fmt_date(r["date"]))} / {read_minutes(r)} min read. Story ID {e(r["story_id"])}. By {e(r["author"])}. {("Edited by " + e(r["editor"])) if not r["editor"].lower().startswith("not yet") else "Editor not yet assigned"}. Source cutoff {e(fmt_date(r["source_cutoff"]))}.</p>{draft}{note}</header>'
             f'<nav class="onpage" aria-label="On this briefing"><ol>{outline}</ol></nav>'
             f'<section class="pol-ed__sec" id="{e(op["id"])}"><h2>{e(op["h2"])}</h2>{"".join(f"<p>{p}</p>" for p in op["paras"])}'
             f'<div class="pol-glance"><h3>At a glance</h3><ul>{glance}</ul></div><p class="pol-ed__src">{op["source_note"]}</p></section>'

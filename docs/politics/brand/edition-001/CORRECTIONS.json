@@ -1,0 +1,118 @@
+{
+  "edition": "DS-2026-11-05-001",
+  "approved_on": "2026-11-05",
+  "approved_by": "Owner (publish with fixes)",
+  "note": "Corrections applied to the editorial draft after the source review (VERIFICATION_REPORT.md). Each replaces plain text only; nothing else in the draft was changed. The importer's source Markdown is kept unchanged beside this file.",
+  "corrections": [
+    {
+      "id": "K1",
+      "claims": [
+        "C01",
+        "C02"
+      ],
+      "old": "Democrats have secured both chambers.",
+      "new": "Democrats are projected to have won both chambers.",
+      "reason": "The sources say projected, and seats are still being counted."
+    },
+    {
+      "id": "K2",
+      "claims": [
+        "C01"
+      ],
+      "old": "Democrats secured majority control; final district-level",
+      "new": "Democrats are projected to hold the majority; final district-level",
+      "reason": "Projection, not a certified result."
+    },
+    {
+      "id": "K3",
+      "claims": [
+        "C02"
+      ],
+      "old": "Democrats secured majority control; the precise seat",
+      "new": "Democrats are projected to hold the majority; the precise seat",
+      "reason": "Projection, not a certified result."
+    },
+    {
+      "id": "K4",
+      "claims": [
+        "C04",
+        "C01"
+      ],
+      "old": "produced a reversal larger than many election observers expected. Democrats won control of both chambers",
+      "new": "produced a reversal. Democrats were projected to win control of both chambers",
+      "reason": "No source compares the result with expectations; control is a projection."
+    },
+    {
+      "id": "K5",
+      "claims": [
+        "C09"
+      ],
+      "old": "Texas, Kansas, Iowa, Ohio and South Carolina",
+      "new": "Texas, Kansas, Iowa and South Carolina",
+      "reason": "Ohio's Senate result is not supported by the one readable source."
+    },
+    {
+      "id": "K6",
+      "claims": [
+        "C10"
+      ],
+      "old": " Some of those outcomes reached into areas that had supported Donald Trump by large margins two years earlier.",
+      "new": "",
+      "reason": "No margin data was found for this claim."
+    },
+    {
+      "id": "K7",
+      "claims": [
+        "C09"
+      ],
+      "old": "five-state comparison",
+      "new": "four-state comparison",
+      "reason": "Follows K5."
+    },
+    {
+      "id": "K8",
+      "claims": [
+        "C14"
+      ],
+      "old": "Governorships and legislative chambers changed hands.",
+      "new": "Legislative chambers changed hands.",
+      "reason": "No governorship result was confirmed; NCSL supports the chamber changes."
+    },
+    {
+      "id": "K9",
+      "claims": [
+        "C14"
+      ],
+      "old": "Democratic victories also changed governorships and state legislatures.",
+      "new": "Democratic victories also changed control of several state legislatures.",
+      "reason": "No governorship flip was confirmed."
+    },
+    {
+      "id": "K10",
+      "claims": [
+        "C14"
+      ],
+      "old": "Reuters reported Democratic gains in Republican-held governorships, including Texas, and changes in legislative control.",
+      "new": "Reuters reported Democratic gains in state government races and changes in legislative control.",
+      "reason": "No Texas governor result was found; the Reuters article could not be opened."
+    },
+    {
+      "id": "K11",
+      "claims": [
+        "C14"
+      ],
+      "old": "affecting gubernatorial and legislative control in several states.",
+      "new": "affecting legislative control in several states.",
+      "reason": "Follows K9."
+    },
+    {
+      "id": "K12",
+      "claims": [
+        "C13"
+      ],
+      "old": "Publicly reported estimates put the total near $12 billion, but this is not a single FEC field and the accounting",
+      "new": "Publicly reported projections put the total near $12 billion (OpenSecrets projected about $11.9 billion and AdImpact $11.6 billion for advertising alone). These are projections, not final totals. This is not a single FEC field and the accounting",
+      "reason": "Names the sources and scope, as the draft itself requires."
+    }
+  ]
+}

@@ -22,6 +22,7 @@ H1_TEXT = "Less noise. More evidence."
 # ("has not validated", "until a dated official source", "no result") is allowed.
 RESULT_TERMS = re.compile(r"\b(won|wins|winning|winner|winners|projected to win|elected|defeated|conced(?:e|es|ed)|landslide|mandate|certified (?:results?|winner)|declared (?:the )?winner|called (?:the )?race)\b", re.I)
 SAFE_CONTEXT = re.compile(r"\b(not|no|never|until|unless|without|only when|if|before|cannot|isn't|is not|has not|have not)\b", re.I)
+DAILY_FILE = ROOT / "data" / "politics_daily" / "2026-11-05-edition-001.json"
 MANIFEST = ROOT / "docs" / "politics" / "brand" / "ASSET_MANIFEST.csv"
 OK_ASSET_STATUS = ("cleared", "labelled_ai")
 REQUIRED_DAILY = ("story_id", "date", "title", "dek", "sources", "author", "editor", "update_log", "status")
@@ -32,8 +33,13 @@ def sha(p):
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
 
+def hashed(p, base=POLICY):
+    """Policy text is hashed; regenerated screenshots are evidence, not policy, and are not."""
+    return p.is_file() and p.name != "SHA256SUMS.txt" and "screenshots" not in p.relative_to(base).parts
+
+
 def policy_files():
-    return sorted(p for p in POLICY.rglob("*") if p.is_file() and p.name != "SHA256SUMS.txt")
+    return sorted(p for p in POLICY.rglob("*") if hashed(p))
 
 
 def write_manifest():
@@ -47,7 +53,7 @@ def check_manifest(policy=POLICY):
     if not m.exists():
         return ["policy: SHA256SUMS.txt missing"]
     want = dict(reversed(l.split("  ", 1)) for l in m.read_text(encoding="utf-8").splitlines() if l.strip())
-    have = {p.relative_to(policy).as_posix(): sha(p) for p in policy.rglob("*") if p.is_file() and p.name != "SHA256SUMS.txt"}
+    have = {p.relative_to(policy).as_posix(): sha(p) for p in policy.rglob("*") if hashed(p, policy)}
     for name, h in have.items():
         if name not in want:
             probs.append(f"policy: {name} is not in the manifest (add a changelog entry, then regenerate)")
@@ -111,8 +117,15 @@ def check_daily_records(directory, today=None):
         if r["status"] not in ("draft", "approved"):
             errs.append(f"daily {f.name}: status must be draft or approved")
         fc = r.get("fact_check") or {}
-        if r["status"] == "approved" and (fc.get("state") != "passed" or not fc.get("reviewer") or fc.get("reviewer") == r["author"]):
-            errs.append(f"daily {f.name}: approved needs a passed fact check by a reviewer other than the author")
+        if r["status"] == "approved":
+            if fc.get("state") == "passed":
+                if not fc.get("reviewer") or fc.get("reviewer") == r["author"]:
+                    errs.append(f"daily {f.name}: approved needs a passed fact check by a reviewer other than the author")
+            elif fc.get("state") == "owner_approved":
+                if not (fc.get("approved_by") and fc.get("approved_on") and r.get("editors_note")):
+                    errs.append(f"daily {f.name}: an owner approval needs approved_by, approved_on and a published editor's note")
+            else:
+                errs.append(f"daily {f.name}: approved needs a passed fact check or a recorded owner approval")
         b = r.get("blocks")
         if b:
             sec_ids = {s["id"] for s in b.get("sections", [])}
@@ -183,6 +196,13 @@ def check_edition_pages(dist, allow_preview=False):
             for need in ("leadership", "geography", "voters", "money", "states", "sources", "five-signals"):
                 if need not in ids:
                     probs.append(f"{name}: missing section id {need}")
+        if not draft:
+            if 'name="robots" content="noindex' in h:
+                probs.append(f"{name}: an approved edition must be indexable")
+            if name not in sm:
+                probs.append(f"{name}: an approved edition must be in the sitemap")
+            if "pol-ed" in h and 'class="pol-note"' not in h and "owner_approved" in (DAILY_FILE.read_text(encoding="utf-8") if DAILY_FILE.exists() else ""):
+                probs.append(f"{name}: an owner-approved edition must show its editor's note")
         if draft:
             if not allow_preview:
                 probs.append(f"{name}: a draft edition is built (preview build). Rebuild without LLF_PREVIEW_DRAFTS before any release")

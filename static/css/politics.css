@@ -137,6 +137,7 @@ body.pol-home{--pol-gutter:48px;--pol-max:1240px}
 .pol-ed__head h1{font:normal clamp(34px,4.2vw,56px)/1.06 var(--serif);letter-spacing:-.026em;margin:12px 0 0}
 .pol-ed__dek{font:normal 21px/1.5 var(--serif);margin:18px 0 0;color:var(--llf-ink)}
 .pol-draftbar{margin:18px 0 0;border:1px solid var(--llf-ink);border-left-width:5px;padding:12px 16px;font:14px/1.5 var(--sans);background:repeating-linear-gradient(135deg,transparent 0 9px,rgba(34,35,38,.05) 9px 10px)}
+.pol-note{margin:18px 0 0;border-left:3px solid var(--llf-blue);padding:6px 0 6px 14px;font:13.5px/1.55 var(--sans);color:var(--llf-ink)}
 .pol-ed__sec{margin-top:52px;padding-top:6px}
 .pol-ed__sec h2{font:normal clamp(28px,3vw,40px)/1.1 var(--serif);letter-spacing:-.02em;margin:8px 0 18px}
 .pol-ed__sec p{font:normal 19px/1.65 var(--serif);margin:0 0 16px}
