@@ -182,8 +182,8 @@ class Built(unittest.TestCase):
         self.assertEqual(self.land.count('class="pol-tab"'), 1); self.assertIn('class="pol-duo"', self.land)
 
     def test_cutouts_use_real_portraits_with_a_caption_that_denies_a_joint_appearance(self):
-        self.assertIn("leadership-composite.jpg", self.land)
-        self.assertIn("the two are not pictured together", self.land.lower())
+        self.assertIn("supplied/leadership.jpg", self.land)
+        self.assertIn("not a real joint appearance", self.land.lower())
 
     def test_historical_context_is_labelled(self):
         self.assertIn("PRE-ELECTION REPORT / HISTORICAL CONTEXT", self.land)
@@ -203,7 +203,7 @@ class Built(unittest.TestCase):
         p.write_text(self.land.replace("</main>", "<p>The challenger won.</p></main>", 1), encoding="utf-8")
         self.assertTrue(any("election-claim" in x for x in pc.check_pages(d)))
         rows = pc.load_assets()
-        rows["static/img/politics/leadership-composite.jpg"] = dict(rows["static/img/politics/leadership-composite.jpg"], usage_status="pending")
+        rows["static/img/politics/supplied/leadership.jpg"] = dict(rows["static/img/politics/supplied/leadership.jpg"], usage_status="pending")
         self.assertTrue(any("usage_status" in x for x in pc.check_pages(DIST, assets=rows)))
 
     def test_search_includes_hubs(self):

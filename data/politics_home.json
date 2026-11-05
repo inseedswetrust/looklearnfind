@@ -13,12 +13,12 @@
     ],
     "deck": "The daily briefing, the original records and what they reveal about power, money and what comes next.",
     "art": {
-      "src": "/img/politics/capitol-cut.png?v=20261105b",
-      "width": 1594,
-      "height": 1086,
-      "alt": "The U.S. Capitol dome and wings in black and white, rising over a muted teal plane.",
-      "credit": "U.S. Capitol, west front. Photo: Noclip, public domain (Wikimedia Commons). Sky removed and converted to black and white.",
-      "asset_id": "POL-CAPITOL-CUT"
+      "src": "/img/politics/supplied/hero.jpg?v=20261105d",
+      "width": 1515,
+      "height": 843,
+      "alt": "The U.S. Capitol dome and balustrade in black and white beside a teal plane.",
+      "credit": "Image supplied with the approved mockup (AI-generated)",
+      "asset_id": "POL-SUP-HERO"
     }
   },
   "daily": {
@@ -61,11 +61,11 @@
     },
     "art": {
       "composite": {
-        "src": "/img/politics/leadership-composite.jpg?v=20261105c",
-        "width": 1500,
-        "height": 1000,
-        "asset_id": "POL-LEADERSHIP-COMPOSITE",
-        "alt": "Black-and-white portraits of Hakeem Jeffries and Chuck Schumer cut out like newspaper clippings over the U.S. Capitol dome, a newsprint scrap and diagonal teal geometry."
+        "src": "/img/politics/supplied/leadership.jpg?v=20261105d",
+        "width": 1737,
+        "height": 945,
+        "asset_id": "POL-SUP-LEADERSHIP",
+        "alt": "Black-and-white illustration of Hakeem Jeffries and Chuck Schumer as newspaper cutouts over the Capitol and newsprint with teal geometry."
       },
       "a": {
         "src": "/img/politics/jeffries-cutout.png?v=20261105b",
@@ -81,7 +81,7 @@
         "alt": "Chuck Schumer, in an official photograph.",
         "asset_id": "POL-SCHUMER-CUT"
       },
-      "caption": "Photo illustration assembled from two separate official portraits, both public domain: Hakeem Jeffries (Office of Representative Hakeem Jeffries, 2021) and Chuck Schumer (U.S. Senate Photographic Studio, 2017), with a U.S. Capitol photograph (Noclip, public domain). The two are not pictured together."
+      "caption": "Illustration supplied with the approved mockup. It is AI-generated: not a photograph, and not a real joint appearance of Hakeem Jeffries and Chuck Schumer."
     },
     "record_module": {
       "eyebrow": "THE LEADERSHIP RECORD",
@@ -110,8 +110,10 @@
       "fallback": "#state-reports"
     },
     "image": {
-      "key": "fl-capitol",
-      "treatment": "color"
+      "src": "/img/politics/supplied/vote.jpg?v=20261105d",
+      "treatment": "none",
+      "alt": "",
+      "credit": "Image supplied with the approved mockup (AI-generated)"
     },
     "states_label": "State reports",
     "selector_label": "Choose a state",
@@ -157,8 +159,10 @@
       "fallback_story": "aipac-udp-money-delta-october-2026"
     },
     "image": {
-      "key": "il-ford",
-      "treatment": "color"
+      "src": "/img/politics/supplied/money.jpg?v=20261105d",
+      "treatment": "none",
+      "alt": "",
+      "credit": "Image supplied with the approved mockup (AI-generated)"
     }
   },
   "record": {
@@ -170,8 +174,10 @@
       "route": "/threads/following-a-promise/"
     },
     "image": {
-      "key": "il-capitol",
-      "treatment": "color"
+      "src": "/img/politics/supplied/record.jpg?v=20261105d",
+      "treatment": "none",
+      "alt": "",
+      "credit": "Image supplied with the approved mockup (AI-generated)"
     }
   },
   "signals": {
@@ -189,8 +195,10 @@
     },
     "no_signal": "No finding has passed our review yet. Until one does, we publish none.",
     "image": {
-      "key": "s5-new-york",
-      "treatment": "duochrome"
+      "src": "/img/politics/supplied/signals.jpg?v=20261105d",
+      "treatment": "none",
+      "alt": "",
+      "credit": "Image supplied with the approved mockup (AI-generated)"
     },
     "items": []
   },
@@ -247,16 +255,16 @@
       "target": "leadership",
       "title": "A new majority. The same leaders?",
       "image": {
-        "src": "/img/elections/us-capitol.jpg",
-        "treatment": "mono",
-        "key": "us-capitol",
-        "alt": "The U.S. Capitol in black and white."
+        "src": "/img/politics/supplied/hero.jpg?v=20261105d",
+        "treatment": "none",
+        "alt": "The U.S. Capitol dome in black and white.",
+        "credit": "Image supplied with the approved mockup (AI-generated)"
       },
       "chapter_image": {
-        "src": "/img/politics/leadership-composite.jpg?v=20261105c",
+        "src": "/img/politics/supplied/leadership.jpg?v=20261105d",
         "treatment": "none",
-        "alt": "Black-and-white portraits of Hakeem Jeffries and Chuck Schumer cut out like newspaper clippings over the Capitol dome.",
-        "credit": "Photo illustration: two official portraits (public domain)"
+        "alt": "Illustration of Hakeem Jeffries and Chuck Schumer as newspaper cutouts.",
+        "credit": "Image supplied with the approved mockup (AI-generated)"
       }
     },
     {
@@ -264,10 +272,10 @@
       "target": "geography",
       "title": "The political map broke in places nobody expected.",
       "image": {
-        "src": "/img/politics/teasers/kansas-capitol.jpg",
-        "treatment": "color",
-        "alt": "The Kansas State Capitol in Topeka under a clear sky.",
-        "credit": "Photo: w_lemay, CC BY-SA 2.0"
+        "src": "/img/politics/supplied/vote.jpg?v=20261105d",
+        "treatment": "none",
+        "alt": "A voting booth sign with a flag, with voters in the background.",
+        "credit": "Image supplied with the approved mockup (AI-generated)"
       }
     },
     {
@@ -275,10 +283,10 @@
       "target": "voters",
       "title": "The cost of living dominated. What will Congress actually do?",
       "image": {
-        "src": "/img/politics/teasers/grocery-prices.jpg",
-        "treatment": "color",
-        "alt": "A supermarket shelf of fresh herbs and onions with a 99 cent price tag.",
-        "credit": "Photo: MatthewHoobin, CC0"
+        "src": "/img/politics/supplied/signals.jpg?v=20261105d",
+        "treatment": "none",
+        "alt": "People walking along a city street seen from behind.",
+        "credit": "Image supplied with the approved mockup (AI-generated)"
       }
     },
     {
@@ -286,10 +294,10 @@
       "target": "money",
       "title": "Nearly $12 billion later, what did the money accomplish?",
       "image": {
-        "src": "/img/politics/teasers/dollar-bill.jpg",
-        "treatment": "mono",
-        "alt": "A detail of a United States one-dollar bill.",
-        "credit": "Image: U.S. Government, public domain"
+        "src": "/img/politics/supplied/money.jpg?v=20261105d",
+        "treatment": "none",
+        "alt": "A rolled one-dollar bill in close-up.",
+        "credit": "Image supplied with the approved mockup (AI-generated)"
       }
     },
     {
@@ -297,10 +305,10 @@
       "target": "states",
       "title": "The biggest changes may happen outside Washington.",
       "image": {
-        "src": "/img/elections/mi-capitol.jpg",
-        "treatment": "color",
-        "key": "mi-capitol",
-        "alt": "The Michigan State Capitol in Lansing."
+        "src": "/img/politics/supplied/record.jpg?v=20261105d",
+        "treatment": "none",
+        "alt": "A domed statehouse with a gold dome among autumn leaves.",
+        "credit": "Image supplied with the approved mockup (AI-generated)"
       }
     }
   ]

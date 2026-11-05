@@ -24,11 +24,11 @@ Not rendered, by design: the draft's "Page UX and navigation" section. It is pro
 
 | # | Homepage title | Links to | Summary rendered | Image present | Target exists | Image rights | Status |
 |---|---|---|---|---|---|---|---|
-| 01 | A new majority. The same leaders? | `#leadership` | yes | yes | yes | Public domain | cleared |
-| 02 | The political map broke in places nobody expected. | `#geography` | yes | yes | yes | CC BY-SA 2.0 (Wikimedia Commons) | cleared |
-| 03 | The cost of living dominated. What will Congress actually do? | `#voters` | yes | yes | yes | CC0 (Wikimedia Commons) | cleared |
-| 04 | Nearly $12 billion later, what did the money accomplish? | `#money` | yes | yes | yes | Public domain (Wikimedia Commons) | cleared |
-| 05 | The biggest changes may happen outside Washington. | `#states` | yes | yes | yes | CC BY-SA 2.0 | cleared |
+| 01 | A new majority. The same leaders? | `#leadership` | yes | yes | yes | (site image, see hero credits) | cleared |
+| 02 | The political map broke in places nobody expected. | `#geography` | yes | yes | yes | (site image, see hero credits) | cleared |
+| 03 | The cost of living dominated. What will Congress actually do? | `#voters` | yes | yes | yes | (site image, see hero credits) | cleared |
+| 04 | Nearly $12 billion later, what did the money accomplish? | `#money` | yes | yes | yes | (site image, see hero credits) | cleared |
+| 05 | The biggest changes may happen outside Washington. | `#states` | yes | yes | yes | (site image, see hero credits) | cleared |
 
 Homepage teaser titles 02 and 03 follow the owner's directive; the briefing keeps the draft's own wording (`The political map broke in unexpected places`, `The cost of living dominated. What will Congress actually do?`). Teaser summaries are the draft's own teaser paragraphs, unchanged.
 

@@ -221,9 +221,9 @@ def leadership_record(api, m):
 def tile(api, mid, m, cta_html, extra=""):
     """A topic tile: text on the paper side, a photograph on the other side cut by a diagonal edge. Natural colour or monochrome, never a blanket filter."""
     im = m["image"]
-    cr = credit_line(api, im["key"])
+    cr = im.get("credit") or credit_line(api, im.get("key", ""))
     return (f'<article class="pol-tile" id="{mid}" aria-labelledby="{mid}-h"><div class="pol-tile__t">{_head(m, mid + "-h")}<p class="pol-tile__d">{e(m["deck"])}</p>{cta_html}{extra}</div>'
-            f'<div class="pol-tile__pic"><img class="pol-img--{e(im["treatment"])}" src="{_img(im["key"])}" alt="" loading="lazy" width="1200" height="800">'
+            f'<div class="pol-tile__pic"><img class="pol-img--{e(im["treatment"])}" src="{e(im.get("src") or _img(im["key"]))}" alt="" loading="lazy">'
             f'<span class="pol-credit">{e(cr)}</span></div></article>')
 
 
@@ -267,7 +267,7 @@ def record_tile(api, m):
 
 def signals_tile(api, m):
     im = m["image"]
-    cr = credit_line(api, im["key"])
+    cr = im.get("credit") or credit_line(api, im.get("key", ""))
     items = [i for i in (m.get("items") or []) if i.get("status") == "approved"]
     body = "".join(f'<li><b>{e(i["headline"])}</b> {e(i["stat_or_comparison"])} <span class="pol-credit">Verified {e(i["verified_at"])} by {e(i["reviewer"])}. {e(i["method_note"])}</span></li>' for i in items)
     none = "" if items else f'<p class="pol-signals__none">{e(m["no_signal"])}</p>'
@@ -275,8 +275,8 @@ def signals_tile(api, m):
     links = prim + _cta(api, "signals", m["method"], "pol-cta pol-cta--quiet")
     return (f'<article class="pol-signals" id="election-signals" aria-labelledby="pol-sig-h"><div class="pol-signals__t">{_head(m, "pol-sig-h")}<p class="pol-tile__d">{e(m["deck"])}</p>'
             f'{("<ul class=pol-sigl>" + body + "</ul>") if items else ""}{none}<p class="pol-signals__links">{links}</p></div>'
-            f'<div class="pol-signals__pic"><img class="pol-img--{e(im["treatment"])}" src="{_img(im["key"])}" alt="" loading="lazy" width="1200" height="800">'
-            f'<span class="pol-signals__plane" aria-hidden="true"></span><span class="pol-credit">{e(cr)}</span></div></article>')
+            f'<div class="pol-signals__pic"><img class="pol-img--{e(im["treatment"])}" src="{e(im.get("src") or _img(im["key"]))}" alt="" loading="lazy">'
+            f'<span class="pol-credit">{e(cr)}</span></div></article>')
 
 
 def reporting_list(api, m, site, threads):

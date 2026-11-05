@@ -24,7 +24,7 @@ RESULT_TERMS = re.compile(r"\b(won|wins|winning|winner|winners|projected to win|
 SAFE_CONTEXT = re.compile(r"\b(not|no|never|until|unless|without|only when|if|before|cannot|isn't|is not|has not|have not)\b", re.I)
 DAILY_FILE = ROOT / "data" / "politics_daily" / "2026-11-05-edition-001.json"
 MANIFEST = ROOT / "docs" / "politics" / "brand" / "ASSET_MANIFEST.csv"
-OK_ASSET_STATUS = ("cleared", "labelled_ai")
+OK_ASSET_STATUS = ("cleared", "labelled_ai", "owner_supplied")
 REQUIRED_DAILY = ("story_id", "date", "title", "dek", "sources", "author", "editor", "update_log", "status")
 MAX_DAILY_AGE_DAYS = 3        # an approved briefing older than this is a WARNING (historical records stay), never a build failure
 

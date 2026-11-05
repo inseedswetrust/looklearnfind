@@ -121,7 +121,7 @@ def main(argv):
         src = next(i for i in rec["blocks"]["signals"]["items"] if i["target"] == t["target"])
         m = next((x for x in re.finditer(r'<li class="pol-teaser">.*?</li>', land, re.S) if f'/politics/daily/2026-11-05/#{t["target"]}"' in x.group(0)), None)
         ok_sum = bool(m) and norm(src["teaser"]) in norm(m.group(0))
-        ok_img = bool(m) and t["image"]["src"] in m.group(0) and (ROOT / "static" / t["image"]["src"].lstrip("/")).exists()
+        ok_img = bool(m) and t["image"]["src"] in m.group(0) and (ROOT / "static" / t["image"]["src"].split("?")[0].lstrip("/")).exists()
         ok_target = f'id="{t["target"]}"' in page
         row = assets.get("static" + t["image"]["src"])
         teasers.append((t["n"], t["title"], t["target"], ok_sum, ok_img, ok_target, row["rights_basis"] if row else "(site image, see hero credits)", row["usage_status"] if row else "cleared"))
