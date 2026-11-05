@@ -15,10 +15,11 @@ See docs/ for the brand guide, sitemap and nexus design.
 """
 import json, os, re, shutil, sys, datetime
 from pathlib import Path
-from html import escape
+from html import escape, unescape as html_unescape
 import elections
 import shared_nav
 import sidebar
+import politics
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "dist"
@@ -584,6 +585,8 @@ def gen_topics():
 
 def gen_categories():
     for c in SITE["categories"]:
+        if c["slug"] == "politics":    # /politics/ is written by politics.py (data/politics_home.json)
+            continue
         ss = [s for s in STORIES if s.get("category") == c["slug"]]
         ff = [f for f in FINDS if f.get("category") == c["slug"]]
         ts = [t for t in SITE["topics"] if t["category"] == c["slug"]]
@@ -874,6 +877,14 @@ def write_search_index():
     for p in PAGES:
         if p.get("sitemap", "yes") != "no" and p.get("noindex") != "yes" and p["path"] not in ("/",):
             idx.append(dict(t="page", title=p["title"].split("|")[0].strip(), url=p["path"], dek=p["description"], cat="", topics=[], threads=[], text=""))
+    # Politics entry points and election hubs (state hub, governor, Senate, House index, methods): indexed so search finds them. Districts are not.
+    seen = {x["url"] for x in idx}
+    for path in sorted(set(SITEMAP)):
+        depth = path.strip("/").split("/")
+        hub = path in ("/politics/", "/politics/daily/") or path.startswith("/politics/daily/") or (path.startswith("/elections/") and len(depth) <= 4 and "district" not in path)
+        if hub and path not in seen and path in PAGES_OUT:
+            m = re.search(r"<title>(.*?)</title>", PAGES_OUT[path], re.S); d = re.search(r'<meta name="description" content="(.*?)"', PAGES_OUT[path], re.S)
+            idx.append(dict(t="page", title=re.sub(r"\s*\|.*$", "", html_unescape(m.group(1))) if m else path, url=path, dek=html_unescape(d.group(1)) if d else "", cat="politics", topics=[], threads=[], text="")); seen.add(path)
     (OUT / "search-index.json").write_text(json.dumps(idx, ensure_ascii=False, separators=(",", ":")))
     (OUT / "threads.json").write_text(json.dumps([{k: t[k] for k in ("slug", "title", "aliases", "category", "topics", "summary")} for t in THREADS], ensure_ascii=False, separators=(",", ":")))
     (OUT / "site-data.json").write_text(json.dumps({"categories": SITE["categories"], "topics": [{"slug": t["slug"], "label": t["label"], "category": t["category"]} for t in SITE["topics"]], "kinds": SITE["kinds"], "platforms": SITE["platforms"]}, ensure_ascii=False, separators=(",", ":")))
@@ -895,6 +906,7 @@ def main():
     for f in FINDS:
         render_find(f)
     gen_pages(); gen_home(); gen_topics(); gen_categories(); gen_threads(); gen_learn_latest_find(); gen_candidates(); gen_search_shell(); gen_look_shells()
+    politics.build(dict(shell=shell, STORIES=STORIES, cards=cards, fmt_date=fmt_date, page_head=page_head, contribute_band=contribute_band, CANDS=CANDS, SITE=SITE, THREADS=THREADS))
     elections.API.update(dict(shell=shell, STORIES=STORIES, card=card, take_block=take_block, kv_block=kv_block, fmt_date=fmt_date))
     elections.build(elections.API)
     for s in STORIES:

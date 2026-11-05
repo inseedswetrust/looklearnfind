@@ -1,0 +1,55 @@
+{
+  "version": "0.1.0",
+  "phase": "post-election-unverified",
+  "phase_note": "Election Day was November 3. LookLearnFind has not yet validated an official results source, so this page states no result, margin or call.",
+  "eyebrow": "POLITICS / THE PUBLIC RECORD",
+  "headline": "Power changes hands. The record continues.",
+  "dek": "Where the 2026 races stand, what was said and on what record, and where to check it yourself. We publish a result only when a dated official source backs it.",
+  "daily": {
+    "heading": "The Daily Signal",
+    "intro": "One sourced item a day on what changed in public life. Each carries a story ID, its sources, an editor and an update log.",
+    "empty": "No Daily Signal has been published yet. The first item appears here once it has passed fact-check and owner approval.",
+    "limit": 3
+  },
+  "follow_story": {
+    "heading": "Follow the story",
+    "thread": "outside-money",
+    "limit": 3,
+    "label": "Earlier reporting. Published before Election Day and not updated since."
+  },
+  "states": {
+    "heading": "Explore a state",
+    "intro": "Each hub links to the governor, Senate and House pages for that state. Candidate names open their profiles on The Issues Party.",
+    "list": [
+      {"code": "FL", "name": "Florida"}, {"code": "IL", "name": "Illinois"}, {"code": "MI", "name": "Michigan"},
+      {"code": "MN", "name": "Minnesota"}, {"code": "NJ", "name": "New Jersey"}, {"code": "NY", "name": "New York"},
+      {"code": "PA", "name": "Pennsylvania"}
+    ]
+  },
+  "record": {
+    "heading": "The Record",
+    "intro": "What we hold on file, with the sources beside it.",
+    "items": [
+      {"label": "State hubs", "value": "7", "note": "FL, IL, MI, MN, NJ, NY, PA"},
+      {"label": "Reported articles", "value": "{stories}", "note": "all published before Election Day"},
+      {"label": "Candidate profiles linked", "value": "{candidates}", "note": "on The Issues Party"}
+    ]
+  },
+  "radar": {
+    "heading": "On our radar",
+    "empty": "Nothing is on the radar list yet. Items appear here only with a source and a date."
+  },
+  "verify": {
+    "heading": "Watch, read, verify",
+    "links": [
+      {"label": "Read the methods", "href": "/about/election-methods/", "note": "How we source and label election pages"},
+      {"label": "Corrections", "href": "/about/corrections/", "note": "What we changed and why"},
+      {"label": "Send a source", "href": "/contribute/", "note": "A record, a filing or a question worth chasing"}
+    ]
+  },
+  "action": {
+    "label": "Take part on The Issues Party",
+    "href": "https://theissuesparty.org/",
+    "note": "External advocacy site. Not LookLearnFind reporting."
+  }
+}

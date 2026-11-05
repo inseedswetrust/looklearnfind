@@ -116,8 +116,11 @@ class ShellInBuiltSite(unittest.TestCase):
         self.assertFalse(sidebar.recommendations_current())          # data/discovery.json recommendations.current_ids is empty after the pre-election review
         for rel, h in self.pages.items():
             with self.subTest(page=rel):
-                for needle in ("Along this thread", "On our radar", "data-recs", "data-context=", "data-state-select"):
+                for needle in ("Along this thread", "data-recs", "data-context=", "data-state-select"):
                     self.assertNotIn(needle, h)
+                rail = re.search(r'<aside class="llf-rail".*?</aside>', h, re.S)
+                if rail:        # the Politics landing has its own "On our radar" module in the main pane; the rail module must stay hidden
+                    self.assertNotIn("On our radar", rail.group(0))
 
     def test_story_context_is_state_picker_outline_and_source_link(self):
         h = self.pages["learn/pennsylvania-governor-poll-party-market-2026/index.html"]
@@ -267,7 +270,7 @@ class NoHandCopiedNavigation(unittest.TestCase):
         offenders = []
         files = [p for p in ROOT.glob("*.py")] + list((ROOT / "content").rglob("*.html")) + list((ROOT / "tools").rglob("*.py"))
         for p in files:
-            if p.name in self.ALLOWED or p.parts[-2:] == ("qa", "shell_check.py") or p.name == "test_global_shell.py":
+            if p.name in self.ALLOWED or p.parts[-2:] in (("qa", "shell_check.py"), ("qa", "politics_contract_check.py")) or p.name == "test_global_shell.py":
                 continue
             t = p.read_text(encoding="utf-8", errors="ignore")
             for m in self.MARKERS:

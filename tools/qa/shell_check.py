@@ -22,6 +22,7 @@ SHOT_WIDTHS = (1440, 1024, 390, 320)
 PAGES = [
     ("/", "", "home"),
     ("/politics/", "", "politics section"),
+    ("/politics/daily/", "", "politics daily index"),
     ("/economy/", "", "economy section"),
     ("/topics/", "", "topics index"),
     ("/topics/politics/", "", "topic"),

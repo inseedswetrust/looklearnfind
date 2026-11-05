@@ -1,0 +1,32 @@
+key,path,dimensions,source,rights,credit,shipped,target_module
+fl-capitol,static/img/elections/fl-capitol.jpg,1920x1502,"https://commons.wikimedia.org/wiki/File:Old_Florida_State_Capitol,_Tallahassee,_East_view_20160711_1.jpg",CC BY-SA 4.0,DXR,yes,state hub hero
+mi-capitol,static/img/elections/mi-capitol.jpg,1920x1440,"https://commons.wikimedia.org/wiki/File:Michigan_State_Capitol,_Capitol_Avenue,_Lansing,_MI_-_54383520410.jpg",CC BY-SA 2.0,w_lemay,yes,state hub hero
+us-capitol,static/img/elections/us-capitol.jpg,1920x823,https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg,Public domain,Noclip,yes,state hub hero
+il-capitol,static/img/elections/il-capitol.jpg,1920x1280,https://commons.wikimedia.org/wiki/File:Gfp-illinois-springfield-capitol-and-sky.jpg,Public Domain,Yinan Chen,yes,state hub hero
+il-ford,static/img/elections/il-ford.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+il-garcia,static/img/elections/il-garcia.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+il-stratton,static/img/elections/il-stratton.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+mi-udp,static/img/elections/mi-udp.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+s4-michigan,static/img/elections/s4-michigan.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+mi-duggan,static/img/elections/mi-duggan.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+s5-new-york,static/img/elections/s5-new-york.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+ny-capitol,static/img/elections/ny-capitol.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+ny-17,static/img/elections/ny-17.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+s6-new-jersey,static/img/elections/s6-new-jersey.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+nj-07,static/img/elections/nj-07.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+nj-12,static/img/elections/nj-12.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+nj-senate,static/img/elections/nj-senate.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+s7-minnesota,static/img/elections/s7-minnesota.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+mn-capitol,static/img/elections/mn-capitol.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+mn-senate,static/img/elections/mn-senate.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+mn-01,static/img/elections/mn-01.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+s8-pennsylvania,static/img/elections/s8-pennsylvania.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+pa-capitol,static/img/elections/pa-capitol.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+pa-01,static/img/elections/pa-01.jpg,1800x1200,/about/,AI illustration,AI illustration. Not a photograph of a real place or event.,yes,state hub hero
+s1-florida,static/img/elections/s1-florida.jpg,1800x1200,AI illustration (owner commissioned); see ASSET_MANIFEST,Unknown: confirm,LLF,yes,state map illustration
+s2-illinois,static/img/elections/s2-illinois.jpg,1800x1200,AI illustration (owner commissioned); see ASSET_MANIFEST,Unknown: confirm,LLF,yes,state map illustration
+s4-michigan,static/img/elections/s4-michigan.jpg,1800x1200,AI illustration (owner commissioned); see ASSET_MANIFEST,Unknown: confirm,LLF,yes,state map illustration
+s5-new-york,static/img/elections/s5-new-york.jpg,1800x1200,AI illustration (owner commissioned); see ASSET_MANIFEST,Unknown: confirm,LLF,yes,state map illustration
+s6-new-jersey,static/img/elections/s6-new-jersey.jpg,1800x1200,AI illustration (owner commissioned); see ASSET_MANIFEST,Unknown: confirm,LLF,yes,state map illustration
+s7-minnesota,static/img/elections/s7-minnesota.jpg,1800x1200,AI illustration (owner commissioned); see ASSET_MANIFEST,Unknown: confirm,LLF,yes,state map illustration
+s8-pennsylvania,static/img/elections/s8-pennsylvania.jpg,1800x1200,AI illustration (owner commissioned); see ASSET_MANIFEST,Unknown: confirm,LLF,yes,state map illustration

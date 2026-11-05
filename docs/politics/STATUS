@@ -1,0 +1,4 @@
+STATUS=LOCKED
+APPROVED_BY=owner
+APPROVED_ON=2026-11-05
+APPROVAL_NOTE=Owner reply "Approve, build local" to the Politics 2.0 install proposal. Local only: no push, deploy, results field change or live TIP campaign.

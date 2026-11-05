@@ -1,0 +1,15 @@
+{
+  "record_id": "EXAMPLE-DO-NOT-PUBLISH",
+  "person_id": null,
+  "person_name": "Example member",
+  "chamber": "house",
+  "membership_status": "member_elect",
+  "leadership_question": "House Democratic leadership selection",
+  "position": "no_public_statement_found",
+  "source_url": null,
+  "statement_date": null,
+  "checked_at": null,
+  "review_status": "not_reviewed",
+  "tip_candidate_url": null,
+  "tip_action_party_url": null
+}
