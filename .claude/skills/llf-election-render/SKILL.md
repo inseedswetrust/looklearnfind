@@ -32,3 +32,6 @@ A macro that cannot resolve fails the build; there is no placeholder fallback. D
 
 ## Changelog
 1.1.1 (2026-11-04) note on the global shell: pages carry no navigation markup of their own. 1.1.0 (2026-10-24) story components, share-image renderer. 1.0.0 (2026-10-23) first version, documenting the components built during Round 0.
+
+## Politics Creative Lock (added 2026-11-05)
+For any Politics image, cutout, cover, homepage or feature art, read `docs/politics/brand/01_POLITICS_BRAND_IDENTITY_CREATIVE_BRIEF.md` first. Real politicians appear only as real, rights-recorded photographs (never a generated likeness); every image gets a row in `docs/politics/brand/ASSET_MANIFEST.csv`; an image with unverified rights or identity stays `usage_status=pending` and unpublished. The lock never overrides source verification, this skill's rules or the global shell.

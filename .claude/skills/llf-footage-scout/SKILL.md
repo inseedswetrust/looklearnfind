@@ -31,3 +31,6 @@ A clip you cannot trace stays `UNINSPECTED` or `INTERNAL_REFERENCE_ONLY`. A scen
 ## Changelog
 1.0.0 (2026-10-24) first version, from the Florida footage-first pass (28 rows, 1 cleared, 24 need a license).
 1.1.0 (2026-10-28) reconciled with the Production Lock v2.0: a sub-procedure of `llf-video-director`; no download by default (the owner captures).
+
+## Politics Creative Lock (added 2026-11-05)
+For any Politics image, cutout, cover, homepage or feature art, read `docs/politics/brand/01_POLITICS_BRAND_IDENTITY_CREATIVE_BRIEF.md` first. Real politicians appear only as real, rights-recorded photographs (never a generated likeness); every image gets a row in `docs/politics/brand/ASSET_MANIFEST.csv`; an image with unverified rights or identity stays `usage_status=pending` and unpublished. The lock never overrides source verification, this skill's rules or the global shell.

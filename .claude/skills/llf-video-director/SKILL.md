@@ -38,3 +38,6 @@ A fresh Michigan scaffold contains no Florida entities; the default run emits no
 
 ## Changelog
 2.0.0 (2026-10-28) installed from the Production Lock v2.0 package, with `scene_pack.py`, the production and render lanes, the no-render gate and the legacy fence. Package version 2.0.0 (2026-10-24).
+
+## Politics Creative Lock (added 2026-11-05)
+For any Politics image, cutout, cover, homepage or feature art, read `docs/politics/brand/01_POLITICS_BRAND_IDENTITY_CREATIVE_BRIEF.md` first. Real politicians appear only as real, rights-recorded photographs (never a generated likeness); every image gets a row in `docs/politics/brand/ASSET_MANIFEST.csv`; an image with unverified rights or identity stays `usage_status=pending` and unpublished. The lock never overrides source verification, this skill's rules or the global shell.

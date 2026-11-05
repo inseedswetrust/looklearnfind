@@ -1,55 +1,107 @@
 {
-  "version": "0.1.0",
-  "phase": "post-election-unverified",
-  "phase_note": "Election Day was November 3. LookLearnFind has not yet validated an official results source, so this page states no result, margin or call.",
-  "eyebrow": "POLITICS / THE PUBLIC RECORD",
-  "headline": "Power changes hands. The record continues.",
-  "dek": "Where the 2026 races stand, what was said and on what record, and where to check it yourself. We publish a result only when a dated official source backs it.",
+  "version": "0.3.0",
+  "spec": "LLF-POLITICS-HOME-001 v1.0 plus the Edition 001 integration contract (docs/politics/brand/edition-001/HOMEPAGE_INTEGRATION_AND_ASSET_CONTRACT.md)",
+  "meta": {
+    "title": "Politics: The Daily Signal, Election Results & Accountability",
+    "description": "Follow political decisions, 2026 election results and campaign money with daily reporting, public records and accountability coverage from LookLearnFind."
+  },
+  "hero": {
+    "eyebrow": "01 / POLITICS",
+    "h1": ["Less noise.", "More evidence."],
+    "deck": "The daily briefing, the original records and what they reveal about power, money and what comes next.",
+    "art": {
+      "src": "/img/politics/capitol-cut.png",
+      "width": 999, "height": 740,
+      "alt": "The U.S. Capitol dome and wings in black and white, rising over a teal plane.",
+      "credit": "U.S. Capitol, west front. Photo: Noclip, public domain (Wikimedia Commons). Sky removed and converted to black and white.",
+      "asset_id": "POL-CAPITOL-CUT"
+    }
+  },
   "daily": {
-    "heading": "The Daily Signal",
-    "intro": "One sourced item a day on what changed in public life. Each carries a story ID, its sources, an editor and an update log.",
-    "empty": "No Daily Signal has been published yet. The first item appears here once it has passed fact-check and owner approval.",
-    "limit": 3
+    "eyebrow": "THE DAILY SIGNAL",
+    "h2": "Today's political briefing",
+    "standfirst": "The developments worth following, the evidence behind them and the questions still open.",
+    "cta": "Read the briefing",
+    "past": "Past briefings",
+    "empty": "Our next briefing is being prepared. In the meantime, explore the reporting and original records below.",
+    "fallback_label": "Latest dated feature",
+    "five_label": "Five signals today"
   },
-  "follow_story": {
-    "heading": "Follow the story",
-    "thread": "outside-money",
-    "limit": 3,
-    "label": "Earlier reporting. Published before Election Day and not updated since."
+  "accountability": {
+    "eyebrow": "THE ACCOUNTABILITY DESK",
+    "h2": "A new majority. The same leaders?",
+    "deck": "Hakeem Jeffries is seeking the speakership. Chuck Schumer expects to become Senate majority leader. Their colleagues will decide whether to keep the party's current leadership or chart another course.",
+    "cta_primary": {"label": "Follow the leadership record", "route": "/politics/accountability/leadership-2027/", "fallback": "edition#leadership"},
+    "cta_secondary": {"label": "See the underlying sources", "route": "/about/election-methods/"},
+    "live_title": "Leadership positions, documented",
+    "no_data": "We're collecting attributable public positions and verifying the source of each one. An unanswered request is not a vote or a position.",
+    "statuses": ["Supports retaining current leadership", "Supports alternative leadership", "Undecided publicly", "Declined to answer", "No public position documented"],
+    "tip": {"label": "The Issues Party Action Party", "route": null, "note": "External advocacy, not LookLearnFind reporting. Linked only when a specific campaign is approved."},
+    "art": {
+      "a": {"src": "/img/politics/jeffries-cutout.png", "width": 900, "height": 1222, "alt": "Hakeem Jeffries, in an official portrait.", "asset_id": "POL-JEFFRIES-CUT"},
+      "b": {"src": "/img/politics/schumer-cutout.png", "width": 900, "height": 1157, "alt": "Chuck Schumer, in an official photograph.", "asset_id": "POL-SCHUMER-CUT"},
+      "caption": "Photo illustration assembled from two separate official portraits, both public domain: Hakeem Jeffries (Office of Representative Hakeem Jeffries, 2021) and Chuck Schumer (U.S. Senate Photographic Studio, 2017). The two are not pictured together."
+    }
   },
-  "states": {
-    "heading": "Explore a state",
-    "intro": "Each hub links to the governor, Senate and House pages for that state. Candidate names open their profiles on The Issues Party.",
-    "list": [
+  "election": {
+    "eyebrow": "ELECTION 2026",
+    "h2": "The election is over. The record isn't.",
+    "deck": "Explore the results, campaign money and reporting that shaped the contests. Each state report brings the vote counts together with what changed and what comes next.",
+    "cta": {"label": "Explore the 2026 election", "route": "/elections/2026/", "fallback": "#state-reports"},
+    "image": {"key": "fl-capitol", "treatment": "color"},
+    "states_label": "State reports",
+    "selector_label": "Choose a state",
+    "lead": null,
+    "states": [
       {"code": "FL", "name": "Florida"}, {"code": "IL", "name": "Illinois"}, {"code": "MI", "name": "Michigan"},
       {"code": "MN", "name": "Minnesota"}, {"code": "NJ", "name": "New Jersey"}, {"code": "NY", "name": "New York"},
       {"code": "PA", "name": "Pennsylvania"}
     ]
   },
+  "money": {
+    "eyebrow": "FOLLOW THE MONEY",
+    "h2": "The money behind the message.",
+    "deck": "Campaign filings and outside spending show who tried to influence the election. Follow the disclosures, the beneficiaries and the limits of what those records can establish.",
+    "cta": {"label": "Follow the spending", "route": "/politics/money/", "fallback_story": "aipac-udp-money-delta-october-2026"},
+    "image": {"key": "il-ford", "treatment": "color"}
+  },
   "record": {
-    "heading": "The Record",
-    "intro": "What we hold on file, with the sources beside it.",
-    "items": [
-      {"label": "State hubs", "value": "7", "note": "FL, IL, MI, MN, NJ, NY, PA"},
-      {"label": "Reported articles", "value": "{stories}", "note": "all published before Election Day"},
-      {"label": "Candidate profiles linked", "value": "{candidates}", "note": "on The Issues Party"}
-    ]
+    "eyebrow": "STATE OF THE RECORD",
+    "h2": "Promises made. Decisions pending.",
+    "deck": "Campaign positions are part of the public record. Now we follow the votes, appointments and decisions that show what happens after Election Day.",
+    "cta": {"label": "Read the record", "route": "/threads/following-a-promise/"},
+    "image": {"key": "il-capitol", "treatment": "color"}
   },
-  "radar": {
-    "heading": "On our radar",
-    "empty": "Nothing is on the radar list yet. Items appear here only with a source and a date."
+  "signals": {
+    "eyebrow": "ELECTION SIGNALS",
+    "h2": "What the numbers reveal — and what they don't.",
+    "deck": "Margins, turnout, geography and spending can reveal important patterns. We show the comparisons, the sources and the uncertainty behind each finding.",
+    "cta": {"label": "Explore the signals", "route": "/politics/signals/", "fallback": "edition#geography"},
+    "method": {"label": "How we read the numbers", "route": "/about/election-methods/"},
+    "no_signal": "No finding has passed our review yet. Until one does, we publish none.",
+    "image": {"key": "s5-new-york", "treatment": "duochrome"},
+    "items": []
   },
-  "verify": {
-    "heading": "Watch, read, verify",
+  "reporting": {
+    "eyebrow": "CURRENT REPORTING",
+    "h2": "Stories worth a closer look.",
+    "deck": "Original reporting, verified records and questions we haven't stopped asking.",
+    "cta": {"label": "Browse all Politics reporting", "route": "/topics/politics/"},
+    "list_ids": ["pennsylvania-governor-poll-party-market-2026", "new-jersey-senate-booker-murphy-money-debate-2026", "minnesota-senate-quiet-campaign-poll-october-2026"],
+    "context_badge": "PRE-ELECTION REPORT / HISTORICAL CONTEXT",
+    "threads_label": "Follow a thread"
+  },
+  "source": {
+    "eyebrow": "GO TO THE SOURCE",
+    "h2": "Don't take our word for it.",
+    "label": "Go to the source.",
+    "deck": "Original records, documents and data behind our reporting.",
     "links": [
-      {"label": "Read the methods", "href": "/about/election-methods/", "note": "How we source and label election pages"},
-      {"label": "Corrections", "href": "/about/corrections/", "note": "What we changed and why"},
-      {"label": "Send a source", "href": "/contribute/", "note": "A record, a filing or a question worth chasing"}
-    ]
-  },
-  "action": {
-    "label": "Take part on The Issues Party",
-    "href": "https://theissuesparty.org/",
-    "note": "External advocacy site. Not LookLearnFind reporting."
+      {"label": "Election returns", "route": null, "approved": false, "note": "Not shown until an official results source is validated."},
+      {"label": "Campaign finance records", "href": "https://www.fec.gov/data/", "approved": false, "note": "Owner approval of this destination pending."},
+      {"label": "Our reporting methods", "route": "/about/election-methods/", "approved": true},
+      {"label": "Corrections", "route": "/about/corrections/", "approved": true}
+    ],
+    "method_line": "Sources, timestamps and corrections are part of the story."
   }
 }

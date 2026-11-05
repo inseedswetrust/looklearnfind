@@ -31,3 +31,6 @@
 - **Required and done locally:** a left slide-in navigation drawer replacing the Explore sheet; a readable single-column layout from 901 to 1100px.
 - **Recommendations review:** all 21 registered stories are pre-election, so the module is hidden (`recommendations.current_ids` empty in `data/discovery.json`).
 - **Not authorized:** commit, push, publish or deploy; results, calls or analytical conclusions.
+
+## 2026-11-05: Politics Creative Lock installed
+Documents LLF-POLITICS-CREATIVE-001 v1.0 and LLF-POLITICS-HOME-001 v1.0 installed under `docs/politics/brand/`; Politics policy set to PROVISIONAL (0.2.0). Politics routes map to LEARN. Conflicts and resolutions: `docs/politics/brand/CONFLICTS_RESOLVED.md`. Authorization: owner brief of 2026-11-05. Local only.

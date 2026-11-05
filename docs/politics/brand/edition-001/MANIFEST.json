@@ -1,0 +1,66 @@
+{
+  "package": "LLF_DAILY_SIGNAL_001",
+  "status": "editorial and design handoff, NOT published",
+  "files": [
+    {
+      "path": "assets/election_signals_reference.jpg",
+      "bytes": 20304,
+      "sha256": "350d4c41377c25fff4b85efbaeef57ff87d666192a30b431fbd51db84ddb0db5"
+    },
+    {
+      "path": "assets/hero_capitol_composite_reference.jpg",
+      "bytes": 86804,
+      "sha256": "13dab3547e7ad60c70464b5ee010a62006cbb19cdfdf874e09806ea7f8dd8c18"
+    },
+    {
+      "path": "assets/jeffries_schumer_composite_reference.jpg",
+      "bytes": 102158,
+      "sha256": "53e0c90ed96f8ba75151f9f231b8c1c7f507e5cd6da704426e59d662e1475d4e"
+    },
+    {
+      "path": "assets/money_tile_reference.jpg",
+      "bytes": 17838,
+      "sha256": "0ac217858845514a5a3c37d2fd8b62012580815af6fc2d1d240a5b15c135631e"
+    },
+    {
+      "path": "assets/paper_cut_edge_1600x900.png",
+      "bytes": 18158,
+      "sha256": "d84ee1805f328a22f154c0cfa797cc297f5b912a6e80839bdbcf0a1a72d34b39"
+    },
+    {
+      "path": "assets/state_record_tile_reference.jpg",
+      "bytes": 17948,
+      "sha256": "e3c2a7a3ad9e42dd59c31d73888d6e02f4d9202efb2bae8935ecdfb53a207d69"
+    },
+    {
+      "path": "assets/teal_directional_geometry_1600x900.png",
+      "bytes": 14917,
+      "sha256": "867006dba1af39525f3937f8be2441bb06f01bf15941f30612d73b01552a5bd5"
+    },
+    {
+      "path": "assets/vote_state_tile_reference.jpg",
+      "bytes": 14779,
+      "sha256": "b451e4bcd8b676f965d02d29fcc7449a9743d2c6d46411482df619b564c5bc66"
+    },
+    {
+      "path": "preview/LLF_POLITICS_HOME_DAILY_SIGNAL_001_MOCKUP.png",
+      "bytes": 2820904,
+      "sha256": "35d6620e8a995bdb57bd48da93e26c593c79b05ea1ef076cc3a5fec79a428500"
+    },
+    {
+      "path": "docs/ASSET_PROVENANCE_AND_IMPLEMENTATION.md",
+      "bytes": 4999,
+      "sha256": "e11055e99a64df9f5775c617260053a4fd0fbc27849143347c6db9c309701288"
+    },
+    {
+      "path": "docs/DAILY_SIGNAL_2026-11-05_EDITORIAL_DRAFT.md",
+      "bytes": 20064,
+      "sha256": "1506e39cccca6ad2cacb89ce0fb9bddd37f6644a3cc43bd8dc090d60028afc97"
+    },
+    {
+      "path": "docs/HOMEPAGE_INTEGRATION_AND_ASSET_CONTRACT.md",
+      "bytes": 4794,
+      "sha256": "b3c30bd487d2e9904d3f57a40ba8e2102c95c1a8924b6f573d4a7858287c6078"
+    }
+  ]
+}

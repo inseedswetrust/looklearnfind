@@ -91,13 +91,13 @@ class ShellInBuiltSite(unittest.TestCase):
     def test_route_matrix(self):
         m = shared_nav.page_mode
         self.assertEqual(m("/"), "")
-        for p in ("/politics/", "/economy/", "/topics/", "/topics/politics/", "/threads/midterms-2026/", "/latest/", "/search/", "/about/", "/privacy/", "/404.html", "/account/", "/admin/"):
+        for p in ("/economy/", "/topics/", "/topics/politics/", "/threads/midterms-2026/", "/latest/", "/search/", "/about/", "/privacy/", "/404.html", "/account/", "/admin/"):
             self.assertEqual(m(p), "", p)
         for p in ("/look/", "/look/add/", "/u/"):
             self.assertEqual(m(p), "look", p)
         for p in ("/find/", "/find/candidates/", "/find/guides/"):
             self.assertEqual(m(p), "find", p)
-        for p in ("/learn/", "/learn/pennsylvania-governor-poll-party-market-2026/", "/elections/2026/pennsylvania/", "/elections/2026/florida/house/1/"):
+        for p in ("/politics/", "/politics/daily/", "/learn/", "/learn/pennsylvania-governor-poll-party-market-2026/", "/elections/2026/pennsylvania/", "/elections/2026/florida/house/1/"):
             self.assertEqual(m(p), "learn", p)
         self.assertEqual(m("/politics/", override="find"), "find")      # the page model can override; the section never decides
 

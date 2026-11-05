@@ -15,10 +15,17 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 POLICY = ROOT / "docs" / "politics"
-MODULES = ("daily-signal", "follow-the-story", "explore-a-state", "the-record", "on-our-radar", "watch-read-verify")
-RESULT_WORDS = re.compile(r"\b(won|wins|winner|winners|projected|elected|defeated|concede[sd]?|landslide|mandate|certified results?)\b", re.I)
+MODULES = ("daily-signal", "accountability-desk", "election-2026", "follow-the-money", "state-of-the-record", "election-signals", "current-reporting", "go-to-the-source")
+H1_TEXT = "Less noise. More evidence."
+# Election-claim language. Applied only to copy written for the Politics pages: text inside links to dated /learn/ reports, credits and
+# captions is historical reporting or provenance and is not scanned. A hit needs a decisive term; a negated or conditional sentence
+# ("has not validated", "until a dated official source", "no result") is allowed.
+RESULT_TERMS = re.compile(r"\b(won|wins|winning|winner|winners|projected to win|elected|defeated|conced(?:e|es|ed)|landslide|mandate|certified (?:results?|winner)|declared (?:the )?winner|called (?:the )?race)\b", re.I)
+SAFE_CONTEXT = re.compile(r"\b(not|no|never|until|unless|without|only when|if|before|cannot|isn't|is not|has not|have not)\b", re.I)
+MANIFEST = ROOT / "docs" / "politics" / "brand" / "ASSET_MANIFEST.csv"
+OK_ASSET_STATUS = ("cleared", "labelled_ai")
 REQUIRED_DAILY = ("story_id", "date", "title", "dek", "sources", "author", "editor", "update_log", "status")
-MAX_DAILY_AGE_DAYS = 3
+MAX_DAILY_AGE_DAYS = 3        # an approved briefing older than this is a WARNING (historical records stay), never a build failure
 
 
 def sha(p):
@@ -52,8 +59,8 @@ def check_manifest(policy=POLICY):
     for f in ("VERSION", "STATUS", "CHANGELOG.md"):
         if not (policy / f).exists():
             probs.append(f"policy: {f} missing")
-    if (policy / "STATUS").exists() and "STATUS=LOCKED" not in (policy / "STATUS").read_text(encoding="utf-8"):
-        probs.append("policy: STATUS is not LOCKED")
+    if (policy / "STATUS").exists() and not re.search(r"STATUS=(LOCKED|PROVISIONAL)\b", (policy / "STATUS").read_text(encoding="utf-8")):
+        probs.append("policy: STATUS must be LOCKED or PROVISIONAL")
     if (policy / "STATUS").exists() and "APPROVED_ON=" not in (policy / "STATUS").read_text(encoding="utf-8"):
         probs.append("policy: STATUS has no approval date")
     ver = (policy / "VERSION").read_text(encoding="utf-8").strip() if (policy / "VERSION").exists() else ""
@@ -75,67 +82,163 @@ def exists(dist, href):
 
 
 def check_daily_records(directory, today=None):
+    """Returns (errors, warnings). Several records may share one briefing date (distinct story IDs). Freshness is a warning only."""
     import datetime
-    probs, ids = [], {}
+    errs, warns, ids = [], [], {}
     today = today or datetime.date.today()
     for f in sorted(pathlib.Path(directory).glob("*.json")):
         r = json.loads(f.read_text(encoding="utf-8"))
         miss = [k for k in REQUIRED_DAILY if not r.get(k)]
         if miss:
-            probs.append(f"daily {f.name}: missing {', '.join(miss)}")
+            errs.append(f"daily {f.name}: missing {', '.join(miss)}")
             continue
         if r["story_id"] in ids:
-            probs.append(f"daily {f.name}: duplicate story ID {r['story_id']} (also {ids[r['story_id']]})")
+            errs.append(f"daily {f.name}: duplicate story ID {r['story_id']} (also {ids[r['story_id']]})")
         ids[r["story_id"]] = f.name
         for s in r["sources"]:
             if not (s.get("url") and s.get("date") and s.get("label")):
-                probs.append(f"daily {f.name}: a source lacks url, label or date")
+                errs.append(f"daily {f.name}: a source lacks url, label or date")
         if r["editor"] == r["author"]:
-            probs.append(f"daily {f.name}: editor must differ from author")
+            errs.append(f"daily {f.name}: editor must differ from author")
         try:
             d = datetime.date.fromisoformat(r["date"])
             if d > today:
-                probs.append(f"daily {f.name}: dated in the future")
+                errs.append(f"daily {f.name}: dated in the future")
             if r["status"] == "approved" and (today - d).days > MAX_DAILY_AGE_DAYS and r.get("pinned") != "yes":
-                probs.append(f"daily {f.name}: approved item is {(today - d).days} days old and shown as current (stale)")
+                warns.append(f"daily {f.name}: approved briefing is {(today - d).days} days old (historical record stays public; refresh the landing)")
         except ValueError:
-            probs.append(f"daily {f.name}: bad date")
+            errs.append(f"daily {f.name}: bad date")
         if r["status"] not in ("draft", "approved"):
-            probs.append(f"daily {f.name}: status must be draft or approved")
+            errs.append(f"daily {f.name}: status must be draft or approved")
+        fc = r.get("fact_check") or {}
+        if r["status"] == "approved" and (fc.get("state") != "passed" or not fc.get("reviewer") or fc.get("reviewer") == r["author"]):
+            errs.append(f"daily {f.name}: approved needs a passed fact check by a reviewer other than the author")
+        b = r.get("blocks")
+        if b:
+            sec_ids = {s["id"] for s in b.get("sections", [])}
+            rail_ids = {x["id"] for x in r.get("rail", [])}
+            for i in b["signals"]["items"]:
+                if i["target"] not in sec_ids:
+                    errs.append(f"daily {f.name}: teaser {i['n']} points to #{i['target']}, which is not a section")
+            if rail_ids != sec_ids:
+                errs.append(f"daily {f.name}: rail outline ids {sorted(rail_ids)} differ from section ids {sorted(sec_ids)}")
+            if len(sec_ids) != len(b.get("sections", [])):
+                errs.append(f"daily {f.name}: duplicate section id")
+        if len(r["title"].split()) > 12:
+            warns.append(f"daily {f.name}: headline is over 12 words")
+        if not 25 <= len(r["dek"].split()) <= 45:
+            warns.append(f"daily {f.name}: summary should be 25 to 45 words (is {len(r['dek'].split())})")
+    return errs, warns
+
+
+def claim_hits(html_text):
+    """Election-claim language in copy written for the page. Historical report links, credits and captions are excluded; negated or conditional
+    sentences are allowed. Returns [(term, sentence)]."""
+    body = re.sub(r'<a [^>]*href="/learn/[^"]*"[^>]*>.*?</a>', " ", html_text, flags=re.S)
+    body = re.sub(r'<figcaption[^>]*>.*?</figcaption>', " ", body, flags=re.S)
+    body = re.sub(r'<span class="pol-(?:credit|badge)">.*?</span>', " ", body, flags=re.S)
+    body = re.sub(r'<p class="pol-badge[^"]*">.*?</p>', " ", body, flags=re.S)
+    body = re.sub(r"<(script|style)\b.*?</\1>", " ", body, flags=re.S)
+    text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body))
+    hits = []
+    for sent in re.split(r"(?<=[.!?])\s+", text):
+        m = RESULT_TERMS.search(sent)
+        if m and not SAFE_CONTEXT.search(sent):
+            hits.append((m.group(0), sent.strip()[:140]))
+    return hits
+
+
+def load_assets():
+    import csv
+    if not MANIFEST.exists():
+        return {}
+    with MANIFEST.open(encoding="utf-8") as fh:
+        return {r["path"]: r for r in csv.DictReader(fh)}
+
+
+def check_edition_pages(dist, allow_preview=False):
+    """Dated Daily Signal pages: one shell, a named rail outline whose anchors exist, every in-page link resolves, drafts never public."""
+    probs = []
+    base = dist / "politics" / "daily"
+    sm = (dist / "sitemap.xml").read_text(encoding="utf-8") if (dist / "sitemap.xml").exists() else ""
+    si = (dist / "search-index.json").read_text(encoding="utf-8") if (dist / "search-index.json").exists() else ""
+    for f in sorted(base.glob("*/index.html")) if base.exists() else []:
+        date = f.parent.name
+        h = f.read_text(encoding="utf-8")
+        name = f"/politics/daily/{date}/"
+        draft = 'class="pol-draftbar"' in h
+        if h.count("data-llf-global-shell") != 1 or h.count('id="llf-rail"') != 1:
+            probs.append(f"{name}: needs exactly one shared shell and rail")
+        if not re.search(r'<body[^>]*data-format="learn"', h):
+            probs.append(f"{name}: must light LEARN")
+        ids = set(re.findall(r'\sid="([^"]+)"', h))
+        for a in set(re.findall(r'href="#([^"]+)"', h)):
+            if a not in ids and a != "main":
+                probs.append(f"{name}: in-page link #{a} has no target")
+        if "pol-ed" in h:
+            if "On this briefing" not in h.split('<main', 1)[0]:
+                probs.append(f"{name}: the rail outline must read 'On this briefing'")
+            for need in ("leadership", "geography", "voters", "money", "states", "sources", "five-signals"):
+                if need not in ids:
+                    probs.append(f"{name}: missing section id {need}")
+        if draft:
+            if not allow_preview:
+                probs.append(f"{name}: a draft edition is built (preview build). Rebuild without LLF_PREVIEW_DRAFTS before any release")
+            if 'name="robots" content="noindex' not in h:
+                probs.append(f"{name}: a draft edition must be noindex")
+            if name in sm or name in si:
+                probs.append(f"{name}: a draft edition must not be in the sitemap or the search index")
+    land = (dist / "politics" / "index.html")
+    if land.exists() and "DRAFT PREVIEW" in land.read_text(encoding="utf-8") and not allow_preview:
+        probs.append("/politics/: shows a draft preview (build without LLF_PREVIEW_DRAFTS before any release)")
     return probs
 
 
-def check_pages(dist, baseline=None):
+def check_pages(dist, baseline=None, assets=None):
     probs = []
     land, idx = page(dist, "/politics/"), page(dist, "/politics/daily/")
+    assets = load_assets() if assets is None else assets
     for name, h in (("/politics/", land), ("/politics/daily/", idx)):
         if h is None:
             probs.append(f"{name}: page not built")
             continue
         if h.count("data-llf-global-shell") != 1 or h.count('id="llf-rail"') != 1:
             probs.append(f"{name}: needs exactly one shared shell and rail")
-        if re.search(r'<body[^>]*data-format="(look|learn|find)"', h):
-            probs.append(f"{name}: Politics pages carry no lit mode word")
+        if not re.search(r'<body[^>]*data-format="learn"', h):
+            probs.append(f"{name}: Politics pages light the LEARN word (owner decision 2026-11-05)")
         main = re.search(r"<main.*?</main>", h, re.S)
-        text = re.sub(r"<[^>]+>", " ", main.group(0) if main else "")
-        for m in RESULT_WORDS.finditer(text):
-            # allowed inside the explicit "states no result" status sentence and earlier-reporting titles
-            probs.append(f"{name}: result language '{m.group(0)}' (no result may be stated without a validated source)")
-            break
-        if 'class="pol-phase"' not in h and name == "/politics/":
-            probs.append(f"{name}: missing the status statement")
+        for term, sent in claim_hits(main.group(0) if main else ""):
+            probs.append(f"{name}: election-claim language '{term}' in: {sent}")
     if land:
+        main = re.search(r"<main.*?</main>", land, re.S).group(0)
+        h1 = re.search(r"<h1.*?</h1>", main, re.S)
+        h1_text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h1.group(0))).replace(" .", ".").strip() if h1 else ""
+        if len(re.findall(r"<h1[ >]", main)) != 1 or h1_text != H1_TEXT:
+            probs.append(f"/politics/: needs exactly one H1 reading '{H1_TEXT}' (found '{h1_text}')")
         for mod in MODULES:
-            m = re.search(rf'<section class="pol-mod {mod}" id="{mod}">(.*?)</section>', land, re.S)
+            m = re.search(rf'id="{mod}"(.*?)(?=<section|\Z)', land, re.S)
             if not m:
                 probs.append(f"/politics/: module {mod} missing")
-            elif len(re.sub(r"<[^>]+>|\s", "", m.group(1))) < 40:
-                probs.append(f"/politics/: module {mod} is blank (needs content or an intentional empty state)")
-        for href in set(re.findall(r'href="(/[^"]*)"', re.search(r"<main.*?</main>", land, re.S).group(0))):
+            elif len(re.sub(r"<[^>]+>|\s", "", m.group(1))) < 60:
+                probs.append(f"/politics/: module {mod} is blank")
+        for href in set(re.findall(r'href="(/[^"]*)"', main)):
             if not exists(dist, href):
                 probs.append(f"/politics/: link {href} does not resolve")
         if "theissuesparty.org" in land and "Not LookLearnFind reporting" not in land:
             probs.append("/politics/: TIP link must be labeled external advocacy")
+        if len(re.findall(r'class="pol-tab"', land)) > 1:
+            probs.append("/politics/: more than one yellow tab (one attention marker per viewport)")
+        if 'class="pol-duo"' not in land:
+            probs.append("/politics/: the directional duochrome hero is missing")
+        for src in sorted(set(re.findall(r'<img[^>]+src="(/img/(?:politics|elections)/[^"]+)"', land))):
+            row = assets.get("static" + src)
+            if row is None:
+                probs.append(f"/politics/: image {src} has no row in docs/politics/brand/ASSET_MANIFEST.csv")
+            elif row["usage_status"] not in OK_ASSET_STATUS:
+                probs.append(f"/politics/: image {src} usage_status is '{row['usage_status']}' (rights or identity not verified)")
+        for tag in re.findall(r"<img[^>]*>", land):
+            if "alt=" not in tag:
+                probs.append("/politics/: an image has no alt attribute")
     si = dist / "search-index.json"
     if si.exists():
         urls = {x["url"] for x in json.loads(si.read_text(encoding="utf-8"))}
@@ -157,10 +260,13 @@ def main(argv):
         print("manifest written")
         return 0
     dist = pathlib.Path(argv[argv.index("--dist") + 1]) if "--dist" in argv else ROOT / "dist"
-    probs = check_manifest() + check_daily_records(ROOT / "data" / "politics_daily") + check_pages(dist, POLICY / "URL_BASELINE.txt")
-    print(f"POLITICS CONTRACT: {len(probs)} problem(s)")
+    derr, dwarn = check_daily_records(ROOT / "data" / "politics_daily")
+    probs = check_manifest() + derr + check_pages(dist, POLICY / "URL_BASELINE.txt") + check_edition_pages(dist, allow_preview="--allow-preview" in argv)
+    print(f"POLITICS CONTRACT: {len(probs)} problem(s), {len(dwarn)} warning(s)")
     for p in probs:
         print("  " + p)
+    for w in dwarn:
+        print("  warning: " + w)
     return 1 if probs else 0
 
 

@@ -38,7 +38,8 @@ First match wins (`shared_nav.MODE_ROUTES`). Verified for all 250 built pages by
 | `/find/`, `/find/{type}/`, `/find/candidates/` | FIND | Guides, listings, candidate directory |
 | `/learn/`, `/learn/{slug}/` | LEARN | Stories |
 | `/elections/**` | LEARN | State of the Race reports are reported work |
-| `/`, `/politics/`, `/economy/`, `/society/`, `/everyday-life/`, `/topics/**`, `/threads/**`, `/latest/` | none | Mixed collections |
+| `/politics/`, `/politics/daily/**` | LEARN | The Politics landing and Daily Signal are reported work (owner decision 2026-11-05; `/economy/`, `/society/` and the other category pages stay neutral) |
+| `/`, `/economy/`, `/society/`, `/everyday-life/`, `/topics/**`, `/threads/**`, `/latest/` | none | Mixed collections |
 | `/search/`, `/about/**`, `/community/`, `/contact/`, `/contribute/`, `/disclosures/`, `/privacy/`, `/terms/`, `/account/`, `/admin/`, `/404.html` | none | Utility and legal |
 
 To light a word on a page that the matrix does not cover, pass `mode="look|learn|find"` to `shell()`; do not add section logic to the shell.

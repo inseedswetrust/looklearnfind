@@ -1,0 +1,44 @@
+{
+ "jeffries": {
+  "file": "Rep-Hakeem-Jeffries-Official-Portrait_(cropped).jpg",
+  "orig": [
+   1170,
+   1624
+  ],
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Rep-Hakeem-Jeffries-Official-Portrait_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "Public domain",
+  "artist": "Office of Representative Hakeem Jeffries",
+  "credit": "This image has been extracted from another file",
+  "date": "2021",
+  "desc": "Official Portrait of Rep. Jeffries in 2021.",
+  "page": "https://commons.wikimedia.org/wiki/File:Rep-Hakeem-Jeffries-Official-Portrait_(cropped).jpg"
+ },
+ "schumer": {
+  "file": "Chuck_Schumer_official_photo.jpg",
+  "orig": [
+   4032,
+   5040
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Chuck_Schumer_official_photo.jpg/1920px-Chuck_Schumer_official_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "artist": "U.S. Senate Photographic Studio/Jeff McEvoy",
+  "credit": "https://www.schumer.senate.gov/about-chuck",
+  "date": "2017-03-02 15:43:40",
+  "desc": "Chuck Schumer's 2nd official Congress photo",
+  "page": "https://commons.wikimedia.org/wiki/File:Chuck_Schumer_official_photo.jpg"
+ },
+ "capitol": {
+  "file": "Capitol_Building_Full_View.jpg",
+  "orig": [
+   7168,
+   3072
+  ],
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Capitol_Building_Full_View.jpg/1920px-Capitol_Building_Full_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "artist": "Noclip",
+  "credit": "Own work",
+  "date": "3 April 2007 (original upload date)",
+  "desc": "The western front of the United States Capitol. The Capitol serves as the seat of government for the United States Congress, the legislative branch of the U.S. federal government. It is located in Was",
+  "page": "https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg"
+ }
+}

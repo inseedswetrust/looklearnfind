@@ -1,25 +1,184 @@
-/* Politics landing and Daily Signal (docs/politics/INDEX.md). Tokens only; yellow is never used here. */
-.pol-phase{margin-top:22px;max-width:720px;border:1px solid var(--llf-ink,#222326);border-left-width:5px;padding:12px 16px;font:14px/1.5 var(--sans);background:repeating-linear-gradient(135deg,transparent 0 9px,rgba(34,35,38,.05) 9px 10px)}
-.pol-mod{padding:42px 0;border-top:1px solid var(--llf-line,#d7d3c9)}
-.pol-mod h2{font:normal 32px/1.1 var(--serif);letter-spacing:-.02em;margin:4px 0 14px}
-.pol-mod .lab{font:700 11px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--llf-blue,#28636c)}
-.pol-intro{max-width:640px;margin:-6px 0 20px}
-.pol-label{font:700 11px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted,#5b5c60);margin:0 0 14px}
-.pol-empty{max-width:640px;border:1px dashed var(--llf-line,#d7d3c9);padding:20px}
-.pol-states{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px}
-.pol-state{display:block;min-height:44px;border-top:2px solid var(--llf-ink,#222326);padding:12px 0 8px;text-decoration:none;color:inherit}
-.pol-state .code{display:block;font:700 11px var(--sans);letter-spacing:.12em;color:var(--llf-blue,#28636c)}
-.pol-state .nm{display:block;font:normal 28px/1.1 var(--serif);letter-spacing:-.02em}
-.pol-state .sub{display:block;font:13px var(--sans);color:var(--muted,#5b5c60);margin-top:4px}
-.pol-state:hover .nm,.pol-state:focus-visible .nm{text-decoration:underline}
-.pol-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px}
-.pol-stat .v{font:normal 48px/1 var(--serif)}
-.pol-stat .l{font:700 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;margin-top:8px}
-.pol-stat .n{font:13px var(--sans);color:var(--muted,#5b5c60)}
+/* Politics homepage and Daily Signal (docs/politics/brand/ and the Edition 001 mockup). Tokens only (--llf-*).
+   One signature device per unit. Yellow: the Daily Signal tab only. Teal planes: the hero, the leadership composition, one signals image. No underline ornaments. */
+body.pol-home{--pol-gutter:48px;--pol-max:1240px}
+.pol-eyebrow{font:700 11px/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--llf-blue)}
+.pol-eyebrow--rule{display:flex;align-items:center;gap:14px}
+.pol-eyebrow--rule::after{content:"";height:1px;width:min(260px,30%);background:var(--llf-blue);opacity:.7}
+.pol-deck{font:normal 19px/1.5 var(--serif);max-width:640px;margin:14px 0 0;color:var(--llf-ink)}
+.pol-credit{display:block;font:11px/1.4 var(--sans);color:var(--muted);margin-top:6px}
+.pol-badge{display:inline-block;margin-left:10px;font:700 9.5px/1.2 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--llf-ink);border:1px solid var(--llf-line);padding:3px 6px}
+.pol-draft{display:inline-block;margin-left:8px;font:700 9.5px/1.2 var(--sans);letter-spacing:.1em;color:var(--llf-ink);border:1px solid var(--llf-ink);padding:3px 6px}
+.pol-cta{display:inline-flex;align-items:center;min-height:44px;margin:0 22px 0 0;font:700 12px/1.2 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--llf-ink);text-decoration:none}
+.pol-cta:hover,.pol-cta:focus-visible{text-decoration:underline;text-underline-offset:4px}
+.pol-cta--quiet{color:var(--muted)}
+.pol-round{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:1.5px solid var(--llf-ink);border-radius:50%;color:var(--llf-ink);text-decoration:none;font:20px/1 var(--sans);margin-top:14px}
+.pol-round:hover,.pol-round:focus-visible{background:var(--llf-ink);color:var(--llf-paper)}
+.pol-img--color{filter:saturate(.94) contrast(1.02)}
+.pol-img--mono,.pol-img--duochrome{filter:grayscale(1) contrast(1.06)}
+
+/* ---- Hero: directional duochrome. The supplied muted-teal parallelogram sits behind a real Capitol photograph cut from its sky, so the dome crosses the plane's edge. */
+.pol-hero{background:var(--llf-paper);overflow:hidden}
+.pol-hero__in{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(0,1fr);align-items:stretch;gap:0;max-width:1440px;margin:0 auto;padding:34px 0 0 var(--pol-gutter);min-height:540px}
+.pol-hero__text{padding:8px 0 48px;align-self:center}
+.pol-hero .breadcrumb{margin:0 0 44px}
+.pol-hero h1{font:normal 600 clamp(48px,5.5vw,96px)/.95 var(--serif);letter-spacing:-.034em;margin:18px 0 0;color:var(--llf-ink)}
+.pol-hero__deck{font:normal 21px/1.5 var(--serif);max-width:430px;margin:24px 0 0}
+.pol-duo{position:relative;margin:0;min-height:480px}
+.pol-duo__plane{position:absolute;inset:0;background:url(/img/politics/teal-geometry.png) center top/100% 100% no-repeat}
+.pol-duo__img{position:absolute;left:-20%;bottom:-3%;width:146%;max-width:none;height:auto;filter:contrast(1.08) drop-shadow(0 1px 0 rgba(0,0,0,.22))}
+.pol-duo figcaption{position:absolute;right:var(--pol-gutter);bottom:6px;max-width:250px;font:10px/1.35 var(--sans);color:var(--llf-ink);text-align:right}
+
+/* ---- Daily Signal: yellow field on the left (the one yellow tab), live headline on the right. */
+.pol-daily{background:var(--llf-white);border-top:1px solid var(--llf-line);border-bottom:1px solid var(--llf-line)}
+.pol-daily__in{display:grid;grid-template-columns:minmax(300px,.58fr) 1fr;gap:0;max-width:1440px;margin:0 auto}
+.pol-daily__title{background:var(--llf-yellow);padding:26px var(--pol-gutter);clip-path:polygon(0 0,100% 0,calc(100% - 28px) 100%,0 100%)}
+.pol-tab{display:block;font:700 11px/1 var(--sans);letter-spacing:.14em;color:var(--llf-ink)}
+.pol-daily h2{font:normal 600 clamp(26px,2.6vw,38px)/1.08 var(--serif);letter-spacing:-.02em;margin:12px 0 0;color:var(--llf-ink)}
+.pol-daily__body{padding:24px var(--pol-gutter);display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:32px;align-items:center}
+.pol-daily__lead{grid-column:1;font:italic normal 22px/1.35 var(--serif);margin:0;max-width:620px}
+.pol-daily__meta{grid-column:1;margin:10px 0 0;font:700 10.5px/1.4 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pol-daily__links{grid-column:2;grid-row:1 / span 2;margin:0}
+.pol-daily__note,.pol-daily__feature{grid-column:1;font:14px/1.5 var(--sans);color:var(--muted);margin:10px 0 0;max-width:640px}
+.pol-daily__feature a{color:var(--llf-ink)}
+.pol-daily__fl{font:700 10.5px/1.4 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.pol-daily__date{font:12px var(--sans);margin-left:6px}
+.pol-five{max-width:1440px;margin:0 auto;padding:16px var(--pol-gutter) 22px;display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+.pol-five__lab{margin:0;font:700 10.5px/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--llf-blue)}
+.pol-five ol{list-style:none;margin:0;padding:0;display:flex;gap:6px 22px;flex-wrap:wrap}
+.pol-five a{display:flex;align-items:center;gap:8px;min-height:44px;color:var(--llf-ink);text-decoration:none;font:14px/1.3 var(--serif)}
+.pol-five a:hover .pol-five__t,.pol-five a:focus-visible .pol-five__t{text-decoration:underline;text-underline-offset:3px}
+.pol-five__n{font:700 10px var(--sans);letter-spacing:.1em;color:var(--llf-blue)}
+
+/* ---- Accountability Desk: the cutout composition on the left, headline on the right. Real photographs; the background alone is removed. */
+.pol-acc{display:grid;grid-template-columns:minmax(0,1.22fr) minmax(0,1fr);gap:48px;align-items:center;max-width:var(--pol-max);margin:0 auto;padding:48px var(--pol-gutter) 56px}
+.pol-acc h2{font:normal 600 clamp(34px,4vw,58px)/1.03 var(--serif);letter-spacing:-.028em;margin:12px 0 0}
+.pol-acc__ctas{margin:20px 0 0}
+.pol-nodata{margin-top:22px;border-top:1px solid var(--llf-line);padding-top:14px;max-width:560px}
+.pol-nodata h3{font:700 11px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;margin:0 0 8px}
+.pol-nodata p{font:14px/1.55 var(--sans);margin:0;color:var(--muted)}
+.pol-status{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 14px;font:12px/1.4 var(--sans);color:var(--llf-ink)}
+.pol-status li{border-left:2px solid var(--llf-blue);padding-left:8px}
+.pol-cut{position:relative;margin:0 0 64px;aspect-ratio:3/2;min-width:0}
+.pol-cut__plane{position:absolute;inset:0;background:var(--llf-teal-field)}
+.pol-cut__ghost{position:absolute;right:-4%;top:-2%;width:78%;height:auto;opacity:.42;mix-blend-mode:screen}
+.pol-cut__a,.pol-cut__b{position:absolute;bottom:0;height:auto;filter:drop-shadow(0 12px 14px rgba(20,22,24,.38))}
+.pol-cut__a{left:4%;width:41%;transform:rotate(-1.6deg)}
+.pol-cut__b{left:42%;width:46%;transform:rotate(1.1deg);z-index:2}
+.pol-cut figcaption{position:absolute;left:0;right:0;top:100%;margin-top:10px;font:11px/1.4 var(--sans);color:var(--muted)}
+
+/* ---- Topic tiles: text on the paper side, a photograph on the other side cut by a diagonal edge. Colour and monochrome are mixed, never filtered alike. */
+.pol-tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;max-width:1440px;margin:0 auto;padding:0 var(--pol-gutter)}
+.pol-tile{position:relative;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.8fr);min-height:270px;background:var(--llf-white);border:1px solid var(--llf-line);overflow:hidden}
+.pol-tile__t{padding:20px 6px 20px 22px;position:relative;z-index:2}
+.pol-tile h2{font:normal 600 clamp(24px,2vw,31px)/1.08 var(--serif);letter-spacing:-.015em;margin:8px 0 0}
+.pol-tile__d{font:15px/1.45 var(--serif);color:var(--llf-ink);margin:10px 0 0}
+.pol-tile__pic{position:relative;margin-left:-12%;clip-path:polygon(22% 0,100% 0,100% 100%,0 100%)}
+.pol-tile__pic img{width:100%;height:100%;object-fit:cover;display:block;min-height:250px}
+.pol-tile__pic .pol-credit,.pol-signals__pic .pol-credit{position:absolute;right:6px;bottom:4px;margin:0;padding:2px 6px;background:rgba(20,22,24,.62);color:#fff;font-size:9px}
+.pol-statebar{max-width:1440px;margin:8px auto 0;padding:0 var(--pol-gutter);display:flex;align-items:center;gap:8px 20px;flex-wrap:wrap}
+.pol-statebar__lab{margin:0;font:700 10.5px/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--llf-blue)}
+.pol-statebar__links{display:flex;flex-wrap:wrap;gap:0 18px;flex:1}
+.pol-statebar__links a{display:inline-flex;align-items:center;gap:6px;min-height:44px;font:15px var(--serif);color:var(--llf-ink);text-decoration:none}
+.pol-statebar__links .c{font:700 10px var(--sans);letter-spacing:.1em;color:var(--llf-blue)}
+.pol-statebar__links a:hover,.pol-statebar__links a:focus-visible{text-decoration:underline;text-underline-offset:3px}
+.pol-select{display:none;align-items:center;gap:10px}
+.js .pol-select{display:flex}
+.pol-select label{font:700 10.5px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pol-select select{min-height:44px;min-width:200px;font:15px var(--sans);padding:8px 12px;border:1px solid var(--llf-ink);background:var(--llf-white);color:var(--llf-ink)}
+
+/* ---- Election Signals (type, a duochrome photograph, no figures until a finding is verified) beside Current Reporting. */
+.pol-duo-row{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:20px;max-width:1440px;margin:20px auto 0;padding:0 var(--pol-gutter) 44px}
+.pol-signals{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.8fr);min-height:300px;background:var(--llf-white);border:1px solid var(--llf-line);overflow:hidden}
+.pol-signals__t{padding:24px 6px 24px 26px;position:relative;z-index:2;align-self:center}
+.pol-signals h2{font:normal 600 clamp(26px,2.5vw,36px)/1.08 var(--serif);letter-spacing:-.02em;margin:8px 0 0}
+.pol-signals__none{font:14px/1.5 var(--sans);color:var(--muted);margin:12px 0 0}
+.pol-signals__links{margin:12px 0 0}
+.pol-signals__pic{position:relative;margin-left:-14%;-webkit-mask-image:linear-gradient(to right,transparent,#000 38%);mask-image:linear-gradient(to right,transparent,#000 38%)}
+.pol-signals__pic img{width:100%;height:100%;object-fit:cover;display:block}
+.pol-signals__plane{position:absolute;inset:0;background:var(--llf-teal-field);mix-blend-mode:multiply;clip-path:polygon(46% 0,100% 0,100% 100%,18% 100%)}
+.pol-reporting{background:var(--llf-white);border:1px solid var(--llf-line);padding:24px 26px}
+.pol-reporting h2{font:normal 600 clamp(22px,2vw,28px)/1.1 var(--serif);margin:8px 0 14px}
+.pol-ruled{list-style:none;margin:0;padding:0}
+.pol-ruled li{border-top:1px solid var(--llf-line);padding:2px 0}
+.pol-ruled a{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:10px 0 2px;min-height:44px;color:var(--llf-ink);text-decoration:none}
+.pol-ruled a:hover .pol-ruled__t,.pol-ruled a:focus-visible .pol-ruled__t{text-decoration:underline;text-underline-offset:4px}
+.pol-ruled__t{font:normal 18px/1.3 var(--serif)}
+.pol-ruled__arrow{font:18px var(--sans)}
+.pol-ruled__m{display:block;font:10.5px/1.4 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-bottom:8px}
+.pol-reporting__more{margin:8px 0 0}
+.pol-threadlinks{font:13px/1.9 var(--sans);color:var(--muted);margin:10px 0 0}
+.pol-threadlinks span{font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:10.5px;margin-right:8px}
+.pol-threadlinks a{display:inline-flex;align-items:center;min-height:44px;margin-right:14px;color:var(--llf-ink);text-decoration:none}
+.pol-threadlinks a:hover,.pol-threadlinks a:focus-visible{text-decoration:underline;text-underline-offset:3px}
+
+/* ---- Go to the source: a calm dark teal band under a torn-paper edge (the supplied paper-cut mask). */
+.pol-evidence{position:relative;background:var(--llf-blue-dark);color:#f2f0ea;padding:72px 0 40px}
+.pol-evidence::before{content:"";position:absolute;left:0;right:0;top:-1px;height:44px;background:url(/img/politics/paper-cut-edge.png) bottom center/100% 100% no-repeat;transform:scaleY(-1);filter:brightness(.97)}
+.pol-evidence__in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:48px;align-items:center;max-width:1440px;margin:0 auto;padding:0 var(--pol-gutter)}
+.pol-evidence h2{margin:0;font:normal 600 clamp(30px,3.4vw,46px)/1 var(--serif)}
+.pol-paper{display:inline-block;background:#f6f3ea;color:var(--llf-ink);padding:12px 26px 14px;clip-path:polygon(0 6%,3% 0,12% 4%,31% 0,52% 5%,71% 1%,93% 4%,100% 0,98% 52%,100% 96%,86% 100%,64% 95%,41% 100%,19% 96%,4% 100%,0 94%,2% 48%)}
+.pol-sr{position:absolute;left:-9999px}
+.pol-evidence__deck{font:italic normal 20px/1.4 var(--serif);margin:0 0 14px;max-width:560px;color:#e8e6df}
+.pol-ev{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0 26px}
+.pol-ev__link{display:inline-flex;align-items:center;min-height:44px;margin:0;font:700 12px/1.2 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:#fff;text-decoration:none}
+.pol-ev__link:hover,.pol-ev__link:focus-visible{text-decoration:underline;text-underline-offset:4px}
+.pol-method{font:13px/1.5 var(--sans);color:#c9d3d4;margin:8px 0 0}
+
+/* ---- Daily Signal pages */
+.pol-page__in{max-width:820px;margin:0 auto;padding:56px var(--pol-gutter) 72px}
+.pol-page h1{font:normal clamp(36px,4.4vw,58px)/1.04 var(--serif);letter-spacing:-.026em;margin:10px 0 0}
+.pol-page .pol-ruled{margin-top:28px}
+.pol-story{border-top:1px solid var(--llf-line);margin-top:36px;padding-top:24px}
+.pol-story h2{font:normal 30px/1.15 var(--serif);margin:0}
+.pol-story h3,.pol-ed h3{font:700 11px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;margin:22px 0 6px}
 .pol-list{padding-left:20px;line-height:1.7}
-.pol-action{background:var(--llf-paper-2,#efece3)}
-@media (max-width:600px){.pol-mod{padding:32px 0}.pol-mod h2{font-size:27px}.pol-stat .v{font-size:40px}}
-.pol-chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
-.pol-chips .chip{display:inline-flex;align-items:center;min-height:44px}
-.pol-action a.link{display:inline-flex;align-items:center;min-height:44px}
-.pol-mod .link.teal{display:inline-flex;align-items:center;min-height:44px}
+.pol-ed{max-width:780px;margin:0 auto;padding:48px var(--pol-gutter) 80px}
+.pol-ed__head h1{font:normal clamp(34px,4.2vw,56px)/1.06 var(--serif);letter-spacing:-.026em;margin:12px 0 0}
+.pol-ed__dek{font:normal 21px/1.5 var(--serif);margin:18px 0 0;color:var(--llf-ink)}
+.pol-draftbar{margin:18px 0 0;border:1px solid var(--llf-ink);border-left-width:5px;padding:12px 16px;font:14px/1.5 var(--sans);background:repeating-linear-gradient(135deg,transparent 0 9px,rgba(34,35,38,.05) 9px 10px)}
+.pol-ed__sec{margin-top:52px;padding-top:6px}
+.pol-ed__sec h2{font:normal clamp(28px,3vw,40px)/1.1 var(--serif);letter-spacing:-.02em;margin:8px 0 18px}
+.pol-ed__sec p{font:normal 19px/1.65 var(--serif);margin:0 0 16px}
+.pol-ed__sec p.pol-ed__src,.pol-ed__src em{font:13px/1.5 var(--sans);color:var(--muted)}
+.pol-ed__back a{font:700 11px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;display:inline-flex;align-items:center;min-height:44px;color:var(--llf-ink)}
+.pol-glance{border-top:1px solid var(--llf-ink);margin:24px 0 0;padding-top:4px}
+.pol-glance ul{list-style:none;margin:0;padding:0}
+.pol-glance li{font:15px/1.55 var(--sans);padding:9px 0;border-bottom:1px solid var(--llf-line)}
+.pol-sig{list-style:none;margin:20px 0 0;padding:0}
+.pol-sig li{border-top:1px solid var(--llf-line);padding:14px 0 6px}
+.pol-sig__a{display:block;min-height:44px;color:var(--llf-ink);text-decoration:none}
+.pol-sig__n{display:block;font:700 10.5px/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--llf-blue)}
+.pol-sig__t{display:block;font:normal 600 24px/1.2 var(--serif);margin-top:4px}
+.pol-sig__a:hover .pol-sig__t,.pol-sig__a:focus-visible .pol-sig__t{text-decoration:underline;text-underline-offset:4px}
+.pol-ed__sec .pol-sig p{font:15px/1.55 var(--sans);color:var(--muted);margin:6px 0 4px}
+.pol-ed__sec p.pol-ed__close{font:italic normal 22px/1.4 var(--serif)}
+
+@media (max-width:1100px){
+  body.pol-home{--pol-gutter:32px}
+  .pol-hero__in{grid-template-columns:minmax(0,1fr);padding-left:var(--pol-gutter);min-height:0}
+  .pol-hero__text{padding-bottom:16px}
+  .pol-hero .breadcrumb{margin-bottom:28px}
+  .pol-duo{min-height:400px;margin:0 0 0 calc(var(--pol-gutter) * -1)}
+  .pol-daily__in{grid-template-columns:minmax(0,1fr)}
+  .pol-daily__title{clip-path:none}
+  .pol-daily__body{grid-template-columns:minmax(0,1fr)}
+  .pol-daily__links{grid-column:1;grid-row:auto;margin-top:8px}
+  .pol-acc{grid-template-columns:minmax(0,1fr);gap:36px}
+  .pol-cut{max-width:640px}
+  .pol-tiles,.pol-duo-row,.pol-evidence__in{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:600px){
+  body.pol-home{--pol-gutter:20px}
+  .pol-hero h1{font-size:clamp(42px,12.5vw,60px)}
+  .pol-hero__deck{font-size:18px}
+  .pol-duo{min-height:300px}
+  .pol-duo figcaption{position:static;text-align:left;max-width:none;padding:6px var(--pol-gutter) 0}
+  .pol-daily__lead{font-size:19px}
+  .pol-tile,.pol-signals{grid-template-columns:minmax(0,1fr)}
+  .pol-tile__pic,.pol-signals__pic{margin:0;clip-path:none;-webkit-mask-image:none;mask-image:none;height:200px}
+  .pol-tile__t,.pol-signals__t{padding:20px}
+  .pol-statebar__links{flex-basis:100%}
+  .pol-select{width:100%}.pol-select select{flex:1;min-width:0}
+  .pol-evidence{padding-top:60px}
+  .pol-ed{padding-top:32px}
+}

@@ -1,4 +1,5 @@
-STATUS=LOCKED
+STATUS=PROVISIONAL
+PENDING=final visual acceptance by the owner
 APPROVED_BY=owner
 APPROVED_ON=2026-11-05
-APPROVAL_NOTE=Owner reply "Approve, build local" to the Politics 2.0 install proposal. Local only: no push, deploy, results field change or live TIP campaign.
+APPROVAL_NOTE=Installed 0.1.0 on "Approve, build local" (2026-11-05); changed LOCKED to PROVISIONAL in 0.2.0 on the owner brief "Final Design Integration" (2026-11-05). Local only: no push, deploy, results field change or live TIP campaign.

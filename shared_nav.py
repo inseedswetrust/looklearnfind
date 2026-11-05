@@ -23,6 +23,7 @@ MODE_ROUTES = (
     ("/look/", "look"), ("/u/", "look"),
     ("/find/", "find"),
     ("/learn/", "learn"), ("/elections/", "learn"),
+    ("/politics/", "learn"),      # the Politics landing, Daily Signal and accountability pages are reported work (owner decision 2026-11-05, Politics Creative Lock)
 )
 # Pages where the contextual state picker is relevant. The rest of the rail is identical on every page.
 STATE_CONTEXT_PREFIXES = ("/politics/", "/elections/", "/find/candidates/")
@@ -34,13 +35,13 @@ def toc_from_body(body):
     then real `<h2 id>` headings. Returns [(anchor, text)]; empty when there is nothing to navigate."""
     m = re.search(r'<nav class="onpage"[^>]*>(.*?)</nav>', body, re.S)
     if m:
-        items = [(a, re.sub(r"<[^>]+>", "", t).strip()) for a, t in re.findall(r'<a href="#([A-Za-z0-9_-]+)"[^>]*>(.*?)</a>', m.group(1), re.S)]
+        items = [(a, html.unescape(re.sub(r"<[^>]+>", "", t).strip())) for a, t in re.findall(r'<a href="#([A-Za-z0-9_-]+)"[^>]*>(.*?)</a>', m.group(1), re.S)]
         if len(items) >= 2:
             return items
     found = []
     for attrs, inner in re.findall(r"<h2([^>]*)>(.*?)</h2>", body, re.S):
         m = re.search(r'\sid="([A-Za-z0-9_-]+)"', attrs)
-        text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", inner)).strip()
+        text = html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", inner)).strip())
         if m and text and m.group(1) not in ("explore-title",):
             found.append((m.group(1), text))
     return found
@@ -94,13 +95,13 @@ def _state_picker(prefix, path, hubs, states):
             f'<noscript><details class="state-fallback"><summary>State coverage</summary><ul>{links}</ul></details></noscript>')
 
 
-def _outline(toc, prefix, is_open=False):
-    """`On this page` from real headings only. Suppressed when there is nothing to navigate."""
+def _outline(toc, prefix, is_open=False, label="On this page"):
+    """`On this page` (or a page-supplied label such as `On this briefing`) from real headings only. Suppressed when there is nothing to navigate."""
     if not toc or len(toc) < 2:
         return ""
     items = "".join(f'<li><a href="#{e(a)}">{e(t)}</a></li>' for a, t in toc)
     op = " open" if (is_open or len(toc) <= 4) else ""
-    return (f'<details class="outline" data-outline{op}><summary class="eyebrow">On this page<span class="cur" data-outline-cur></span></summary><ol>{items}</ol></details>')
+    return (f'<details class="outline" data-outline{op}><summary class="eyebrow">{e(label)}<span class="cur" data-outline-cur></span></summary><ol>{items}</ol></details>')
 
 
 def ensure_heading_ids(body):
@@ -128,7 +129,7 @@ def _story_context(cur, toc):
     return sub
 
 
-def render(*, path, site_nav, active, mode, hubs, states, article=None, toc=None):
+def render(*, path, site_nav, active, mode, hubs, states, article=None, toc=None, outline_label="On this page"):
     """Return (shell_html, discovery_data_or_None).
 
     One element is both the desktop rail and the mobile drawer (`#llf-rail`): the same markup, links and context, restyled by CSS and opened by the menu trigger on
@@ -151,7 +152,7 @@ def render(*, path, site_nav, active, mode, hubs, states, article=None, toc=None
             ctx = (picker + _story_context(cur, toc) + _outline(toc, "rail", is_open=True)
                    + '<a class="source-link" href="#sources"><span>Go to the source</span><span aria-hidden="true">&#8594;</span></a>')
     else:
-        ctx = picker + _outline(toc, "rail", is_open=True)
+        ctx = picker + _outline(toc, "rail", is_open=True, label=outline_label)
     brand_l, brand_s = _brand(), _brand("brand-small")
     fnav = sidebar._format_nav(mode)
     shell = (

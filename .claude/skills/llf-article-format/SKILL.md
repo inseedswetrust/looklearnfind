@@ -38,3 +38,6 @@ A draft that needs a figure the brief does not contain stops with the gap named;
 
 ## Changelog
 1.3.1 (2026-10-28) video pointer now `llf-video-director`. 1.3.0 (2026-10-24) pointer to the video skill. 1.2.0 (2026-10-24) audit additions: headline test, as-of line, update cadence, image kit, alt text, neutral color. 1.1.0 (2026-10-24) lean standard; finance optional; brief and claims exchange. 1.0.0 (2026-10-23) first version; schemas imported from the Round 1 package into `docs/schemas/`.
+
+## Politics Creative Lock (added 2026-11-05)
+For any Politics image, cutout, cover, homepage or feature art, read `docs/politics/brand/01_POLITICS_BRAND_IDENTITY_CREATIVE_BRIEF.md` first. Real politicians appear only as real, rights-recorded photographs (never a generated likeness); every image gets a row in `docs/politics/brand/ASSET_MANIFEST.csv`; an image with unverified rights or identity stays `usage_status=pending` and unpublished. The lock never overrides source verification, this skill's rules or the global shell.

@@ -9,6 +9,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 PAGES = [("/politics/", "politics"), ("/politics/daily/", "politics-daily")]
+if (ROOT / "dist" / "politics" / "daily" / "2026-11-05" / "index.html").exists():     # a preview build (LLF_PREVIEW_DRAFTS=1) also renders the draft edition
+    PAGES.append(("/politics/daily/2026-11-05/", "politics-edition"))
 WIDTHS = (1440, 1024, 390, 320)
 JS = """() => {
   const out = [];
@@ -41,13 +43,25 @@ def main():
             pg.on("response", lambda r: errs.append(f"{r.status} {r.url}") if r.status >= 400 and "/api/" not in r.url and "favicon" not in r.url else None)
             for path, name in PAGES:
                 pg.goto(base + path); pg.wait_for_load_state("networkidle")
+                pg.evaluate("async () => { for (let y = 0; y < document.body.scrollHeight; y += 500) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 60)); } document.querySelectorAll('img').forEach(i => { i.loading = 'eager'; }); await Promise.all([...document.images].map(i => i.decode().catch(() => {}))); window.scrollTo(0, 0); }")
+                pg.wait_for_timeout(400)
                 probs = pg.evaluate(JS); n += 1
+                if w == 320 and path == "/politics/":
+                    probs += ["wide element: " + x for x in pg.evaluate("() => [...document.querySelectorAll('main *:not(.pol-hero *)')].filter(e => e.getBoundingClientRect().right > innerWidth + 1).slice(0, 6).map(e => e.tagName + '.' + e.className)")]
                 pg.keyboard.press("Tab"); pg.keyboard.press("Tab")
                 if not pg.evaluate("() => { const e = document.activeElement; return !!e && e !== document.body && getComputedStyle(e).outlineStyle !== 'none' }"):
                     probs.append("focus not visible after Tab")
                 probs += [f"request failed: {e}" for e in errs]; errs.clear()
                 for pr in probs: fails.append(f"{path} @{w}: {pr}")
-                if shots: pg.screenshot(path=str(shots / f"{name}-{w}.png"), full_page=True)
+                if shots:
+                    pg.screenshot(path=str(shots / f"{name}-{w}.png"), full_page=True)
+                    if w == 1440:
+                        pg.screenshot(path=str(shots / f"{name}-1440-viewport.png"))
+                    if w == 390 and path in ("/politics/", "/politics/daily/2026-11-05/"):
+                        pg.screenshot(path=str(shots / f"{name}-drawer-closed-390.png"))
+                        pg.click("a.nav-open"); pg.wait_for_timeout(450)
+                        pg.screenshot(path=str(shots / f"{name}-drawer-open-390.png"))
+                        pg.keyboard.press("Escape"); pg.wait_for_timeout(350)
             ctx.close()
         b.close()
     print(f"{n} page checks at {len(WIDTHS)} widths; {len(fails)} failure(s)")

@@ -2,7 +2,7 @@
 :root{
   /* LLF design tokens v1 (docs/design/LLF_GLOBAL_SHELL.md, docs/BRAND.md). Source of truth: change values here, not in page CSS. */
   --llf-night:#1d1e20;--llf-night-soft:#292a2d;--llf-paper:#f8f6f0;--llf-white:#fffdf9;--llf-ink:#222326;--llf-muted:#646b70;
-  --llf-blue:#28636c;--llf-blue-dark:#173e47;--llf-line:#d7d3c9;--llf-yellow:#f0d800;--llf-rail-width:236px;
+  --llf-blue:#28636c;--llf-blue-dark:#173e47;--llf-line:#d7d3c9;--llf-yellow:#f0d800;--llf-rail-width:236px;--llf-teal-field:#16a79b;--llf-paper-edge:#f6f3ea;
   /* legacy names kept so existing styles resolve to the new values */
   --line:var(--llf-line);--teal-dark:var(--llf-blue-dark);--white:var(--llf-white);
   --paper:var(--llf-paper);--cream:var(--llf-white);--paper2:#fbfaf6;--warm:#eeeae2;--feature:#f0eee7;

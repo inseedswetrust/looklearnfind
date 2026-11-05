@@ -4,13 +4,13 @@
 |---|---|---|---|---|
 | `darkhorse-source-monitor` | 1.1.1 | `.claude/skills/darkhorse-source-monitor/SKILL.md` | `591b5233413d1146` |  |
 | `election-state-packet` | 1.0.2 | `.claude/skills/election-state-packet/SKILL.md` | `68bb08d05bf23b13` |  |
-| `llf-article-format` | 1.3.1 | `.claude/skills/llf-article-format/SKILL.md` | `1630dea6e1d56446` |  |
+| `llf-article-format` | 1.3.1 | `.claude/skills/llf-article-format/SKILL.md` | `df522d63718bb5de` |  |
 | `llf-delta-editorial` | 1.0.0 | `.claude/skills/llf-delta-editorial/SKILL.md` | `a2e5b8cbea652f55` |  |
-| `llf-election-render` | 1.1.1 | `.claude/skills/llf-election-render/SKILL.md` | `ea70d04e802208b2` |  |
+| `llf-election-render` | 1.1.1 | `.claude/skills/llf-election-render/SKILL.md` | `425e7d3ae5621d02` |  |
 | `llf-factcheck-finalize` | 2.2.0 | `.claude/skills/llf-factcheck-finalize/SKILL.md` | `0ffd4fc53a1e9ee9` |  |
-| `llf-footage-scout` | 1.1.0 | `.claude/skills/llf-footage-scout/SKILL.md` | `a8d2ecb324d69ac4` |  |
+| `llf-footage-scout` | 1.1.0 | `.claude/skills/llf-footage-scout/SKILL.md` | `de3f38d98ff472b2` |  |
 | `llf-publication-qa` | 1.4.0 | `.claude/skills/llf-publication-qa/SKILL.md` | `4c2b2344102b6940` |  |
 | `llf-story-scout` | 1.0.0 | `.claude/skills/llf-story-scout/SKILL.md` | `66dc98e4cc660933` |  |
-| `llf-video-director` | 2.0.0 | `.claude/skills/llf-video-director/SKILL.md` | `f286775e5858753e` |  |
+| `llf-video-director` | 2.0.0 | `.claude/skills/llf-video-director/SKILL.md` | `a054cdbaa84deccd` |  |
 | `llf-video-storyboard` | 2.0.0 | `.claude/skills/llf-video-storyboard/SKILL.md` | `7b791f738e483330` | legacy alias; use llf-video-director |
 | `workflow-retrospective` | 1.0.0 | `.claude/skills/workflow-retrospective/SKILL.md` | `adfc8fdd65ca1e50` |  |

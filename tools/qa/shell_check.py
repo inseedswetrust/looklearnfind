@@ -21,8 +21,8 @@ SHOT_WIDTHS = (1440, 1024, 390, 320)
 # (path, expected lit mode, label). Mode matrix: docs/design/LLF_GLOBAL_SHELL.md
 PAGES = [
     ("/", "", "home"),
-    ("/politics/", "", "politics section"),
-    ("/politics/daily/", "", "politics daily index"),
+    ("/politics/", "learn", "politics section"),
+    ("/politics/daily/", "learn", "politics daily index"),
     ("/economy/", "", "economy section"),
     ("/topics/", "", "topics index"),
     ("/topics/politics/", "", "topic"),

@@ -25,6 +25,7 @@ ROOT = Path(__file__).parent
 OUT = ROOT / "dist"
 CFG = json.loads((ROOT / "config.json").read_text())
 # Global shell (docs/design/LLF_GLOBAL_SHELL.md). `"global_shell": false` in config.json or LLF_GLOBAL_SHELL=0 restores the legacy layout for staging or rollback.
+PREVIEW_DRAFTS = os.environ.get("LLF_PREVIEW_DRAFTS") == "1" or "--preview-drafts" in sys.argv   # local review only: renders draft Daily Signal editions, noindex, never zipped
 GLOBAL_SHELL = bool(CFG.get("global_shell", True)) and os.environ.get("LLF_GLOBAL_SHELL", "1") != "0"
 SITE = json.loads((ROOT / "data" / "site.json").read_text())
 THREADS = json.loads((ROOT / "data" / "threads.json").read_text())
@@ -295,7 +296,9 @@ def shell(title, desc, path, body, nav="", css=(), js=(), og=None, noindex=False
             slug, toc = rail
             article = (CATALOG.items[slug], CATALOG)
         fmt = shared_nav.page_mode(path, mode)
-        rail_html, ddata = shared_nav.render(path=path, site_nav=SITE["nav"], active=nav, mode=fmt, hubs=sidebar.HUBS, states=sidebar.STATES, article=article, toc=toc)
+        _lab = re.search(r'data-outline-label="([^"]+)"', body)      # a page may name its rail outline (for example "On this briefing")
+        rail_html, ddata = shared_nav.render(path=path, site_nav=SITE["nav"], active=nav, mode=fmt, hubs=sidebar.HUBS, states=sidebar.STATES, article=article, toc=toc,
+                                             outline_label=_lab.group(1) if _lab else "On this page")
         if ddata:
             EXTRA_FILES[f"data/discovery/{slug}.json"] = json.dumps(ddata, ensure_ascii=False, separators=(",", ":"))
         css = ("shell",) + tuple(css)
@@ -892,6 +895,8 @@ def write_search_index():
 
 def main():
     global CATALOG
+    if PREVIEW_DRAFTS and "--zip" in sys.argv:
+        raise SystemExit("Refusing to zip a build that renders draft Daily Signal editions (LLF_PREVIEW_DRAFTS). Build without the preview flag for any release.")
     load_content()
     index_content()
     CATALOG = sidebar.Catalog(STORIES, fmt_date)
@@ -906,12 +911,16 @@ def main():
     for f in FINDS:
         render_find(f)
     gen_pages(); gen_home(); gen_topics(); gen_categories(); gen_threads(); gen_learn_latest_find(); gen_candidates(); gen_search_shell(); gen_look_shells()
-    politics.build(dict(shell=shell, STORIES=STORIES, cards=cards, fmt_date=fmt_date, page_head=page_head, contribute_band=contribute_band, CANDS=CANDS, SITE=SITE, THREADS=THREADS))
     elections.API.update(dict(shell=shell, STORIES=STORIES, card=card, take_block=take_block, kv_block=kv_block, fmt_date=fmt_date))
     elections.build(elections.API)
     for s in STORIES:
         if s.get("layout") == "report":
             elections.render_report(s)
+    # Politics landing and Daily Signal pages are written last so every call to action can be checked against the built routes.
+    POLITICS_GATED = politics.build(dict(shell=shell, STORIES=STORIES, cards=cards, fmt_date=fmt_date, CANDS=CANDS, SITE=SITE, THREADS=THREADS, PAGES_OUT=PAGES_OUT,
+                                         PREVIEW=PREVIEW_DRAFTS, HERO_CREDITS=json.loads((ROOT / "data" / "elections" / "hero_credits.json").read_text(encoding="utf-8"))))
+    if POLITICS_GATED:
+        print(f"POLITICS: {len(POLITICS_GATED)} call(s) to action gated (destination not built or not approved)")
     nviol, vtxt = elections.rules_report()
     print(vtxt)
     if "--strict" in sys.argv and nviol:
