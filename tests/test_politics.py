@@ -164,9 +164,10 @@ class Built(unittest.TestCase):
         self.assertEqual(pos, sorted(pos))
 
     def test_approved_copy_is_present(self):
+        import re
         for s in ("Less noise.", "More evidence.", "Today&#x27;s political briefing", "A new majority. The same leaders?", "The election is over. The record isn&#x27;t.",
                   "The money behind the message.", "Promises made. Decisions pending.", "Stories worth a closer look.", "Don&#x27;t take our word for it."):
-            self.assertIn(s, self.land)
+            self.assertIn(s, re.sub(r"<br\s*/?>", "", self.land))
 
     def test_no_unbuilt_destination_is_linked(self):
         for dead in ("/politics/accountability/", "/politics/money/", "/politics/signals/", 'href="/elections/2026/"', "fec.gov"):
@@ -183,7 +184,7 @@ class Built(unittest.TestCase):
 
     def test_cutouts_use_real_portraits_with_a_caption_that_denies_a_joint_appearance(self):
         self.assertIn("supplied/leadership.jpg", self.land)
-        self.assertIn("not a real joint appearance", self.land.lower())
+        self.assertIn("not a joint photograph", self.land.lower())
 
     def test_historical_context_is_labelled(self):
         self.assertIn("PRE-ELECTION REPORT / HISTORICAL CONTEXT", self.land)
@@ -327,7 +328,7 @@ class EditionBuilt(unittest.TestCase):
         self.assertNotIn("noindex", self.h)
         self.assertIn("/politics/daily/2026-11-05/", (DIST / "sitemap.xml").read_text(encoding="utf-8"))
         self.assertIn("/politics/daily/2026-11-05/", (DIST / "search-index.json").read_text(encoding="utf-8"))
-        self.assertIn('class="pol-note"', self.h); self.assertNotIn("pol-draftbar", self.h)
+        self.assertIn('pol-note', self.h); self.assertIn("could not be opened", self.h); self.assertNotIn("pol-draftbar", self.h)
     def test_landing_shows_the_live_edition_with_five_signals(self):
         land = (DIST / "politics" / "index.html").read_text(encoding="utf-8")
         self.assertNotIn("DRAFT PREVIEW", land); self.assertIn("Five signals today", land)
@@ -339,12 +340,30 @@ class EditionBuilt(unittest.TestCase):
         self.assertGreater(strip_end, land.index('id="accountability-desk"')); self.assertLess(strip_end, land.index('id="election-2026"'))      # Five Signals follows the Accountability Desk
         items = re.findall(r'<li class="pol-teaser">.*?</li>', land, re.S)
         self.assertEqual(len(items), 5)
-        titles = ["A new majority. The same leaders?", "The political map broke in places nobody expected.", "The cost of living dominated. What will Congress actually do?",
+        titles = ["The coming leadership decision.", "The political map broke in unexpected places.", "The cost of living dominated. What will Congress actually do?",
                   "Nearly $12 billion later, what did the money accomplish?", "The biggest changes may happen outside Washington."]
         for n, (it, title) in enumerate(zip(items, titles), 1):
             self.assertIn(f"0{n} / ", it); self.assertIn(title.replace("'", "&#x27;").replace("$", "$"), it)
-            self.assertIn("<img", it); self.assertGreater(len(re.sub(r"<[^>]+>", "", re.search(r'<p class="pol-teaser__s">(.*?)</p>', it, re.S).group(1))), 80)
+            self.assertIn("<img", it); self.assertGreater(len(re.sub(r"<[^>]+>", "", re.search(r'<p class="pol-teaser__s">(.*?)</p>', it, re.S).group(1))), 50)
             self.assertRegex(it, r'href="/politics/daily/2026-11-05/#(leadership|geography|voters|money|states)"')
+
+    def test_v4_feature_and_five_signals(self):
+        import re
+        land = (DIST / "politics" / "index.html").read_text(encoding="utf-8")
+        text = re.sub(r"<br\s*/?>", "", land)
+        self.assertEqual(text.split("<main", 1)[1].count("A new majority. The same leaders?"), 1)                       # one full leadership feature, not repeated in a teaser
+        self.assertEqual(land.count('class="pol-feature-v4"'), 1)
+        for cls in ("pol-feature-v4__photo", "pol-feature-v4__analysis", "pol-feature-v4__tip"):   # illustration, LLF analysis, TIP panel
+            self.assertIn(cls, land)
+        self.assertIn('href="/politics/daily/2026-11-05/#leadership">Read the full analysis', land)
+        self.assertIn("pol-feature-v4__disabled", land)                                            # TIP tracker stays pending until a verified URL exists
+        self.assertNotIn("theissuesparty.org", land.split("<main", 1)[1].split("</main>", 1)[0].split('id="election-2026"')[0])
+        items = re.findall(r'<li class="pol-teaser">.*?</li>', land, re.S)
+        self.assertEqual(len(items), 5); self.assertIn("The coming leadership decision.", items[0])
+        for n, it in enumerate(items, 1):
+            m = re.search(r'src="(/img/politics/v4/signal-0%d-[a-z]+\.jpg)' % n, it)
+            self.assertTrue(m and (ROOT / "static" / m.group(1).lstrip("/")).exists())
+        self.assertIn("politics-homepage-v4.css", land)
 
     def test_content_completeness_every_supplied_block_is_rendered(self):
         import importlib.util

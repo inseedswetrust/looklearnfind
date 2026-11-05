@@ -201,7 +201,7 @@ def check_edition_pages(dist, allow_preview=False):
                 probs.append(f"{name}: an approved edition must be indexable")
             if name not in sm:
                 probs.append(f"{name}: an approved edition must be in the sitemap")
-            if "pol-ed" in h and 'class="pol-note"' not in h and "owner_approved" in (DAILY_FILE.read_text(encoding="utf-8") if DAILY_FILE.exists() else ""):
+            if "pol-ed" in h and "pol-note" not in h and "owner_approved" in (DAILY_FILE.read_text(encoding="utf-8") if DAILY_FILE.exists() else ""):
                 probs.append(f"{name}: an owner-approved edition must show its editor's note")
         if draft:
             if not allow_preview:

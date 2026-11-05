@@ -59,7 +59,7 @@ def main():
                 else:
                     if f["w"] < w - 80:
                         fails.append(f"{w} #{cid}: image is only {f['w']}px wide on a {w}px screen")
-                if not (abs(f["ratio"] - 16 / 9) < 0.03 or abs(f["ratio"] - 1.5) < 0.03):
+                if not (abs(f["ratio"] - 16 / 9) < 0.03 or abs(f["ratio"] - 1.5) < 0.03 or (w <= 600 and abs(f["ratio"] - 1.6) < 0.03)):      # V3 sets 16:10 on phones
                     fails.append(f"{w} #{cid}: image ratio {f['ratio']} is neither 16:9 nor 3:2")
                 if f["nat"] < f["w"] * (1 if w >= 1100 else 0.9):
                     fails.append(f"{w} #{cid}: image is upscaled ({f['nat']}px natural for {f['w']}px shown)")

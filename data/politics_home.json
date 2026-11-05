@@ -35,29 +35,35 @@
   "accountability": {
     "eyebrow": "THE ACCOUNTABILITY DESK",
     "h2": "A new majority. The same leaders?",
-    "deck": "Hakeem Jeffries is seeking the speakership. Chuck Schumer expects to become Senate majority leader. Their colleagues will decide whether to keep the party's current leadership or chart another course.",
-    "cta_primary": {
-      "label": "Follow the leadership record",
-      "route": "/politics/accountability/leadership-2027/",
-      "fallback": "edition#leadership"
-    },
-    "cta_secondary": {
-      "label": "See the underlying sources",
-      "route": "/about/election-methods/"
-    },
-    "live_title": "Leadership positions, documented",
-    "no_data": "We're collecting attributable public positions and verifying the source of each one. An unanswered request is not a vote or a position.",
-    "statuses": [
-      "Supports retaining current leadership",
-      "Supports alternative leadership",
-      "Undecided publicly",
-      "Declined to answer",
-      "No public position documented"
-    ],
+    "deck": "Hakeem Jeffries is seeking the speakership. Chuck Schumer expects to lead Senate Democrats. Their colleagues will decide whether to retain the party’s leadership or choose another course.",
     "tip": {
-      "label": "The Issues Party Action Party",
-      "route": null,
-      "note": "External advocacy, not LookLearnFind reporting. Linked only when a specific campaign is approved."
+      "logo": {
+        "src": "/img/politics/v4/tip-wordmark-source-crop.png",
+        "w": 1300,
+        "h": 395,
+        "alt": "The Issues Party — Coordinate Action"
+      },
+      "partnership": "A partnership for public accountability",
+      "eyebrow": "COMMITMENT TO CHANGE",
+      "h2": "Who's On the Record?",
+      "deck": "Are incoming Democrats committed to supporting new leadership in place of Hakeem Jeffries in the House and Chuck Schumer in the Senate?",
+      "chambers": [
+        {
+          "label": "THE HOUSE",
+          "name": "Jeffries for Speaker"
+        },
+        {
+          "label": "THE SENATE",
+          "name": "Schumer for Leader"
+        }
+      ],
+      "pending": "The Issues Party maintains the member evidence and position record. Its public tracker destination has not yet been supplied.",
+      "cta": {
+        "label": "Explore the full leadership record",
+        "href": null,
+        "approved": false,
+        "pending_label": "Leadership tracker link pending"
+      }
     },
     "art": {
       "composite": {
@@ -65,7 +71,7 @@
         "width": 1737,
         "height": 945,
         "asset_id": "POL-SUP-LEADERSHIP",
-        "alt": "Black-and-white illustration of Hakeem Jeffries and Chuck Schumer as newspaper cutouts over the Capitol and newsprint with teal geometry."
+        "alt": "Illustrated newspaper-style cutouts of Hakeem Jeffries and Chuck Schumer layered in front of the Capitol, teal geometry and newsprint"
       },
       "a": {
         "src": "/img/politics/jeffries-cutout.png?v=20261105b",
@@ -81,24 +87,13 @@
         "alt": "Chuck Schumer, in an official photograph.",
         "asset_id": "POL-SCHUMER-CUT"
       },
-      "caption": "Illustration supplied with the approved mockup. It is AI-generated: not a photograph, and not a real joint appearance of Hakeem Jeffries and Chuck Schumer."
+      "caption": "Editorial illustration assembled for LLF. Not a joint photograph. Replace with verified source-photo cutouts before documentary publication."
     },
-    "record_module": {
-      "eyebrow": "THE LEADERSHIP RECORD",
-      "title": "Follow who says what, with the source beside it.",
-      "links": [
-        {
-          "label": "Read the leadership chapter",
-          "route": "edition#leadership"
-        },
-        {
-          "label": "Hakeem Jeffries: candidate record at The Issues Party",
-          "href": "https://theissuesparty.org/candidates/H2NY10092",
-          "external": true
-        }
-      ],
-      "note": "The Issues Party is a separate advocacy platform, not LookLearnFind reporting. Linking to a record does not mean the candidate endorses it."
-    }
+    "h2_lines": [
+      "A new majority.",
+      "The same leaders?"
+    ],
+    "analysis_cta": "Read the full analysis"
   },
   "election": {
     "eyebrow": "ELECTION 2026",
@@ -253,71 +248,91 @@
     {
       "n": "01",
       "target": "leadership",
-      "title": "A new majority. The same leaders?",
+      "label": "Leadership",
+      "title": "The coming leadership decision.",
+      "summary": "Members will choose their leaders. What have they said publicly, and what remains unanswered?",
+      "go": "Explore chapter 01",
       "image": {
-        "src": "/img/politics/chapters/leadership-1500.jpg?v=20261105e",
-        "src_small": "/img/politics/chapters/leadership-750.jpg?v=20261105e",
-        "w": 1500,
-        "w_small": 750,
+        "src": "/img/politics/v4/signal-01-hallway.jpg?v=20261105g",
+        "src_small": "/img/politics/v4/signal-01-hallway-sm.jpg?v=20261105g",
+        "w": 1400,
+        "w_small": 760,
+        "h": 840,
         "treatment": "none",
-        "alt": "Black-and-white portraits of Hakeem Jeffries and Chuck Schumer cut out like newspaper clippings over the Capitol dome and diagonal teal bands.",
-        "credit": "Photo illustration: two official portraits (public domain)"
+        "alt": "Illustrated sunlit government hallway with a lone walking figure.",
+        "credit": "AI illustration"
       }
     },
     {
       "n": "02",
       "target": "geography",
-      "title": "The political map broke in places nobody expected.",
+      "label": "Election geography",
+      "title": "The political map broke in unexpected places.",
+      "summary": "Explore the states and communities where electoral coalitions shifted.",
+      "go": "Explore chapter 02",
       "image": {
-        "src": "/img/politics/chapters/geography-1600.jpg?v=20261105e",
-        "src_small": "/img/politics/chapters/geography-800.jpg?v=20261105e",
-        "w": 1600,
-        "w_small": 800,
+        "src": "/img/politics/v4/signal-02-geography.jpg?v=20261105g",
+        "src_small": "/img/politics/v4/signal-02-geography-sm.jpg?v=20261105g",
+        "w": 1400,
+        "w_small": 760,
+        "h": 840,
         "treatment": "none",
-        "alt": "The Kansas State Capitol in Topeka under a clear blue sky.",
-        "credit": "Photo: w_lemay, CC BY-SA 2.0"
+        "alt": "Atmospheric Minnesota lake landscape illustrating the geographic scope of voting.",
+        "credit": "LLF AI illustration"
       }
     },
     {
       "n": "03",
       "target": "voters",
+      "label": "Voter priorities",
       "title": "The cost of living dominated. What will Congress actually do?",
+      "summary": "Voters focused on affordability. Which proposals will emerge from the new Congress?",
+      "go": "Explore chapter 03",
       "image": {
-        "src": "/img/politics/chapters/voters-1600.jpg?v=20261105e",
-        "src_small": "/img/politics/chapters/voters-800.jpg?v=20261105e",
-        "w": 1600,
-        "w_small": 800,
+        "src": "/img/politics/v4/signal-03-voters.jpg?v=20261105g",
+        "src_small": "/img/politics/v4/signal-03-voters-sm.jpg?v=20261105g",
+        "w": 1400,
+        "w_small": 760,
+        "h": 840,
         "treatment": "none",
-        "alt": "A supermarket shelf of green onions and fresh herbs with a 99 cent price tag.",
-        "credit": "Photo: MatthewHoobin, CC0"
+        "alt": "Grocery produce with price information.",
+        "credit": "Photo: MatthewHoobin, CC0 (verify credit)"
       }
     },
     {
       "n": "04",
       "target": "money",
+      "label": "Campaign finance",
       "title": "Nearly $12 billion later, what did the money accomplish?",
+      "summary": "Follow the money, its intended effects and what the records can actually prove.",
+      "go": "Explore chapter 04",
       "image": {
-        "src": "/img/politics/chapters/money-1600.jpg?v=20261105e",
-        "src_small": "/img/politics/chapters/money-800.jpg?v=20261105e",
-        "w": 1600,
-        "w_small": 800,
+        "src": "/img/politics/v4/signal-04-money.jpg?v=20261105g",
+        "src_small": "/img/politics/v4/signal-04-money-sm.jpg?v=20261105g",
+        "w": 1400,
+        "w_small": 760,
+        "h": 840,
         "treatment": "none",
-        "alt": "A United States one-dollar bill in close-up, with a teal plane across the portrait.",
-        "credit": "Image: U.S. Government, public domain; teal plane added"
+        "alt": "Monochrome U.S. banknote with a restrained teal shape.",
+        "credit": "Financial image: source verification needed"
       }
     },
     {
       "n": "05",
       "target": "states",
+      "label": "State government",
       "title": "The biggest changes may happen outside Washington.",
+      "summary": "State legislatures and governors will decide policies close to everyday life.",
+      "go": "Explore chapter 05",
       "image": {
-        "src": "/img/politics/chapters/states-1600.jpg?v=20261105e",
-        "src_small": "/img/politics/chapters/states-800.jpg?v=20261105e",
-        "w": 1600,
-        "w_small": 800,
+        "src": "/img/politics/v4/signal-05-state.jpg?v=20261105g",
+        "src_small": "/img/politics/v4/signal-05-state-sm.jpg?v=20261105g",
+        "w": 1400,
+        "w_small": 760,
+        "h": 840,
         "treatment": "none",
-        "alt": "The Michigan State Capitol in Lansing under a cloudy sky.",
-        "credit": "Photo: w_lemay, CC BY-SA 2.0"
+        "alt": "Pennsylvania State Capitol in daylight, AI illustration.",
+        "credit": "LLF AI illustration"
       }
     }
   ],
