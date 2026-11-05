@@ -313,13 +313,13 @@ class EditionBuilt(unittest.TestCase):
 
     def test_chapters_have_photos_a_sticky_bar_and_previous_next_links(self):
         import re
-        self.assertEqual(self.h.count('class="pol-ed__fig"'), 5)
+        self.assertEqual(self.h.count('class="pol-ed__fig'), 5)
         self.assertEqual(len(re.findall(r'data-chapter="(?:leadership|geography|voters|money|states)"', self.h)), 5)
         sig = re.search(r'id="five-signals".*?</section>', self.h, re.S).group(0)
         self.assertEqual(sig.count("<img"), 5); self.assertEqual(sig.count("Jump to chapter"), 5)
         self.assertEqual(self.h.count('class="pol-ed__pn"'), 5)
         self.assertIn('href="#national-picture"><span>← Back to the opening', self.h); self.assertIn('href="#what-next"><span>Next →', self.h)
-        self.assertIn("pol-duo--ed", self.h)
+        self.assertIn("pol-ed__headimg", self.h)
         self.assertIn("data-chapter", (ROOT / "static" / "js" / "politics.js").read_text(encoding="utf-8"))
         self.assertIn('/js/politics.js', self.h)
 

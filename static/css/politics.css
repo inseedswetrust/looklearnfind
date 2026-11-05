@@ -221,15 +221,17 @@ body.pol-home{--pol-gutter:48px;--pol-max:1240px}
 
 .pol-acc__note{font:13px/1.5 var(--sans);color:var(--muted);margin:16px 0 0;max-width:460px}
 
-/* ---- Daily Signal page: hero spread, sticky chapter bar, photo teasers, photo-led chapters with previous and next links */
-.pol-ed{max-width:none;margin:0;padding:0 0 80px}
+/* ---- Daily Signal page. Two widths: the editorial canvas (1120px) holds headlines, teasers and photographs; the reading column (680px) holds body text. */
+.pol-ed{--canvas:1120px;--read:680px;max-width:none;margin:0;padding:0 0 96px}
 .pol-ed__head{background:var(--llf-paper);overflow:hidden;border-bottom:1px solid var(--llf-line)}
-.pol-ed__head-in{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);max-width:1440px;margin:0 auto;padding:34px 0 0 var(--pol-gutter);min-height:400px}
-.pol-ed__head-t{padding:0 32px 34px 0;align-self:center}
+.pol-ed__head-in{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);max-width:1240px;margin:0 auto;padding:34px var(--pol-gutter) 0;min-height:380px;gap:24px;align-items:end}
+.pol-ed__head-t{padding-bottom:34px;align-self:center}
 .pol-ed__head h1{font:normal 700 clamp(30px,3.7vw,56px)/1.03 var(--serif);letter-spacing:-.03em;margin:12px 0 0}
-.pol-duo--ed{min-height:340px}
+.pol-ed__headimg{margin:0;align-self:end}
+.pol-ed__headimg img{display:block;width:100%;height:auto}
+.pol-ed__headimg figcaption{font:10px/1.35 var(--sans);color:var(--muted);padding:4px 0 6px}
 .pol-chapters{position:sticky;top:0;z-index:20;background:rgba(248,246,240,.97);border-bottom:1px solid var(--llf-line);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
-.pol-chapters__in{max-width:1240px;margin:0 auto;padding:0 var(--pol-gutter);display:flex;align-items:center;gap:18px;overflow-x:auto;scrollbar-width:none}
+.pol-chapters__in{max-width:var(--canvas,1120px);margin:0 auto;padding:0 var(--pol-gutter);display:flex;align-items:center;gap:18px;overflow-x:auto;scrollbar-width:none}
 .pol-chapters__in::-webkit-scrollbar{display:none}
 .pol-chapters__top{flex:none;font:700 10.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--llf-blue);text-decoration:none;display:inline-flex;align-items:center;min-height:48px}
 .pol-chapters ol{display:flex;list-style:none;margin:0;padding:0;gap:2px}
@@ -238,24 +240,48 @@ body.pol-home{--pol-gutter:48px;--pol-max:1240px}
 .pol-chapters a[data-chapter]:hover,.pol-chapters a[data-chapter]:focus-visible{background:var(--llf-line)}
 .pol-chapters a[aria-current="location"]{background:var(--llf-ink);color:var(--llf-paper)}
 .pol-chapters a[aria-current="location"] .pol-ch__n{color:var(--llf-yellow)}
-.pol-ed [id]{scroll-margin-top:112px}
-.pol-ed__sec{max-width:780px;margin:52px auto 0;padding:6px var(--pol-gutter) 0}
-.pol-ed__sec.pol-ed__signals{max-width:1240px}
-.pol-teasers__list--ed{margin-top:22px}
-.pol-ed__fig{margin:0 0 24px}
-.pol-ed__fig img{display:block;width:auto;max-width:100%;height:auto;max-height:440px}
-.pol-ed__fig figcaption{font:11px/1.4 var(--sans);color:var(--muted);margin-top:6px}
-.pol-ed__chapter{padding-top:34px;border-top:1px solid var(--llf-line)}
-.pol-ed__pn{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px;border-top:1px solid var(--llf-line);padding-top:14px}
+.pol-ed [id]{scroll-margin-top:84px}
+/* every section sits on the canvas; its text children return to the reading column */
+.pol-ed__sec{max-width:var(--canvas);margin:80px auto 0;padding:0 var(--pol-gutter)}
+.pol-ed__sec>:not(.pol-ed__chhead):not(.pol-ed__fig):not(.pol-teasers__list):not(.pol-ed__body){max-width:var(--read);margin-left:auto;margin-right:auto}
+.pol-ed__body{max-width:var(--read);margin:0 auto}
+.pol-ed__sec h2{font:normal 600 clamp(28px,3vw,40px)/1.1 var(--serif);letter-spacing:-.02em;margin:8px 0 18px}
+.pol-ed__sec p{font:normal 19px/1.65 var(--serif);margin:0 0 16px}
+.pol-ed__sec p.pol-ed__src,.pol-ed__src em{font:13px/1.5 var(--sans);color:var(--muted)}
+.pol-ed__sec p.pol-ed__close{font:italic normal 22px/1.4 var(--serif)}
+.pol-ed__chapter{padding-top:48px;border-top:1px solid var(--llf-line)}
+.pol-ed__chhead{max-width:var(--canvas);margin:0 auto 26px;padding-bottom:22px;border-bottom:1px solid var(--llf-ink)}
+.pol-ed__chhead h2{font:normal 700 clamp(36px,4.6vw,60px)/1.04 var(--serif);letter-spacing:-.028em;margin:10px 0 0;max-width:20ch}
+.pol-ed__fig{max-width:var(--canvas);margin:0 auto 40px}
+.pol-ed__fig img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.pol-ed__fig--32 img{aspect-ratio:3/2}
+.pol-ed__fig figcaption{font:11px/1.4 var(--sans);color:var(--muted);margin-top:8px}
+.pol-ed__pn{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px;border-top:1px solid var(--llf-line);padding-top:14px}
 .pol-ed__pn a{display:block;min-height:44px;color:var(--llf-ink);text-decoration:none}
 .pol-ed__pn a span{display:block;font:700 10.5px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--llf-blue)}
 .pol-ed__pn a b{display:block;font:600 18px/1.25 var(--serif);margin-top:4px}
 .pol-ed__pn a:hover b,.pol-ed__pn a:focus-visible b{text-decoration:underline;text-underline-offset:4px}
 .pol-ed__pn .pol-ed__next{text-align:right}
+/* at a glance: compact, two columns */
+.pol-glance{border-top:1px solid var(--llf-ink);margin:22px auto 0;padding-top:2px}
+.pol-glance h3{margin:12px 0 4px}
+.pol-glance ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}
+.pol-glance li{font:13.5px/1.45 var(--sans);padding:8px 0;border-bottom:1px solid var(--llf-line)}
+/* editorial verification notes: readable, with real contrast */
+.pol-note{margin:20px 0 0;border:1px solid var(--llf-line);border-left:4px solid var(--llf-blue);background:var(--llf-white);padding:14px 18px;font:15px/1.6 var(--sans);color:var(--llf-ink);max-width:var(--read,680px)}
+.pol-draftbar{margin:18px 0 0;border:1px solid var(--llf-ink);border-left-width:5px;padding:12px 16px;font:14px/1.5 var(--sans);background:repeating-linear-gradient(135deg,transparent 0 9px,rgba(34,35,38,.05) 9px 10px)}
+.pol-ed__sec .pol-list{font:15px/1.65 var(--sans)}
+.pol-ed__sec h3{font:700 11px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;margin:26px 0 8px}
+.pol-teasers__list--ed{margin-top:24px}
 @media (max-width:1100px){
-  .pol-ed__head-in{grid-template-columns:minmax(0,1fr);padding-left:var(--pol-gutter);min-height:0}
-  .pol-ed__head-t{padding-right:var(--pol-gutter)}
-  .pol-duo--ed{margin:0 0 0 calc(var(--pol-gutter) * -1)}
+  .pol-ed__head-in{grid-template-columns:minmax(0,1fr);min-height:0}
+  .pol-ed__headimg{max-width:560px}
 }
-@media (max-width:900px){.pol-chapters{top:64px}.pol-ed [id]{scroll-margin-top:136px}}
-@media (max-width:600px){.pol-ed__pn{grid-template-columns:minmax(0,1fr)}.pol-ed__pn .pol-ed__next{text-align:left}}
+@media (max-width:900px){.pol-chapters{top:64px}.pol-ed [id]{scroll-margin-top:140px}}
+@media (max-width:600px){
+  .pol-ed__sec{margin-top:56px}
+  .pol-ed__chhead h2{font-size:clamp(30px,9vw,40px)}
+  .pol-ed__pn{grid-template-columns:minmax(0,1fr)}.pol-ed__pn .pol-ed__next{text-align:left}
+  .pol-glance ul{grid-template-columns:minmax(0,1fr)}
+}
+

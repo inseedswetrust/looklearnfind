@@ -255,16 +255,13 @@
       "target": "leadership",
       "title": "A new majority. The same leaders?",
       "image": {
-        "src": "/img/politics/supplied/hero.jpg?v=20261105d",
+        "src": "/img/politics/chapters/leadership-1500.jpg?v=20261105e",
+        "src_small": "/img/politics/chapters/leadership-750.jpg?v=20261105e",
+        "w": 1500,
+        "w_small": 750,
         "treatment": "none",
-        "alt": "The U.S. Capitol dome in black and white.",
-        "credit": "Image supplied with the approved mockup (AI-generated)"
-      },
-      "chapter_image": {
-        "src": "/img/politics/supplied/leadership.jpg?v=20261105d",
-        "treatment": "none",
-        "alt": "Illustration of Hakeem Jeffries and Chuck Schumer as newspaper cutouts.",
-        "credit": "Image supplied with the approved mockup (AI-generated)"
+        "alt": "Black-and-white portraits of Hakeem Jeffries and Chuck Schumer cut out like newspaper clippings over the Capitol dome and diagonal teal bands.",
+        "credit": "Photo illustration: two official portraits (public domain)"
       }
     },
     {
@@ -272,10 +269,13 @@
       "target": "geography",
       "title": "The political map broke in places nobody expected.",
       "image": {
-        "src": "/img/politics/supplied/vote.jpg?v=20261105d",
+        "src": "/img/politics/chapters/geography-1600.jpg?v=20261105e",
+        "src_small": "/img/politics/chapters/geography-800.jpg?v=20261105e",
+        "w": 1600,
+        "w_small": 800,
         "treatment": "none",
-        "alt": "A voting booth sign with a flag, with voters in the background.",
-        "credit": "Image supplied with the approved mockup (AI-generated)"
+        "alt": "The Kansas State Capitol in Topeka under a clear blue sky.",
+        "credit": "Photo: w_lemay, CC BY-SA 2.0"
       }
     },
     {
@@ -283,10 +283,13 @@
       "target": "voters",
       "title": "The cost of living dominated. What will Congress actually do?",
       "image": {
-        "src": "/img/politics/supplied/signals.jpg?v=20261105d",
+        "src": "/img/politics/chapters/voters-1600.jpg?v=20261105e",
+        "src_small": "/img/politics/chapters/voters-800.jpg?v=20261105e",
+        "w": 1600,
+        "w_small": 800,
         "treatment": "none",
-        "alt": "People walking along a city street seen from behind.",
-        "credit": "Image supplied with the approved mockup (AI-generated)"
+        "alt": "A supermarket shelf of green onions and fresh herbs with a 99 cent price tag.",
+        "credit": "Photo: MatthewHoobin, CC0"
       }
     },
     {
@@ -294,10 +297,13 @@
       "target": "money",
       "title": "Nearly $12 billion later, what did the money accomplish?",
       "image": {
-        "src": "/img/politics/supplied/money.jpg?v=20261105d",
+        "src": "/img/politics/chapters/money-1600.jpg?v=20261105e",
+        "src_small": "/img/politics/chapters/money-800.jpg?v=20261105e",
+        "w": 1600,
+        "w_small": 800,
         "treatment": "none",
-        "alt": "A rolled one-dollar bill in close-up.",
-        "credit": "Image supplied with the approved mockup (AI-generated)"
+        "alt": "A United States one-dollar bill in close-up, with a teal plane across the portrait.",
+        "credit": "Image: U.S. Government, public domain; teal plane added"
       }
     },
     {
@@ -305,11 +311,22 @@
       "target": "states",
       "title": "The biggest changes may happen outside Washington.",
       "image": {
-        "src": "/img/politics/supplied/record.jpg?v=20261105d",
+        "src": "/img/politics/chapters/states-1600.jpg?v=20261105e",
+        "src_small": "/img/politics/chapters/states-800.jpg?v=20261105e",
+        "w": 1600,
+        "w_small": 800,
         "treatment": "none",
-        "alt": "A domed statehouse with a gold dome among autumn leaves.",
-        "credit": "Image supplied with the approved mockup (AI-generated)"
+        "alt": "The Michigan State Capitol in Lansing under a cloudy sky.",
+        "credit": "Photo: w_lemay, CC BY-SA 2.0"
       }
     }
-  ]
+  ],
+  "edition_art": {
+    "src": "/img/politics/capitol-cut.png?v=20261105b",
+    "width": 1594,
+    "height": 1086,
+    "asset_id": "POL-CAPITOL-CUT",
+    "alt": "The U.S. Capitol dome and wings in black and white.",
+    "credit": "U.S. Capitol, west front. Photo: Noclip, public domain (Wikimedia Commons)."
+  }
 }

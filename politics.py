@@ -125,6 +125,16 @@ def _img(key):
     return f"/img/elections/{key}.jpg"
 
 
+def _imgtag(im, alt="", sizes="(min-width: 1100px) 33vw, 100vw", loading="lazy"):
+    """A responsive <img>: the large file for wide screens and the small file for narrow ones. Falls back to a single src for older records."""
+    if im.get("src_small"):
+        ss = f'srcset="{e(im["src_small"])} {im["w_small"]}w, {e(im["src"])} {im["w"]}w" sizes="{sizes}" '
+    else:
+        ss = ""
+    ratio = 'width="1600" height="900"' if im.get("w") != 1500 else 'width="1500" height="1000"'
+    return f'<img class="pol-img--{e(im["treatment"])}" src="{e(im["src"])}" {ss}alt="{e(alt)}" loading="{loading}" {ratio}>'
+
+
 def _head(m, mid=None, tag="h2"):
     i = f' id="{mid}"' if mid else ""
     return f'<div class="pol-eyebrow">{e(m["eyebrow"])}</div><{tag}{i}>{e(m["h2"])}</{tag}>'
@@ -180,7 +190,7 @@ def teaser_section(api, d, teasers):
         im = t["image"]
         cr = im.get("credit") or credit_line(api, im.get("key", ""))
         u = f'/politics/daily/{e(ed["date"])}/#{e(t["target"])}'
-        arts += (f'<li class="pol-teaser"><a class="pol-teaser__pic" href="{u}" tabindex="-1" aria-hidden="true"><img class="pol-img--{e(im["treatment"])}" src="{e(im["src"])}" alt="" loading="lazy" width="1200" height="800">'
+        arts += (f'<li class="pol-teaser"><a class="pol-teaser__pic" href="{u}" tabindex="-1" aria-hidden="true">{_imgtag(im)}'
                  f'<span class="pol-credit">{e(cr)}</span></a>'
                  f'<div class="pol-teaser__body"><a class="pol-teaser__a" href="{u}"><span class="pol-teaser__n">{e(t["n"])} / {e(src["label"])}</span><span class="pol-teaser__t">{e(t["title"])}</span></a>'
                  f'<p class="pol-teaser__s">{src["teaser"]}</p>'
@@ -337,7 +347,7 @@ def render_edition(r, fmt_date, preview=False, teasers=None, art=None, credit=No
     cards = ""
     for i in sg["items"]:
         im = (imgs.get(i["target"]) or {}).get("image")
-        pic = (f'<a class="pol-teaser__pic" href="#{e(i["target"])}" tabindex="-1" aria-hidden="true"><img class="pol-img--{e(im["treatment"])}" src="{e(im["src"])}" alt="" loading="lazy" width="1200" height="800">'
+        pic = (f'<a class="pol-teaser__pic" href="#{e(i["target"])}" tabindex="-1" aria-hidden="true">{_imgtag(im)}'
                f'<span class="pol-credit">{e(credit(im))}</span></a>') if im else ""
         cards += (f'<li class="pol-teaser">{pic}<div class="pol-teaser__body"><a class="pol-teaser__a" href="#{e(i["target"])}"><span class="pol-teaser__n">{e(i["n"])} / {e(i["label"])}</span>'
                   f'<span class="pol-teaser__t">{e(i["title"])}</span></a><p class="pol-teaser__s">{i["teaser"]}</p>'
@@ -346,7 +356,8 @@ def render_edition(r, fmt_date, preview=False, teasers=None, art=None, credit=No
     secs = ""
     for k, s in enumerate(b["sections"]):
         im = (imgs.get(s["id"]) or {}).get("image")
-        fig = (f'<figure class="pol-ed__fig"><img class="pol-img--{e(im["treatment"])}" src="{e(im["src"])}" alt="{e(im["alt"])}" loading="lazy" width="1200" height="800">'
+        wide = bool(im) and im.get("w") == 1500
+        fig = (f'<figure class="pol-ed__fig{" pol-ed__fig--32" if wide else ""}">{_imgtag(im, im["alt"], "(min-width: 1180px) 1120px, 100vw", "lazy")}'
                f'<figcaption>{e(credit(im))}</figcaption></figure>') if im else ""
         prev = b["sections"][k - 1] if k else None
         nxt = b["sections"][k + 1] if k + 1 < len(b["sections"]) else None
@@ -355,8 +366,8 @@ def render_edition(r, fmt_date, preview=False, teasers=None, art=None, credit=No
               + (f'<a class="pol-ed__next" href="#{e(nxt["id"])}"><span>Next chapter →</span><b>{e(nxt["h2"])}</b></a>' if nxt else '<a class="pol-ed__next" href="#what-next"><span>Next →</span><b>What we are watching next</b></a>')
               + '</nav>')
         paras = "".join(f"<p>{p}</p>" for p in s["paras"])
-        secs += (f'<section class="pol-ed__sec pol-ed__chapter" id="{e(s["id"])}">{fig}<div class="pol-eyebrow">{e(s["n"])} / {e(label.get(s["id"], ""))}</div>'
-                 f'<h2>{e(s["h2"])}</h2>{paras}<p class="pol-ed__src">{s["source_review"]}</p><p class="pol-ed__back"><a href="#five-signals">Back to today\'s signals</a></p>{pn}</section>')
+        secs += (f'<section class="pol-ed__sec pol-ed__chapter" id="{e(s["id"])}"><header class="pol-ed__chhead"><div class="pol-eyebrow">{e(s["n"])} / {e(label.get(s["id"], ""))}</div>'
+                 f'<h2>{e(s["h2"])}</h2></header>{fig}<div class="pol-ed__body">{paras}<p class="pol-ed__src">{s["source_review"]}</p><p class="pol-ed__back"><a href="#five-signals">Back to today\'s signals</a></p>{pn}</div></section>')
     w = b["watching"]
     watch = "".join(f"<li>{x}</li>" for x in w["items"])
     src = "".join(f'<li><a href="{e(s["url"])}" rel="noopener">{e(s["label"])}</a>, {e(fmt_date(s["date"]))}</li>' for s in r["sources"])
@@ -364,8 +375,8 @@ def render_edition(r, fmt_date, preview=False, teasers=None, art=None, credit=No
     editor = ("Edited by " + e(r["editor"])) if not r["editor"].lower().startswith("not yet") else "Editor not yet assigned"
     hero = ""
     if art:
-        hero = (f'<figure class="pol-duo pol-duo--ed" data-asset="{e(art["asset_id"])}"><span class="pol-duo__plane" aria-hidden="true"></span>'
-                f'<img class="pol-duo__img" src="{e(art["src"])}" width="{art["width"]}" height="{art["height"]}" alt="{e(art["alt"])}" fetchpriority="high"></figure>')
+        hero = (f'<figure class="pol-ed__headimg" data-asset="{e(art["asset_id"])}">'
+                f'<img src="{e(art["src"])}" width="{art["width"]}" height="{art["height"]}" alt="{e(art["alt"])}" fetchpriority="high"><figcaption>{e(art["credit"])}</figcaption></figure>')
     return (f'<article class="pol-ed" data-outline-label="In this edition" data-story-id="{e(r["story_id"])}">'
             f'<header class="pol-ed__head"><div class="pol-ed__head-in"><div class="pol-ed__head-t"><div class="breadcrumb"><a href="/">Home</a> / <a href="/politics/">Politics</a> / <a href="/politics/daily/">The Daily Signal</a> / {e(fmt_date(r["date"]))}</div>'
             f'<div class="pol-eyebrow">THE DAILY SIGNAL / EDITION {e(r["edition"])}</div><h1>{e(r["title"])}</h1><p class="pol-ed__dek">{e(r["dek"])}</p>'
@@ -455,7 +466,7 @@ def build(api):
     d = home["daily"]
     for dt, rs in groups.items():
         is_draft = any(r["status"] != "approved" for r in rs)
-        page = render_daily_briefing(dt, rs, fmt_date, teasers=home["teasers"], art=home["hero"]["art"],
+        page = render_daily_briefing(dt, rs, fmt_date, teasers=home["teasers"], art=home["edition_art"],
                                      credit=lambda im: im.get("credit") or credit_line(api, im.get("key", "")))
         if any(r.get("blocks") for r in rs):
             validate_edition_html(next(r for r in rs if r.get("blocks")), page)
