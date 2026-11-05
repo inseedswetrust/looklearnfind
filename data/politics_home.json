@@ -7,12 +7,16 @@
   },
   "hero": {
     "eyebrow": "01 / POLITICS",
-    "h1": ["Less noise.", "More evidence."],
+    "h1": [
+      "Less noise.",
+      "More evidence."
+    ],
     "deck": "The daily briefing, the original records and what they reveal about power, money and what comes next.",
     "art": {
       "src": "/img/politics/capitol-cut.png",
-      "width": 999, "height": 740,
-      "alt": "The U.S. Capitol dome and wings in black and white, rising over a teal plane.",
+      "width": 1594,
+      "height": 1086,
+      "alt": "The U.S. Capitol dome and wings in black and white, rising over a muted teal plane.",
       "credit": "U.S. Capitol, west front. Photo: Noclip, public domain (Wikimedia Commons). Sky removed and converted to black and white.",
       "asset_id": "POL-CAPITOL-CUT"
     }
@@ -25,21 +29,51 @@
     "past": "Past briefings",
     "empty": "Our next briefing is being prepared. In the meantime, explore the reporting and original records below.",
     "fallback_label": "Latest dated feature",
-    "five_label": "Five signals today"
+    "five_label": "Five signals today",
+    "five_intro": "The November 5 briefing in five questions. Each opens the full reporting, with what we know, what remains open and what we report next."
   },
   "accountability": {
     "eyebrow": "THE ACCOUNTABILITY DESK",
     "h2": "A new majority. The same leaders?",
     "deck": "Hakeem Jeffries is seeking the speakership. Chuck Schumer expects to become Senate majority leader. Their colleagues will decide whether to keep the party's current leadership or chart another course.",
-    "cta_primary": {"label": "Follow the leadership record", "route": "/politics/accountability/leadership-2027/", "fallback": "edition#leadership"},
-    "cta_secondary": {"label": "See the underlying sources", "route": "/about/election-methods/"},
+    "cta_primary": {
+      "label": "Follow the leadership record",
+      "route": "/politics/accountability/leadership-2027/",
+      "fallback": "edition#leadership"
+    },
+    "cta_secondary": {
+      "label": "See the underlying sources",
+      "route": "/about/election-methods/"
+    },
     "live_title": "Leadership positions, documented",
     "no_data": "We're collecting attributable public positions and verifying the source of each one. An unanswered request is not a vote or a position.",
-    "statuses": ["Supports retaining current leadership", "Supports alternative leadership", "Undecided publicly", "Declined to answer", "No public position documented"],
-    "tip": {"label": "The Issues Party Action Party", "route": null, "note": "External advocacy, not LookLearnFind reporting. Linked only when a specific campaign is approved."},
+    "statuses": [
+      "Supports retaining current leadership",
+      "Supports alternative leadership",
+      "Undecided publicly",
+      "Declined to answer",
+      "No public position documented"
+    ],
+    "tip": {
+      "label": "The Issues Party Action Party",
+      "route": null,
+      "note": "External advocacy, not LookLearnFind reporting. Linked only when a specific campaign is approved."
+    },
     "art": {
-      "a": {"src": "/img/politics/jeffries-cutout.png", "width": 900, "height": 1222, "alt": "Hakeem Jeffries, in an official portrait.", "asset_id": "POL-JEFFRIES-CUT"},
-      "b": {"src": "/img/politics/schumer-cutout.png", "width": 900, "height": 1157, "alt": "Chuck Schumer, in an official photograph.", "asset_id": "POL-SCHUMER-CUT"},
+      "a": {
+        "src": "/img/politics/jeffries-cutout.png",
+        "width": 900,
+        "height": 1222,
+        "alt": "Hakeem Jeffries, in an official portrait.",
+        "asset_id": "POL-JEFFRIES-CUT"
+      },
+      "b": {
+        "src": "/img/politics/schumer-cutout.png",
+        "width": 900,
+        "height": 1157,
+        "alt": "Chuck Schumer, in an official photograph.",
+        "asset_id": "POL-SCHUMER-CUT"
+      },
       "caption": "Photo illustration assembled from two separate official portraits, both public domain: Hakeem Jeffries (Office of Representative Hakeem Jeffries, 2021) and Chuck Schumer (U.S. Senate Photographic Studio, 2017). The two are not pictured together."
     }
   },
@@ -47,47 +81,109 @@
     "eyebrow": "ELECTION 2026",
     "h2": "The election is over. The record isn't.",
     "deck": "Explore the results, campaign money and reporting that shaped the contests. Each state report brings the vote counts together with what changed and what comes next.",
-    "cta": {"label": "Explore the 2026 election", "route": "/elections/2026/", "fallback": "#state-reports"},
-    "image": {"key": "fl-capitol", "treatment": "color"},
+    "cta": {
+      "label": "Explore the 2026 election",
+      "route": "/elections/2026/",
+      "fallback": "#state-reports"
+    },
+    "image": {
+      "key": "fl-capitol",
+      "treatment": "color"
+    },
     "states_label": "State reports",
     "selector_label": "Choose a state",
     "lead": null,
     "states": [
-      {"code": "FL", "name": "Florida"}, {"code": "IL", "name": "Illinois"}, {"code": "MI", "name": "Michigan"},
-      {"code": "MN", "name": "Minnesota"}, {"code": "NJ", "name": "New Jersey"}, {"code": "NY", "name": "New York"},
-      {"code": "PA", "name": "Pennsylvania"}
+      {
+        "code": "FL",
+        "name": "Florida"
+      },
+      {
+        "code": "IL",
+        "name": "Illinois"
+      },
+      {
+        "code": "MI",
+        "name": "Michigan"
+      },
+      {
+        "code": "MN",
+        "name": "Minnesota"
+      },
+      {
+        "code": "NJ",
+        "name": "New Jersey"
+      },
+      {
+        "code": "NY",
+        "name": "New York"
+      },
+      {
+        "code": "PA",
+        "name": "Pennsylvania"
+      }
     ]
   },
   "money": {
     "eyebrow": "FOLLOW THE MONEY",
     "h2": "The money behind the message.",
     "deck": "Campaign filings and outside spending show who tried to influence the election. Follow the disclosures, the beneficiaries and the limits of what those records can establish.",
-    "cta": {"label": "Follow the spending", "route": "/politics/money/", "fallback_story": "aipac-udp-money-delta-october-2026"},
-    "image": {"key": "il-ford", "treatment": "color"}
+    "cta": {
+      "label": "Follow the spending",
+      "route": "/politics/money/",
+      "fallback_story": "aipac-udp-money-delta-october-2026"
+    },
+    "image": {
+      "key": "il-ford",
+      "treatment": "color"
+    }
   },
   "record": {
     "eyebrow": "STATE OF THE RECORD",
     "h2": "Promises made. Decisions pending.",
     "deck": "Campaign positions are part of the public record. Now we follow the votes, appointments and decisions that show what happens after Election Day.",
-    "cta": {"label": "Read the record", "route": "/threads/following-a-promise/"},
-    "image": {"key": "il-capitol", "treatment": "color"}
+    "cta": {
+      "label": "Read the record",
+      "route": "/threads/following-a-promise/"
+    },
+    "image": {
+      "key": "il-capitol",
+      "treatment": "color"
+    }
   },
   "signals": {
     "eyebrow": "ELECTION SIGNALS",
     "h2": "What the numbers reveal — and what they don't.",
     "deck": "Margins, turnout, geography and spending can reveal important patterns. We show the comparisons, the sources and the uncertainty behind each finding.",
-    "cta": {"label": "Explore the signals", "route": "/politics/signals/", "fallback": "edition#geography"},
-    "method": {"label": "How we read the numbers", "route": "/about/election-methods/"},
+    "cta": {
+      "label": "Explore the signals",
+      "route": "/politics/signals/",
+      "fallback": "edition#geography"
+    },
+    "method": {
+      "label": "How we read the numbers",
+      "route": "/about/election-methods/"
+    },
     "no_signal": "No finding has passed our review yet. Until one does, we publish none.",
-    "image": {"key": "s5-new-york", "treatment": "duochrome"},
+    "image": {
+      "key": "s5-new-york",
+      "treatment": "duochrome"
+    },
     "items": []
   },
   "reporting": {
     "eyebrow": "CURRENT REPORTING",
     "h2": "Stories worth a closer look.",
     "deck": "Original reporting, verified records and questions we haven't stopped asking.",
-    "cta": {"label": "Browse all Politics reporting", "route": "/topics/politics/"},
-    "list_ids": ["pennsylvania-governor-poll-party-market-2026", "new-jersey-senate-booker-murphy-money-debate-2026", "minnesota-senate-quiet-campaign-poll-october-2026"],
+    "cta": {
+      "label": "Browse all Politics reporting",
+      "route": "/topics/politics/"
+    },
+    "list_ids": [
+      "pennsylvania-governor-poll-party-market-2026",
+      "new-jersey-senate-booker-murphy-money-debate-2026",
+      "minnesota-senate-quiet-campaign-poll-october-2026"
+    ],
     "context_badge": "PRE-ELECTION REPORT / HISTORICAL CONTEXT",
     "threads_label": "Follow a thread"
   },
@@ -97,11 +193,86 @@
     "label": "Go to the source.",
     "deck": "Original records, documents and data behind our reporting.",
     "links": [
-      {"label": "Election returns", "route": null, "approved": false, "note": "Not shown until an official results source is validated."},
-      {"label": "Campaign finance records", "href": "https://www.fec.gov/data/", "approved": false, "note": "Owner approval of this destination pending."},
-      {"label": "Our reporting methods", "route": "/about/election-methods/", "approved": true},
-      {"label": "Corrections", "route": "/about/corrections/", "approved": true}
+      {
+        "label": "Election returns",
+        "route": null,
+        "approved": false,
+        "note": "Not shown until an official results source is validated."
+      },
+      {
+        "label": "Campaign finance records",
+        "href": "https://www.fec.gov/data/",
+        "approved": false,
+        "note": "Owner approval of this destination pending."
+      },
+      {
+        "label": "Our reporting methods",
+        "route": "/about/election-methods/",
+        "approved": true
+      },
+      {
+        "label": "Corrections",
+        "route": "/about/corrections/",
+        "approved": true
+      }
     ],
     "method_line": "Sources, timestamps and corrections are part of the story."
-  }
+  },
+  "teasers": [
+    {
+      "n": "01",
+      "target": "leadership",
+      "title": "A new majority. The same leaders?",
+      "image": {
+        "src": "/img/elections/us-capitol.jpg",
+        "treatment": "mono",
+        "key": "us-capitol",
+        "alt": "The U.S. Capitol in black and white."
+      }
+    },
+    {
+      "n": "02",
+      "target": "geography",
+      "title": "The political map broke in places nobody expected.",
+      "image": {
+        "src": "/img/politics/teasers/kansas-capitol.jpg",
+        "treatment": "color",
+        "alt": "The Kansas State Capitol in Topeka under a clear sky.",
+        "credit": "Photo: w_lemay, CC BY-SA 2.0"
+      }
+    },
+    {
+      "n": "03",
+      "target": "voters",
+      "title": "The cost of living dominated. What will Congress actually do?",
+      "image": {
+        "src": "/img/politics/teasers/grocery-prices.jpg",
+        "treatment": "color",
+        "alt": "A supermarket shelf of fresh herbs and onions with a 99 cent price tag.",
+        "credit": "Photo: MatthewHoobin, CC0"
+      }
+    },
+    {
+      "n": "04",
+      "target": "money",
+      "title": "Nearly $12 billion later, what did the money accomplish?",
+      "image": {
+        "src": "/img/politics/teasers/dollar-bill.jpg",
+        "treatment": "mono",
+        "alt": "A detail of a United States one-dollar bill.",
+        "credit": "Image: U.S. Government, public domain"
+      }
+    },
+    {
+      "n": "05",
+      "target": "states",
+      "title": "The biggest changes may happen outside Washington.",
+      "image": {
+        "src": "/img/elections/mi-capitol.jpg",
+        "treatment": "color",
+        "key": "mi-capitol",
+        "alt": "The Michigan State Capitol in Lansing."
+      }
+    }
+  ]
 }

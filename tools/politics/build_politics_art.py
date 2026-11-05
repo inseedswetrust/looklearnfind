@@ -41,14 +41,14 @@ def grabcut(img, rect, iters=7, hint=None):
     return cv2.GaussianBlur(m, (5, 5), 0)
 
 
-def paper_edge(subject_rgba_mask, width_px):
+def paper_edge(subject_rgba_mask, width_px, rough=0.26):
     """Irregular warm-white perimeter: dilate by a noisy radius, then roughen the boundary slightly."""
     h, w = subject_rgba_mask.shape
     d = cv2.dilate(subject_rgba_mask, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * width_px + 1, 2 * width_px + 1)))
-    noise = rng.normal(0, 1, (h // 24 + 2, w // 24 + 2)).astype(np.float32)
+    noise = rng.normal(0, 1, (h // 18 + 2, w // 18 + 2)).astype(np.float32)
     noise = cv2.resize(noise, (w, h), interpolation=cv2.INTER_CUBIC)
     soft = cv2.GaussianBlur(d, (0, 0), 3).astype(np.float32) / 255.0
-    edge = (soft + 0.16 * noise) > 0.5
+    edge = np.where(soft >= 0.999, True, (soft + rough * noise) > 0.5)      # roughen the outline only; the interior is never perforated
     e8 = (edge * 255).astype(np.uint8)
     n, lab, stats, _ = cv2.connectedComponentsWithStats(e8)
     if n > 1:                                   # no stray specks outside the paper edge
@@ -56,7 +56,7 @@ def paper_edge(subject_rgba_mask, width_px):
     return e8
 
 
-def cutout(name, rect, mono, hint=None, out_w=900, edge=7, crop=None):
+def cutout(name, rect, mono, hint=None, out_w=900, edge=9, crop=None):
     im = cv2.imread(str(SRC / f"{name}.jpg"))
     s = 900 / im.shape[1]
     sm = cv2.resize(im, None, fx=s, fy=s, interpolation=cv2.INTER_AREA)
@@ -90,9 +90,10 @@ def cutout(name, rect, mono, hint=None, out_w=900, edge=7, crop=None):
 
 
 def capitol():
-    im = Image.open(SRC / "capitol_full.jpg").convert("RGB")
+    hi = SRC / "capitol_hi.jpg"
+    im = Image.open(hi if hi.exists() else SRC / "capitol_full.jpg").convert("RGB")
     w, h = im.size
-    im = im.crop((int(w * .24), 0, int(w * .76), int(h * .90)))
+    im = im.crop((int(w * .385), int(h * .0), int(w * .80), int(h * .66)))
     a = np.asarray(im).astype(np.float32)
     r, g, b = a[..., 0], a[..., 1], a[..., 2]
     sky = (b > r + 45) & (b > g + 25)                      # saturated blue: the sky
@@ -102,11 +103,11 @@ def capitol():
     lum = (0.3 * r + 0.59 * g + 0.11 * b)
     lum = np.clip((lum - 18) * 1.18, 0, 255)
     hh = mask.shape[0]
-    fade = np.clip((np.arange(hh)[:, None] - hh * 0.80) / (hh * 0.20), 0, 1)   # the lawn dissolves into the paper
+    fade = np.clip((np.arange(hh)[:, None] - hh * 0.88) / (hh * 0.12), 0, 1)   # the lawn dissolves into the paper
     alpha = mask * (1 - fade)
     out = np.dstack([lum, lum, lum, alpha * 255]).astype(np.uint8)
     img = Image.fromarray(out, "RGBA")
-    img.thumbnail((1600, 1600), Image.LANCZOS)
+    img.thumbnail((1700, 1700), Image.LANCZOS)
     OUT.mkdir(parents=True, exist_ok=True)
     img.save(OUT / "capitol-cut.png", optimize=True)
     return img.size
@@ -129,8 +130,8 @@ def main():
         m[int(40 * s): int(500 * s), int(600 * s): int(1050 * s)] = cv2.GC_PR_FGD
 
     sizes = {"capitol": capitol(),
-             "jeffries": cutout("jeffries", (150, 150, 1000, 1470), True, jhint),
-             "schumer": cutout("schumer", (300, 60, 1500, 1840), True, shint, crop=0.92)}
+             "jeffries": cutout("jeffries", (150, 150, 1000, 1470), True, jhint, crop=0.70),
+             "schumer": cutout("schumer", (300, 60, 1500, 1840), True, shint, crop=0.76)}
     print(sizes)
 
 

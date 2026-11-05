@@ -1,0 +1,66 @@
+{
+ "kansas-capitol": {
+  "title": "File:Kansas State Capitol, 8th Avenue and Van Buren Street, Topeka, KS.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kansas_State_Capitol,_8th_Avenue_and_Van_Buren_Street,_Topeka,_KS.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Kansas_State_Capitol%2C_8th_Avenue_and_Van_Buren_Street%2C_Topeka%2C_KS.jpg/3840px-Kansas_State_Capitol%2C_8th_Avenue_and_Van_Buren_Street%2C_Topeka%2C_KS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": [
+   5147,
+   3860
+  ],
+  "license": "CC BY-SA 2.0",
+  "creator": "w_lemay",
+  "date": "2024-03-10 14:23:15",
+  "credit": "https://www.flickr.com/photos/59081381@N03/54460196282/",
+  "key": "kansas-capitol",
+  "illustrates": "Teaser 02: the Kansas State Capitol, Topeka",
+  "downloaded": "2026-11-05"
+ },
+ "grocery-prices": {
+  "title": "File:Parsley for 99 cents, and other vegetables, in supermarket in Clearwater, Florida, US on 25 September 2020.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Parsley_for_99_cents,_and_other_vegetables,_in_supermarket_in_Clearwater,_Florida,_US_on_25_September_2020.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Parsley_for_99_cents%2C_and_other_vegetables%2C_in_supermarket_in_Clearwater%2C_Florida%2C_US_on_25_September_2020.jpg/3840px-Parsley_for_99_cents%2C_and_other_vegetables%2C_in_supermarket_in_Clearwater%2C_Florida%2C_US_on_25_September_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": [
+   4160,
+   2340
+  ],
+  "license": "CC0",
+  "creator": "MatthewHoobin",
+  "date": "2020-09-25 19:59:28",
+  "credit": "Own work",
+  "key": "grocery-prices",
+  "illustrates": "Teaser 03: vegetables and prices in a supermarket",
+  "downloaded": "2026-11-05"
+ },
+ "dollar-bill": {
+  "title": "File:United States one dollar bill, obverse.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:United_States_one_dollar_bill,_obverse.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/United_States_one_dollar_bill%2C_obverse.jpg/3840px-United_States_one_dollar_bill%2C_obverse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": [
+   7400,
+   3224
+  ],
+  "license": "Public domain",
+  "creator": "",
+  "date": "",
+  "credit": "",
+  "key": "dollar-bill",
+  "illustrates": "Teaser 04: detail of a U.S. one-dollar bill",
+  "downloaded": "2026-11-05"
+ },
+ "capitol_hi": {
+  "title": "File:Capitol Building Full View.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Capitol_Building_Full_View.jpg/3840px-Capitol_Building_Full_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "orig": [
+   7168,
+   3072
+  ],
+  "license": "Public domain",
+  "creator": "Noclip",
+  "date": "3 April 2007 (original upload date)",
+  "credit": "Own work",
+  "key": "capitol_hi",
+  "illustrates": "Hero source (hi-res)",
+  "downloaded": "2026-11-05"
+ }
+}

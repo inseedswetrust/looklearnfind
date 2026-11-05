@@ -6,9 +6,9 @@
   "dek": "Democrats have secured both chambers. The next questions are who leads, what the election revealed, where campaign money went and what changes when the winners take office.",
   "status": "draft",
   "fact_check": {
-    "state": "pending",
+    "state": "flags",
     "reviewer": "",
-    "note": "Independent source review required before approval. Every figure, call and control claim must pass the fact-check gate."
+    "note": "Source review run 2026-11-05 by Claude (not the drafter). Flags remain; an editor and the owner decide. No paragraph was removed. Not approved."
   },
   "author": "LookLearnFind",
   "editor": "Not yet assigned",
@@ -17,6 +17,10 @@
     {
       "date": "2026-11-05",
       "note": "Imported the editorial draft (Edition 001) without changes. Not reviewed or approved."
+    },
+    {
+      "date": "2026-11-05",
+      "note": "Source review run: 7 of 15 checked claims are supported (as projections where noted), 2 are partly supported, 4 are unverified because Reuters and AP could not be opened, and 2 are unsupported. Nothing was removed or changed. The edition stays a draft."
     }
   ],
   "sources": [
@@ -248,5 +252,139 @@
       "closing": "<strong>The election changed who holds power. The record now follows what they do with it.</strong>"
     },
     "sources_intro": "These are sources for independent editorial review. They are not a substitute for direct official election returns, verified FEC records or a final legal assessment of image rights."
+  },
+  "review": {
+    "checked_on": "2026-11-05",
+    "reviewer": "Claude (source review, not the drafter)",
+    "state": "flags",
+    "summary": "7 of 15 checked claims are supported (as projections where noted), 2 are partly supported, 4 are unverified because Reuters and AP could not be opened, and 2 are unsupported. Nothing was removed or changed. The edition stays a draft.",
+    "claims": [
+      {
+        "id": "C01",
+        "section": "national-picture",
+        "claim": "Democrats secured majority control of the House.",
+        "status": "supported",
+        "source": "ABC News live blog, Nov. 4, 2026, 4:10 PM EST (the source listed as no. 3 in the draft): projecting Democrats take the House. Washington Examiner 2026 midterm live blog, updated Nov. 5, 2026, 9:12 AM (not in the draft's source list): 240 House seats, 48 races still open.",
+        "note": "Supported as a projection. The draft's own caution (not certified) is correct; 'secured' in the dek should read 'are projected to have won'."
+      },
+      {
+        "id": "C02",
+        "section": "national-picture",
+        "claim": "Democrats secured majority control of the Senate; the seat count is in flux.",
+        "status": "supported",
+        "source": "ABC News live blog, Nov. 4, 2026, 4:10 PM EST (the source listed as no. 3 in the draft): projecting Democrats take the Senate. Washington Examiner 2026 midterm live blog, updated Nov. 5, 2026, 9:12 AM (not in the draft's source list): 54 Senate seats, Alaska and Mississippi uncalled.",
+        "note": "Supported as a projection. The Examiner count (54) is more specific than the draft, which is consistent with 'in flux'."
+      },
+      {
+        "id": "C03",
+        "section": "national-picture",
+        "claim": "President Donald Trump remains in office, so government is divided.",
+        "status": "supported",
+        "source": "Public record: a Republican president serves through January 2029.",
+        "note": "No source needed beyond the public record."
+      },
+      {
+        "id": "C04",
+        "section": "national-picture",
+        "claim": "The result was a reversal larger than many election observers expected.",
+        "status": "unsupported",
+        "source": "Pre-election forecasts found (Sabato's Crystal Ball: Democrats +6 Senate, +24 House) do not show the outcome relative to expectations.",
+        "note": "An editorial comparison with no cited source. Needs a named forecast and the actual gain, or removal."
+      },
+      {
+        "id": "C05",
+        "section": "national-picture",
+        "claim": "Voters expressed dissatisfaction with the cost of living, the direction of the country and the conduct of the presidency.",
+        "status": "partly supported",
+        "source": "AP-NORC (pre-election) shows the economy and the cost of living as the top priorities. The AP Voter Poll page (source 5) could not be opened.",
+        "note": "Cost of living supported by pre-election polling only. 'Conduct of the presidency' needs the AP Voter Poll."
+      },
+      {
+        "id": "C06",
+        "section": "leadership",
+        "claim": "Hakeem Jeffries announced his candidacy for speaker after the election.",
+        "status": "supported",
+        "source": "ABC News live blog, Nov. 4, 2026, 4:10 PM EST (the source listed as no. 3 in the draft): letter to colleagues, 'I write to humbly request your support in connection with my candidacy.'",
+        "note": "Supported."
+      },
+      {
+        "id": "C07",
+        "section": "leadership",
+        "claim": "The leadership selection process is scheduled for later in November.",
+        "status": "supported",
+        "source": "ABC News live blog, Nov. 4, 2026, 4:10 PM EST (the source listed as no. 3 in the draft): House Democrats hold leadership elections on Nov. 18; Jeffries needs 218 floor votes in January.",
+        "note": "Supported for House Democrats. The Senate Democratic date is not in any readable source."
+      },
+      {
+        "id": "C08",
+        "section": "leadership",
+        "claim": "Chuck Schumer expects to become Senate majority leader (Reuters describes him as the expected leader).",
+        "status": "unverified",
+        "source": "The Reuters article (source 2) could not be opened (domain blocked). Pre-election AP-sourced reporting said colleagues expected him to win the closed-door vote.",
+        "note": "Needs the Reuters text. 'Expects' is the draft's own verb; the reporting found is pre-election."
+      },
+      {
+        "id": "C09",
+        "section": "geography",
+        "claim": "Democratic Senate victories in Texas, Kansas, Iowa, Ohio and South Carolina.",
+        "status": "partly supported",
+        "source": "Washington Examiner 2026 midterm live blog, updated Nov. 5, 2026, 9:12 AM (not in the draft's source list): Kansas (Hamilton over Marshall), Texas (Talarico over Paxton), Iowa (Turek, past 50 seats) and South Carolina (Andrews) are reported; Ohio is not supported for the Senate (Acton over Ramaswamy is the governor's race).",
+        "note": "Ohio Senate is unverified and may be wrong. Texas, Iowa and South Carolina were not shown as flips in the one readable source. The Reuters takeaways (source 4) could not be opened."
+      },
+      {
+        "id": "C10",
+        "section": "geography",
+        "claim": "Some of those outcomes reached areas that had supported Trump by large margins two years earlier.",
+        "status": "unsupported",
+        "source": "No margin data was found. The 2024 presidential results are public but were not compared here.",
+        "note": "Needs the certified 2024 presidential margins for each state."
+      },
+      {
+        "id": "C11",
+        "section": "voters",
+        "claim": "AP's voter survey found doubts about corruption and insufficient checks on presidential power were important.",
+        "status": "unverified",
+        "source": "The AP Voter Poll page (source 5) could not be opened. Pre-election polls (Ipsos, Harris, AP-NORC) show corruption among the top concerns.",
+        "note": "Needs the AP Voter Poll text."
+      },
+      {
+        "id": "C12",
+        "section": "voters",
+        "claim": "Democratic leaders have said affordability and oversight will be priorities.",
+        "status": "unverified",
+        "source": "Reuters (source 1, Nov. 5) could not be opened.",
+        "note": "Needs the Reuters text."
+      },
+      {
+        "id": "C13",
+        "section": "money",
+        "claim": "Publicly reported estimates put 2026 spending near $12 billion.",
+        "status": "supported",
+        "source": "OpenSecrets projected about $11.9 billion (quoted by Bond Buyer); AdImpact projected $11.6 billion for advertising only; outside spending about $3.9 billion.",
+        "note": "Supported as a projection, not a final total. Name the source and scope in the page; the two figures measure different things. The Brennan Center and FEC pages (sources 9 and 10) were not opened."
+      },
+      {
+        "id": "C14",
+        "section": "states",
+        "claim": "Reuters reported Democratic gains in Republican-held governorships, including Texas.",
+        "status": "unverified",
+        "source": "The Reuters page (source 6) could not be opened. No Texas governor result was found; NCSL says Democrats broke the Texas Republican trifecta, which a House flip alone would do.",
+        "note": "Do not state a Texas governorship flip until the result is confirmed."
+      },
+      {
+        "id": "C15",
+        "section": "states",
+        "claim": "NCSL describes new Democratic trifectas in multiple states.",
+        "status": "supported",
+        "source": "NCSL, 2026 State Legislative Elections: The Results and What They Mean (source no. 7): new Democratic trifectas in Michigan, Minnesota, Nevada, Pennsylvania and Wisconsin; Democrats broke Republican trifectas in Georgia, Iowa, New Hampshire, Ohio and Texas. 10 chambers flipped, results unofficial.",
+        "note": "Supported. NCSL calls its figures unofficial."
+      }
+    ],
+    "counts": {
+      "supported": 7,
+      "unsupported": 2,
+      "partly supported": 2,
+      "unverified": 4
+    }
   }
 }

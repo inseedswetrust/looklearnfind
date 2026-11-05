@@ -162,16 +162,32 @@ def daily_strip(api, d, groups):
                 f'<a href="{e(s["path"])}">{e(s["title"])}</a> <span class="pol-daily__date">{e(_fmt(api, s))}</span></p>') if s else ""
         right = (f'<p class="pol-daily__lead">{e(d["standfirst"])}</p><p class="pol-daily__note">{e(d["empty"])}</p>{feat}'
                  f'<p class="pol-daily__links"><a class="pol-cta pol-cta--quiet" href="/politics/daily/">{e(d["past"])}</a></p>')
-    five = five_signals(api, d) if groups and next(iter(groups.values()))[0].get("blocks") else ""
-    return (f'<section class="pol-daily" id="daily-signal" aria-labelledby="pol-daily-h"><div class="pol-daily__in">{left}<div class="pol-daily__body">{right}</div></div>{five}</section>')
+    return (f'<section class="pol-daily" id="daily-signal" aria-labelledby="pol-daily-h"><div class="pol-daily__in">{left}<div class="pol-daily__body">{right}</div></div></section>')
 
 
-def five_signals(api, d):
-    ed = api["_edition"]
-    items = "".join(
-        f'<li><a href="/politics/daily/{e(ed["date"])}/#{e(i["target"])}"><span class="pol-five__n">{e(i["n"])}</span><span class="pol-five__t">{e(i["title"])}</span></a></li>'
-        for i in ed["blocks"]["signals"]["items"])
-    return f'<nav class="pol-five" aria-label="{e(d["five_label"])}"><p class="pol-five__lab">{e(d["five_label"])}</p><ol>{items}</ol></nav>'
+def teaser_section(api, d, teasers):
+    """Five numbered teasers directly beneath the Daily Signal strip: a photograph, the editorial summary (taken from the edition record) and a link to the
+    matching section of the briefing. Shown only when an edition is visible (approved, or a labelled local preview)."""
+    ed = api.get("_edition")
+    if not ed:
+        return ""
+    by_target = {i["target"]: i for i in ed["blocks"]["signals"]["items"]}
+    arts = ""
+    for t in teasers:
+        src = by_target.get(t["target"])
+        if not src:
+            continue
+        im = t["image"]
+        cr = im.get("credit") or credit_line(api, im.get("key", ""))
+        arts += (f'<li class="pol-teaser"><a class="pol-teaser__a" href="/politics/daily/{e(ed["date"])}/#{e(t["target"])}">'
+                 f'<span class="pol-teaser__pic"><img class="pol-img--{e(im["treatment"])}" src="{e(im["src"])}" alt="{e(im["alt"])}" loading="lazy" width="1200" height="800">'
+                 f'<span class="pol-credit">{e(cr)}</span></span>'
+                 f'<span class="pol-teaser__n">{e(t["n"])} / {e(src["label"])}</span><span class="pol-teaser__t">{e(t["title"])}</span></a>'
+                 f'<p class="pol-teaser__s">{src["teaser"]}</p>'
+                 f'<a class="pol-teaser__go" href="/politics/daily/{e(ed["date"])}/#{e(t["target"])}">Read the full section<span aria-hidden="true"> →</span></a></li>')
+    return (f'<section class="pol-teasers" id="five-signals-today" aria-labelledby="pol-five-h"><div class="pol-teasers__in">'
+            f'<div class="pol-teasers__head"><h2 id="pol-five-h">{e(d["five_label"])}</h2><p>{e(d["five_intro"])}</p></div>'
+            f'<ol class="pol-teasers__list">{arts}</ol></div></section>')
 
 
 def accountability_feature(api, a):
@@ -182,10 +198,10 @@ def accountability_feature(api, a):
     labels = "".join(f"<li>{e(s)}</li>" for s in a["statuses"])
     return (f'<section class="pol-acc" id="accountability-desk" aria-labelledby="pol-acc-h">'
             f'<figure class="pol-cut" data-assets="{e(art["a"]["asset_id"])} {e(art["b"]["asset_id"])}">'
-            f'<span class="pol-cut__plane" aria-hidden="true"></span>'
-            f'<img class="pol-cut__ghost" src="/img/politics/capitol-cut.png" alt="" width="999" height="740" loading="lazy">'
+            f'<div class="pol-cut__stage"><span class="pol-cut__plane" aria-hidden="true"></span>'
+            f'<img class="pol-cut__ghost" src="/img/politics/capitol-cut.png" alt="" width="1594" height="1086" loading="lazy">'
             f'<img class="pol-cut__a" src="{e(art["a"]["src"])}" width="{art["a"]["width"]}" height="{art["a"]["height"]}" alt="{e(art["a"]["alt"])}" loading="lazy">'
-            f'<img class="pol-cut__b" src="{e(art["b"]["src"])}" width="{art["b"]["width"]}" height="{art["b"]["height"]}" alt="{e(art["b"]["alt"])}" loading="lazy">'
+            f'<img class="pol-cut__b" src="{e(art["b"]["src"])}" width="{art["b"]["width"]}" height="{art["b"]["height"]}" alt="{e(art["b"]["alt"])}" loading="lazy"></div>'
             f'<figcaption>{e(art["caption"])}</figcaption></figure>'
             f'<div class="pol-acc__text">{_head(a, "pol-acc-h")}<p class="pol-deck">{e(a["deck"])}</p><p class="pol-acc__ctas">{ctas}{tip}</p>'
             f'<div class="pol-nodata"><h3>{e(a["live_title"])}</h3><p>{e(a["no_data"])}</p>'
@@ -284,7 +300,17 @@ def render_edition(r, fmt_date, preview=False):
     op, sg = b["opening"], b["signals"]
     draft = ('<p class="pol-draftbar" role="note"><b>Draft for review.</b> Not approved or published. The independent fact check is pending, '
              'so figures, calls and control claims below are unverified.</p>') if r["status"] != "approved" else ""
-    outline = "".join(f'<li><a href="#{e(x["id"])}">{e(x["label"])}</a></li>' for x in r["rail"]) + '<li><a href="#sources">Go to the source</a></li>'
+    rv = r.get("review") if r["status"] != "approved" else None
+    outline = ("".join(f'<li><a href="#{e(x["id"])}">{e(x["label"])}</a></li>' for x in r["rail"]) + '<li><a href="#sources">Go to the source</a></li>'
+               + ('<li><a href="#source-review">Source review (draft)</a></li>' if rv else ""))
+    review_html = ""
+    if rv:
+        rows = "".join(
+            f'<tr><th scope="row">{e(c["id"])}</th><td>{e(c["claim"])}<span class="pol-rv__sec">Section: {e(c["section"])}</span></td><td><span class="pol-rv__st pol-rv__st--{e(c["status"].replace(" ", "-"))}">{e(c["status"])}</span></td>'
+            f'<td>{e(c["source"])}<span class="pol-rv__note">{e(c["note"])}</span></td></tr>' for c in rv["claims"])
+        review_html = (f'<section class="pol-ed__sec pol-review" id="source-review"><div class="pol-eyebrow">DRAFT ONLY / NOT PUBLIC</div><h2>Source review</h2>'
+                       f'<p>{e(rv["summary"])} Checked {e(fmt_date(rv["checked_on"]))} by {e(rv["reviewer"])}. No paragraph above was removed or changed.</p>'
+                       f'<div class="pol-rv__wrap"><table class="pol-rv"><thead><tr><th scope="col">ID</th><th scope="col">Claim as drafted</th><th scope="col">Status</th><th scope="col">Evidence and required action</th></tr></thead><tbody>{rows}</tbody></table></div></section>')
     glance = "".join(f"<li>{x}</li>" for x in op["glance"])
     teasers = "".join(
         f'<li><a class="pol-sig__a" href="#{e(i["target"])}"><span class="pol-sig__n">{e(i["n"])} / {e(i["label"])}</span><span class="pol-sig__t">{e(i["title"])}</span></a>'
@@ -309,7 +335,7 @@ def render_edition(r, fmt_date, preview=False):
             f'{secs}'
             f'<section class="pol-ed__sec" id="{e(w["id"])}"><h2>{e(w["h2"])}</h2><ul class="pol-list">{watch}</ul><p class="pol-ed__close">{w["closing"]}</p></section>'
             f'<section class="pol-ed__sec" id="sources"><h2>Go to the source</h2><p>{b["sources_intro"]}</p><ol class="pol-list">{src}</ol>'
-            f'<h3>Update log</h3><ul class="pol-list">{log}</ul></section></article>')
+            f'<h3>Update log</h3><ul class="pol-list">{log}</ul></section>{review_html}</article>')
 
 
 def render_daily_briefing(date, recs, fmt_date):
@@ -362,7 +388,7 @@ def build(api):
            f'<div class="pol-eyebrow">{e(d["eyebrow"])}</div><h1>{e(d["h2"])}</h1><p class="pol-deck">{e(d["standfirst"])}</p>{inner}</div></section>')
     shell("The Daily Signal", d["standfirst"][:155], "/politics/daily/", idx, nav="politics", css=("politics",), js=("common",), bodyclass="pol-home")
 
-    body = (hero_duochrome(home["hero"]) + daily_strip(api, d, groups) + accountability_feature(api, home["accountability"])
+    body = (hero_duochrome(home["hero"]) + daily_strip(api, d, groups) + teaser_section(api, d, home["teasers"]) + accountability_feature(api, home["accountability"])
             + f'<div class="pol-tiles">{election_tile(api, home["election"], hubs)}{money_tile(api, home["money"])}{record_tile(api, home["record"])}</div>'
             + state_bar(api, home["election"], hubs)
             + f'<div class="pol-duo-row">{signals_tile(api, home["signals"])}{reporting_list(api, home["reporting"], api["SITE"], api["THREADS"])}</div>'

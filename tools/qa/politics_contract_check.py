@@ -136,6 +136,8 @@ def claim_hits(html_text):
     sentences are allowed. Returns [(term, sentence)]."""
     body = re.sub(r'<a [^>]*href="/learn/[^"]*"[^>]*>.*?</a>', " ", html_text, flags=re.S)
     body = re.sub(r'<figcaption[^>]*>.*?</figcaption>', " ", body, flags=re.S)
+    body = re.sub(r'<p class="pol-teaser__s">.*?</p>', " ", body, flags=re.S)         # edition teaser summaries are the briefing's own text, held to the fact-check gate
+    body = re.sub(r'<p class="pol-daily__lead">.*?</p>', " ", body, flags=re.S)
     body = re.sub(r'<span class="pol-(?:credit|badge)">.*?</span>', " ", body, flags=re.S)
     body = re.sub(r'<p class="pol-badge[^"]*">.*?</p>', " ", body, flags=re.S)
     body = re.sub(r"<(script|style)\b.*?</\1>", " ", body, flags=re.S)

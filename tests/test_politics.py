@@ -221,7 +221,7 @@ class Edition001(unittest.TestCase):
         self.r = json.loads(DRAFT.read_text(encoding="utf-8"))
 
     def test_it_is_a_draft_with_a_pending_fact_check(self):
-        self.assertEqual(self.r["status"], "draft"); self.assertEqual(self.r["fact_check"]["state"], "pending")
+        self.assertEqual(self.r["status"], "draft"); self.assertIn(self.r["fact_check"]["state"], ("pending", "flags"))
         self.assertEqual(self.r["story_id"], "DS-2026-11-05-001")
 
     def test_five_signals_link_to_five_sections_and_the_rail_matches(self):
@@ -275,6 +275,21 @@ class Edition001(unittest.TestCase):
         self.assertEqual(h.count("Back to today's signals"), 5)
         self.assertIn("Draft for review", h)
 
+    def test_source_review_is_recorded_with_flags_and_nothing_is_approved(self):
+        rv = self.r["review"]
+        self.assertEqual(len(rv["claims"]), 15); self.assertEqual(self.r["fact_check"]["state"], "flags"); self.assertEqual(self.r["status"], "draft")
+        self.assertEqual(sum(rv["counts"].values()), 15)
+        statuses = {c["id"]: c["status"] for c in rv["claims"]}
+        self.assertEqual(statuses["C09"], "partly supported")      # the Ohio Senate claim is not supported by the one readable source
+        self.assertIn(statuses["C14"], ("unverified",))            # the Texas governorship claim
+        self.assertTrue(all(c["source"] and c["note"] for c in rv["claims"]))
+
+    def test_draft_renders_the_review_table_but_an_approved_edition_would_not(self):
+        h = politics.render_edition(self.r, lambda s: s)
+        self.assertIn('id="source-review"', h); self.assertIn("Source review (draft)", h)
+        ok = dict(self.r, status="approved", editor="Reviewer", fact_check={"state": "passed", "reviewer": "Reviewer"})
+        self.assertNotIn('id="source-review"', politics.render_edition(ok, lambda s: s))
+
     def test_read_time_is_computed_from_the_text(self):
         self.assertGreaterEqual(politics.read_minutes(self.r), 5)
 
@@ -300,6 +315,26 @@ class EditionBuilt(unittest.TestCase):
         self.assertIn("DRAFT PREVIEW", land); self.assertIn("Five signals today", land)
         self.assertIn("/politics/daily/2026-11-05/#leadership", land)
         self.assertIn("EDITION 001", land)
+
+    def test_five_teasers_follow_the_strip_in_order_with_images_summaries_and_links(self):
+        import re
+        land = (DIST / "politics" / "index.html").read_text(encoding="utf-8")
+        strip_end = land.index('id="five-signals-today"')
+        self.assertGreater(strip_end, land.index('id="daily-signal"')); self.assertLess(strip_end, land.index('id="accountability-desk"'))
+        items = re.findall(r'<li class="pol-teaser">.*?</li>', land, re.S)
+        self.assertEqual(len(items), 5)
+        titles = ["A new majority. The same leaders?", "The political map broke in places nobody expected.", "The cost of living dominated. What will Congress actually do?",
+                  "Nearly $12 billion later, what did the money accomplish?", "The biggest changes may happen outside Washington."]
+        for n, (it, title) in enumerate(zip(items, titles), 1):
+            self.assertIn(f"0{n} / ", it); self.assertIn(title.replace("'", "&#x27;").replace("$", "$"), it)
+            self.assertIn("<img", it); self.assertGreater(len(re.sub(r"<[^>]+>", "", re.search(r'<p class="pol-teaser__s">(.*?)</p>', it, re.S).group(1))), 80)
+            self.assertRegex(it, r'href="/politics/daily/2026-11-05/#(leadership|geography|voters|money|states)"')
+
+    def test_content_completeness_every_supplied_block_is_rendered(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("pcomp", ROOT / "tools" / "qa" / "politics_completeness.py")
+        m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+        self.assertEqual(m.main(["--no-report"]), 0)
 
     def test_a_release_check_fails_on_a_preview_build(self):
         self.assertTrue(pc.check_edition_pages(DIST))

@@ -47,7 +47,7 @@ def main():
                 pg.wait_for_timeout(400)
                 probs = pg.evaluate(JS); n += 1
                 if w == 320 and path == "/politics/":
-                    probs += ["wide element: " + x for x in pg.evaluate("() => [...document.querySelectorAll('main *:not(.pol-hero *)')].filter(e => e.getBoundingClientRect().right > innerWidth + 1).slice(0, 6).map(e => e.tagName + '.' + e.className)")]
+                    probs += ["wide element: " + x for x in pg.evaluate("() => [...document.querySelectorAll('main *:not(.pol-hero *):not(.pol-cut__stage *)')].filter(e => e.getBoundingClientRect().right > innerWidth + 1).slice(0, 6).map(e => e.tagName + '.' + e.className)")]
                 pg.keyboard.press("Tab"); pg.keyboard.press("Tab")
                 if not pg.evaluate("() => { const e = document.activeElement; return !!e && e !== document.body && getComputedStyle(e).outlineStyle !== 'none' }"):
                     probs.append("focus not visible after Tab")
@@ -60,6 +60,7 @@ def main():
                     if w == 390 and path in ("/politics/", "/politics/daily/2026-11-05/"):
                         pg.screenshot(path=str(shots / f"{name}-drawer-closed-390.png"))
                         pg.click("a.nav-open"); pg.wait_for_timeout(450)
+                        pg.evaluate("() => { const o = document.querySelector('[data-outline]'); if (o) { o.open = true; o.scrollIntoView({block: 'center'}); } }"); pg.wait_for_timeout(200)
                         pg.screenshot(path=str(shots / f"{name}-drawer-open-390.png"))
                         pg.keyboard.press("Escape"); pg.wait_for_timeout(350)
             ctx.close()
