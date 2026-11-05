@@ -199,7 +199,7 @@ def accountability_feature(api, a):
     return (f'<section class="pol-acc" id="accountability-desk" aria-labelledby="pol-acc-h">'
             f'<figure class="pol-cut" data-assets="{e(art["a"]["asset_id"])} {e(art["b"]["asset_id"])}">'
             f'<div class="pol-cut__stage"><span class="pol-cut__plane" aria-hidden="true"></span>'
-            f'<img class="pol-cut__ghost" src="/img/politics/capitol-cut.png" alt="" width="1594" height="1086" loading="lazy">'
+            f'<img class="pol-cut__ghost" src="/img/politics/capitol-cut.png?v=20261105b" alt="" width="1594" height="1086" loading="lazy">'
             f'<img class="pol-cut__a" src="{e(art["a"]["src"])}" width="{art["a"]["width"]}" height="{art["a"]["height"]}" alt="{e(art["a"]["alt"])}" loading="lazy">'
             f'<img class="pol-cut__b" src="{e(art["b"]["src"])}" width="{art["b"]["width"]}" height="{art["b"]["height"]}" alt="{e(art["b"]["alt"])}" loading="lazy"></div>'
             f'<figcaption>{e(art["caption"])}</figcaption></figure>'

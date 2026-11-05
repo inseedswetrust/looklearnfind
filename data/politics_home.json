@@ -13,7 +13,7 @@
     ],
     "deck": "The daily briefing, the original records and what they reveal about power, money and what comes next.",
     "art": {
-      "src": "/img/politics/capitol-cut.png",
+      "src": "/img/politics/capitol-cut.png?v=20261105b",
       "width": 1594,
       "height": 1086,
       "alt": "The U.S. Capitol dome and wings in black and white, rising over a muted teal plane.",
@@ -61,14 +61,14 @@
     },
     "art": {
       "a": {
-        "src": "/img/politics/jeffries-cutout.png",
+        "src": "/img/politics/jeffries-cutout.png?v=20261105b",
         "width": 900,
         "height": 1222,
         "alt": "Hakeem Jeffries, in an official portrait.",
         "asset_id": "POL-JEFFRIES-CUT"
       },
       "b": {
-        "src": "/img/politics/schumer-cutout.png",
+        "src": "/img/politics/schumer-cutout.png?v=20261105b",
         "width": 900,
         "height": 1157,
         "alt": "Chuck Schumer, in an official photograph.",

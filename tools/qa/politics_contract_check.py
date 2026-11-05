@@ -233,7 +233,7 @@ def check_pages(dist, baseline=None, assets=None):
         if 'class="pol-duo"' not in land:
             probs.append("/politics/: the directional duochrome hero is missing")
         for src in sorted(set(re.findall(r'<img[^>]+src="(/img/(?:politics|elections)/[^"]+)"', land))):
-            row = assets.get("static" + src)
+            row = assets.get("static" + src.split("?")[0])
             if row is None:
                 probs.append(f"/politics/: image {src} has no row in docs/politics/brand/ASSET_MANIFEST.csv")
             elif row["usage_status"] not in OK_ASSET_STATUS:
