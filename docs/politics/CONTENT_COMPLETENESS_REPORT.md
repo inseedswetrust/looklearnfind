@@ -14,7 +14,7 @@ Source: `docs/politics/brand/edition-001/DAILY_SIGNAL_2026-11-05_EDITORIAL_DRAFT
 | 04 / Nearly $12 billion later, what did the money accomplish? | `/politics/daily/2026-11-05/#money` | 7 | 8 | 7 | 3 | supported: 1 | none |
 | 05 / The biggest changes may happen outside Washington | `/politics/daily/2026-11-05/#states` | 7 | 8 | 7 | 3 | supported: 1; unverified: 1 | none |
 | What we are watching next | `/politics/daily/2026-11-05/#what-next` | 6 | 6 | 6 | 0 | no claims logged | none |
-| Go to the source | `/politics/daily/2026-11-05/#sources` | 11 | 15 | 11 | 10 | no claims logged | none |
+| Go to the source | `/politics/daily/2026-11-05/#sources` | 11 | 12 | 11 | 10 | no claims logged | none |
 
 Rendered counts include the page furniture in each section (eyebrow, back link, source note), so they can exceed the supplied count. The match column compares the text of every supplied paragraph, list item and source line with the rendered section, after stripping Markdown.
 

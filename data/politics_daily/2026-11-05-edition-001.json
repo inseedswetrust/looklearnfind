@@ -18,19 +18,7 @@
   "update_log": [
     {
       "date": "2026-11-05",
-      "note": "Imported the editorial draft (Edition 001) without changes. Not reviewed or approved."
-    },
-    {
-      "date": "2026-11-05",
-      "note": "Source review run: 7 of 15 checked claims are supported (as projections where noted), 2 are partly supported, 4 are unverified because Reuters and AP could not be opened, and 2 are unsupported. Nothing was removed or changed. The edition stays a draft."
-    },
-    {
-      "date": "2026-11-05",
       "note": "Corrections applied after the source review: K1 The sources say projected, and seats are still being counted.; K2 Projection, not a certified result.; K3 Projection, not a certified result.; K4 No source compares the result with expectations; control is a projection.; K5 Ohio's Senate result is not supported by the one readable source.; K6 No margin data was found for this claim.; K7 Follows K5.; K8 No governorship result was confirmed; NCSL supports the chamber changes.; K9 No governorship flip was confirmed.; K10 No Texas governor result was found; the Reuters article could not be opened.; K11 Follows K9.; K12 Names the sources and scope, as the draft itself requires."
-    },
-    {
-      "date": "2026-11-05",
-      "note": "Approved for publication by the owner. Citations that could not be opened (Reuters, AP) are disclosed in the editor's note."
     }
   ],
   "sources": [

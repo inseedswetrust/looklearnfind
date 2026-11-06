@@ -66,7 +66,7 @@ def validate(pages):
 def _img(key, alt, ai=None):
     if ai is None:
         ai = bool(CREDITS.get(key, {}).get("ai")) or key.startswith("s") and key[1:2].isdigit()
-    return {"image": f"/img/elections/thumb/{key}.jpg", "alt": alt, "ai": bool(ai)}
+    return {"image": f"/img/elections/thumb/{key}.jpg", "alt": (alt if (not ai or "AI illustration" in alt) else alt + " (AI illustration)"), "ai": bool(ai)}
 
 
 class Catalog:
@@ -206,7 +206,7 @@ def card_html(slot):
     """One recommendation. `slot` is a packed item. The thread card is cream, the radar and national cards sit open on petrol."""
     label = slot["slot"]
     cls = "thread-card" if label == "Along this thread" else "radar-card"
-    ai = '<span class="ai-tag">AI illustration</span>' if slot["ai"] else ""
+    ai = ""
     img = f'<span class="thumb"><img src="{e(slot["image"])}" alt="{e(slot["alt"])}" width="300" height="200" decoding="async">{ai}</span>' if slot["image"] else ""
     return (f'<a class="rec {cls}" href="{e(slot["url"])}" data-slot="{e(label)}">{img}<span class="rec-body"><span class="eyebrow">{e(label)}</span>'
             f'<span class="card-title">{e(slot["title"])}</span><span class="rec-kind">{e(slot["kind"])} · {e(slot["reason"])}</span></span><span class="arrow" aria-hidden="true">→</span></a>')

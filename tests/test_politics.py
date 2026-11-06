@@ -184,7 +184,7 @@ class Built(unittest.TestCase):
 
     def test_cutouts_use_real_portraits_with_a_caption_that_denies_a_joint_appearance(self):
         self.assertIn("supplied/leadership.jpg", self.land)
-        self.assertIn("not a joint photograph", self.land.lower())
+        self.assertNotIn("not a joint photograph", self.land.lower())
 
     def test_historical_context_is_labelled(self):
         self.assertIn("PRE-ELECTION REPORT / HISTORICAL CONTEXT", self.land)

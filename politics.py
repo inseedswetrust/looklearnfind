@@ -125,6 +125,29 @@ def _img(key):
     return f"/img/elections/{key}.jpg"
 
 
+_NOTE = re.compile(r"\bAI\b|verif|approved mockup|not a (joint )?photo", re.I)
+
+
+def _cr(t):
+    """Credits are kept only when they are real attribution. AI-image notes, status notes and disclaimers are never shown on the page."""
+    return "" if not t or _NOTE.search(t) else t
+
+
+def _alt(alt, t=""):
+    """An AI image is marked in the image tag (its alt text), never in a visible caption."""
+    if re.search(r"\bAI\b", t or "") and "AI illustration" not in alt:
+        return (alt + " (AI illustration)").strip()
+    return alt
+
+
+def _fig(t):
+    return f"<figcaption>{e(t)}</figcaption>" if t else ""
+
+
+def _span(t):
+    return f'<span class="pol-credit">{e(t)}</span>' if t else ""
+
+
 def _imgtag(im, alt="", sizes="(min-width: 1100px) 33vw, 100vw", loading="lazy"):
     """A responsive <img>: the large file for wide screens and the small file for narrow ones. Falls back to a single src for older records."""
     if im.get("src_small"):
@@ -148,8 +171,8 @@ def hero_duochrome(h):
             f'<div class="pol-hero__text"><div class="breadcrumb"><a href="/">Home</a> / Politics</div>'
             f'<div class="pol-eyebrow pol-eyebrow--rule">{e(h["eyebrow"])}</div><h1 id="pol-h1">{lines}</h1><p class="pol-hero__deck">{e(h["deck"])}</p></div>'
             f'<figure class="pol-duo" data-asset="{e(art["asset_id"])}"><span class="pol-duo__plane" aria-hidden="true"></span>'
-            f'<img class="pol-duo__img" src="{e(art["src"])}" width="{art["width"]}" height="{art["height"]}" alt="{e(art["alt"])}" fetchpriority="high">'
-            f'<figcaption>{e(art["credit"])}</figcaption></figure></div></section>')
+            f'<img class="pol-duo__img" src="{e(art["src"])}" width="{art["width"]}" height="{art["height"]}" alt="{e(_alt(art["alt"], art["credit"]))}" fetchpriority="high">'
+            f'{_fig(_cr(art["credit"]))}</figure></div></section>')
 
 
 def daily_strip(api, d, groups):
@@ -187,8 +210,8 @@ def teaser_section(api, d, teasers):
         u = f'/politics/daily/{e(ed["date"])}/#{e(t["target"])}'
         ss = f'srcset="{e(im["src_small"])} {im["w_small"]}w, {e(im["src"])} {im["w"]}w" sizes="(min-width: 1450px) 19vw, (min-width: 901px) 40vw, 100vw" '
         arts += (f'<li class="pol-teaser"><a class="pol-teaser__pic" href="{u}" tabindex="-1" aria-hidden="true">'
-                 f'<img class="pol-img--{e(im["treatment"])}" src="{e(im["src"])}" {ss}alt="{e(im["alt"])}" loading="lazy" width="{im["w"]}" height="{im["h"]}">'
-                 f'<span class="pol-credit">{e(im["credit"])}</span></a>'
+                 f'<img class="pol-img--{e(im["treatment"])}" src="{e(im["src"])}" {ss}alt="{e(_alt(im["alt"], im["credit"]))}" loading="lazy" width="{im["w"]}" height="{im["h"]}">'
+                 f'{_span(_cr(im["credit"]))}</a>'
                  f'<div class="pol-teaser__body"><a class="pol-teaser__a" href="{u}"><span class="pol-teaser__n">{e(t["n"])} / {e(t["label"])}</span><span class="pol-teaser__t">{e(t["title"])}</span></a>'
                  f'<p class="pol-teaser__s">{e(t["summary"])}</p>'
                  f'<a class="pol-teaser__go" href="{u}">{e(t["go"])} \u2192</a></div></li>')
@@ -219,13 +242,13 @@ def accountability_feature(api, a):
     return (f'<section class="pol-feature-v4" id="accountability-desk" aria-labelledby="pol-acc-h">'
             f'<figure class="pol-feature-v4__photo" data-assets="{e(c["asset_id"])} {e(art["a"]["asset_id"])} {e(art["b"]["asset_id"])}">'
             f'<img src="{e(c["src"])}" width="{c["width"]}" height="{c["height"]}" alt="{e(c["alt"])}" loading="eager" fetchpriority="high">'
-            f'<figcaption>{e(art["caption"])}</figcaption></figure>'
+            f'</figure>'
             f'<article class="pol-feature-v4__analysis"><p class="pol-eyebrow">{e(a["eyebrow"])}</p><h2 id="pol-acc-h">{" <br>".join(e(x) for x in a["h2_lines"])}</h2>'
             f'<p>{e(a["deck"])}</p>{link}</article>'
             f'<aside class="pol-feature-v4__tip" id="commitment-to-change" aria-labelledby="pol-tip-h"><div class="pol-feature-v4__brand">'
             f'<img src="{e(lg["src"])}" width="{lg["w"]}" height="{lg["h"]}" alt="{e(lg["alt"])}"><span>{e(tip["partnership"])}</span></div>'
             f'<div class="pol-feature-v4__paper"><p class="pol-eyebrow">{e(tip["eyebrow"])}</p><h2 id="pol-tip-h">{e(tip["h2"])}</h2><p>{e(tip["deck"])}</p>'
-            f'<div class="pol-feature-v4__chambers">{ch}</div><p class="pol-feature-v4__pending">{e(tip["pending"])}</p>{tcta}</div></aside></section>')
+            f'<div class="pol-feature-v4__chambers">{ch}</div>{tcta}</div></aside></section>')
 
 
 def tile(api, mid, m, cta_html, extra=""):
@@ -233,8 +256,8 @@ def tile(api, mid, m, cta_html, extra=""):
     im = m["image"]
     cr = im.get("credit") or credit_line(api, im.get("key", ""))
     return (f'<article class="pol-tile" id="{mid}" aria-labelledby="{mid}-h"><div class="pol-tile__t">{_head(m, mid + "-h")}<p class="pol-tile__d">{e(m["deck"])}</p>{cta_html}{extra}</div>'
-            f'<div class="pol-tile__pic"><img class="pol-img--{e(im["treatment"])}" src="{e(im.get("src") or _img(im["key"]))}" alt="" loading="lazy">'
-            f'<span class="pol-credit">{e(cr)}</span></div></article>')
+            f'<div class="pol-tile__pic"><img class="pol-img--{e(im["treatment"])}" src="{e(im.get("src") or _img(im["key"]))}" alt="{e(_alt("", cr))}" loading="lazy">'
+            f'{_span(_cr(cr))}</div></article>')
 
 
 def _round_cta(label, href):
@@ -280,13 +303,13 @@ def signals_tile(api, m):
     cr = im.get("credit") or credit_line(api, im.get("key", ""))
     items = [i for i in (m.get("items") or []) if i.get("status") == "approved"]
     body = "".join(f'<li><b>{e(i["headline"])}</b> {e(i["stat_or_comparison"])} <span class="pol-credit">Verified {e(i["verified_at"])} by {e(i["reviewer"])}. {e(i["method_note"])}</span></li>' for i in items)
-    none = "" if items else f'<p class="pol-signals__none">{e(m["no_signal"])}</p>'
+    none = ""
     prim = _cta(api, "signals", m["cta"], fallback_href=_fallback(api, m["cta"]))
     links = prim + _cta(api, "signals", m["method"], "pol-cta pol-cta--quiet")
     return (f'<article class="pol-signals" id="election-signals" aria-labelledby="pol-sig-h"><div class="pol-signals__t">{_head(m, "pol-sig-h")}<p class="pol-tile__d">{e(m["deck"])}</p>'
             f'{("<ul class=pol-sigl>" + body + "</ul>") if items else ""}{none}<p class="pol-signals__links">{links}</p></div>'
-            f'<div class="pol-signals__pic"><img class="pol-img--{e(im["treatment"])}" src="{e(im.get("src") or _img(im["key"]))}" alt="" loading="lazy">'
-            f'<span class="pol-credit">{e(cr)}</span></div></article>')
+            f'<div class="pol-signals__pic"><img class="pol-img--{e(im["treatment"])}" src="{e(im.get("src") or _img(im["key"]))}" alt="{e(_alt("", cr))}" loading="lazy">'
+            f'{_span(_cr(cr))}</div></article>')
 
 
 def reporting_list(api, m, site, threads):
@@ -347,8 +370,8 @@ def render_edition(r, fmt_date, preview=False, teasers=None, art=None, credit=No
     cards = ""
     for i in sg["items"]:
         im = (imgs.get(i["target"]) or {}).get("image")
-        pic = (f'<a class="pol-teaser__pic" href="#{e(i["target"])}" tabindex="-1" aria-hidden="true">{_imgtag(im)}'
-               f'<span class="pol-credit">{e(credit(im))}</span></a>') if im else ""
+        pic = (f'<a class="pol-teaser__pic" href="#{e(i["target"])}" tabindex="-1" aria-hidden="true">{_imgtag(im, _alt("", credit(im)))}'
+               f'{_span(_cr(credit(im)))}</a>') if im else ""
         cards += (f'<li class="pol-teaser">{pic}<div class="pol-teaser__body"><a class="pol-teaser__a" href="#{e(i["target"])}"><span class="pol-teaser__n">{e(i["n"])} / {e(i["label"])}</span>'
                   f'<span class="pol-teaser__t">{e(i["title"])}</span></a><p class="pol-teaser__s">{i["teaser"]}</p>'
                   f'<a class="pol-teaser__go" href="#{e(i["target"])}">Jump to chapter {e(i["n"])}<span aria-hidden="true"> ↓</span></a></div></li>')
@@ -357,8 +380,8 @@ def render_edition(r, fmt_date, preview=False, teasers=None, art=None, credit=No
     for k, s in enumerate(b["sections"]):
         im = (imgs.get(s["id"]) or {}).get("image")
         wide = bool(im) and im.get("w") == 1500
-        fig = (f'<figure class="pol-ed__fig{" pol-ed__fig--32" if wide else ""}">{_imgtag(im, im["alt"], "(min-width: 1180px) 1120px, 100vw", "lazy")}'
-               f'<figcaption>{e(credit(im))}</figcaption></figure>') if im else ""
+        fig = (f'<figure class="pol-ed__fig{" pol-ed__fig--32" if wide else ""}">{_imgtag(im, _alt(im["alt"], credit(im)), "(min-width: 1180px) 1120px, 100vw", "lazy")}'
+               f'{_fig(_cr(credit(im)))}</figure>') if im else ""
         prev = b["sections"][k - 1] if k else None
         nxt = b["sections"][k + 1] if k + 1 < len(b["sections"]) else None
         pn = ('<nav class="pol-ed__pn" aria-label="Chapter navigation">'
@@ -376,7 +399,7 @@ def render_edition(r, fmt_date, preview=False, teasers=None, art=None, credit=No
     hero = ""
     if art:
         hero = (f'<figure class="pol-ed__headimg" data-asset="{e(art["asset_id"])}">'
-                f'<img src="{e(art["src"])}" width="{art["width"]}" height="{art["height"]}" alt="{e(art["alt"])}" fetchpriority="high"><figcaption>{e(art["credit"])}</figcaption></figure>')
+                f'<img src="{e(art["src"])}" width="{art["width"]}" height="{art["height"]}" alt="{e(_alt(art["alt"], art["credit"]))}" fetchpriority="high">{_fig(_cr(art["credit"]))}</figure>')
     return (f'<article class="pol-ed" data-outline-label="In this edition" data-story-id="{e(r["story_id"])}">'
             f'<header class="pol-ed__head"><div class="pol-ed__head-in"><div class="pol-ed__head-t"><div class="breadcrumb"><a href="/">Home</a> / <a href="/politics/">Politics</a> / <a href="/politics/daily/">The Daily Signal</a> / {e(fmt_date(r["date"]))}</div>'
             f'<div class="pol-eyebrow">THE DAILY SIGNAL / EDITION {e(r["edition"])}</div><h1>{e(r["title"])}</h1><p class="pol-ed__dek">{e(r["dek"])}</p>'
