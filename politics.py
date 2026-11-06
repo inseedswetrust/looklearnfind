@@ -171,7 +171,7 @@ def hero_duochrome(h):
             f'<div class="pol-hero__text"><div class="breadcrumb"><a href="/">Home</a> / Politics</div>'
             f'<div class="pol-eyebrow pol-eyebrow--rule">{e(h["eyebrow"])}</div><h1 id="pol-h1">{lines}</h1><p class="pol-hero__deck">{e(h["deck"])}</p></div>'
             f'<figure class="pol-duo" data-asset="{e(art["asset_id"])}"><span class="pol-duo__plane" aria-hidden="true"></span>'
-            f'<img class="pol-duo__img" src="{e(art["src"])}" width="{art["width"]}" height="{art["height"]}" alt="{e(_alt(art["alt"], art["credit"]))}" fetchpriority="high">'
+            f'<img class="pol-duo__img" src="{e(art["src"])}" srcset="{e(art["src_small"])} {art["w_small"]}w, {e(art["src"])} {art["width"]}w" sizes="100vw" width="{art["width"]}" height="{art["height"]}" alt="{e(_alt(art["alt"], art["credit"]))}" fetchpriority="high">'
             f'{_fig(_cr(art["credit"]))}</figure></div></section>')
 
 
@@ -208,7 +208,7 @@ def teaser_section(api, d, teasers):
     for t in teasers:
         im = t["image"]
         u = f'/politics/daily/{e(ed["date"])}/#{e(t["target"])}'
-        ss = f'srcset="{e(im["src_small"])} {im["w_small"]}w, {e(im["src"])} {im["w"]}w" sizes="(min-width: 1450px) 19vw, (min-width: 901px) 40vw, 100vw" '
+        ss = f'srcset="{e(im["src_small"])} {im["w_small"]}w, {e(im["src"])} {im["w"]}w" sizes="(max-width:640px) 100vw, (max-width:1100px) 46vw, 29vw" '
         arts += (f'<li class="pol-teaser"><a class="pol-teaser__pic" href="{u}" tabindex="-1" aria-hidden="true">'
                  f'<img class="pol-img--{e(im["treatment"])}" src="{e(im["src"])}" {ss}alt="{e(_alt(im["alt"], im["credit"]))}" loading="lazy" width="{im["w"]}" height="{im["h"]}">'
                  f'{_span(_cr(im["credit"]))}</a>'
@@ -222,41 +222,45 @@ def teaser_section(api, d, teasers):
 
 def accountability_feature(api, a):
     """The Accountability Desk: one three-part feature. The illustration, LLF's own analysis (linking to chapter 01 of the dated edition) and, beside it, the
-    separate Issues Party Commitment to Change panel. The tracker button stays a labelled, inert placeholder until the owner supplies a verified destination."""
+    separate Issues Party Commitment to Change panel: its artwork on wide screens, live text on phones. The record button is inert until a verified tracker URL exists."""
     art, tip = a["art"], a["tip"]
-    c = art["composite"]
+    c, ta, mb = art["composite"], tip["art"], tip["mobile"]
     href = _edition_href(api, "leadership")
     if href:
         link = f'<a class="pol-v4-text-link" href="{e(href)}">{e(a["analysis_cta"])} <span aria-hidden="true">\u2192</span></a>'
     else:
         GATED.append(("accountability", a["analysis_cta"], "edition#leadership"))
         link = ""
-    cta = tip["cta"]
-    if cta.get("href") and cta.get("approved"):
-        tcta = f'<a class="pol-v4-text-link" href="{e(cta["href"])}" rel="noopener">{e(cta["label"])} <span aria-hidden="true">\u2197</span></a>'
-    else:
-        GATED.append(("accountability", cta["label"], "TIP tracker URL not supplied"))
-        tcta = f'<span class="pol-feature-v4__disabled" role="status" aria-label="{e(cta["pending_label"])}">{e(cta["label"])} <span aria-hidden="true">\u2197</span></span>'
-    ch = "".join(f'<div><small>{e(x["label"])}</small><b>{e(x["name"])}</b></div>' for x in tip["chambers"])
-    lg = tip["logo"]
+    GATED.append(("accountability", mb["cta"], "TIP tracker URL not supplied"))
+    ch = "".join(f'<div><small>{e(x["label"])}</small><strong>{e(x["name"])}</strong></div>' for x in mb["chambers"])
+    lg = "".join(f'<span><i class="{e(x["cls"])}"></i>{e(x["label"])}</span>' for x in mb["legend"])
+    sz = "(max-width:900px) 94vw, 43vw"
     return (f'<section class="pol-feature-v4" id="accountability-desk" aria-labelledby="pol-acc-h">'
             f'<figure class="pol-feature-v4__photo" data-assets="{e(c["asset_id"])} {e(art["a"]["asset_id"])} {e(art["b"]["asset_id"])}">'
-            f'<img src="{e(c["src"])}" width="{c["width"]}" height="{c["height"]}" alt="{e(c["alt"])}" loading="eager" fetchpriority="high">'
+            f'<img src="{e(c["src"])}" srcset="{e(c["src_small"])} {c["w_small"]}w, {e(c["src"])} {c["w"]}w" sizes="{sz}" width="{c["width"]}" height="{c["height"]}" alt="{e(c["alt"])}" data-ai="illustration" loading="eager" fetchpriority="high">'
             f'</figure>'
             f'<article class="pol-feature-v4__analysis"><p class="pol-eyebrow">{e(a["eyebrow"])}</p><h2 id="pol-acc-h">{" <br>".join(e(x) for x in a["h2_lines"])}</h2>'
             f'<p>{e(a["deck"])}</p>{link}</article>'
-            f'<aside class="pol-feature-v4__tip" id="commitment-to-change" aria-labelledby="pol-tip-h"><div class="pol-feature-v4__brand">'
-            f'<img src="{e(lg["src"])}" width="{lg["w"]}" height="{lg["h"]}" alt="{e(lg["alt"])}"><span>{e(tip["partnership"])}</span></div>'
-            f'<div class="pol-feature-v4__paper"><p class="pol-eyebrow">{e(tip["eyebrow"])}</p><h2 id="pol-tip-h">{e(tip["h2"])}</h2><p>{e(tip["deck"])}</p>'
-            f'<div class="pol-feature-v4__chambers">{ch}</div>{tcta}</div></aside></section>')
+            f'<aside class="pol-feature-v4__tip pol-feature-v5__tip" id="commitment-to-change" aria-label="{e(mb["eyebrow"])}">'
+            f'<img class="pol-feature-v5__tip-art" src="{e(ta["src"])}" srcset="{e(ta["src_small"])} {ta["w_small"]}w, {e(ta["src"])} {ta["w"]}w" sizes="{sz}" width="{ta["w"]}" height="{ta["h"]}" alt="{e(ta["alt"])}" data-ai="illustration">'
+            f'<div class="pol-tip-v5-mobile"><div class="pol-tip-v5-mobile__brand"><img src="{e(mb["logo"]["src"])}" alt="{e(mb["logo"]["alt"])}"><span>{e(mb["partnership"])}</span></div>'
+            f'<div class="pol-tip-v5-mobile__paper"><p class="pol-tip-v5-mobile__eyebrow">{e(mb["eyebrow"])}</p><h2>{e(mb["h2"])}</h2><p>{e(mb["deck"])}</p>'
+            f'<div class="pol-tip-v5-mobile__choices">{ch}</div><div class="pol-tip-v5-mobile__legend">{lg}</div>'
+            f'<div class="pol-tip-v5-mobile__bottom"><span>{e(mb["cta"])} \u2192</span><em>{e(mb["credit"])}</em></div></div></div></aside></section>')
+
+
+def _tile_img(im, cr, sizes="(max-width:900px) 94vw, 43vw"):
+    ss = f'srcset="{e(im["src_small"])} {im["w_small"]}w, {e(im["src"])} {im["w"]}w" sizes="{sizes}" ' if im.get("src_small") else ""
+    wh = f' width="{im["w"]}" height="{im["h"]}"' if im.get("h") else ""
+    return f'<img class="pol-img--{e(im["treatment"])}" src="{e(im.get("src") or _img(im["key"]))}" {ss}alt="{e(_alt(im.get("alt", ""), cr))}"{wh} loading="lazy">'
 
 
 def tile(api, mid, m, cta_html, extra=""):
-    """A topic tile: text on the paper side, a photograph on the other side cut by a diagonal edge. Natural colour or monochrome, never a blanket filter."""
+    """A topic tile: text on the paper side, a picture on the other side cut by a diagonal edge."""
     im = m["image"]
     cr = im.get("credit") or credit_line(api, im.get("key", ""))
     return (f'<article class="pol-tile" id="{mid}" aria-labelledby="{mid}-h"><div class="pol-tile__t">{_head(m, mid + "-h")}<p class="pol-tile__d">{e(m["deck"])}</p>{cta_html}{extra}</div>'
-            f'<div class="pol-tile__pic"><img class="pol-img--{e(im["treatment"])}" src="{e(im.get("src") or _img(im["key"]))}" alt="{e(_alt("", cr))}" loading="lazy">'
+            f'<div class="pol-tile__pic">{_tile_img(im, cr)}'
             f'{_span(_cr(cr))}</div></article>')
 
 
@@ -308,7 +312,7 @@ def signals_tile(api, m):
     links = prim + _cta(api, "signals", m["method"], "pol-cta pol-cta--quiet")
     return (f'<article class="pol-signals" id="election-signals" aria-labelledby="pol-sig-h"><div class="pol-signals__t">{_head(m, "pol-sig-h")}<p class="pol-tile__d">{e(m["deck"])}</p>'
             f'{("<ul class=pol-sigl>" + body + "</ul>") if items else ""}{none}<p class="pol-signals__links">{links}</p></div>'
-            f'<div class="pol-signals__pic"><img class="pol-img--{e(im["treatment"])}" src="{e(im.get("src") or _img(im["key"]))}" alt="{e(_alt("", cr))}" loading="lazy">'
+            f'<div class="pol-signals__pic">{_tile_img(im, cr)}'
             f'{_span(_cr(cr))}</div></article>')
 
 
@@ -510,5 +514,5 @@ def build(api):
             + state_bar(api, home["election"], hubs)
             + f'<div class="pol-duo-row">{signals_tile(api, home["signals"])}{reporting_list(api, home["reporting"], api["SITE"], api["THREADS"])}</div>'
             + evidence_band(api, home["source"]))
-    shell(home["meta"]["title"], home["meta"]["description"], "/politics/", body, nav="politics", css=("politics", "politics-homepage-v4"), js=("common", "politics"), bodyclass="pol-home")
+    shell(home["meta"]["title"], home["meta"]["description"], "/politics/", body, nav="politics", css=("politics", "politics-homepage-v6"), js=("common", "politics"), bodyclass="pol-home")
     return list(GATED)

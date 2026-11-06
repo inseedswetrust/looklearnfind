@@ -32,7 +32,7 @@ body.pol-home .pol-feature-v4 {
 }
 body.pol-home .pol-feature-v4 > * {min-width:0;}
 body.pol-home .pol-feature-v4__photo {margin:0;align-self:stretch;display:flex;flex-direction:column;justify-content:center;}
-body.pol-home .pol-feature-v4__photo img {width:100%;height:auto;aspect-ratio:1737/945;object-fit:cover;display:block;}
+body.pol-home .pol-feature-v4__photo img {width:100%;height:auto;aspect-ratio:1.45;object-fit:cover;display:block;}
 body.pol-home .pol-feature-v4__photo figcaption {color:#777a7b;font:10px/1.3 Arial,sans-serif;margin-top:5px;max-width:80ch;}
 body.pol-home .pol-feature-v4__analysis {padding-top:7px;align-self:center;}
 body.pol-home .pol-feature-v4__analysis .pol-eyebrow {margin:0 0 11px;}
@@ -109,3 +109,53 @@ body.pol-home .pol-tile__d {font-size:13px;}
  body.pol-home .pol-teaser__t,body.pol-home .pol-teaser:first-child .pol-teaser__t {font-size:24px;}
  body.pol-home .pol-teaser__s {font-size:15px;}
 }
+
+/* Approved-reference V5, loaded after site, shell and politics CSS. */
+body.pol-home .pol-feature-v4{grid-template-columns:minmax(0,1.26fr) minmax(0,.68fr) minmax(0,1.26fr);gap:clamp(14px,1.7vw,30px)}
+body.pol-home .pol-feature-v4__photo img{aspect-ratio:507/346;object-fit:cover}
+body.pol-home .pol-feature-v4__analysis h2{font-size:clamp(28px,2.65vw,43px)}
+body.pol-home .pol-feature-v4__analysis>p:not(.pol-eyebrow){font-size:clamp(14px,1.1vw,17px)}
+body.pol-home .pol-feature-v5__tip{background:transparent!important;border:0!important;box-shadow:none!important;align-self:center!important;display:block!important;min-width:0}
+body.pol-home .pol-feature-v5__tip-art{width:100%;height:auto;display:block}
+body.pol-home .pol-feature-v5__status{font:10px/1.35 Arial,sans-serif;color:#6f7779;margin:3px 5px 0;text-align:right}
+body.pol-home .pol-teaser__pic{aspect-ratio:250/92}
+body.pol-home .pol-teaser__pic img{width:100%;height:100%;object-fit:cover;display:block}
+body.pol-home .pol-teasers__head h2{font-size:clamp(20px,1.65vw,25px)}
+body.pol-home .pol-teaser__pic .pol-credit{display:none!important}
+@media(min-width:1400px){body.pol-home .pol-hero__in,body.pol-home .pol-daily__in,body.pol-home .pol-teasers__in,body.pol-home .pol-tiles,body.pol-home .pol-statebar,body.pol-home .pol-duo-row{max-width:none}body.pol-home .pol-feature-v4{width:100%;max-width:none}}
+@media(max-width:1350px){body.pol-home .pol-feature-v4{grid-template-columns:1.2fr .85fr}body.pol-home .pol-feature-v5__tip{grid-column:1/-1;width:min(620px,100%);justify-self:center}}
+@media(max-width:900px){body.pol-home .pol-feature-v4{grid-template-columns:1fr 1fr}}
+.pol-tip-v5-mobile{display:none}
+@media(max-width:640px){
+body.pol-home .pol-feature-v4{grid-template-columns:1fr}body.pol-home .pol-feature-v5__tip{grid-column:1;max-width:515px}
+body.pol-home .pol-feature-v5__tip-art,body.pol-home .pol-feature-v5__status{display:none}
+.pol-tip-v5-mobile{display:block;background:#f2eee5;box-shadow:0 1px 6px #0002}
+.pol-tip-v5-mobile__brand{min-height:87px;background:#075661;color:#fff;padding:10px 14px;display:grid;grid-template-columns:1.65fr 1fr;gap:12px;align-items:center}
+.pol-tip-v5-mobile__brand img{width:100%;height:auto;mix-blend-mode:screen}
+.pol-tip-v5-mobile__brand span{border-left:1px solid #adcbd1;padding-left:10px;font:700 10px/1.35 Arial,sans-serif;letter-spacing:.09em;text-transform:uppercase}
+.pol-tip-v5-mobile__paper{background:linear-gradient(160deg,#f2eee5,#fffdf7 65%,#eae5d9);padding:18px 18px 23px;clip-path:polygon(0 0,4% 1%,8% 0,13% 1%,18% 0,25% 1%,30% 0,37% 1%,44% 0,53% 1%,62% 0,70% 1%,79% 0,86% 1%,94% 0,100% 1%,100% 98%,95% 99%,88% 98%,82% 100%,76% 99%,64% 100%,55% 98%,46% 100%,37% 99%,29% 100%,18% 99%,11% 100%,3% 99%,0 100%)}
+.pol-tip-v5-mobile__eyebrow{font:700 12px Arial,sans-serif!important;letter-spacing:.12em!important;color:#075661!important;text-transform:uppercase;margin:0 0 7px!important}
+.pol-tip-v5-mobile__paper h2{font:700 clamp(29px,8vw,38px)/.98 Georgia,serif;letter-spacing:-.025em;margin:0 0 10px}
+.pol-tip-v5-mobile__paper>p:not(.pol-tip-v5-mobile__eyebrow){font:16px/1.35 Georgia,serif;margin:0 0 16px}
+.pol-tip-v5-mobile__choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.pol-tip-v5-mobile__choices>div{border:1px solid #c9c6be;padding:10px 8px;background:#f7f5f0}
+.pol-tip-v5-mobile__choices small{font:700 10px Arial,sans-serif;color:#075661;display:block;letter-spacing:.07em;text-transform:uppercase}
+.pol-tip-v5-mobile__choices strong{font:700 14px Georgia,serif;display:block;margin-top:4px}
+.pol-tip-v5-mobile__legend{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:17px 0}
+.pol-tip-v5-mobile__legend span{display:flex;align-items:center;gap:6px;font:11px/1.3 Arial,sans-serif}
+.pol-tip-v5-mobile__legend i{width:12px;height:12px;flex:0 0 12px;background:#075661}
+.pol-tip-v5-mobile__legend i.same{background:#4bb9b0}.pol-tip-v5-mobile__legend i.undecided{background:#c6b179}.pol-tip-v5-mobile__legend i.none{background:#bcbdbb}
+.pol-tip-v5-mobile__bottom{border-top:1px solid #bbb9b0;padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.pol-tip-v5-mobile__bottom span{font:700 12px Arial,sans-serif;text-transform:uppercase;border-bottom:2px solid #f0d800;align-self:start;padding-bottom:5px}
+.pol-tip-v5-mobile__bottom em{font:italic 13px Georgia,serif;align-self:end}
+}
+
+/* V6: actual full-resolution generated assets, no tiny screenshot crops */
+body.pol-home .pol-duo__img{width:100%;height:100%;object-fit:cover;object-position:center center;}
+body.pol-home .pol-feature-v4__photo img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;}
+body.pol-home .pol-feature-v5__tip-art{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;}
+body.pol-home .pol-feature-v5__tip{background:transparent!important;}
+body.pol-home .pol-teaser__pic img{width:100%;height:100%;object-fit:cover;object-position:center;}
+body.pol-home .pol-teaser__pic{aspect-ratio:250/92;overflow:hidden}
+body.pol-home .pol-tile__pic img{width:100%;height:100%;object-fit:cover;}
+@media (max-width: 640px){body.pol-home .pol-duo__img{min-height:220px;}body.pol-home .pol-feature-v4__photo img{aspect-ratio:4/3;}body.pol-home .pol-feature-v5__tip-art{display:none;} }

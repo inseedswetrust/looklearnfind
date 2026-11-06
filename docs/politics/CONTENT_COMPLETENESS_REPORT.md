@@ -24,11 +24,11 @@ Not rendered, by design: the draft's "Page UX and navigation" section. It is pro
 
 | # | Homepage title | Links to | Summary rendered | Image present | Target exists | Image rights | Status |
 |---|---|---|---|---|---|---|---|
-| 01 | The coming leadership decision. | `#leadership` | yes | yes | yes | AI-illustration; label kept | owner_supplied |
-| 02 | The political map broke in unexpected places. | `#geography` | yes | yes | yes | AI-illustration; label kept | owner_supplied |
-| 03 | The cost of living dominated. What will Congress actually do? | `#voters` | yes | yes | yes | verify original rights before publishing | owner_supplied |
-| 04 | Nearly $12 billion later, what did the money accomplish? | `#money` | yes | yes | yes | verify original rights before publishing | owner_supplied |
-| 05 | The biggest changes may happen outside Washington. | `#states` | yes | yes | yes | AI-illustration; label kept | owner_supplied |
+| 01 | The coming leadership decision. | `#leadership` | yes | yes | yes | Owner-supplied for use on the site | owner_supplied |
+| 02 | The political map broke in unexpected places. | `#geography` | yes | yes | yes | Owner-supplied for use on the site | owner_supplied |
+| 03 | The cost of living dominated. What will Congress actually do? | `#voters` | yes | yes | yes | Owner-supplied for use on the site | owner_supplied |
+| 04 | Nearly $12 billion later, what did the money accomplish? | `#money` | yes | yes | yes | Owner-supplied for use on the site | owner_supplied |
+| 05 | The biggest changes may happen outside Washington. | `#states` | yes | yes | yes | Owner-supplied for use on the site | owner_supplied |
 
 Homepage teaser titles 02 and 03 follow the owner's directive; the briefing keeps the draft's own wording (`The political map broke in unexpected places`, `The cost of living dominated. What will Congress actually do?`). Teaser summaries are the draft's own teaser paragraphs, unchanged.
 

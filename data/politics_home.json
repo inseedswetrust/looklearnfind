@@ -13,12 +13,14 @@
     ],
     "deck": "The daily briefing, the original records and what they reveal about power, money and what comes next.",
     "art": {
-      "src": "/img/politics/supplied/hero.jpg?v=20261105d",
-      "width": 1515,
-      "height": 843,
+      "src": "/img/politics/v6/hero-capitol.webp?v=20261106",
+      "width": 1774,
+      "height": 887,
       "alt": "The U.S. Capitol dome and balustrade in black and white beside a teal plane.",
       "credit": "Image supplied with the approved mockup (AI-generated)",
-      "asset_id": "POL-SUP-HERO"
+      "asset_id": "POL-V6-HERO",
+      "src_small": "/img/politics/v6/hero-capitol-small.webp?v=20261106",
+      "w_small": 1400
     }
   },
   "daily": {
@@ -29,7 +31,7 @@
     "past": "Past briefings",
     "empty": "Our next briefing is being prepared. In the meantime, explore the reporting and original records below.",
     "fallback_label": "Latest dated feature",
-    "five_label": "Five signals today",
+    "five_label": "Five signals / Explore the briefing",
     "five_intro": "The November 5 briefing in five questions. Each opens the full reporting, with what we know, what remains open and what we report next."
   },
   "accountability": {
@@ -37,41 +39,65 @@
     "h2": "A new majority. The same leaders?",
     "deck": "Hakeem Jeffries is seeking the speakership. Chuck Schumer expects to lead Senate Democrats. Their colleagues will decide whether to retain the party’s leadership or choose another course.",
     "tip": {
-      "logo": {
-        "src": "/img/politics/v4/tip-wordmark-source-crop.png",
-        "w": 1300,
-        "h": 395,
-        "alt": "The Issues Party — Coordinate Action"
+      "art": {
+        "src": "/img/politics/v6/commitment-to-change-tip.webp?v=20261106",
+        "src_small": "/img/politics/v6/commitment-to-change-tip-small.webp?v=20261106",
+        "w": 1448,
+        "w_small": 1400,
+        "h": 1086,
+        "alt": "Commitment to Change, The Issues Party public leadership record: House, Senate, four public position categories and source attribution"
       },
-      "partnership": "A partnership for public accountability",
-      "eyebrow": "COMMITMENT TO CHANGE",
-      "h2": "Who's On the Record?",
-      "deck": "Are incoming Democrats committed to supporting new leadership in place of Hakeem Jeffries in the House and Chuck Schumer in the Senate?",
-      "chambers": [
-        {
-          "label": "THE HOUSE",
-          "name": "Jeffries for Speaker"
+      "mobile": {
+        "logo": {
+          "src": "/img/politics/v4/tip-wordmark-source-crop.png",
+          "alt": "The Issues Party logo"
         },
-        {
-          "label": "THE SENATE",
-          "name": "Schumer for Leader"
-        }
-      ],
-      "pending": "The Issues Party maintains the member evidence and position record. Its public tracker destination has not yet been supplied.",
-      "cta": {
-        "label": "Explore the full leadership record",
-        "href": null,
-        "approved": false,
-        "pending_label": "Leadership tracker link pending"
+        "partnership": "A partnership for public accountability",
+        "eyebrow": "Commitment to Change",
+        "h2": "Who's On the Record?",
+        "deck": "Two congressional leadership decisions. A public record of where members stand.",
+        "chambers": [
+          {
+            "label": "The House",
+            "name": "Jeffries for Speaker"
+          },
+          {
+            "label": "The Senate",
+            "name": "Schumer for Leader"
+          }
+        ],
+        "legend": [
+          {
+            "cls": "new",
+            "label": "Supports new leadership"
+          },
+          {
+            "cls": "same",
+            "label": "Supports current leadership"
+          },
+          {
+            "cls": "undecided",
+            "label": "Undecided publicly"
+          },
+          {
+            "cls": "none",
+            "label": "No documented position"
+          }
+        ],
+        "cta": "Explore the full record",
+        "credit": "Data and evidence maintained by The Issues Party (TIP)."
       }
     },
     "art": {
       "composite": {
-        "src": "/img/politics/supplied/leadership.jpg?v=20261105d",
-        "width": 1737,
-        "height": 945,
-        "asset_id": "POL-SUP-LEADERSHIP",
-        "alt": "Illustrated newspaper-style cutouts of Hakeem Jeffries and Chuck Schumer layered in front of the Capitol, teal geometry and newsprint"
+        "src": "/img/politics/v6/leadership-jeffries-schumer.webp?v=20261106",
+        "width": 1448,
+        "height": 1086,
+        "asset_id": "POL-V6-LEADERSHIP",
+        "alt": "Editorial collage of Hakeem Jeffries and Chuck Schumer against the Capitol, AI illustration",
+        "src_small": "/img/politics/v6/leadership-jeffries-schumer-small.webp?v=20261106",
+        "w": 1448,
+        "w_small": 1400
       },
       "a": {
         "src": "/img/politics/jeffries-cutout.png?v=20261105b",
@@ -87,7 +113,7 @@
         "alt": "Chuck Schumer, in an official photograph.",
         "asset_id": "POL-SCHUMER-CUT"
       },
-      "caption": "Editorial illustration assembled for LLF. Not a joint photograph. Replace with verified source-photo cutouts before documentary publication."
+      "caption": ""
     },
     "h2_lines": [
       "A new majority.",
@@ -105,10 +131,14 @@
       "fallback": "#state-reports"
     },
     "image": {
-      "src": "/img/politics/supplied/vote.jpg?v=20261105d",
+      "src": "/img/politics/v6/lower-election-2026.webp?v=20261106",
       "treatment": "none",
-      "alt": "",
-      "credit": "Image supplied with the approved mockup (AI-generated)"
+      "alt": "Vote sign in front of polling place",
+      "credit": "AI editorial illustration",
+      "src_small": "/img/politics/v6/lower-election-2026-small.webp?v=20261106",
+      "w": 1122,
+      "w_small": 900,
+      "h": 1402
     },
     "states_label": "State reports",
     "selector_label": "Choose a state",
@@ -154,10 +184,14 @@
       "fallback_story": "aipac-udp-money-delta-october-2026"
     },
     "image": {
-      "src": "/img/politics/supplied/money.jpg?v=20261105d",
+      "src": "/img/politics/v6/lower-follow-money.webp?v=20261106",
       "treatment": "none",
-      "alt": "",
-      "credit": "Image supplied with the approved mockup (AI-generated)"
+      "alt": "Macro image of Benjamin Franklin on US currency",
+      "credit": "AI editorial illustration",
+      "src_small": "/img/politics/v6/lower-follow-money-small.webp?v=20261106",
+      "w": 1122,
+      "w_small": 900,
+      "h": 1402
     }
   },
   "record": {
@@ -169,10 +203,14 @@
       "route": "/threads/following-a-promise/"
     },
     "image": {
-      "src": "/img/politics/supplied/record.jpg?v=20261105d",
+      "src": "/img/politics/v6/lower-state-record.webp?v=20261106",
       "treatment": "none",
-      "alt": "",
-      "credit": "Image supplied with the approved mockup (AI-generated)"
+      "alt": "State capitol framed by autumn trees",
+      "credit": "AI editorial illustration",
+      "src_small": "/img/politics/v6/lower-state-record-small.webp?v=20261106",
+      "w": 1672,
+      "w_small": 900,
+      "h": 941
     }
   },
   "signals": {
@@ -253,14 +291,14 @@
       "summary": "Members will choose their leaders. What have they said publicly, and what remains unanswered?",
       "go": "Explore chapter 01",
       "image": {
-        "src": "/img/politics/v4/signal-01-hallway.jpg?v=20261105g",
-        "src_small": "/img/politics/v4/signal-01-hallway-sm.jpg?v=20261105g",
-        "w": 1400,
-        "w_small": 760,
-        "h": 840,
+        "src": "/img/politics/v6/signal-01-leadership.webp?v=20261106",
+        "src_small": "/img/politics/v6/signal-01-leadership-small.webp?v=20261106",
+        "w": 1619,
+        "w_small": 1000,
+        "h": 971,
         "treatment": "none",
-        "alt": "Illustrated sunlit government hallway with a lone walking figure.",
-        "credit": "AI illustration"
+        "alt": "Marble hallway of Congress",
+        "credit": "AI editorial illustration"
       }
     },
     {
@@ -271,14 +309,14 @@
       "summary": "Explore the states and communities where electoral coalitions shifted.",
       "go": "Explore chapter 02",
       "image": {
-        "src": "/img/politics/v4/signal-02-geography.jpg?v=20261105g",
-        "src_small": "/img/politics/v4/signal-02-geography-sm.jpg?v=20261105g",
-        "w": 1400,
-        "w_small": 760,
-        "h": 840,
+        "src": "/img/politics/v6/signal-02-geography.webp?v=20261106",
+        "src_small": "/img/politics/v6/signal-02-geography-small.webp?v=20261106",
+        "w": 1619,
+        "w_small": 1000,
+        "h": 971,
         "treatment": "none",
-        "alt": "Atmospheric Minnesota lake landscape illustrating the geographic scope of voting.",
-        "credit": "LLF AI illustration"
+        "alt": "Midwestern grain silos and agricultural fields",
+        "credit": "AI editorial illustration"
       }
     },
     {
@@ -289,14 +327,14 @@
       "summary": "Voters focused on affordability. Which proposals will emerge from the new Congress?",
       "go": "Explore chapter 03",
       "image": {
-        "src": "/img/politics/v4/signal-03-voters.jpg?v=20261105g",
-        "src_small": "/img/politics/v4/signal-03-voters-sm.jpg?v=20261105g",
-        "w": 1400,
-        "w_small": 760,
-        "h": 840,
+        "src": "/img/politics/v6/signal-03-priorities.webp?v=20261106",
+        "src_small": "/img/politics/v6/signal-03-priorities-small.webp?v=20261106",
+        "w": 1619,
+        "w_small": 1000,
+        "h": 971,
         "treatment": "none",
-        "alt": "Grocery produce with price information.",
-        "credit": "Photo: MatthewHoobin, CC0"
+        "alt": "Eggs and grocery produce illustration with a fictional displayed price",
+        "credit": "AI editorial illustration"
       }
     },
     {
@@ -307,14 +345,14 @@
       "summary": "Follow the money, its intended effects and what the records can actually prove.",
       "go": "Explore chapter 04",
       "image": {
-        "src": "/img/politics/v4/signal-04-money.jpg?v=20261105g",
-        "src_small": "/img/politics/v4/signal-04-money-sm.jpg?v=20261105g",
-        "w": 1400,
-        "w_small": 760,
-        "h": 840,
+        "src": "/img/politics/v6/signal-04-finance.webp?v=20261106",
+        "src_small": "/img/politics/v6/signal-04-finance-small.webp?v=20261106",
+        "w": 1619,
+        "w_small": 1000,
+        "h": 971,
         "treatment": "none",
-        "alt": "Monochrome U.S. banknote with a restrained teal shape.",
-        "credit": ""
+        "alt": "Close-up engraved dollar bill with teal geometry",
+        "credit": "AI editorial illustration"
       }
     },
     {
@@ -325,14 +363,14 @@
       "summary": "State legislatures and governors will decide policies close to everyday life.",
       "go": "Explore chapter 05",
       "image": {
-        "src": "/img/politics/v4/signal-05-state.jpg?v=20261105g",
-        "src_small": "/img/politics/v4/signal-05-state-sm.jpg?v=20261105g",
-        "w": 1400,
-        "w_small": 760,
-        "h": 840,
+        "src": "/img/politics/v6/signal-05-states.webp?v=20261106",
+        "src_small": "/img/politics/v6/signal-05-states-small.webp?v=20261106",
+        "w": 1619,
+        "w_small": 1000,
+        "h": 971,
         "treatment": "none",
-        "alt": "Pennsylvania State Capitol in daylight, AI illustration.",
-        "credit": "LLF AI illustration"
+        "alt": "State capitol in autumn",
+        "credit": "AI editorial illustration"
       }
     }
   ],
