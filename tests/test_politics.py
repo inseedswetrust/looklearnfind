@@ -277,7 +277,7 @@ class Edition001(unittest.TestCase):
         for i in ("national-picture", "five-signals", "leadership", "geography", "voters", "money", "states", "what-next", "sources"):
             self.assertIn(f'id="{i}"', h)
         self.assertEqual(h.count("Back to today's signals"), 5)
-        self.assertNotIn("Draft for review", h); self.assertIn("pol-note", h); self.assertIn("could not be opened", h)
+        self.assertNotIn("Draft for review", h); self.assertNotIn("pol-note", h)
 
     def test_corrections_were_applied_and_the_flagged_claims_are_gone(self):
         h = politics.render_edition(self.r, lambda s: s)
@@ -328,7 +328,7 @@ class EditionBuilt(unittest.TestCase):
         self.assertNotIn("noindex", self.h)
         self.assertIn("/politics/daily/2026-11-05/", (DIST / "sitemap.xml").read_text(encoding="utf-8"))
         self.assertIn("/politics/daily/2026-11-05/", (DIST / "search-index.json").read_text(encoding="utf-8"))
-        self.assertIn('pol-note', self.h); self.assertIn("could not be opened", self.h); self.assertNotIn("pol-draftbar", self.h)
+        self.assertNotIn('pol-note', self.h); self.assertNotIn("pol-draftbar", self.h)
     def test_landing_shows_the_live_edition_with_five_signals(self):
         land = (DIST / "politics" / "index.html").read_text(encoding="utf-8")
         self.assertNotIn("DRAFT PREVIEW", land); self.assertIn("Five signals today", land)

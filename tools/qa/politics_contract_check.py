@@ -122,8 +122,8 @@ def check_daily_records(directory, today=None):
                 if not fc.get("reviewer") or fc.get("reviewer") == r["author"]:
                     errs.append(f"daily {f.name}: approved needs a passed fact check by a reviewer other than the author")
             elif fc.get("state") == "owner_approved":
-                if not (fc.get("approved_by") and fc.get("approved_on") and r.get("editors_note")):
-                    errs.append(f"daily {f.name}: an owner approval needs approved_by, approved_on and a published editor's note")
+                if not (fc.get("approved_by") and fc.get("approved_on")):
+                    errs.append(f"daily {f.name}: an owner approval needs approved_by and approved_on")
             else:
                 errs.append(f"daily {f.name}: approved needs a passed fact check or a recorded owner approval")
         b = r.get("blocks")
@@ -201,8 +201,6 @@ def check_edition_pages(dist, allow_preview=False):
                 probs.append(f"{name}: an approved edition must be indexable")
             if name not in sm:
                 probs.append(f"{name}: an approved edition must be in the sitemap")
-            if "pol-ed" in h and "pol-note" not in h and "owner_approved" in (DAILY_FILE.read_text(encoding="utf-8") if DAILY_FILE.exists() else ""):
-                probs.append(f"{name}: an owner-approved edition must show its editor's note")
         if draft:
             if not allow_preview:
                 probs.append(f"{name}: a draft edition is built (preview build). Rebuild without LLF_PREVIEW_DRAFTS before any release")

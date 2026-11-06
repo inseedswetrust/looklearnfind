@@ -321,8 +321,7 @@ def render_edition(r, fmt_date, preview=False, teasers=None, art=None, credit=No
     op, sg = b["opening"], b["signals"]
     imgs = {t["target"]: dict(t, image=t.get("chapter_image") or t["image"]) for t in (teasers or [])}
     credit = credit or (lambda im: im.get("credit", ""))
-    note = (f'<details class="pol-note pol-note--review" role="note"><summary>Editorial review note \u2014 partial source verification</summary><p>{e(r["editors_note"])}</p></details>'
-            if r.get("editors_note") and r["status"] == "approved" else "")
+    note = ""      # no editor's note is shown on the page (owner decision, 2026-11-05)
     draft = ('<p class="pol-draftbar" role="note"><b>Draft for review.</b> Not approved or published. The independent fact check is pending, '
              'so figures, calls and control claims below are unverified.</p>') if r["status"] != "approved" else ""
     rv = r.get("review") if r["status"] != "approved" else None
@@ -424,8 +423,6 @@ def validate_edition_html(rec, page):
         problems.append("the chapter bar does not list all five chapters")
     if len(re.findall(r'rel="noopener">', (re.search(r'id="sources".*?</section>', page, re.S) or [""])[0])) != len(rec["sources"]):
         problems.append("the source register is incomplete")
-    if rec.get("editors_note") and rec["status"] == "approved" and "pol-note" not in page:
-        problems.append("the editor's note is missing")
     if not rec.get("update_log") or "Update log" not in page:
         problems.append("the update history is missing")
     if problems:
