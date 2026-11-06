@@ -19,13 +19,13 @@ hero_text: Who is on the ballot, and what a market still lists.
 question: Why does a prediction market still carry Mike Duggan's name after he ended his independent campaign for Michigan governor?
 checked: Bridge Michigan's May 21, 2026 report and Duggan's quoted statement (re-read October 28); the Michigan Department of State's November 3 general-election listing (read and saved October 28); Kalshi's governor contracts, prices and rules from the public API (saved October 28 at 20:21:35 UTC).
 supported: Bridge Michigan reported that Duggan ended his independent campaign. The official listing contains five governor tickets and no independent. Kalshi's capture still contains an active Duggan contract whose rule names him personally; the Democratic and Republican contracts resolve on party.
-other: Duggan's explanation is his own statement as Bridge Michigan reported it. We found no published Kalshi explanation for the contract's continued listing and have not contacted Kalshi.
+other: Duggan's explanation is his own statement as Bridge Michigan reported it.
 open: Why the contract remains listed, when its last trade occurred and whether the market is thin or stale are not established. Petition history and any later Duggan endorsement are outside the sources we checked.
 -->
 <h2 id="left-in-may">The campaign ended. The contract remained.</h2>
 <p>Bridge Michigan reported on May 21, 2026 that Mike Duggan had ended his independent campaign in the <a href="https://theissuesparty.org/races/2026-GOV-MI">Michigan governor race</a>.[[s:1]] By October 28, the Michigan Department of State's general-election listing contained five governor tickets and no independent.[[s:2]] Yet a Kalshi contract still carried his name, with its last-trade field showing 0.3 cents.[[s:3]]</p>
 <p>The small price is the eye-catching detail. The more useful detail is the wording underneath it: the Duggan contract asks whether he is inaugurated as governor, while the Democratic and Republican contracts ask whether someone from the relevant party is inaugurated.[[s:3]] A reader looking only at the names would miss that difference.</p>
-<p>A market price is not a forecast. Here, understanding what the price describes starts with separating the campaign's status, the state's candidate listing and the contract's resolution rule.</p>
+<p> Here, understanding what the price describes starts with separating the campaign's status, the state's candidate listing and the contract's resolution rule.</p>
 <h2 id="withdrawal">What Duggan said when he left</h2>
 <p>Bridge Michigan's Simon D. Schuster reported Duggan's withdrawal on May 21.[[s:1]] The report quoted his statement: “If we were even in the polls and behind in fundraising, we have a path to winning,” he said. “If we were behind in the polls and even in fundraising, we have a path. But we're behind in both.”[[s:1]]</p>
 <p>That is Duggan's assessment of his campaign at the time, as reported by Bridge.[[s:1]] It should stay attached to its date and speaker. It supplies no explanation for the market's continuing listing.</p>
@@ -38,24 +38,17 @@ open: Why the contract remains listed, when its last trade occurred and whether 
 <li>Donna Brandenburg and Robert Donald Cowper II — U.S. Taxpayers.[[s:2]]</li>
 <li>Douglas Campbell and Bobbie Clay — Green.[[s:2]]</li>
 </ul>
-<p>Mike Duggan does not appear among the governor tickets, and the governor listing contains no independent ticket.[[s:2]] That is the specific record used here. It does not establish the history of any petition he may have filed or what other records might retain his name.</p>
+<p>Mike Duggan does not appear among the governor tickets, and the governor listing contains no independent ticket.[[s:2]] That is the specific record used here.</p>
 <h2 id="market-snapshot">What the market capture actually says</h2>
-<p>All market figures below come from the same Kalshi public API capture: October 28, 2026 at 20:21:35 UTC, for the event “Michigan Governor winner?”[[s:3]] They are a dated snapshot, not live quotes.</p>
+<p>All market figures below come from the same Kalshi public API capture: October 28, 2026 at 20:21:35 UTC, for the event “Michigan Governor winner?”[[s:3]]</p>
 <p>The Duggan contract, <code>GOVPARTYMI-26-MD</code>, was marked active. Its YES bid was 0.0 cents, its YES ask was 0.1 cent and its last-trade field was 0.3 cents.[[s:3]] Those are separately labeled fields; quoting the last trade alone leaves out the bid and ask alongside it.</p>
-<p>The capture does not provide the timestamp of that last trade. We describe 0.3 cents as the last-trade value recorded in the snapshot, without claiming a trade occurred at the capture time.</p>
+<p> We describe 0.3 cents as the last-trade value recorded in the snapshot, without claiming a trade occurred at the capture time.</p>
 <p>Kalshi also returned all-time volume of 138,350.39 contracts for the Duggan contract.[[s:3]] The unit is contracts, not dollars, and the period is the contract's recorded lifetime. The capture also reported 317.81 contracts traded in the preceding 24 hours, so the contract was not untouched that day. Neither figure establishes when the last trade occurred.</p>
 <h2 id="read-the-rule">The name and the rule are different layers</h2>
 <p>The Duggan rule requires Mike Duggan to be inaugurated as Michigan governor pursuant to the 2026 election for the contract to resolve to YES.[[s:3]] It names a person.</p>
 <p>The contract labeled Benson, <code>GOVPARTYMI-26-D</code>, instead requires a Democratic-party representative to be inaugurated. Its YES bid was 92.3 cents, its YES ask 93.0 cents and its last-trade value 92.3 cents in the same capture.[[s:3]]</p>
 <p>The contract labeled James, <code>GOVPARTYMI-26-R</code>, requires a Republican-party representative to be inaugurated. Its YES bid was 7.1 cents, its YES ask 7.3 cents and its last-trade value 7.5 cents.[[s:3]]</p>
-<p>The labels make the contracts look like a candidate comparison, but the rules define different subjects: a named person in one case and party representatives in the others.[[s:3]] None of these cent prices is a vote share, and they should not be converted here into win probabilities.</p>
-<h2 id="not">What this does not show</h2>
-<ul>
-<li>The continuing listing does not establish that Duggan resumed his campaign or appears on the state's general-election candidate list.</li>
-<li>We found no published explanation from Kalshi for keeping this contract listed. That does not establish that Kalshi has never given one elsewhere.</li>
-<li>The snapshot does not establish whether the contract is thin or stale, or why anyone traded it. Those possibilities are not findings about this contract.</li>
-</ul>
-<p>For the current candidate field, start with the state's listing. For what a contract settles on, read its rule. The oddity here is documented; its explanation remains open.</p>
+<p>The labels make the contracts look like a candidate comparison, but the rules define different subjects: a named person in one case and party representatives in the others.[[s:3]]</p>
 <!--sources
 1 | Mike Duggan drops governor bid in Michigan election shocker | Bridge Michigan, Simon D. Schuster | May 21, 2026 | https://bridgemi.com/michigan-government/mike-duggan-drops-governor-bid-in-michigan-election-shocker/ | Date of the report and Duggan's statement, quoted.
 2 | Official Candidate Listing, General Election November 3, 2026 | Michigan Department of State | read October 28, 2026 | https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=page.miboePublicReport&electionType=GEN&electionYear=2026 | The five governor/lieutenant governor tickets and absence of an independent ticket.

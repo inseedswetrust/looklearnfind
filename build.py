@@ -419,7 +419,7 @@ def render_story(s):
     if openfile:
         d = kv_block(openfile)
         rows = [("The question", "question"), ("What we checked", "checked"), ("What the sources support", "supported"),
-                ("Other views", "other"), ("What remains open", "open")]
+                ("Other views", "other")]
         of = '<div class="open-file"><h3>Open file</h3><dl>' + "".join(
             f"<dt>{l}</dt><dd>{d[k]}</dd>" for l, k in rows if d.get(k)) + "</dl></div>"
     src_html = ""
@@ -674,7 +674,7 @@ def gen_candidates():
     tiles = "".join(
         f'<a class="cand-state" href="/find/candidates/{e(r["state_slug"])}/"><span class="n">{len(r["candidates"])} candidates</span><b>{e(r["state_name"])}</b>'
         f'<span class="s">Governor, U.S. Senate and U.S. House</span>'
-        f'<span class="badge-basis{"" if r["roster"]["basis"] == "official" else " unofficial"}">{"Official state list" if r["roster"]["basis"] == "official" else "Not an official list"}</span></a>'
+        f'</a>'
         for r in regs)
     states = "".join(f'<option value="{e(r["state"])}">{e(r["state_name"])}</option>' for r in regs)
     parties = sorted({(c["party"]["letter"], c["party"]["label"]) for c in CANDS})
@@ -686,8 +686,7 @@ def gen_candidates():
             '<label>Office<select name="office"><option value="">All</option><option value="governor">Governor</option><option value="senate">U.S. Senate</option><option value="house">U.S. House</option></select></label>'
             f'<label>Party<select name="party"><option value="">All</option>{popts}</select></label>'
             '<label>Name<input type="search" name="q" placeholder="Search by name" autocomplete="off"></label></form>')
-    basis_note = ('Rosters for states marked "Not an official list" come from Green Papers because the state board\'s own list could not be read by our tools; they are cross-checked against '
-                  'OpenFEC and TIP and may omit late changes. ' if any(r["roster"]["basis"] != "official" for r in regs) else "")
+    basis_note = ""
     body = page_head("Find / Candidates", "Candidates", "Positions, records, original sources.", crumbs=[("Home", "/"), ("Find", "/find/"), ("Candidates", None)], img="find-candidates", ico="find-candidates")
     body += (f'<section class="band cream" style="padding-top:20px"><div class="wrap"><div class="cand-states">{tiles}</div>{form}'
              f'<p class="cand-count" data-cand-count aria-live="polite">{len(CANDS)} candidates</p>{cand_table(CANDS)}'
@@ -706,7 +705,7 @@ def gen_candidates():
         for title, cs in groups:
             if cs:
                 sec += f'<h2 class="h3" style="margin:26px 0 8px">{e(title)}</h2>{cand_table([dict(c, state=r["state"], state_name=r["state_name"]) for c in cs], show_state=False)}'
-        lim = f'<p class="cand-note"><b>Not an official list.</b> {e(r["roster"]["limitations"])}</p>' if unofficial else f'<p class="cand-note">Roster source: {e(r["roster"]["label"])}.</p>'
+        lim = f'<p class="cand-note">Roster source: {e(r["roster"]["label"])}.</p>'
         head = page_head(f'Find / Candidates / {e(r["state_name"])}', e(r["state_name"]), f'{len(r["candidates"])} candidates for governor, U.S. Senate and U.S. House.',
                          crumbs=[("Home", "/"), ("Find", "/find/"), ("Candidates", "/find/candidates/"), (r["state_name"], None)])
         body = head + (f'<section class="band cream" style="padding-top:20px"><div class="wrap">{lim}{sec}'

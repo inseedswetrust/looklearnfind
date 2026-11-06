@@ -26,8 +26,7 @@ STATES = {
                source_note=('Sources: Florida Division of Elections candidate lists (captured {cap}); OpenFEC candidate committee totals and Schedule E ({fec}); '
                             'Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=True, counties=True),
     "IL": dict(code="IL", name="Illinois", slug="illinois", ndist=17, asof="2026-10-28", record_label="Candidate listing (Green Papers)",
-               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; the Illinois State Board of Elections list could not be read '
-                            '(HTTP 403), so this roster is not an official or complete list; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
+               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
                official=False, primary="March 17, 2026", sen_note="the seat Dick Durbin is leaving", gov_hero=("il-capitol", "The Illinois State Capitol in Springfield"),
                poll_note="The public polls we found as of {asof} had a sponsor that was not stated or disputed, and we did not open an original release.", sen_poll_note="We found no general-election poll with an original release."),
     "MI": dict(code="MI", name="Michigan", slug="michigan", ndist=13, asof="2026-10-28", record_label="Michigan Department of State candidate listing",
@@ -36,8 +35,7 @@ STATES = {
                official=True, primary="August 4, 2026", sen_note="the seat Gary Peters is leaving", gov_hero=("mi-capitol", "The Michigan State Capitol in Lansing"),
                poll_note="We have not yet opened an original pollster release for this race as of {asof}.", sen_poll_note="We have not yet opened an original pollster release for this race."),
     "NY": dict(code="NY", name="New York", slug="new-york", ndist=26, asof="2026-10-30", record_label="Candidate listing (Green Papers)",
-               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; the New York State Board of Elections certification could not be read '
-                            '(HTTP 403), so this roster is not an official or complete list; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
+               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
                official=False, senate=False, primary="June 23, 2026", sen_note="", gov_hero=("ny-capitol", "An AI illustration of the New York State Capitol in Albany"),
                poll_note="We have not yet opened an original pollster release for this race as of {asof}.", sen_poll_note=""),
     "NJ": dict(code="NJ", name="New Jersey", slug="new-jersey", ndist=12, asof="2026-10-31", record_label="New Jersey Division of Elections official candidate lists",
@@ -46,13 +44,11 @@ STATES = {
                official=True, governor=False, primary="June 2, 2026", sen_note="a full six-year term in the seat Cory Booker holds", gov_hero=None,
                poll_note="", sen_poll_note="We have not yet opened an original pollster release for this race."),
     "MN": dict(code="MN", name="Minnesota", slug="minnesota", ndist=8, asof="2026-10-31", record_label="Candidate listing (Green Papers)",
-               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; the Minnesota Secretary of State candidate list could not be read '
-                            '(a bot check blocked automated access), so this roster is not an official or complete list; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
+               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
                official=False, primary="August 11, 2026", sen_note="the seat Tina Smith is leaving", gov_hero=("mn-capitol", "An AI illustration of the Minnesota State Capitol in St. Paul"),
                poll_note="We have not yet opened an original pollster release for this race as of {asof}.", sen_poll_note="We have not yet opened an original pollster release for this race."),
     "PA": dict(code="PA", name="Pennsylvania", slug="pennsylvania", ndist=17, asof="2026-11-01", record_label="Candidate listing (Green Papers)",
-               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; the Pennsylvania Department of State candidate list was not read, '
-                            'so this roster is not an official or complete list; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
+               source_note=('Sources: candidate listing transcribed from Green Papers on {cap} and cross-checked against OpenFEC candidate records and TIP; Kalshi public market data ({mk}); TIP Issue Grades from TIP ({tip}).'), finance=False, counties=False,
                official=False, senate=False, primary="May 19, 2026", sen_note="", gov_hero=("pa-capitol", "An AI illustration of the Pennsylvania State Capitol in Harrisburg"),
                poll_note="We have not yet opened an original pollster release for this race as of {asof}.", sen_poll_note=""),
 }
@@ -300,7 +296,7 @@ def market_card(race, title="What the market says"):
         f'<div class="q"><span class="qn">{e(c["yes_label"])}</span><span class="qp">{cents(c["last"])}</span>'
         f'<span class="qsub">bid {cents(c["yes_bid"])} · ask {cents(c["yes_ask"])}</span></div>' for c in cs)
     rule = (cs[0].get("rules") or "").split(".")[0]
-    return (f'<div class="mk"><h3>{e(title)}</h3><p class="small">Party-winner contracts: each resolves on the winning party and the name shown is only a label. Prices are market-implied estimates, not forecasts or vote shares.</p>'
+    return (f'<div class="mk"><h3>{e(title)}</h3><p class="small">Party-winner contracts: each resolves on the winning party and the name shown is only a label.</p>'
             f'<div class="quotes">{cells}</div><p class="small">{e(m["title"])} Last trade shown. Captured {utc_stamp(FL["markets"]["captured_at_utc"])}. '
             f'<a href="{e(m["url"])}" rel="noopener">Kalshi market ↗</a></p>'
             + (f'<details class="small"><summary>Contract rule</summary>{e(rule)}.</details>' if rule else "") + "</div>")
@@ -531,7 +527,7 @@ def state_hub():
     cards = "".join(API["card"](s) for s in API["STORIES"] if s.get("layout") == "report")
     body = f'''<section class="page-head el-head"><div class="wrap wide"><div>{_crumbs(crumbs)}
 <div class="kicker">Politics / State of the Race<i></i></div><h1 class="display">Florida: the <em>State of the Race</em></h1>
-<p class="dek">Every state has a ballot. This is Florida's: {n["gov"]} governor tickets, {n["sen"]} Senate candidates and {n["house"]} House candidates in 28 districts, with the money, the market quotes and the public record behind them. Where we could not verify something, the page says so.</p>
+<p class="dek">Every state has a ballot. This is Florida's: {n["gov"]} governor tickets, {n["sen"]} Senate candidates and {n["house"]} House candidates in 28 districts, with the money, the market quotes and the public record behind them.</p>
 <p class="meta"><span class="stamp">Florida 2026</span> <span>Checked {dstr(_asof().isoformat())} · {n["cands"]} candidates in 30 contests · governor, U.S. Senate and U.S. House only</span></p></div>
 <div class="map-card">{state_map()}<p class="small">Florida's congressional districts under the plan enacted in May 2026 (HB 1-D). Select a district.</p></div></div></section>
 <section class="band cream"><div class="wrap wide split3"><div><div class="kicker">Start with the board<i></i></div><h2 class="h2">What is actually on the ballot in Florida, and what does the record show?</h2></div>
@@ -541,7 +537,7 @@ def state_hub():
 {board}<p class="small boardnote">District labels show the largest counties by land area inside each district, from the official 2026 district file. Candidates are listed from the state's records; spelling follows the state. Unlisted spellings and late changes: see <a href="/about/corrections/">corrections</a>.</p></div></section>
 <section class="band cream" id="money"><div class="wrap wide"><div class="kicker">Money and markets<i></i></div><div class="two"><div><h2 class="h3">Kalshi quotes for the statewide races</h2>
 <div class="tablewrap"><table class="data"><thead><tr><th>Race</th><th>Contract last trade</th><th class="num">Bid / ask</th></tr></thead><tbody>{mrows}</tbody></table></div>
-<p class="small">Kalshi contract prices are market-implied estimates, not forecasts or vote shares. Governor and Senate contracts resolve on the party of the person sworn in. Captured {utc_stamp(FL["markets"]["captured_at_utc"])}. House district contracts are on each district page.</p></div>
+<p class="small">Kalshi contract prices are market-implied estimates. Governor and Senate contracts resolve on the party of the person sworn in. Captured {utc_stamp(FL["markets"]["captured_at_utc"])}. House district contracts are on each district page.</p></div>
 <div><h2 class="h3">Where to read the money</h2><ul class="plain"><li><a href="{ST_URL}governor/#money">Governor: public matching funds, reported campaign totals</a></li><li><a href="{ST_URL}senate/#money">Senate: FEC candidate committee totals and outside spending</a></li><li><a href="{ST_URL}house/">House: every district's committee totals</a></li><li><a href="/learn/florida-house-independent-spending-october-2026/">Spending Report: FL-14 and FL-25</a></li></ul></div></div></div></section>
 <section class="band" id="tip"><div class="wrap wide two"><div><div class="kicker">TIP Issue Grades<i></i></div><h2 class="h2">Six issues, graded only from recorded acts</h2>
 <p class="dek">TIP grades a candidate on an issue only when there are recorded congressional acts on it. {n["graded"]} of {n["cands"]} Florida candidates have at least one grade today. Everyone else is shown as not graded, never as zero. A grade is TIP's published method applied to the record. It is not a verdict on a person.</p></div>{tip_panel()}</div></section>
@@ -597,7 +593,7 @@ def gov_page():
 <div id="markets">{market_card("governor", "What the market says")}<p class="small">The governor contract resolves on the party of the person inaugurated: "If a representative of the Democratic party is inaugurated as the governor of Florida pursuant to the 2026 election, then the market resolves to Yes" (Jolly contract). The Republican contract is the mirror.</p></div></div></section>'''
     body += f'''<section class="band cream" id="polls"><div class="wrap wide two"><div><div class="kicker">Polling<i></i></div><h2 class="h3">What the latest poll measured</h2>
 <div class="pollbox"><span class="uc">UNF Public Opinion Research Lab · Oct. 12–19, 2026</span><div class="pbar"><span class="p r" style="width:49%">Donalds 49%</span><span class="p d" style="width:47%">Jolly 47%</span></div>
-<p class="small">1,471 likely midterm voters · telephone · margin of error ±2.81 points · 4% undecided. Reported by WLRN, Oct. 21, 2026, from the UNF release. In UNF's July poll Donalds led by five points. A single poll is a snapshot, not a forecast, and the gap is within about the margin of error.</p>
+<p class="small">1,471 likely midterm voters · telephone · margin of error ±2.81 points · 4% undecided. Reported by WLRN, Oct. 21, 2026, from the UNF release. In UNF's July poll Donalds led by five points.</p>
 <p class="small"><a href="https://www.wlrn.org/government-politics/2026-10-21/republicans-donalds-moody-hold-slim-leads-in-tightening-governor-us-senate-races-unf-polls-finds" rel="noopener">Source: WLRN ↗</a></p></div></div>
 <div><h2 class="h3">Read the reported feature</h2><p>The fundraising and polling story, with every number sourced and dated.</p><p><a class="btn" href="/learn/florida-governor-fundraising-polling-2026/">Read the analysis ↗</a></p></div></div></section>'''
     rows = "".join(f'<tr><td>{e(c["name"])}</td><td>{e(c["party"])}</td><td>{e(c.get("running_mate") or "—")}</td><td>{"Primary: unopposed" if c["primary"] == "Unopposed" else ("Qualified" if c["status"] == "Qualified" else e(c["status"]))}</td><td><a href="{e(c["state_url"])}" rel="noopener">State record ↗</a>{(" · " + '<a href="' + e(c["tip"]["url"]) + '" rel="noopener">TIP profile ↗</a>') if c.get("tip") and c["tip"].get("url") else ""}</td></tr>' for c in others)
@@ -717,10 +713,10 @@ def house_page():
     body += f'''<section class="band cream" id="directory"><div class="wrap wide"><div class="kicker">Directory<i></i></div><h2 class="h3">District directory</h2>
 <div class="tablewrap"><table class="data wide"><thead>{thead}</thead><tbody>{"".join(rows)}</tbody></table></div>
 <p class="small">{foot}</p></div></section>
-<section class="band" id="tip"><div class="wrap wide two"><div><div class="kicker">TIP issue grades<i></i></div><h2 class="h2">Who has a record to grade</h2><p class="dek">{sum(1 for c in FL["cands"] if c["office"] == "house" and graded_count(c))} of {n["house"]} House candidates have at least one TIP Issue Grade, because only people with recorded congressional acts can be graded. Challengers are not graded, and that is not a score of zero.</p></div>{tip_panel([c for c in FL["cands"] if c["office"] == "house"])}</div></section>
+<section class="band" id="tip"><div class="wrap wide two"><div><div class="kicker">TIP issue grades<i></i></div><h2 class="h2">Who has a record to grade</h2><p class="dek">{sum(1 for c in FL["cands"] if c["office"] == "house" and graded_count(c))} of {n["house"]} House candidates have at least one TIP Issue Grade, because only people with recorded congressional acts can be graded. Challengers are not graded.</p></div>{tip_panel([c for c in FL["cands"] if c["office"] == "house"])}</div></section>
 <section class="band cream" id="sources"><div class="wrap wide"><div class="kicker">Sources<i></i></div><p class="small meth">{e(_src_line())} {GEOM_NOTE[SX["code"]]} <a href="/about/election-methods/">Methods ↗</a></p></div></section>'''
     desc = ("All 28 Florida congressional districts under the 2026 map: every qualified candidate, committee totals, outside spending, Kalshi quotes and TIP issue grades." if fl else
-            f"All {nd} {SX['name']} congressional districts: every candidate on our roster, Kalshi quotes and TIP issue grades, with sources and the limits of the roster.")
+            f"All {nd} {SX['name']} congressional districts: every candidate on our roster, Kalshi quotes and TIP issue grades, with sources.")
     _wrapup(body, f"{SX['name']} House Races 2026", desc, ST_URL + "house/", crumbs)
 
 GEOM_NOTE = {"FL": "District geometry: Florida Legislature EDR plan EOGPCRP2026 (HB 1-D).",
@@ -769,8 +765,8 @@ def district_page(n):
             f"Every candidate on our roster in {_poss(SX['name'])} {n}{_ord(n)} congressional district, with Kalshi quotes and TIP issue grades and a link to the FEC filings.")
     _wrapup(body, f"{_poss(SX['name'])} {n}{_ord(n)} Congressional District 2026", desc, f"{ST_URL}house/{n}/", crumbs)
 
-MARKET_NOTES = {("MI", "governor"): '<p class="small">Kalshi still lists a contract for Mike Duggan, who ended his independent campaign for governor on May 21, 2026 (Bridge Michigan, May 21, 2026) and does not appear on the Michigan Department of State candidate listing. The quote is shown as the API returned it and is not an endorsement of any candidacy.</p>',
-                ("IL", "house-04"): '<p class="small">Kalshi still lists a contract for Mayra Macías, an independent the Illinois State Board of Elections voted 8-0 on July 21, 2026 to remove from the ballot (Riverside-Brookfield Landmark, July 22). The quote is shown as the API returned it and is not an endorsement of her candidacy.</p>'}
+MARKET_NOTES = {("MI", "governor"): '<p class="small">Kalshi still lists a contract for Mike Duggan, who ended his independent campaign for governor on May 21, 2026 (Bridge Michigan, May 21, 2026) and does not appear on the Michigan Department of State candidate listing. The quote is shown as the API returned it.</p>',
+                ("IL", "house-04"): '<p class="small">Kalshi still lists a contract for Mayra Macías, an independent the Illinois State Board of Elections voted 8-0 on July 21, 2026 to remove from the ballot (Riverside-Brookfield Landmark, July 22). The quote is shown as the API returned it.</p>'}
 
 def _ord(n):
     return "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
@@ -809,10 +805,10 @@ def _roster_basis():
     if SX.get("official"):
         return f"The roster follows the {SX['name']} Department of State's official candidate listing, with write-ins added only where a secondary source lists them."
     why = ROSTER_UNAVAILABLE.get(SX["code"], "the state's official candidate list could not be read")
-    return f"The roster comes from Green Papers because {why}, so it is not an official or complete list."
+    return ""
 
 def _roster_note():
-    return f'<p class="small boardnote">{ROSTER_NOTE[SX["code"]].format(cap=dstr(FL["roster"]["captured_at_utc"]))}</p>'
+    return ""
 
 def _market_rows(pairs):
     out = ""
@@ -848,7 +844,7 @@ def generic_hub():
     oseats = _open_seats()
     body = f'''<section class="page-head el-head"><div class="wrap wide"><div>{_crumbs(crumbs)}
 <div class="kicker">Politics / State of the Race<i></i></div><h1 class="display">{name}: the <em>State of the Race</em></h1>
-<p class="dek">Every state has a ballot. This is {_poss(name)}: {sen_dek}{n["house"]} House candidates in {nd} districts on our roster, with the market quotes and the public record behind them. Where we could not verify something, the page says so.</p>
+<p class="dek">Every state has a ballot. This is {_poss(name)}: {sen_dek}{n["house"]} House candidates in {nd} districts on our roster, with the market quotes and the public record behind them.</p>
 <p class="meta"><span class="stamp">{name} 2026</span> <span>Checked {dstr(_asof().isoformat())} · {n["cands"]} candidates in {contests} contests · {sen_lab} only</span></p></div>
 <div class="map-card">{state_map()}<p class="small">{_poss(name)} {nd} congressional districts, as in use for the 2026 election. Select a district.</p></div></div></section>
 <section class="band cream"><div class="wrap wide split3"><div><div class="kicker">Start with the board<i></i></div><h2 class="h2">What is on the ballot in {name}, and what does the record show?</h2></div>
@@ -859,12 +855,12 @@ def generic_hub():
 {board}<p class="small boardnote">Candidates are listed as the source spells them. Late changes and spelling: see <a href="/about/corrections/">corrections</a>.</p></div></section>
 <section class="band cream" id="money"><div class="wrap wide"><div class="kicker">Markets and money<i></i></div><div class="two"><div><h2 class="h3">Kalshi quotes for the statewide races</h2>
 <div class="tablewrap"><table class="data"><thead><tr><th>Race</th><th>Contract last trade</th><th class="num">Bid / ask</th></tr></thead><tbody>{mrows}</tbody></table></div>
-<p class="small">Kalshi contract prices are market-implied estimates, not forecasts or vote shares. {sen_note} resolve on the party of the person sworn in. Captured {utc_stamp(FL["markets"]["captured_at_utc"])}. House district contracts are on each district page.</p></div>
+<p class="small">Kalshi contract prices are market-implied estimates. {sen_note} resolve on the party of the person sworn in. Captured {utc_stamp(FL["markets"]["captured_at_utc"])}. House district contracts are on each district page.</p></div>
 <div><h2 class="h3">Where to read the money</h2><ul class="plain">{sen_link}<li><a href="{ST_URL}house/">House: every district, with its FEC page ↗</a></li>{"<li>Governor candidates file with the state, not the FEC.</li>" if has_gov else f"<li>{name} elects no governor in 2026.</li>"}</ul></div></div></div></section>
 <section class="band" id="tip"><div class="wrap wide two"><div><div class="kicker">TIP Issue Grades<i></i></div><h2 class="h2">Six issues, graded only from recorded acts</h2>
 <p class="dek">TIP grades a candidate on an issue only when there are recorded congressional acts on it. {n["graded"]} of {n["cands"]} {name} candidates have at least one grade today. Everyone else is shown as not graded, never as zero. A grade is TIP's published method applied to the record. It is not a verdict on a person.</p></div>{tip_panel()}</div></section>
 <section class="band"><div class="wrap wide"><div class="kicker">Sources and method<i></i></div><p class="small meth">{e(_src_line())} <a href="/about/election-methods/">Full methods, definitions and corrections policy ↗</a>. Last verified {dstr(_asof().isoformat())}. This guide excludes ballot measures, Cabinet offices, state legislature and judicial races by design.</p></div></section>'''
-    _wrapup(body, f"{name} 2026: State of the Race", f"All {contests} {name} contests for {sen_lab}: {n['cands']} candidates on our roster, market quotes and the TIP issue record, with sources and the limits of the roster.", ST_URL, crumbs)
+    _wrapup(body, f"{name} 2026: State of the Race", f"All {contests} {name} contests for {sen_lab}: {n['cands']} candidates on our roster, market quotes and the TIP issue record, with sources.", ST_URL, crumbs)
 
 def _others_table(cs, note):
     for c in cs:
@@ -887,7 +883,7 @@ def generic_gov_page():
     nw = len([c for c in others if c["party_code"] == "WRI"])
     no = len(others) - nw
     tail = (f"{no} other candidate{'s' if no != 1 else ''}" + (f", plus {nw} write-in{'s' if nw != 1 else ''}" if nw else ""))
-    roster_tail = "" if SX.get("official") else " The roster is not an official list (see below)."
+    roster_tail = ""
     dek = (f'<p class="deck">The candidates, the market and what is on file.</p><p class="dek">{name} elects a governor on November 3. {len(cs)} candidates are on our roster: the Republican and Democratic nominees and {tail}. '
            + (f'The incumbent, {e(inc["name"])}, was renominated. ' if inc else "") + f'Governor is a state office, so TIP shows the six-issue federal record only where a candidate served in Congress.{roster_tail}</p>'
            f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span>{race_link_span("governor")}</p>')
@@ -898,16 +894,16 @@ def generic_gov_page():
         hero = ""           # no licensed photo installed for this state yet
     body = _race_head("State of the Race / Governor", f"{name} Governor Race", dek, crumbs, hero, toc)
     body += f'''<section class="band" id="candidates"><div class="wrap wide cwrap"><div><div class="kicker">The candidates<i></i></div><h2 class="h2">The nominees</h2>
-<p class="dek small-dek">Nominees won their party primaries on {SX['primary']}. TIP grades a candidate only from recorded congressional acts, so a nominee who never served in Congress shows no graded issues; not graded is not a score of zero.</p>
+<p class="dek small-dek">Nominees won their party primaries on {SX['primary']}. TIP grades a candidate only from recorded congressional acts, so a nominee who never served in Congress shows no graded issues.</p>
 <div class="ccards two">{"".join(candidate_card(c, "xl") for c in major)}</div></div>{tip_panel(major)}</div></section>
 <section class="band cream" id="markets"><div class="wrap wide two"><div><div class="kicker">Markets<i></i></div><h2 class="h3">What the Kalshi market quotes</h2>{market_card("governor", "What the market says")}</div>
-<div><p class="small">The contract resolves on the party of the person inaugurated as governor. A price is what traders were willing to pay at the capture time. It is not a forecast, a poll or a vote share.</p>{MARKET_NOTES.get((SX["code"], "governor"), "")}</div></div></section>
-<section class="band" id="polls"><div class="wrap wide"><div class="kicker">Polling<i></i></div><h2 class="h3">No poll is shown</h2><p>We have not shown a poll for this race. {SX['poll_note'].format(asof=dstr(_asof().isoformat()))} We will add a poll when we can cite its pollster, field dates, sample and sponsor from the original.</p></div></section>
+<div><p class="small">The contract resolves on the party of the person inaugurated as governor. A price is what traders were willing to pay at the capture time.</p>{MARKET_NOTES.get((SX["code"], "governor"), "")}</div></div></section>
+<section class="band" id="polls"><div class="wrap wide"><div class="kicker">Polling<i></i></div><h2 class="h3">No poll is shown</h2><p>No poll is shown for this race.</p></div></section>
 <section class="band cream" id="others"><div class="wrap wide"><div class="kicker">The other candidates<i></i></div><h2 class="h3">Everyone else on our roster</h2>
-{_others_table(others, "Write-in candidates do not appear as printed ballot choices. Where a candidate has no TIP record we say so; that gap is TIP's to fill, not a statement about the candidate.")}</div></section>
+{_others_table(others, "Write-in candidates do not appear as printed ballot choices.")}</div></section>
 <section class="band" id="sources"><div class="wrap wide"><div class="kicker">Sources<i></i></div><p class="small meth">{e(_src_line())} Governor candidates file campaign finance with the state, not the FEC.</p>{_roster_note()}
 <p class="small"><a class="link teal" href="/about/election-methods/">Methods and corrections ↗</a></p></div></section>'''
-    _wrapup(body, f"{name} Governor Race 2026", f"{_poss(name)} governor race: every candidate on our roster, the Kalshi quote and what is on file, with sources and the limits of the roster.", ST_URL + "governor/", crumbs)
+    _wrapup(body, f"{name} Governor Race 2026", f"{_poss(name)} governor race: every candidate on our roster, the Kalshi quote and what is on file, with sources.", ST_URL + "governor/", crumbs)
 
 def generic_senate_page():
     name = SX["name"]
@@ -917,22 +913,22 @@ def generic_senate_page():
     rest = [c for c in cs if c not in main]
     crumbs = [("Home", "/"), ("Politics", "/politics/"), ("State of the Race", ST_URL), ("U.S. Senate", None)]
     toc = [("candidates", "The candidates"), ("markets", "What the market says"), ("others", "The other candidates"), ("sources", "Sources")]
-    roster_tail = "" if SX.get("official") else " The roster is not an official list (see below)."
+    roster_tail = ""
     dek = (f'<p class="deck">The candidates, the market and the record.</p><p class="dek">{name} elects a U.S. senator on November 3 for {SX["sen_note"]}. {len(cs)} candidates are on our roster: the Democratic nominee, the Republican nominee '
            f'and {len(rest)} other candidate{"s" if len(rest) != 1 else ""}.{roster_tail}</p>'
            f'<p class="meta"><span>Checked {dstr(_asof().isoformat())}</span>{race_link_span("senate")}</p>')
     hero = _hero("us-capitol", "The dome of the United States Capitol", "A Senate seat", f"One {name} seat in the U.S. Senate is on the ballot. Here is what is on file.")
     body = _race_head("State of the Race / U.S. Senate", f"{name} U.S. Senate Race", dek, crumbs, hero, toc)
     body += f'''<section class="band" id="candidates"><div class="wrap wide cwrap"><div><div class="kicker">The candidates<i></i></div><h2 class="h2">The nominees</h2>
-<p class="dek small-dek">TIP grades a candidate only from recorded congressional acts, so a nominee who never served in Congress shows no graded issues; not graded is not a score of zero.</p>
+<p class="dek small-dek">TIP grades a candidate only from recorded congressional acts, so a nominee who never served in Congress shows no graded issues.</p>
 <div class="ccards two">{"".join(candidate_card(c, "xl") for c in main)}</div></div>{tip_panel(main)}</div></section>
 <section class="band cream" id="markets"><div class="wrap wide two"><div><div class="kicker">Markets<i></i></div><h2 class="h3">What the Kalshi market quotes</h2>{market_card("senate")}</div>
-<div><p class="small">The contract resolves on the party sworn in to the seat. A price is what traders were willing to pay at the capture time. It is not a forecast, a poll or a vote share. We have not shown a poll. {SX['sen_poll_note']}</p>
+<div><p class="small">The contract resolves on the party sworn in to the seat. A price is what traders were willing to pay at the capture time.</p>
 <p class="small"><a href="https://www.fec.gov/data/elections/senate/{SX["code"]}/2026/" rel="noopener">Candidate committee totals on FEC.gov ↗</a></p></div></div></section>
 <section class="band" id="others"><div class="wrap wide"><div class="kicker">The other candidates<i></i></div><h2 class="h3">Everyone else on our roster</h2>
 {_others_table(rest, "Write-in candidates do not appear as printed ballot choices.")}</div></section>
 <section class="band cream" id="sources"><div class="wrap wide"><div class="kicker">Sources<i></i></div><p class="small meth">{e(_src_line())}</p>{_roster_note()}<p class="small"><a href="/about/election-methods/">Methods ↗</a></p></div></section>'''
-    _wrapup(body, f"{name} U.S. Senate Race 2026", f"{_poss(name)} U.S. Senate election: the candidates on our roster, the Kalshi quote and what is on file, with sources and the limits of the roster.", ST_URL + "senate/", crumbs)
+    _wrapup(body, f"{name} U.S. Senate Race 2026", f"{_poss(name)} U.S. Senate election: the candidates on our roster, the Kalshi quote and what is on file, with sources.", ST_URL + "senate/", crumbs)
 
 # ------------------------------------------------------------------ Methods
 def methods_page():
@@ -941,13 +937,12 @@ def methods_page():
     body = f'''<section class="page-head"><div class="wrap">{_crumbs(crumbs)}<div class="kicker">About<i></i></div><h1 class="display">Election <em>methods</em></h1><p class="dek">How LLF's election pages source, label and correct what they show.</p></div></section>
 <section class="band cream"><div class="wrap narrow prose meth-body">
 <h2 id="roster" class="h3">Who counts as a candidate</h2><p>We list every candidate the Florida Division of Elections shows as Qualified or Unopposed for the November 3, 2026 general election in the governor, U.S. Senate and U.S. House contests. Write-in candidates the state lists as qualified are labeled and are not printed ballot choices. We do not rank candidates, pick winners or recommend votes. We captured the state's candidate lists on {dstr(FL["roster"]["captured_at_utc"])} and keep the raw capture.</p>
-<p>Illinois: the State Board of Elections candidate list returned HTTP 403 to our tools, so the Illinois roster is transcribed from Green Papers, cross-checked against OpenFEC and TIP, and is <b>not an official or complete list</b>. Illinois write-in candidates appear only where the source lists them. We will replace it with the Board's list when we can read it.</p>
 <p>Michigan: the roster follows the Michigan Department of State's Official Candidate Listing for the November 3, 2026 general election, read on October 28, 2026. Candidates the listing marks as disqualified are left out. The printed listing does not include write-ins, so Michigan write-ins appear only where a secondary source (Green Papers) lists them and are labeled.</p>
 <h2 id="districts" class="h3">District map</h2><p>House districts use the Florida Legislature's official plan EOGPCRP2026 (HB 1-D), enacted in May 2026. The map is the subject of ongoing litigation. County names on district pages are land-area shares from Census county boundaries intersected with that file. Illinois and Michigan districts use the U.S. Census Bureau's cartographic boundary file cb_2024_us_cd119_500k (119th Congress), the plan in use for 2026.</p>
 <h2 id="money" class="h3">Money</h2><p><b>Candidate committee totals</b> are receipts and disbursements reported to the FEC for the period shown. <b>Independent expenditures</b> are spending by other groups to support or oppose a candidate, reported on FEC Schedule E; we use 24/48-hour reports, which are the most current, and drop the same transaction when it is re-reported on a periodic filing so it is not counted twice. They are never added to candidate receipts. <b>Public matching funds</b> are state payments to governor candidates and can already be counted in campaign receipts. Governor candidates file with the state, not the FEC.</p>
-<h2 id="markets" class="h3">Markets</h2><p>Kalshi prices are what traders were willing to pay for a contract at a stated time. They are market-implied estimates, not polls, vote shares or forecasts. Governor, Senate and Michigan Senate contracts resolve on the party of the winner. We show last trade, bid and ask exactly as the public API returned them with the capture time. Charts plot captured points only.</p>
+<h2 id="markets" class="h3">Markets</h2><p>Kalshi prices are what traders were willing to pay for a contract at a stated time. They are market-implied estimates. Governor, Senate and Michigan Senate contracts resolve on the party of the winner. We show last trade, bid and ask exactly as the public API returned them with the capture time. Charts plot captured points only.</p>
 <h2 id="grades" class="h3">TIP Issue Grades</h2><p>TIP tracks six issues. For each candidate and issue, TIP counts recorded congressional acts (votes, sponsorships and cosponsorships that TIP's reviewers approved and mapped to the issue) that align with TIP's position and acts that are against it. The grade is aligned divided by the total of both. An issue needs at least one recorded act to be graded. A candidate's reviewed answer to a TIP question can move one issue's score by half a point, up or down, once per issue. The score is rounded half up and mapped to a letter (A+ at 97 and above down to F- at 53 and below). Not voting, voting present and contested entries are not counted.</p>
-<p><b>A grade of F- from 0 of 5 aligned acts is a real grade. A dash means not graded: no recorded acts.</b> Challengers and candidates who never served in Congress are not graded, and that is not a score of zero. Governor and state offices have different powers than Congress, so a federal grade describes a congressional record only. TIP's grades are TIP's published method, not an objective measure of a person.</p>
+<p><b>A grade of F- from 0 of 5 aligned acts is a real grade. A dash means not graded: no recorded acts.</b> Challengers and candidates who never served in Congress are not graded. Governor and state offices have different powers than Congress, so a federal grade describes a congressional record only. TIP's grades are TIP's published method, not an objective measure of a person.</p>
 <div class="tablewrap"><table class="data"><thead><tr><th>Issue</th><th>The question TIP asks</th></tr></thead><tbody>{rows}</tbody></table></div>
 <p class="small">The sixth issue, Section 224 of the FY27 NDAA, is a single-provision record rather than a broad issue frame, and has no answer options for the reviewed-answer adjustment.</p>
 <h2 id="portraits" class="h3">Portraits</h2><p>Portraits are used only where a public-domain, CC0 or openly licensed image exists. Credit and license are on file in our asset manifest. Candidates without a licensed image show a monogram. Which candidates have photos reflects what is licensed, not an editorial choice.</p>
@@ -1280,7 +1275,7 @@ def poll_unf():
     alt = f'UNF poll, {u["field_start"]} to {u["field_end"]}: Moody {u["moody"]} percent, Nixon {u["nixon"]} percent, undecided {u["undecided"]} percent, {u["n"]:,} likely voters, margin of error plus or minus {u["moe"]}.'
     return (f'<figure class="chartwrap pollcard"><h4>UNF poll, Florida U.S. Senate</h4><svg class="chart" viewBox="0 0 680 140" role="img" aria-label="{e(alt)}">{rows}</svg>'
             f'<figcaption>{e(u["pollster"])}, fielded Oct 12–19 by telephone among {u["n"]:,} {e(u["population"])}; margin of error ±{u["moe"]} points overall. Published Oct 21. Reported by '
-            f'<a href="{e(u["sources"][0])}" rel="noopener">WLRN</a> and <a href="{e(u["sources"][1])}" rel="noopener">Action News Jax</a>. A poll is a snapshot, not a forecast.</figcaption></figure>')
+            f'<a href="{e(u["sources"][0])}" rel="noopener">WLRN</a> and <a href="{e(u["sources"][1])}" rel="noopener">Action News Jax</a>.</figcaption></figure>')
 
 def sept_polls():
     sd = _sd()

@@ -316,7 +316,7 @@ def reporting_list(api, m, site, threads):
     lst = [s for s in (_story(api, i) for i in m["list_ids"]) if s]
     rows = "".join(
         f'<li><a href="{e(s["path"])}"><span class="pol-ruled__t">{e(s["title"])}</span><span class="pol-ruled__arrow" aria-hidden="true">→</span></a>'
-        f'<span class="pol-ruled__m">{e(_fmt(api, s))}<span class="pol-badge">{e(m["context_badge"])}</span></span></li>' for s in lst)
+        f'<span class="pol-ruled__m">{e(_fmt(api, s))}</span></li>' for s in lst)
     tl = " ".join(f'<a href="/threads/{e(t["slug"])}/">{e(t["title"])}</a>' for t in threads if t["category"] == "politics")
     chips = " ".join(f'<a href="/topics/{e(t["slug"])}/">{e(t["label"])}</a>' for t in site["topics"] if t["category"] == "politics")
     return (f'<section class="pol-reporting" id="current-reporting" aria-labelledby="pol-rep-h">{_head(m, "pol-rep-h")}<ul class="pol-ruled">{rows}</ul>'

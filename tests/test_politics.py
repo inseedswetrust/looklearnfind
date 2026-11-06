@@ -187,7 +187,7 @@ class Built(unittest.TestCase):
         self.assertNotIn("not a joint photograph", self.land.lower())
 
     def test_historical_context_is_labelled(self):
-        self.assertIn("PRE-ELECTION REPORT / HISTORICAL CONTEXT", self.land)
+        self.assertNotIn("HISTORICAL CONTEXT", self.land)
 
     def test_broken_dist_is_caught(self):
         d = pathlib.Path(tempfile.mkdtemp()); self.addCleanup(shutil.rmtree, d, True)

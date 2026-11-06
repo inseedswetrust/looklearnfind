@@ -42,13 +42,11 @@ class IllinoisPages(unittest.TestCase):
                 n = int(c["race"].split("-")[1])
                 self.assertTrue(nm in page(f"house/{n}"), c["name"])
 
-    def test_the_roster_limitation_is_on_every_state_level_page(self):
+    def test_no_roster_disclaimer_is_printed_on_state_level_pages(self):      # owner rule 2026-11-05: no disclaimers on the page
         for rel in ("", "governor", "senate", "house", "house/4"):
             t = page(rel)
-            self.assertIn("not an official", t, rel)
-            self.assertTrue("403" in t or "could not be read" in t, rel)
-        methods = (ROOT / "dist" / "about" / "election-methods" / "index.html").read_text(encoding="utf-8")
-        self.assertIn("not an official or complete list", methods)
+            self.assertNotIn("not an official", t, rel)
+            self.assertNotIn("could not be read", t, rel)
 
     def test_open_seats_match_the_roster(self):
         t = re.sub(r"<[^>]+>", " ", page("house"))
